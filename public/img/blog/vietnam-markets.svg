@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnam markets">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFE4B5"/><stop offset="100%" stop-color="#FFD699"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <path fill="#DA251D" d="M150 200 L200 150 L250 200 L200 250Z"/>
+  <path fill="#0D5C4F" d="M350 200 L400 150 L450 200 L400 250Z"/>
+  <path fill="#FF6B6B" d="M550 200 L600 150 L650 200 L600 250Z"/>
+  <rect x="180" y="250" width="80" height="100" fill="#8B4513" opacity="0.7"/>
+  <rect x="380" y="250" width="80" height="100" fill="#8B4513" opacity="0.7"/>
+  <rect x="580" y="250" width="80" height="100" fill="#8B4513" opacity="0.7"/>
+  <circle cx="220" cy="300" r="15" fill="#FFCD00"/>
+  <circle cx="420" cy="290" r="12" fill="#4ECDC4"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>

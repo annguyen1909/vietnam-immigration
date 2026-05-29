@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnam adventure">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4A6741"/><stop offset="100%" stop-color="#2D4A35"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <ellipse cx="400" cy="120" rx="180" ry="80" fill="#1A3020" opacity="0.8"/>
+  <ellipse cx="400" cy="130" rx="120" ry="50" fill="#0D1A10"/>
+  <path fill="#5C8B65" d="M200 350 Q280 280 360 320 Q440 260 520 300 Q600 240 680 320 L680 450 L200 450Z"/>
+  <path stroke="#FFCD00" stroke-width="4" fill="none" d="M380 200 L400 160 L420 200 L400 240Z"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>

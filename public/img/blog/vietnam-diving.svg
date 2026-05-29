@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnam diving">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1E5F8A"/><stop offset="100%" stop-color="#0D3D5C"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <ellipse cx="150" cy="350" rx="40" ry="20" fill="#2E8B8B" opacity="0.6"/>
+  <ellipse cx="600" cy="380" rx="60" ry="25" fill="#2E8B8B" opacity="0.5"/>
+  <path fill="#FF6B6B" d="M350 200 Q380 180 410 200 Q400 230 370 220 Q350 210 350 200Z"/>
+  <path fill="#4ECDC4" d="M500 280 Q530 260 560 280 Q550 310 520 300 Q500 290 500 280Z"/>
+  <circle cx="200" cy="120" r="15" fill="#FFE66D" opacity="0.4"/>
+  <circle cx="650" cy="80" r="20" fill="#FFE66D" opacity="0.3"/>
+  <path stroke="#F5E6C8" stroke-width="3" fill="none" d="M400 150 Q420 200 400 250 Q380 200 400 150"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnam travel blog">
+  <rect width="800" height="450" fill="#E8F4F0"/>
+  <rect x="0" y="280" width="800" height="170" fill="#0D5C4F"/>
+  <polygon fill="#2D6A5A" points="0,300 160,200 320,260 480,160 640,240 800,200 800,450 0,450"/>
+  <rect x="32" y="32" width="72" height="48" rx="4" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="68,44 74,58 90,58 77,67 83,81 68,72 53,81 59,67 46,58 62,58"/>
+  <text x="120" y="72" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#0D5C4F">Vietnam Travel Guide</text>
+</svg>

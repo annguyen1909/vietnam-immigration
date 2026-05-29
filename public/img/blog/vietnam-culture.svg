@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnamese culture">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1A2E2A"/><stop offset="100%" stop-color="#0D5C4F"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect x="280" y="120" width="240" height="200" rx="8" fill="#8B2500" opacity="0.9"/>
+  <rect x="300" y="140" width="200" height="160" fill="#1a1a1a"/>
+  <ellipse cx="400" cy="220" rx="60" ry="50" fill="#F5E6C8"/>
+  <circle cx="400" cy="200" r="25" fill="#F5E6C8"/>
+  <path fill="#FFCD00" d="M350 280 Q400 300 450 280" stroke="#FFCD00" stroke-width="2"/>
+  <circle cx="320" cy="180" r="12" fill="#DA251D" opacity="0.8"/>
+  <circle cx="480" cy="180" r="12" fill="#DA251D" opacity="0.8"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>

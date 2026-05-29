@@ -1,0 +1,420 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Account {
+  id                 String               @id @default(uuid())
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime?            @updatedAt
+  email              String
+  fullName           String               @default("Unknown")
+  areaCode           String               @default("+1")
+  phoneNumber        String               @default("Unknown")
+  gender             String               @default("Unknown")
+  password           String?
+  emailVerified      Boolean              @default(false)
+  websiteCreatedAt   String               @default("Vietnam Local Site")
+  Application        Application[]
+  Case               Case[]
+  PasswordResetToken PasswordResetToken[]
+  Session            Session[]
+
+  @@unique([email, websiteCreatedAt])
+  @@index([fullName])
+  @@index([phoneNumber])
+  @@index([websiteCreatedAt])
+  @@index([email])
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  accountId String
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  account   Account  @relation(fields: [accountId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+model PasswordResetToken {
+  id        String   @id @default(cuid())
+  accountId String
+  token     String   @unique
+  expiresAt DateTime
+  used      Boolean  @default(false)
+  createdAt DateTime @default(now())
+  account   Account  @relation(fields: [accountId], references: [id], onDelete: Cascade)
+
+  @@map("password_reset_tokens")
+}
+
+model Application {
+  id                      String                @id @default(cuid())
+  destinationId           String
+  visaTypeId              String
+  status                  String
+  accountId               String
+  createdAt               DateTime              @default(now())
+  updatedAt               DateTime?             @updatedAt
+  applicationId           String                @unique
+  passengerCount          Int?
+  stayingEnd              DateTime?
+  stayingStart            DateTime?
+  total                   Float?
+  urgency                 String?
+  additionalCharges       Float?                @default(0)
+  additionalChargesDetails Json?
+  cancellationDetails     String?
+  cancellationReason      String?
+  cancelledAt             DateTime?
+  cancelledBy             String?
+  applyDate               DateTime?
+  paymentStatus           String?
+  promotionAmount         Float?                @default(0)
+  portType                String?
+  portName                String?
+  accessToken             String?               @unique @db.VarChar(255)
+  accessTokenExpiresAt    DateTime?             @db.Timestamp(6)
+  Account                 Account               @relation(fields: [accountId], references: [id])
+  Destination             Destination           @relation(fields: [destinationId], references: [id])
+  VisaType                VisaType              @relation(fields: [visaTypeId], references: [id])
+  ApplicationDocument     ApplicationDocument[]
+  CardHolder              CardHolder?
+  Case                    Case[]
+  CustomRequirement       CustomRequirement[]
+  Passenger               Passenger[]
+  Risk                    Risk[]
+  StripeActivity          StripeActivity[]
+
+  @@index([applicationId])
+}
+
+model ApplicationDocument {
+  id              String           @id
+  applicationId   String
+  name            String
+  type            String
+  content         Bytes
+  status          String?          @default("Pending")
+  uploadedAt      DateTime         @default(now())
+  uploadedBy      String?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime
+  caseId          String?
+  Application     Application      @relation(fields: [applicationId], references: [id])
+  Case            Case?            @relation(fields: [caseId], references: [id])
+  DocumentMapping DocumentMapping?
+
+  @@index([applicationId])
+  @@index([caseId])
+}
+
+model CardHolder {
+  id            String      @id
+  name          String
+  cardType      String
+  cardNumber    String
+  address       String
+  zipcode       String
+  applicationId String      @unique
+  Application   Application @relation(fields: [applicationId], references: [id])
+}
+
+model CustomRequirement {
+  id            String      @id
+  applicationId String
+  passengerId   String
+  title         String
+  createdAt     DateTime    @default(now())
+  Application   Application @relation(fields: [applicationId], references: [id])
+}
+
+model Destination {
+  id             String            @id
+  name           String            @unique
+  code           String?
+  Application    Application[]
+  VisaType       VisaType[]
+  ServiceFeeConfig ServiceFeeConfig[]
+
+  @@index([name])
+}
+
+model DocumentMapping {
+  id                  String              @id
+  documentId          String              @unique
+  mappedTo            String?
+  isInvalid           Boolean             @default(false)
+  createdAt           DateTime            @default(now())
+  updatedAt           DateTime
+  mappedAtStatus      String?
+  ApplicationDocument ApplicationDocument @relation(fields: [documentId], references: [id])
+
+  @@index([documentId])
+}
+
+model Passenger {
+  id                    String      @id
+  applicationId         String
+  createdAt             DateTime    @default(now())
+  passportNumber        String?
+  updatedAt             DateTime?
+  dateOfBirth           DateTime?
+  fullName              String?
+  gender                String?
+  nationality           String?
+  status                String?
+  addOns                Json?
+  Application           Application @relation(fields: [applicationId], references: [id])
+
+  @@index([fullName])
+}
+
+model Risk {
+  id            String         @id
+  status        String
+  applicationId String
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime?
+  lastUpdated   DateTime?
+  Application   Application    @relation(fields: [applicationId], references: [id])
+  RiskActivity  RiskActivity[]
+  RiskDocument  RiskDocument[]
+}
+
+model RiskActivity {
+  id          String    @id
+  riskId      String
+  createdAt   DateTime  @default(now())
+  description String?
+  type        String?
+  details     String?
+  timestamp   DateTime?
+  title       String?
+  Risk        Risk      @relation(fields: [riskId], references: [id])
+}
+
+model RiskDocument {
+  id         String   @id
+  name       String
+  riskId     String
+  createdAt  DateTime @default(now())
+  status     String   @default("Pending")
+  updatedAt  DateTime
+  type       String
+  uploadedAt DateTime @default(now())
+  uploadedBy String?
+  content    Bytes
+  Risk       Risk     @relation(fields: [riskId], references: [id])
+
+  @@index([riskId])
+}
+
+model StripeActivity {
+  id                    String       @id
+  title                 String?
+  amount                Float?
+  createdAt             DateTime     @default(now())
+  status                String?
+  type                  String?
+  applicationId         String?
+  description           String?
+  timestamp             DateTime?
+  transactionId         String?
+  govFeeRefund          Decimal?     @db.Decimal(10, 2)
+  serviceFeeRefund      Decimal?     @db.Decimal(10, 2)
+  originalTransactionId String?
+  Application           Application? @relation(fields: [applicationId], references: [id])
+}
+
+model Task {
+  id              String         @id
+  title           String
+  description     String?
+  assignedTo      String?
+  assignedToEmail String?
+  dueDate         DateTime?
+  taskType        String?
+  status          String         @default("Active")
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime
+  taskId          String         @unique
+  entityType      String?
+  entityId        String?
+  submittedBy     String         @default("ee397d6b-60aa-447f-afde-94446e32b0f5")
+  TaskActivity    TaskActivity[]
+
+  @@index([entityType, entityId])
+  @@index([entityType])
+}
+
+model TaskActivity {
+  id          String   @id
+  taskId      String
+  status      String
+  description String
+  timestamp   DateTime @default(now())
+  createdAt   DateTime @default(now())
+  Task        Task     @relation(fields: [taskId], references: [id])
+
+  @@index([taskId])
+}
+
+model User {
+  id    String @id
+  name  String
+  email String @unique
+  role  String
+}
+
+model VisaType {
+  id                 String            @id
+  name               String
+  waitTime           String?
+  fees               Float?
+  requiredDocuments  String?
+  allowedNationalities Json?
+  destinationId      String
+  Application        Application[]
+  Destination        Destination      @relation(fields: [destinationId], references: [id])
+  ServiceFeeConfig   ServiceFeeConfig[]
+
+  @@unique([name, destinationId])
+  @@index([name])
+}
+
+model Attachment {
+  id            String      @id
+  emailThreadId String
+  filename      String
+  content       Bytes
+  createdAt     DateTime    @default(now())
+  EmailThread   EmailThread @relation(fields: [emailThreadId], references: [id], onDelete: Cascade)
+
+  @@index([emailThreadId])
+}
+
+model Case {
+  id                  String                @id
+  gmailThreadId       String?               @unique
+  email               String
+  subject             String
+  status              String                @default("Open")
+  lastUpdate          DateTime              @default(now())
+  websiteCreatedAt    String
+  accountId           String?
+  applicationId       String?
+  assignedTo          String?
+  topic               String?
+  createdAt           DateTime              @default(now())
+  updatedAt           DateTime
+  ApplicationDocument ApplicationDocument[]
+  Account             Account?              @relation(fields: [accountId], references: [id])
+  Application         Application?          @relation(fields: [applicationId], references: [id])
+  EmailThread         EmailThread[]
+
+  @@index([assignedTo])
+  @@index([email])
+  @@index([status])
+  @@index([websiteCreatedAt])
+}
+
+model CaseSequence {
+  year            Int      @id
+  currentSequence Int?     @default(0)
+  updatedAt       DateTime @default(now())
+}
+
+model EmailTemplate {
+  id               String   @id
+  name             String
+  subject          String
+  body             String
+  websiteCreatedAt String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime
+
+  @@index([websiteCreatedAt])
+}
+
+model EmailThread {
+  id         String       @id
+  caseId     String
+  messageId  String
+  fromEmail  String
+  toEmail    String
+  subject    String
+  body       String
+  timestamp  DateTime     @default(now())
+  direction  String
+  cc         String?
+  bcc        String?
+  Attachment Attachment[]
+  Case       Case         @relation(fields: [caseId], references: [id], onDelete: Cascade)
+
+  @@index([caseId])
+  @@index([messageId])
+  @@index([timestamp])
+}
+
+model SystemHealthIncident {
+  id           Int       @id @default(autoincrement())
+  service_name String    @db.VarChar(255)
+  incident_id  String    @db.VarChar(255)
+  started_at   DateTime  @default(now()) @db.Timestamp(6)
+  resolved_at  DateTime? @db.Timestamp(6)
+  last_status  String    @db.VarChar(16)
+
+  @@unique([service_name, incident_id])
+}
+
+model WebsiteHealthCheck {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name      String
+  url       String
+  status    String
+  code      Int?
+  latency   Int?
+  checkedAt DateTime @default(now()) @db.Timestamptz(6)
+  error     String?
+}
+
+model ServiceFeeConfig {
+  id            String      @id @default(uuid())
+  destinationId String?
+  visaTypeId    String?
+  serviceFee    Float
+  isActive      Boolean     @default(true)
+  effectiveFrom DateTime    @default(now())
+  effectiveTo   DateTime?
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  destination   Destination? @relation(fields: [destinationId], references: [id], onDelete: SetNull)
+  visaType      VisaType?   @relation(fields: [visaTypeId], references: [id], onDelete: SetNull)
+
+  @@index([destinationId])
+  @@index([visaTypeId])
+  @@index([isActive])
+  @@index([effectiveFrom])
+}
+
+model AddOnConfig {
+  id          String   @id @default(uuid())
+  type        String
+  name        String   @unique
+  pricePerPax Float
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([type])
+  @@index([isActive])
+  @@index([name])
+}

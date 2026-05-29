@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnam currency">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E8F0F5"/><stop offset="100%" stop-color="#C5D5E0"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect x="250" y="120" width="300" height="180" rx="12" fill="#0D5C4F"/>
+  <text x="400" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="72" font-weight="700" fill="#FFCD00">�</text>
+  <text x="400" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" fill="#E8F4F0">VND</text>
+  <rect x="180" y="200" width="80" height="50" rx="6" fill="#2D6A5A" opacity="0.7" transform="rotate(-15 220 225)"/>
+  <rect x="540" y="180" width="80" height="50" rx="6" fill="#2D6A5A" opacity="0.7" transform="rotate(10 580 205)"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>

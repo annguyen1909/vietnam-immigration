@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnam beaches">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7EC8E3"/><stop offset="100%" stop-color="#B8E6F5"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1A8F8F"/><stop offset="100%" stop-color="#0D5C4F"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <circle cx="680" cy="80" r="48" fill="#F4C430"/>
+  <rect y="260" width="800" height="190" fill="url(#sea)"/>
+  <path fill="#F5E6C8" d="M0 320 Q200 280 400 310 T800 300 L800 450 L0 450Z"/>
+  <path fill="#E8D4A8" d="M0 340 Q250 310 500 335 T800 325 L800 450 L0 450Z"/>
+  <ellipse cx="120" cy="300" rx="8" ry="4" fill="#2D6A5A" opacity="0.5"/>
+  <path stroke="#FFCD00" stroke-width="3" fill="none" d="M600 200 L620 250 L670 250 L630 280 L645 330 L600 300 L555 330 L570 280 L530 250 L580 250Z" opacity="0.9"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>

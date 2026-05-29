@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnam mountains">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C5D9E8"/><stop offset="100%" stop-color="#E8F0F5"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <polygon fill="#1A4038" points="0,380 150,180 300,280 450,120 600,220 750,100 800,200 800,450 0,450"/>
+  <polygon fill="#2D6A5A" opacity="0.85" points="0,400 200,250 400,320 550,200 800,280 800,450 0,450"/>
+  <polygon fill="#3D8B7A" opacity="0.7" points="100,420 280,300 480,350 650,260 800,320 800,450 100,450"/>
+  <path stroke="#FFCD00" stroke-width="2" fill="none" d="M380 200 L400 160 L420 200" opacity="0.8"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>

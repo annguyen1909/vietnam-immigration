@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Hidden gems Vietnam">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1A4038"/><stop offset="100%" stop-color="#0D5C4F"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <path fill="#3D8B7A" d="M0 350 Q150 280 300 320 Q450 260 600 300 Q750 240 800 300 L800 450 L0 450Z"/>
+  <path fill="#2D6A5A" d="M100 380 Q250 320 400 360 Q550 300 700 340 L700 450 L100 450Z"/>
+  <path fill="#FFCD00" d="M400 140 L420 200 L480 200 L430 235 L450 295 L400 260 L350 295 L370 235 L320 200 L380 200Z" opacity="0.95"/>
+  <circle cx="200" cy="150" r="4" fill="#FFCD00" opacity="0.6"/>
+  <circle cx="600" cy="120" r="3" fill="#FFCD00" opacity="0.5"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>

@@ -1,0 +1,100 @@
+@import 'tailwindcss';
+
+/* Vietnam theme — jade, gold & cream (distinct from Indonesia red/blue) */
+:root {
+  --background: #faf7f0;
+  --foreground: #1a2e2a;
+
+  --brand-primary: #0d5c4f;
+  --brand-primary-dark: #084239;
+  --brand-primary-light: #1a7a6b;
+  --brand-accent: #d4a017;
+  --brand-accent-light: #f0d78c;
+  --brand-highlight: #c9563d;
+  --brand-surface: #faf7f0;
+  --brand-surface-alt: #e8f2ef;
+  --brand-ink: #1a2e2a;
+  --brand-muted: #5a716b;
+  --brand-border: #c5ddd6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-primary-dark: var(--brand-primary-dark);
+  --color-brand-primary-light: var(--brand-primary-light);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-accent-light: var(--brand-accent-light);
+  --color-brand-highlight: var(--brand-highlight);
+  --color-brand-surface: var(--brand-surface);
+  --color-brand-surface-alt: var(--brand-surface-alt);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-muted: var(--brand-muted);
+  --color-brand-border: var(--brand-border);
+  --font-sans: var(--font-be-vietnam), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-source-serif), ui-serif, Georgia, serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-be-vietnam), ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-source-serif), ui-serif, Georgia, serif;
+}
+
+/* Shared UI patterns */
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-lg bg-brand-primary px-6 py-3 font-semibold text-white shadow-md transition hover:bg-brand-primary-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-accent;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-lg border-2 border-brand-primary bg-white px-6 py-3 font-semibold text-brand-primary transition hover:bg-brand-surface-alt;
+}
+
+.brand-banner {
+  @apply w-full border-b-4 border-brand-accent-light bg-gradient-to-r from-brand-primary-dark via-brand-primary to-brand-primary-light py-3;
+}
+
+.brand-section-alt {
+  @apply bg-brand-surface-alt;
+}
+
+.page-container {
+  @apply mx-auto max-w-6xl px-4 sm:px-6;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Phone inputs */
+.react-phone-input-2 .country-list,
+.react-tel-input .country-list {
+  color: var(--brand-ink) !important;
+  background: #fff !important;
+}
+
+.react-phone-input-2 .country-list .country.highlight,
+.react-tel-input .country-list .country.highlight {
+  background: var(--brand-surface-alt) !important;
+  color: var(--brand-primary) !important;
+}
+
+.react-tel-input .form-control {
+  color: var(--brand-ink) !important;
+  background: #ffffff !important;
+}
+
+.react-tel-input .search-box:focus {
+  border-color: var(--brand-primary) !important;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--brand-primary) 25%, transparent) !important;
+  outline: none !important;
+}

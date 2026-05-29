@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnam wildlife">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2D5A3D"/><stop offset="100%" stop-color="#1A4038"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <ellipse cx="400" cy="380" rx="350" ry="60" fill="#0D5C4F" opacity="0.6"/>
+  <ellipse cx="300" cy="200" rx="120" ry="140" fill="#3D6B4A"/>
+  <ellipse cx="500" cy="220" rx="100" ry="120" fill="#4A7A55"/>
+  <circle cx="280" cy="160" r="50" fill="#5C8B65"/>
+  <circle cx="520" cy="180" r="40" fill="#5C8B65"/>
+  <ellipse cx="350" cy="280" rx="30" ry="50" fill="#2D4A35"/>
+  <ellipse cx="480" cy="290" rx="25" ry="45" fill="#2D4A35"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnam nature">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5A9B6E"/><stop offset="100%" stop-color="#2D5A3D"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <ellipse cx="200" cy="350" rx="150" ry="40" fill="#1A4038" opacity="0.5"/>
+  <path fill="#3D6B4A" d="M150 350 Q200 200 250 350 Q300 180 350 350 Q400 220 450 350"/>
+  <path fill="#4A7A55" d="M450 350 Q500 180 550 350 Q600 200 650 350"/>
+  <circle cx="600" cy="120" r="30" fill="#87CEEB" opacity="0.5"/>
+  <path fill="#F5E6C8" d="M580 200 Q600 160 620 200 Q600 240 580 200Z"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>

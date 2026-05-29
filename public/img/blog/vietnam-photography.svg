@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnam photography">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FF9A6C"/><stop offset="50%" stop-color="#FF6B9D"/><stop offset="100%" stop-color="#C44DFF"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <polygon fill="#1A4038" opacity="0.6" points="0,350 200,250 400,300 600,200 800,280 800,450 0,450"/>
+  <rect x="300" y="140" width="200" height="140" rx="12" fill="#2D2D2D"/>
+  <circle cx="400" cy="210" r="50" fill="#1A1A1A" stroke="#888" stroke-width="4"/>
+  <circle cx="400" cy="210" r="35" fill="#333"/>
+  <rect x="460" y="160" width="20" height="15" rx="2" fill="#555"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>

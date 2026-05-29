@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vietnamese cuisine">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF5E6"/><stop offset="100%" stop-color="#FFE4C4"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <ellipse cx="400" cy="280" rx="200" ry="40" fill="#E8D4C0"/>
+  <ellipse cx="400" cy="260" rx="180" ry="70" fill="#F5F0E8" stroke="#0D5C4F" stroke-width="3"/>
+  <path fill="#DA251D" d="M320 220 Q400 180 480 220 Q400 200 320 220Z"/>
+  <path fill="#2D6A5A" d="M350 240 L400 200 L450 240"/>
+  <line x1="380" y1="230" x2="420" y2="230" stroke="#FFCD00" stroke-width="4"/>
+  <rect x="500" y="200" width="80" height="12" rx="4" fill="#8B4513"/>
+  <rect x="220" y="200" width="60" height="8" rx="2" fill="#8B4513"/>
+  <rect x="32" y="32" width="56" height="38" rx="3" fill="#DA251D"/>
+  <polygon fill="#FFCD00" points="60,42 64,52 76,52 66,59 70,69 60,63 50,69 54,59 44,52 56,52"/>
+</svg>
