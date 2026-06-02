@@ -6,6 +6,7 @@ import Providers from '@/components/Providers';
 import ContactWidget from '@/components/ui/ContactWidget';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { DEFAULT_OG_IMAGE, SITE_NAME, absoluteAssetUrl, getPublicSiteUrl } from '@/lib/seo';
+import { getVietnamDefaultSiteDescription } from '@/lib/vietnamPricing';
 import OrganizationSchema from '@/components/seo/OrganizationSchema';
 
 const siteUrl = getPublicSiteUrl();
@@ -27,10 +28,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     template: '%s | Vietnam Official eVisa',
-    default: 'Vietnam Official eVisa | vietnamimmigration.com',
+    default: 'Vietnam Official eVisa | vietnamemigration.com',
   },
-  description:
-    'Apply for your official Vietnam eVisa online. Fast, secure, and reliable processing with 24/7 support. Processing typically takes 3 hours to 3 working days.',
+  description: getVietnamDefaultSiteDescription(),
   keywords: [
     'Vietnam eVisa',
     'Vietnam visa',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     'eVisa Vietnam',
     'official visa',
     'immigration services',
-    'vietnamimmigration.com',
+    'vietnamemigration.com',
     'Vietnam travel visa',
     'Vietnam tourist visa',
     'Vietnam business visa',
@@ -87,9 +87,8 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: siteUrl,
     siteName: SITE_NAME,
-    title: 'Vietnam Official eVisa | vietnamimmigration.com',
-    description:
-      'Apply for your official Vietnam eVisa online. Fast, secure, and reliable processing with 24/7 support. Processing typically takes 3 hours to 3 working days.',
+    title: 'Vietnam Official eVisa | vietnamemigration.com',
+    description: getVietnamDefaultSiteDescription(),
     images: [
       {
         url: defaultOgImage,
@@ -103,7 +102,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@vietnam_immigration',
     creator: '@vietnam_immigration',
-    title: 'Vietnam Official eVisa | vietnamimmigration.com',
+    title: 'Vietnam Official eVisa | vietnamemigration.com',
     description:
       'Apply for your official Vietnam eVisa online. Fast, secure, and reliable processing with 24/7 support.',
     images: [defaultOgImage],

@@ -1,4 +1,4 @@
-/** Vietnam site design tokens — jade & gold theme (distinct from Indonesia red/blue) */
+/** Vietnam site design tokens — jade & gold theme */
 export const theme = {
   colors: {
     primary: '#0D5C4F',

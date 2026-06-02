@@ -4,39 +4,41 @@ slug: vietnam-evisa-fees-explained-2026
 date: '2026-03-01'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-fees-explained-2026.jpg'
-imageAlt: 'Calculator and passport representing Vietnam eVisa fee breakdown'
-excerpt: 'Vietnam eVisa fees in 2026—government charges by nationality, optional service fees, single vs multiple entry, and how to see your real total.'
+imageAlt: 'Vietnamese dong banknote showing a historic pagoda'
+excerpt: 'Vietnam eVisa fees in 2026—$55/$80 government fees by visa type, $59.99 service fee per passenger, optional Urgent processing, and how to see your real total.'
 tags: ['visa', 'fees']
 section: 'Visa Guides'
 faq:
   - question: How much does a Vietnam eVisa cost in 2026?
-    answer: Total cost = government fee (set by nationality and visa type) plus any optional service fee on private portals. Amounts change—confirm the exact total on /fees and at checkout before you pay.
+    answer: On our portal, total cost = government fee (by visa type) + $59.99 service fee per passenger + any optional Urgent or Super Urgent processing you select. Confirm the exact total on /fees and at checkout before you pay.
   - question: What is the difference between government fee and service fee?
-    answer: The government fee is mandatory for the visa itself. A service fee on assisted sites pays for form guidance, document checks, and support—it does not replace the government charge.
+    answer: The government fee is mandatory for the visa itself ($55 single entry or $80 multiple entry for standard 90-day tourist/business products). The service fee ($59.99 per passenger) pays for form guidance, document checks, and support—it does not replace the government charge.
   - question: Is multiple entry more expensive than single entry?
-    answer: Yes, multiple-entry eVisas usually cost more than single-entry for the same duration. Choosing wrong entry type can force a costly new application instead of a small fix.
+    answer: Yes. Multiple-entry eVisas are $80 government fee vs $55 for single entry (same 90-day stay length). Choosing wrong entry type can force a costly new application.
   - question: Are Vietnam eVisa fees refundable if I am rejected?
     answer: Government fees are often non-refundable once submitted. Service fees may be partially refundable under conditions in our refund policy—contact support before disputing with your bank.
 ---
 
-Paying for a **Vietnam eVisa** is rarely one line item. In 2026, most travelers see a **government fee** (mandatory) plus an optional **service fee** when filing through a private portal like [/apply](/apply). Knowing both parts helps you budget and avoid surprise charges at checkout.
+Paying for a **Vietnam eVisa** is rarely one line item. In 2026, most travelers on our portal see a **government fee** (by visa type), a **service fee** ($59.99 per passenger), and sometimes an **optional processing upgrade** when filing through [/apply](/apply). Knowing each part helps you budget and avoid surprise charges at checkout.
 
-**We are a private visa assistance service—not the Government of Vietnam.** We display government and service fees separately; you may file directly on official government portals at lower total cost if you prefer fully self-service.
+**We are a private visa assistance service—not the Government of Vietnam.** We display fees separately; you may file directly on official government portals at lower total cost if you prefer fully self-service.
 
-## Government fee basics
+## Current government fees (four visa types)
 
-The official eVisa charge depends on:
+All standard online products on this site are **90-day** stays. Government fees do **not** change by passport nationality—they depend on **visa type**:
 
-- **Nationality** (some countries pay more than others)
-- **Visa category** (tourism vs business, where offered)
-- **Entry type** (single vs multiple entry)
-- **Entry type** (single vs multiple entry)
+| Visa type | Government fee (USD) |
+| :--- | ---: |
+| Tourist eVisa (Single Entry for 90 days) | **$55** |
+| Tourist eVisa (Multiple Entries for 90 days) | **$80** |
+| Business eVisa (Single Entry for 90 days) | **$55** |
+| Business eVisa (Multiple Entries for 90 days) | **$80** |
 
-These amounts are set by Vietnamese immigration policy and **change periodically**. Our live table on [/fees](/fees) reflects what we show at checkout—always confirm the **total on the payment screen** before authorizing your card.
+See the live list on [/fees](/fees). Always confirm the **total on the payment screen** before authorizing your card.
 
-## Assistance service fee (what you are buying)
+## Assistance service fee
 
-Private assistance typically adds a **service fee** for:
+Private assistance adds **$59.99 per passenger** for:
 
 - Guided form completion and validation
 - Document format checks (photo size, scan quality)
@@ -45,20 +47,36 @@ Private assistance typically adds a **service fee** for:
 
 The service fee is **separate from and in addition to** the government fee. Read [/refund-policy](/refund-policy) for which fees may be refundable if rejection occurs through no fault of your own.
 
-## Single entry vs multiple entry pricing
+## Optional Urgent / Super Urgent processing
 
-| Option | Best for | Cost pattern |
-| :--- | :--- | :--- |
-| **Single entry** | One round-trip, no leave-and-return | Usually lower government fee |
-| **Multiple entry** | Side trips out of Vietnam and back | Higher fee; avoids second application |
+At [/apply](/apply), you may add faster handling (based on your arrival date):
 
-Choosing wrong entry type is expensive—corrections after approval are limited. Complex trips: [/blog/vietnam-evisa-vs-embassy-visa-2026](/blog/vietnam-evisa-vs-embassy-visa-2026).
+| Option | Typical add-on (per passenger) |
+| :--- | ---: |
+| **Normal** | Included in standard flow (no extra processing line item) |
+| **Urgent** (3 working days) | **+$110** |
+| **Super Urgent** (24-hour window) | **+$220** |
 
-## Urgent or expedited processing fees
+These amounts speed **application preparation and submission** on our side—they do **not** guarantee government approval timing. Never book non-refundable flights until you hold the approved PDF—[/blog/vietnam-evisa-processing-time-2026](/blog/vietnam-evisa-processing-time-2026).
 
-Standard processing often completes within **about 3 hours to 3 working days**, but **Tet** and summer holidays stretch timelines. Some assisted flows offer **priority handling** for an added fee—this speeds **our review and submission**, not guaranteed government approval.
+## Single entry vs multiple entry
 
-Never book non-refundable flights until you hold the approved PDF—[/blog/vietnam-evisa-processing-time-2026](/blog/vietnam-evisa-processing-time-2026).
+| Option | Best for | Government fee |
+| :--- | :--- | ---: |
+| **Single entry** | One round-trip, no leave-and-return | **$55** |
+| **Multiple entry** | Side trips out of Vietnam and back | **$80** |
+
+Choosing wrong entry type is expensive—corrections after approval are limited. Complex trips: [/blog/vietnam-evisa-multiple-entry-guide-2026](/blog/vietnam-evisa-multiple-entry-guide-2026).
+
+## Example totals (one passenger, before insurance)
+
+| Selection | Approximate total |
+| :--- | ---: |
+| Tourist single + service | $55 + $59.99 = **$114.99** |
+| Tourist multiple + service | $80 + $59.99 = **$139.99** |
+| Tourist single + service + Super Urgent | $55 + $59.99 + $220 = **$334.99** |
+
+Insurance and other add-ons are optional and appear separately at checkout.
 
 ## Hidden costs travelers forget
 
@@ -72,12 +90,12 @@ Budget beyond the visa invoice:
 | Card FX fees | International payment conversion |
 | Extension in Vietnam | Separate immigration office fees if approved |
 
-## How to verify fees for your nationality
+## How to verify your total
 
-1. Open [/check-requirement](/check-requirement) and select your country.
-2. Note visa-exempt status vs eVisa requirement.
-3. Start [/apply](/apply) to see the **exact total** for your passport and trip length.
-4. Cross-check [/fees](/fees) and [/faq/vietnam-evisa-requirements](/faq/vietnam-evisa-requirements).
+1. Open [/check-requirement](/check-requirement) for **eligibility** by nationality (not fee amount).
+2. Review visa types on [/fees](/fees).
+3. Start [/apply](/apply) to see the **exact total** for your selections.
+4. Cross-check [/faq/vietnam-evisa-requirements](/faq/vietnam-evisa-requirements).
 
 Do not rely on outdated screenshots or forum posts from prior years.
 
@@ -100,13 +118,13 @@ Sometimes embassy **sticker** visas compete on government price but add **consul
 ## Frequently asked questions
 
 **How much does a Vietnam eVisa cost?**  
-Government fee + optional service fee—see [/fees](/fees) and checkout for your nationality.
+Government fee ($55 or $80) + $59.99 service fee per passenger + any optional Urgent add-on—see [/fees](/fees) and checkout.
 
 **What is the difference between government and service fees?**  
-Government fee is mandatory for the visa; service fee pays for assistance on private sites.
+Government fee is mandatory for the visa; service fee pays for assistance on our portal.
 
 **Is multiple entry more expensive?**  
-Usually yes—and often worth it if you will leave and re-enter Vietnam.
+Yes—$80 vs $55 government fee for the same 90-day products.
 
 **Are fees refundable?**  
 Government fees often are not; service fees may be partially refundable per policy.

@@ -3,7 +3,7 @@ title: 'Vietnam Wildlife Encounters 2026: Parks & Reefs'
 date: '2026-01-28'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-wildlife-nature-encounters-2026.jpg'
-imageAlt: 'Gibbon in rainforest canopy at a Vietnamese national park'
+imageAlt: 'Red-shanked douc langur in the forest canopy in Vietnam'
 excerpt: 'Gibbons at Cat Tien, langurs near Cuc Phuong, reefs off Cham Islands or Con Dao—VND park fees, seasons, and ethical wildlife viewing in 2026.'
 slug: vietnam-wildlife-nature-encounters-2026
 tags: ['travel', 'wildlife', 'nature']

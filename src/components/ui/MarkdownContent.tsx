@@ -40,12 +40,16 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
       const anchor = target.closest('a');
       const href = anchor?.getAttribute('href');
       if (anchor && href?.startsWith('#')) {
-        e.preventDefault();
-        const id = href.substring(1);
+        const id = decodeURIComponent(href.substring(1));
         const element = document.getElementById(id);
         if (element) {
-          const top = element.getBoundingClientRect().top + window.scrollY - 96;
-          window.scrollTo({ top, behavior: 'smooth' });
+          e.preventDefault();
+          // scrollIntoView targets the real scroll container and respects
+          // the heading's scroll-margin-top (scroll-mt-24).
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          if (typeof history !== 'undefined') {
+            history.replaceState(null, '', `#${id}`);
+          }
         }
       }
     };

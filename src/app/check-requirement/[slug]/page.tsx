@@ -1,6 +1,7 @@
 import HelpFloatingBox from '@/components/ui/HelpFloatingBox';
 import { countryVisaContent, sharedFaqs } from '@/data/countryVisaContent';
 import { getVietnamVisaTypes, buildVisaTypesFaqStay } from '@/lib/vietnamVisa';
+import { getVietnamVisaTypesFaqMarkdown, VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 import Accordion from '@/components/ui/Accordion';
 import ReactMarkdown from 'react-markdown';
 import SiteFooter from '@/components/layout/SiteFooter';
@@ -89,7 +90,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
     },
     {
       name: 'Receive your eVisa approval',
-      text: 'Your eVisa will be sent to your email, usually within 3 hours to 3 working days.',
+      text: `Your eVisa will be sent to your email, usually within ${VIETNAM_PROCESSING_TIME}.`,
     },
     {
       name: 'Print your eVisa',
@@ -321,7 +322,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 <div className="mt-4 bg-brand-primary border-2 border-white rounded-lg p-4 text-white">
                   <p className="font-semibold">
                     <strong>Processing time:</strong> All Vietnam eVisas are typically processed
-                    within 3 hours to 3 working days.
+                    within {VIETNAM_PROCESSING_TIME}.
                   </p>
                 </div>
                 <div className="mt-3 text-gray-700">
@@ -383,8 +384,8 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                   </li>
                   <li>Upload any required documents (if requested).</li>
                   <li>
-                    Receive your eVisa approval by email (typically within 3 hours to 3 working
-                    days).
+                    Receive your eVisa approval by email (typically within {VIETNAM_PROCESSING_TIME}
+                    ).
                   </li>
                   <li>
                     Print your eVisa and bring it with your passport when you travel to Vietnam.
@@ -393,9 +394,9 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 <div className="bg-brand-primary border-2 border-white rounded-lg p-4 text-white">
                   <p className="text-sm">
                     <strong>Tip:</strong> Double-check all information before submitting your
-                    application to avoid delays. Processing typically takes 3 hours to 3 working
-                    days. Note that children also need visa applications, and families or groups can
-                    apply for up to 15 passengers in a single application.
+                    application to avoid delays. Processing typically takes{' '}
+                    {VIETNAM_PROCESSING_TIME}. Note that children also need visa applications, and
+                    families or groups can apply for up to 15 passengers in a single application.
                   </p>
                 </div>
               </div>
@@ -594,10 +595,10 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                   application. Every inquiry is handled by a real human—never a chatbot. If you have
                   questions or need assistance, use the contact form on this page or email us at{' '}
                   <a
-                    href="mailto:visa@vietnamimmigration.com"
+                    href="mailto:visa@vietnamemigration.com"
                     className="text-brand-primary font-semibold hover:underline"
                   >
-                    visa@vietnamimmigration.com
+                    visa@vietnamemigration.com
                   </a>
                   .
                 </p>
@@ -629,14 +630,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 <div className="space-y-4">
                   <Accordion title={`What types of Vietnam eVisas are available?`}>
                     <ReactMarkdown>
-                      {`Vietnam offers four official eVisa types (all up to 90 days):
-
-- **Tourist eVisa (Single Entry for 90 days)** – $55
-- **Tourist eVisa (Multiple Entries for 90 days)** – $80
-- **Business eVisa (Single Entry for 90 days)** – $55
-- **Business eVisa (Multiple Entries for 90 days)** – $80
-
-Processing time: Typically 3 hours to 3 working days. Families or groups can apply for up to 15 passengers in a single application. Children also need visa applications.`}
+                      {`${getVietnamVisaTypesFaqMarkdown({ includeProcessingNote: true })} Families or groups can apply for up to 15 passengers in a single application. Children also need visa applications.`}
                     </ReactMarkdown>
                   </Accordion>
                   <Accordion
@@ -663,7 +657,7 @@ Processing time: Typically 3 hours to 3 working days. Families or groups can app
                             .replace(/\{citizen\}/g, citizen)
                             .replace(
                               /5 business hours to 3 business days/gi,
-                              '3 hours to 3 working days'
+                              VIETNAM_PROCESSING_TIME
                             )}
                         </ReactMarkdown>
                       </Accordion>
@@ -696,7 +690,7 @@ Processing time: Typically 3 hours to 3 working days. Families or groups can app
               </div>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  <strong className="text-gray-900">vietnamimmigration.com</strong> is operated by
+                  <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
                   Vietnam Official eVisa Immigration Assistance Service, a private company providing
                   professional visa application preparation and support services. We are{' '}
                   <strong>not affiliated with</strong> the Government of Vietnam or any official

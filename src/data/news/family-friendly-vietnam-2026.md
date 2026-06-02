@@ -3,7 +3,7 @@ title: 'Family-Friendly Vietnam 2026: Plan with Kids'
 date: '2026-01-30'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/family-friendly-vietnam-2026.jpg'
-imageAlt: 'Family walking through a Vietnamese old town street with lanterns'
+imageAlt: 'People strolling through the yellow streets of Hoi An old town, Vietnam'
 excerpt: 'Calm beaches, short museum blocks, craft workshops, and VND budgeting for snacks and family rooms—practical Vietnam family travel planning for 2026.'
 slug: family-friendly-vietnam-2026
 tags: ['travel', 'family']

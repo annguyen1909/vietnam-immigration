@@ -9,6 +9,7 @@ import { FaCcVisa, FaCcMastercard, FaCcAmex, FaCreditCard } from 'react-icons/fa
 import { SiStripe } from 'react-icons/si';
 import { ApplicationData, Passenger, AddOn } from '@/types/index';
 import { formatDisplayDate } from '@/lib/date';
+import { DEFAULT_SERVICE_FEE } from '@/lib/serviceFee';
 
 type Step3PaymentProps = {
   applicationId: string;
@@ -534,7 +535,7 @@ function Step3PaymentSuccess({
   } else {
     // Fallback: use visa type fees
     const governmentFeePerPerson = applicationData?.visa?.fees || 0;
-    const serviceFeePerPerson = 59.99; // Fallback
+    const serviceFeePerPerson = DEFAULT_SERVICE_FEE;
     totalGovernmentFee = governmentFeePerPerson * passengerCount;
     totalServiceFee = serviceFeePerPerson * passengerCount;
   }

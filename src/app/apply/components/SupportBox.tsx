@@ -3,7 +3,9 @@ import Link from 'next/link';
 
 const US_PHONE = '+1 323 286 4541';
 // const UK_PHONE = '+44 5555 000000'; // Hidden but not deleted
-const EMAIL = 'Visa@VietnamImmigration.com';
+import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
+
+const EMAIL = 'Visa@VietnamEmigration.com';
 
 export default function SupportBox() {
   return (
@@ -58,11 +60,13 @@ export default function SupportBox() {
           </li>
           <li className="flex items-start">
             <span className="text-green-500 mr-2 mt-1">✔</span>
-            <span>Most visas approved within 3 working days</span>
+            <span>Most visas approved within {VIETNAM_PROCESSING_TIME}</span>
           </li>
           <li className="flex items-start">
             <span className="text-green-500 mr-2 mt-1">✔</span>
-            <span>All applications processed urgently—no extra rush fees</span>
+            <span>
+              Optional Urgent / Super Urgent processing at apply—fees shown before you pay
+            </span>
           </li>
           <li className="flex items-start">
             <span className="text-green-500 mr-2 mt-1">✔</span>

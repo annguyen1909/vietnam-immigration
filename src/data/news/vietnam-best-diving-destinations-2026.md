@@ -3,7 +3,7 @@ title: 'Vietnam Scuba Diving 2026: Nha Trang, Phu Quoc, Con Dao'
 date: '2026-01-25'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-best-diving-destinations-2026.jpg'
-imageAlt: 'Scuba diver above coral reef in clear Vietnamese coastal water'
+imageAlt: 'Crystal-clear turquoise water over white sand at a Vietnamese island'
 excerpt: 'Compare Nha Trang training reefs, Phu Quoc Gulf dives, and Con Dao marine park sites—seasons, visibility, VND day-boat prices, and safety for 2026.'
 slug: vietnam-best-diving-destinations-2026
 tags: ['travel', 'diving', 'beaches']

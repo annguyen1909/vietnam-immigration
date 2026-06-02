@@ -3,7 +3,7 @@ title: 'Vietnam Markets Guide 2026: Souvenirs & Bargaining'
 date: '2026-01-29'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-shopping-markets-guide-2026.jpg'
-imageAlt: 'Colourful stalls at a Vietnamese market with textiles and lanterns'
+imageAlt: 'Busy stalls inside Ben Thanh Market in Ho Chi Minh City, Vietnam'
 excerpt: 'Navigate Ben Thanh, Dong Xuan, and Hoi An night markets for coffee, ceramics, and silks—with VND budgeting, quality checks, and respectful bargaining in 2026.'
 slug: vietnam-shopping-markets-guide-2026
 tags: ['travel', 'shopping']

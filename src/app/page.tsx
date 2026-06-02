@@ -12,15 +12,15 @@ import SiteFooter from '@/components/layout/SiteFooter';
 import { getVietnamVisaTypes } from '@/lib/vietnamVisa';
 import JsonLd from '@/components/seo/JsonLd';
 import { getPublicSiteUrl, SITE_NAME } from '@/lib/seo';
+import { getVietnamHomePageDescription } from '@/lib/vietnamPricing';
 
 export const metadata: Metadata = {
   title: 'Official Vietnam eVisa Application',
-  description:
-    'Apply for your Vietnam eVisa with guided online assistance. Fast processing (3 hours to 3 working days), clear fees, and 24/7 support.',
-  alternates: { canonical: 'https://vietnamimmigration.com' },
+  description: getVietnamHomePageDescription(),
+  alternates: { canonical: 'https://vietnamemigration.com' },
   openGraph: {
     type: 'website',
-    url: 'https://vietnamimmigration.com',
+    url: 'https://vietnamemigration.com',
     title: 'Vietnam eVisa — Apply Online',
     description: 'Guided Vietnam eVisa applications with transparent pricing and expert review.',
     siteName: 'Vietnam Official eVisa',

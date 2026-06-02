@@ -1,7 +1,9 @@
 import { prisma } from './prisma';
 
+import { VIETNAM_SERVICE_FEE_PER_PAX } from './vietnamPricing';
+
 /** Fallback when ServiceFeeConfig table or rows are unavailable (e.g. dev DB without migration). */
-export const DEFAULT_SERVICE_FEE = 59.99;
+export const DEFAULT_SERVICE_FEE = VIETNAM_SERVICE_FEE_PER_PAX;
 
 function isMissingServiceFeeTable(error: unknown): boolean {
   return (

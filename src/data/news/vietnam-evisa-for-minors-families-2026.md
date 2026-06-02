@@ -4,7 +4,7 @@ slug: vietnam-evisa-for-minors-families-2026
 date: '2026-03-07'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-for-minors-families-2026.jpg'
-imageAlt: 'Family with luggage preparing Vietnam eVisa documents together'
+imageAlt: 'Lantern-decorated yellow houses in Hoi An old town, Vietnam'
 excerpt: 'Apply Vietnam eVisas for kids and family groups in 2026—separate passports, photos, guardians, and batch filing for up to 15 travelers.'
 tags: ['visa', 'family']
 section: 'Visa Guides'
@@ -14,7 +14,7 @@ faq:
   - question: Can I apply for my whole family in one Vietnam eVisa application?
     answer: Many assisted flows accept up to 15 passengers in one payment session. Each traveler still uploads individual passport scans and portrait photos.
   - question: Do children pay the same Vietnam eVisa government fee as adults?
-    answer: Government fees usually follow nationality and visa type, not age. Budget the same per-passport cost unless your country page states otherwise.
+    answer: Government fees follow visa type ($55 single / $80 multiple for standard 90-day products), not age. Budget the same per-passport government + service fee unless you choose different visa types per child.
   - question: What documents should parents carry for children at Vietnam immigration?
     answer: Bring printed eVisas, passports, and—if surnames differ—a birth certificate copy. Airlines may require a consent letter when one parent travels alone.
 ---
@@ -70,7 +70,7 @@ See [/blog/vietnam-evisa-approved-entry-ports-2026](/blog/vietnam-evisa-approved
 
 ## Fees for children
 
-Government fees often **mirror adult pricing** by nationality—not half price because the traveler is small. View the combined total on [/fees](/fees) during group apply. Budget vaccinations, strollers, and seat fees separately.
+Government fees **mirror adult pricing by visa type** ($55 single / $80 multiple)—not half price because the traveler is small. Service fee is **$59.99 per passenger**. View the combined total on [/fees](/fees) during group apply.
 
 ## Processing time for groups
 
@@ -104,7 +104,7 @@ With their own passport, usually yes. Confirm on [/check-requirement](/check-req
 Yes—up to 15 passengers in one session on many flows, with individual uploads per traveler.
 
 **Are child fees cheaper?**  
-Government fees typically follow nationality and visa type, not age. Check [/fees](/fees) at checkout.
+Government fees follow visa type ($55 / $80), not age. Check [/fees](/fees) and checkout for your group total.
 
 **What should parents carry at the border?**  
 Printed eVisas, passports, and supporting documents if names or guardianship differ.

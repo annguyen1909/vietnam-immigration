@@ -750,8 +750,8 @@ export function middleware(request: NextRequest) {
     // Set CORS headers
     const origin = request.headers.get('origin');
     const allowedOrigins = [
-      'https://vietnamimmigration.com',
-      'https://www.vietnamimmigration.com',
+      'https://vietnamemigration.com',
+      'https://www.vietnamemigration.com',
       'http://localhost:3000',
       'http://localhost:3001',
     ];

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { getVietnamBlogResourcesFeeDesc } from '@/lib/vietnamPricing';
 
 const resources = [
   {
@@ -9,7 +10,7 @@ const resources = [
   {
     href: '/check-requirement',
     title: 'Check visa requirements by country',
-    description: 'See eligibility, documents, and fees for your nationality.',
+    description: 'See eligibility, documents, and fees by visa type for your nationality.',
   },
   {
     href: '/faq/vietnam-evisa-requirements',
@@ -24,7 +25,7 @@ const resources = [
   {
     href: '/fees',
     title: 'Visa fees & pricing',
-    description: 'Government fees plus transparent service fees—no hidden charges.',
+    description: getVietnamBlogResourcesFeeDesc(),
   },
 ];
 

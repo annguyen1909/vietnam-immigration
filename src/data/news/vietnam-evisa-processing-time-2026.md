@@ -4,7 +4,7 @@ slug: vietnam-evisa-processing-time-2026
 date: '2026-02-10'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-processing-time-2026.jpg'
-imageAlt: 'Clock and passport representing Vietnam eVisa processing time'
+imageAlt: 'Turtle Tower on Hoan Kiem Lake in Hanoi, Vietnam'
 excerpt: 'Realistic Vietnam eVisa processing times in 2026—standard vs urgent, what speeds approval up, and what to do when your flight is days away.'
 tags: ['visa', 'processing']
 section: 'Visa Guides'
@@ -23,7 +23,7 @@ faq:
 
 **We are a private visa assistance service—not the Government of Vietnam.** We can help prepare and submit your package quickly; final approval timing is decided by Vietnamese immigration authorities.
 
-> **Flight Leaving Soon?** If you've been waiting longer than 3-5 working days and your visa is still in "Processing" status, read our [Emergency Guide: eVisa Stuck Processing](/troubleshooting/stuck-processing) to get it expedited.
+> **Flight Leaving Soon?** If you've been waiting longer than about 3 working days and your visa is still in "Processing" status, read our [Emergency Guide: eVisa Stuck Processing](/troubleshooting/stuck-processing) to get it expedited.
 
 ## Standard processing window
 
@@ -53,7 +53,7 @@ Within **48 hours** of flying? Read [/faq/24-hour-vietnam-evisa](/faq/24-hour-vi
 
 ## Urgent or “rush” services explained
 
-Assisted services may offer **priority handling** of your application package—checking photos, catching typos, and submitting promptly. **Government processing time** still depends on immigration workload. Paying rush fees does not bypass legal screening.
+Assisted services may offer **Urgent** (+$110/pax) or **Super Urgent** (+$220/pax) processing on our portal—checking photos, catching typos, and submitting promptly. **Government approval time** still depends on immigration workload. Paying for faster handling does not bypass legal screening.
 
 Compare service levels on [/fees](/fees) and our processing page at `/processing` if your site lists tiers.
 

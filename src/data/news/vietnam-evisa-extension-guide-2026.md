@@ -4,7 +4,7 @@ slug: vietnam-evisa-extension-guide-2026
 date: '2026-02-14'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-extension-guide-2026.jpg'
-imageAlt: 'Vietnam immigration office building exterior'
+imageAlt: 'Dragon Bridge over the Han River with the Da Nang skyline, Vietnam'
 excerpt: 'Can you extend a Vietnam eVisa in 2026? Where to apply in-country, typical costs, and safer alternatives if you need more days.'
 tags: ['visa', 'extension']
 section: 'Visa Guides'

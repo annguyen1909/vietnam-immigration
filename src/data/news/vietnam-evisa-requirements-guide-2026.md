@@ -4,7 +4,7 @@ slug: vietnam-evisa-requirements-guide-2026
 date: '2026-02-01'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-requirements-guide-2026.jpg'
-imageAlt: 'Traveler preparing Vietnam eVisa documents online'
+imageAlt: 'Hoan Kiem Lake framed by willow trees in central Hanoi, Vietnam'
 excerpt: 'Who needs a Vietnam eVisa in 2026, passport and photo rules, fees, processing times, and mistakes that delay approval—before you book flights.'
 tags: ['visa', 'requirements']
 section: 'Visa Guides'
@@ -56,8 +56,9 @@ Form details: [/faq/vietnam-evisa-requirements](/faq/vietnam-evisa-requirements)
 
 ## Fees: government vs service charges
 
-1. **Government fee** — mandatory; set by nationality and visa category.
-2. **Service fee** — optional on private portals for review, validation, and support.
+1. **Government fee** — mandatory; **$55** single entry or **$80** multiple entry (90-day tourist/business products on this site).
+2. **Service fee** — **$59.99 per passenger** on this portal for review, validation, and support.
+3. **Optional Urgent processing** — added at apply when selected (+$110 or +$220 per passenger).
 
 See live options on [/fees](/fees). Government-only filing may cost less but offers less help when uploads or typos fail.
 

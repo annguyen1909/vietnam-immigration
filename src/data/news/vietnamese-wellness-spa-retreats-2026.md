@@ -4,7 +4,7 @@ slug: vietnamese-wellness-spa-retreats-2026
 date: '2026-01-29'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnamese-wellness-spa-retreats-2026.jpg'
-imageAlt: 'Outdoor spa pool surrounded by tropical greenery in central Vietnam'
+imageAlt: 'Infinity pool overlooking the sea at a coastal resort in Vietnam'
 excerpt: 'Hot springs, Da Lat retreats, and city spas in Vietnam—2026 VND pricing, health tips, and eVisa planning for wellness travel.'
 tags: ['travel', 'wellness', 'spa']
 section: 'Travel Guides'

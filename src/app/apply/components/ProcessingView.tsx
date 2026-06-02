@@ -4,6 +4,7 @@ import processingAnimation from 'public/img/processing.json';
 import SupportBox from './SupportBox';
 import SiteFooter from '@/components/layout/SiteFooter';
 import Link from 'next/link';
+import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 
 interface ProcessingViewProps {
   applicationId: string;
@@ -144,7 +145,8 @@ export default function ProcessingView({ applicationId, email, passengers }: Pro
               perfect. We&apos;re as excited as you are about your upcoming Vietnam adventure!
             </p>
             <p className="text-green-700">
-              <span className="font-semibold">Processing time:</span> 3-5 business days
+              <span className="font-semibold">Processing time:</span> typically{' '}
+              {VIETNAM_PROCESSING_TIME}
             </p>
           </div>
 

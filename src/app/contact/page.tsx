@@ -129,10 +129,10 @@ export default function ContactPage() {
                       <span className="font-semibold text-gray-900">Email:</span>
                     </div>
                     <a
-                      href="mailto:visa@vietnamimmigration.com"
+                      href="mailto:visa@vietnamemigration.com"
                       className="text-brand-primary hover:underline font-medium"
                     >
-                      visa@vietnamimmigration.com
+                      visa@vietnamemigration.com
                     </a>
                   </div>
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-4">
@@ -211,7 +211,7 @@ export default function ContactPage() {
             </div>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                <strong className="text-gray-900">vietnamimmigration.com</strong> is operated by
+                <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
                 Vietnam Official eVisa Immigration Assistance Service, a private company providing
                 professional visa application preparation and support services. We are{' '}
                 <strong>not affiliated with</strong> the Government of Vietnam or any official

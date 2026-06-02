@@ -43,9 +43,9 @@ export default function DisclaimersPage() {
                   </h2>
                   <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded mb-4">
                     <p className="text-brand-ink mb-3">
-                      <strong>Important Notice:</strong> vietnamimmigration.com is managed by
-                      Vietnam Official eVisa Immigration Assistance Service, a privately-owned
-                      business that offers visa application support and assistance services.
+                      <strong>Important Notice:</strong> vietnamemigration.com is managed by Vietnam
+                      Official eVisa Immigration Assistance Service, a privately-owned business that
+                      offers visa application support and assistance services.
                     </p>
                     <p className="text-brand-ink font-semibold">
                       We have NO affiliation with the Government of Vietnam or any official
@@ -350,10 +350,10 @@ export default function DisclaimersPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:Visa@VietnamImmigration.com"
+                            href="mailto:Visa@VietnamEmigration.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            Visa@VietnamImmigration.com
+                            Visa@VietnamEmigration.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">
@@ -369,10 +369,10 @@ export default function DisclaimersPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:Visa@VietnamImmigration.com"
+                            href="mailto:Visa@VietnamEmigration.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            Visa@VietnamImmigration.com
+                            Visa@VietnamEmigration.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">

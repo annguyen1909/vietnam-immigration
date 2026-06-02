@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import SiteFooter from '@/components/layout/SiteFooter';
 import { buildStaticPageMetadata } from '@/lib/seo';
+import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 
 export const metadata = buildStaticPageMetadata({
   title: 'Embassies in Vietnam: Locations, Contacts, and FAQs',
@@ -198,10 +199,10 @@ export default function EmbassyPage() {
               <p>
                 <strong>Email:</strong>{' '}
                 <a
-                  href="mailto:visa@vietnamimmigration.com"
+                  href="mailto:visa@vietnamemigration.com"
                   className="text-brand-primary hover:underline"
                 >
-                  visa@vietnamimmigration.com
+                  visa@vietnamemigration.com
                 </a>
               </p>
               <div className="flex items-center gap-2 text-gray-800">
@@ -252,11 +253,11 @@ export default function EmbassyPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✔</span>
-                <span>Most visas approved within 3 hours to 3 working days</span>
+                <span>Most visas approved within {VIETNAM_PROCESSING_TIME}</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✔</span>
-                <span>All applications processed urgently—no extra rush fees</span>
+                <span>Optional Urgent / Super Urgent processing—fees shown at checkout</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✔</span>

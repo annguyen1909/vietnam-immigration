@@ -9,6 +9,7 @@ import {
 } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Link from 'next/link';
+import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 
 const steps = [
   {
@@ -51,7 +52,7 @@ const steps = [
       'eVisa delivered to your email',
       'Print and carry with your passport',
       'Valid for entry at designated ports',
-      'Processing typically 3 hours to 3 working days',
+      `Processing typically ${VIETNAM_PROCESSING_TIME}`,
     ],
     icon: EnvelopeIcon,
   },
@@ -60,7 +61,7 @@ const steps = [
 const benefits = [
   {
     title: 'Fast Processing',
-    desc: 'Most visas approved within 3 hours to 3 working days',
+    desc: `Most visas approved within ${VIETNAM_PROCESSING_TIME}`,
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path
@@ -401,7 +402,7 @@ export default function ProcessingPage() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900">Fast Processing</p>
-                      <p className="text-sm text-gray-600">Typically 3 hours to 3 working days</p>
+                      <p className="text-sm text-gray-600">Typically {VIETNAM_PROCESSING_TIME}</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -445,7 +446,7 @@ export default function ProcessingPage() {
             </div>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                <strong className="text-gray-900">vietnamimmigration.com</strong> is operated by
+                <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
                 Vietnam Official eVisa Immigration Assistance Service, a private company providing
                 professional visa application preparation and support services. We are{' '}
                 <strong>not affiliated with</strong> the Government of Vietnam or any official

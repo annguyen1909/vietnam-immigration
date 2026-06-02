@@ -3,7 +3,7 @@ title: 'Vietnamese Food by Region 2026: North to South'
 date: '2026-01-20'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/discover-vietnamese-regional-cuisine-2026.jpg'
-imageAlt: 'Bowl of pho and fresh herbs on a street stall table in Vietnam'
+imageAlt: 'Spread of Vietnamese dishes including fresh spring rolls and steamed rice'
 excerpt: 'Taste Vietnam region by region—Hanoi pho, Hue spice, Hoi An cao lau, and Saigon banh mi—with street prices in dong and practical ordering tips.'
 slug: discover-vietnamese-regional-cuisine-2026
 tags: ['travel', 'food', 'culture']

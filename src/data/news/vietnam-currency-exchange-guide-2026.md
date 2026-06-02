@@ -3,7 +3,7 @@ title: 'Vietnam Money Guide 2026: VND, ATMs & Cards'
 date: '2026-01-23'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-currency-exchange-guide-2026.jpg'
-imageAlt: 'Vietnamese dong banknotes and card payment at a travel counter'
+imageAlt: 'Vietnamese dong banknote featuring a traditional sailing boat'
 excerpt: 'Spend smart in Vietnamese dong—where to exchange, ATM limits, card tips, tipping norms, and how to avoid double fees on your 2026 Vietnam trip.'
 slug: vietnam-currency-exchange-guide-2026
 tags: ['travel', 'money', 'planning']

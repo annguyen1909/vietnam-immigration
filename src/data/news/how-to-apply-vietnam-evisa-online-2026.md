@@ -4,7 +4,7 @@ slug: how-to-apply-vietnam-evisa-online-2026
 date: '2026-02-05'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/how-to-apply-vietnam-evisa-online-2026.jpg'
-imageAlt: 'Laptop showing Vietnam eVisa online application'
+imageAlt: 'Ho Chi Minh City skyline with Landmark 81 at dusk, Vietnam'
 excerpt: 'Step-by-step Vietnam eVisa online application for 2026—documents, form fields, fees, tracking, and tips so your approval matches your passport.'
 tags: ['visa', 'application']
 section: 'Visa Guides'
@@ -41,7 +41,7 @@ Confirm nationality rules on [/check-requirement](/check-requirement). Flying wi
 
 ## Step 1 — Verify eligibility and visa type
 
-Choose **tourism** or **business** honestly. Select **single vs multiple entry** and **30 vs 90 days** (when offered for your passport) based on your real itinerary—not the cheapest option.
+Choose **tourism** or **business** honestly. Select **single vs multiple entry** for a **90-day** eVisa based on your real itinerary—not the cheapest option. Government fees are **$55** (single) or **$80** (multiple); see [/fees](/fees).
 
 - **Single entry:** one arrival period; leaving Vietnam and returning usually needs a new visa unless you hold multiple entry.
 - **Multiple entry:** for side trips to Cambodia, Thailand, or Laos and return within the validity window.
@@ -81,8 +81,9 @@ Read each line aloud against your passport photo page before payment. After you 
 
 You will typically see:
 
-1. **Government fee** — set by Vietnamese immigration for your nationality and visa type.
-2. **Service fee** — if you use assisted review, validation, and support (optional on private portals).
+1. **Government fee** — **$55** (single entry) or **$80** (multiple entry) for standard 90-day tourist/business products on this site.
+2. **Service fee** — **$59.99 per passenger** for assisted review, validation, and support.
+3. **Optional Urgent / Super Urgent** — **+$110** or **+$220** per passenger if you choose faster processing at apply.
 
 ## Step 6 — Track status and download approval
 

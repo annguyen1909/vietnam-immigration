@@ -3,7 +3,7 @@ title: 'Vietnam Island Travel 2026: Beaches & Boats'
 date: '2026-01-27'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-tropical-islands-paradise-2026.jpg'
-imageAlt: 'Tropical beach with fishing boats and limestone islands in Vietnam'
+imageAlt: 'Palm trees lining a tropical beach on a Vietnamese island'
 excerpt: 'Plan Vietnam island time—seasonal weather, packing for humidity, responsible snorkelling, cruise vs quiet coves, and VND cash tips for 2026.'
 slug: vietnam-tropical-islands-paradise-2026
 tags: ['travel', 'islands', 'beaches']

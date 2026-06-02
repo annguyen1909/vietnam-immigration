@@ -1,5 +1,11 @@
 /** Visa type lists on requirement pages are loaded from the database in the page component. */
 
+import {
+  VIETNAM_COUNTRY_FEES_LINES,
+  VIETNAM_PROCESSING_TIME,
+  getVietnamStayDurationFaqLine,
+} from '@/lib/vietnamPricing';
+
 export interface CountryVisaContentEntry {
   displayName: string;
   demonym?: string;
@@ -25,15 +31,11 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [
         {
           q: 'How long can US citizens stay?',
-          a: 'Standard eVisas allow up to 90 days — single entry ($55) or multiple entries ($80), tourist or business.',
+          a: getVietnamStayDurationFaqLine(),
         },
         {
           q: 'Can I extend my visa?',
@@ -45,7 +47,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         },
         {
           q: 'How do I check my visa status?',
-          a: 'Use your reference number and last name to check online. Results are sent by email typically within 3 hours to 3 working days.',
+          a: `Use your reference number and last name to check online. Results are sent by email typically within ${VIETNAM_PROCESSING_TIME}.`,
         },
       ],
     },
@@ -59,11 +61,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     afghanistan: {
@@ -76,11 +74,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     albania: {
@@ -93,11 +87,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     algeria: {
@@ -110,11 +100,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     'american-samoa': {
@@ -127,11 +113,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     andorra: {
@@ -144,11 +126,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     angola: {
@@ -161,11 +139,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     anguilla: {
@@ -178,11 +152,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     'antigua-and-barbuda': {
@@ -195,11 +165,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     argentina: {
@@ -212,11 +178,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     armenia: {
@@ -229,11 +191,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     aruba: {
@@ -246,11 +204,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     australia: {
@@ -263,11 +217,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     austria: {
@@ -280,11 +230,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     azerbaijan: {
@@ -297,11 +243,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     bahamas: {
@@ -314,11 +256,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     bahrain: {
@@ -331,11 +269,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     canada: {
@@ -348,11 +282,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     },
     default: {
@@ -365,15 +295,11 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [
         {
           q: 'How long can I stay?',
-          a: 'Standard eVisas allow up to 90 days — single entry ($55) or multiple entries ($80), tourist or business.',
+          a: getVietnamStayDurationFaqLine(),
         },
         {
           q: 'Can I extend my visa?',
@@ -385,7 +311,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
         },
         {
           q: 'How do I check my visa status?',
-          a: 'Use your reference number and last name to check online. Results are sent by email typically within 3 hours to 3 working days.',
+          a: `Use your reference number and last name to check online. Results are sent by email typically within ${VIETNAM_PROCESSING_TIME}.`,
         },
       ],
     },
@@ -398,7 +324,7 @@ export const sharedFaqs = [
   },
   {
     q: 'How long does it take to process a Vietnam e-Visa for {citizen}?',
-    a: `The processing time for a Vietnam e-Visa for {citizen} is typically:\n\n- **Standard Processing:** 3 hours to 3 working days\n\nOnce approved, your e-Visa will be sent directly to your email. We recommend {citizen} apply at least a few days before your intended travel date, though processing is usually very fast.\n\nYou can track your application status online at any time using your reference number.`,
+    a: `The processing time for a Vietnam e-Visa for {citizen} is typically:\n\n- **Standard Processing:** ${VIETNAM_PROCESSING_TIME}\n\nOnce approved, your e-Visa will be sent directly to your email. We recommend {citizen} apply at least a few days before your intended travel date, though processing is usually very fast.\n\nYou can track your application status online at any time using your reference number.`,
   },
   {
     q: 'Do children from {country} need a visa?',
@@ -406,11 +332,11 @@ export const sharedFaqs = [
   },
   {
     q: 'How do {citizen} check their visa status?',
-    a: `{citizen} can easily check the status of their Vietnam e-Visa application online:\n\n1. Go to the official Vietnam e-Visa status portal.\n2. Enter your **reference number** (found on your confirmation email or receipt) and your last name.\n3. Submit the form and wait for the results, which are usually sent to your email within 3 hours to 3 working days.\n\nIf you need help locating your reference number or have trouble accessing your status, contact our support team for assistance.`,
+    a: `{citizen} can easily check the status of their Vietnam e-Visa application online:\n\n1. Go to the official Vietnam e-Visa status portal.\n2. Enter your **reference number** (found on your confirmation email or receipt) and your last name.\n3. Submit the form and wait for the results, which are usually sent to your email within ${VIETNAM_PROCESSING_TIME}.\n\nIf you need help locating your reference number or have trouble accessing your status, contact our support team for assistance.`,
   },
   {
     q: 'How long can {citizen} stay in Vietnam with an e-Visa?',
-    a: `The duration of stay for {citizen} depends on the type of e-Visa obtained. Tourist eVisas are commonly issued for **30 or 90 days** with **single or multiple entry** options—see the visa types section on this page for current government fees and stay limits.\n\nIf you need to stay longer, see the FAQ about visa extensions.`,
+    a: `The duration of stay for {citizen} depends on the type of e-Visa obtained. ${getVietnamStayDurationFaqLine()} See the visa types section on this page for current government fees.\n\nIf you need to stay longer, see the FAQ about visa extensions.`,
   },
   {
     q: 'Can {citizen} extend their visa?',
@@ -428,11 +354,7 @@ countryVisaContent['default'] = {
     'A valid email address to receive your e-Visa',
   ],
   visaTypes: [],
-  fees: [
-    "Government Fee: Set by Vietnam's immigration authorities",
-    'Service Fee: For application support, review, and 24/7 assistance',
-    'Visa turnaround: 3 hours to 3 working days',
-  ],
+  fees: [...VIETNAM_COUNTRY_FEES_LINES],
   faqs: [],
 };
 
@@ -457,11 +379,7 @@ Object.values(countries).forEach((c) => {
         'A valid email address to receive your e-Visa',
       ],
       visaTypes: [],
-      fees: [
-        "Government Fee: Set by Vietnam's immigration authorities",
-        'Service Fee: For application support, review, and 24/7 assistance',
-        'Visa turnaround: 3 hours to 3 working days',
-      ],
+      fees: [...VIETNAM_COUNTRY_FEES_LINES],
       faqs: [],
     };
   }

@@ -11,14 +11,15 @@ const { PrismaClient } = require('../generated/prisma');
 
 const prisma = new PrismaClient();
 
+/** Names must match src/lib/urgency.ts URGENCY_ADDON_NAME_BY_VALUE */
 const URGENCY_ADDONS = [
   {
-    name: 'Super urgent 24h',
+    name: 'Super Urgent - 24 hrs to Vietnam',
     type: 'urgency',
     pricePerPax: 39.99,
   },
   {
-    name: 'Urgent 48h',
+    name: 'Urgent - 48 hrs to Vietnam',
     type: 'urgency',
     pricePerPax: 19.99,
   },

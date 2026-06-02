@@ -9,7 +9,7 @@ import { getAllNewsPosts, type BlogPost } from '@/lib/mdx';
 import { blogPath, pageUrl } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'Official Vietnam eVisa News & Updates | vietnamimmigration.com',
+  title: 'Official Vietnam eVisa News & Updates | vietnamemigration.com',
   description:
     'Latest news, updates, and travel information about Vietnam eVisa requirements and application process. Stay informed with official Vietnam visa news, travel advisories, and immigration updates.',
   keywords: [
@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     'Vietnam immigration news',
   ],
   alternates: {
-    canonical: 'https://vietnamimmigration.com/blog',
+    canonical: 'https://vietnamemigration.com/blog',
   },
   openGraph: {
     type: 'website',
-    url: 'https://vietnamimmigration.com/blog',
-    title: 'Official Vietnam eVisa News & Updates | vietnamimmigration.com',
+    url: 'https://vietnamemigration.com/blog',
+    title: 'Official Vietnam eVisa News & Updates | vietnamemigration.com',
     description:
       'Latest news, updates, and travel information about Vietnam eVisa requirements and application process.',
     siteName: 'Vietnam Official eVisa',
@@ -134,12 +134,12 @@ export default function BlogPage() {
                           >
                             <Link href={`/blog/${post.slug}`} className="block group">
                               <div className="flex flex-col sm:flex-row gap-4">
-                                <div className="relative w-full sm:w-48 h-36 flex-shrink-0 rounded-lg overflow-hidden">
+                                <div className="relative w-full sm:w-48 aspect-video flex-shrink-0 rounded-lg overflow-hidden">
                                   <Image
                                     src={post.image || '/img/vietnam-hero.jpg'}
                                     alt={post.title}
                                     fill
-                                    className="object-contain object-center"
+                                    className="object-cover object-center"
                                     sizes="192px"
                                   />
                                 </div>
@@ -159,6 +159,11 @@ export default function BlogPage() {
                       </div>
                     </div>
                   )}
+                  {visaGuides.length > 0 && (
+                    <h3 className="text-lg font-bold text-brand-primary mb-4 uppercase tracking-wide">
+                      Travel &amp; destination guides
+                    </h3>
+                  )}
                   <div className="space-y-8">
                     {(visaGuides.length > 0 ? travelPosts : posts).map((post: BlogPost) => (
                       <article
@@ -168,12 +173,12 @@ export default function BlogPage() {
                         <Link href={`/blog/${post.slug}`} className="block group">
                           <div className="flex flex-col md:flex-row gap-6">
                             {/* Post Image */}
-                            <div className="relative w-full md:w-64 h-48 flex-shrink-0 rounded-lg overflow-hidden">
+                            <div className="relative w-full md:w-64 aspect-video flex-shrink-0 rounded-lg overflow-hidden">
                               <Image
                                 src={post.image || '/img/vietnam-hero.jpg'}
                                 alt={`${post.title} - Vietnam eVisa News Article`}
                                 fill
-                                className="object-contain object-center"
+                                className="object-cover object-center"
                                 sizes="(max-width: 768px) 100vw, 256px"
                               />
                               <div className="absolute top-3 left-3 bg-brand-primary text-white px-3 py-1 rounded text-xs font-bold uppercase shadow-md">
@@ -248,7 +253,7 @@ export default function BlogPage() {
               </div>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  <strong className="text-gray-900">vietnamimmigration.com</strong> is operated by
+                  <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
                   Vietnam Official eVisa Immigration Assistance Service, a private company providing
                   professional visa application preparation and support services. We are{' '}
                   <strong>not affiliated with</strong> the Government of Vietnam or any official

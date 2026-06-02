@@ -13,8 +13,8 @@ const prisma = new PrismaClient();
 const INSURANCE_ADDON = {
   name: 'Travel Insurance - 30 days to Vietnam',
   type: 'insurance',
-  /** Strikethrough in UI is $187; typical promo price $87/pax */
-  pricePerPax: 87,
+  /** Strikethrough in UI is $187; canonical price $69/pax */
+  pricePerPax: 69,
 };
 
 async function ensureAddOnConfigTable() {

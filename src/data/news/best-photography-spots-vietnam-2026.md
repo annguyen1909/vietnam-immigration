@@ -3,7 +3,7 @@ title: 'Best Photo Spots Vietnam 2026: Ha Long, Hoi An, Sapa'
 date: '2026-01-28'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/best-photography-spots-vietnam-2026.jpg'
-imageAlt: 'Limestone karsts at dawn on Ha Long Bay with a small boat in frame'
+imageAlt: 'The Golden Bridge held by giant stone hands at Ba Na Hills, Vietnam'
 excerpt: 'Frame Ha Long’s misty dawn, Hoi An’s lantern hour, and Sapa’s terraced ridges—with gear lists, ethical portrait rules, and VND fees for Vietnam shoots in 2026.'
 slug: best-photography-spots-vietnam-2026
 tags: ['travel', 'photography']

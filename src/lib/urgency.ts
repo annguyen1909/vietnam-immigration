@@ -1,3 +1,5 @@
+import { VIETNAM_URGENCY_FEE_SUPER_URGENT, VIETNAM_URGENCY_FEE_URGENT } from './vietnamPricing';
+
 export type UrgencyValue = '' | 'super_urgent_24h' | 'urgent_48h';
 
 const VIETNAM_TZ = 'Asia/Ho_Chi_Minh';
@@ -15,7 +17,7 @@ export const URGENCY_OPTIONS: {
   {
     value: 'urgent_48h',
     label: 'Urgent',
-    description: 'Within 2 business days',
+    description: 'Within 3 business days (72h)',
   },
 ];
 
@@ -134,7 +136,7 @@ export function clampUrgencyToAvailability(
 
 export function getNormalProcessingSubtitle(waitTime?: string | null): string {
   if (waitTime?.trim()) return waitTime.trim();
-  return 'Within 5 business days';
+  return 'From 1 working day to 3 working days';
 }
 
 export function getProcessingOptionTitle(value: UrgencyValue): string {
@@ -177,8 +179,8 @@ export const URGENCY_ADDON_NAME_BY_VALUE: Record<Exclude<UrgencyValue, ''>, stri
 };
 
 export const FALLBACK_URGENCY_FEE_PER_PAX: Record<Exclude<UrgencyValue, ''>, number> = {
-  super_urgent_24h: 39.99,
-  urgent_48h: 19.99,
+  super_urgent_24h: VIETNAM_URGENCY_FEE_SUPER_URGENT,
+  urgent_48h: VIETNAM_URGENCY_FEE_URGENT,
 };
 
 /** Client-side: load all rush fees keyed by urgency value. */

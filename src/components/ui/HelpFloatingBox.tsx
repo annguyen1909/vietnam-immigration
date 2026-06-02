@@ -4,7 +4,9 @@ import Link from 'next/link';
 
 const US_PHONE = '+1 323 286 4541';
 // const UK_PHONE = '+44 5555 000000'; // Hidden but not deleted
-const EMAIL = 'Visa@VietnamImmigration.com';
+import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
+
+const EMAIL = 'Visa@VietnamEmigration.com';
 
 export default function HelpFloatingBox({ className = '' }: { className?: string }) {
   const [open, setOpen] = useState(false);
@@ -119,12 +121,12 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
               <span className="mt-1 text-green-600">✔️</span>Safe online payment—no hidden fees
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              <span className="mt-1 text-green-600">✔️</span>Most visas approved within 3 working
-              days
+              <span className="mt-1 text-green-600">✔️</span>Most visas approved within{' '}
+              {VIETNAM_PROCESSING_TIME}
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              <span className="mt-1 text-green-600">✔️</span>All applications processed urgently—no
-              extra rush fees
+              <span className="mt-1 text-green-600">✔️</span>Optional Urgent / Super Urgent
+              processing—fees shown before you pay
             </div>
             <div className="flex items-start gap-2 text-black text-base">
               <span className="mt-1 text-green-600">✔️</span>Transparent pricing, no surprises
@@ -233,8 +235,8 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
                   working days
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  <span className="mt-1 text-green-600">✔️</span>All applications processed
-                  urgently—no extra rush fees
+                  <span className="mt-1 text-green-600">✔️</span>Optional Urgent / Super Urgent
+                  processing—fees shown before you pay
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
                   <span className="mt-1 text-green-600">✔️</span>Transparent pricing, no surprises

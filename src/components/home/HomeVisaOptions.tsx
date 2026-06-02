@@ -1,7 +1,12 @@
 import Link from 'next/link';
 import type { VietnamVisaTypeView } from '@/lib/vietnamVisa';
+import {
+  VIETNAM_GOV_FEE_SUMMARY,
+  VIETNAM_SERVICE_FEE_PER_PAX,
+  formatUsd,
+} from '@/lib/vietnamPricing';
 
-const SERVICE_FEE = 59.99;
+const SERVICE_FEE = VIETNAM_SERVICE_FEE_PER_PAX;
 
 type HomeVisaOptionsProps = {
   visaTypes: VietnamVisaTypeView[];
@@ -17,7 +22,8 @@ export default function HomeVisaOptions({ visaTypes }: HomeVisaOptionsProps) {
           </h2>
           <p className="mt-3 text-brand-muted">
             Tourist and business routes, single or multiple entry — all valid up to 90 days.
-            Government fee plus a flat ${SERVICE_FEE} service fee per traveler.
+            Government fee ({VIETNAM_GOV_FEE_SUMMARY}) plus {formatUsd(SERVICE_FEE)} service fee per
+            traveler. Optional Urgent processing at apply.
           </p>
         </div>
 
@@ -45,7 +51,7 @@ export default function HomeVisaOptions({ visaTypes }: HomeVisaOptionsProps) {
                 <span className="text-4xl font-bold text-brand-primary">${plan.govFee}</span>
                 <span className="text-brand-muted"> gov. fee</span>
                 <span className="mt-1 block text-sm text-brand-muted">
-                  + ${SERVICE_FEE} service fee per person
+                  + {formatUsd(SERVICE_FEE)} service fee per person
                 </span>
               </p>
               <Link

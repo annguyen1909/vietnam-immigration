@@ -3,7 +3,7 @@ title: 'Vietnam Adventure Travel 2026: Caves & Ha Giang'
 date: '2026-01-21'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-adventure-travel-2026.jpg'
-imageAlt: 'Kayakers paddling beneath limestone cliffs in Vietnam'
+imageAlt: 'Rowing boat passing beneath limestone karsts in Trang An, Vietnam'
 excerpt: 'Cave trips in Phong Nha, kayaking Ha Long or Tu Lan, and Ha Giang motor loops—gear, insurance, and VND costs for 2026 adventure travel.'
 slug: vietnam-adventure-travel-2026
 tags: ['travel', 'adventure']

@@ -207,7 +207,7 @@ export default function CheckRequirementPage() {
             </div>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                <strong className="text-gray-900">vietnamimmigration.com</strong> is operated by
+                <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
                 Vietnam Official eVisa Immigration Assistance Service, a private company providing
                 professional visa application preparation and support services. We are{' '}
                 <strong>not affiliated with</strong> the Government of Vietnam or any official

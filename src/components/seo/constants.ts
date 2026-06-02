@@ -10,7 +10,7 @@ export const TRUST_ENTITY = {
   name: SITE_NAME,
   description:
     'Licensed-style immigration assistance for Vietnam eVisa applications: expert review, secure processing, and 24/7 traveler support.',
-  supportEmail: 'support@vietnamimmigration.com',
+  supportEmail: 'support@vietnamemigration.com',
   hotline: '+84-28-1234-5678',
   hotlineDisplay: '+84 28 1234 5678',
   address: {

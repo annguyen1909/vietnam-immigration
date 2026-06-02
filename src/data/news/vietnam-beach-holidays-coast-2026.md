@@ -3,7 +3,7 @@ title: 'Vietnam Beach Holidays 2026: Coast Guide'
 date: '2026-01-24'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-beach-holidays-coast-2026.jpg'
-imageAlt: 'Palm-lined beach promenade with city skyline in coastal Vietnam'
+imageAlt: 'Sandy beach backed by the city skyline in Da Nang, Vietnam'
 excerpt: 'Compare Da Nang, Nha Trang, Mui Ne, and Phu Quoc—seasons, kitesurfing, VND seafood budgets, and family timing for Vietnam beach trips in 2026.'
 slug: vietnam-beach-holidays-coast-2026
 tags: ['travel', 'beaches', 'coast']

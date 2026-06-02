@@ -31,6 +31,41 @@ export function getVisaMaxStayDays(visaName: string): number {
   return 90;
 }
 
+/**
+ * Parse a visa type's requiredDocuments field into a clean list.
+ * The DB stores it as a JSON array string (e.g. '["Passport","Photo"]'),
+ * but legacy rows may hold plain/comma-separated text.
+ */
+export function parseRequiredDocuments(value: string | null | undefined): string[] {
+  if (!value?.trim()) return [];
+  const trimmed = value.trim();
+
+  try {
+    const parsed: unknown = JSON.parse(trimmed);
+    if (Array.isArray(parsed)) {
+      return parsed
+        .map((item) => {
+          if (typeof item === 'string') return item;
+          if (item && typeof item === 'object' && 'name' in item) {
+            return String((item as { name: unknown }).name);
+          }
+          return String(item);
+        })
+        .map((s) => s.trim())
+        .filter(Boolean);
+    }
+  } catch {
+    // Not JSON — fall through to plain-text handling.
+  }
+
+  return trimmed.includes(',')
+    ? trimmed
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean)
+    : [trimmed];
+}
+
 export function deriveApplyQueryFromVisaId(id: string): string {
   const base = id.replace(/^vietnam-/, '').replace(/-90-days$/, '');
   return base || id;

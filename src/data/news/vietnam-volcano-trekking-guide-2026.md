@@ -3,7 +3,7 @@ title: 'Vietnam Mountain Trekking 2026: Fansipan & Ha Giang'
 date: '2026-01-26'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-volcano-trekking-guide-2026.jpg'
-imageAlt: 'Cloud-covered mountain ridge trekkers above terraced valleys in northern Vietnam'
+imageAlt: 'Terraced rice fields below a mountain peak near Sapa, northern Vietnam'
 excerpt: 'No active volcanoes—instead, summit Fansipan, ride the Ha Giang loop, and day-hike Ba Vi near Hanoi. Gear, seasons, and VND costs for 2026.'
 slug: vietnam-volcano-trekking-guide-2026
 tags: ['travel', 'adventure', 'trekking']

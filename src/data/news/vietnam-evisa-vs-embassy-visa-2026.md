@@ -4,7 +4,7 @@ slug: vietnam-evisa-vs-embassy-visa-2026
 date: '2026-02-18'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-vs-embassy-visa-2026.jpg'
-imageAlt: 'Comparison of online eVisa and embassy visa for Vietnam'
+imageAlt: 'The Golden Bridge at Ba Na Hills near Da Nang, Vietnam'
 excerpt: 'Vietnam eVisa vs embassy visa in 2026—cost, speed, stay length, multiple entry, and when tourists vs workers should choose each channel.'
 tags: ['visa', 'application']
 section: 'Visa Guides'

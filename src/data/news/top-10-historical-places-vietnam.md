@@ -4,7 +4,7 @@ slug: top-10-historical-places-vietnam
 date: '2026-01-19'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/top-10-historical-places-vietnam.jpg'
-imageAlt: 'Hue Imperial City gate and moat at golden hour in central Vietnam'
+imageAlt: 'Meridian Gate of the Imperial City in Hue, central Vietnam'
 excerpt: 'Hue, Hoi An, My Son, Hanoi Old Quarter, Cu Chi, and more—2026 planning with VND tickets, seasons, and eVisa tips for history-first trips.'
 tags: ['travel', 'culture', 'history']
 section: 'Travel Guides'

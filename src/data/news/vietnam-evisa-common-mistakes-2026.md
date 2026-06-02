@@ -4,7 +4,7 @@ slug: vietnam-evisa-common-mistakes-2026
 date: '2026-02-16'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-common-mistakes-2026.jpg'
-imageAlt: 'Traveler reviewing Vietnam eVisa application on laptop before payment'
+imageAlt: 'The dragon-shaped head of the Dragon Bridge in Da Nang, Vietnam'
 excerpt: 'Avoid 10 common Vietnam eVisa mistakes—typos, wrong entry port, bad photos, single-entry misuse—that block approval or airport entry in 2026.'
 tags: ['visa', 'requirements']
 section: 'Visa Guides'

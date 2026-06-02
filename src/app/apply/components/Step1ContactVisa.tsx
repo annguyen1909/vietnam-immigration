@@ -5,7 +5,11 @@ import Link from 'next/link';
 import { BellAlertIcon, ClockIcon, RocketLaunchIcon } from '@heroicons/react/24/outline';
 import { VisaType } from '@/types/visa';
 import countryCallingCodes from '@/data/countryCallingCodes.json';
-import { formatStandardWaitTime, getVisaMaxStayDays } from '@/lib/vietnamVisa';
+import {
+  formatStandardWaitTime,
+  getVisaMaxStayDays,
+  parseRequiredDocuments,
+} from '@/lib/vietnamVisa';
 import {
   PROCESSING_OPTION_ORDER,
   FALLBACK_URGENCY_FEE_PER_PAX,
@@ -344,9 +348,20 @@ export default function Step1ContactVisa({
                 <p className="text-sm text-brand-primary-dark">
                   <strong>Processing Time:</strong> {formatStandardWaitTime(selectedVisa.waitTime)}
                 </p>
-                <p className="text-sm text-brand-primary-dark mt-1">
-                  <strong>Required Documents:</strong> {selectedVisa.requiredDocuments}
-                </p>
+                <div className="text-sm text-brand-primary-dark mt-1">
+                  <strong>Required Documents:</strong>
+                  {(() => {
+                    const docs = parseRequiredDocuments(selectedVisa.requiredDocuments);
+                    if (docs.length === 0) return <span> —</span>;
+                    return (
+                      <ul className="list-disc list-inside mt-1 space-y-0.5">
+                        {docs.map((doc, idx) => (
+                          <li key={idx}>{doc}</li>
+                        ))}
+                      </ul>
+                    );
+                  })()}
+                </div>
               </div>
             )}
           </div>

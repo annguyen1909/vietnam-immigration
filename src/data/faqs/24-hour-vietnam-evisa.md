@@ -3,7 +3,7 @@ question: 'Can I Get a Vietnam eVisa in 24 Hours? (Urgent & Express Processing G
 slug: '24-hour-vietnam-evisa'
 faq:
   - question: Can I pay extra for express or 24-hour processing?
-    answer: Processing typically takes 3 hours to 3 working days. There is no separate expedited government service—apply as early as possible with complete documents.
+    answer: On our apply form you can add Super Urgent (+$220/pax) or Urgent (+$110/pax) for faster handling of your package. Government approval still typically takes 3 hours to 3 working days—apply as early as possible with complete documents.
   - question: What is the fastest anyone has received a Vietnam eVisa?
     answer: Some travelers report approval within 2 hours, but most applications take 3 hours to 3 working days depending on volume and document quality.
   - question: What if my flight is tomorrow and I do not have a visa?

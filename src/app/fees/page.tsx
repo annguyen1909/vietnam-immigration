@@ -5,14 +5,30 @@ import SiteFooter from '@/components/layout/SiteFooter';
 import Link from 'next/link';
 import { CurrencyDollarIcon, ShieldCheckIcon, CalculatorIcon } from '@heroicons/react/24/outline';
 import type { VietnamVisaTypeView } from '@/lib/vietnamVisa';
+import {
+  VIETNAM_SERVICE_FEE_PER_PAX,
+  VIETNAM_URGENCY_FEE_SUPER_URGENT,
+  VIETNAM_URGENCY_FEE_URGENT,
+  VIETNAM_VISA_PRODUCTS,
+  formatUsd,
+  getVietnamFeesHeroSubtitle,
+  getVietnamFeesStructureSubtitle,
+} from '@/lib/vietnamPricing';
+import { deriveApplyQueryFromVisaId } from '@/lib/vietnamVisa';
 
 type VisaOption = { value: string; label: string; govFee: number };
 
+const FALLBACK_VISA_OPTIONS: VisaOption[] = VIETNAM_VISA_PRODUCTS.map((p) => ({
+  value: deriveApplyQueryFromVisaId(p.id),
+  label: p.label,
+  govFee: p.govFee,
+}));
+
 export default function FeesPage() {
-  const SERVICE_FEE = 59.99;
+  const SERVICE_FEE = VIETNAM_SERVICE_FEE_PER_PAX;
   const [visaTypes, setVisaTypes] = useState<VietnamVisaTypeView[]>([]);
-  const [visaOptions, setVisaOptions] = useState<VisaOption[]>([]);
-  const [visaType, setVisaType] = useState('');
+  const [visaOptions, setVisaOptions] = useState<VisaOption[]>(FALLBACK_VISA_OPTIONS);
+  const [visaType, setVisaType] = useState(FALLBACK_VISA_OPTIONS[0]?.value ?? '');
   const [passengers, setPassengers] = useState(1);
 
   useEffect(() => {
@@ -73,8 +89,7 @@ export default function FeesPage() {
             </h1>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              Transparent pricing with no hidden charges, no rush fees—just clear, official fees for
-              total peace of mind.
+              {getVietnamFeesHeroSubtitle()}
             </p>
           </div>
 
@@ -103,9 +118,7 @@ export default function FeesPage() {
               Transparent Fee Structure
             </h2>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              One flat service fee of $59.99 per passenger—no rush fees, no hidden costs
-            </p>
+            <p className="text-gray-600 max-w-2xl mx-auto">{getVietnamFeesStructureSubtitle()}</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -149,7 +162,7 @@ export default function FeesPage() {
                 </div>
                 <ShieldCheckIcon className="w-12 h-12 text-brand-primary mb-4" />
                 <div className="inline-block bg-brand-primary text-white font-semibold text-xs px-4 py-2 rounded-full shadow-md mb-3">
-                  No Rush Fees. Ever.
+                  Flat {formatUsd(SERVICE_FEE)} / Passenger
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Our Service Fees</h3>
                 <p className="text-gray-700 text-sm leading-relaxed mb-4">
@@ -157,7 +170,7 @@ export default function FeesPage() {
                   flat, transparent fee.
                 </p>
                 <div className="px-6 py-3 bg-gray-100 border-2 border-brand-primary rounded-lg font-bold text-brand-primary text-lg">
-                  $59.99 per passenger
+                  {formatUsd(SERVICE_FEE)} per passenger
                 </div>
               </div>
             </div>
@@ -174,7 +187,10 @@ export default function FeesPage() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">You Have to Pay</h3>
                 <p className="text-gray-700 mb-6">
-                  Flat-rate pricing with zero hidden fees—no extra charges for urgency.
+                  Calculator total is government + service fees only. Add Urgent (+$
+                  {VIETNAM_URGENCY_FEE_URGENT.toFixed(2)}/pax) or Super Urgent (+$
+                  {VIETNAM_URGENCY_FEE_SUPER_URGENT.toFixed(2)}/pax) on the apply form if you need
+                  faster handling.
                 </p>
                 <Link
                   href="/apply"
@@ -278,15 +294,17 @@ export default function FeesPage() {
               </h2>
               <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Calculate your total visa fees instantly. Select your visa type and number of
-                passengers (up to 15 per application).
+                Estimate government + service fees. Select visa type and passengers (up to 15).
+                Urgent processing is added on the apply form when you choose it.
               </p>
             </div>
 
             <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 mb-8">
               <p className="text-gray-700 text-sm leading-relaxed text-center">
-                Our service fee is a flat rate of $59.99 per passenger. All fees are clearly
-                displayed with no hidden charges.
+                Service fee: ${SERVICE_FEE.toFixed(2)} per passenger. Optional Urgent ($
+                {VIETNAM_URGENCY_FEE_URGENT.toFixed(2)}/pax) or Super Urgent ($
+                {VIETNAM_URGENCY_FEE_SUPER_URGENT.toFixed(2)}/pax) appears at checkout when
+                selected—confirm your full total before paying.
               </p>
             </div>
 
@@ -417,7 +435,7 @@ export default function FeesPage() {
             </div>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                <strong className="text-gray-900">vietnamimmigration.com</strong> is operated by
+                <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
                 Vietnam Official eVisa Immigration Assistance Service, a private company providing
                 professional visa application preparation and support services. We are{' '}
                 <strong>not affiliated with</strong> the Government of Vietnam or any official

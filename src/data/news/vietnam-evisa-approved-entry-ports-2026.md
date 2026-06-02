@@ -4,7 +4,7 @@ slug: vietnam-evisa-approved-entry-ports-2026
 date: '2026-02-12'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg'
-imageAlt: 'Vietnam airport arrival hall for eVisa holders'
+imageAlt: 'Travelers with luggage at a Vietnam international airport terminal'
 excerpt: 'Which airports, land borders, and seaports accept Vietnam eVisa holders in 2026—and why the port on your form must match where you enter.'
 tags: ['visa', 'entry']
 section: 'Visa Guides'

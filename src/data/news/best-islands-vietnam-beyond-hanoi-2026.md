@@ -3,7 +3,7 @@ title: 'Best Vietnam Islands 2026: Cat Ba to Con Dao'
 date: '2026-01-27'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/best-islands-vietnam-beyond-hanoi-2026.jpg'
-imageAlt: 'Limestone karsts rising from emerald sea near a Vietnamese island beach'
+imageAlt: 'Palm-lined sandy beach on Phu Quoc Island, Vietnam'
 excerpt: 'Island-hop from Cat Ba and Cham Islands to Phu Quoc and Con Dao—ferries, flights, marine fees in VND, and sample routes beyond Hanoi in 2026.'
 slug: best-islands-vietnam-beyond-hanoi-2026
 tags: ['travel', 'islands', 'beaches']

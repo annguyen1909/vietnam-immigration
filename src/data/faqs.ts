@@ -1,3 +1,5 @@
+import { getVietnamVisaTypesFaqAnswer, VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
+
 export interface FAQ {
   question: string;
   slug: string;
@@ -8,19 +10,7 @@ export const faqs: FAQ[] = [
   {
     question: 'What are the official Vietnam eVisa types?',
     slug: 'vietnam-evisa-types',
-    answer: `
-Vietnam offers four official eVisa types (all valid up to 90 days):
-
-- **Tourist eVisa (Single Entry for 90 days) – $55:** Tourism, family visits, or leisure. Single entry.
-- **Tourist eVisa (Multiple Entries for 90 days) – $80:** Multiple entries within 90 days.
-- **Business eVisa (Single Entry for 90 days) – $55:** Business meetings, conferences, and commercial visits.
-- **Business eVisa (Multiple Entries for 90 days) – $80:** Multiple business entries within 90 days.
-
-Processing time: All Vietnam eVisas are typically processed within 3 hours to 3 working days.
-
-Note: Families or groups can apply for up to 15 passengers in a single application. Children also need visa applications.
-
-See [Visa Types & Fees](/fees) for more details.`,
+    answer: getVietnamVisaTypesFaqAnswer(),
   },
   {
     question: 'What are the entry points for Vietnam eVisa holders?',
@@ -44,7 +34,7 @@ You must enter through one of these designated ports when using an eVisa.`,
     question: 'How long does it take to process a Vietnam eVisa?',
     slug: 'vietnam-evisa-processing-time',
     answer: `
-All Vietnam eVisas are typically processed within **3 hours to 3 working days**. Processing is usually fast, with many applications approved within hours. Once approved, your eVisa will be sent directly to your email. We recommend applying at least a few days before your intended travel date.`,
+All Vietnam eVisas are typically processed within **${VIETNAM_PROCESSING_TIME}**. Processing is usually fast, with many applications approved within hours. Once approved, your eVisa will be sent directly to your email. We recommend applying at least a few days before your intended travel date.`,
   },
   {
     question: 'Can I work in Vietnam on a tourist eVisa?',

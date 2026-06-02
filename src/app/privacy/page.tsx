@@ -42,7 +42,7 @@ export default function PrivacyPolicyPage() {
                     "us," or "our") is dedicated to safeguarding your privacy and maintaining the
                     security of your personal data. This Privacy Policy outlines how we gather,
                     utilize, share, and protect your data when you access our website at
-                    vietnamimmigration.com and utilize our Vietnam Official eVisa Immigration
+                    vietnamemigration.com and utilize our Vietnam Official eVisa Immigration
                     Assistance Service.
                   </p>
                   <p className="text-brand-ink">
@@ -429,10 +429,10 @@ export default function PrivacyPolicyPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:Visa@VietnamImmigration.com"
+                            href="mailto:Visa@VietnamEmigration.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            Visa@VietnamImmigration.com
+                            Visa@VietnamEmigration.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">
@@ -448,10 +448,10 @@ export default function PrivacyPolicyPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:Visa@VietnamImmigration.com"
+                            href="mailto:Visa@VietnamEmigration.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            Visa@VietnamImmigration.com
+                            Visa@VietnamEmigration.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">

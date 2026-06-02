@@ -3,7 +3,7 @@ title: 'Hidden Gems Vietnam 2026: Quiet North Trails'
 date: '2026-01-25'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/hidden-gems-vietnam-2026.jpg'
-imageAlt: 'Terraced rice fields and stilt houses in a quiet northern Vietnam valley'
+imageAlt: 'Ban Gioc Waterfall cascading into turquoise water in northern Vietnam'
 excerpt: 'Go beyond the crowds—Pu Luong, Bac Ha markets, Ba Be Lake, Cao Bang waterfalls, and Mai Chau with homestay tips and VND cash planning for 2026.'
 slug: hidden-gems-vietnam-2026
 tags: ['travel', 'culture', 'nature']

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { loadStripe, StripeElementsOptions } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 import SiteFooter from '@/components/layout/SiteFooter';
@@ -47,6 +47,9 @@ export default function ApplyPage() {
   const [clientSecret, setClientSecret] = useState('');
   const [isCheckingPaymentStatus, setIsCheckingPaymentStatus] = useState(false);
   const [isLoadingApplication, setIsLoadingApplication] = useState(false);
+  // Once the user advances to documents (Step 4), never pull them back to
+  // Step 3. A ref guards async pollers whose closures capture stale state.
+  const hasContinuedToDocumentsRef = useRef(false);
 
   // Calculate payment success status early
   const isPaymentSuccess =
@@ -352,6 +355,7 @@ export default function ApplyPage() {
         ) {
           console.log('Payment already completed, skipping API call');
           if (
+            !hasContinuedToDocumentsRef.current &&
             applicationData.status !== 'Cancelled' &&
             applicationData.status !== 'Processing' &&
             applicationData.status !== 'Visa Result Sent' &&
@@ -388,6 +392,7 @@ export default function ApplyPage() {
       window.history.replaceState({}, '', newUrl.toString());
 
       if (
+        !hasContinuedToDocumentsRef.current &&
         applicationData.status !== 'Cancelled' &&
         applicationData.status !== 'Processing' &&
         applicationData.status !== 'Visa Result Sent' &&
@@ -401,6 +406,7 @@ export default function ApplyPage() {
   // Poll for payment status update after payment success
   useEffect(() => {
     if (!isCheckingPaymentStatus || !applicationData.applicationId) return;
+    if (hasContinuedToDocumentsRef.current) return;
 
     const checkPaymentStatus = async () => {
       try {
@@ -418,6 +424,7 @@ export default function ApplyPage() {
             setIsCheckingPaymentStatus(false);
 
             if (
+              !hasContinuedToDocumentsRef.current &&
               data.status !== 'Cancelled' &&
               data.status !== 'Processing' &&
               data.status !== 'Visa Result Sent' &&
@@ -549,7 +556,11 @@ export default function ApplyPage() {
       applicationStatus: applicationData.status,
     });
 
-    // Always proceed to step 4 when this function is called
+    // Lock forward navigation and stop any in-flight payment polling so the
+    // user is never yanked back to Step 3 after advancing.
+    hasContinuedToDocumentsRef.current = true;
+    setIsCheckingPaymentStatus(false);
+
     console.log('Proceeding to step 4 (documents)');
     setCurrentStep(4);
   };

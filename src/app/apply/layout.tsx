@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 import { buildPageMetadata, getPublicSiteUrl } from '@/lib/seo';
+import { getVietnamApplyLayoutDescription } from '@/lib/vietnamPricing';
 
 export const metadata: Metadata = buildPageMetadata({
   title: 'Apply for Vietnam eVisa Online',
-  description:
-    'Start your Vietnam eVisa application online. Secure payment, document upload, and processing in as little as 3 hours to 3 working days.',
+  description: getVietnamApplyLayoutDescription(),
   path: '/apply',
 });
 

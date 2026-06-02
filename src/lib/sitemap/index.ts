@@ -5,6 +5,15 @@ import matter from 'gray-matter';
 import { getPublicSiteUrl } from '@/lib/seo';
 import { INDEXABLE_COUNTRY_SLUGS } from '@/data/indexableCountrySlugs';
 
+/**
+ * Stable lastmod for pages whose content changes rarely (static/legal pages and
+ * country requirement pages). Using a fixed date instead of `new Date()` keeps
+ * <lastmod> from churning on every hourly revalidation, which would otherwise
+ * erode Google's trust in the signal. Bump this when that content meaningfully
+ * changes.
+ */
+const STABLE_CONTENT_DATE = new Date('2026-06-01T00:00:00Z');
+
 function getStaticSitemapEntries(baseUrl: string, currentDate: Date): MetadataRoute.Sitemap {
   return [
     { url: baseUrl, lastModified: currentDate, changeFrequency: 'daily', priority: 1.0 },
@@ -202,14 +211,15 @@ function getBlogSitemapEntries(baseUrl: string): MetadataRoute.Sitemap {
   });
 }
 
-function getFaqSitemapEntries(baseUrl: string, currentDate: Date): MetadataRoute.Sitemap {
+function getFaqSitemapEntries(baseUrl: string): MetadataRoute.Sitemap {
+  // lastModified falls back to frontmatter `date` / file mtime (see
+  // getMarkdownDirectoryEntries), so it reflects real content changes.
   return getMarkdownDirectoryEntries(baseUrl, {
     directory: 'src/data/faqs',
     urlPrefix: '/faq',
     defaultChangeFrequency: 'monthly',
     defaultPriority: 0.7,
     slugFromData: true,
-    lastModifiedForEntry: () => currentDate,
   });
 }
 
@@ -245,13 +255,12 @@ function getCountrySitemapEntries(baseUrl: string, currentDate: Date): MetadataR
 
 export async function getFullSitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = getPublicSiteUrl();
-  const currentDate = new Date();
 
-  const staticPages = getStaticSitemapEntries(baseUrl, currentDate);
+  const staticPages = getStaticSitemapEntries(baseUrl, STABLE_CONTENT_DATE);
   const blogPosts = getBlogSitemapEntries(baseUrl);
-  const faqPages = getFaqSitemapEntries(baseUrl, currentDate);
+  const faqPages = getFaqSitemapEntries(baseUrl);
   const troubleshootingPages = getTroubleshootingSitemapEntries(baseUrl);
-  const countryPages = getCountrySitemapEntries(baseUrl, currentDate);
+  const countryPages = getCountrySitemapEntries(baseUrl, STABLE_CONTENT_DATE);
 
   return [...staticPages, ...blogPosts, ...faqPages, ...troubleshootingPages, ...countryPages];
 }

@@ -1,3 +1,5 @@
+import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
+
 const features = [
   {
     title: 'Official eVisa processing',
@@ -17,7 +19,7 @@ const features = [
   },
   {
     title: 'Expedited processing options',
-    desc: 'Standard turnaround of 3 hours to 3 working days, with clear timelines before you pay.',
+    desc: `Standard turnaround of ${VIETNAM_PROCESSING_TIME}, with clear timelines before you pay.`,
   },
 ];
 

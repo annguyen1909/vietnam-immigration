@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 
 const trustPoints = [
-  '3 hours – 3 working days processing',
+  `${VIETNAM_PROCESSING_TIME} processing`,
   '24/7 application support',
   'Secure online payment',
 ];
@@ -71,7 +72,7 @@ export default function HomeHero() {
                   Typical turnaround
                 </p>
                 <p className="font-display text-lg font-bold text-brand-primary">
-                  3 hours – 3 working days
+                  {VIETNAM_PROCESSING_TIME}
                 </p>
               </div>
             </div>

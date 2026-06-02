@@ -4,7 +4,7 @@ slug: vietnam-evisa-photo-requirements-2026
 date: '2026-02-08'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-photo-requirements-2026.jpg'
-imageAlt: 'Passport photo for Vietnam eVisa application'
+imageAlt: 'Mountain road winding through the Ha Giang highlands in northern Vietnam'
 excerpt: 'Vietnam eVisa photo rules for 2026—size, background, glasses, kids, and fixes for the upload errors that delay approval most often.'
 tags: ['visa', 'requirements']
 section: 'Visa Guides'

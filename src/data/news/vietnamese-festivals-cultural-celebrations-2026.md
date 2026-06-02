@@ -3,7 +3,7 @@ title: 'Vietnam Festivals 2026: Tet, Hue & Lanterns'
 date: '2026-01-26'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnamese-festivals-cultural-celebrations-2026.jpg'
-imageAlt: 'Lantern-lit street during a Vietnamese cultural festival at dusk'
+imageAlt: 'Colourful silk lanterns on display at a festival in Hoi An, Vietnam'
 excerpt: 'Plan around Tet, Hue Festival drums, and Mid-Autumn lanterns—with transport timing, VND budgeting, and respectful etiquette for festival travel in 2026.'
 slug: vietnamese-festivals-cultural-celebrations-2026
 tags: ['travel', 'culture', 'festivals']

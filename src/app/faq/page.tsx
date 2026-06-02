@@ -33,11 +33,11 @@ export const metadata: Metadata = {
     'Vietnam visa support',
   ],
   alternates: {
-    canonical: 'https://vietnamimmigration.com/faq',
+    canonical: 'https://vietnamemigration.com/faq',
   },
   openGraph: {
     type: 'website',
-    url: 'https://vietnamimmigration.com/faq',
+    url: 'https://vietnamemigration.com/faq',
     title: 'Frequently Asked Questions (FAQ)',
     description:
       'Find comprehensive answers to common questions about Vietnam eVisa requirements, application process, processing times, and entry regulations.',
@@ -195,7 +195,7 @@ export default function FAQPage() {
               </div>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  <strong className="text-gray-900">vietnamimmigration.com</strong> is operated by
+                  <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
                   Vietnam Official eVisa Immigration Assistance Service, a private company providing
                   professional visa application preparation and support services. We are{' '}
                   <strong>not affiliated with</strong> the Government of Vietnam or any official

@@ -86,8 +86,12 @@ export default function TableOfContents({
       isClickScrollingRef.current = true;
       setActiveId(id);
 
-      const top = el.getBoundingClientRect().top + window.scrollY - SCROLL_SPY_TRIGGER_PX;
-      window.scrollTo({ top, behavior: 'smooth' });
+      // scrollIntoView scrolls whichever ancestor is actually scrollable (not just
+      // window) and honors the heading's scroll-margin-top (scroll-mt-24).
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (typeof history !== 'undefined') {
+        history.replaceState(null, '', `#${id}`);
+      }
 
       clickScrollTimerRef.current = setTimeout(() => {
         isClickScrollingRef.current = false;

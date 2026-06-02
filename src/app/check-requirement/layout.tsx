@@ -4,7 +4,7 @@ import { buildStaticPageMetadata } from '@/lib/seo';
 export const metadata: Metadata = buildStaticPageMetadata({
   title: 'Check Vietnam Visa Requirements by Country',
   description:
-    'Find Vietnam eVisa requirements for your nationality. Eligibility, fees, documents, and step-by-step guidance for travelers worldwide.',
+    'Find Vietnam eVisa requirements for your nationality. Eligibility, documents, and step-by-step guidance—see /fees for current visa-type pricing.',
   path: '/check-requirement',
 });
 

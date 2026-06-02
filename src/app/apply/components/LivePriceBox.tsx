@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { VisaType } from '@/types/visa';
 import { getUrgencyFeePerPax, getUrgencyLabel } from '@/lib/urgency';
 import type { UrgencyValue } from '@/types/index';
+import { DEFAULT_SERVICE_FEE } from '@/lib/serviceFee';
 
 interface AddOn {
   addOnId: string;
@@ -22,8 +23,6 @@ interface LivePriceBoxProps {
     addOns?: AddOn[];
   }>;
 }
-
-const DEFAULT_SERVICE_FEE = 59.99;
 
 export default function LivePriceBox({
   selectedVisa,

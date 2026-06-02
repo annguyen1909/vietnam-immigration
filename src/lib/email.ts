@@ -1,6 +1,7 @@
 import { Resend } from 'resend';
 import { prisma } from '@/lib/prisma';
 import { getPublicSiteUrl } from '@/lib/seo';
+import { DEFAULT_SERVICE_FEE } from '@/lib/serviceFee';
 
 let resendClient: Resend | null = null;
 
@@ -226,10 +227,10 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
   }
 
   try {
-    // Production: Visa@vietnamimmigration.com (domain must be verified in Resend).
+    // Production: Visa@vietnamemigration.com (domain must be verified in Resend).
     // Local test: set RESEND_FROM_EMAIL=onboarding@resend.dev (only delivers to your Resend account email).
     const from =
-      process.env.RESEND_FROM_EMAIL || 'Vietnam eVisa Support <Visa@vietnamimmigration.com>';
+      process.env.RESEND_FROM_EMAIL || 'Vietnam eVisa Support <Visa@vietnamemigration.com>';
     let subject = '';
     let html = '';
     let recipient = to;
@@ -262,7 +263,7 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
         recipient = application.Account.email;
         const contactName = application.Account?.fullName || 'Customer';
         const governmentFee = application.VisaType?.fees || 0;
-        const serviceFee = 59.99;
+        const serviceFee = DEFAULT_SERVICE_FEE;
         const total = application.total || 0;
         const passengerCount = application.passengerCount || 1;
         const appUrl = getPublicSiteUrl();

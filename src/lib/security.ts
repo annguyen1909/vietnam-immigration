@@ -59,8 +59,8 @@ export const SECURITY_HEADERS = {
 // CORS configuration
 export const CORS_CONFIG = {
   allowedOrigins: [
-    'https://vietnamimmigration.com',
-    'https://www.vietnamimmigration.com',
+    'https://vietnamemigration.com',
+    'https://www.vietnamemigration.com',
     'http://localhost:3000',
     'http://localhost:3001',
   ],

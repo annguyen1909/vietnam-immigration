@@ -31,6 +31,9 @@ yarn-error.log*
 .env.test
 .env.production
 
+# image sourcing scratch (candidates, contact sheets, previews)
+.img-candidates/
+
 # vercel
 .vercel
 

@@ -4,7 +4,7 @@ slug: vietnam-evisa-multiple-entry-guide-2026
 date: '2026-03-05'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-multiple-entry-guide-2026.jpg'
-imageAlt: 'Airport departure board representing multiple-entry Vietnam travel'
+imageAlt: 'Aircraft at Tan Son Nhat International Airport terminal in Vietnam'
 excerpt: 'When a Vietnam multiple-entry eVisa is worth it in 2026, how re-entry works, and mistakes that block your second border crossing.'
 tags: ['visa', 'requirements']
 section: 'Visa Guides'
@@ -52,7 +52,7 @@ You must enter before expiry and not overstay each visit. Extensions are separat
 
 ## Cost difference
 
-Multiple-entry products cost more at checkout. Compare totals on [/fees](/fees) before choosing—the savings of single entry disappear if you must **pay for a brand-new eVisa** mid-trip. Our [fees explained guide](/blog/vietnam-evisa-fees-explained-2026) breaks down government vs service charges.
+Multiple-entry products cost **$80** government fee vs **$55** for single entry (plus $59.99 service fee per passenger). Compare totals on [/fees](/fees) before choosing—the savings of single entry disappear if you must **pay for a brand-new eVisa** mid-trip. Our [fees explained guide](/blog/vietnam-evisa-fees-explained-2026) lists all four visa types.
 
 ## Entry ports still matter on every crossing
 

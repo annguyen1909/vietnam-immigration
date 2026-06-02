@@ -12,6 +12,7 @@ import {
   HeartIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
+import { VIETNAM_PROCESSING_TIME, getVietnamAboutTransparentFeesDesc } from '@/lib/vietnamPricing';
 
 const steps = [
   {
@@ -44,7 +45,7 @@ const steps = [
       </svg>
     ),
     title: 'Receive Your eVisa',
-    desc: 'Upon approval, your official Vietnam eVisa will be delivered electronically to your registered email address, typically within 3 hours to 3 working days.',
+    desc: `Upon approval, your official Vietnam eVisa will be delivered electronically to your registered email address, typically within ${VIETNAM_PROCESSING_TIME}.`,
   },
 ];
 
@@ -58,13 +59,13 @@ const features = [
   {
     icon: BoltIcon,
     title: 'Efficient Processing Service',
-    desc: 'Secure and efficient processing of official Vietnam entry visas with bank-level security for all data and payment transactions. Processing typically completed within 3 hours to 3 working days.',
+    desc: `Secure and efficient processing of official Vietnam entry visas with bank-level security for all data and payment transactions. Processing typically completed within ${VIETNAM_PROCESSING_TIME}.`,
     color: 'bg-green-600',
   },
   {
     icon: CurrencyDollarIcon,
     title: 'Transparent Fee Structure',
-    desc: 'Clear fee structure with no hidden charges, no rush fees, and a full refund guarantee of service fees if your application is rejected by the Government of Vietnam.',
+    desc: getVietnamAboutTransparentFeesDesc(),
     color: 'bg-yellow-500',
   },
   {
@@ -306,10 +307,10 @@ export default function AboutPage() {
                     <span>
                       <span className="font-semibold">Email:</span>{' '}
                       <a
-                        href="mailto:Visa@VietnamImmigration.com"
+                        href="mailto:Visa@VietnamEmigration.com"
                         className="text-brand-primary hover:underline"
                       >
-                        Visa@VietnamImmigration.com
+                        Visa@VietnamEmigration.com
                       </a>
                     </span>
                   </div>
@@ -357,7 +358,7 @@ export default function AboutPage() {
               </div>
               <div className="flex flex-col items-center gap-4">
                 <a
-                  href="mailto:Visa@VietnamImmigration.com"
+                  href="mailto:Visa@VietnamEmigration.com"
                   className="inline-flex items-center px-8 py-4 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-primary transition-all shadow-lg hover:shadow-xl uppercase tracking-wide text-sm border-2 border-brand-primary w-full justify-center"
                 >
                   <svg
@@ -416,7 +417,7 @@ export default function AboutPage() {
             </div>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                <strong className="text-gray-900">vietnamimmigration.com</strong> is operated by
+                <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
                 Vietnam Official eVisa Immigration Assistance Service, a private company providing
                 professional visa application preparation and support services. We are{' '}
                 <strong>not affiliated with</strong> the Government of Vietnam or any official

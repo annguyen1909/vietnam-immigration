@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { isIndexableCountrySlug as checkIndexableCountry } from '@/data/indexableCountrySlugs';
 
-export const SITE_URL = 'https://vietnamimmigration.com';
+export const SITE_URL = 'https://vietnamemigration.com';
 export const SITE_NAME = 'Vietnam Official eVisa';
 export const DEFAULT_OG_IMAGE = '/img/vietnam-hero.jpg';
 export const TROUBLESHOOTING_OG_IMAGE = '/img/vietnam-hero.jpg';

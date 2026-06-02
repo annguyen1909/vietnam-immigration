@@ -8,7 +8,7 @@ import { buildStaticPageMetadata } from '@/lib/seo';
 export const metadata: Metadata = buildStaticPageMetadata({
   title: 'Cookie Policy',
   description:
-    'How vietnamimmigration.com uses cookies and similar technologies, and how you can manage preferences.',
+    'How vietnamemigration.com uses cookies and similar technologies, and how you can manage preferences.',
   path: '/cookie-policy',
 });
 
@@ -48,7 +48,7 @@ export default function CookiePolicyPage() {
                   <p className="text-brand-ink mb-4">
                     This Cookie Policy outlines how Vietnam Official eVisa Immigration Assistance
                     Service (referred to as "we," "us," or "our") utilizes cookies and similar
-                    technologies when you access our website at vietnamimmigration.com (the
+                    technologies when you access our website at vietnamemigration.com (the
                     "Website"). This policy should be reviewed in conjunction with our Privacy
                     Policy, which outlines how we gather, utilize, and safeguard your personal data.
                   </p>
@@ -329,10 +329,10 @@ export default function CookiePolicyPage() {
                     <p className="text-brand-ink mb-2">
                       <strong>Email:</strong>{' '}
                       <a
-                        href="mailto:Visa@VietnamImmigration.com"
+                        href="mailto:Visa@VietnamEmigration.com"
                         className="text-[var(--brand-primary)] hover:underline"
                       >
-                        Visa@VietnamImmigration.com
+                        Visa@VietnamEmigration.com
                       </a>
                     </p>
                     <p className="text-brand-ink mb-2">

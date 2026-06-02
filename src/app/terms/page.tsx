@@ -106,8 +106,8 @@ export default function TermsPage() {
                   </h2>
                   <ul className="list-disc ml-6 text-brand-ink space-y-2">
                     <li>
-                      The electronic visa permits single or multiple entry into Vietnam for up to
-                      90 days, depending on the selected visa type
+                      The electronic visa permits single or multiple entry into Vietnam for up to 90
+                      days, depending on the selected visa type
                     </li>
                     <li>This visa cannot be extended or converted to another visa type</li>
                     <li>
@@ -494,10 +494,10 @@ export default function TermsPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:Visa@VietnamImmigration.com"
+                            href="mailto:Visa@VietnamEmigration.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            Visa@VietnamImmigration.com
+                            Visa@VietnamEmigration.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">
@@ -513,10 +513,10 @@ export default function TermsPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:Visa@VietnamImmigration.com"
+                            href="mailto:Visa@VietnamEmigration.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            Visa@VietnamImmigration.com
+                            Visa@VietnamEmigration.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">

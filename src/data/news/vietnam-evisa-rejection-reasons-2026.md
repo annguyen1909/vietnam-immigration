@@ -4,7 +4,7 @@ slug: vietnam-evisa-rejection-reasons-2026
 date: '2026-03-03'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-rejection-reasons-2026.jpg'
-imageAlt: 'Traveler reviewing Vietnam eVisa rejection email on laptop'
+imageAlt: 'Modern high-rise skyline of Ho Chi Minh City, Vietnam'
 excerpt: 'Top Vietnam eVisa rejection reasons in 2026—bad scans, eligibility, typos—and what to fix before you reapply or fly.'
 tags: ['visa', 'requirements']
 section: 'Visa Guides'
@@ -74,7 +74,7 @@ If you suspect identity theft, contact your passport office before reapplying. A
 Examples that lead to rejection or entry denial later:
 
 - **Single-entry** chosen but your itinerary needs **multiple re-entries**
-- **30-day** stay selected when you need **90 days**
+- **Single entry** selected when you need **multiple entry** (or wrong visa type for your itinerary)
 - **Wrong entry port** (airport vs land border) for your actual route
 
 Read [/blog/vietnam-evisa-approved-entry-ports-2026](/blog/vietnam-evisa-approved-entry-ports-2026) and match your first landing or border crossing.
