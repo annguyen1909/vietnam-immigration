@@ -5,7 +5,9 @@ const US_PHONE = '+1 323 286 4541';
 // const UK_PHONE = '+44 5555 000000'; // Hidden but not deleted
 import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 
-const EMAIL = 'Visa@VietnamEmigration.com';
+import { SUPPORT_EMAIL } from '@/components/seo/constants';
+
+const EMAIL = SUPPORT_EMAIL;
 
 export default function SupportBox() {
   return (
@@ -65,7 +67,7 @@ export default function SupportBox() {
           <li className="flex items-start">
             <span className="text-green-500 mr-2 mt-1">✔</span>
             <span>
-              Optional Urgent / Super Urgent processing at apply—fees shown before you pay
+              Optional Urgent (3 days) / Super Urgent (1 day) processing at apply—fees shown before you pay
             </span>
           </li>
           <li className="flex items-start">

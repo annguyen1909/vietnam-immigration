@@ -83,11 +83,11 @@ You will typically see:
 
 1. **Government fee** — **$55** (single entry) or **$80** (multiple entry) for standard 90-day tourist/business products on this site.
 2. **Service fee** — **$59.99 per passenger** for assisted review, validation, and support.
-3. **Optional Urgent / Super Urgent** — **+$110** or **+$220** per passenger if you choose faster processing at apply.
+3. **Optional Urgent (3 days) / Super Urgent (1 day)** — **+$110** or **+$220** per passenger if you choose faster processing at apply.
 
 ## Step 6 — Track status and download approval
 
-Processing commonly ranges from **about 3 hours to 3 working days**, depending on volume and application quality. Watch email (and spam) for approval. Save a **PDF** and print one copy for airlines and immigration.
+Processing commonly ranges from **within 5 business days**, depending on volume and application quality. Watch email (and spam) for approval. Save a **PDF** and print one copy for airlines and immigration.
 
 Do not book non-refundable hotels until you hold the approved PDF—see [processing time guide](/blog/vietnam-evisa-processing-time-2026).
 

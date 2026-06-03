@@ -494,10 +494,10 @@ export default function TermsPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:Visa@VietnamEmigration.com"
+                            href="mailto:visa@unitedevisa.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            Visa@VietnamEmigration.com
+                            visa@unitedevisa.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">
@@ -513,10 +513,10 @@ export default function TermsPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:Visa@VietnamEmigration.com"
+                            href="mailto:visa@unitedevisa.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            Visa@VietnamEmigration.com
+                            visa@unitedevisa.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">

@@ -23,8 +23,9 @@ const prisma = new PrismaClient();
 const DESTINATION_ID = 'vietnam';
 const INSURANCE_PRICE = 69;
 
-const STANDARD_WAIT_TIME = 'From 1 working day to 3 working days';
+const STANDARD_WAIT_TIME = 'Within 5 business days';
 const INVERTED_WAIT_TIME = 'From 3 working days to 1 working day';
+const LEGACY_WAIT_TIME = 'From 1 working day to 3 working days';
 
 /** Canonical "eVisa" display names keyed by stable visa-type id. */
 const VISA_TYPE_NAMES = {
@@ -45,11 +46,17 @@ const DEACTIVATE_URGENCY = ['Emergency - 5 hours to Vietnam'];
 
 async function main() {
   // 1. Fix inverted waitTime (name-agnostic).
-  const fixedWait = await prisma.visaType.updateMany({
+  const fixedInverted = await prisma.visaType.updateMany({
     where: { destinationId: DESTINATION_ID, waitTime: INVERTED_WAIT_TIME },
     data: { waitTime: STANDARD_WAIT_TIME },
   });
-  console.log(`waitTime: fixed ${fixedWait.count} inverted visa type(s)`);
+  const fixedLegacy = await prisma.visaType.updateMany({
+    where: { destinationId: DESTINATION_ID, waitTime: LEGACY_WAIT_TIME },
+    data: { waitTime: STANDARD_WAIT_TIME },
+  });
+  console.log(
+    `waitTime: fixed inverted=${fixedInverted.count}, legacy 1-3d=${fixedLegacy.count}`
+  );
 
   // 2. Normalize visa-type display names by id (prevents future name-keyed dups).
   for (const [id, name] of Object.entries(VISA_TYPE_NAMES)) {

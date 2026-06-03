@@ -43,7 +43,7 @@ faq:
 2. **Select Purpose:** Choose "Tourist" as your purpose of visit. You may specify "medical treatment" in your travel details if prompted.
 3. **Select Duration:** Choose single or multiple entry (90 days) based on your treatment needs.
 4. **Submit Documents:** Upload your passport and provide travel details. No medical documents are required at this stage.
-5. **Receive eVisa:** Once approved (typically within 3 hours to 3 working days), your eVisa will be sent by email. Print it and bring it with your passport.
+5. **Receive eVisa:** Once approved (typically within 5 business days), your eVisa will be sent by email. Print it and bring it with your passport.
 
 ## Extending Your Stay for Medical Reasons
 

@@ -1,50 +1,57 @@
 ---
-question: 'Can I Get a Vietnam eVisa in 24 Hours? (Urgent & Express Processing Guide)'
+question: 'Last-Minute Vietnam eVisa? Urgent (3 Days) & Super Urgent (1 Day) Guide'
 slug: '24-hour-vietnam-evisa'
 faq:
-  - question: Can I pay extra for express or 24-hour processing?
-    answer: On our apply form you can add Super Urgent (+$220/pax) or Urgent (+$110/pax) for faster handling of your package. Government approval still typically takes 3 hours to 3 working days—apply as early as possible with complete documents.
+  - question: Can I pay extra for faster processing?
+    answer: On our apply form you can add Super Urgent — 1 day (+$220/pax) or Urgent — 3 days (+$110/pax) for faster handling. **Normal** is **within 5 business days** (included)—apply as early as possible with complete documents.
   - question: What is the fastest anyone has received a Vietnam eVisa?
-    answer: Some travelers report approval within 2 hours, but most applications take 3 hours to 3 working days depending on volume and document quality.
+    answer: Rush tiers speed our review and submission—they do not guarantee government approval by a fixed hour. Standard **Normal** handling is within 5 business days; immigration volume and document quality still affect final approval.
   - question: What if my flight is tomorrow and I do not have a visa?
-    answer: Contact support with your reference number and proof of travel, but be prepared to reschedule if approval does not arrive before check-in.
+    answer: Contact support with your reference number and proof of travel. Choose Super Urgent (1 day) if available for your arrival date, but be prepared to reschedule if approval does not arrive before check-in.
   - question: Can I get a visa on arrival instead?
     answer: Visa on arrival is available for some nationalities only. Most travelers must hold an approved eVisa before departure—confirm rules for your passport.
 ---
 
-## Is 24-Hour Vietnam eVisa Processing Possible?
+## Last-minute Vietnam eVisa — what is actually available?
 
-**Vietnam eVisa processing typically takes 3 hours to 3 working days.** While most applications are processed quickly, there is no guaranteed 24-hour or same-day option. Processing times can vary based on application volume and completeness of documents.
+**Standard (Normal) handling is within 5 business days** on our service. There is no guaranteed same-hour government approval. Processing times vary with immigration workload, holidays, and how complete your documents are.
 
-## Standard Processing Times
+## Optional faster handling (our service)
 
-- **Normal Processing:** 3 hours to 3 working days (most cases)
-- **Occasional Fast Approvals:** Some travelers report approval within 2 hours
-- **Delays:** Incomplete applications, missing documents, or high volume can cause delays
+We offer **two** paid urgency tiers at apply—only when your arrival date allows them:
 
-## What If I Need a Visa Urgently?
+- **Urgent (3 days)** — +$110 per passenger  
+- **Super Urgent (1 day)** — +$220 per passenger  
 
-- **Apply Immediately:** Submit your application as soon as possible
-- **Prepare All Documents:** Ensure your passport, photo, and itinerary are ready and correct
-- **Contact Support:** After submitting, email the Vietnam eVisa support team with your reference number and travel date
-- **Monitor Email:** Watch for approval or requests for more information
+These fees cover faster **application preparation and submission** on our side. **Government approval time** still depends on Vietnamese immigration.
 
-## Tips for Fastest Approval
+## Standard processing
 
-- Double-check all information before submitting
-- Use a clear, recent passport photo
-- Upload all required documents in the correct format
-- Pay fees promptly and confirm payment
-- Apply during business hours (Monday–Friday, Vietnam time)
+- **Normal (5 days):** Within 5 business days (included in standard flow)
+- **Delays:** Incomplete applications, missing documents, or peak volume can take longer
 
-## Alternatives for Last-Minute Travelers
+## What if I need a visa urgently?
 
-- **Visa on Arrival:** Available for some nationalities—check eligibility before travel
-- **Embassy Application:** Some Vietnamese embassies may offer faster processing for emergencies
-- **Change Travel Dates:** If possible, delay your trip until your eVisa is approved
+- **Apply immediately** with correct passport, photo, and itinerary  
+- **Select the fastest tier** your arrival date unlocks (Super Urgent when only 1–3 days remain)  
+- **Contact support** after submitting with your reference number and travel date  
+- **Monitor email** (including spam) for approval or requests for more information  
 
-## What to Do If Your Trip Is Imminent
+## Tips for the quickest path
 
-- Contact the Vietnam eVisa support team with your reference number and proof of urgent travel (flight ticket, etc.)
-- Prepare to show all documents at the border
-- Have a backup plan in case your eVisa is not approved in time
+- Double-check all information before submitting  
+- Use a clear, recent passport photo  
+- Upload all required documents in the correct format  
+- Pay fees promptly and confirm payment  
+
+## Alternatives for last-minute travelers
+
+- **Visa on arrival:** Available for some nationalities—check eligibility before travel  
+- **Embassy application:** Some Vietnamese embassies may offer faster processing for emergencies  
+- **Change travel dates:** If possible, delay your trip until your eVisa is approved  
+
+## Flight is imminent
+
+- Email support with your reference number and proof of urgent travel  
+- Prepare to show all documents at the border  
+- Have a backup plan if your eVisa is not approved in time  

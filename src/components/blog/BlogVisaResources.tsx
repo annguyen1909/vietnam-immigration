@@ -19,8 +19,8 @@ const resources = [
   },
   {
     href: '/faq/24-hour-vietnam-evisa',
-    title: 'Urgent & express processing',
-    description: 'What to do when you need a visa before your departure date.',
+    title: 'Urgent (3 days) & Super Urgent (1 day)',
+    description: 'Last-minute travel: optional faster handling tiers and what to expect.',
   },
   {
     href: '/fees',

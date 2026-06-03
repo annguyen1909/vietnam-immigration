@@ -1,4 +1,5 @@
 import { prisma } from '@/lib/prisma';
+import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 import type { VisaType } from '@/types/visa';
 
 export const VIETNAM_DESTINATION_ID = 'vietnam';
@@ -16,11 +17,12 @@ export function formatStandardWaitTime(waitTime: string | null | undefined): str
   if (!waitTime?.trim()) return '—';
 
   const trimmed = waitTime.trim();
-  const inverted =
+  const legacy =
     /^from\s+3\s+working\s+days?\s+to\s+1\s+working\s+day$/i.test(trimmed) ||
-    /^3\s+working\s+days?\s+to\s+1\s+working\s+day$/i.test(trimmed);
+    /^3\s+working\s+days?\s+to\s+1\s+working\s+day$/i.test(trimmed) ||
+    /^from\s+1\s+working\s+day\s+to\s+3\s+working\s+days?$/i.test(trimmed);
 
-  if (inverted) return 'From 1 working day to 3 working days';
+  if (legacy) return VIETNAM_PROCESSING_TIME;
 
   return trimmed;
 }

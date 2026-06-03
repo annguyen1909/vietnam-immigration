@@ -257,8 +257,8 @@ export default function Step4Documents({ applicationData }: Step4DocumentsProps)
           <b>Alternative: Email Submission</b>
           <br />
           You can also email your documents directly to{' '}
-          <a href="mailto:Visa@VietnamEmigration.com" className="text-brand-primary underline">
-            Visa@VietnamEmigration.com
+          <a href="mailto:visa@unitedevisa.com" className="text-brand-primary underline">
+            visa@unitedevisa.com
           </a>{' '}
           with the subject line: <b>Documents for Application {uploadError.applicationId}</b>
         </p>
@@ -273,7 +273,7 @@ export default function Step4Documents({ applicationData }: Step4DocumentsProps)
             Login Now
           </a>
           <a
-            href="mailto:Visa@VietnamEmigration.com?subject=Documents for Application {uploadError.applicationId}"
+            href="mailto:visa@unitedevisa.com?subject=Documents for Application {uploadError.applicationId}"
             className="bg-gray-200 text-gray-800 px-6 py-3 rounded-lg font-medium hover:bg-gray-300 transition"
           >
             Email Documents

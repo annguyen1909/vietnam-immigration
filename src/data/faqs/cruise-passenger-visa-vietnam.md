@@ -40,7 +40,7 @@ Confirm with your cruise line that your port of call accepts eVisa entry.
 2. **Select Visa Type:** Choose Tourist or Business eVisa (single or multiple entry, 90 days) based on your itinerary.
 3. **Upload Documents:** Passport, travel details, and cruise itinerary if available.
 4. **Pay the Fee:** Fees vary by visa type ($55 single entry, $80 multiple entry (90 days)).
-5. **Receive Your eVisa:** Approval is sent by email typically within 3 hours to 3 working days. Print your eVisa and bring it with your passport.
+5. **Receive Your eVisa:** Approval is sent by email typically within 5 business days. Print your eVisa and bring it with your passport.
 
 ## Important Tips for Cruise Travelers
 

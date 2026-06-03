@@ -10,20 +10,20 @@ tags: ['visa', 'processing']
 section: 'Visa Guides'
 faq:
   - question: How long does Vietnam eVisa approval take in 2026?
-    answer: Many standard applications complete within about 3 hours to 3 working days after payment. Peak holidays and document issues can take longer. No private service can guarantee approval by a specific flight time.
+    answer: **Normal** handling is within 5 business days after payment. Optional Urgent (3 days) or Super Urgent (1 day) tiers speed our side when your arrival date allows. Peak holidays and document issues can take longer. No private service can guarantee approval by a specific flight time.
   - question: Is there same-day Vietnam eVisa processing?
-    answer: Some cases finish within hours when documents are perfect and volume is low. Same-day travel is risky—apply several days before departure and read our urgent FAQ if you are within 72 hours of flying.
+    answer: Government timing is not guaranteed same-day. For last-minute travel, add Urgent (3 days) or Super Urgent (1 day) on our apply form when your arrival date allows—see our urgent FAQ if you fly within 72 hours.
   - question: Does paying an urgent fee guarantee faster government approval?
     answer: No. Rush or priority fees on assisted sites usually speed document review and submission—not override immigration security checks or workload.
   - question: What should I do if my eVisa is not approved before my flight?
     answer: Check spam folders, confirm payment succeeded, contact support with your reference number, and avoid duplicate paid applications. Do not board without valid authorization unless you hold another eligible visa.
 ---
 
-**How long does a Vietnam eVisa take?** Most travelers see approval within **about 3 hours to 3 working days** after a complete submission—but volume, holidays, and document quality change the timeline. Plan ahead; your departure time does not force immigration to approve faster.
+**How long does a Vietnam eVisa take?** **Normal** service is **within 5 business days**; **Urgent (3 days)** and **Super Urgent (1 day)** are optional when you apply. Government approval still depends on volume, holidays, and document quality—plan ahead.
 
 **We are a private visa assistance service—not the Government of Vietnam.** We can help prepare and submit your package quickly; final approval timing is decided by Vietnamese immigration authorities.
 
-> **Flight Leaving Soon?** If you've been waiting longer than about 3 working days and your visa is still in "Processing" status, read our [Emergency Guide: eVisa Stuck Processing](/troubleshooting/stuck-processing) to get it expedited.
+> **Flight Leaving Soon?** If you've been waiting longer than your selected tier allows and your visa is still in "Processing" status, read our [Emergency Guide: eVisa Stuck Processing](/troubleshooting/stuck-processing) to get it expedited.
 
 ## Standard processing window
 
@@ -53,7 +53,7 @@ Within **48 hours** of flying? Read [/faq/24-hour-vietnam-evisa](/faq/24-hour-vi
 
 ## Urgent or “rush” services explained
 
-Assisted services may offer **Urgent** (+$110/pax) or **Super Urgent** (+$220/pax) processing on our portal—checking photos, catching typos, and submitting promptly. **Government approval time** still depends on immigration workload. Paying for faster handling does not bypass legal screening.
+Assisted services may offer **Urgent (3 days)** (+$110/pax) or **Super Urgent (1 day)** (+$220/pax) on our portal—checking photos, catching typos, and submitting promptly. **Government approval time** still depends on immigration workload. Paying for faster handling does not bypass legal screening.
 
 Compare service levels on [/fees](/fees) and our processing page at `/processing` if your site lists tiers.
 

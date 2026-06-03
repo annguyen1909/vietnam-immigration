@@ -19,7 +19,7 @@ faq:
     answer: Yes—most tourism eVisas cover Con Dao flights or ferries if your entry port and validity match your itinerary. Book accommodation early in peak months and respect marine park fees and turtle nesting rules.
 ---
 
-Vietnam’s **national parks** protect karst caves, lowland rainforest, and marine reserves among Southeast Asia’s most biodiverse corners. Secure your [Vietnam eVisa](/apply) and [entry requirements for your nationality](/check-requirement) before non-refundable park permits or domestic flights—processing often takes **3 hours to 3 working days**.
+Vietnam’s **national parks** protect karst caves, lowland rainforest, and marine reserves among Southeast Asia’s most biodiverse corners. Secure your [Vietnam eVisa](/apply) and [entry requirements for your nationality](/check-requirement) before non-refundable park permits or domestic flights—processing often takes **within 5 business days**.
 
 ## Phong Nha–Ke Bang: caves and primary forest
 

@@ -199,10 +199,10 @@ export default function EmbassyPage() {
               <p>
                 <strong>Email:</strong>{' '}
                 <a
-                  href="mailto:visa@vietnamemigration.com"
+                  href="mailto:visa@unitedevisa.com"
                   className="text-brand-primary hover:underline"
                 >
-                  visa@vietnamemigration.com
+                  visa@unitedevisa.com
                 </a>
               </p>
               <div className="flex items-center gap-2 text-gray-800">
@@ -257,7 +257,7 @@ export default function EmbassyPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✔</span>
-                <span>Optional Urgent / Super Urgent processing—fees shown at checkout</span>
+                <span>Optional Urgent (3 days) / Super Urgent (1 day) processing—fees shown at checkout</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✔</span>

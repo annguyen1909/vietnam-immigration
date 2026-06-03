@@ -1,4 +1,11 @@
-import { VIETNAM_URGENCY_FEE_SUPER_URGENT, VIETNAM_URGENCY_FEE_URGENT } from './vietnamPricing';
+import {
+  VIETNAM_URGENCY_FEE_SUPER_URGENT,
+  VIETNAM_URGENCY_FEE_URGENT,
+  VIETNAM_NORMAL_LABEL,
+  VIETNAM_PROCESSING_TIME,
+  VIETNAM_URGENCY_SUPER_LABEL,
+  VIETNAM_URGENCY_URGENT_LABEL,
+} from './vietnamPricing';
 
 export type UrgencyValue = '' | 'super_urgent_24h' | 'urgent_48h';
 
@@ -11,13 +18,13 @@ export const URGENCY_OPTIONS: {
 }[] = [
   {
     value: 'super_urgent_24h',
-    label: 'Super Urgent',
+    label: VIETNAM_URGENCY_SUPER_LABEL,
     description: 'Within 1 business day',
   },
   {
     value: 'urgent_48h',
-    label: 'Urgent',
-    description: 'Within 3 business days (72h)',
+    label: VIETNAM_URGENCY_URGENT_LABEL,
+    description: 'Within 3 business days',
   },
 ];
 
@@ -66,8 +73,8 @@ export function daysUntilArrival(arrivalDateStr: string, now = new Date()): numb
 
 /**
  * Arrival 1–3 days away: Super Urgent only (locked).
- * 4–6 days: Super Urgent + Urgent.
- * 7+ days: all three including Normal.
+ * 4–5 days: Super Urgent + Urgent (Normal needs 5 days).
+ * 6+ days: all three including Normal.
  */
 export function getProcessingAvailability(arrivalDateStr: string): ProcessingAvailability {
   const days = daysUntilArrival(arrivalDateStr);
@@ -86,7 +93,7 @@ export function getProcessingAvailability(arrivalDateStr: string): ProcessingAva
     };
   }
 
-  if (days >= 4 && days <= 6) {
+  if (days >= 4 && days <= 5) {
     return { normal: false, urgent: true, superUrgent: true, locked: false };
   }
 
@@ -113,7 +120,7 @@ export function suggestUrgencyFromArrival(arrivalDateStr: string): UrgencyValue 
 
   const days = daysUntilArrival(arrivalDateStr);
   if (days === null || days < 0) return '';
-  if (days >= 7) return '';
+  if (days >= 6) return '';
   if (days >= 4) return 'urgent_48h';
   return 'super_urgent_24h';
 }
@@ -135,14 +142,23 @@ export function clampUrgencyToAvailability(
 }
 
 export function getNormalProcessingSubtitle(waitTime?: string | null): string {
-  if (waitTime?.trim()) return waitTime.trim();
-  return 'From 1 working day to 3 working days';
+  const trimmed = waitTime?.trim();
+  if (trimmed && !isLegacyWaitTime(trimmed)) return trimmed;
+  return VIETNAM_PROCESSING_TIME;
+}
+
+function isLegacyWaitTime(waitTime: string): boolean {
+  return (
+    /^from\s+1\s+working\s+day\s+to\s+3\s+working\s+days?$/i.test(waitTime) ||
+    /^from\s+3\s+working\s+days?\s+to\s+1\s+working\s+day$/i.test(waitTime) ||
+    /^3\s+working\s+days?\s+to\s+1\s+working\s+day$/i.test(waitTime)
+  );
 }
 
 export function getProcessingOptionTitle(value: UrgencyValue): string {
-  if (value === '') return 'Normal';
-  if (value === 'urgent_48h') return 'Urgent';
-  return 'Super Urgent';
+  if (value === '') return VIETNAM_NORMAL_LABEL;
+  if (value === 'urgent_48h') return VIETNAM_URGENCY_URGENT_LABEL;
+  return VIETNAM_URGENCY_SUPER_LABEL;
 }
 
 export function getProcessingOptionSubtitle(value: UrgencyValue, waitTime?: string | null): string {
@@ -208,7 +224,6 @@ export async function loadUrgencyFeesByValue(): Promise<Record<Exclude<UrgencyVa
 }
 
 export function getUrgencyLabel(value: UrgencyValue): string {
-  if (!value) return 'Normal';
   return getProcessingOptionTitle(value);
 }
 

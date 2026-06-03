@@ -514,7 +514,7 @@ export default function Step1ContactVisa({
               </div>
               {data.stayingStart && processingAvailability.locked && (
                 <p className="mt-2 text-sm text-amber-700">
-                  Your arrival date is very soon — Super Urgent processing is required.
+                  Your arrival date is very soon — Super Urgent (1 day) is required.
                 </p>
               )}
               {errors.urgency && <p className="mt-1 text-sm text-red-600">{errors.urgency}</p>}

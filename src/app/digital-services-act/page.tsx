@@ -212,10 +212,10 @@ export default function DigitalServicesActPage() {
                     <p className="text-brand-ink mb-3">
                       Email:{' '}
                       <a
-                        href="mailto:Visa@VietnamEmigration.com"
+                        href="mailto:visa@unitedevisa.com"
                         className="text-[var(--brand-primary)] hover:underline"
                       >
-                        Visa@VietnamEmigration.com
+                        visa@unitedevisa.com
                       </a>
                     </p>
                     <p className="text-brand-ink text-sm">
@@ -247,10 +247,10 @@ export default function DigitalServicesActPage() {
                       <p className="text-brand-ink text-sm">
                         Email:{' '}
                         <a
-                          href="mailto:Visa@VietnamEmigration.com"
+                          href="mailto:visa@unitedevisa.com"
                           className="text-[var(--brand-primary)] hover:underline"
                         >
-                          Visa@VietnamEmigration.com
+                          visa@unitedevisa.com
                         </a>
                       </p>
                     </div>
@@ -297,10 +297,10 @@ export default function DigitalServicesActPage() {
                   <p className="text-brand-ink">
                     Our latest transparency report is available upon request. Please contact us at{' '}
                     <a
-                      href="mailto:Visa@VietnamEmigration.com"
+                      href="mailto:visa@unitedevisa.com"
                       className="text-[var(--brand-primary)] hover:underline"
                     >
-                      Visa@VietnamEmigration.com
+                      visa@unitedevisa.com
                     </a>
                     .
                   </p>
@@ -322,10 +322,10 @@ export default function DigitalServicesActPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:Visa@VietnamEmigration.com"
+                            href="mailto:visa@unitedevisa.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            Visa@VietnamEmigration.com
+                            visa@unitedevisa.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">
@@ -341,10 +341,10 @@ export default function DigitalServicesActPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:Visa@VietnamEmigration.com"
+                            href="mailto:visa@unitedevisa.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            Visa@VietnamEmigration.com
+                            visa@unitedevisa.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">

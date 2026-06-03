@@ -61,7 +61,7 @@ const steps = [
 const benefits = [
   {
     title: 'Fast Processing',
-    desc: `Most visas approved within ${VIETNAM_PROCESSING_TIME}`,
+    desc: `Most visas approved ${VIETNAM_PROCESSING_TIME}`,
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path

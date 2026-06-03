@@ -129,10 +129,10 @@ export default function ContactPage() {
                       <span className="font-semibold text-gray-900">Email:</span>
                     </div>
                     <a
-                      href="mailto:visa@vietnamemigration.com"
+                      href="mailto:visa@unitedevisa.com"
                       className="text-brand-primary hover:underline font-medium"
                     >
-                      visa@vietnamemigration.com
+                      visa@unitedevisa.com
                     </a>
                   </div>
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-4">

@@ -101,8 +101,8 @@ export async function POST(request: NextRequest) {
     const text = `New Contact Form Message\n\nFull Name: ${sanitizedFullName}\nEmail: ${sanitizedEmail}\nPhone: ${sanitizedCountryCode} ${sanitizedPhone}\n${sanitizedSubject ? `Subject: ${sanitizedSubject}\n` : ''}Message:\n${sanitizedMessage}\n\nThis message was sent from the Vietnam eVisa website contact form.\nUnique ID: ${uniqueId}`;
 
     await getResend().emails.send({
-      from: 'Vietnam eVisa Support <Visa@vietnamemigration.com>',
-      to: ['visa@vietnamemigration.com'],
+      from: 'Vietnam eVisa Support <visa@unitedevisa.com>',
+      to: ['visa@unitedevisa.com'],
       subject: subjectLine,
       html: html,
       text,

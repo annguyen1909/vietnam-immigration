@@ -78,7 +78,8 @@ eVisa paths show government fees on [/fees](/fees). Embassy routes add hidden co
 
 | Channel | Typical timeline |
 | :--- | :--- |
-| **eVisa (standard)** | ~3 hours – 3 working days |
+| **eVisa (Normal — 5 days)** | Within 5 business days |
+| **eVisa (Urgent / Super Urgent)** | 3 days / 1 day handling tiers on apply |
 | **eVisa (holiday peak)** | Longer — apply 7–14 days early |
 | **Embassy / consulate** | Several days to 2+ weeks by post |
 

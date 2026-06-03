@@ -1,12 +1,12 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import { SUPPORT_EMAIL } from '@/components/seo/constants';
+import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 
 const US_PHONE = '+1 323 286 4541';
 // const UK_PHONE = '+44 5555 000000'; // Hidden but not deleted
-import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
-
-const EMAIL = 'Visa@VietnamEmigration.com';
+const EMAIL = SUPPORT_EMAIL;
 
 export default function HelpFloatingBox({ className = '' }: { className?: string }) {
   const [open, setOpen] = useState(false);
@@ -125,7 +125,7 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
               {VIETNAM_PROCESSING_TIME}
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              <span className="mt-1 text-green-600">✔️</span>Optional Urgent / Super Urgent
+              <span className="mt-1 text-green-600">✔️</span>Optional Urgent (3 days) / Super Urgent (1 day)
               processing—fees shown before you pay
             </div>
             <div className="flex items-start gap-2 text-black text-base">
@@ -235,7 +235,7 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
                   working days
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  <span className="mt-1 text-green-600">✔️</span>Optional Urgent / Super Urgent
+                  <span className="mt-1 text-green-600">✔️</span>Optional Urgent (3 days) / Super Urgent (1 day)
                   processing—fees shown before you pay
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">

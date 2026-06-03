@@ -34,7 +34,7 @@ You must enter through one of these designated ports when using an eVisa.`,
     question: 'How long does it take to process a Vietnam eVisa?',
     slug: 'vietnam-evisa-processing-time',
     answer: `
-All Vietnam eVisas are typically processed within **${VIETNAM_PROCESSING_TIME}**. Processing is usually fast, with many applications approved within hours. Once approved, your eVisa will be sent directly to your email. We recommend applying at least a few days before your intended travel date.`,
+**Normal** handling is **${VIETNAM_PROCESSING_TIME}** (included). Optional **Urgent (3 days)** or **Super Urgent (1 day)** tiers are available on the apply form when your arrival date allows. Once approved, your eVisa is sent by email—we recommend applying well before you travel.`,
   },
   {
     question: 'Can I work in Vietnam on a tourist eVisa?',

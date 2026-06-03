@@ -21,7 +21,7 @@ faq:
 
 Vietnam’s timeline stacks Cham kingdoms, imperial courts, French boulevards, and 20th-century struggle into places you can still walk through—not only read about. From **Hue’s citadel** to **Hoi An’s lantern lanes** and **Cu Chi’s tunnels**, history here is tactile: stone under your sandals, timber creaking in merchant houses, and museum halls that demand quiet attention.
 
-Most ticket desks quote **VND**; carry cash in small notes for guides, bicycle hire, and iced coffee between temples. Arrive early for softer light and shorter queues. **We are a private visa assistance service—not the Government of Vietnam.** [Check eVisa requirements](/check-requirement) for your nationality and [apply online](/apply) before you lock non-refundable flights—processing is often **about 3 hours to 3 working days**.
+Most ticket desks quote **VND**; carry cash in small notes for guides, bicycle hire, and iced coffee between temples. Arrive early for softer light and shorter queues. **We are a private visa assistance service—not the Government of Vietnam.** [Check eVisa requirements](/check-requirement) for your nationality and [apply online](/apply) before you lock non-refundable flights—processing is often **within 5 business days**.
 
 ## 1. Hue Imperial City and royal tombs
 

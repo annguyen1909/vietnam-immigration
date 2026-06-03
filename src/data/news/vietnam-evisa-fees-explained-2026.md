@@ -47,15 +47,15 @@ Private assistance adds **$59.99 per passenger** for:
 
 The service fee is **separate from and in addition to** the government fee. Read [/refund-policy](/refund-policy) for which fees may be refundable if rejection occurs through no fault of your own.
 
-## Optional Urgent / Super Urgent processing
+## Optional Urgent (3 days) / Super Urgent (1 day) processing
 
 At [/apply](/apply), you may add faster handling (based on your arrival date):
 
 | Option | Typical add-on (per passenger) |
 | :--- | ---: |
-| **Normal** | Included in standard flow (no extra processing line item) |
-| **Urgent** (3 working days) | **+$110** |
-| **Super Urgent** (24-hour window) | **+$220** |
+| **Normal (5 days)** | Included in standard flow (no extra processing line item) |
+| **Urgent (3 days)** | **+$110** |
+| **Super Urgent (1 day)** | **+$220** |
 
 These amounts speed **application preparation and submission** on our side—they do **not** guarantee government approval timing. Never book non-refundable flights until you hold the approved PDF—[/blog/vietnam-evisa-processing-time-2026](/blog/vietnam-evisa-processing-time-2026).
 

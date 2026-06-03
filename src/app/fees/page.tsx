@@ -9,6 +9,8 @@ import {
   VIETNAM_SERVICE_FEE_PER_PAX,
   VIETNAM_URGENCY_FEE_SUPER_URGENT,
   VIETNAM_URGENCY_FEE_URGENT,
+  VIETNAM_URGENCY_SUPER_LABEL,
+  VIETNAM_URGENCY_URGENT_LABEL,
   VIETNAM_VISA_PRODUCTS,
   formatUsd,
   getVietnamFeesHeroSubtitle,
@@ -187,10 +189,10 @@ export default function FeesPage() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">You Have to Pay</h3>
                 <p className="text-gray-700 mb-6">
-                  Calculator total is government + service fees only. Add Urgent (+$
-                  {VIETNAM_URGENCY_FEE_URGENT.toFixed(2)}/pax) or Super Urgent (+$
-                  {VIETNAM_URGENCY_FEE_SUPER_URGENT.toFixed(2)}/pax) on the apply form if you need
-                  faster handling.
+                  Calculator total is government + service fees only. Add {VIETNAM_URGENCY_URGENT_LABEL}{' '}
+                  (+${VIETNAM_URGENCY_FEE_URGENT.toFixed(2)}/pax) or {VIETNAM_URGENCY_SUPER_LABEL}{' '}
+                  (+${VIETNAM_URGENCY_FEE_SUPER_URGENT.toFixed(2)}/pax) on the apply form if you
+                  need faster handling.
                 </p>
                 <Link
                   href="/apply"
@@ -301,10 +303,10 @@ export default function FeesPage() {
 
             <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 mb-8">
               <p className="text-gray-700 text-sm leading-relaxed text-center">
-                Service fee: ${SERVICE_FEE.toFixed(2)} per passenger. Optional Urgent ($
-                {VIETNAM_URGENCY_FEE_URGENT.toFixed(2)}/pax) or Super Urgent ($
-                {VIETNAM_URGENCY_FEE_SUPER_URGENT.toFixed(2)}/pax) appears at checkout when
-                selected—confirm your full total before paying.
+                Service fee: ${SERVICE_FEE.toFixed(2)} per passenger. Optional{' '}
+                {VIETNAM_URGENCY_URGENT_LABEL} (${VIETNAM_URGENCY_FEE_URGENT.toFixed(2)}/pax) or{' '}
+                {VIETNAM_URGENCY_SUPER_LABEL} (${VIETNAM_URGENCY_FEE_SUPER_URGENT.toFixed(2)}/pax)
+                appears at checkout when selected—confirm your full total before paying.
               </p>
             </div>
 

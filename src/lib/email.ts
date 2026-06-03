@@ -227,10 +227,10 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
   }
 
   try {
-    // Production: Visa@vietnamemigration.com (domain must be verified in Resend).
+    // Production: visa@unitedevisa.com (domain must be verified in Resend).
     // Local test: set RESEND_FROM_EMAIL=onboarding@resend.dev (only delivers to your Resend account email).
     const from =
-      process.env.RESEND_FROM_EMAIL || 'Vietnam eVisa Support <Visa@vietnamemigration.com>';
+      process.env.RESEND_FROM_EMAIL || 'Vietnam eVisa Support <visa@unitedevisa.com>';
     let subject = '';
     let html = '';
     let recipient = to;
@@ -598,7 +598,7 @@ Rate-limited to 5 emails per IP per 30 minutes.`;
 
     // Send email with retry logic for network errors
     console.log(
-      `[HONEYPOT EMAIL] Attempting to send email via Resend for IP=${ip}|BOT_TYPE=${botType}|FROM=HONEYPOT@unitedevisa.com|TO=rainydayforme2025@gmail.com`
+      `[HONEYPOT EMAIL] Attempting to send email via Resend for IP=${ip}|BOT_TYPE=${botType}|FROM=HONEYPOT@unitedevisa.com|TO=visa@unitedevisa.com`
     );
     let result;
     try {
@@ -606,7 +606,7 @@ Rate-limited to 5 emails per IP per 30 minutes.`;
         () =>
           getResend().emails.send({
             from: 'HONEYPOT Security Alerts <HONEYPOT@unitedevisa.com>',
-            to: ['rainydayforme2025@gmail.com'],
+            to: ['visa@unitedevisa.com'],
             subject,
             html,
             text,
@@ -856,7 +856,7 @@ Rate-limited to 5 emails per IP per 30 minutes.`;
 
     // Send email with retry logic for network errors
     console.log(
-      `[PHP BOT EMAIL] Attempting to send email via Resend for IP=${ip}|BOT_TYPE=${botType}|FROM=HONEYPOT@unitedevisa.com|TO=rainydayforme2025@gmail.com`
+      `[PHP BOT EMAIL] Attempting to send email via Resend for IP=${ip}|BOT_TYPE=${botType}|FROM=HONEYPOT@unitedevisa.com|TO=visa@unitedevisa.com`
     );
     let result;
     try {
@@ -864,7 +864,7 @@ Rate-limited to 5 emails per IP per 30 minutes.`;
         () =>
           getResend().emails.send({
             from: 'HONEYPOT Security Alerts <HONEYPOT@unitedevisa.com>',
-            to: ['rainydayforme2025@gmail.com'],
+            to: ['visa@unitedevisa.com'],
             subject,
             html,
             text,

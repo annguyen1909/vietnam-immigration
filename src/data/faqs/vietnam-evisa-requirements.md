@@ -11,7 +11,7 @@ faq:
   - question: What if my application is denied?
     answer: You will be notified by email with the reason. You may correct issues and reapply or contact support for guidance.
   - question: How long does it take to get a Vietnam eVisa?
-    answer: Processing typically takes 3 hours to 3 working days when documents are complete and payments succeed.
+    answer: Processing typically takes within 5 business days when documents are complete and payments succeed.
   - question: Can I extend my eVisa?
     answer: Extensions may be possible in Vietnam before your visa expires—contact local immigration; do not overstay.
   - question: What if I lose my eVisa approval?
@@ -76,7 +76,7 @@ Note: Families or groups can apply for up to 15 passengers in a single applicati
 4. **Pay Fees:** Pay government and service fees
 5. **Upload Documents:** Attach all required files
 6. **Track Status:** Use your reference number to check progress
-7. **Receive eVisa:** Approval sent by email (typically within 3 hours to 3 working days)
+7. **Receive eVisa:** Approval sent by email (typically within 5 business days)
 8. **Print eVisa:** Bring a printed copy for border control
 
 ## Photo & Document Guidelines
@@ -148,7 +148,7 @@ Supporting Documents: _______________
 - **Missing Documents:** Double-check all uploads
 - **Wrong Email:** Double-check for typos
 - **Payment Declined:** Try another card or contact your bank
-- **Slow Processing:** Processing typically takes 3 hours to 3 working days
+- **Slow Processing:** Processing typically takes within 5 business days
 - **File Size Too Large:** Compress files before uploading
 - **Untranslated Documents:** Provide certified translations
 - **Application Denied:** Review reasons, correct, and reapply

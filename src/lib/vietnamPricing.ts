@@ -13,8 +13,13 @@ export const VIETNAM_URGENCY_FEE_SUPER_URGENT = 220;
 
 export const VIETNAM_STAY_DAYS = 90;
 
-/** Standard processing copy used across marketing, FAQs, and country pages. */
-export const VIETNAM_PROCESSING_TIME = '3 hours to 3 working days';
+/** Standard (Normal) processing — matches VisaType.waitTime in DB. */
+export const VIETNAM_PROCESSING_TIME = 'Within 5 business days';
+
+/** Processing tiers at apply (our handling windows). */
+export const VIETNAM_NORMAL_LABEL = 'Normal (5 days)';
+export const VIETNAM_URGENCY_URGENT_LABEL = 'Urgent (3 days)';
+export const VIETNAM_URGENCY_SUPER_LABEL = 'Super Urgent (1 day)';
 
 export const VIETNAM_VISA_PRODUCTS = [
   {
@@ -72,7 +77,7 @@ export function getVietnamVisaTypesFaqMarkdown(options?: {
 export function getVietnamVisaTypesFaqAnswer(): string {
   return `${getVietnamVisaTypesFaqMarkdown({ includeProcessingNote: false })}
 
-Processing time: All Vietnam eVisas are typically processed within ${VIETNAM_PROCESSING_TIME}.
+Processing time: All Vietnam eVisas are typically processed ${VIETNAM_PROCESSING_TIME}.
 
 Note: Families or groups can apply for up to 15 passengers in a single application. Children also need visa applications.
 
@@ -88,7 +93,7 @@ export function getVietnamFeesMetaDescription(): string {
 }
 
 export function getVietnamFeesHeroSubtitle(): string {
-  return `Transparent pricing: government fees by visa type, a flat ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger, and optional Urgent or Super Urgent processing at checkout—no hidden charges.`;
+  return `Transparent pricing: government fees by visa type, a flat ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger, and optional ${VIETNAM_URGENCY_URGENT_LABEL} or ${VIETNAM_URGENCY_SUPER_LABEL} handling at checkout—no hidden charges.`;
 }
 
 export function getVietnamFeesStructureSubtitle(): string {

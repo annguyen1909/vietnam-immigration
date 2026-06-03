@@ -9,7 +9,7 @@ faq:
   - question: What if only one parent is traveling?
     answer: A notarized consent letter from the absent parent is usually required, along with the child's birth certificate.
   - question: How long does processing take for children?
-    answer: Processing typically takes 3 hours to 3 working days—the same timeline as adult applications when documents are complete.
+    answer: Processing typically takes within 5 business days—the same timeline as adult applications when documents are complete.
 ---
 
 ## Overview

@@ -1,5 +1,8 @@
 import { absoluteAssetUrl, getPublicSiteUrl, SITE_NAME } from '@/lib/seo';
 
+/** Public support / contact email (site, Resend, schema, mailto links). */
+export const SUPPORT_EMAIL = 'visa@unitedevisa.com';
+
 /**
  * E-E-A-T placeholders — replace with verified legal entity details before launch.
  * Used by OrganizationSchema / LocalBusiness trust signals.
@@ -10,7 +13,7 @@ export const TRUST_ENTITY = {
   name: SITE_NAME,
   description:
     'Licensed-style immigration assistance for Vietnam eVisa applications: expert review, secure processing, and 24/7 traveler support.',
-  supportEmail: 'support@vietnamemigration.com',
+  supportEmail: SUPPORT_EMAIL,
   hotline: '+84-28-1234-5678',
   hotlineDisplay: '+84 28 1234 5678',
   address: {

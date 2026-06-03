@@ -64,7 +64,7 @@ See live options on [/fees](/fees). Government-only filing may cost less but off
 
 ## How long does processing take?
 
-Standard processing is often quoted from **about 3 hours to 3 working days**, depending on volume and application quality. Holidays (**Tet**, summer peaks) add delay. Last-minute travel: [/faq/24-hour-vietnam-evisa](/faq/24-hour-vietnam-evisa). Approval is **never guaranteed** by your departure date.
+Standard processing is often quoted from **within 5 business days**, depending on volume and application quality. Holidays (**Tet**, summer peaks) add delay. Last-minute travel: [/faq/24-hour-vietnam-evisa](/faq/24-hour-vietnam-evisa). Approval is **never guaranteed** by your departure date.
 
 ## How to apply online: six steps
 

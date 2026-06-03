@@ -329,10 +329,10 @@ export default function CookiePolicyPage() {
                     <p className="text-brand-ink mb-2">
                       <strong>Email:</strong>{' '}
                       <a
-                        href="mailto:Visa@VietnamEmigration.com"
+                        href="mailto:visa@unitedevisa.com"
                         className="text-[var(--brand-primary)] hover:underline"
                       >
-                        Visa@VietnamEmigration.com
+                        visa@unitedevisa.com
                       </a>
                     </p>
                     <p className="text-brand-ink mb-2">

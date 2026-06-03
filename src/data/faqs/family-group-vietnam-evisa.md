@@ -11,7 +11,7 @@ faq:
   - question: Can I add travelers after submitting?
     answer: No. Additional travelers require a new application with their own documents and fees.
   - question: How long does group processing take?
-    answer: Processing typically takes 3 hours to 3 working days for all travelers when applications are complete.
+    answer: Processing typically takes within 5 business days for all travelers when applications are complete.
 ---
 
 ## Overview: Family & Group eVisa Applications
@@ -57,7 +57,7 @@ Vietnam welcomes families and groups! The eVisa system allows you to apply for u
    - Receive confirmation and reference numbers for each traveler
 8. **Track Status:**
    - Use reference numbers to track each application
-   - All approvals will be sent by email (typically within 3 hours to 3 working days)
+   - All approvals will be sent by email (typically within 5 business days)
 9. **Print eVisas:**
    - Print each eVisa approval letter for border control
 
@@ -91,7 +91,7 @@ Vietnam welcomes families and groups! The eVisa system allows you to apply for u
 - **Government Fee:** Varies by visa type (single entry: $55, multiple entry: $80 per person (tourist or business, 90 days))
 - **Service Fee:** $59.99 per passenger
 - **Payment:** Single transaction for all travelers
-- **Processing Time:** Typically 3 hours to 3 working days
+- **Processing Time:** Typically within 5 business days
 
 ## Troubleshooting & Common Mistakes
 

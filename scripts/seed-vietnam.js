@@ -10,8 +10,9 @@ const prisma = new PrismaClient();
 const docs = JSON.stringify(['Passport', 'Passport photo', 'Travel itinerary']);
 
 /** Standard processing: fastest (rush/urgent) → typical (normal). */
-const STANDARD_WAIT_TIME = 'From 1 working day to 3 working days';
+const STANDARD_WAIT_TIME = 'Within 5 business days';
 const INVERTED_WAIT_TIME = 'From 3 working days to 1 working day';
+const LEGACY_WAIT_TIME = 'From 1 working day to 3 working days';
 
 async function main() {
   const destinationId = 'vietnam';
@@ -57,12 +58,18 @@ async function main() {
     },
   ];
 
-  const fixed = await prisma.visaType.updateMany({
+  const fixedInverted = await prisma.visaType.updateMany({
     where: { destinationId, waitTime: INVERTED_WAIT_TIME },
     data: { waitTime: STANDARD_WAIT_TIME },
   });
-  if (fixed.count > 0) {
-    console.log(`Fixed inverted waitTime on ${fixed.count} visa type(s).`);
+  const fixedLegacy = await prisma.visaType.updateMany({
+    where: { destinationId, waitTime: LEGACY_WAIT_TIME },
+    data: { waitTime: STANDARD_WAIT_TIME },
+  });
+  if (fixedInverted.count > 0 || fixedLegacy.count > 0) {
+    console.log(
+      `Fixed waitTime: inverted=${fixedInverted.count}, legacy=${fixedLegacy.count}`
+    );
   }
 
   for (const vt of visaTypes) {
