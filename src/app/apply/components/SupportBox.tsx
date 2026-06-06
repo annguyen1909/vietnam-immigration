@@ -67,7 +67,8 @@ export default function SupportBox() {
           <li className="flex items-start">
             <span className="text-green-500 mr-2 mt-1">✔</span>
             <span>
-              Optional Urgent (3 days) / Super Urgent (1 day) processing at apply—fees shown before you pay
+              Optional Urgent (3 days) / Super Urgent (1 day) processing at apply—fees shown before
+              you pay
             </span>
           </li>
           <li className="flex items-start">

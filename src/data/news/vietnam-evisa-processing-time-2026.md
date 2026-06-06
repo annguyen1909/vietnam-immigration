@@ -10,7 +10,7 @@ tags: ['visa', 'processing']
 section: 'Visa Guides'
 faq:
   - question: How long does Vietnam eVisa approval take in 2026?
-    answer: **Normal** handling is within 5 business days after payment. Optional Urgent (3 days) or Super Urgent (1 day) tiers speed our side when your arrival date allows. Peak holidays and document issues can take longer. No private service can guarantee approval by a specific flight time.
+    answer: '**Normal** handling is within 5 business days after payment. Optional Urgent (3 days) or Super Urgent (1 day) tiers speed our side when your arrival date allows. Peak holidays and document issues can take longer. No private service can guarantee approval by a specific flight time.'
   - question: Is there same-day Vietnam eVisa processing?
     answer: Government timing is not guaranteed same-day. For last-minute travel, add Urgent (3 days) or Super Urgent (1 day) on our apply form when your arrival date allows—see our urgent FAQ if you fly within 72 hours.
   - question: Does paying an urgent fee guarantee faster government approval?

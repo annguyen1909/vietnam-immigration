@@ -257,7 +257,9 @@ export default function EmbassyPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✔</span>
-                <span>Optional Urgent (3 days) / Super Urgent (1 day) processing—fees shown at checkout</span>
+                <span>
+                  Optional Urgent (3 days) / Super Urgent (1 day) processing—fees shown at checkout
+                </span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✔</span>

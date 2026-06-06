@@ -125,8 +125,8 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
               {VIETNAM_PROCESSING_TIME}
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              <span className="mt-1 text-green-600">✔️</span>Optional Urgent (3 days) / Super Urgent (1 day)
-              processing—fees shown before you pay
+              <span className="mt-1 text-green-600">✔️</span>Optional Urgent (3 days) / Super Urgent
+              (1 day) processing—fees shown before you pay
             </div>
             <div className="flex items-start gap-2 text-black text-base">
               <span className="mt-1 text-green-600">✔️</span>Transparent pricing, no surprises
@@ -235,8 +235,8 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
                   working days
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  <span className="mt-1 text-green-600">✔️</span>Optional Urgent (3 days) / Super Urgent (1 day)
-                  processing—fees shown before you pay
+                  <span className="mt-1 text-green-600">✔️</span>Optional Urgent (3 days) / Super
+                  Urgent (1 day) processing—fees shown before you pay
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
                   <span className="mt-1 text-green-600">✔️</span>Transparent pricing, no surprises

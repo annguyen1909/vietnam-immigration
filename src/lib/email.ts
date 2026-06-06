@@ -229,8 +229,7 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
   try {
     // Production: visa@unitedevisa.com (domain must be verified in Resend).
     // Local test: set RESEND_FROM_EMAIL=onboarding@resend.dev (only delivers to your Resend account email).
-    const from =
-      process.env.RESEND_FROM_EMAIL || 'Vietnam eVisa Support <visa@unitedevisa.com>';
+    const from = process.env.RESEND_FROM_EMAIL || 'Vietnam eVisa Support <visa@unitedevisa.com>';
     let subject = '';
     let html = '';
     let recipient = to;

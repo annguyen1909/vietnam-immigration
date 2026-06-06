@@ -189,10 +189,10 @@ export default function FeesPage() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">You Have to Pay</h3>
                 <p className="text-gray-700 mb-6">
-                  Calculator total is government + service fees only. Add {VIETNAM_URGENCY_URGENT_LABEL}{' '}
-                  (+${VIETNAM_URGENCY_FEE_URGENT.toFixed(2)}/pax) or {VIETNAM_URGENCY_SUPER_LABEL}{' '}
-                  (+${VIETNAM_URGENCY_FEE_SUPER_URGENT.toFixed(2)}/pax) on the apply form if you
-                  need faster handling.
+                  Calculator total is government + service fees only. Add{' '}
+                  {VIETNAM_URGENCY_URGENT_LABEL} (+${VIETNAM_URGENCY_FEE_URGENT.toFixed(2)}/pax) or{' '}
+                  {VIETNAM_URGENCY_SUPER_LABEL} (+${VIETNAM_URGENCY_FEE_SUPER_URGENT.toFixed(2)}
+                  /pax) on the apply form if you need faster handling.
                 </p>
                 <Link
                   href="/apply"

@@ -3,9 +3,9 @@ question: 'Last-Minute Vietnam eVisa? Urgent (3 Days) & Super Urgent (1 Day) Gui
 slug: '24-hour-vietnam-evisa'
 faq:
   - question: Can I pay extra for faster processing?
-    answer: On our apply form you can add Super Urgent — 1 day (+$220/pax) or Urgent — 3 days (+$110/pax) for faster handling. **Normal** is **within 5 business days** (included)—apply as early as possible with complete documents.
+    answer: 'On our apply form you can add Super Urgent — 1 day (+$220/pax) or Urgent — 3 days (+$110/pax) for faster handling. **Normal** is **within 5 business days** (included)—apply as early as possible with complete documents.'
   - question: What is the fastest anyone has received a Vietnam eVisa?
-    answer: Rush tiers speed our review and submission—they do not guarantee government approval by a fixed hour. Standard **Normal** handling is within 5 business days; immigration volume and document quality still affect final approval.
+    answer: 'Rush tiers speed our review and submission—they do not guarantee government approval by a fixed hour. Standard **Normal** handling is within 5 business days; immigration volume and document quality still affect final approval.'
   - question: What if my flight is tomorrow and I do not have a visa?
     answer: Contact support with your reference number and proof of travel. Choose Super Urgent (1 day) if available for your arrival date, but be prepared to reschedule if approval does not arrive before check-in.
   - question: Can I get a visa on arrival instead?

@@ -442,16 +442,12 @@ export default function RefundPolicyPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-3">Refund Requests</h3>
-                    <p className="text-brand-primary-dark font-medium mb-2">
-                      visa@unitedevisa.com
-                    </p>
+                    <p className="text-brand-primary-dark font-medium mb-2">visa@unitedevisa.com</p>
                     <p className="text-sm text-gray-600">For all refund inquiries and requests</p>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-3">General Support</h3>
-                    <p className="text-brand-primary-dark font-medium mb-2">
-                      visa@unitedevisa.com
-                    </p>
+                    <p className="text-brand-primary-dark font-medium mb-2">visa@unitedevisa.com</p>
                     <p className="text-sm text-gray-600">For general questions and assistance</p>
                   </div>
                 </div>
