@@ -92,7 +92,13 @@ export function buildPageMetadata(input: PageMetadataInput): Metadata {
     title,
     description,
     keywords: input.keywords,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      languages: {
+        'en-US': url,
+        'x-default': url,
+      },
+    },
     robots: index
       ? { index: true, follow: true, googleBot: GOOGLE_BOT_INDEXABLE }
       : { index: false, follow: true },

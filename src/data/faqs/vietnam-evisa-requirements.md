@@ -104,9 +104,9 @@ Supporting Documents: _______________
 
 ## Legal References & Official Resources
 
-- [Vietnam Immigration Directorate General](https://www.imigrasi.go.id/)
-- [Official eVisa Portal](https://molina.imigrasi.go.id/)
-- [Ministry of Law and Human Rights](https://www.kemenkumham.go.id/)
+- [Vietnam National Electronic Visa System](https://evisa.gov.vn/?fs=e)
+- [Vietnam Immigration Department](https://immigration.gov.vn/)
+- [Official Vietnam eVisa application guide](https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application)
 - [IATA Travel Centre](https://www.iatatravelcentre.com/)
 
 ## Real-World Scenarios & Edge Cases

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import MarkdownContent from '@/components/ui/MarkdownContent';
 import MarkdownArticleWithToc from '@/components/ui/MarkdownArticleWithToc';
 import { extractMarkdownHeadings } from '@/lib/markdown-headings';
@@ -34,6 +35,7 @@ export async function generateMetadata({
   if (!post) {
     return {
       title: 'Post Not Found',
+      robots: { index: false, follow: false },
     };
   }
 
@@ -75,16 +77,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const post = getNewsPostBySlug(slug);
 
   if (!post) {
-    return (
-      <main className={`relative min-h-screen w-full bg-brand-surface text-brand-ink`}>
-        <div className="flex flex-col items-center justify-center min-h-screen">
-          <h1 className="text-4xl font-bold text-gray-900">Post not found</h1>
-          <Link href="/blog" className="mt-4 text-brand-primary hover:underline font-semibold">
-            Back to Blog
-          </Link>
-        </div>
-      </main>
-    );
+    notFound();
   }
 
   const postTitle = String(post.metadata.title ?? 'News Article');

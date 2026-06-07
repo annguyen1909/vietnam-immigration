@@ -13,6 +13,16 @@ const nextConfig = {
   images: {
     domains: ['flagcdn.com'],
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.vietnamemigration.com' }],
+        destination: 'https://vietnamemigration.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

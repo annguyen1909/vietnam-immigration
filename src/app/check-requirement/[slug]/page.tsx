@@ -66,10 +66,23 @@ export default async function CountryRequirementPage({ params }: PageProps) {
   const citizen = countryData.demonym ? countryData.demonym : `${countryData.displayName} citizens`;
   const country = countryData.displayName;
 
-  const faqSchemaItems = sharedFaqs.map((faq) => ({
-    question: faq.q.replace(/\{country\}/g, country).replace(/\{citizen\}/g, citizen),
-    answer: faq.a.replace(/\{country\}/g, country).replace(/\{citizen\}/g, citizen),
+  const formatCountryText = (value: string) =>
+    value
+      .replace(/\{country\}/g, country)
+      .replace(/\{citizen\}/g, citizen)
+      .replace(/5 business hours to 3 business days/gi, VIETNAM_PROCESSING_TIME);
+
+  const countryFaqSchemaItems = countryData.faqs.map((faq) => ({
+    question: formatCountryText(faq.q),
+    answer: formatCountryText(faq.a),
   }));
+
+  const sharedFaqSchemaItems = sharedFaqs.map((faq) => ({
+    question: formatCountryText(faq.q),
+    answer: formatCountryText(faq.a),
+  }));
+
+  const faqSchemaItems = [...countryFaqSchemaItems, ...sharedFaqSchemaItems];
 
   const howToSteps = [
     {
@@ -640,26 +653,18 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                       {`The duration of stay for ${country} citizens depends on the type of eVisa obtained:\n\n${visaTypesFaqStay}\n\nIf you need to stay longer, see the FAQ about visa extensions.`}
                     </ReactMarkdown>
                   </Accordion>
+                  {countryData.faqs.map((faq, idx) => (
+                    <Accordion key={`country-faq-${idx}`} title={formatCountryText(faq.q)}>
+                      <ReactMarkdown>{formatCountryText(faq.a)}</ReactMarkdown>
+                    </Accordion>
+                  ))}
                   {sharedFaqs
                     .filter(
                       (faq) => !/visa type|visa types|how many types|how long can/i.test(faq.q)
                     )
                     .map((faq, idx) => (
-                      <Accordion
-                        key={idx}
-                        title={faq.q
-                          .replace(/\{country\}/g, country)
-                          .replace(/\{citizen\}/g, citizen)}
-                      >
-                        <ReactMarkdown>
-                          {faq.a
-                            .replace(/\{country\}/g, country)
-                            .replace(/\{citizen\}/g, citizen)
-                            .replace(
-                              /5 business hours to 3 business days/gi,
-                              VIETNAM_PROCESSING_TIME
-                            )}
-                        </ReactMarkdown>
+                      <Accordion key={`shared-faq-${idx}`} title={formatCountryText(faq.q)}>
+                        <ReactMarkdown>{formatCountryText(faq.a)}</ReactMarkdown>
                       </Accordion>
                     ))}
                 </div>
@@ -706,31 +711,6 @@ export default async function CountryRequirementPage({ params }: PageProps) {
             </div>
           </div>
         </section>
-
-        {/* Hidden honeypot links in page content - invisible to users but crawled by bots */}
-        <div
-          className="absolute opacity-0 h-0 w-0 overflow-hidden pointer-events-none"
-          aria-hidden="true"
-        >
-          <Link href="/faq/visa-extension-process" className="hidden">
-            Visa Extension Process FAQ
-          </Link>
-          <Link href="/faq/visa-renewal-procedure" className="hidden">
-            Visa Renewal Procedure FAQ
-          </Link>
-          <Link href="/faq/visa-status-check-online" className="hidden">
-            Visa Status Check Online FAQ
-          </Link>
-          <Link href="/check-requirement/xyz-country" className="hidden">
-            XYZ Country Visa Requirements
-          </Link>
-          <Link href="/check-requirement/test-nation" className="hidden">
-            Test Nation Visa Requirements
-          </Link>
-          <Link href="/check-requirement/sample-country" className="hidden">
-            Sample Country Visa Requirements
-          </Link>
-        </div>
 
         <div className="relative w-full px-4 pb-10"></div>
         <SiteFooter />

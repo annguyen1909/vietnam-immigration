@@ -6,9 +6,11 @@ import MarkdownContent from '@/components/ui/MarkdownContent';
 import MarkdownArticleWithToc from '@/components/ui/MarkdownArticleWithToc';
 import HelpFloatingBox from '@/components/ui/HelpFloatingBox';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import glob from 'fast-glob';
 import { Metadata } from 'next';
 import { buildPageMetadata, faqPath } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import FAQSchema from '@/components/seo/FAQSchema';
 import { extractMarkdownHeadings, stripManualTableOfContents } from '@/lib/markdown-headings';
 import { ArrowLeftIcon, QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
@@ -73,6 +75,7 @@ export async function generateMetadata({
     return {
       title: 'FAQ Not Found | Vietnam eVisa',
       description: 'The requested FAQ page could not be found.',
+      robots: { index: false, follow: false },
     };
   }
 
@@ -111,17 +114,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   }
 
   if (!faq || !faq.question || !faq.answer) {
-    return (
-      <main className="relative min-h-screen w-full bg-white text-gray-900">
-        <div className="flex flex-col items-center justify-center min-h-screen">
-          <h1 className="text-3xl font-extrabold text-gray-900 mb-4">FAQ Not Found</h1>
-          <Link href="/faq" className="text-brand-primary hover:underline font-semibold">
-            Return to FAQ
-          </Link>
-        </div>
-        <SiteFooter />
-      </main>
-    );
+    notFound();
   }
 
   const markdownBody = stripManualTableOfContents(faq.answer);
@@ -158,6 +151,13 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <FAQSchema items={faqPairs} />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'FAQ', href: '/faq' },
+          { name: faq.question, href: faqPath(slug) },
+        ]}
+      />
       <main className="relative min-h-screen w-full bg-white text-gray-900">
         {/* Official Header Banner */}
         <div className="brand-banner">
@@ -278,28 +278,6 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
             </div>
           </div>
         </section>
-
-        {/* Hidden honeypot links in page content - invisible to users but crawled by bots */}
-        <div
-          className="absolute opacity-0 h-0 w-0 overflow-hidden pointer-events-none"
-          aria-hidden="true"
-        >
-          <Link href="/faq/visa-extension-process" className="hidden">
-            Visa Extension Process FAQ
-          </Link>
-          <Link href="/faq/visa-renewal-procedure" className="hidden">
-            Visa Renewal Procedure FAQ
-          </Link>
-          <Link href="/faq/visa-status-check-online" className="hidden">
-            Visa Status Check Online FAQ
-          </Link>
-          <Link href="/check-requirement/xyz-country" className="hidden">
-            XYZ Country Visa Requirements
-          </Link>
-          <Link href="/check-requirement/test-nation" className="hidden">
-            Test Nation Visa Requirements
-          </Link>
-        </div>
 
         <div className="relative w-full px-4 pb-10"></div>
         <SiteFooter />

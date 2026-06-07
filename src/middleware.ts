@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { sendHoneypotAlert, sendPhpBotAlert } from '@/lib/email';
+import { sendPhpBotAlert } from '@/lib/email';
 
 // Global rate limiting store (in-memory, resets on server restart)
 // In production, consider using Redis or Vercel Edge Config
@@ -63,57 +63,10 @@ const SECURITY_CODES = {
   REP_601: 'REP-601', // Route repetition (same route too many times)
   RPD_702: 'RPD-702', // Rapid-fire burst (too many in short time)
   RTL_803: 'RTL-803', // Rate limit exceeded (too many requests per window)
-  HPY_901: 'HPY-901', // Honeypot URL accessed (fake admin/WordPress endpoints)
 } as const;
 
-// HONEYPOT URLs - fake endpoints that should never be accessed by legitimate users
-// These are hidden in HTML but bots will crawl them
-// FAQ/check-requirement honeypots look legitimate but are NOT in sitemap
-// Only malicious bots blindly crawling will discover these
-const HONEYPOT_PATHS = [
-  // Admin/system honeypots
-  '/wp-admin/login',
-  '/wp-admin',
-  '/wp-login.php',
-  '/admin/panel',
-  '/internal/config',
-  '/api/admin/status',
-  '/phpmyadmin',
-  '/.env',
-  '/administrator',
-  '/cgi-bin/test',
-  '/wp-content/uploads',
-  '/wp-includes',
-  '/wp-config.php',
-  '/backup',
-  '/database',
-  '/mysql',
-  '/config.php',
-  '/shell.php',
-  '/cmd.php',
-  '/exec.php',
-  // FAQ honeypots - look like legitimate question slugs but don't exist
-  // These are NOT in sitemap, so legitimate bots won't find them
-  '/faq/visa-extension-process',
-  '/faq/visa-renewal-procedure',
-  '/faq/visa-status-check-online',
-  '/faq/visa-application-denial',
-  '/faq/visa-fee-payment-options',
-  '/faq/visa-processing-time-estimate',
-  '/faq/vietnam-visa-requirements-update',
-  '/faq/visa-application-support-help',
-  // Check-requirement honeypots - look like legitimate country slugs but don't exist
-  // These are NOT in sitemap, so legitimate bots won't find them
-  '/check-requirement/xyz-country',
-  '/check-requirement/test-nation',
-  '/check-requirement/sample-country',
-  '/check-requirement/demo-nation',
-  '/check-requirement/example-country',
-] as const;
-
 // Verified bots - comprehensive list from Vercel's bots.fyi directory
-// These respect robots.txt and should not access honeypots
-// If they somehow do, return 404 instead of 403 (less aggressive)
+// These are exempt from visitor rate limits.
 // Source: https://vercel.com/docs/bot-management (bots.fyi directory)
 const VERIFIED_BOTS = [
   // Major Search Engine Crawlers
@@ -493,144 +446,6 @@ function checkRouteRepetition(ip: string, pathname: string): boolean {
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
-
-  // HONEYPOT DETECTION - redirect loop for malicious bots, 404 for verified bots
-  // These URLs are hidden in HTML but visible to bots
-  // Legitimate users should NEVER access these paths (they're in robots.txt as Disallow)
-  if (
-    HONEYPOT_PATHS.some(
-      (honeypotPath) => pathname === honeypotPath || pathname.startsWith(honeypotPath + '/')
-    )
-  ) {
-    const clientIP = getClientIP(request);
-    const userAgent = request.headers.get('user-agent') || 'unknown';
-    const isVerified = isVerifiedBot(userAgent);
-
-    // Log the honeypot access
-    console.warn(
-      `[SECURITY] ${SECURITY_CODES.HPY_901}|X=0|T=0|IP=${clientIP}|PATH=${pathname}|UA=${userAgent.substring(0, 100)}|VERIFIED=${isVerified}`
-    );
-
-    // Send email alert for ALL honeypot hits (both verified and malicious bots)
-    // Rate limited to 1 per IP per hour
-    // Run asynchronously so it doesn't block the response
-    console.log(
-      `[HONEYPOT] Calling sendHoneypotAlert for IP=${clientIP}|PATH=${pathname}|VERIFIED=${isVerified}`
-    );
-    sendHoneypotAlert({
-      ip: clientIP,
-      path: pathname,
-      userAgent: userAgent.substring(0, 500), // Limit UA length
-      referer: request.headers.get('referer') || undefined,
-      timestamp: new Date(),
-      isVerifiedBot: isVerified, // Indicate whether it's a verified bot or malicious
-    })
-      .then((result) => {
-        // Log result even if it doesn't throw - catches missing RESEND_API_KEY, rate limits, etc.
-        if (!result.success) {
-          console.error(
-            `[HONEYPOT EMAIL FAILED] IP=${clientIP}|PATH=${pathname}|ERROR=${result.error || 'unknown'}`
-          );
-        } else {
-          console.log(`[HONEYPOT EMAIL SENT] IP=${clientIP}|PATH=${pathname}`);
-        }
-      })
-      .catch((error) => {
-        // Log error but don't block the response
-        console.error(`[HONEYPOT EMAIL ERROR] IP=${clientIP}|PATH=${pathname}|ERROR=`, error);
-      });
-
-    // If it's a verified search engine bot, return 404 (not found) - harmless
-    // They should respect robots.txt and not access these anyway
-    if (isVerified) {
-      return new NextResponse('Not Found', { status: 404 });
-    }
-
-    // ENHANCED INFINITE REDIRECT LOOP for malicious bots
-    // Strategy: Make it as damaging as possible by:
-    // 1. Tracking redirect count via query params (bypasses browser redirect limits)
-    // 2. Adding random query parameters to prevent caching and make each request unique
-    // 3. Using 301 permanent redirects (bots may process these differently)
-    // 4. Cycling through many honeypot paths
-    // 5. Adding fake session/token parameters to waste bot's parsing time
-
-    // Extract redirect count from query parameter (if present)
-    const redirectCount = parseInt(request.nextUrl.searchParams.get('_r') || '0', 10);
-    const maxRedirects = 1000; // Very high limit - most bots will give up before this
-
-    // If we've hit max redirects, return 404 to stop (but bot has wasted massive resources)
-    if (redirectCount >= maxRedirects) {
-      return new NextResponse('Not Found', { status: 404 });
-    }
-
-    // Get current path and calculate next honeypot URL
-    const currentHoneypotIndex = HONEYPOT_PATHS.findIndex(
-      (hp) => pathname === hp || pathname.startsWith(hp + '/')
-    );
-
-    // Use multiple strategies to vary redirect behavior:
-    // 1. Simple increment (most common)
-    // 2. Random selection (unpredictable)
-    // 3. Pattern-based (looks like real navigation)
-    let nextHoneypotIndex: number;
-    if (redirectCount % 3 === 0) {
-      // Every 3rd redirect: random selection (unpredictable)
-      nextHoneypotIndex = Math.floor(Math.random() * HONEYPOT_PATHS.length);
-    } else if (redirectCount % 5 === 0) {
-      // Every 5th redirect: jump by larger increment (pattern variation)
-      nextHoneypotIndex =
-        (currentHoneypotIndex + Math.floor(redirectCount / 5) + 1) % HONEYPOT_PATHS.length;
-    } else {
-      // Default: simple increment
-      nextHoneypotIndex = (currentHoneypotIndex + 1) % HONEYPOT_PATHS.length;
-    }
-
-    const nextHoneypotPath = HONEYPOT_PATHS[nextHoneypotIndex];
-
-    // Build redirect URL with multiple query parameters to:
-    // 1. Track redirect count (_r)
-    // 2. Add random nonce to prevent caching (_n)
-    // 3. Add fake session/token parameters to waste bot's parsing time
-    const url = new URL(request.url);
-    url.pathname = nextHoneypotPath;
-
-    // Clear existing query params and add new ones
-    url.search = '';
-    url.searchParams.set('_r', (redirectCount + 1).toString());
-    url.searchParams.set('_n', Math.random().toString(36).substring(2, 15)); // Random nonce
-    url.searchParams.set('_t', Date.now().toString()); // Timestamp
-    url.searchParams.set('_s', Math.random().toString(36).substring(2, 20)); // Fake session ID
-    url.searchParams.set('_k', Math.random().toString(36).substring(2, 30)); // Fake token
-    url.searchParams.set('ref', `honeypot-${redirectCount}`); // Fake referrer tracking
-    url.searchParams.set('sid', Math.random().toString(36).substring(2, 25)); // Fake session ID 2
-    // Generate fake token (long random string to waste parsing time)
-    const fakeToken =
-      Math.random().toString(36).substring(2) +
-      Math.random().toString(36).substring(2) +
-      Date.now().toString(36);
-    url.searchParams.set('token', fakeToken.substring(0, 40)); // Fake auth token
-
-    // Use 301 (Permanent Redirect) instead of 302 (Temporary)
-    // Some bots may cache 301s differently, and it signals "permanent" which might
-    // cause bots to follow more aggressively or cache the redirect chain
-    // This wastes more resources as bots may store these redirects
-    const response = NextResponse.redirect(url, { status: 301 });
-
-    // Add headers to make the response look legitimate and prevent early detection
-    response.headers.set('Cache-Control', 'no-cache, no-store, must-revalidate');
-    response.headers.set('Pragma', 'no-cache');
-    response.headers.set('Expires', '0');
-    response.headers.set('X-Redirect-Count', (redirectCount + 1).toString());
-
-    // Set a cookie to track (wastes bot's cookie parsing time)
-    response.cookies.set(`_hp_${redirectCount % 10}`, Math.random().toString(36), {
-      httpOnly: true,
-      sameSite: 'lax',
-      maxAge: 3600,
-    });
-
-    return response;
-  }
 
   // Bot detection - block immediately if suspicious (for all requests)
   // This is the FIRST line of defense - catches ALL .php requests before anything else

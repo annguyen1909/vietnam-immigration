@@ -17,7 +17,13 @@ import { getVietnamHomePageDescription } from '@/lib/vietnamPricing';
 export const metadata: Metadata = {
   title: 'Official Vietnam eVisa Application',
   description: getVietnamHomePageDescription(),
-  alternates: { canonical: 'https://vietnamemigration.com' },
+  alternates: {
+    canonical: 'https://vietnamemigration.com',
+    languages: {
+      'en-US': 'https://vietnamemigration.com',
+      'x-default': 'https://vietnamemigration.com',
+    },
+  },
   openGraph: {
     type: 'website',
     url: 'https://vietnamemigration.com',
@@ -25,6 +31,14 @@ export const metadata: Metadata = {
     description: 'Guided Vietnam eVisa applications with transparent pricing and expert review.',
     siteName: 'Vietnam Official eVisa',
     images: [{ url: '/img/vietnam-hero.jpg', width: 1200, height: 630, alt: 'Vietnam travel' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@vietnam_immigration',
+    creator: '@vietnam_immigration',
+    title: 'Vietnam eVisa — Apply Online',
+    description: 'Guided Vietnam eVisa applications with transparent pricing and expert review.',
+    images: ['/img/vietnam-hero.jpg'],
   },
 };
 
