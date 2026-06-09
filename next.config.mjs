@@ -9,6 +9,14 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
   experimental: {
     mdxRs: true,
+    // Keep markdown on disk if sitemap route is ever regenerated on the server.
+    outputFileTracingIncludes: {
+      '/sitemap.xml': [
+        './src/data/news/**/*',
+        './src/data/faqs/**/*',
+        './src/data/troubleshooting/**/*',
+      ],
+    },
   },
   images: {
     domains: ['flagcdn.com'],

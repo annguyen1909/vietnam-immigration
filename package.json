@@ -15,7 +15,8 @@
     "seed:vietnam": "node scripts/seed-vietnam.js",
     "seed:urgency": "node scripts/seed-urgency.js",
     "seed:insurance": "node scripts/seed-insurance.js",
-    "seed:addons": "node scripts/seed-urgency.js && node scripts/seed-insurance.js"
+    "seed:addons": "node scripts/seed-urgency.js && node scripts/seed-insurance.js",
+    "indexnow": "node scripts/submit-indexnow.js"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
