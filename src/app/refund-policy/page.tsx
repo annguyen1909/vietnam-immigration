@@ -1,5 +1,6 @@
 import React from 'react';
 import SiteFooter from '@/components/layout/SiteFooter';
+import { SUPPORT_EMAIL } from '@/components/seo/constants';
 import type { Metadata } from 'next';
 import { buildStaticPageMetadata } from '@/lib/seo';
 
@@ -442,12 +443,22 @@ export default function RefundPolicyPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-3">Refund Requests</h3>
-                    <p className="text-brand-primary-dark font-medium mb-2">visa@vietnamemigration.com</p>
+                    <a
+                      href={`mailto:${SUPPORT_EMAIL}`}
+                      className="text-brand-primary-dark font-medium mb-2 inline-block hover:underline"
+                    >
+                      {SUPPORT_EMAIL}
+                    </a>
                     <p className="text-sm text-gray-600">For all refund inquiries and requests</p>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-3">General Support</h3>
-                    <p className="text-brand-primary-dark font-medium mb-2">visa@vietnamemigration.com</p>
+                    <a
+                      href={`mailto:${SUPPORT_EMAIL}`}
+                      className="text-brand-primary-dark font-medium mb-2 inline-block hover:underline"
+                    >
+                      {SUPPORT_EMAIL}
+                    </a>
                     <p className="text-sm text-gray-600">For general questions and assistance</p>
                   </div>
                 </div>
