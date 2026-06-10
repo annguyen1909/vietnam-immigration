@@ -1,5 +1,12 @@
 import { Resend } from 'resend';
 import { SUPPORT_FROM } from '@/components/seo/constants';
+import {
+  emailButton,
+  emailCard,
+  emailParagraph,
+  escapeHtml,
+  renderEmailLayout,
+} from '@/lib/emailLayout';
 import { prisma } from '@/lib/prisma';
 import { getPublicSiteUrl } from '@/lib/seo';
 import { DEFAULT_SERVICE_FEE } from '@/lib/serviceFee';
@@ -267,54 +274,59 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
         const appUrl = getPublicSiteUrl();
 
         subject = `Payment Confirmation for Your Vietnam eVisa (ID: ${application.applicationId})`;
-        html = `
-          <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
-            <div style="background-color: #0A284B; color: white; padding: 20px; text-align: center;">
-              <h1 style="margin: 0; font-size: 24px;">Payment Confirmed</h1>
-            </div>
-            <div style="padding: 20px;">
-              <p>Dear ${contactName},</p>
-              <p>Thank you for your payment. Your application for the Vietnam eVisa has been successfully submitted and is now being processed.</p>
-              
-              <div style="background-color: #f9f9f9; border-radius: 8px; padding: 15px; margin: 20px 0;">
-                <h2 style="font-size: 18px; color: #0A284B; margin-top: 0;">Application Summary</h2>
-                <p><strong>Application ID:</strong> <span style="font-family: monospace; background-color: #eee; padding: 2px 5px; border-radius: 4px;">${application.applicationId}</span></p>
-                <p><strong>Primary Contact:</strong> ${recipient}</p>
-                <p><strong>Total Passengers:</strong> ${passengerCount}</p>
-              </div>
-
-              <div style="border-top: 1px solid #ddd; margin-top: 20px; padding-top: 20px;">
-                <h2 style="font-size: 18px; color: #0A284B; margin-top: 0;">Order Summary</h2>
-                <table style="width: 100%; border-collapse: collapse;">
+        html = renderEmailLayout({
+          title: 'Payment Confirmed',
+          preheader: `Your Vietnam eVisa payment was received. Application ${application.applicationId}.`,
+          bodyHtml: `
+            ${emailParagraph(`Dear <strong>${escapeHtml(contactName)}</strong>,`)}
+            ${emailParagraph(
+              'Thank you for your payment. Your Vietnam eVisa application has been submitted and is now being processed by our team.'
+            )}
+            ${emailCard(
+              'Application summary',
+              `
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #1F2937;">
                   <tr>
-                    <td style="padding: 8px 0;">Government Fee:</td>
-                    <td style="padding: 8px 0; text-align: right;">$${governmentFee.toFixed(2)} x ${passengerCount}</td>
+                    <td style="padding: 6px 0; color: #6B7280;">Application ID</td>
+                    <td style="padding: 6px 0; text-align: right; font-weight: 700; font-family: Consolas, Monaco, monospace;">${escapeHtml(application.applicationId)}</td>
                   </tr>
                   <tr>
-                    <td style="padding: 8px 0;">Service Fee:</td>
-                    <td style="padding: 8px 0; text-align: right;">$${serviceFee.toFixed(2)} x ${passengerCount}</td>
+                    <td style="padding: 6px 0; color: #6B7280;">Primary contact</td>
+                    <td style="padding: 6px 0; text-align: right;">${escapeHtml(recipient)}</td>
                   </tr>
-                  <tr style="font-weight: bold;">
-                    <td style="padding: 8px 0; border-top: 1px solid #ddd;">Total Paid:</td>
-                    <td style="padding: 8px 0; border-top: 1px solid #ddd; text-align: right;">$${total.toFixed(2)}</td>
+                  <tr>
+                    <td style="padding: 6px 0; color: #6B7280;">Passengers</td>
+                    <td style="padding: 6px 0; text-align: right;">${passengerCount}</td>
                   </tr>
                 </table>
-              </div>
-
-              <div style="margin-top: 30px; text-align: center;">
-                <h2 style="font-size: 18px; color: #0A284B;">What's Next?</h2>
-                <p>You may need to upload documents for some or all passengers on your application. Please proceed to the document upload step.</p>
-                <a href="${appUrl}/apply?applicationId=${application.applicationId}" style="display: inline-block; background-color: #FFCD00; color: #0A284B; padding: 12px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 10px;">
-                  Continue to Document Upload
-                </a>
-              </div>
-            </div>
-            <div style="background-color: #f0f0f0; padding: 15px; font-size: 12px; text-align: center; color: #666;">
-              <p>If you have any questions, please contact our 24/7 support.</p>
-              <p>&copy; ${new Date().getFullYear()} Vietnam eVisa. All Rights Reserved.</p>
-            </div>
-          </div>
-        `;
+              `
+            )}
+            ${emailCard(
+              'Order summary',
+              `
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #1F2937;">
+                  <tr>
+                    <td style="padding: 8px 0;">Government fee</td>
+                    <td style="padding: 8px 0; text-align: right;">$${governmentFee.toFixed(2)} × ${passengerCount}</td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 8px 0;">Service fee</td>
+                    <td style="padding: 8px 0; text-align: right;">$${serviceFee.toFixed(2)} × ${passengerCount}</td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 12px 0 0; border-top: 1px solid #D1D5DB; font-weight: 700;">Total paid</td>
+                    <td style="padding: 12px 0 0; border-top: 1px solid #D1D5DB; text-align: right; font-weight: 700; color: #0A284B;">$${total.toFixed(2)}</td>
+                  </tr>
+                </table>
+              `
+            )}
+            ${emailParagraph('<strong>What happens next?</strong>')}
+            ${emailParagraph(
+              'Upload passport scans and photos for each passenger so we can review your documents before government submission.'
+            )}
+            ${emailButton(`${appUrl}/apply?applicationId=${application.applicationId}`, 'Continue to document upload')}
+          `,
+        });
         break;
       }
 
@@ -322,18 +334,32 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
         if (!recipient) throw new Error('Recipient is required for welcome email');
         const user = await prisma.account.findFirst({ where: { email: recipient } });
         subject = 'Welcome to Vietnam eVisa';
-        html = `
-          <h1>Welcome to Vietnam eVisa!</h1>
-          <p>Dear ${user?.fullName || 'Customer'},</p>
-          <p>Thank you for creating an account. We're excited to help you with your visa application process.</p>
-          <ul>
-            <li><a href="${getPublicSiteUrl()}/apply">Apply for eVisa</a></li>
-            <li><a href="${getPublicSiteUrl()}/visa-status">Check Visa Status</a></li>
-            <li><a href="${getPublicSiteUrl()}/account">View Your Account</a></li>
-          </ul>
-          <p>If you need any assistance, please don't hesitate to contact our 24/7 support team.</p>
-          <p>Best regards,<br>Vietnam eVisa Team</p>
-        `;
+        html = renderEmailLayout({
+          title: 'Welcome aboard',
+          preheader: 'Your Vietnam eVisa account is ready. Start your application anytime.',
+          bodyHtml: `
+            ${emailParagraph(`Dear <strong>${escapeHtml(user?.fullName || 'Customer')}</strong>,`)}
+            ${emailParagraph(
+              'Thank you for creating an account. You can now apply for your Vietnam eVisa, track your application, and upload documents from one place.'
+            )}
+            ${emailButton(`${getPublicSiteUrl()}/apply`, 'Start your eVisa application')}
+            ${emailCard(
+              'Quick links',
+              `
+                <p style="margin: 0 0 10px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.7;">
+                  <a href="${getPublicSiteUrl()}/apply" style="color: #0A284B; font-weight: 600; text-decoration: none;">Apply for eVisa</a>
+                </p>
+                <p style="margin: 0 0 10px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.7;">
+                  <a href="${getPublicSiteUrl()}/applications" style="color: #0A284B; font-weight: 600; text-decoration: none;">View your applications</a>
+                </p>
+                <p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.7;">
+                  <a href="${getPublicSiteUrl()}/account" style="color: #0A284B; font-weight: 600; text-decoration: none;">Manage your account</a>
+                </p>
+              `
+            )}
+            ${emailParagraph('Our support team is available 24/7 if you need help at any step.')}
+          `,
+        });
         break;
       }
 
@@ -341,14 +367,20 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
         if (!recipient) throw new Error('Recipient is required for email verification');
         const user = await prisma.account.findFirst({ where: { email: recipient } });
         subject = 'Verify Your Email';
-        html = `
-          <h1>Email Verification</h1>
-          <p>Dear ${user?.fullName || 'Customer'},</p>
-          <p>Please verify your email address by clicking the link below:</p>
-          <p><a href="${getPublicSiteUrl()}/verify-email/${data?.token}">Verify Email</a></p>
-          <p>This link will expire in 24 hours.</p>
-          <p>Best regards,<br>Vietnam eVisa Team</p>
-        `;
+        html = renderEmailLayout({
+          title: 'Verify your email',
+          preheader: 'Confirm your email address to secure your Vietnam eVisa account.',
+          bodyHtml: `
+            ${emailParagraph(`Dear <strong>${escapeHtml(user?.fullName || 'Customer')}</strong>,`)}
+            ${emailParagraph(
+              'Please confirm your email address to finish setting up your account and keep your application secure.'
+            )}
+            ${emailButton(`${getPublicSiteUrl()}/verify-email/${data?.token}`, 'Verify email address')}
+            ${emailParagraph(
+              '<span style="color: #6B7280; font-size: 14px;">This link expires in 24 hours. If you did not create an account, you can ignore this message.</span>'
+            )}
+          `,
+        });
         break;
       }
 
@@ -357,19 +389,20 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
         if (!recipient) throw new Error('Recipient is required for reset-password');
         const user = await prisma.account.findFirst({ where: { email: recipient } });
         subject = 'Reset Your Password';
-        html = `
-          <h1>Password Reset Request</h1>
-          <p>Dear ${user?.fullName || 'Customer'},</p>
-          <p>We received a request to reset your password. Click the link below to set a new password:</p>
-          <p>
-            <a href="${getPublicSiteUrl()}/reset-password/${data?.token}">
-              Reset Password
-            </a>
-          </p>
-          <p>This link will expire in 1 hour.</p>
-          <p>If you didn't request this, please ignore this email.</p>
-          <p>Best regards,<br>Vietnam eVisa Team</p>
-        `;
+        html = renderEmailLayout({
+          title: 'Reset your password',
+          preheader: 'Use this secure link to set a new password for your Vietnam eVisa account.',
+          bodyHtml: `
+            ${emailParagraph(`Dear <strong>${escapeHtml(user?.fullName || 'Customer')}</strong>,`)}
+            ${emailParagraph(
+              'We received a request to reset the password for your account. Click the button below to choose a new password.'
+            )}
+            ${emailButton(`${getPublicSiteUrl()}/reset-password/${data?.token}`, 'Reset password')}
+            ${emailParagraph(
+              '<span style="color: #6B7280; font-size: 14px;">This link expires in 1 hour. If you did not request a reset, you can safely ignore this email.</span>'
+            )}
+          `,
+        });
         break;
       }
 
@@ -379,7 +412,10 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
           throw new Error(`No recipient email address provided for template: ${template}`);
         }
         subject = 'Vietnam eVisa Notification';
-        html = `<p>This is a default notification from Vietnam eVisa.</p>`;
+        html = renderEmailLayout({
+          title: 'Notification',
+          bodyHtml: emailParagraph('This is a notification from Vietnam eVisa Support.'),
+        });
         break;
       }
     }
