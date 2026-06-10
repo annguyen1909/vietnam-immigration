@@ -1,33 +1,28 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PrismaClient } from '../../../../generated/prisma';
-import { hash } from 'bcryptjs';
 import { randomUUID } from 'crypto';
 import { prisma } from '@/lib/prisma';
-import { validateSession } from '@/lib/auth';
+import { findAccountByEmail, hashPassword, validateSession } from '@/lib/auth';
 import { getServiceFee } from '@/lib/serviceFee';
 import { resolveUrgencyFeePerPax, type UrgencyValue } from '@/lib/urgency';
-import { prisma as sharedPrisma } from '@/lib/prisma';
 
-const prismaClient = new PrismaClient();
+const WEBSITE = 'Vietnam Local Site';
 
-// Function to generate a unique application ID
 async function generateUniqueApplicationId(): Promise<string> {
-  let applicationId: string = '';
-  let isUnique = false;
-
-  while (!isUnique) {
+  for (let attempt = 0; attempt < 20; attempt++) {
     const randomDigits = Math.floor(100000 + Math.random() * 900000).toString();
-    applicationId = `VN${randomDigits}`;
+    const applicationId = `VN${randomDigits}`;
 
-    const existingApplication = await prismaClient.application.findUnique({
+    const existingApplication = await prisma.application.findUnique({
       where: { applicationId },
+      select: { id: true },
     });
 
     if (!existingApplication) {
-      isUnique = true;
+      return applicationId;
     }
   }
-  return applicationId;
+
+  throw new Error('Could not generate a unique application ID');
 }
 
 export async function POST(request: NextRequest) {
@@ -58,8 +53,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Missing required personal information' }, { status: 400 });
     }
 
-    // Fetch visa type to get the fee
-    const visaType = await prismaClient.visaType.findUnique({
+    const visaType = await prisma.visaType.findUnique({
       where: { id: visaTypeId },
       select: { fees: true },
     });
@@ -79,7 +73,7 @@ export async function POST(request: NextRequest) {
       (urgency as UrgencyValue) || '',
       async (name) => {
         try {
-          const addon = await sharedPrisma.addOnConfig.findFirst({
+          const addon = await prisma.addOnConfig.findFirst({
             where: {
               type: { equals: 'urgency', mode: 'insensitive' },
               name,
@@ -96,31 +90,19 @@ export async function POST(request: NextRequest) {
     const urgencyFee = urgencyFeePerPax * passengerCount;
     const total = governmentFee + serviceFee + urgencyFee;
 
-    const website = 'Vietnam Local Site';
+    let account = await findAccountByEmail(email, WEBSITE);
 
-    // 1. Check if account exists with the email address for this website
-    let account = await prismaClient.account.findUnique({
-      where: {
-        email_websiteCreatedAt: {
-          email: email.toLowerCase(),
-          websiteCreatedAt: website,
-        },
-      },
-    });
-
-    // If account doesn't exist, create an account
     if (!account) {
-      const randomPassword = randomUUID(); // You might want to send this to the user
-      const hashedPassword = await hash(randomPassword, 12);
-      account = await prismaClient.account.create({
+      const hashedPassword = await hashPassword(randomUUID());
+      account = await prisma.account.create({
         data: {
           email: email.toLowerCase(),
           fullName,
           areaCode,
           phoneNumber,
           gender,
-          password: hashedPassword, // Store hashed password
-          websiteCreatedAt: website,
+          password: hashedPassword,
+          websiteCreatedAt: WEBSITE,
         },
       });
     }
@@ -129,7 +111,7 @@ export async function POST(request: NextRequest) {
     const newApplicationId = await generateUniqueApplicationId();
 
     // Create the application
-    const application = await prismaClient.application.create({
+    const application = await prisma.application.create({
       data: {
         applicationId: newApplicationId,
         destinationId,
@@ -171,9 +153,11 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error('Error creating application:', error);
-    return NextResponse.json({ error: 'Failed to create application' }, { status: 500 });
-  } finally {
-    await prismaClient.$disconnect();
+    const message =
+      error instanceof Error && process.env.NODE_ENV !== 'production'
+        ? error.message
+        : 'Failed to create application';
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }
 
@@ -234,7 +218,5 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Error fetching applications:', error);
     return NextResponse.json({ error: 'Failed to fetch applications' }, { status: 500 });
-  } finally {
-    await prisma.$disconnect();
   }
 }

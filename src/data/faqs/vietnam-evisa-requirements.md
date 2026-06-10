@@ -102,13 +102,6 @@ Phone: _____________________________
 Supporting Documents: _______________
 ```
 
-## Legal References & Official Resources
-
-- [Vietnam National Electronic Visa System](https://evisa.gov.vn/?fs=e)
-- [Vietnam Immigration Department](https://immigration.gov.vn/)
-- [Official Vietnam eVisa application guide](https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application)
-- [IATA Travel Centre](https://www.iatatravelcentre.com/)
-
 ## Real-World Scenarios & Edge Cases
 
 ### Scenario 1: Family of Four (Two Adults, Two Children)
@@ -157,7 +150,7 @@ Supporting Documents: _______________
 
 - [ ] Check your eligibility
 - [ ] Prepare all required documents
-- [ ] Apply online at the official portal
+- [ ] Apply online at [/apply](/apply)
 - [ ] Upload clear, correct files
 - [ ] Pay fees promptly
 - [ ] Track your application
@@ -165,4 +158,4 @@ Supporting Documents: _______________
 - [ ] Bring all documents to the border
 - [ ] Apply early to avoid delays
 
-The Vietnam eVisa process is designed to be accessible and efficient. For the latest updates, always check the official Vietnam Immigration website or contact your nearest Vietnamese embassy.
+The Vietnam eVisa process is designed to be accessible and efficient. For the latest updates, use our [check-requirement tool](/check-requirement) or contact support before you pay.

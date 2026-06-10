@@ -21,7 +21,7 @@ faq:
 
 Paying for a **Vietnam eVisa** is rarely one line item. In 2026, most travelers on our portal see a **government fee** (by visa type), a **service fee** ($59.99 per passenger), and sometimes an **optional processing upgrade** when filing through [/apply](/apply). Knowing each part helps you budget and avoid surprise charges at checkout.
 
-**We are a private visa assistance service—not the Government of Vietnam.** We display fees separately; you may file directly on official government portals at lower total cost if you prefer fully self-service.
+**We are a private visa assistance service—not the Government of Vietnam.** We display every fee line before checkout so you know the full total before payment.
 
 ## Current government fees (four visa types)
 

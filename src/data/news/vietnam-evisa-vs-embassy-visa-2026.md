@@ -89,11 +89,10 @@ Details: [/blog/vietnam-evisa-processing-time-2026](/blog/vietnam-evisa-processi
 
 Frequent hops (Vietnam ↔ Singapore ↔ Vietnam) may need a **multiple-entry eVisa** when offered on [/fees](/fees). If unavailable online, ask an embassy whether a **sticker multiple-entry** visa fits your itinerary—[/faq/vietnam-evisa-entry-points](/faq/vietnam-evisa-entry-points).
 
-## Assisted eVisa vs DIY vs embassy agents
+## Assisted eVisa vs embassy agents
 
 | Channel | What you pay for |
 | :--- | :--- |
-| **Government portal only** | Lowest fee; you manage errors alone |
 | **Assisted eVisa (this site)** | Validation, support, fee transparency—[/about](/about) |
 | **Embassy + third-party agent** | Their service layer on top of consular fees |
 

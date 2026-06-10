@@ -495,9 +495,11 @@ export default function ApplyPage() {
         body: JSON.stringify(completeData),
       });
 
-      if (!response.ok) throw new Error('Failed to create application');
-
       const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to create application');
+      }
 
       handleDataChange({
         applicationId: result.applicationId,

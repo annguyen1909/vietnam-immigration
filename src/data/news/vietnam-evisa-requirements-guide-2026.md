@@ -11,26 +11,26 @@ tags: ["visa", "requirements", "2026"]
 section: "Visa Guides"
 faq:
   - question: "What are the Vietnam eVisa Requirements 2026?"
-    answer: "Most applicants need a passport valid for at least six months beyond arrival, a clear passport bio-page scan, a compliant portrait photo, a valid email address, accurate travel details, the correct Vietnam visa port of entry, and a card for payment. Eligibility and exemptions should be checked before applying."
+    answer: "Most applicants need a passport valid for at least six months beyond arrival, a clear passport bio-page scan, a compliant portrait photo, a valid email address, accurate travel dates and passenger details, and a card for payment. Your approved eVisa will list an authorized entry port that must match your first arrival. Eligibility and exemptions should be checked before applying."
   - question: "Is the Vietnam tourist visa valid for 90 days in 2026?"
     answer: "Vietnam eVisas are available for stays up to 90 days, with single-entry and multiple-entry options. The exact validity dates and entry type are printed on the approved eVisa."
-  - question: "What is the official Vietnam e-visa website?"
-    answer: "The Vietnam Immigration Department announced evisa.gov.vn and thithucdientu.gov.vn as official eVisa portal domains. Travelers can also use a private assistance service for document review and application support."
+  - question: "Where do I apply for a Vietnam eVisa?"
+    answer: "Start on vietnamemigration.com at /apply — choose visa type and travel dates, enter passenger details, pay securely, and upload passport scans and photos. Our team reviews documents and supports you through approval."
   - question: "What are Vietnam entry requirements for US/UK/Australian citizens?"
     answer: "US and Australian passport holders generally need a visa or eVisa for ordinary tourist travel. UK citizens may qualify for short visa-exempt stays, but should apply for an eVisa for longer trips, multiple entry, or if their itinerary exceeds exemption rules."
   - question: "How long is Vietnam visa processing time 2026?"
     answer: "Standard eVisa handling commonly takes several working days. This service presents normal handling as within 5 business days, with optional urgent handling when available. Approval is controlled by Vietnamese authorities and cannot be guaranteed by a private service."
   - question: "What is the cost of Vietnam eVisa in 2026?"
-    answer: "Government-only eVisa portal fees are separate from private assistance fees. This service shows its government/application fee, service fee, and optional urgent handling before checkout so travelers can compare direct filing with assisted review."
+    answer: "Our checkout shows the government/application fee, service fee, and any optional urgent handling before you pay. Current government/application fees are $55 single-entry or $80 multiple-entry, plus the disclosed service fee."
   - question: "Can I get a multi-entry visa Vietnam online?"
     answer: "Yes, Vietnam eVisa applicants can choose single-entry or multiple-entry products when available for their passport and itinerary. Multiple entry is usually the safer choice if you will leave Vietnam and return during the same trip."
   - question: "Can I change my Vietnam visa port of entry after approval?"
     answer: "Do not assume you can change the port at the airport or border. If the port or itinerary is wrong, you may need a correction or a new application before travel."
 ---
 
-The **Vietnam eVisa Requirements 2026** are straightforward when you prepare the right documents first: a valid passport, a clear passport scan, a compliant photo, accurate travel dates, the correct **Vietnam visa port of entry**, and the right single-entry or multiple-entry visa type. The part that causes delays is rarely the rule itself. It is usually a typo, a poor photo, a mismatched entry port, or choosing the wrong visa for a side trip.
+The **Vietnam eVisa Requirements 2026** are straightforward when you prepare the right documents first: a valid passport, a clear passport scan, a compliant photo, accurate travel dates, and the right single-entry or multiple-entry visa type. The part that causes delays is rarely the rule itself. It is usually a typo, a poor photo, an entry port on your approval that does not match your ticket, or choosing the wrong visa for a side trip.
 
-This guide is written for travelers who want to **apply for Vietnam visa online** with confidence, including US, UK, and Australian citizens planning tourism, family visits, business meetings, cruises, or Southeast Asia loops. It explains what the Government of Vietnam controls, where the **official Vietnam e-visa website** fits in, and when a private assistance service can save time by checking your application before submission.
+This guide is written for travelers who want to **apply for Vietnam visa online** with confidence, including US, UK, and Australian citizens planning tourism, family visits, business meetings, cruises, or Southeast Asia loops. It explains the documents, fees, and steps to complete your application on **vietnamemigration.com** with guided review before submission.
 
 **Important trust note:** We are a private Vietnam eVisa assistance service, not the Government of Vietnam. Vietnamese authorities set the visa rules, review applications, and issue or refuse eVisas. Our role is to help travelers prepare a cleaner, more accurate application, reduce avoidable mistakes, and understand the full cost before payment.
 
@@ -42,9 +42,9 @@ This guide is written for travelers who want to **apply for Vietnam visa online*
 | **Max Stay** | Up to **90 days** from the validity date printed on the approval |
 | **Entries** | **Single entry** or **multiple entry** depending on the product selected |
 | **Processing Time** | Often several working days; our standard handling is shown as **within 5 business days** |
-| **Government Fee** | Direct official portal fees are separate from private assistance fees. On this assisted service, current government/application fees are **$55 single-entry** or **$80 multiple-entry**, plus the disclosed service fee shown in our [transparent Vietnam eVisa fee breakdown](/fees). |
+| **Government Fee** | Current government/application fees on this service are **$55 single-entry** or **$80 multiple-entry**, plus the disclosed service fee shown in our [transparent Vietnam eVisa fee breakdown](/fees). |
 
-> [Insert Infographic: Vietnam eVisa 2026 at a Glance - Alt: Vietnam eVisa Requirements 2026 summary showing 90-day stay, single or multiple entry, processing time, and fees]
+![Vietnam eVisa Requirements 2026 summary showing 90-day stay, single or multiple entry, processing time, and fees](/img/blog/infographics/vietnam-evisa-requirements-at-a-glance.svg)
 
 ## Who Needs a Vietnam eVisa in 2026?
 
@@ -81,7 +81,7 @@ Your passport is the foundation of the application. Even a strong itinerary will
 
 If your passport expires soon, renew it before applying. Your approved eVisa is linked to the passport number submitted. A new passport usually means you need a new application.
 
-> [Insert Image: Passport Bio Page Quality Example - Alt: Clear passport bio page scan example for Vietnam eVisa Requirements 2026]
+![Clear passport bio page scan example for Vietnam eVisa Requirements 2026](/img/blog/infographics/vietnam-evisa-passport-scan-example.svg)
 
 ## Vietnam eVisa Photo Requirements 2026
 
@@ -91,7 +91,7 @@ Use a recent color photo with a plain light background, neutral expression, open
 
 For a full photo checklist, use our [Vietnam eVisa photo requirements guide for 2026](/blog/vietnam-evisa-photo-requirements-2026). It is worth checking before you upload because a five-minute reshoot can prevent days of avoidable delay.
 
-> [Insert Infographic: Accepted vs Rejected Vietnam eVisa Photos - Alt: Accepted and rejected Vietnam eVisa photo requirements 2026 with passport-style examples]
+![Accepted and rejected Vietnam eVisa photo requirements 2026 with passport-style examples](/img/blog/infographics/vietnam-evisa-photo-accepted-rejected.svg)
 
 ## Vietnam eVisa Types: Single Entry vs Multi-Entry Visa Vietnam
 
@@ -106,63 +106,53 @@ Choose multiple entry if your itinerary includes any international side trip and
 
 Our [Vietnam multiple-entry eVisa guide](/blog/vietnam-evisa-multiple-entry-guide-2026) explains when the higher-cost option is worth it and how to avoid being blocked on your second arrival.
 
-## Official Vietnam E-Visa Website vs Private Assistance Service
+## Why apply through vietnamemigration.com
 
-The **official Vietnam e-visa website** is operated by Vietnamese authorities. The Vietnam Immigration Department announced the current official domains as `evisa.gov.vn` and `thithucdientu.gov.vn`. Travelers may apply directly through the official portal if they are comfortable checking every field, preparing their own files, and monitoring the result.
+**vietnamemigration.com** is a private assistance service. We do not issue visas, change government decisions, or guarantee approval. We help travelers reduce preventable mistakes before submission: unreadable passport scans, wrong name order, weak photos, mismatched ports, accidental duplicate applications, and unclear itinerary choices.
 
-A private assistance service is different. We do not issue visas, change government decisions, or guarantee approval. We help travelers reduce preventable mistakes before submission: unreadable passport scans, wrong name order, weak photos, mismatched ports, accidental duplicate applications, and unclear itinerary choices.
-
-Use the official portal if your case is simple and you are confident reviewing everything yourself. Use assisted filing if you want document checks, clearer fee presentation, traveler support, and a more guided experience before you **apply for Vietnam visa online**.
-
-Official references worth checking:
-
-- [Vietnam Immigration Department eVisa portal](https://evisa.gov.vn/)
-- [Vietnam Immigration Department official portal notice](https://immigration.gov.vn/)
-- [Vietnam Tourism official visa requirements page](https://vietnam.travel/plan-your-trip/visa-requirements)
-- [Vietnam Tourism official eVisa guide](https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application)
+You get document checks, clear fees, traveler support, and a guided four-step application in one place. [Start your Vietnam eVisa application](/apply) when your passport, photo, and travel dates are ready.
 
 ## How to Apply for Vietnam Visa Online in 2026
 
-The online process is easier when you treat it like a document audit, not a quick form.
+On **vietnamemigration.com**, the online process follows four guided steps. Treat it like a document audit, not a quick form.
 
 1. Verify your [Vietnam eVisa eligibility by passport country](/check-requirement).
-2. Choose single-entry or multiple-entry based on your full itinerary.
-3. Prepare a passport bio-page scan and compliant portrait photo.
-4. Enter names, date of birth, passport number, nationality, and travel dates exactly.
-5. Select the correct **Vietnam visa port of entry** for your first arrival.
-6. Review the total cost, including government/application fees and any service fee.
-7. Submit payment and save your reference number.
-8. Monitor your email and download the approved eVisa PDF.
-9. Print the eVisa and carry it with the passport used in the application.
+2. On [/apply](/apply) **Step 1**: choose your visa type, arrival and departure dates, processing speed, contact details, and passenger count.
+3. **Step 2**: enter each traveler's name, nationality, passport number, date of birth, and gender exactly as printed on the passport.
+4. **Step 3**: review the total cost (government/application fee plus service fee) and pay securely.
+5. **Step 4**: upload passport scans and portrait photos, then track status by email.
+6. When your eVisa is approved, download the PDF and **check the entry port printed on the approval** matches your first international arrival in Vietnam.
+7. Print the eVisa and carry it with the passport used in the application.
+
+Our apply form does **not** include an entry-port dropdown. The port is recorded on your approved eVisa PDF after processing—contact support if your landing airport or border changes before travel.
 
 Travelers who want guided review can [apply for a Vietnam visa online with assisted document checking](/apply). If you want the expanded walkthrough, read the [step-by-step Vietnam eVisa online application guide](/blog/how-to-apply-vietnam-evisa-online-2026).
 
-> [Insert Infographic: 6 Steps to Apply Online - Alt: Step-by-step guide to applying for Vietnam eVisa 2026 online]
+![Step-by-step guide to applying for Vietnam eVisa 2026 online](/img/blog/infographics/vietnam-evisa-apply-steps.svg)
 
 ## Vietnam Visa Port of Entry Rules in 2026
 
-Your **Vietnam visa port of entry** matters. The approved eVisa must match an authorized airport, seaport, or land border route. Major airports such as Noi Bai in Hanoi, Tan Son Nhat in Ho Chi Minh City, and Da Nang are common choices, but land and sea arrivals require extra care.
+Your **Vietnam visa port of entry** matters on the **approved eVisa PDF**, not as a field on our apply form. Immigration rules require you to arrive at an authorized airport, seaport, or land border that matches what is printed on your approval. Major airports such as Noi Bai in Hanoi, Tan Son Nhat in Ho Chi Minh City, and Da Nang are common, but land and sea arrivals require extra care.
 
-If you fly into Ho Chi Minh City but select Hanoi, or if your cruise docks at a port not covered by your visa, you may face check-in problems or entry refusal. Airlines and border officers rely on the approved visa data, not on verbal explanations.
+If your ticket lands in Ho Chi Minh City but the approval lists Hanoi, or if your cruise docks at a port not covered by your visa, you may face check-in problems or entry refusal. Airlines and border officers rely on the approved visa data, not on verbal explanations.
 
-Use our [Vietnam eVisa approved entry ports guide](/blog/vietnam-evisa-approved-entry-ports-2026) before you submit. For official reference, the Vietnam Immigration Department also publishes a [list of eVisa ports](https://immigration.gov.vn/documents/20181/117155/List-of-evisa-port.pdf/c774e24b-1ab8-4fb6-9ac1-dcdfaccecf8e).
+Use our [Vietnam eVisa approved entry ports guide](/blog/vietnam-evisa-approved-entry-ports-2026) before you submit, then confirm the port printed on your approval PDF matches your first international arrival.
 
-> [Insert Map Graphic: Vietnam eVisa Entry Ports - Alt: Vietnam visa port of entry map for airports, land borders, and seaports in 2026]
+![Vietnam visa port of entry map for airports, land borders, and seaports in 2026](/img/blog/infographics/vietnam-evisa-entry-ports-map.svg)
 
 ## Cost of Vietnam eVisa in 2026: Government Fees vs Service Fees
 
-The **cost of Vietnam eVisa** depends on how you apply and whether you need assistance. Direct government portal fees are separate from private service fees. Assisted services add document review, application support, clearer communication, and optional urgent handling when available.
+The **cost of Vietnam eVisa** on this site is shown in full before you pay. Fees include the government/application charge, our assistance service fee, and any optional urgent handling you select.
 
 | Cost item | What it means |
 | :--- | :--- |
-| **Government-only portal fee** | Paid when filing directly through the official government eVisa system; check the live official portal before payment because direct filing costs can differ from assisted-service checkout |
-| **Government/application fee on this service** | Currently **$55 for single entry** or **$80 for multiple entry** for 90-day tourist/business eVisa products |
-| **Service fee** | Private assistance fee for review, validation, support, and guided filing |
+| **Government/application fee** | Currently **$55 for single entry** or **$80 for multiple entry** for 90-day tourist/business eVisa products |
+| **Service fee** | Assistance fee for review, validation, support, and guided filing |
 | **Urgent handling fee** | Optional upgrade if your travel date allows faster handling on our side |
 
-Our site shows pricing before payment so you can compare direct filing with assisted filing. Review the [Vietnam eVisa fees explained for 2026](/blog/vietnam-evisa-fees-explained-2026) and the live [Vietnam eVisa fee calculator](/fees) before checkout.
+Review the [Vietnam eVisa fees explained for 2026](/blog/vietnam-evisa-fees-explained-2026) and the live [Vietnam eVisa fee calculator](/fees) before checkout.
 
-Be careful with ads that hide the total until the last step. A trustworthy visa page should tell you whether you are paying a government portal, a private service, or both.
+Be careful with ads that hide the total until the last step. A trustworthy visa page should show every fee line before payment.
 
 ## How Long Does Vietnam eVisa Processing Take in 2026?
 
@@ -182,7 +172,7 @@ The most common problems are boring, tiny, and expensive in time. That is exactl
 - Passport scan cropped, blurry, dark, or missing MRZ lines
 - Portrait photo rejected for shadows, glasses, filters, or background issues
 - Single-entry eVisa selected for a multi-country itinerary
-- Wrong Vietnam visa port of entry selected
+- Entry port on approval does not match ticket or border crossing
 - Duplicate applications submitted before the first result is clear
 - Travel purpose inconsistent with the selected visa type
 
@@ -228,11 +218,11 @@ Use this final checklist before payment:
 - Portrait photo is recent, plain background, and passport-style
 - Name and passport number match the passport exactly
 - Visa type matches your itinerary: single or multiple entry
-- Vietnam visa port of entry matches your first arrival
+- Approval PDF entry port matches your first international arrival
 - Travel dates fit within the requested validity period
 - Children and infants have their own application details
 - Total cost is clear before payment
-- You understand the difference between official government review and private assistance
+- You understand Vietnamese authorities make the final approval decision
 
 When everything is ready, you can [apply for your Vietnam eVisa online with guided assistance](/apply).
 
@@ -240,15 +230,15 @@ When everything is ready, you can [apply for your Vietnam eVisa online with guid
 
 ### What are the Vietnam eVisa Requirements 2026?
 
-You usually need a passport valid for at least six months beyond arrival, a clear passport bio-page scan, a compliant portrait photo, an email address, accurate personal details, travel dates, and the correct Vietnam visa port of entry. Some travelers may qualify for visa exemption, so check your passport country first.
+You usually need a passport valid for at least six months beyond arrival, a clear passport bio-page scan, a compliant portrait photo, an email address, accurate personal details, and travel dates. Your approved eVisa will show the authorized entry port you must use. Some travelers may qualify for visa exemption, so check your passport country first.
 
 ### Is the Vietnam tourist visa valid for 90 days in 2026?
 
 Yes. Vietnam eVisas are available for stays up to 90 days, with single-entry and multiple-entry options. Your actual permitted entry window is the validity period printed on the approved eVisa.
 
-### What is the official Vietnam e-visa website?
+### Where do I apply for a Vietnam eVisa?
 
-The official Vietnam eVisa portal is operated by Vietnamese authorities at `evisa.gov.vn`, with `thithucdientu.gov.vn` also announced by the Vietnam Immigration Department. Private services can assist with preparation and review, but they do not replace the government's decision.
+Use our guided application at [/apply](/apply): choose visa type and dates, enter passenger details, pay securely, and upload documents. We review your files and support you until your eVisa result is ready.
 
 ### What are Vietnam entry requirements for US/UK/Australian citizens?
 
@@ -260,7 +250,7 @@ Many applications take several working days. Our standard handling is shown as w
 
 ### What is the cost of Vietnam eVisa in 2026?
 
-The cost depends on whether you file directly through the official government portal or use assisted service. Direct government fees and private service fees are separate. Our checkout displays the application fee, service fee, and optional urgent handling before payment.
+Our checkout displays the government/application fee, service fee, and optional urgent handling before payment. Current government/application fees are $55 single-entry or $80 multiple-entry, plus the disclosed service fee.
 
 ### Do I need a multi-entry visa Vietnam if I visit Cambodia and return?
 
@@ -268,12 +258,12 @@ Usually yes. If you leave Vietnam and re-enter during the same trip, multiple en
 
 ### Can I change my Vietnam visa port of entry after approval?
 
-Do not assume you can change it at check-in or at the border. If the port is wrong, you may need a correction or a new application before travel. Check the entry port carefully before payment.
+Do not assume you can change it at check-in or at the border. If the port on your approval PDF is wrong, contact support or file a corrected application before travel. Know your landing airport or border before you fly, even though our apply form does not ask for it directly.
 
 ### Can I work in Vietnam on a tourist eVisa?
 
 No. A tourist eVisa is for tourism and eligible short visits, not local employment. Paid work, study, sponsorship, and long-term stays usually require different documentation.
 
-## Author Bio
+## About this guide
 
-[Author Bio Placeholder: Written by [Visa Expert Name], Vietnam Immigration & Travel Specialist at Vietnam Official eVisa Immigration Assistance Service. Add 2-3 lines covering visa document review experience, traveler support focus, and commitment to checking official Vietnam immigration updates.]
+This article is maintained by the **Vietnam Official eVisa Immigration Assistance Service** editorial team. We review traveler questions daily, cross-check requirements against official Vietnam immigration announcements, and update guides when passport rules, entry ports, or fee structures change. We are a private assistance service—not the Government of Vietnam—and we always recommend confirming nationality-specific rules on our [check-requirement tool](/check-requirement) before you pay.

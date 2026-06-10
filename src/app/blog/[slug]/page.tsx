@@ -19,6 +19,7 @@ import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import FAQSchema from '@/components/seo/FAQSchema';
 import JsonLd from '@/components/seo/JsonLd';
 import type { FAQSchemaItem } from '@/components/seo/types';
+import BlogApplyCta from '@/components/blog/BlogApplyCta';
 import BlogVisaResources from '@/components/blog/BlogVisaResources';
 
 export async function generateStaticParams() {
@@ -208,10 +209,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     </div>
                   )}
 
+                  <BlogApplyCta className="mb-8" />
+
                   {/* Article Content */}
                   <div className="prose lg:prose-xl max-w-none">
                     <MarkdownContent content={post.content} />
                   </div>
+
+                  <BlogApplyCta compact className="my-8" />
 
                   <BlogVisaResources />
 
@@ -307,10 +312,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   immigration authority.
                 </p>
                 <p>
-                  Visa applications may be submitted directly through the official government portal
-                  at a lower cost. By using our professional service, you agree to pay the
-                  government visa fee plus our service fee, which is clearly disclosed throughout
-                  the application process.
+                  By using our professional service, you agree to pay the government visa fee plus
+                  our service fee, which is clearly disclosed throughout the application process.
                 </p>
               </div>
             </div>

@@ -33,7 +33,7 @@ Gather everything in one folder on your phone or laptop:
 | :--- | :--- |
 | **Passport bio-page scan** | Officers verify identity against the machine-readable zone (MRZ) |
 | **Digital portrait photo** | Must meet size, background, and face-forward rules |
-| **Travel dates & entry port** | Must match your real flight or border crossing |
+| **Arrival & departure dates** | Enter on Step 1; must fit your visa type stay limit |
 | **Email you check daily** | Approval and correction requests are sent electronically |
 | **Payment card** | Pays mandatory government fee plus any optional service fee |
 
@@ -48,34 +48,28 @@ Choose **tourism** or **business** honestly. Select **single vs multiple entry**
 
 Unsure which option fits? Compare totals on [/fees](/fees) and the deep dive in [/faq/vietnam-evisa-requirements](/faq/vietnam-evisa-requirements).
 
-## Step 2 — Enter personal details exactly as on the passport
+## Step 2 — Contact details and travel dates (on /apply Step 1)
 
-Type your name **exactly** as printed, including middle names or patronymics. Match:
+Enter your **email**, phone, and the **lead traveler name** on the contact section. Then choose:
 
+- **Arrival date** and **departure date** (must fit the max stay for your visa type)
+- **Processing speed** (standard, Urgent 3 days, or Super Urgent 1 day when available)
+- **Number of passengers**
+
+Our form does **not** ask you to pick an entry port. Know your landing airport or border anyway—you will verify it on your approval PDF later.
+
+## Step 3 — Passenger details (on /apply Step 2)
+
+For each traveler, type details **exactly** as printed on the passport:
+
+- **Full name** (including middle names)
 - **Passport number** (keep leading zeros)
-- **Date of birth** in the order shown on the passport (often DD/MM/YYYY)
-- **Nationality** of the passport you will carry at the border
-- **Sex** as coded on the bio page
+- **Date of birth** and **nationality**
+- **Gender** as coded on the bio page
 
-Use the passport you will **present at immigration**, not an old or cancelled booklet. Dual citizens should apply with the passport they will use to enter Vietnam.
+Use the passport you will **present at immigration**, not an old or cancelled booklet.
 
-## Step 3 — Upload passport scan and portrait photo
-
-**Bio-page scan:** colour, flat, all four corners visible, no fingers, no flash hotspots on the MRZ lines.
-
-**Portrait photo:** plain light background, face forward, eyes open, no sunglasses or non-religious headwear, no beauty filters.
-
-If uploads fail, resize without blurring text. See our [photo requirements guide](/blog/vietnam-evisa-photo-requirements-2026) for rejection fixes.
-
-## Step 4 — Travel information and entry port
-
-Enter intended **arrival date**, **border or airport**, and accommodation if requested. Your first international landing in Vietnam should match an [approved eVisa entry location](/faq/vietnam-evisa-entry-points).
-
-- **Air:** select the airport where your international flight lands (SGN, HAN, DAD, etc.).
-- **Land:** confirm the specific border gate is authorized for eVisa—not every crossing qualifies.
-- **Cruise:** align with the operator’s embarkation plan—see [/faq/cruise-passenger-visa-vietnam](/faq/cruise-passenger-visa-vietnam).
-
-## Step 5 — Review every field, then pay
+## Step 4 — Pay securely (on /apply Step 3)
 
 Read each line aloud against your passport photo page before payment. After you pay, edits may require support or a new filing.
 
@@ -85,9 +79,19 @@ You will typically see:
 2. **Service fee** — **$59.99 per passenger** for assisted review, validation, and support.
 3. **Optional Urgent (3 days) / Super Urgent (1 day)** — **+$110** or **+$220** per passenger if you choose faster processing at apply.
 
+## Step 5 — Upload documents (on /apply Step 4)
+
+**Bio-page scan:** colour, flat, all four corners visible, no fingers, no flash hotspots on the MRZ lines.
+
+**Portrait photo:** plain light background, face forward, eyes open, no sunglasses or non-religious headwear, no beauty filters.
+
+If uploads fail, resize without blurring text. See our [photo requirements guide](/blog/vietnam-evisa-photo-requirements-2026) for rejection fixes.
+
 ## Step 6 — Track status and download approval
 
 Processing commonly ranges from **within 5 business days**, depending on volume and application quality. Watch email (and spam) for approval. Save a **PDF** and print one copy for airlines and immigration.
+
+**Check the entry port printed on your approval** matches your ticket's first landing in Vietnam. See [approved entry ports](/blog/vietnam-evisa-approved-entry-ports-2026) if you travel by air, land, or cruise.
 
 Do not book non-refundable hotels until you hold the approved PDF—see [processing time guide](/blog/vietnam-evisa-processing-time-2026).
 

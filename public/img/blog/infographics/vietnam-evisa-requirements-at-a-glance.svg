@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Vietnam eVisa Requirements 2026 summary showing 90-day stay, single or multiple entry, processing time, and fees">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d5c4f"/>
+      <stop offset="1" stop-color="#084239"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" rx="16" fill="#f8faf9"/>
+  <rect x="24" y="24" width="752" height="72" rx="12" fill="url(#bg)"/>
+  <text x="400" y="58" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="22" font-weight="700">Vietnam eVisa 2026 at a Glance</text>
+  <text x="400" y="82" text-anchor="middle" fill="#d1fae5" font-family="system-ui,sans-serif" font-size="13">Requirements summary for tourists and short business visits</text>
+  <g font-family="system-ui,sans-serif">
+    <rect x="40" y="120" width="168" height="120" rx="10" fill="#fff" stroke="#0d5c4f" stroke-width="2"/>
+    <text x="124" y="152" text-anchor="middle" fill="#0d5c4f" font-size="28" font-weight="700">90</text>
+    <text x="124" y="176" text-anchor="middle" fill="#374151" font-size="14" font-weight="600">Days max stay</text>
+    <text x="124" y="198" text-anchor="middle" fill="#6b7280" font-size="11">Printed on approval</text>
+    <text x="124" y="218" text-anchor="middle" fill="#6b7280" font-size="11">Tourist / short visit</text>
+
+    <rect x="224" y="120" width="168" height="120" rx="10" fill="#fff" stroke="#0d5c4f" stroke-width="2"/>
+    <text x="308" y="152" text-anchor="middle" fill="#0d5c4f" font-size="16" font-weight="700">Single or</text>
+    <text x="308" y="174" text-anchor="middle" fill="#0d5c4f" font-size="16" font-weight="700">Multiple entry</text>
+    <text x="308" y="202" text-anchor="middle" fill="#374151" font-size="11">Choose before payment</text>
+    <text x="308" y="220" text-anchor="middle" fill="#6b7280" font-size="11">Match your itinerary</text>
+
+    <rect x="408" y="120" width="168" height="120" rx="10" fill="#fff" stroke="#0d5c4f" stroke-width="2"/>
+    <text x="492" y="152" text-anchor="middle" fill="#0d5c4f" font-size="16" font-weight="700">Within 5</text>
+    <text x="492" y="174" text-anchor="middle" fill="#0d5c4f" font-size="16" font-weight="700">business days</text>
+    <text x="492" y="202" text-anchor="middle" fill="#374151" font-size="11">Standard handling</text>
+    <text x="492" y="220" text-anchor="middle" fill="#6b7280" font-size="11">Urgent options at checkout</text>
+
+    <rect x="592" y="120" width="168" height="120" rx="10" fill="#fff" stroke="#0d5c4f" stroke-width="2"/>
+    <text x="676" y="148" text-anchor="middle" fill="#0d5c4f" font-size="22" font-weight="700">$55 / $80</text>
+    <text x="676" y="172" text-anchor="middle" fill="#374151" font-size="12" font-weight="600">Gov. fee (assisted)</text>
+    <text x="676" y="194" text-anchor="middle" fill="#6b7280" font-size="11">Single / multiple</text>
+    <text x="676" y="212" text-anchor="middle" fill="#6b7280" font-size="11">+ service fee shown</text>
+    <text x="676" y="228" text-anchor="middle" fill="#6b7280" font-size="11">before checkout</text>
+  </g>
+  <rect x="40" y="268" width="720" height="128" rx="10" fill="#ecfdf5" stroke="#a7f3d0"/>
+  <text x="400" y="298" text-anchor="middle" fill="#065f46" font-family="system-ui,sans-serif" font-size="14" font-weight="700">Documents you need before applying</text>
+  <text x="120" y="330" text-anchor="middle" fill="#374151" font-family="system-ui,sans-serif" font-size="12">Valid passport</text>
+  <text x="120" y="348" text-anchor="middle" fill="#6b7280" font-family="system-ui,sans-serif" font-size="11">6+ months validity</text>
+  <text x="280" y="330" text-anchor="middle" fill="#374151" font-family="system-ui,sans-serif" font-size="12">Bio-page scan</text>
+  <text x="280" y="348" text-anchor="middle" fill="#6b7280" font-family="system-ui,sans-serif" font-size="11">Color, all corners</text>
+  <text x="440" y="330" text-anchor="middle" fill="#374151" font-family="system-ui,sans-serif" font-size="12">Portrait photo</text>
+  <text x="440" y="348" text-anchor="middle" fill="#6b7280" font-family="system-ui,sans-serif" font-size="11">Plain background</text>
+  <text x="600" y="330" text-anchor="middle" fill="#374151" font-family="system-ui,sans-serif" font-size="12">Travel dates + email</text>
+  <text x="600" y="348" text-anchor="middle" fill="#6b7280" font-family="system-ui,sans-serif" font-size="11">Check port on approval PDF</text>
+  <line x1="200" y1="318" x2="200" y2="360" stroke="#a7f3d0"/>
+  <line x1="360" y1="318" x2="360" y2="360" stroke="#a7f3d0"/>
+  <line x1="520" y1="318" x2="520" y2="360" stroke="#a7f3d0"/>
+</svg>

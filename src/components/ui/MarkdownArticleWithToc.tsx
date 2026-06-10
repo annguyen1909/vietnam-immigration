@@ -37,8 +37,8 @@ export default function MarkdownArticleWithToc({
       >
         {hasToc ? (
           <aside className="hidden lg:block">
-            <div className="sticky top-24">
-              <TableOfContents items={items} />
+            <div className="sticky top-24 max-h-[calc(100vh-7rem)]">
+              <TableOfContents items={items} className="max-h-full" />
             </div>
           </aside>
         ) : null}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-label="Step-by-step guide to applying for Vietnam eVisa 2026 online">
+  <rect width="800" height="300" rx="16" fill="#f8faf9"/>
+  <rect x="24" y="20" width="752" height="48" rx="10" fill="#0d5c4f"/>
+  <text x="400" y="50" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="18" font-weight="700">6 steps on vietnamemigration.com /apply</text>
+  <g font-family="system-ui,sans-serif">
+    <g transform="translate(32,88)">
+      <circle cx="24" cy="24" r="24" fill="#0d5c4f"/><text x="24" y="30" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">1</text>
+      <text x="56" y="20" fill="#111827" font-size="13" font-weight="600">Choose visa type</text>
+      <text x="56" y="38" fill="#6b7280" font-size="11">Single or multiple entry</text>
+    </g>
+    <g transform="translate(32,148)">
+      <circle cx="24" cy="24" r="24" fill="#0d5c4f"/><text x="24" y="30" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">2</text>
+      <text x="56" y="20" fill="#111827" font-size="13" font-weight="600">Contact and travel dates</text>
+      <text x="56" y="38" fill="#6b7280" font-size="11">Arrival, departure, processing speed</text>
+    </g>
+    <g transform="translate(32,208)">
+      <circle cx="24" cy="24" r="24" fill="#0d5c4f"/><text x="24" y="30" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">3</text>
+      <text x="56" y="20" fill="#111827" font-size="13" font-weight="600">Passenger details</text>
+      <text x="56" y="38" fill="#6b7280" font-size="11">Names and passport data exact</text>
+    </g>
+    <g transform="translate(420,88)">
+      <circle cx="24" cy="24" r="24" fill="#0d5c4f"/><text x="24" y="30" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">4</text>
+      <text x="56" y="20" fill="#111827" font-size="13" font-weight="600">Review fees and pay</text>
+      <text x="56" y="38" fill="#6b7280" font-size="11">Government + service fee shown</text>
+    </g>
+    <g transform="translate(420,148)">
+      <circle cx="24" cy="24" r="24" fill="#0d5c4f"/><text x="24" y="30" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">5</text>
+      <text x="56" y="20" fill="#111827" font-size="13" font-weight="600">Upload documents</text>
+      <text x="56" y="38" fill="#6b7280" font-size="11">Passport scan and portrait photo</text>
+    </g>
+    <g transform="translate(420,208)">
+      <circle cx="24" cy="24" r="24" fill="#0d5c4f"/><text x="24" y="30" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">6</text>
+      <text x="56" y="20" fill="#111827" font-size="13" font-weight="600">Receive approved eVisa</text>
+      <text x="56" y="38" fill="#6b7280" font-size="11">Check approval PDF before you fly</text>
+    </g>
+  </g>
+  <line x1="400" y1="100" x2="400" y2="240" stroke="#d1d5db" stroke-dasharray="6 4"/>
+</svg>

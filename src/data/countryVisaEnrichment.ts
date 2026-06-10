@@ -34,7 +34,7 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
     eligibilityIntro:
       'Australian passport holders can usually obtain a Vietnam eVisa online for tourism or business without visiting an embassy. Many Australians pair Vietnam with Cambodia or Thailand—confirm your eVisa entry type (single vs multiple) matches your routing.',
     travelInsight:
-      'Flights from Sydney, Melbourne, or Brisbane often arrive at Tan Son Nhat (Ho Chi Minh City) or Noi Bai (Hanoi). Select the airport you will actually use on the application form.',
+      'Flights from Sydney, Melbourne, or Brisbane often arrive at Tan Son Nhat (Ho Chi Minh City) or Noi Bai (Hanoi). Know your landing airport and verify it on your approval PDF before you fly.',
     faqs: [
       {
         q: 'How early should Australians apply for a Vietnam eVisa?',
@@ -212,7 +212,7 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
   },
   spain: {
     eligibilityIntro:
-      'Spanish passport holders can typically apply for a Vietnam eVisa online for tourism or business. Winter escape routes from Madrid and Barcelona often land in Ho Chi Minh City—align your port of entry with the form.',
+      'Spanish passport holders can typically apply for a Vietnam eVisa online for tourism or business. Winter escape routes from Madrid and Barcelona often land in Ho Chi Minh City—confirm the entry port on your approval PDF matches your ticket.',
     travelInsight:
       'Spanish minors need their own eVisa even when traveling with parents; include all passengers in a group application.',
     faqs: [
@@ -248,7 +248,7 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
   },
   thailand: {
     eligibilityIntro:
-      'Thai passport holders should confirm current Vietnam eVisa eligibility before travel. Many regional visitors use short online approvals for tourism—apply with the passport you will present at the border and match your entry airport on the form.',
+      'Thai passport holders should confirm current Vietnam eVisa eligibility before travel. Many regional visitors use short online approvals for tourism—apply with the passport you will present at the border and verify the entry port on your approval PDF.',
     travelInsight:
       'Overland routes from Thailand are common; verify your border crossing accepts eVisa holders before booking buses.',
   },
@@ -262,7 +262,7 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
     eligibilityIntro:
       'Polish passport holders can usually obtain a Vietnam eVisa online before tourism or business trips. Schengen travel before or after Vietnam still requires a separate Vietnamese entry authorization.',
     travelInsight:
-      'Budget carriers from Warsaw and Kraków often land in Ho Chi Minh City—select the correct port on your application.',
+      'Budget carriers from Warsaw and Kraków often land in Ho Chi Minh City—confirm the entry port on your approval PDF matches your ticket.',
   },
   mexico: {
     eligibilityIntro:
@@ -310,7 +310,7 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
     eligibilityIntro:
       'Danish citizens can usually obtain a Vietnam eVisa online for tourism or business. Double-check entry port if you fly into Da Nang versus Hanoi.',
     travelInsight:
-      'Copenhagen–Asia flights often arrive in Ho Chi Minh City—select matching airport codes on the form.',
+      'Copenhagen–Asia flights often arrive in Ho Chi Minh City—verify the entry port on your approval PDF before departure.',
   },
   switzerland: {
     eligibilityIntro:
@@ -397,7 +397,7 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
     eligibilityIntro:
       'Saudi passport holders are generally eligible for Vietnam eVisas for short visits. Residents in KSA who are not citizens must apply with their nationality passport.',
     travelInsight:
-      'Direct and one-stop flights to Hanoi or Ho Chi Minh City are common—match airport on the form.',
+      'Direct and one-stop flights to Hanoi or Ho Chi Minh City are common—check the entry port on your approval PDF matches your itinerary.',
   },
   israel: {
     eligibilityIntro:

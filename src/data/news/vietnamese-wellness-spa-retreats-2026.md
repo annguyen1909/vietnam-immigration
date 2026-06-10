@@ -59,7 +59,7 @@ Bring quick-dry sandals for locker rooms, hair ties for steam rooms, and offline
 | 6 | Da Nang or Hoi An | Beach resort salt scrub + early sleep |
 | 7 | Departure | Morning stretch; buffer time before flights |
 
-Pair slow travel with an eVisa that covers your full stay. Match your entry airport on the form—[/blog/vietnam-evisa-approved-entry-ports-2026](/blog/vietnam-evisa-approved-entry-ports-2026).
+Pair slow travel with an eVisa that covers your full stay. Know your landing airport and confirm it on your approval PDF—[/blog/vietnam-evisa-approved-entry-ports-2026](/blog/vietnam-evisa-approved-entry-ports-2026).
 
 ## Health and safety notes
 
@@ -109,6 +109,6 @@ City sessions often **500,000–1,200,000 VND**; resort packages higher.
 Yes—combine springs, Da Lat hills, and coast resorts; book peak holidays early.
 
 **Need an eVisa?**  
-Most visitors do—match entry port and stay length on [/apply](/apply).
+Most visitors do—enter travel dates and stay length on [/apply](/apply), then verify the entry port on your approval PDF.
 
 [Apply for your Vietnam eVisa](/apply) before you confirm wellness retreat dates.

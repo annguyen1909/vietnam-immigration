@@ -44,6 +44,17 @@ export function slugifyHeading(text: string, usedSlugs?: Map<string, number>): s
   return count === 0 ? slug : `${slug}-${count + 1}`;
 }
 
+/** H2 sections that duplicate FAQ blocks or footer copy — omit from auto TOC. */
+const TOC_SKIP_TITLE_PATTERNS = [
+  /^frequently asked questions/i,
+  /^about this guide/i,
+  /^related guides/i,
+];
+
+export function shouldIncludeInToc(title: string): boolean {
+  return !TOC_SKIP_TITLE_PATTERNS.some((pattern) => pattern.test(title.trim()));
+}
+
 /**
  * Extract H2 headings only (`## `) from raw markdown for Table of Contents (server-side).
  * H3 and below are ignored to keep the TOC flat and scannable.
@@ -66,7 +77,7 @@ export function extractMarkdownHeadings(markdown: string): MarkdownTocItem[] {
     if (!match) continue;
 
     const title = stripInlineMarkdown(match[1]);
-    if (!title) continue;
+    if (!title || !shouldIncludeInToc(title)) continue;
 
     const id = slugifyHeading(title, usedSlugs);
     items.push({ id, title, level: 2 });

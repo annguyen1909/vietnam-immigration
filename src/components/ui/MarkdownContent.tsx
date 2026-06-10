@@ -96,7 +96,16 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
               </h3>
             );
           },
-          p: ({ children }) => <p className="text-gray-700 mb-4 leading-relaxed">{children}</p>,
+          p: ({ children, node }) => {
+            const onlyImage =
+              node?.children?.length === 1 &&
+              node.children[0].type === 'element' &&
+              node.children[0].tagName === 'img';
+            if (onlyImage) {
+              return <div className="my-8 not-prose">{children}</div>;
+            }
+            return <p className="text-gray-700 mb-4 leading-relaxed">{children}</p>;
+          },
           ul: ({ children }) => (
             <ul className="list-disc list-inside mb-4 space-y-1">{children}</ul>
           ),
@@ -108,10 +117,29 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
             <strong className="font-bold text-brand-ink">{children}</strong>
           ),
           em: ({ children }) => <em className="italic">{children}</em>,
-          a: ({ href, children }) => (
-            <a href={href} className="text-[var(--brand-primary)] hover:text-[#8D153A] underline">
-              {children}
-            </a>
+          a: ({ href, children }) => {
+            const isExternal =
+              typeof href === 'string' &&
+              (href.startsWith('http://') || href.startsWith('https://'));
+            return (
+              <a
+                href={href}
+                className="text-[var(--brand-primary)] hover:text-[#8D153A] underline"
+                {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+              >
+                {children}
+                {isExternal ? <span className="sr-only"> (opens in new tab)</span> : null}
+              </a>
+            );
+          },
+          img: ({ src, alt }) => (
+            /* eslint-disable-next-line @next/next/no-img-element */
+            <img
+              src={typeof src === 'string' ? src : undefined}
+              alt={alt ?? ''}
+              className="mx-auto w-full max-w-3xl rounded-lg border border-gray-200 bg-white shadow-sm"
+              loading="lazy"
+            />
           ),
           ...markdownTableComponents,
         }}

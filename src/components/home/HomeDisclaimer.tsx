@@ -27,9 +27,8 @@ export default function HomeDisclaimer() {
                   Vietnam or any official immigration authority.
                 </p>
                 <p>
-                  You may apply directly through the official government portal, often at lower
-                  cost. By using our service, you agree to pay the government visa fee plus our
-                  service fee, which is disclosed clearly before payment.
+                  By using our service, you agree to pay the government visa fee plus our service
+                  fee, which is disclosed clearly before payment.
                 </p>
               </div>
             </div>

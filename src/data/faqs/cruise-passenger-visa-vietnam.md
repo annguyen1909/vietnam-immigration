@@ -36,7 +36,7 @@ Confirm with your cruise line that your port of call accepts eVisa entry.
 
 ## How to Apply for a Vietnam eVisa as a Cruise Passenger
 
-1. **Apply Online:** Complete our assisted Vietnam eVisa application form at [Apply for Vietnam eVisa](/apply), or apply directly through the [Vietnam National Electronic Visa System](https://evisa.gov.vn/?fs=e).
+1. **Apply Online:** Complete our Vietnam eVisa application at [Apply for Vietnam eVisa](/apply).
 2. **Select Visa Type:** Choose Tourist or Business eVisa (single or multiple entry, 90 days) based on your itinerary.
 3. **Upload Documents:** Passport, travel details, and cruise itinerary if available.
 4. **Pay the Fee:** Fees vary by visa type ($55 single entry, $80 multiple entry (90 days)).

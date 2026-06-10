@@ -31,9 +31,9 @@ Transposing digits or dropping leading zeros is the top delay. Read the **machin
 
 Use the passport’s **DD/MM/YYYY** order as shown—not the US-style month/day habit.
 
-## 3. Selecting the wrong entry port
+## 3. Entry port on approval does not match your ticket
 
-Your approval is valid for the airport or border you chose. Flying into **Da Nang** while the letter says **Hanoi** creates entry risk. See [/blog/vietnam-evisa-approved-entry-ports-2026](/blog/vietnam-evisa-approved-entry-ports-2026).
+Our [/apply](/apply) form does not ask for an entry port, but your **approved eVisa PDF** lists one. Flying into **Da Nang** while the approval says **Hanoi** creates entry risk. Check the port before you fly—see [/blog/vietnam-evisa-approved-entry-ports-2026](/blog/vietnam-evisa-approved-entry-ports-2026).
 
 ## 4. Single-entry visa used twice
 

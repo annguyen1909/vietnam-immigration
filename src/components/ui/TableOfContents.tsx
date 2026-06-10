@@ -102,6 +102,12 @@ export default function TableOfContents({
   );
 
   useEffect(() => {
+    if (!activeId || !navRef.current) return;
+    const activeLink = navRef.current.querySelector<HTMLElement>(`[data-toc-id="${activeId}"]`);
+    activeLink?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }, [activeId]);
+
+  useEffect(() => {
     if (items.length === 0) return;
 
     visibleIdsRef.current = new Set();
@@ -160,7 +166,7 @@ export default function TableOfContents({
           {title}
         </h2>
       </div>
-      <ol className="space-y-1 text-sm">
+      <ol className="max-h-[min(70vh,32rem)] space-y-1 overflow-y-auto overscroll-contain pr-1 text-sm [scrollbar-width:thin]">
         {items.map((item) => {
           const isActive = activeId === item.id;
           return (

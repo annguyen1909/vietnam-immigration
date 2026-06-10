@@ -424,10 +424,8 @@ export default function AboutPage() {
                 immigration authority.
               </p>
               <p>
-                Visa applications may be submitted directly through the official government portal
-                at a lower cost. By using our professional service, you agree to pay the government
-                visa fee plus our service fee, which is clearly disclosed throughout the application
-                process.
+                By using our professional service, you agree to pay the government visa fee plus our
+                service fee, which is clearly disclosed throughout the application process.
               </p>
             </div>
           </div>

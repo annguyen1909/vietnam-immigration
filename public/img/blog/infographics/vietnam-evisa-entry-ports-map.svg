@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Vietnam visa port of entry map for airports, land borders, and seaports in 2026">
+  <rect width="800" height="420" rx="16" fill="#f0f9ff"/>
+  <text x="400" y="36" text-anchor="middle" fill="#111827" font-family="system-ui,sans-serif" font-size="18" font-weight="700">Authorized Vietnam eVisa entry ports</text>
+  <text x="400" y="58" text-anchor="middle" fill="#6b7280" font-family="system-ui,sans-serif" font-size="12">Your approval PDF must list a port that matches your first arrival in Vietnam</text>
+  <path d="M380 90 L420 85 L450 95 L470 120 L480 150 L475 190 L460 230 L440 270 L420 310 L400 340 L370 320 L350 280 L340 240 L345 200 L355 160 L365 120 Z" fill="#86efac" stroke="#0d5c4f" stroke-width="2"/>
+  <g font-family="system-ui,sans-serif">
+    <circle cx="395" cy="115" r="10" fill="#0d5c4f"/>
+    <text x="395" y="100" text-anchor="middle" fill="#0d5c4f" font-size="11" font-weight="700">HAN</text>
+    <text x="395" y="138" text-anchor="middle" fill="#374151" font-size="10">Noi Bai - Hanoi</text>
+    <circle cx="420" cy="250" r="10" fill="#0d5c4f"/>
+    <text x="420" y="235" text-anchor="middle" fill="#0d5c4f" font-size="11" font-weight="700">DAD</text>
+    <text x="420" y="273" text-anchor="middle" fill="#374151" font-size="10">Da Nang</text>
+    <circle cx="400" cy="310" r="10" fill="#0d5c4f"/>
+    <text x="400" y="295" text-anchor="middle" fill="#0d5c4f" font-size="11" font-weight="700">SGN</text>
+    <text x="400" y="333" text-anchor="middle" fill="#374151" font-size="10">Tan Son Nhat - HCMC</text>
+    <circle cx="355" cy="200" r="8" fill="#f59e0b"/>
+    <text x="355" y="188" text-anchor="middle" fill="#92400e" font-size="10" font-weight="600">Land</text>
+    <text x="355" y="222" text-anchor="middle" fill="#6b7280" font-size="9">Cambodia / Laos</text>
+    <circle cx="455" cy="180" r="8" fill="#3b82f6"/>
+    <text x="455" y="168" text-anchor="middle" fill="#1d4ed8" font-size="10" font-weight="600">Sea</text>
+    <text x="455" y="200" text-anchor="middle" fill="#6b7280" font-size="9">Cruise ports</text>
+  </g>
+  <rect x="520" y="90" width="256" height="290" rx="12" fill="#fff" stroke="#d1d5db"/>
+  <text x="648" y="118" text-anchor="middle" fill="#111827" font-size="14" font-weight="700">Before you travel</text>
+  <text x="540" y="148" fill="#374151" font-size="11">Air: first landing airport on ticket</text>
+  <text x="540" y="172" fill="#374151" font-size="11">Land: confirm gate on official list</text>
+  <text x="540" y="196" fill="#374151" font-size="11">Sea: align with cruise operator</text>
+  <text x="540" y="228" fill="#6b7280" font-size="10">Our /apply form does not ask for port</text>
+  <text x="540" y="248" fill="#6b7280" font-size="10">Check the port on your approval PDF</text>
+  <text x="540" y="276" fill="#0d5c4f" font-size="11" font-weight="600">Major hubs: SGN, HAN, DAD</text>
+  <rect x="540" y="300" width="216" height="36" rx="8" fill="#ecfdf5" stroke="#0d5c4f"/>
+  <text x="648" y="322" text-anchor="middle" fill="#065f46" font-size="11" font-weight="600">Contact support if plans change</text>
+</svg>

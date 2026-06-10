@@ -1,58 +1,34 @@
 import Link from 'next/link';
-import { getVietnamBlogResourcesFeeDesc } from '@/lib/vietnamPricing';
 
-const resources = [
-  {
-    href: '/apply',
-    title: 'Apply for Vietnam eVisa',
-    description: 'Start your application online with guided support and secure payment.',
-  },
-  {
-    href: '/check-requirement',
-    title: 'Check visa requirements by country',
-    description: 'See eligibility, documents, and fees by visa type for your nationality.',
-  },
-  {
-    href: '/faq/vietnam-evisa-requirements',
-    title: 'Complete eVisa requirements guide',
-    description: 'Documents, photo rules, visa types, and step-by-step checklist.',
-  },
-  {
-    href: '/faq/24-hour-vietnam-evisa',
-    title: 'Urgent (3 days) & Super Urgent (1 day)',
-    description: 'Last-minute travel: optional faster handling tiers and what to expect.',
-  },
-  {
-    href: '/fees',
-    title: 'Visa fees & pricing',
-    description: getVietnamBlogResourcesFeeDesc(),
-  },
-];
-
+/** End-of-article CTA — apply on this site; avoid sending readers through multiple internal pages. */
 export default function BlogVisaResources() {
   return (
     <aside
       className="mt-10 rounded-lg border-2 border-brand-primary bg-brand-surface p-6"
-      aria-label="Vietnam eVisa resources"
+      aria-label="Apply for Vietnam eVisa"
     >
-      <h2 className="text-xl font-bold text-gray-900 mb-2">Planning your trip to Vietnam?</h2>
+      <h2 className="text-xl font-bold text-gray-900 mb-2">
+        Ready to apply for your Vietnam eVisa?
+      </h2>
       <p className="text-gray-700 mb-4 text-sm leading-relaxed">
-        Sort out your entry visa before flights and hotels. These pages answer the questions
-        travelers ask most often.
+        Complete the application on this website — the same guided flow linked throughout our
+        guides. You do not need to open a separate FAQ or blog page to start.
       </p>
-      <ul className="space-y-3">
-        {resources.map((item) => (
-          <li key={item.href}>
-            <Link
-              href={item.href}
-              className="block rounded-md border border-gray-200 bg-white px-4 py-3 hover:border-brand-primary transition-colors"
-            >
-              <span className="font-semibold text-brand-primary">{item.title}</span>
-              <span className="block text-sm text-gray-600 mt-0.5">{item.description}</span>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <Link
+        href="/apply"
+        className="flex w-full items-center justify-center rounded-lg bg-brand-primary px-6 py-4 text-center text-sm font-bold uppercase tracking-wide text-white shadow-md transition hover:opacity-95"
+      >
+        Apply for Vietnam eVisa
+      </Link>
+      <p className="mt-4 text-center text-xs text-gray-500">
+        Eligibility questions only?{' '}
+        <Link
+          href="/check-requirement"
+          className="font-semibold text-brand-primary hover:underline"
+        >
+          Check requirements by country
+        </Link>
+      </p>
     </aside>
   );
 }
