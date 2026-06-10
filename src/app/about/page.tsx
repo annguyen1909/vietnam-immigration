@@ -307,10 +307,10 @@ export default function AboutPage() {
                     <span>
                       <span className="font-semibold">Email:</span>{' '}
                       <a
-                        href="mailto:visa@unitedevisa.com"
+                        href="mailto:visa@vietnamemigration.com"
                         className="text-brand-primary hover:underline"
                       >
-                        visa@unitedevisa.com
+                        visa@vietnamemigration.com
                       </a>
                     </span>
                   </div>
@@ -358,7 +358,7 @@ export default function AboutPage() {
               </div>
               <div className="flex flex-col items-center gap-4">
                 <a
-                  href="mailto:visa@unitedevisa.com"
+                  href="mailto:visa@vietnamemigration.com"
                   className="inline-flex items-center px-8 py-4 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-primary transition-all shadow-lg hover:shadow-xl uppercase tracking-wide text-sm border-2 border-brand-primary w-full justify-center"
                 >
                   <svg

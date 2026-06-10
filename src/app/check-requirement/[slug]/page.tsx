@@ -608,10 +608,10 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                   application. Every inquiry is handled by a real human—never a chatbot. If you have
                   questions or need assistance, use the contact form on this page or email us at{' '}
                   <a
-                    href="mailto:visa@unitedevisa.com"
+                    href="mailto:visa@vietnamemigration.com"
                     className="text-brand-primary font-semibold hover:underline"
                   >
-                    visa@unitedevisa.com
+                    visa@vietnamemigration.com
                   </a>
                   .
                 </p>

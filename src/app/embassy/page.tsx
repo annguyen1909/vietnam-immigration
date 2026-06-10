@@ -199,10 +199,10 @@ export default function EmbassyPage() {
               <p>
                 <strong>Email:</strong>{' '}
                 <a
-                  href="mailto:visa@unitedevisa.com"
+                  href="mailto:visa@vietnamemigration.com"
                   className="text-brand-primary hover:underline"
                 >
-                  visa@unitedevisa.com
+                  visa@vietnamemigration.com
                 </a>
               </p>
               <div className="flex items-center gap-2 text-gray-800">

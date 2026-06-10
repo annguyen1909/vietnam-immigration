@@ -1,7 +1,10 @@
 import { absoluteAssetUrl, getPublicSiteUrl, SITE_NAME } from '@/lib/seo';
 
 /** Public support / contact email (site, Resend, schema, mailto links). */
-export const SUPPORT_EMAIL = 'visa@unitedevisa.com';
+export const SUPPORT_EMAIL = 'visa@vietnamemigration.com';
+
+/** Resend "from" for traveler-facing mail (payment, password reset, etc.). */
+export const SUPPORT_FROM = `Vietnam eVisa Support <${SUPPORT_EMAIL}>`;
 
 /**
  * E-E-A-T placeholders — replace with verified legal entity details before launch.

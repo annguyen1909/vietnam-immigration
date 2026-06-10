@@ -1,4 +1,5 @@
 import { Resend } from 'resend';
+import { SUPPORT_FROM } from '@/components/seo/constants';
 import { prisma } from '@/lib/prisma';
 import { getPublicSiteUrl } from '@/lib/seo';
 import { DEFAULT_SERVICE_FEE } from '@/lib/serviceFee';
@@ -227,9 +228,7 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
   }
 
   try {
-    // Production: visa@unitedevisa.com (domain must be verified in Resend).
-    // Local test: set RESEND_FROM_EMAIL=onboarding@resend.dev (only delivers to your Resend account email).
-    const from = process.env.RESEND_FROM_EMAIL || 'Vietnam eVisa Support <visa@unitedevisa.com>';
+    const from = SUPPORT_FROM;
     let subject = '';
     let html = '';
     let recipient = to;

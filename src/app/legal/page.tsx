@@ -809,14 +809,14 @@ export default function LegalPage() {
                   <div className="grid md:grid-cols-2 gap-6 mt-6">
                     <div>
                       <h3 className="text-lg font-semibold mb-3 text-gray-900">Email Contact</h3>
-                      <p className="text-brand-primary-dark font-medium">visa@unitedevisa.com</p>
+                      <p className="text-brand-primary-dark font-medium">visa@vietnamemigration.com</p>
                       <p className="text-sm text-gray-700 mt-2">
                         For legal questions and compliance issues
                       </p>
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-3 text-gray-900">General Support</h3>
-                      <p className="text-brand-primary-dark font-medium">visa@unitedevisa.com</p>
+                      <p className="text-brand-primary-dark font-medium">visa@vietnamemigration.com</p>
                       <p className="text-sm text-gray-700 mt-2">
                         For general inquiries and support
                       </p>

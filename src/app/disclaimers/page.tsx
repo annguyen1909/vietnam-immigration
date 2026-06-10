@@ -350,10 +350,10 @@ export default function DisclaimersPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:visa@unitedevisa.com"
+                            href="mailto:visa@vietnamemigration.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            visa@unitedevisa.com
+                            visa@vietnamemigration.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">
@@ -369,10 +369,10 @@ export default function DisclaimersPage() {
                         <p className="text-brand-ink text-sm mb-1">
                           Email:{' '}
                           <a
-                            href="mailto:visa@unitedevisa.com"
+                            href="mailto:visa@vietnamemigration.com"
                             className="text-[var(--brand-primary)] hover:underline"
                           >
-                            visa@unitedevisa.com
+                            visa@vietnamemigration.com
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">
