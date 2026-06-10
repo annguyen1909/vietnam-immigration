@@ -110,7 +110,12 @@ export async function POST(request: NextRequest) {
     // 2. Generate the application id in format VN + 6 unique random digits
     const newApplicationId = await generateUniqueApplicationId();
 
-    // Create the application
+    // Vietnam apply flow does not collect portType/portName. Omit optional fields when
+    // unset so Prisma does not INSERT NULL into columns that may not exist on shared prod DB.
+    const urgencyValue = typeof urgency === 'string' ? urgency.trim() : '';
+    const portTypeValue = typeof portType === 'string' ? portType.trim() : '';
+    const portNameValue = typeof portName === 'string' ? portName.trim() : '';
+
     const application = await prisma.application.create({
       data: {
         applicationId: newApplicationId,
@@ -123,11 +128,10 @@ export async function POST(request: NextRequest) {
         status: 'Lead Open',
         paymentStatus: 'Payment Required',
         total: total,
-        urgency: (urgency as string) || null,
         additionalCharges: 0,
-        portType: portType || null,
-        portName: portName || null,
-        // Initialize passengers with snapshot pricing
+        ...(urgencyValue ? { urgency: urgencyValue } : {}),
+        ...(portTypeValue ? { portType: portTypeValue } : {}),
+        ...(portNameValue ? { portName: portNameValue } : {}),
         Passenger: {
           create: Array.from({ length: passengerCount }, () => ({
             id: randomUUID(),
@@ -148,7 +152,7 @@ export async function POST(request: NextRequest) {
       accountId: account.id,
       status: application.status,
       total: total,
-      urgency: (urgency as string) || '',
+      urgency: urgencyValue,
       passengerIds: application.Passenger.map((p) => p.id),
     });
   } catch (error) {
