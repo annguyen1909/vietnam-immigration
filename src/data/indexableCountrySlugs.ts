@@ -1,9 +1,14 @@
 /**
  * Country requirement pages allowed in sitemap and indexable by search engines.
  * Other /check-requirement/{slug} pages remain live but use noindex to avoid thin duplicate content.
+ *
+ * We intentionally keep this list tight. The long tail of nationality pages is
+ * useful for users once discovered internally, but a broad templated set in the
+ * index tends to dilute crawl demand and leaves Google with too many near-duplicate
+ * URLs to evaluate at once.
  */
 export const INDEXABLE_COUNTRY_SLUGS = [
-  // Tier 1 — enriched copy (20)
+  // Tier 1 — enriched copy with the strongest search and conversion potential.
   'united-states',
   'united-kingdom',
   'australia',
@@ -24,37 +29,6 @@ export const INDEXABLE_COUNTRY_SLUGS = [
   'spain',
   'brazil',
   'new-zealand',
-  // Tier 2 — indexable with template + light enrichment (30)
-  'thailand',
-  'russia',
-  'poland',
-  'mexico',
-  'cambodia',
-  'hong-kong',
-  'united-arab-emirates',
-  'czech-republic',
-  'sweden',
-  'norway',
-  'denmark',
-  'switzerland',
-  'austria',
-  'belgium',
-  'ireland',
-  'portugal',
-  'greece',
-  'hungary',
-  'romania',
-  'ukraine',
-  'argentina',
-  'chile',
-  'colombia',
-  'south-africa',
-  'egypt',
-  'saudi-arabia',
-  'israel',
-  'turkey',
-  'luxembourg',
-  'finland',
 ] as const;
 
 export type IndexableCountrySlug = (typeof INDEXABLE_COUNTRY_SLUGS)[number];

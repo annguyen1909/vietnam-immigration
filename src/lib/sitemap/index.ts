@@ -14,6 +14,20 @@ import { INDEXABLE_COUNTRY_SLUGS } from '@/data/indexableCountrySlugs';
  */
 const STABLE_CONTENT_DATE = new Date('2026-06-01T00:00:00Z');
 
+/**
+ * Keep the sitemap focused on pages with the clearest search demand and
+ * strongest uniqueness. Low-value utility/legal pages can still exist and be
+ * reachable internally without competing for crawl attention in the sitemap.
+ */
+const CORE_FAQ_SLUGS = new Set([
+  '24-hour-vietnam-evisa',
+  'children-visa-vietnam',
+  'cruise-passenger-visa-vietnam',
+  'family-group-vietnam-evisa',
+  'vietnam-evisa-entry-points',
+  'vietnam-evisa-requirements',
+]);
+
 function getStaticSitemapEntries(baseUrl: string, currentDate: Date): MetadataRoute.Sitemap {
   return [
     { url: baseUrl, lastModified: currentDate, changeFrequency: 'daily', priority: 1.0 },
@@ -24,28 +38,10 @@ function getStaticSitemapEntries(baseUrl: string, currentDate: Date): MetadataRo
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/about`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/contact`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
       url: `${baseUrl}/fees`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/embassy`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.7,
     },
     {
       url: `${baseUrl}/faq`,
@@ -58,48 +54,6 @@ function getStaticSitemapEntries(baseUrl: string, currentDate: Date): MetadataRo
       lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/privacy`,
-      lastModified: currentDate,
-      changeFrequency: 'yearly',
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/terms`,
-      lastModified: currentDate,
-      changeFrequency: 'yearly',
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/legal`,
-      lastModified: currentDate,
-      changeFrequency: 'yearly',
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/disclaimers`,
-      lastModified: currentDate,
-      changeFrequency: 'yearly',
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/refund-policy`,
-      lastModified: currentDate,
-      changeFrequency: 'yearly',
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/cookie-policy`,
-      lastModified: currentDate,
-      changeFrequency: 'yearly',
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/digital-services-act`,
-      lastModified: currentDate,
-      changeFrequency: 'yearly',
-      priority: 0.3,
     },
     {
       url: `${baseUrl}/check-requirement`,
@@ -118,12 +72,6 @@ function getStaticSitemapEntries(baseUrl: string, currentDate: Date): MetadataRo
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/worldwide-phone`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.6,
     },
   ];
 }
@@ -194,6 +142,10 @@ function getBlogSitemapEntries(baseUrl: string): MetadataRoute.Sitemap {
     urlPrefix: '/blog',
     defaultChangeFrequency: 'monthly',
     defaultPriority: 0.6,
+    includeEntry: (data) => {
+      const tags = data.tags;
+      return Array.isArray(tags) && tags.includes('visa');
+    },
     changeFrequencyForEntry: (data) => {
       const tags = data.tags;
       const isVisaGuide = Array.isArray(tags) && tags.includes('visa');
@@ -220,6 +172,10 @@ function getFaqSitemapEntries(baseUrl: string): MetadataRoute.Sitemap {
     defaultChangeFrequency: 'monthly',
     defaultPriority: 0.7,
     slugFromData: true,
+    includeEntry: (data) => {
+      const slug = typeof data.slug === 'string' ? data.slug : '';
+      return CORE_FAQ_SLUGS.has(slug);
+    },
   });
 }
 
