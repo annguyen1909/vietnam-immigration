@@ -21,6 +21,7 @@ export default function TableOfContents({
 }: TableOfContentsProps) {
   const [activeId, setActiveId] = useState<string | null>(items[0]?.id ?? null);
   const navRef = useRef<HTMLElement>(null);
+  const listRef = useRef<HTMLOListElement>(null);
 
   const visibleIdsRef = useRef<Set<string>>(new Set());
   const isClickScrollingRef = useRef(false);
@@ -101,10 +102,22 @@ export default function TableOfContents({
     [scheduleActiveUpdate]
   );
 
+  // Keep the active link visible inside the TOC list only — never scroll the page.
+  // scrollIntoView on the link was pulling mobile readers back to the inline TOC at top.
   useEffect(() => {
-    if (!activeId || !navRef.current) return;
-    const activeLink = navRef.current.querySelector<HTMLElement>(`[data-toc-id="${activeId}"]`);
-    activeLink?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    if (!activeId || !listRef.current) return;
+    const container = listRef.current;
+    const activeLink = container.querySelector<HTMLElement>(`[data-toc-id="${activeId}"]`);
+    if (!activeLink) return;
+
+    const containerRect = container.getBoundingClientRect();
+    const linkRect = activeLink.getBoundingClientRect();
+
+    if (linkRect.top < containerRect.top) {
+      container.scrollTop -= containerRect.top - linkRect.top;
+    } else if (linkRect.bottom > containerRect.bottom) {
+      container.scrollTop += linkRect.bottom - containerRect.bottom;
+    }
   }, [activeId]);
 
   useEffect(() => {
@@ -166,7 +179,10 @@ export default function TableOfContents({
           {title}
         </h2>
       </div>
-      <ol className="max-h-[min(70vh,32rem)] space-y-1 overflow-y-auto overscroll-contain pr-1 text-sm [scrollbar-width:thin]">
+      <ol
+        ref={listRef}
+        className="max-h-[min(70vh,32rem)] space-y-1 overflow-y-auto overscroll-contain pr-1 text-sm [scrollbar-width:thin]"
+      >
         {items.map((item) => {
           const isActive = activeId === item.id;
           return (

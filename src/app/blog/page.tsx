@@ -116,7 +116,7 @@ export default function BlogPage() {
             <div className="flex flex-col lg:flex-row gap-8">
               {/* Blog Posts */}
               <div className="flex-1 min-w-0">
-                <div className="bg-white border-4 border-brand-primary rounded-lg p-8 shadow-2xl mb-8">
+                <div className="mb-8 rounded-lg border-4 border-brand-primary bg-white p-4 shadow-2xl sm:p-6 lg:p-8">
                   <div className="flex items-center gap-3 mb-8">
                     <NewspaperIcon className="w-8 h-8 text-brand-primary" />
                     <h2 className="text-2xl font-bold text-gray-900">Latest Articles</h2>
@@ -133,14 +133,14 @@ export default function BlogPage() {
                             className="bg-gray-50 border-2 border-brand-primary rounded-lg p-6"
                           >
                             <Link href={`/blog/${post.slug}`} className="block group">
-                              <div className="flex flex-col sm:flex-row gap-4">
-                                <div className="relative w-full sm:w-48 aspect-video flex-shrink-0 rounded-lg overflow-hidden">
+                              <div className="flex flex-col gap-4 sm:flex-row">
+                                <div className="relative aspect-video w-full shrink-0 overflow-hidden rounded-lg bg-gray-100 sm:w-48">
                                   <Image
                                     src={post.image || '/img/vietnam-hero.jpg'}
                                     alt={post.title}
                                     fill
                                     className="object-cover object-center"
-                                    sizes="192px"
+                                    sizes="(max-width: 640px) 100vw, 192px"
                                   />
                                 </div>
                                 <div className="flex-1 min-w-0">
@@ -171,9 +171,9 @@ export default function BlogPage() {
                         className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 hover:border-brand-primary transition-all"
                       >
                         <Link href={`/blog/${post.slug}`} className="block group">
-                          <div className="flex flex-col md:flex-row gap-6">
+                          <div className="flex flex-col gap-4 md:flex-row md:gap-6">
                             {/* Post Image */}
-                            <div className="relative w-full md:w-64 aspect-video flex-shrink-0 rounded-lg overflow-hidden">
+                            <div className="relative aspect-video w-full shrink-0 overflow-hidden rounded-lg bg-gray-100 md:w-64">
                               <Image
                                 src={post.image || '/img/vietnam-hero.jpg'}
                                 alt={`${post.title} - Vietnam eVisa News Article`}

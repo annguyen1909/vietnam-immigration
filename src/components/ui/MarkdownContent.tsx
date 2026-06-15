@@ -102,7 +102,7 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
               node.children[0].type === 'element' &&
               node.children[0].tagName === 'img';
             if (onlyImage) {
-              return <div className="my-8 not-prose">{children}</div>;
+              return <div className="my-6 not-prose sm:my-8">{children}</div>;
             }
             return <p className="text-gray-700 mb-4 leading-relaxed">{children}</p>;
           },
@@ -133,13 +133,15 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
             );
           },
           img: ({ src, alt }) => (
-            /* eslint-disable-next-line @next/next/no-img-element */
-            <img
-              src={typeof src === 'string' ? src : undefined}
-              alt={alt ?? ''}
-              className="mx-auto w-full max-w-3xl rounded-lg border border-gray-200 bg-white shadow-sm"
-              loading="lazy"
-            />
+            <figure className="my-0 overflow-hidden rounded-lg border border-gray-200 bg-gray-50 shadow-sm">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={typeof src === 'string' ? src : undefined}
+                alt={alt ?? ''}
+                className="h-auto w-full object-cover"
+                loading="lazy"
+              />
+            </figure>
           ),
           ...markdownTableComponents,
         }}

@@ -190,20 +190,20 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         </section>
 
         {/* Main Content */}
-        <section className="relative w-full bg-white py-16 border-b-2 border-gray-200">
-          <div className="max-w-7xl mx-auto px-4">
+        <section className="relative w-full border-b-2 border-gray-200 bg-white py-8 sm:py-12 lg:py-16">
+          <div className="mx-auto max-w-7xl px-4">
             <MarkdownArticleWithToc items={tocItems}>
               <article className="min-w-0">
-                <div className="bg-white border-4 border-brand-primary rounded-lg p-8 shadow-2xl">
+                <div className="rounded-lg border-4 border-brand-primary bg-white p-4 shadow-2xl sm:p-6 lg:p-8">
                   {/* Featured Image */}
                   {post.metadata.image && (
-                    <div className="relative w-full h-96 mb-8 rounded-lg overflow-hidden">
+                    <div className="relative mb-6 aspect-[16/10] w-full overflow-hidden rounded-lg bg-gray-100 sm:mb-8 sm:aspect-[16/9]">
                       <Image
                         src={post.metadata.image}
                         alt={post.metadata.imageAlt || `${postTitle} - Vietnam eVisa News Article`}
                         fill
-                        className="object-contain object-center"
-                        sizes="(max-width: 768px) 100vw, 800px"
+                        className="object-cover object-center"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1280px) 80vw, 800px"
                         priority
                       />
                     </div>
@@ -212,7 +212,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   <BlogApplyCta className="mb-8" />
 
                   {/* Article Content */}
-                  <div className="prose lg:prose-xl max-w-none">
+                  <div className="min-w-0">
                     <MarkdownContent content={post.content} />
                   </div>
 
@@ -262,13 +262,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                             className="group bg-gray-50 border-2 border-gray-200 rounded-lg p-4 hover:border-brand-primary transition-all"
                           >
                             {relatedPost.image && (
-                              <div className="relative w-full h-32 mb-3 rounded-lg overflow-hidden">
+                              <div className="relative mb-3 aspect-video w-full overflow-hidden rounded-lg bg-gray-100">
                                 <Image
                                   src={relatedPost.image}
                                   alt={`${relatedPost.title} - Related Article`}
                                   fill
-                                  className="object-contain object-center"
-                                  sizes="(max-width: 768px) 100vw, 200px"
+                                  className="object-cover object-center"
+                                  sizes="(max-width: 768px) 100vw, 240px"
                                 />
                               </div>
                             )}
