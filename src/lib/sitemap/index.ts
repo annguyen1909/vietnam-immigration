@@ -28,6 +28,47 @@ const CORE_FAQ_SLUGS = new Set([
   'vietnam-evisa-requirements',
 ]);
 
+/** Travel guides upgraded to pillar depth — priority boost even before dateModified is set. */
+const TRAVEL_PILLAR_SLUGS = new Set([
+  'best-islands-vietnam-beyond-hanoi-2026',
+  'best-photography-spots-vietnam-2026',
+  'family-friendly-vietnam-2026',
+  'top-10-historical-places-vietnam',
+]);
+
+/** Posts with dateModified on/after this date are treated as recently upgraded content. */
+const CONTENT_UPGRADE_CUTOFF = new Date('2026-06-01T00:00:00Z');
+
+function parseFrontmatterDate(value: unknown): Date | null {
+  if (!value) return null;
+  const parsed = new Date(String(value));
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function getLatestContentDate(data: Record<string, unknown>, fileModified: Date): Date {
+  const candidates = [
+    parseFrontmatterDate(data.dateModified),
+    parseFrontmatterDate(data.date),
+    fileModified,
+  ].filter(Boolean) as Date[];
+
+  return candidates.reduce((latest, current) => (current > latest ? current : latest));
+}
+
+function isVisaGuide(data: Record<string, unknown>): boolean {
+  const tags = data.tags;
+  return Array.isArray(tags) && tags.includes('visa');
+}
+
+function isUpgradedTravelGuide(data: Record<string, unknown>, slug: string): boolean {
+  if (isVisaGuide(data)) return false;
+
+  if (TRAVEL_PILLAR_SLUGS.has(slug)) return true;
+
+  const modified = parseFrontmatterDate(data.dateModified);
+  return modified !== null && modified >= CONTENT_UPGRADE_CUTOFF;
+}
+
 function getStaticSitemapEntries(baseUrl: string, currentDate: Date): MetadataRoute.Sitemap {
   return [
     { url: baseUrl, lastModified: currentDate, changeFrequency: 'daily', priority: 1.0 },
@@ -141,25 +182,14 @@ function getBlogSitemapEntries(baseUrl: string): MetadataRoute.Sitemap {
     directory: 'src/data/news',
     urlPrefix: '/blog',
     defaultChangeFrequency: 'monthly',
-    defaultPriority: 0.6,
-    includeEntry: (data) => {
-      const tags = data.tags;
-      return Array.isArray(tags) && tags.includes('visa');
+    defaultPriority: 0.65,
+    changeFrequencyForEntry: (data) => (isVisaGuide(data) ? 'weekly' : 'monthly'),
+    priorityForEntry: (data, slug) => {
+      if (isVisaGuide(data)) return 0.75;
+      if (isUpgradedTravelGuide(data, slug)) return 0.7;
+      return 0.65;
     },
-    changeFrequencyForEntry: (data) => {
-      const tags = data.tags;
-      const isVisaGuide = Array.isArray(tags) && tags.includes('visa');
-      return isVisaGuide ? 'weekly' : 'monthly';
-    },
-    priorityForEntry: (data) => {
-      const tags = data.tags;
-      const isVisaGuide = Array.isArray(tags) && tags.includes('visa');
-      return isVisaGuide ? 0.75 : 0.6;
-    },
-    lastModifiedForEntry: (data, fileModified) => {
-      const frontmatterDate = data.date ? new Date(String(data.date)) : null;
-      return frontmatterDate && frontmatterDate > fileModified ? frontmatterDate : fileModified;
-    },
+    lastModifiedForEntry: (data, fileModified) => getLatestContentDate(data, fileModified),
   });
 }
 

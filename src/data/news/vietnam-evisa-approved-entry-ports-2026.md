@@ -1,108 +1,308 @@
 ---
-title: 'Vietnam eVisa Entry Ports 2026: Airports & Borders'
+title: 'Vietnam eVisa Entry Ports 2026: Airports, Land Borders & Seaports Explained'
 slug: vietnam-evisa-approved-entry-ports-2026
 date: '2026-02-12'
+dateModified: '2026-06-15'
 author: 'Vietnam Official eVisa Immigration Assistance Service'
 image: '/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg'
-imageAlt: 'Travelers with luggage at a Vietnam international airport terminal'
-excerpt: 'Which airports, land borders, and seaports accept Vietnam eVisa holders in 2026—and why the port on your approval PDF must match where you enter.'
-tags: ['visa', 'entry']
+imageAlt: 'Travelers with luggage at a Vietnam international airport immigration hall'
+excerpt: 'Which airports, land borders, and seaports accept Vietnam eVisa holders in 2026—how entry ports are assigned, major hub codes (SGN, HAN, DAD, PQC, CXR), land crossing rules, cruise entry, and what happens when your port does not match your ticket.'
+tags: ['visa', 'entry', '2026']
 section: 'Visa Guides'
 faq:
   - question: Can I enter Vietnam at any airport with an eVisa?
-    answer: No. You must enter through a port authorized for eVisa and listed on your approval PDF. Major hubs include Tan Son Nhat (SGN), Noi Bai (HAN), and Da Nang (DAD)—confirm the port printed on your approval before you fly.
+    answer: No. You must enter through a port authorized for eVisa and listed on your approval PDF. Major hubs include Tan Son Nhat (SGN), Noi Bai (HAN), and Da Nang (DAD)—but your specific approval governs, not a general list.
   - question: What happens if the entry port on my approval is wrong?
     answer: Airlines may deny boarding or immigration may refuse entry if your landing airport or border gate does not match the approved port. Contact support or file a correction before travel—do not assume verbal fixes at check-in.
   - question: Can I enter Vietnam by land with an eVisa?
-    answer: Many land border gates accept eVisas, but not all. Verify your specific crossing from Cambodia, Laos, or China on the official list before you travel—backpacker routes change.
+    answer: Yes at many designated land border gates with Cambodia, Laos, and China when that gate appears on your approval PDF. Not every overland crossing accepts eVisas—verify your exact route before buying bus tickets.
   - question: Can cruise passengers use a Vietnam eVisa?
-    answer: Often yes at designated seaports when the itinerary and approval align. Cruise travelers should confirm with the operator and read our cruise passenger FAQ before paying.
+    answer: Often yes at designated seaports when the itinerary and approval align. Cruise travelers should confirm with the operator and verify the port on their PDF before paying for the visa.
+  - question: Does the application form let me choose my entry port?
+    answer: On our assisted apply form, you do not select an entry port during application. The authorized port is recorded when your government eVisa is issued and appears on the approval PDF—verify it before you fly.
+  - question: Can I enter at one airport and fly domestically to another city?
+    answer: Yes, once you clear immigration at your authorized international port. Domestic flights after entry do not require a separate port match—only your first international landing in Vietnam must match the PDF.
+  - question: Do I need multiple entry to leave and re-enter at different ports?
+    answer: Multiple entry authorizes re-crossing the border within validity. Each arrival must still comply with ports and stay rules on your PDF. Single entry is consumed after you exit Vietnam.
+  - question: What documents do I present at the entry port?
+    answer: The passport used in the application, a printed eVisa approval PDF, and optionally onward ticket and accommodation details. Business travelers may be asked about meetings matching their visa purpose.
 ---
 
-Your **Vietnam eVisa** is tied to the **port of entry printed on your government approval PDF**. Arriving at a different airport, land gate, or seaport than the one listed can cause **denied boarding or refused entry**—even with a valid-looking email. This 2026 guide explains authorized ports and how they work with our assisted apply flow.
+Your **Vietnam eVisa** is not a generic "enter anywhere" pass. It is tied to the **port of entry printed on your government approval PDF**—the specific airport, land border gate, or seaport where you first arrive in Vietnam. Landing at a different location than the one listed can cause **denied boarding, refused entry, or a ruined first day of vacation**—even when the email in your inbox looks valid.
 
-**We are a private visa assistance service—not the Government of Vietnam.** Entry rules are set by immigration authorities. Our [/apply](/apply) form collects visa type, travel dates, contact details, and passenger information—it does **not** include an entry-port dropdown. The port is recorded when your government eVisa is issued; always verify it on the approval PDF before travel.
+This 2026 guide explains how entry ports work on assisted applications, which international airports and land crossings travelers use most, what cruise passengers should verify, and how to align your tickets with your approval before you pack.
 
-## How entry port works on our apply form
+**We are a private visa assistance service—not the Government of Vietnam.** Entry rules and authorized port lists are set by Vietnamese immigration authorities. Our [/apply](/apply) form collects visa type, travel dates, contact details, and passenger information—it does **not** include an entry-port dropdown. The port is assigned when your government eVisa is issued; always verify it on the approval PDF before travel.
 
-Our [/apply](/apply) form does **not** ask you to pick an entry port. The authorized port appears on your **approved eVisa PDF** after processing. Always confirm it matches your first international arrival in Vietnam before you fly.
+[Insert Image: Vietnam eVisa approval PDF highlighting port of entry field with flight boarding pass - Alt: Vietnam eVisa approval PDF port of entry matched against international flight ticket]
 
-Before you fly, confirm your ticket's **first international landing in Vietnam** matches the port on your approval. If your plans change, contact our support team before departure.
+## Quick answer: Vietnam eVisa entry ports at a glance
 
-Full lists and edge cases: [/faq/vietnam-evisa-entry-points](/faq/vietnam-evisa-entry-points). Nationality rules: [/check-requirement](/check-requirement).
+| Item | 2026 summary |
+| --- | --- |
+| **Golden rule** | First international arrival in Vietnam must match the **port on your approval PDF** |
+| **Major airport hubs** | **SGN** (Ho Chi Minh City), **HAN** (Hanoi), **DAD** (Da Nang), **CXR** (Nha Trang), **PQC** (Phu Quoc) |
+| **Land entry** | Designated gates with **Cambodia, Laos, China**—only if listed on your PDF |
+| **Seaports** | Cruise and ferry arrivals at authorized ports when approval aligns |
+| **Our apply form** | Does **not** ask you to pick a port—port appears on issued PDF |
+| **Domestic connections** | Fine after clearing immigration at your authorized international port |
+| **Single vs multiple** | Multiple entry needed to exit and return; port rules apply on **every** arrival |
+| **Best practice** | Download PDF, verify port vs ticket, print one copy before departure |
 
-## International airports most visitors use
+**Best for:** First-time visitors booking international flights, overland backpackers on Southeast Asia loops, cruise passengers, and families coordinating arrival airports with hotel locations.
 
-| Code | Airport | Region |
-| :--- | :--- | :--- |
-| **SGN** | Tan Son Nhat | Ho Chi Minh City — southern hub |
-| **HAN** | Noi Bai | Hanoi — capital region |
-| **DAD** | Da Nang | Central coast — Hoi An, Hue gateway |
+## How entry port assignment works
 
-Other international airports may accept eVisas when listed on your **approval**—your first landing in Vietnam on your ticket should match an authorized port on that document, not just your final hotel city if you connect domestically after entry.
+Understanding **when** and **how** the port appears prevents the most common entry failure: booking flights before checking the PDF.
 
-## Land border crossings
+### On our assisted application flow
 
-Overland travelers from **Cambodia, Laos, or China** must confirm their **specific border gate** is authorized for eVisa entry. Popular backpacker crossings change status over time—verify before you buy bus tickets.
+Our [/apply](/apply) form does **not** ask you to select an entry port during application. You provide visa type, travel dates, passenger details, passport scans, and payment—but not "I will land at SGN."
 
-**Land entry tips:**
+The **authorized port of entry** is recorded when Vietnamese immigration issues your eVisa. It then appears on your **approval PDF** alongside passport number, validity dates, and entry type (single or multiple).
 
-- Carry a **printed eVisa** and the passport used in the application.
-- Have hotel address and onward ticket details ready.
-- Expect extra questions on motorcycle or tour-bus routes.
+**What you must do after approval:**
+
+1. Download the PDF immediately and save offline on your phone
+2. Find the **port of entry** field—note the airport code or border gate name
+3. Compare it to your ticket's **first international landing in Vietnam**
+4. If they differ, contact support **before** departure—do not assume airline staff can override
+
+For step-by-step application context, see [how to apply for a Vietnam eVisa online](/blog/how-to-apply-vietnam-evisa-online-2026).
+
+### Official government portal: same principle
+
+Whether you file through the official government website or assisted filing, the port on your **issued approval** governs entry—not your hotel city, not your intended domestic connection, and not a general list of "eVisa airports" from a blog post.
+
+### First international landing vs final destination
+
+This distinction trips up multi-city planners constantly:
+
+| Your ticket | What must match the PDF |
+| --- | --- |
+| London → **Hanoi (HAN)** → hotel in Hanoi | **HAN** on PDF |
+| Sydney → **Ho Chi Minh City (SGN)** → domestic flight to Da Nang | **SGN** on PDF (Da Nang domestic leg is after immigration) |
+| Bangkok → **Da Nang (DAD)** → train to Hue | **DAD** on PDF |
+| Planned HAN arrival but PDF shows **SGN** | **Problem**—fix before flying |
+
+Domestic flights, trains, and buses **after** you clear immigration do not need to match the port. Only the **first time you enter Vietnam internationally** must align.
+
+[Insert Infographic: Vietnam eVisa entry port decision flow — ticket vs PDF vs domestic connections - Alt: Vietnam eVisa entry port matching diagram for international arrival and domestic connections]
+
+## International airports: codes, regions, and route logic
+
+Vietnam eVisa holders commonly enter through designated international airports. Your approval lists **your** authorized airport—not every airport automatically.
+
+### Major airports travelers use
+
+| Code | Airport | Region | Typical traveler profile |
+| :--- | :--- | :--- | :--- |
+| **SGN** | Tan Son Nhat International | Ho Chi Minh City — south | First-time visitors to south Vietnam, Mekong Delta, Phu Quoc connections |
+| **HAN** | Noi Bai International | Hanoi — north | Halong Bay, Sapa, northern history routes |
+| **DAD** | Da Nang International | Central coast | Hoi An, Hue, central beaches, shorter north–south splits |
+| **CXR** | Cam Ranh International | Nha Trang area | Beach holidays, resort-focused trips |
+| **PQC** | Phu Quoc International | Phu Quoc Island | Island resorts, visa-run aware planners, some cruise calls |
+
+Other international airports may accept eVisas when **listed on your specific approval**. Do not assume a secondary airport works because a friend entered there—check **your** PDF.
+
+### Choosing the right arrival airport for your itinerary
+
+| If your trip focuses on… | Logical first landing | Planning note |
+| --- | --- | --- |
+| Ho Chi Minh City, Mekong, southern beaches | **SGN** | Vietnam's busiest international hub |
+| Hanoi, Halong, Sapa, north | **HAN** | Allow buffer for north–south domestic legs if you also visit the south |
+| Hoi An, Hue, Da Nang, central coast | **DAD** | Saves backtracking from HAN or SGN |
+| Nha Trang resorts | **CXR** | Confirm CXR on your PDF—not just "Vietnam beach" |
+| Phu Quoc island only | **PQC** | Some travelers combine PQC with mainland via domestic flight after entry |
+
+**Ticket booking order:** Ideally confirm eVisa approval and port **before** non-refundable international tickets. If you must book flights first, apply as early as possible and contact support immediately if the issued port does not match.
+
+### Airlines and check-in: what to expect
+
+International carriers flying to Vietnam often verify:
+
+- Passport validity (six months beyond arrival is the safe standard)
+- Printed or digital eVisa PDF
+- **Port match** between PDF and landing airport
+
+Check-in agents follow airline policy and immigration guidance—they are not empowered to "approve" a port mismatch because you explain your hotel is elsewhere. Carry a **printed PDF**; phone batteries die at the worst counters.
+
+## Land border crossings: Cambodia, Laos, and China
+
+Overland travel is popular on Southeast Asia backpacking routes. eVisa land entry is possible at **designated border gates**—but only when that gate appears on your approval PDF.
+
+### Cambodia → Vietnam
+
+Common overland routes include:
+
+| Crossing (examples) | Route context | Planning note |
+| --- | --- | --- |
+| **Moc Bai / Bavet area** | Ho Chi Minh City ↔ Phnom Penh buses | High-volume tourist route; confirm exact gate name on PDF |
+| **Other southern crossings** | Mekong region loops | Verify gate status before buying tickets—routes change |
+
+**Tips for land entry from Cambodia:**
+
+- Carry **printed eVisa** and the exact passport used in the application
+- Bus companies sometimes quote "easy border"—your PDF gate name is what matters
+- Weekend queues can be long; plan daylight arrivals when possible
+- If returning to Vietnam after Cambodia, you need **multiple entry**—see [Vietnam multiple-entry eVisa guide](/blog/vietnam-evisa-multiple-entry-guide-2026)
+
+### Laos → Vietnam
+
+| Crossing (examples) | Route context | Planning note |
+| --- | --- | --- |
+| **Lao Bao** | Central Vietnam ↔ southern Laos | Popular on Hoi An–Phong Nha–Laos loops |
+| **Nam Can** | North-central Laos connections | Less touristy; double-check gate on PDF |
+| **Other northern gates** | Motorbike and tour routes | Not all gates accept eVisas—verify before committing |
+
+Motorbike and adventure travelers: immigration may ask about your vehicle and route. Answers should match tourism purpose on a tourist eVisa.
+
+### China → Vietnam
+
+China–Vietnam land borders operate through **designated gates** listed on official eVisa documentation. Northern Vietnam itineraries (Ha Giang, Lang Son region) sometimes plan China side trips—confirm both outbound and **re-entry** ports on a **multiple-entry** visa if you return to Vietnam.
+
+Land border status can change with policy updates. Treat forum posts as leads, not law—your approval PDF and official lists govern.
+
+[Insert Image: Travelers at Vietnam land border checkpoint with passports and printed eVisa documents - Alt: Vietnam land border crossing with eVisa holders presenting passport and printed approval]
 
 ## Seaports and cruise passengers
 
-Cruise itineraries may use **seaport** codes instead of airports. Align your travel plans with the operator's **embarkation and disembarkation** schedule—[/faq/cruise-passenger-visa-vietnam](/faq/cruise-passenger-visa-vietnam).
+Cruise itineraries introduce port codes instead of airport IATA codes. eVisa entry at seaports is possible when:
 
-## Common entry mistakes
+- The **seaport** on your approval matches the ship's embarkation or disembarkation point
+- You hold a valid eVisa before going ashore for independent travel
+- Your **entry type** supports the itinerary (multiple entry if you leave Vietnam and return)
 
-1. **Wrong port on approval PDF** — e.g. Hanoi listed, Ho Chi Minh City flight booked.
-2. **Single-entry used twice** — weekend outside Vietnam then return without multiple entry.
-3. **Expired or short passport** — under six months validity from arrival.
-4. **No printed copy** — phone dead at the counter; airline wants paper.
-5. **Different passport** — approval tied to the booklet you applied with.
+### Common cruise scenarios
 
-## At immigration: what to present
+| Scenario | Entry planning |
+| --- | --- |
+| **Single port call, day ashore** | Single-entry eVisa may suffice if you do not exit Vietnam's immigration zone incorrectly |
+| **Embark in Vietnam, disembark elsewhere** | Verify embarkation port on PDF |
+| **Multi-country cruise returning to Vietnam** | Usually requires **multiple entry** |
+| **Phu Quoc or Da Nang port calls** | Confirm specific port name with operator and PDF |
 
-- Passport used in the application.
-- **Printed** eVisa approval (PDF).
-- Optional but useful: return ticket, accommodation, travel insurance.
+Cruise operators sometimes offer visa advice—cross-check against your own PDF. Operator mistakes do not override immigration rules.
 
-Business travelers may be asked about meetings—answers should match the **purpose** of your visa.
+Dedicated FAQ: [cruise passenger visa for Vietnam](/faq/cruise-passenger-visa-vietnam).
 
-## Changing ports after approval
+## At immigration: what to present and what officers check
 
-Do not rely on airline staff to "fix" a wrong port at check-in. Corrections typically need a **new application** or official amendment. If your flight was rerouted, contact support **before** travel.
+Whether you arrive by air, land, or sea, immigration officers typically verify:
+
+| Check | Why it matters |
+| --- | --- |
+| **Passport matches eVisa** | Number and name must align exactly |
+| **Port matches arrival location** | Wrong gate or airport → refusal risk |
+| **Visa within validity dates** | Enter before expiry; respect stay length |
+| **Entry type** | Single entry consumed after exit; multiple allows returns |
+| **Purpose consistency** | Tourism vs business answers should match visa category |
+
+### Documents to carry
+
+- **Passport** used in the application (not an old or renewed booklet unless you reapplied)
+- **Printed eVisa approval PDF** (phone copy as backup)
+- **Onward or return ticket** (optional but useful if asked)
+- **Accommodation address** (hotel booking or host details)
+- **Travel insurance** details (optional but helpful)
+
+Business travelers may be asked about meetings or conferences—carry invitations or agendas if purpose is business.
+
+### Domestic travel after entry
+
+Once stamped in at your authorized port, you move freely within Vietnam's domestic transport network subject to your **stay length** and visa conditions. Flying Hanoi → Da Nang after entering at SGN is normal. The port rule applies to **international** arrivals only.
 
 ## Single vs multiple entry at the border
 
-| Type | What it means at entry |
-| :--- | :--- |
-| **Single entry** | One arrival period; leaving Vietnam and returning usually needs a new visa |
-| **Multiple entry** | Re-enter within validity if each return complies with stay rules |
+Entry port rules apply on **every international arrival**—not just the first one.
 
-Choosing wrong entry type is costly—see [/fees](/fees) and [/blog/vietnam-evisa-fees-explained-2026](/blog/vietnam-evisa-fees-explained-2026).
+| Type | At the border | Port note |
+| :--- | :--- | :--- |
+| **Single entry** | One arrival period; leaving Vietnam usually consumes the visa | Re-entry requires a new visa |
+| **Multiple entry** | Re-enter within validity if each stay respects printed limits | Each return must use authorized ports on your PDF |
+
+Example: You enter at **Noi Bai (HAN)**, bus to Laos, return via **Lao Bao** land border. That works only with **multiple entry** and only if **both ports** (or applicable gates) are covered on your approval.
+
+Fee comparison: [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026).
+
+## Common entry port mistakes
+
+| Mistake | What goes wrong | Fix |
+| --- | --- | --- |
+| **PDF shows HAN, ticket lands SGN** | Boarding denial or entry refusal | Contact support before travel; do not fly hoping for flexibility |
+| **Booking flights before approval** | Port mismatch discovered too late | Apply early; verify PDF before ticketing |
+| **Assuming any "eVisa airport" works** | Friend entered DAD; your PDF says SGN | Your PDF governs |
+| **Single entry + side trip abroad** | Cannot re-enter legally | Apply multiple entry upfront |
+| **Wrong passport at counter** | Approval tied to application passport | Carry the correct booklet |
+| **No printed copy** | Airline or officer wants paper | Print before airport |
+| **Expired passport** | Denied despite valid eVisa | Six months validity buffer |
+
+Full mistake list: [10 Vietnam eVisa mistakes to avoid](/blog/vietnam-evisa-common-mistakes-2026).
+
+## Changing ports after approval
+
+Do not rely on airline staff, tour agents, or border officers to "fix" a wrong port at check-in. Corrections typically require:
+
+- A **new application** with correct details, or
+- Official amendment where available (not guaranteed)
+
+If your airline rerouted your flight to a different Vietnamese city, contact support **before** travel with your reference number and new ticket. Voluntary itinerary changes you make after approval are your responsibility to reconcile.
+
+## Planning entry port alongside visa timing
+
+Entry port verification is the **last step** before travel—not the first. Recommended sequence:
+
+1. [Check eligibility](/check-requirement) for your nationality
+2. [Apply online](/apply) with correct single/multiple entry for your route
+3. Wait for approval—track [processing time](/blog/vietnam-evisa-processing-time-2026) realistically
+4. **Verify port on PDF** against intended landing
+5. Book or confirm non-refundable flights only after steps 3–4 succeed
+6. Print PDF; pack with passport
+
+Apply **7–14+ days** before departure when possible. Last-minute applications compress the window to fix port mismatches.
 
 ## Related guides
 
-- [How to apply online](/blog/how-to-apply-vietnam-evisa-online-2026)
-- [Requirements checklist](/blog/vietnam-evisa-requirements-guide-2026)
-- [Processing times](/blog/vietnam-evisa-processing-time-2026)
-- [FAQ hub](/faq)
+- [Vietnam eVisa requirements 2026](/blog/vietnam-evisa-requirements-guide-2026)
+- [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026)
+- [Vietnam multiple-entry eVisa guide](/blog/vietnam-evisa-multiple-entry-guide-2026)
+- [Vietnam eVisa for families and minors](/blog/vietnam-evisa-for-minors-families-2026)
+- [Entry points FAQ](/faq/vietnam-evisa-entry-points)
 
 ## Frequently asked questions
 
-**Can I enter at any airport?**  
-Only authorized ports on your approval—major hubs include SGN, HAN, and DAD when listed correctly on your PDF.
+### Can I enter Vietnam at any airport with an eVisa?
 
-**What if the port on my approval is wrong?**  
-High risk of boarding denial or entry refusal; contact support or reapply before travel.
+No. You must arrive at the **port of entry listed on your approval PDF**. Major hubs include Tan Son Nhat (**SGN**), Noi Bai (**HAN**), and Da Nang (**DAD**)—but your specific document governs.
 
-**Can I enter by land?**  
-Yes at listed gates—verify your exact crossing first.
+### What happens if the entry port on my approval is wrong?
 
-**Can cruise passengers use eVisa?**  
-Often at designated seaports—confirm with the cruise operator and our cruise FAQ.
+Airlines may deny boarding or immigration may refuse entry. Contact support or reapply **before** travel—do not assume verbal fixes at check-in.
 
-[Start your Vietnam eVisa application](/apply).
+### Can I enter Vietnam by land with an eVisa?
+
+Yes at **designated land border gates** with Cambodia, Laos, and China when that gate appears on your PDF. Verify your exact crossing before buying bus tickets.
+
+### Can cruise passengers use a Vietnam eVisa?
+
+Often yes at designated seaports when the itinerary and approval align. Confirm with your cruise operator and verify the port on your PDF.
+
+### Does the application form let me choose my entry port?
+
+On our assisted form, you do not select a port during application. The port appears on your issued approval PDF.
+
+### Can I enter at one airport and fly domestically to another city?
+
+Yes, after clearing immigration at your authorized international port. Domestic connections do not need a separate port match.
+
+### Do I need multiple entry to leave and re-enter at different ports?
+
+Yes, if you exit Vietnam and return. Each arrival must comply with ports and stay rules on your PDF.
+
+### What documents do I present at the entry port?
+
+The passport used in the application, a printed eVisa PDF, and optionally onward ticket and accommodation details.
+
+---
+
+Before you lock non-refundable flights, [apply for Vietnam eVisa online](/apply), download your approval PDF, and confirm the **port of entry** matches your ticket—or start with [Vietnam visa eligibility by country](/check-requirement) if you have not applied yet.
