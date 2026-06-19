@@ -3,7 +3,7 @@ title: '10 Vietnam eVisa Mistakes to Avoid in 2026 (And How to Fix Them Before Y
 slug: vietnam-evisa-common-mistakes-2026
 date: '2026-02-16'
 dateModified: '2026-06-15'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-common-mistakes-2026.jpg'
 imageAlt: 'The dragon-shaped head of the Dragon Bridge in Da Nang, Vietnam'
 excerpt: 'Avoid the 10 most common Vietnam eVisa mistakes in 2026—passport typos, wrong entry port, bad photos, single-entry misuse, and late applications—that cause rejections or airport entry problems.'
@@ -32,7 +32,7 @@ Most **Vietnam eVisa** applications succeed, but a predictable set of mistakes s
 
 **We are a private visa assistance service—not the Government of Vietnam.** Vietnamese immigration authorities set the rules, review applications, and issue or refuse eVisas. We help travelers catch typos and document problems early; we do not override government decisions.
 
-[Insert Image: Traveler comparing passport bio page with Vietnam eVisa application on laptop - Alt: Checking passport MRZ against Vietnam eVisa form to avoid common application mistakes]
+![Checking passport MRZ against Vietnam eVisa form to avoid application mistakes](/img/blog/photos/vietnam-evisa-common-mistakes-2026.jpg)
 
 ## Quick answer: Vietnam eVisa mistakes at a glance
 
@@ -92,7 +92,7 @@ Cross-check against the MRZ, where the date appears in a compressed YYMMDD forma
 
 ## Mistake 3: Entry port on approval does not match your ticket
 
-This mistake surprises travelers who assume any Vietnamese airport works once they have an eVisa. **Official rule:** you must enter at the **port of entry printed on your approved eVisa PDF**.
+This mistake surprises travelers who assume any Vietnamese airport works once they have an eVisa. **Official rule:** you must enter at the **port of entry printed on your approved eVisa PDF** ([Vietnam Immigration Department](https://immigration.gov.vn/)).
 
 On many assisted application flows—including ours at [/apply](/apply)—you do not select an entry port during the form. The authorized port appears on your **approval PDF after processing**. That means your job is not finished when you pay; you must **verify the port against your flight ticket** before you fly.
 
@@ -110,7 +110,7 @@ On many assisted application flows—including ours at [/apply](/apply)—you do
 
 Full port list and planning notes: [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026).
 
-[Insert Infographic: Vietnam eVisa entry port must match flight ticket - Alt: Diagram showing Vietnam eVisa entry port matching airline arrival airport]
+![Vietnam eVisa entry port must match your airline arrival airport](/img/blog/infographics/vietnam-evisa-entry-ports-map.svg)
 
 ## Mistake 4: Single-entry visa used for a leave-and-return itinerary
 
@@ -154,7 +154,7 @@ Full specifications: [Vietnam eVisa photo requirements](/blog/vietnam-evisa-phot
 
 ## Mistake 6: Expired or short-validity passport
 
-Official policy requires your passport to be valid for at least **six months beyond your arrival date** in Vietnam, with at least one blank page for entry stamps. Applying with a passport that expires soon—or renewing after approval—creates a mismatch.
+Most airlines and immigration officers expect passports valid for at least **six months beyond your arrival date** in Vietnam, with at least one blank page for entry stamps—a common planning standard even when your eVisa is approved. Applying with a passport that expires soon—or renewing after approval—creates a mismatch.
 
 **How to avoid it:**
 
@@ -220,7 +220,7 @@ Standard handling on assisted flows is commonly **within five business days** af
 
 Applying the same day you fly is how travelers reach check-in without a PDF. Read [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026) before you choose a processing tier.
 
-[Insert Image: Calendar showing recommended Vietnam eVisa application timeline before departure - Alt: Vietnam eVisa apply early timeline 7 to 14 days before flight]
+![Recommended Vietnam eVisa application timeline 7 to 14 days before departure](/img/blog/photos/vietnam-evisa-processing-time-2026.jpg)
 
 ## Bonus mistake: Duplicate applications
 
@@ -300,7 +300,7 @@ Use the [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guid
 
 ## When guided validation helps
 
-The official government portal works for careful self-filers. Assisted application at [/apply](/apply) tends to help when you want:
+Assisted application at [/apply](/apply) tends to help when you want:
 
 - Field-by-field validation against passport data before payment
 - Document format checks on scans and portraits
@@ -308,6 +308,12 @@ The official government portal works for careful self-filers. Assisted applicati
 - Family group submissions with consistent passenger data
 
 Assistance reduces avoidable errors—it does not guarantee approval or override immigration decisions.
+
+
+## Official references
+
+- [Vietnam Immigration Department](https://immigration.gov.vn/) — entry-port rules and e-visa services
+- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official pre-arrival e-visa channel
 
 ## Frequently asked questions
 
@@ -344,5 +350,4 @@ Yes—each passport holder needs their own authorization. Parents cannot cover i
 No. Duplicate paid applications can slow or block approval. Track one reference number and contact support first.
 
 ---
-
 When your passport, photos, and itinerary are verified, [apply for Vietnam eVisa online](/apply) with guided validation—or start with the [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) if you are still preparing documents.

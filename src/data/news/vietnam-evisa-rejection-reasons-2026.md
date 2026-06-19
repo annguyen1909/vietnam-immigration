@@ -3,7 +3,7 @@ title: 'Why Vietnam eVisas Get Rejected in 2026: Top Reasons and How to Fix Them
 slug: vietnam-evisa-rejection-reasons-2026
 date: '2026-03-03'
 dateModified: '2026-06-15'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-rejection-reasons-2026.jpg'
 imageAlt: 'Modern high-rise skyline of Ho Chi Minh City, Vietnam'
 excerpt: 'Top Vietnam eVisa rejection reasons in 2026—document quality, passport data mismatches, eligibility issues, duplicate applications—and exactly what to fix before you reapply or fly.'
@@ -32,7 +32,7 @@ A **rejected Vietnam eVisa** is stressful when your departure date is close. Ref
 
 **We are a private visa assistance service—not the Government of Vietnam.** We help travelers prepare compliant applications; we do not issue visas or override immigration decisions. Final approval or refusal rests with Vietnamese immigration authorities.
 
-[Insert Image: Traveler reading Vietnam eVisa rejection email on phone with passport nearby - Alt: Vietnam eVisa rejection notice and passport for reapplication planning]
+![Vietnam eVisa rejection notice and passport for reapplication planning](/img/blog/photos/vietnam-evisa-rejection-reasons-2026.jpg)
 
 ## Quick answer: Vietnam eVisa rejection at a glance
 
@@ -50,7 +50,7 @@ A **rejected Vietnam eVisa** is stressful when your departure date is close. Ref
 
 ## How Vietnam eVisa review works (and why refusals feel vague)
 
-After you pay, your application enters an immigration review queue. Early stages often use **automated document checks**—file format, image clarity, MRZ readability, and basic field validation. Cases that pass automation may receive human review. Security and eligibility databases can flag applications regardless of how clean your uploads look.
+After you pay, your application enters an immigration review queue managed by [Vietnamese immigration authorities](https://immigration.gov.vn/). Early stages often use **automated document checks**—file format, image clarity, MRZ readability, and basic field validation. Cases that pass automation may receive human review. Security and eligibility databases can flag applications regardless of how clean your uploads look.
 
 Refusal emails frequently use **generic language** without specifying whether the photo, passport number, or eligibility screen failed. That is official process—not necessarily a sign your case is hopeless. Your job is to diagnose which rejection category fits, fix it, and reapply with corrected data.
 
@@ -84,7 +84,7 @@ Over-compressed JPGs turn MRZ lines into illegible blocks. Wrong file types may 
 
 **Fix:** Export a high-quality JPG within portal size limits. **Do not upscale** a blurry image—officers compare pixels to your physical passport at entry.
 
-[Insert Image: Side-by-side accepted vs rejected Vietnam eVisa passport scan - Alt: Correct and incorrect passport bio page scans for Vietnam eVisa upload]
+![Correct and incorrect passport bio page scans for Vietnam eVisa upload](/img/blog/infographics/vietnam-evisa-passport-scan-example.svg)
 
 ## Data mismatch rejections
 
@@ -185,7 +185,7 @@ Follow this sequence before you pay again:
 
 **Do not board** your flight hoping immigration will overlook a rejection. Airlines check authorization at check-in.
 
-[Insert Infographic: Vietnam eVisa rejection fix workflow from refusal to reapplication - Alt: Flowchart for fixing Vietnam eVisa rejection and reapplying correctly]
+![Flowchart for fixing Vietnam eVisa rejection and reapplying correctly](/img/blog/infographics/vietnam-evisa-apply-steps.svg)
 
 ## Entry denied despite "approval"
 
@@ -233,7 +233,7 @@ Compare options: [Vietnam eVisa vs embassy visa](/blog/vietnam-evisa-vs-embassy-
 
 ## When assisted reapplication helps
 
-Self-filing through official government channels works if you can diagnose the rejection yourself. Assisted reapplication at [/apply](/apply) tends to help when:
+Assisted reapplication at [/apply](/apply) tends to help when:
 
 - You are unsure **which rejection category** applies
 - Document quality is the issue and you want format validation before paying again
@@ -241,6 +241,12 @@ Self-filing through official government channels works if you can diagnose the r
 - You want fee disclosure and a structured checklist to avoid a second identical refusal
 
 Assistance improves application quality—it does not guarantee approval.
+
+
+## Official references
+
+- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal and e-visa review authority
+- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official pre-arrival application channel
 
 ## Frequently asked questions
 
@@ -275,7 +281,5 @@ If the portal shows no cooling-off period, reapply as soon as documents and data
 ### What if I am rejected close to my flight date?
 
 Contact support immediately. Review [24-hour Vietnam eVisa guidance](/faq/24-hour-vietnam-evisa) and urgent processing tiers only if your arrival date allows. Do not book non-refundable plans until you hold a valid PDF.
-
----
 
 When your documents and itinerary are corrected, [apply for your Vietnam eVisa](/apply) with validation before payment—or verify [eligibility by country](/check-requirement) if you are unsure eVisa is the right path.

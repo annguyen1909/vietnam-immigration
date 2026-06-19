@@ -1,7 +1,7 @@
 ---
 title: 'Vietnam Island Travel 2026: Beaches, Boats & Planning Guide'
 date: '2026-01-27'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-tropical-islands-paradise-2026.jpg'
 imageAlt: 'Palm trees lining a tropical beach on a Vietnamese island with turquoise water'
 excerpt: 'Plan Vietnam island travel in 2026—regional seasons, cruise vs land stays, ferry packing, reef etiquette, VND cash tips, and how to match island mood to your trip length.'
@@ -31,7 +31,7 @@ Vietnam's tropical islands stretch across **three marine zones**—limestone arc
 
 For island-by-island comparisons—Cat Ba, Cham, Phu Quoc, Con Dao, ferry routes, and sample itineraries—see our dedicated [best islands in Vietnam guide](/blog/best-islands-vietnam-beyond-hanoi-2026). This article focuses on **how to think about island travel** regardless of which specific island you choose.
 
-[Insert Image: Tropical beach with fishing boats and palm trees on a Vietnamese island - Alt: Tropical island beach in Vietnam with palm trees and traditional fishing boats]
+![Tropical island beach in Vietnam with palm trees and traditional fishing boats](/img/blog/photos/vietnam-tropical-islands-paradise-2026.jpg)
 
 ## Quick answer: Vietnam island travel at a glance
 
@@ -75,7 +75,7 @@ Vietnam is an S-shaped coast, not one continuous beach belt. Island character ch
 
 **What breaks trips:** Limited **Con Dao flight schedules**, plankton blooms affecting visibility, and domestic holiday crowds filling Phu Quoc flights and resorts.
 
-[Insert Infographic: Vietnam island regions map from Gulf of Tonkin to southern islands - Alt: Map of Vietnam island travel regions showing north central and south marine zones]
+![Map of Vietnam island travel regions showing north, central, and south marine zones](/img/blog/vietnam-islands.svg)
 
 ## Choosing your island mood
 
@@ -147,7 +147,7 @@ Overnight bay cruises and land stays solve different problems. Many travellers c
 
 This delivers both trail time and deck-time karst scenery without rushing both into a single weekend.
 
-[Insert Image: Traditional junk boat moored among limestone karsts in Lan Ha Bay - Alt: Overnight cruise junk boat in Lan Ha Bay Vietnam among limestone islands]
+![Overnight cruise junk boat in Lan Ha Bay among limestone islands](/img/blog/photos/best-islands-vietnam-beyond-hanoi-2026.jpg)
 
 ## Beach etiquette, safety, and marine protection
 
@@ -261,7 +261,7 @@ Islands do not have separate immigration. Your approved **Vietnam eVisa** (or ot
 
 **Private assistance note:** We help travellers avoid common application errors; final approval rests with immigration authorities.
 
-[Insert Image: Travellers boarding a ferry at a Vietnamese island pier with life jackets - Alt: Passengers boarding island ferry at Vietnamese pier with life jackets and calm morning sea]
+![Passengers boarding island ferry at a Vietnamese pier with life jackets](/img/blog/photos/vietnam-beach-holidays-coast-2026.jpg)
 
 ## Frequently asked questions
 

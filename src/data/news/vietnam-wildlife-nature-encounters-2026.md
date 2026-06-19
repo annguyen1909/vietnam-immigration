@@ -1,7 +1,7 @@
 ---
 title: 'Vietnam Wildlife Encounters 2026: Ethical Viewing from Gibbons to Sea Turtles'
 date: '2026-01-28'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-wildlife-nature-encounters-2026.jpg'
 imageAlt: 'Red-shanked douc langur in the forest canopy in Vietnam'
 excerpt: 'Where to see gibbons, langurs, hornbills, and sea turtles in Vietnam—with dawn routines, ethical viewing rules, VND park fees, seasons, and how wildlife trips differ from general national park planning.'
@@ -33,7 +33,7 @@ Vietnam's wildlife rewards **early mornings**, **licensed guides who read the ca
 
 **We are a private visa assistance service—not the Government of Vietnam.** Ranger rules and marine park regulations are set by Vietnamese authorities. We help travellers prepare entry documents; the advice below is general travel guidance with costs in **Vietnamese dong (VND)**.
 
-[Insert Image: Yellow-cheeked gibbon in rainforest canopy at Cat Tien National Park - Alt: Gibbon in rainforest canopy at Cat Tien National Park Vietnam wildlife watching]
+![Gibbon in rainforest canopy at Cat Tien National Park wildlife watching](/img/blog/photos/vietnam-wildlife-nature-encounters-2026.jpg)
 
 ## Quick answer: best wildlife encounters at a glance
 
@@ -96,7 +96,7 @@ Roughly **150 km from Ho Chi Minh City**, **Cat Tien** shelters one of Vietnam's
 
 **Cons:** Not a safari guarantee; summer heat and mosquitoes; macaques at trailheads require food discipline.
 
-[Insert Image: Jeep safari on forest road at dawn in Cat Tien National Park - Alt: Dawn jeep safari on forest road Cat Tien National Park Vietnam]
+![Dawn jeep safari on forest road in Cat Tien National Park](/img/blog/photos/vietnam-national-parks-wildlife-2026.jpg)
 
 ## Cuc Phuong National Park: langurs and primate conservation
 
@@ -144,7 +144,7 @@ Book **Con Dao** flights from **Ho Chi Minh City** early on holidays. Turtle tou
 
 **Comparison:** Cham Islands suit snorkel day trips from **Hoi An**; Con Dao suits **three to five night** marine-focused weeks with diving depth.
 
-[Insert Image: Sea turtle nesting beach at night on Con Dao Island Vietnam - Alt: Protected sea turtle nesting beach Con Dao National Park Vietnam night viewing]
+![Protected sea turtle nesting beach in Con Dao National Park at night](/img/blog/photos/vietnam-best-diving-destinations-2026.jpg)
 
 ## Ba Be and Phong Nha: quieter freshwater and forest edges
 

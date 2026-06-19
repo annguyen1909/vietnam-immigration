@@ -21,7 +21,7 @@ export default function RefundPolicyPage() {
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Refund Policy</h1>
               <p className="text-xl text-gray-800 mb-8">
-                Clear and equitable refund conditions for our Vietnam Official eVisa Immigration
+                Clear and equitable refund conditions for our Vietnam eVisa Assistance Team
                 Assistance Service
               </p>
               <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600">

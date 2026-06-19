@@ -2,8 +2,8 @@
 title: "Vietnam eVisa Requirements 2026: Full Checklist"
 slug: "vietnam-evisa-requirements-guide-2026"
 date: "2026-02-01"
-dateModified: "2026-06-10"
-author: "Vietnam Official eVisa Immigration Assistance Service"
+dateModified: "2026-06-18"
+author: "Vietnam eVisa Assistance Team"
 image: "/img/blog/photos/vietnam-evisa-requirements-guide-2026.jpg"
 imageAlt: "Traveler reviewing Vietnam eVisa requirements 2026 before applying online"
 excerpt: "Vietnam eVisa requirements 2026 explained: 90-day tourist visa rules, documents, photo standards, fees, processing time, entry ports, and US/UK/Australian traveler notes."
@@ -17,7 +17,7 @@ faq:
   - question: "Where do I apply for a Vietnam eVisa?"
     answer: "Start on vietnamemigration.com at /apply — choose visa type and travel dates, enter passenger details, pay securely, and upload passport scans and photos. Our team reviews documents and supports you through approval."
   - question: "What are Vietnam entry requirements for US/UK/Australian citizens?"
-    answer: "US and Australian passport holders generally need a visa or eVisa for ordinary tourist travel. UK citizens may qualify for short visa-exempt stays, but should apply for an eVisa for longer trips, multiple entry, or if their itinerary exceeds exemption rules."
+    answer: "US and Australian passport holders generally need a visa or eVisa for ordinary tourist travel. UK citizens may qualify for short visa-exempt stays when policy allows, but exemption rules change—verify on /check-requirement before skipping an eVisa for longer trips, multiple entry, or itineraries that exceed exemption limits."
   - question: "How long is Vietnam visa processing time 2026?"
     answer: "Standard eVisa handling commonly takes several working days. This service presents normal handling as within 5 business days, with optional urgent handling when available. Approval is controlled by Vietnamese authorities and cannot be guaranteed by a private service."
   - question: "What is the cost of Vietnam eVisa in 2026?"
@@ -50,7 +50,7 @@ This guide is written for travelers who want to **apply for Vietnam visa online*
 
 Most foreign travelers need either a visa, eVisa, visa exemption, residence document, or another valid entry authorization before boarding a flight or crossing into Vietnam. The **Vietnam tourist visa valid for 90 days** is the most practical option for many travelers who are not covered by a short visa exemption or who need a longer stay.
 
-Vietnam's official tourism information explains that eVisas are available for citizens of all countries and territories, with 90-day validity and multiple-entry availability under the current post-August 2023 policy. Because exemptions and passport rules can change, treat older forum posts and screenshots as background only.
+Under Vietnam's current e-visa framework, citizens of [all countries and territories](https://evisa.gov.vn/) may apply for tourism or short business visits, with stays of up to **90 days** on single- or multiple-entry products ([Vietnam Immigration Department](https://immigration.gov.vn/)). Because exemptions and passport rules can change, treat older forum posts and screenshots as background only.
 
 Before you book non-refundable flights, verify your [Vietnam eVisa eligibility by country](/check-requirement). This is especially important if you have dual nationality, a temporary passport, a refugee travel document, a passport close to expiry, or an itinerary that includes a land border or cruise port.
 
@@ -61,7 +61,7 @@ The search query **Vietnam entry requirements for US/UK/Australian citizens** co
 | Passport | Typical 2026 eVisa planning note |
 | :--- | :--- |
 | **United States citizens** | US passport holders generally need a visa or eVisa for ordinary tourism. A 90-day single-entry or multiple-entry eVisa is commonly used for vacations, family visits, and regional trips. |
-| **United Kingdom citizens** | UK passport holders may qualify for short visa-exempt stays under Vietnam's unilateral exemption policy. Apply for an eVisa if your trip is longer than the exemption, you need multiple entry, or your travel purpose does not fit the exemption. |
+| **United Kingdom citizens** | UK passport holders **may** qualify for short visa-exempt stays when Vietnam's unilateral exemption policy applies—but exemption **length, eligible purposes, and effective dates change without notice**. Use an eVisa when your trip exceeds exemption days, you need multiple entry, or our [nationality checker](/check-requirement) shows a visa is required. |
 | **Australian citizens** | Australian passport holders generally need a visa or eVisa for ordinary tourism. Check the exact eVisa type before paying, especially for multi-country itineraries. |
 
 The safest workflow is simple: check your nationality, confirm whether visa exemption is enough, then choose the correct eVisa product before paying. If you are unsure, start with the [country-by-country Vietnam visa requirement checker](/check-requirement) rather than guessing from a general article.
@@ -132,7 +132,7 @@ Travelers who want guided review can [apply for a Vietnam visa online with assis
 
 ## Vietnam Visa Port of Entry Rules in 2026
 
-Your **Vietnam visa port of entry** matters on the **approved eVisa PDF**, not as a field on our apply form. Immigration rules require you to arrive at an authorized airport, seaport, or land border that matches what is printed on your approval. Major airports such as Noi Bai in Hanoi, Tan Son Nhat in Ho Chi Minh City, and Da Nang are common, but land and sea arrivals require extra care.
+Your **Vietnam visa port of entry** matters on the **approved eVisa PDF**, not as a field on our apply form. [Vietnamese immigration rules](https://immigration.gov.vn/) require you to arrive at an authorized airport, seaport, or land border that matches what is printed on your approval. Major airports such as [Noi Bai in Hanoi](https://vietnam.travel/things-to-do/hanoi), [Tan Son Nhat in Ho Chi Minh City](https://vietnam.travel/things-to-do/ho-chi-minh-city), and [Da Nang](https://vietnam.travel/things-to-do/da-nang) are common international gateways, but land and sea arrivals require extra care.
 
 If your ticket lands in Ho Chi Minh City but the approval lists Hanoi, or if your cruise docks at a port not covered by your visa, you may face check-in problems or entry refusal. Airlines and border officers rely on the approved visa data, not on verbal explanations.
 
@@ -226,6 +226,12 @@ Use this final checklist before payment:
 
 When everything is ready, you can [apply for your Vietnam eVisa online with guided assistance](/apply).
 
+## Official references
+
+- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal and e-visa services
+- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official pre-arrival e-visa channel (also at [thithucdientu.gov.vn](https://thithucdientu.gov.vn/))
+- [Vietnam National Administration of Tourism](https://vietnam.travel/) — destination and regional travel context for planning arrival cities
+
 ## Frequently Asked Questions About Vietnam eVisa Requirements 2026
 
 ### What are the Vietnam eVisa Requirements 2026?
@@ -242,7 +248,7 @@ Use our guided application at [/apply](/apply): choose visa type and dates, ente
 
 ### What are Vietnam entry requirements for US/UK/Australian citizens?
 
-US and Australian passport holders generally need a visa or eVisa for ordinary tourism. UK citizens may qualify for short visa-exempt stays, but should use an eVisa for longer trips, multiple-entry itineraries, or travel that exceeds exemption rules.
+US and Australian passport holders generally need a visa or eVisa for ordinary tourism. UK citizens may qualify for short visa-exempt stays when policy allows, but exemption rules change—verify live requirements on [/check-requirement](/check-requirement) before skipping an eVisa for longer trips, multiple-entry itineraries, or mixed-purpose travel.
 
 ### How long does Vietnam visa processing time 2026 usually take?
 
@@ -264,6 +270,24 @@ Do not assume you can change it at check-in or at the border. If the port on you
 
 No. A tourist eVisa is for tourism and eligible short visits, not local employment. Paid work, study, sponsorship, and long-term stays usually require different documentation.
 
-## About this guide
+## How we update this guide
 
-This article is maintained by the **Vietnam Official eVisa Immigration Assistance Service** editorial team. We review traveler questions daily, cross-check requirements against official Vietnam immigration announcements, and update guides when passport rules, entry ports, or fee structures change. We are a private assistance service—not the Government of Vietnam—and we always recommend confirming nationality-specific rules on our [check-requirement tool](/check-requirement) before you pay.
+**Last reviewed:** 18 June 2026
+
+This guide is maintained by the **Vietnam eVisa Assistance Team**—a private application assistance service, not the Government of Vietnam. Read [who we are](/about) and our [legal terms](/legal) before you pay.
+
+**What we check when updating**
+
+- Eligibility and exemption rules against our live [nationality checker](/check-requirement) and publications from the [Vietnam Immigration Department](https://immigration.gov.vn/)
+- Entry-port and 90-day stay wording against immigration announcements (not forum screenshots)
+- Fee paragraphs against our live [fees page](/fees) and checkout at [/apply](/apply)
+
+**What you should still verify yourself**
+
+- **UK and other visa-exempt nationalities:** exemption length and purpose limits change—confirm your passport on [/check-requirement](/check-requirement) before non-refundable bookings
+- **Land borders and cruise ports:** only the gate or port on your **approval PDF** governs arrival—not examples in blog tables
+- **Passport validity:** use the six-month planning standard and renew before applying if your booklet is close to expiry
+
+**If your application is refused or delayed**
+
+Contact support with your reference number first. Government fees are often non-refundable once submitted; service-fee treatment is explained in our [refund policy](/refund-policy). We do not guarantee approval times or outcomes—Vietnamese immigration authorities make the final decision.

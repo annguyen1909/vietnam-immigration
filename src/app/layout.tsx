@@ -27,8 +27,8 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    template: '%s | Vietnam Official eVisa',
-    default: 'Vietnam Official eVisa | vietnamemigration.com',
+    template: `%s | ${SITE_NAME}`,
+    default: `${SITE_NAME} | vietnamemigration.com`,
   },
   description: getVietnamDefaultSiteDescription(),
   keywords: [
@@ -50,12 +50,12 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: 'Vietnam Official eVisa Immigration Assistance Service',
+      name: 'Vietnam eVisa Assistance Team',
     },
   ],
-  creator: 'Vietnam Official eVisa Immigration Assistance Service',
-  publisher: 'Vietnam Official eVisa Immigration Assistance Service',
-  applicationName: 'Vietnam Official eVisa',
+  creator: 'Vietnam eVisa Assistance Team',
+  publisher: 'Vietnam eVisa Assistance Team',
+  applicationName: SITE_NAME,
   referrer: 'origin-when-cross-origin',
   robots: {
     index: true,
@@ -88,14 +88,14 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: siteUrl,
     siteName: SITE_NAME,
-    title: 'Vietnam Official eVisa | vietnamemigration.com',
+    title: `${SITE_NAME} | vietnamemigration.com`,
     description: getVietnamDefaultSiteDescription(),
     images: [
       {
         url: defaultOgImage,
         width: 1200,
         height: 630,
-        alt: 'Vietnam eVisa Application - Official Immigration Service',
+        alt: 'Vietnam eVisa application assistance at vietnamemigration.com',
       },
     ],
   },
@@ -103,9 +103,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@vietnam_immigration',
     creator: '@vietnam_immigration',
-    title: 'Vietnam Official eVisa | vietnamemigration.com',
+    title: `${SITE_NAME} | vietnamemigration.com`,
     description:
-      'Apply for your official Vietnam eVisa online. Fast, secure, and reliable processing with 24/7 support.',
+      'Apply for your Vietnam eVisa online with guided assistance. Fast, secure processing with disclosed fees and support.',
     images: [defaultOgImage],
   },
   icons: {

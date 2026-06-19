@@ -40,7 +40,7 @@ export default function DigitalServicesActPage() {
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-brand-ink mb-4">1. Introduction</h2>
                   <p className="text-brand-ink mb-4">
-                    Vietnam Official eVisa Immigration Assistance Service ("we," "us," or "our") is
+                    Vietnam eVisa Assistance Team ("we," "us," or "our") is
                     committed to compliance with the European Union's Digital Services Act (DSA)
                     Regulation (EU) 2022/2065. This page explains how we comply with the DSA and
                     your rights as a user of our digital services.
@@ -348,7 +348,7 @@ export default function DigitalServicesActPage() {
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">
-                          Address: Vietnam Official eVisa Immigration Assistance Service
+                          Address: Vietnam eVisa Assistance Team
                           <br />
                           1308 E Colorado Blvd #2244, Pasadena, CA 91106
                         </p>

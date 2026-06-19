@@ -3,7 +3,7 @@ title: 'Vietnam Wellness & Spa Retreats 2026: Hot Springs, Da Lat Escapes & City
 slug: vietnamese-wellness-spa-retreats-2026
 date: '2026-01-29'
 dateModified: '2026-06-15'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnamese-wellness-spa-retreats-2026.jpg'
 imageAlt: 'Infinity pool overlooking the sea at a coastal wellness resort in Vietnam'
 excerpt: 'Plan Vietnam wellness travel in 2026—hot springs near Hue and Hanoi, Da Lat hill retreats, coastal resort spas, and HCMC day spas with VND pricing, health precautions, sample itineraries, and eVisa entry logistics.'
@@ -32,7 +32,7 @@ Wellness travel in Vietnam spans **volcanic mud** near Ho Chi Minh City, **herba
 
 **We are a private visa assistance service—not the Government of Vietnam.** Spa licensing, water quality testing, and immigration rules are set by Vietnamese authorities and property operators. Read ingredient lists if you have allergies; "herbal" compresses may include camphor or eucalyptus oils.
 
-[Insert Image: Outdoor mineral hot spring pools surrounded by greenery at Thanh Tan near Hue - Alt: Natural hot spring pools at Thanh Tan spa resort near Hue Vietnam]
+![Natural hot spring pools at Thanh Tan spa resort near Hue](/img/blog/photos/vietnamese-wellness-spa-retreats-2026.jpg)
 
 ## Quick answer: Vietnam wellness at a glance
 
@@ -59,7 +59,7 @@ Vietnam is not a single "spa country"—biomes change what is on offer:
 
 **Decision support:** Choose **one anchor region** per week. A "wellness grand tour" of Hanoi + Da Lat + Phu Quoc in five days is mostly airports—not nervous-system recovery.
 
-[Insert Infographic: Vietnam wellness regions map showing hot springs, Da Lat highlands, and coastal resort spas - Alt: Map of best wellness and spa destinations in Vietnam by region]
+![Map of best wellness and spa destinations in Vietnam by region](/img/blog/vietnam-wellness.svg)
 
 ## Natural hot springs and mineral water
 
@@ -90,7 +90,7 @@ Expect **150,000–350,000 VND** day-use depending on locker tier; weekends surc
 
 **Common mistake:** Treating hot springs as unlimited bathing—dehydration and dizziness end holidays. Drink bottled water; avoid alcohol before soaks.
 
-[Insert Image: Mud bath experience at Binh Chau hot springs near Ho Chi Minh City - Alt: Mineral mud bath at Binh Chau hot springs Vietnam wellness travel]
+![Mineral mud bath at Binh Chau hot springs in Vietnam](/img/blog/photos/vietnamese-wellness-spa-retreats-2026.jpg)
 
 ## Urban day spas: Ho Chi Minh City and Hanoi
 
@@ -140,7 +140,7 @@ Pair coast time with [Vietnam beach holidays on the coast](/blog/vietnam-beach-h
 
 **Route logic:** Fly **SGN → DLI** or **DAD → DLI** domestic after international entry. Da Lat is a poor same-day connection from international arrival—overnight in hub city first.
 
-[Insert Image: Morning meditation pavilion overlooking pine forests in Da Lat Vietnam - Alt: Wellness retreat meditation space in Da Lat highlands Vietnam]
+![Wellness retreat meditation space in Da Lat highlands](/img/blog/photos/hidden-gems-vietnam-2026.jpg)
 
 ## Health, safety, and contraindications
 

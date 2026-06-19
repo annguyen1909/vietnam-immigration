@@ -8,6 +8,7 @@ import { extractMarkdownHeadings } from '@/lib/markdown-headings';
 import SiteFooter from '@/components/layout/SiteFooter';
 import { CalendarIcon, UserIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
 import { generateNewsStaticParams, getAllNewsPosts, getNewsPostBySlug } from '@/lib/mdx';
+import { BLOG_AUTHOR_NAME } from '@/components/seo/constants';
 import {
   absoluteAssetUrl,
   blogPath,
@@ -42,7 +43,7 @@ export async function generateMetadata({
 
   const postTags = (post.metadata.tags as string[] | undefined) || ['Vietnam', 'eVisa', 'Travel'];
   const postSection = post.metadata.section || 'News & Updates';
-  const defaultAuthor = 'Vietnam Official eVisa Immigration Assistance Service';
+  const defaultAuthor = BLOG_AUTHOR_NAME;
 
   return buildPageMetadata({
     title: String(post.metadata.title ?? ''),
@@ -98,8 +99,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const postImage = absoluteAssetUrl(post.metadata.image || DEFAULT_OG_IMAGE);
   const tocItems = extractMarkdownHeadings(post.content);
   const faq = (Array.isArray(post.metadata.faq) ? post.metadata.faq : []) as FAQSchemaItem[];
-  const authorName =
-    post.metadata.author || 'Vietnam Official eVisa Immigration Assistance Service';
+  const authorName = post.metadata.author || BLOG_AUTHOR_NAME;
 
   // Article Schema
   const articleSchema = {
@@ -116,7 +116,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Vietnam Official eVisa Immigration Assistance Service',
+      name: BLOG_AUTHOR_NAME,
       logo: {
         '@type': 'ImageObject',
         url: absoluteAssetUrl(DEFAULT_OG_IMAGE),
@@ -146,7 +146,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-white"></div>
               <span className="text-white text-sm font-semibold uppercase tracking-wider">
-                Official Service
+                Assisted eVisa Service
               </span>
               <div className="w-2 h-2 rounded-full bg-white"></div>
             </div>
@@ -289,7 +289,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
         </section>
 
-        {/* Official Disclaimer */}
+        {/* Service Disclaimer */}
         <section className="relative w-full bg-white py-12 border-b-2 border-gray-200">
           <div className="max-w-5xl mx-auto px-4">
             <div className="bg-gray-50 border-4 border-brand-primary rounded-lg p-8 shadow-lg">
@@ -301,12 +301,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     clipRule="evenodd"
                   />
                 </svg>
-                <h3 className="text-xl font-bold text-gray-900">Official Disclaimer</h3>
+                <h3 className="text-xl font-bold text-gray-900">Service Disclaimer</h3>
               </div>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
                   <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
-                  Vietnam Official eVisa Immigration Assistance Service, a private company providing
+                  Vietnam eVisa Assistance Team, a private company providing
                   professional visa application preparation and support services. We are{' '}
                   <strong>not affiliated with</strong> the Government of Vietnam or any official
                   immigration authority.

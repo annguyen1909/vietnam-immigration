@@ -75,7 +75,7 @@ const benefits = [
   },
   {
     title: 'Secure & Reliable',
-    desc: 'Professional processing with official standards and certified expertise',
+    desc: 'Professional processing with professional standards and certified expertise',
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path
@@ -126,7 +126,7 @@ export default function ProcessingPage() {
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-white"></div>
             <span className="text-white text-sm font-semibold uppercase tracking-wider">
-              Official Service
+              Assisted eVisa Service
             </span>
             <div className="w-2 h-2 rounded-full bg-white"></div>
           </div>
@@ -143,13 +143,13 @@ export default function ProcessingPage() {
               </span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
-              Official Vietnam
+              Vietnam
               <span className="block text-brand-primary">eVisa Application Process</span>
             </h1>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              Simple, secure, and efficient four-step process to obtain your official Vietnam eVisa.
-              Professional assistance with official standards and certified expertise.
+              Simple, secure, and efficient four-step process to obtain your Vietnam eVisa.
+              Professional assistance with professional standards and certified expertise.
             </p>
           </div>
 
@@ -297,7 +297,7 @@ export default function ProcessingPage() {
             </h2>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Professional immigration services with official standards and certified expertise
+              Professional immigration services with professional standards and certified expertise
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -430,7 +430,7 @@ export default function ProcessingPage() {
         </div>
       </section>
 
-      {/* Official Disclaimer */}
+      {/* Service Disclaimer */}
       <section className="relative w-full bg-white py-12 border-b-2 border-gray-200">
         <div className="max-w-5xl mx-auto px-4">
           <div className="bg-gray-50 border-4 border-brand-primary rounded-lg p-8 shadow-lg">
@@ -442,12 +442,12 @@ export default function ProcessingPage() {
                   clipRule="evenodd"
                 />
               </svg>
-              <h3 className="text-xl font-bold text-gray-900">Official Disclaimer</h3>
+              <h3 className="text-xl font-bold text-gray-900">Service Disclaimer</h3>
             </div>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
                 <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
-                Vietnam Official eVisa Immigration Assistance Service, a private company providing
+                Vietnam eVisa Assistance Team, a private company providing
                 professional visa application preparation and support services. We are{' '}
                 <strong>not affiliated with</strong> the Government of Vietnam or any official
                 immigration authority.

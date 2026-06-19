@@ -1,7 +1,7 @@
 ---
 title: 'Vietnamese Food by Region 2026: North, Central & South Guide'
 date: '2026-01-20'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/discover-vietnamese-regional-cuisine-2026.jpg'
 imageAlt: 'Regional Vietnamese dishes including pho, banh mi, and fresh herbs arranged on a wooden table'
 excerpt: 'Plan a north-to-south food trip through Hanoi pho, Hue spice, Hoi An cao lau, and Saigon banh mi—with street prices in VND, ordering tips, route logic, and dietary advice for 2026.'
@@ -31,7 +31,7 @@ If you are planning a trip around **what to eat in Vietnam**—not just where to
 
 **We are a private visa assistance service—not the Government of Vietnam.** Food safety, restaurant licensing, and market regulations are managed locally. The planning advice below is general travel guidance based on common 2026 routes and costs.
 
-[Insert Image: Street food vendor preparing pho beside a busy Hanoi sidewalk - Alt: Hanoi street food vendor preparing pho bo at a sidewalk stall in Vietnam]
+![Hanoi street food vendor preparing pho bo at a sidewalk stall](/img/blog/photos/vietnam-shopping-markets-guide-2026.jpg)
 
 ## Quick answer: Vietnamese food by region at a glance
 
@@ -65,7 +65,7 @@ Vietnamese cooking is not one national menu—it is a **climate map on a plate**
 
 **Decision support:** If you love **subtle broth craft**, spend extra nights in Hanoi. If you want **bold spice and texture**, prioritise Hue and Da Nang. If you prefer **sandwich-and-herb freshness**, anchor the south in Ho Chi Minh City and the delta.
 
-[Insert Infographic: Vietnam regional cuisine map showing signature dishes by north central and south - Alt: Map of Vietnamese regional cuisine showing signature dishes from north central and south Vietnam]
+![Map of Vietnamese regional cuisine with signature dishes from north, central, and south](/img/blog/vietnam-cuisine.svg)
 
 ## Northern Vietnam: Hanoi and the Red River delta
 
@@ -124,7 +124,7 @@ Hue's **Buddhist vegetarian** tradition is among Vietnam's strongest. Look for *
 
 **Central planning logic:** Base **2 nights in Hue** for imperial food and tombs, **2–3 in Hoi An** for cao lau and cooking classes, with **Da Nang** as a transit grill stop or airport hub (**DAD**). Fly or train south from Da Nang rather than returning to Hanoi between coast segments.
 
-[Insert Image: Mi Quang noodle bowl with turmeric noodles peanuts and fresh herbs in Da Nang - Alt: Mi Quang turmeric noodle dish with peanuts and herbs in Da Nang central Vietnam]
+![Mi Quang turmeric noodle dish with peanuts and herbs in Da Nang](/img/blog/photos/vietnam-beach-holidays-coast-2026.jpg)
 
 ## Southern Vietnam: Ho Chi Minh City and the Mekong delta
 

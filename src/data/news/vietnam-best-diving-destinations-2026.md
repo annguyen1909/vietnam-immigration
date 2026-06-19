@@ -1,7 +1,7 @@
 ---
 title: 'Vietnam Scuba Diving 2026: Sites, Seasons & Certification Guide'
 date: '2026-01-25'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-best-diving-destinations-2026.jpg'
 imageAlt: 'Crystal-clear turquoise water over coral reef at a Vietnamese dive site'
 excerpt: 'Compare Vietnam scuba diving in Nha Trang, Phu Quoc, and Con Dao—best seasons, visibility, certification courses, VND day-boat prices, marine park fees, and flying after dives.'
@@ -33,7 +33,7 @@ This guide compares dive sites, **certification logistics**, seasonal visibility
 
 For island access, beach weeks, and Phu Quoc vs Con Dao comparisons, see our [best islands in Vietnam guide](/blog/best-islands-vietnam-beyond-hanoi-2026). For coast route planning, see the [Vietnam beach holidays guide](/blog/vietnam-beach-holidays-coast-2026).
 
-[Insert Image: Scuba diver above coral reef in clear water at Hon Mun Vietnam - Alt: Scuba diver swimming over coral reef at Hon Mun Marine Protected Area Vietnam]
+![Scuba diver swimming over coral reef at Hon Mun Marine Protected Area](/img/blog/photos/vietnam-best-diving-destinations-2026.jpg)
 
 ## Quick answer: Vietnam diving at a glance
 
@@ -99,7 +99,7 @@ Winter **November–February** winds occasionally churn the bay—consult divema
 
 **Ideal dive trip length:** **3–5 nights** in Nha Trang for a course or two days of fun diving plus buffer weather days.
 
-[Insert Image: Dive boat departing Nha Trang pier toward Hon Mun islands - Alt: Scuba dive boat departing Nha Trang pier toward Hon Mun Marine Protected Area Vietnam]
+![Scuba dive boat departing Nha Trang pier toward Hon Mun Marine Protected Area](/img/blog/photos/best-islands-vietnam-beyond-hanoi-2026.jpg)
 
 ## Phu Quoc's western and southern reefs
 
@@ -154,7 +154,7 @@ Operators run park-compliant trips to sites around **Hon Bay Canh** and neighbou
 
 For island context beyond diving, see the [best islands in Vietnam guide](/blog/best-islands-vietnam-beyond-hanoi-2026).
 
-[Insert Image: Sea turtle swimming over reef in Con Dao National Park waters - Alt: Sea turtle swimming over coral reef in Con Dao National Park Vietnam diving site]
+![Sea turtle swimming over coral reef in Con Dao National Park diving site](/img/blog/photos/vietnam-wildlife-nature-encounters-2026.jpg)
 
 ## Certification and training logistics
 
@@ -206,7 +206,7 @@ Carry **DAN or equivalent dive insurance** listing scuba explicitly. Standard tr
 - **Nitrox:** State desired percentage; verify analyser reading before each dive.
 - Keep physician contacts handy when reactive airways meet pier diesel exhaust.
 
-[Insert Infographic: Vietnam dive hub comparison chart Nha Trang Phu Quoc Con Dao season visibility cost - Alt: Vietnam scuba diving comparison chart for Nha Trang Phu Quoc and Con Dao sites seasons and costs]
+![Vietnam scuba diving comparison for Nha Trang, Phu Quoc, and Con Dao sites](/img/blog/vietnam-diving.svg)
 
 ## Costs and budgeting in VND
 

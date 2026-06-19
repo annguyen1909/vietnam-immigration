@@ -1,7 +1,7 @@
 ---
 title: 'Vietnamese Arts & Culture 2026: Puppetry, Museums & Live Music'
 date: '2026-01-31'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnamese-music-arts-culture-2026.jpg'
 imageAlt: 'Traditional water puppet performance with musicians playing dan bau in Hanoi Vietnam'
 excerpt: 'Water puppetry, ca tru chamber song, quan ho folk music, and museums in Hanoi, Hue, and Ho Chi Minh City—with 2026 showtimes, VND tickets, booking tips, and respectful etiquette.'
@@ -31,7 +31,7 @@ Vietnam's living heritage spans **guildhall stages**, **intimate chamber rooms**
 
 Read showtimes carefully: classical forms shift venues during school holidays and lunar festivals. **We are a private visa assistance service—not the Government of Vietnam.** Ticket policies and heritage site rules are set by venues and local authorities.
 
-[Insert Image: Lacquered water puppets emerging from pool at Thang Long Theatre Hanoi - Alt: Traditional water puppets performing at Thang Long Water Puppet Theatre in Hanoi Vietnam]
+![Traditional water puppets performing at Thang Long Water Puppet Theatre in Hanoi](/img/blog/photos/vietnamese-music-arts-culture-2026.jpg)
 
 ## Quick answer: Vietnamese arts and culture at a glance
 
@@ -76,7 +76,7 @@ Read showtimes carefully: classical forms shift venues during school holidays an
 
 Pair a morning at [top historical places in Vietnam](/blog/top-10-historical-places-vietnam) sites (Thang Long Citadel, Old Quarter) with a **19:30** puppet show.
 
-[Insert Image: Musicians with dan bau monochord beside water puppet stage - Alt: Vietnamese musicians playing dan bau at water puppet theatre performance]
+![Vietnamese musicians playing dan bau at water puppet theatre performance](/img/blog/photos/vietnamese-music-arts-culture-2026.jpg)
 
 ## Ca tru: intimate chamber song
 
@@ -131,7 +131,7 @@ Museums anchor performances in history—lacquer technique, Cham sculpture, high
 
 Stack **museum blocks before 14:00**, rest through heat, book **19:30** shows when traffic peaks.
 
-[Insert Infographic: Vietnam culture itinerary map linking Hanoi Hue and Ho Chi Minh City museums and venues - Alt: Map of Vietnamese arts and culture venues in Hanoi Hue and Ho Chi Minh City]
+![Map of Vietnamese arts and culture venues in Hanoi, Hue, and Ho Chi Minh City](/img/blog/vietnam-culture.svg)
 
 ## Contemporary art in Ho Chi Minh City and Hanoi
 

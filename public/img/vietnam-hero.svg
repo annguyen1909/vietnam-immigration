@@ -21,5 +21,5 @@
   <rect x="80" y="80" width="90" height="60" rx="6" fill="#DA251D"/>
   <polygon fill="#FFCD00" points="125,95 131,110 147,110 134,119 140,134 125,125 110,134 116,119 103,110 119,110"/>
   <text x="80" y="200" font-family="system-ui,sans-serif" font-size="52" font-weight="700" fill="#0D5C4F">Discover Vietnam</text>
-  <text x="80" y="250" font-family="system-ui,sans-serif" font-size="28" fill="#1A4038">Official eVisa � Ha Long � Hoi An � Mekong</text>
+  <text x="80" y="250" font-family="system-ui,sans-serif" font-size="28" fill="#1A4038">Assisted eVisa · Ha Long · Hoi An · Mekong</text>
 </svg>

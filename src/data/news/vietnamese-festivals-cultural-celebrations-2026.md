@@ -1,9 +1,9 @@
 ---
 title: 'Vietnam Festivals 2026: Tet, Hue Festival & Lantern Calendar'
 date: '2026-01-26'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnamese-festivals-cultural-celebrations-2026.jpg'
-imageAlt: 'Colourful silk lanterns illuminating Hoi An ancient town during a Vietnamese festival night'
+imageAlt: 'Traditional silk lanterns glowing at a Vietnamese festival night market in Hoi An'
 excerpt: 'Plan around Tet 2026, Hue Festival, Mid-Autumn lanterns, and regional celebrations—with lunar dates, transport timing, VND budgets, respectful etiquette, and visa lead times for festival travel.'
 slug: vietnamese-festivals-cultural-celebrations-2026
 tags: ['travel', 'culture', 'festivals']
@@ -31,7 +31,7 @@ Vietnam's festival calendar blends **lunar New Year (Tet)**, imperial performanc
 
 **We are a private visa assistance service—not the Government of Vietnam.** We help travellers prepare entry documents; we do not organise festivals or issue event permits. Dates below follow the lunar calendar and common 2026 expectations—verify official holiday announcements before booking.
 
-[Insert Image: Peach blossom branches and Tet decorations at a Hanoi flower market - Alt: Peach blossom Tet decorations at Cho hoa flower market in Hanoi Vietnam]
+![Peach blossom Tet decorations at Cho hoa flower market in Hanoi](/img/blog/photos/vietnamese-festivals-cultural-celebrations-2026.jpg)
 
 ## Quick answer: Vietnam festivals 2026 at a glance
 
@@ -94,7 +94,7 @@ Learn **"chuc mung nam moi"** (happy new year) and **"an khang thinh vuong"** (h
 
 Pair Tet planning with [Vietnam eVisa common mistakes](/blog/vietnam-evisa-common-mistakes-2026) so document errors do not compound holiday stress.
 
-[Insert Infographic: Vietnam festival calendar 2026 showing lunar and Gregorian dates - Alt: Vietnam festival calendar 2026 with Tet Mid-Autumn and Hung Kings dates]
+![Vietnam festival calendar 2026 with Tet, Mid-Autumn, and Hung Kings dates](/img/blog/vietnam-festivals.svg)
 
 ## Hue Festival and imperial heritage
 

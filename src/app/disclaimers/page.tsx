@@ -44,7 +44,7 @@ export default function DisclaimersPage() {
                   <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded mb-4">
                     <p className="text-brand-ink mb-3">
                       <strong>Important Notice:</strong> vietnamemigration.com is managed by Vietnam
-                      Official eVisa Immigration Assistance Service, a privately-owned business that
+                      Vietnam eVisa Assistance Team, a privately-owned business that
                       offers visa application support and assistance services.
                     </p>
                     <p className="text-brand-ink font-semibold">
@@ -296,7 +296,7 @@ export default function DisclaimersPage() {
                   <h2 className="text-2xl font-bold text-brand-ink mb-4">11. Indemnification</h2>
                   <p className="text-brand-ink mb-4">
                     Through your use of our services, you consent to indemnify and absolve Vietnam
-                    Official eVisa Immigration Assistance Service, its officers, directors,
+                    Vietnam eVisa Assistance Team, its officers, directors,
                     employees, and agents from and against any claims, damages, losses, or expenses
                     resulting from:
                   </p>
@@ -376,7 +376,7 @@ export default function DisclaimersPage() {
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">
-                          Address: Vietnam Official eVisa Immigration Assistance Service
+                          Address: Vietnam eVisa Assistance Team
                           <br />
                           1308 E Colorado Blvd #2244
                           <br />

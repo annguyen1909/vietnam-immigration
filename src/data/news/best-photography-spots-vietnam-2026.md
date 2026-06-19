@@ -1,7 +1,7 @@
 ---
 title: 'Best Photography Spots in Vietnam 2026: Ha Long, Hoi An, Sapa & Beyond'
 date: '2026-01-28'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/best-photography-spots-vietnam-2026.jpg'
 imageAlt: 'The Golden Bridge held by giant stone hands at Ba Na Hills, Vietnam'
 excerpt: 'Plan Vietnam’s best photo locations—Ha Long dawn, Hoi An lantern hour, Sapa terraces, and more—with gear lists, drone rules, ethical portrait guidance, sample routes, and VND budgets for 2026.'
@@ -31,7 +31,7 @@ If you are building a **Vietnam photography itinerary** and need to know **where
 
 **We are a private visa assistance service—not the Government of Vietnam.** Drone permits, park fees, and heritage-site photography rules are set by local authorities and operators. We help travellers prepare entry documents; the planning advice below is general travel guidance based on common 2026 routes and costs quoted in **Vietnamese dong (VND)**.
 
-[Insert Image: Misty limestone karsts at dawn in Ha Long Bay Vietnam - Alt: Dawn mist over limestone karsts in Ha Long Bay Vietnam photography spot]
+![Dawn mist over limestone karsts in Ha Long Bay photography spot](/img/blog/photos/best-islands-vietnam-beyond-hanoi-2026.jpg)
 
 ## Quick answer: best Vietnam photography spots at a glance
 
@@ -57,7 +57,7 @@ Vietnam compresses dramatic light zones into a narrow S-shaped coast. Shooting e
 
 The most common planning error is treating Vietnam like a checklist: one night per icon. Strong portfolios come from **repeating locations at the right hour**, not ticking names on a tour bus schedule.
 
-[Insert Infographic: Best photography seasons by Vietnam region - Alt: Chart showing best seasons for photography in north central and south Vietnam]
+![Best seasons for photography in north, central, and south Vietnam](/img/blog/vietnam-photography.svg)
 
 ## Ha Long Bay and Lan Ha: karst drama at water level
 
@@ -87,7 +87,7 @@ Overnight cruises (**1,500,000–4,000,000+ VND** per person in peak season for 
 
 **Typical mistake:** Booking a one-night cruise and expecting both sunset and sunrise perfection—weather and mooring location dictate results. Buffer one extra bay day if Ha Long is a portfolio priority.
 
-[Insert Image: Kayaker at water level between Ha Long Bay limestone towers - Alt: Kayak photography perspective in Ha Long Bay limestone karsts Vietnam]
+![Kayak photography perspective in Ha Long Bay limestone karsts](/img/blog/photos/vietnam-tropical-islands-paradise-2026.jpg)
 
 ## Hoi An Ancient Town: lanterns, symmetry, and empty alleys
 
@@ -115,7 +115,7 @@ Overnight cruises (**1,500,000–4,000,000+ VND** per person in peak season for 
 
 **Route logic:** Base in Hoi An or **Da Nang** (30–45 minutes north). Fly or train to **Da Nang International Airport (DAD)** if central Vietnam is your first landing—confirm DAD matches your [Vietnam eVisa entry port](/blog/vietnam-evisa-approved-entry-ports-2026).
 
-[Insert Image: Silk lanterns reflected on Thu Bon River at night in Hoi An - Alt: Hoi An Ancient Town lantern reflections on Thu Bon River at night Vietnam]
+![Hoi An Ancient Town lantern reflections on Thu Bon River at night](/img/blog/photos/top-10-historical-places-vietnam.jpg)
 
 ## Sapa and northern terraces: lines, mist, and ethical portraits
 
@@ -146,7 +146,7 @@ Ethnic minority communities are not backdrop props. Practical ethics that also p
 
 **Sapa guide half-days** often run **400,000–800,000 VND**—worth paying for access timing that avoids bus convoy peaks.
 
-[Insert Image: Telephoto view of green rice terraces in Sapa valley at sunrise - Alt: Rice terrace landscape photography in Sapa Vietnam at sunrise]
+![Rice terrace landscape photography in Sapa at sunrise](/img/blog/photos/hidden-gems-vietnam-2026.jpg)
 
 ## Hanoi Old Quarter: street life without the bay cruise
 
@@ -174,7 +174,7 @@ Allow **two nights in Hanoi** if street photography matters—one morning is rar
 
 **Marble Mountains (Ngũ Hành Sơn)** caves and summit pagodas suit wide-angle contrast between light holes and carved shrines—strong half-day add-on from Da Nang.
 
-[Insert Image: Golden Bridge Ba Na Hills held by giant stone hands above clouds - Alt: Golden Bridge Cau Vang at Ba Na Hills Da Nang Vietnam photography landmark]
+![Golden Bridge Cau Vang at Ba Na Hills Da Nang photography landmark](/img/blog/photos/best-photography-spots-vietnam-2026.jpg)
 
 ## Phong Nha–Ke Bang: cave scale and jungle rivers
 

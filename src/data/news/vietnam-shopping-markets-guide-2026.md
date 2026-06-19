@@ -2,7 +2,7 @@
 title: 'Vietnam Markets & Shopping Guide 2026: Souvenirs, Bargaining & What to Buy'
 date: '2026-01-29'
 dateModified: '2026-06-15'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-shopping-markets-guide-2026.jpg'
 imageAlt: 'Busy stalls inside Ben Thanh Market in Ho Chi Minh City, Vietnam'
 excerpt: 'Navigate Ben Thanh, Dong Xuan, Hoi An night markets, and regional bazaars for coffee, ceramics, and silks—with VND budgeting, quality checks, respectful bargaining, VAT refunds, and eVisa entry planning for 2026.'
@@ -32,7 +32,7 @@ Shopping in Vietnam is a **conversation** as much as a transaction. Markets pric
 
 **We are a private visa assistance service—not the Government of Vietnam.** VAT refund rules and customs declarations are set by Vietnamese tax and border authorities. The market advice below is practical travel guidance; always verify current refund thresholds at participating retailers.
 
-[Insert Image: Colourful silk scarves and lacquerware stalls at Ben Thanh Market Ho Chi Minh City - Alt: Souvenir stalls with silk scarves and lacquerware at Ben Thanh Market Vietnam]
+![Souvenir stalls with silk scarves and lacquerware at Ben Thanh Market](/img/blog/photos/vietnam-shopping-markets-guide-2026.jpg)
 
 ## Quick answer: Vietnam markets at a glance
 
@@ -60,7 +60,7 @@ Not all "markets" serve the same shopper:
 
 **Regional comparison:** **Ho Chi Minh City** markets push coffee, pepper, and lacquer. **Hanoi** markets lean propaganda prints, silk, and cold-weather gear. **Hoi An** specialises lanterns, tailor shops, and leather sandals. Plan purchases where authenticity and repair access are strongest—re-stitch a Hoi An suit locally; ship coffee from either big city.
 
-[Insert Infographic: Vietnam shopping map showing Ben Thanh, Dong Xuan, Hoi An night market, and Bac Ha - Alt: Map of best markets for shopping in Vietnam by city]
+![Map of best markets for shopping in Vietnam by city](/img/blog/vietnam-markets.svg)
 
 ## Ben Thanh Market, Ho Chi Minh City
 
@@ -82,7 +82,7 @@ Not all "markets" serve the same shopper:
 
 **Common mistake:** Shopping Ben Thanh on your last hour before **Tan Son Nhat (SGN)** flight—wrap and weight eat time. Shop mid-trip; hotel midday drop strategy below.
 
-[Insert Image: Coffee and spice stalls inside Ben Thanh Market Saigon - Alt: Vietnamese coffee and cinnamon spice stalls at Ben Thanh Market Ho Chi Minh City]
+![Vietnamese coffee and cinnamon spice stalls at Ben Thanh Market Ho Chi Minh City](/img/blog/photos/vietnam-shopping-markets-guide-2026.jpg)
 
 ## Dong Xuan Market, Hanoi
 

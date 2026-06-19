@@ -1,7 +1,7 @@
 ---
 title: 'Vietnam National Parks 2026: Complete Planning Guide from Phong Nha to Con Dao'
 date: '2026-01-22'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-national-parks-wildlife-2026.jpg'
 imageAlt: 'Limestone cave entrance in Phong Nha-Ke Bang National Park Vietnam'
 excerpt: 'Compare Vietnam national parks by region—Phong Nha caves, Cat Tien rainforest, Cuc Phuong, Bach Ma, Ba Be, and Con Dao—with permits, best seasons, VND budgets, and sample 10-day nature routes for 2026.'
@@ -33,7 +33,7 @@ If you are building a **Vietnam nature itinerary** and need to choose which **na
 
 For **species-focused viewing**—gibbons at dawn, turtle walks, ethical wildlife habits—see our companion guide on [Vietnam wildlife and nature encounters](/blog/vietnam-wildlife-nature-encounters-2026). This article focuses on **park logistics, regional comparisons, and route planning**.
 
-[Insert Image: Boardwalk inside Paradise Cave in Phong Nha-Ke Bang National Park - Alt: Illuminated boardwalk inside Paradise Cave Phong Nha-Ke Bang National Park Vietnam]
+![Illuminated boardwalk inside Paradise Cave in Phong Nha-Ke Bang National Park](/img/blog/photos/vietnam-national-parks-wildlife-2026.jpg)
 
 ## Quick answer: Vietnam national parks at a glance
 
@@ -58,7 +58,7 @@ Vietnam stretches more than 1,600 km north to south. Park character, weather, an
 
 **Decision rule:** Pick parks that sit on your geographic line—not every park in one trip unless you have three weeks and accept domestic flights.
 
-[Insert Infographic: Vietnam national parks map by region from north to south - Alt: Map of major Vietnam national parks showing Phong Nha Cat Tien Cuc Phuong Bach Ma Ba Be and Con Dao]
+![Map of major Vietnam national parks from Phong Nha to Cat Tien and Con Dao](/img/blog/vietnam-nature.svg)
 
 ## Phong Nha–Ke Bang: caves and primary forest
 
@@ -172,7 +172,7 @@ Above **Hue**, **Bach Ma** delivers **cooler ridge walks**, waterfalls, and Fren
 
 **Cons:** Expensive and logistically heavy from Hanoi; weather can pause boats; not a casual day trip.
 
-[Insert Image: Turquoise water and forested hills of Con Dao Island Vietnam - Alt: Con Dao National Park coastline with forested hills and clear water Vietnam]
+![Con Dao National Park coastline with forested hills and clear water](/img/blog/photos/vietnam-national-parks-wildlife-2026.jpg)
 
 ## Permits, guides, and official rules
 

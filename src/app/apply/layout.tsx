@@ -19,7 +19,7 @@ export default function ApplyLayout({ children }: { children: React.ReactNode })
     url: `${siteUrl}/apply`,
     provider: {
       '@type': 'Organization',
-      name: 'Vietnam Official eVisa Immigration Assistance Service',
+      name: 'Vietnam eVisa Assistance Team',
       url: siteUrl,
     },
     areaServed: {

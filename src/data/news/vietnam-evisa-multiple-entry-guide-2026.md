@@ -3,7 +3,7 @@ title: 'Vietnam Multiple Entry eVisa 2026: When You Need It, Costs & Re-Entry Ru
 slug: vietnam-evisa-multiple-entry-guide-2026
 date: '2026-03-05'
 dateModified: '2026-06-15'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-multiple-entry-guide-2026.jpg'
 imageAlt: 'Aircraft at Tan Son Nhat International Airport terminal with travelers re-entering Vietnam'
 excerpt: 'Vietnam multiple-entry eVisa 2026: when single entry fails, real itinerary examples, $55 vs $80 government fees, validity vs stay length, re-entry checks at the border, and mistakes that block your second crossing.'
@@ -21,7 +21,7 @@ faq:
   - question: Does multiple entry mean I can stay in Vietnam for years?
     answer: No. Multiple entry means multiple border crossings within the validity dates on your PDF—not unlimited total time. Each visit has a maximum stay length printed on the approval.
   - question: Can I re-enter at a different port than my first arrival?
-    answer: Often yes, if both ports are authorized on your eVisa and you hold multiple entry. Each arrival must match approved ports and stay rules.
+    answer: Often yes, if both ports are authorized on your eVisa and you hold multiple entry—verify each port on your PDF before you travel. Each arrival must match approved ports and stay rules.
   - question: Do all nationalities get multiple-entry eVisa options?
     answer: Most eligible nationalities can select multiple entry on our portal, but always confirm live on the eligibility checker and apply form for your passport.
   - question: Is multiple entry worth it for a two-week holiday with no border exits?
@@ -34,7 +34,7 @@ This 2026 guide explains how multiple-entry eVisas work, which itineraries requi
 
 **We are a private visa assistance service—not the Government of Vietnam.** We help you choose the right visa product at checkout; we do not issue visas or guarantee re-entry. Final decisions belong to immigration officers at the border.
 
-[Insert Image: Southeast Asia travel map showing Vietnam Cambodia Laos loop requiring multiple-entry eVisa - Alt: Southeast Asia travel loop Vietnam Cambodia Laos multiple entry eVisa itinerary map]
+![Southeast Asia travel loop for Vietnam Cambodia Laos multiple entry eVisa](/img/blog/photos/vietnam-evisa-multiple-entry-guide-2026.jpg)
 
 ## Quick answer: Vietnam multiple-entry eVisa at a glance
 
@@ -43,7 +43,7 @@ This 2026 guide explains how multiple-entry eVisas work, which itineraries requi
 | **Single entry govt fee** | **$55** — one arrival period; exit usually ends the visa |
 | **Multiple entry govt fee** | **$80** — leave and re-enter within validity |
 | **Assisted service fee** | **$59.99 per passenger** (same for both entry types) |
-| **Max stay per product** | Up to **90 days** on standard eVisa products |
+| **Max stay per product** | Up to **90 days** on standard eVisa products ([Vietnam Electronic Visa portal](https://evisa.gov.vn/)) |
 | **What "multiple" means** | Multiple **border crossings**—not unlimited years in-country |
 | **Best for** | Regional loops, Cambodia/Laos/Thailand side trips, cruise re-embarkation |
 | **Skip multiple if** | Entire trip stays inside Vietnam with no international exit |
@@ -68,7 +68,7 @@ The difference is not subtle—it is binary at the border.
 - Entry at any port regardless of your PDF
 - A free pass to ignore stay length rules
 
-It means **multiple lawful international border crossings** within the **valid from / valid until** dates on your approval.
+It means **multiple lawful international border crossings** within the **valid from / valid until** dates on your approval ([Vietnam Immigration Department](https://immigration.gov.vn/)).
 
 ### The one-question decision test
 
@@ -113,7 +113,7 @@ Full fee context: [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explai
 
 If every leg stays **inside Vietnam** without crossing an international border, save the $25 government fee difference.
 
-[Insert Image: Backpacker at Vietnam Cambodia bus border crossing with travel backpack - Alt: Overland border crossing Vietnam Cambodia bus route multiple entry eVisa planning]
+![Overland border crossing on Vietnam Cambodia bus route for multiple entry eVisa](/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg)
 
 ## Validity window vs duration of stay: two different numbers
 
@@ -268,7 +268,7 @@ Apply **7–14+ days** before departure. Multiple-entry planning is worthless if
 
 Walkthrough: [how to apply for a Vietnam eVisa online](/blog/how-to-apply-vietnam-evisa-online-2026).
 
-[Insert Infographic: Single vs multiple entry Vietnam eVisa decision tree for Southeast Asia trips - Alt: Decision tree choosing single or multiple entry Vietnam eVisa for regional travel]
+![Decision tree for choosing single or multiple entry Vietnam eVisa on regional trips](/img/blog/infographics/vietnam-evisa-requirements-at-a-glance.svg)
 
 ## Related resources
 
@@ -276,6 +276,12 @@ Walkthrough: [how to apply for a Vietnam eVisa online](/blog/how-to-apply-vietna
 - [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026)
 - [Vietnam eVisa requirements 2026](/blog/vietnam-evisa-requirements-guide-2026)
 - [Entry points FAQ](/faq/vietnam-evisa-entry-points)
+
+
+## Official references
+
+- [Vietnam Immigration Department](https://immigration.gov.vn/) — entry-type and border-crossing rules
+- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — single- and multiple-entry e-visa products (up to 90 days)
 
 ## Frequently asked questions
 
@@ -301,7 +307,7 @@ No. It means multiple border crossings within validity dates, with per-visit sta
 
 ### Can I re-enter at a different port than my first arrival?
 
-Often yes, if both ports are authorized on your eVisa and you hold multiple entry.
+Often yes, if both ports are authorized on your eVisa and you hold multiple entry—verify each port on your PDF before you travel.
 
 ### Do all nationalities get multiple-entry options?
 
@@ -310,7 +316,5 @@ Most eligible nationalities can select it—confirm on the eligibility checker a
 ### Is multiple entry worth it for a trip with no border exits?
 
 No. Single entry saves $25 in government fees when you never leave Vietnam internationally.
-
----
 
 When your route includes even one leave-and-return, [apply for Vietnam eVisa online](/apply) with **multiple entry** selected—or compare totals on [/fees](/fees) before you choose single entry to save $25.

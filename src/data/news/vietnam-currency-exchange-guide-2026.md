@@ -1,7 +1,7 @@
 ---
 title: 'Vietnam Money Guide 2026: VND, ATMs, Cards & Cash Strategy'
 date: '2026-01-23'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-currency-exchange-guide-2026.jpg'
 imageAlt: 'Vietnamese dong banknotes featuring Ho Chi Minh and traditional imagery'
 excerpt: 'Spend smart in Vietnam 2026—Vietnamese dong basics, where to exchange safely, ATM limits, card tips, island cash needs, tipping norms, and budgeting by region in VND.'
@@ -31,7 +31,7 @@ This guide covers **how to handle Vietnamese currency in 2026**: understanding d
 
 **We are a private visa assistance service—not the Government of Vietnam.** We help travellers prepare eVisa applications; we do not set exchange rates, banking rules, or government visa fees.
 
-[Insert Image: Vietnamese dong banknotes and coins displayed with wallet and map - Alt: Vietnamese dong VND banknotes and coins for Vietnam travel money guide]
+![Vietnamese dong VND banknotes and coins for Vietnam travel money](/img/blog/photos/vietnam-currency-exchange-guide-2026.jpg)
 
 ## Quick answer: Vietnam money essentials
 
@@ -105,7 +105,7 @@ Use a notes app to log daily spends—humidity and jet lag make home-currency gu
 
 USD is the most widely accepted foreign cash for exchange. EUR and GBP work at major counters. Australian dollars, Japanese yen, and Korean won appear at tourist-district desks—rates vary. **Crisp notes** exchange easier than torn bills.
 
-[Insert Image: Licensed currency exchange counter with rate board in Ho Chi Minh City - Alt: Licensed Vietnamese dong currency exchange counter with live rate board in Ho Chi Minh City]
+![Licensed Vietnamese dong currency exchange counter with live rate board in Ho Chi Minh City](/img/blog/photos/vietnam-currency-exchange-guide-2026.jpg)
 
 ## ATMs and daily limits
 
@@ -206,7 +206,7 @@ Mid-range beach travellers often spend **800,000–1,500,000 VND** daily on meal
 | Cham Island day trip buffer | 800,000–1,200,000 | Cash before pier |
 | Emergency reserve | 2,000,000 | Separate pocket |
 
-[Insert Infographic: Vietnam travel money flowchart ATM exchange cash card decision guide - Alt: Vietnam travel money guide flowchart showing when to use ATM exchange or card payments]
+![Vietnam travel money guide flowchart for ATM, exchange, cash, and card payments](/img/blog/vietnam-currency.svg)
 
 ## Cash-heavy scenarios: islands, diving, and ferries
 

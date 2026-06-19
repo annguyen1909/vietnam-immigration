@@ -18,7 +18,7 @@ export default function HomeVisaOptions({ visaTypes }: HomeVisaOptionsProps) {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="max-w-2xl">
           <h2 className="font-display text-3xl font-bold text-brand-ink sm:text-4xl">
-            Official Vietnam eVisa options
+            Vietnam eVisa options
           </h2>
           <p className="mt-3 text-brand-muted">
             Tourist and business routes, single or multiple entry — all valid up to 90 days.

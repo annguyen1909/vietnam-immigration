@@ -76,7 +76,7 @@ const features = [
   },
   {
     icon: DocumentTextIcon,
-    title: 'Official Requirements & Information',
+    title: 'Requirements & guidance',
     desc: 'Comprehensive information service providing the latest official requirements, embassy contact details, and travel advisories for Vietnam in accordance with government regulations.',
     color: 'bg-red-600',
   },
@@ -97,7 +97,7 @@ export default function AboutPage() {
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-white"></div>
             <span className="text-white text-sm font-semibold uppercase tracking-wider">
-              Official Service
+              Assisted eVisa Service
             </span>
             <div className="w-2 h-2 rounded-full bg-white"></div>
           </div>
@@ -113,11 +113,11 @@ export default function AboutPage() {
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
               About Vietnam
-              <span className="block text-brand-primary">Official eVisa Service</span>
+              <span className="block text-brand-primary">Assisted eVisa Service</span>
             </h1>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              Vietnam Official eVisa Immigration Assistance Service provides professional visa
+              Vietnam eVisa Assistance Team provides professional visa
               application preparation and support services. We facilitate the application process in
               accordance with official Vietnamese immigration requirements, ensuring accuracy,
               compliance, and efficient processing.
@@ -401,7 +401,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Official Disclaimer */}
+      {/* Service Disclaimer */}
       <section className="relative w-full bg-white py-12 border-b-2 border-gray-200">
         <div className="max-w-5xl mx-auto px-4">
           <div className="bg-gray-50 border-4 border-brand-primary rounded-lg p-8 shadow-lg">
@@ -413,12 +413,12 @@ export default function AboutPage() {
                   clipRule="evenodd"
                 />
               </svg>
-              <h3 className="text-xl font-bold text-gray-900">Official Disclaimer</h3>
+              <h3 className="text-xl font-bold text-gray-900">Service Disclaimer</h3>
             </div>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
                 <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
-                Vietnam Official eVisa Immigration Assistance Service, a private company providing
+                Vietnam eVisa Assistance Team, a private company providing
                 professional visa application preparation and support services. We are{' '}
                 <strong>not affiliated with</strong> the Government of Vietnam or any official
                 immigration authority.

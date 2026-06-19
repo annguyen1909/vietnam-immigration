@@ -69,7 +69,7 @@ export default function FeesPage() {
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-white"></div>
             <span className="text-white text-sm font-semibold uppercase tracking-wider">
-              Official Service
+              Assisted eVisa Service
             </span>
             <div className="w-2 h-2 rounded-full bg-white"></div>
           </div>
@@ -86,7 +86,7 @@ export default function FeesPage() {
               </span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
-              Official Vietnam
+              Vietnam
               <span className="block text-brand-primary">eVisa Pricing & Fees</span>
             </h1>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
@@ -231,7 +231,7 @@ export default function FeesPage() {
               </span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Official Vietnam eVisa Government Fees
+              Vietnam eVisa government fees
             </h2>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -292,7 +292,7 @@ export default function FeesPage() {
                 <CalculatorIcon className="w-10 h-10 text-white" />
               </div>
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
-                Official Fee Calculator
+                Fee calculator
               </h2>
               <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
               <p className="text-gray-600 max-w-2xl mx-auto">
@@ -421,7 +421,7 @@ export default function FeesPage() {
         </div>
       </section>
 
-      {/* Official Disclaimer */}
+      {/* Service Disclaimer */}
       <section className="relative w-full bg-white py-12 border-b-2 border-gray-200">
         <div className="max-w-5xl mx-auto px-4">
           <div className="bg-gray-50 border-4 border-brand-primary rounded-lg p-8 shadow-lg">
@@ -433,12 +433,12 @@ export default function FeesPage() {
                   clipRule="evenodd"
                 />
               </svg>
-              <h3 className="text-xl font-bold text-gray-900">Official Disclaimer</h3>
+              <h3 className="text-xl font-bold text-gray-900">Service Disclaimer</h3>
             </div>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
                 <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
-                Vietnam Official eVisa Immigration Assistance Service, a private company providing
+                Vietnam eVisa Assistance Team, a private company providing
                 professional visa application preparation and support services. We are{' '}
                 <strong>not affiliated with</strong> the Government of Vietnam or any official
                 immigration authority.

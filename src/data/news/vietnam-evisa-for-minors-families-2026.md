@@ -3,9 +3,9 @@ title: 'Vietnam eVisa for Children & Families (2026): Complete Group Application
 slug: vietnam-evisa-for-minors-families-2026
 date: '2026-03-07'
 dateModified: '2026-06-15'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
-image: '/img/blog/photos/vietnam-evisa-for-minors-families-2026.jpg'
-imageAlt: 'Lantern-decorated yellow houses in Hoi An old town, Vietnam'
+author: 'Vietnam eVisa Assistance Team'
+image: '/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg'
+imageAlt: 'Families with children waiting at a Vietnam international airport boarding gate'
 excerpt: 'Complete 2026 guide to Vietnam eVisas for children, infants, and family groups—separate passport rules, group filing for up to 15 travelers, photos, fees, guardianship documents, immigration tips, and common family mistakes.'
 tags: ['visa', 'family', '2026']
 section: 'Visa Guides'
@@ -34,9 +34,9 @@ faq:
 
 Family trips to Vietnam should start with one question: **does every traveler—including babies—need their own eVisa?** In nearly all cases where a child has their own passport, the answer is **yes**. Holidays fail at check-in when parents assume children are covered by an adult's approval, when one child's blurry photo holds up the whole group, or when each family member's PDF lists a different entry port. This 2026 guide covers minors, guardians, group applications, fees, processing, immigration documents, and airport preparation so your entire family boards and enters together.
 
-**We are a private visa assistance service—not the Government of Vietnam.** We help families prepare complete applications with disclosed fees; we do not issue visas or replace official government filing channels.
+**We are a private visa assistance service—not the Government of Vietnam.** We help families prepare complete applications with disclosed fees; we do not issue visas or override immigration decisions.
 
-[Insert Image: Family with passports and Vietnam travel documents preparing eVisa applications together - Alt: Family applying for Vietnam eVisa group application with children's passports]
+![Family applying for Vietnam eVisa group application with children's passports](/img/blog/photos/vietnam-evisa-for-minors-families-2026.jpg)
 
 ## Quick answer: Vietnam eVisa for families at a glance
 
@@ -57,7 +57,7 @@ Family trips to Vietnam should start with one question: **does every traveler—
 
 ## Does my child need a separate Vietnam eVisa?
 
-If your child has their **own passport**, they typically need their **own eVisa**—including infants and lap children on airline tickets. Immigration authorization is tied to passport numbers, not airline seating.
+If your child has their **own passport**, they typically need their **own eVisa**—including infants and lap children on airline tickets. Immigration authorization is tied to passport numbers, not airline seating ([Vietnam Immigration Department](https://immigration.gov.vn/)).
 
 **Common false assumptions:**
 
@@ -86,20 +86,22 @@ Some families skip applications because **one parent** qualifies for visa-free e
 
 **Official policy signal:** Exemption rules are set by Vietnamese immigration authorities. **Planning advice:** When any family member needs a visa, file the **whole group's entry data consistently**—same entry port, aligned dates—even if one passport is technically exempt.
 
-## Official government filing vs assisted family applications
+## Why families use assisted group filing
 
-Families can file through the **official government eVisa portal** (government fee only) or through a **private assistance service** like ours (government fee plus disclosed service fee per passenger). Both paths submit to the same immigration review.
+Families filing through **vietnamemigration.com** get one structured checkout: government fee plus disclosed service fee per passenger, with document checks and support through approval.
 
-| Path | What families get | Trade-off |
-| --- | --- | --- |
-| **Official government portal** | Lower cost; self-managed uploads per child | No guided validation; one child's typo can delay everyone |
-| **Assisted filing on [/apply](/apply)** | Group checkout up to 15 passengers; document checks; support thread | Higher total cost ($59.99 service fee per passenger) |
+| What [/apply](/apply) gives families | Why it helps |
+| --- | --- |
+| **Group checkout up to 15 passengers** | One payment session, shared contact email |
+| **Document checks per child** | Catches infant photo and passport scan issues early |
+| **Support thread** | One reference to track if any passenger needs a correction |
+| **Aligned entry data** | Same travel dates and consistent passenger details across the group |
 
-**What neither path does:** combine children onto one eVisa PDF or waive the per-passport government fee based on age.
+**What no filing path does:** combine children onto one eVisa PDF or waive the per-passport government fee based on age.
 
-Assisted family filing tends to help when you are managing **three or more passports**, struggling with **infant photos**, or need **multiple-entry confirmation** for a Southeast Asia loop. Organized parents comfortable with MRZ data entry may prefer the official route—see [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026) for a full cost comparison.
+Assisted family filing tends to help when you are managing **three or more passports**, struggling with **infant photos**, or need **multiple-entry confirmation** for a Southeast Asia loop. See [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026) for per-passenger totals.
 
-[Insert Infographic: Vietnam family eVisa group application structure one payment multiple passengers - Alt: Vietnam eVisa family group application diagram up to 15 travelers separate PDFs per passport]
+![Vietnam eVisa family group application with up to 15 travelers and separate PDFs per passport](/img/blog/infographics/vietnam-evisa-apply-steps.svg)
 
 ## One application, multiple passengers: how group filing works
 
@@ -242,7 +244,7 @@ Authorities review passengers **sequentially or in parallel** depending on volum
 
 Do not book non-refundable family packages until **every traveler** holds an approved PDF.
 
-[Insert Image: Parent printing Vietnam eVisa PDFs for each family member before airport departure - Alt: Printing individual Vietnam eVisa approval PDFs for family travelers]
+![Printing individual Vietnam eVisa approval PDFs for family travelers before departure](/img/blog/photos/how-to-apply-vietnam-evisa-online-2026.jpg)
 
 ## At Vietnam immigration and airport check-in with children
 
@@ -340,7 +342,7 @@ At check-in, airlines may verify **each child** even when parents hold valid PDF
 
 ## When assisted family filing makes sense
 
-Official government self-filing works for organized parents comfortable with uploads. Assisted group filing tends to help when:
+Assisted group filing tends to help when:
 
 - You are filing for **three or more passengers** and want one structured checkout
 - **Infant photos** are difficult and you want format validation before paying
@@ -349,6 +351,12 @@ Official government self-filing works for organized parents comfortable with upl
 - **Mixed nationalities** in one family require careful eligibility checks per passport
 
 You remain responsible for accurate data per child; assistance helps submit a complete package.
+
+
+## Official references
+
+- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal and entry rules
+- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official pre-arrival e-visa channel
 
 ## Related guides
 
@@ -401,7 +409,5 @@ Only if their stay exceeds exemption limits, they need multiple entry, or their 
 ### Can grandparents file a Vietnam eVisa for a grandchild?
 
 A guardian can complete the form using the child's passport data. Carry parental consent naming the traveling adult at check-in.
-
----
 
 When every passport, photo, and travel date is ready, [start a family group application](/apply)—or review [Vietnam eVisa requirements](/blog/vietnam-evisa-requirements-guide-2026) first if you are still gathering documents.

@@ -2,7 +2,7 @@ import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 
 const features = [
   {
-    title: 'Official eVisa processing',
+    title: 'Assisted eVisa processing',
     desc: 'Secure handling of Vietnam entry eVisas for tourism and short visits in line with current regulations.',
   },
   {

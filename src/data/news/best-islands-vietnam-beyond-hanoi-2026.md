@@ -1,7 +1,7 @@
 ---
 title: 'Best Islands in Vietnam 2026: From Cat Ba to Con Dao'
 date: '2026-01-27'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/best-islands-vietnam-beyond-hanoi-2026.jpg'
 imageAlt: 'Palm-lined sandy beach on Phu Quoc Island, Vietnam with turquoise Gulf of Thailand water'
 excerpt: 'Compare Vietnam’s best islands—Cat Ba, Cham, Phu Quoc, and Con Dao—with ferry routes, flight links, seasonal timing, VND budgets, and sample itineraries beyond Hanoi in 2026.'
@@ -31,7 +31,7 @@ If you are landing in **Hanoi** and want real island time—not just a half-day 
 
 **We are a private visa assistance service—not the Government of Vietnam.** Ferry schedules, marine park fees, and beach safety rules are set by local operators and authorities. We help travellers prepare entry documents; the planning advice below is general travel guidance based on common 2026 routes and costs quoted in **Vietnamese dong (VND)**.
 
-[Insert Image: Limestone karsts rising from Lan Ha Bay near Cat Ba Island - Alt: Lan Ha Bay limestone karsts and emerald water near Cat Ba Island Vietnam]
+![Lan Ha Bay limestone karsts and emerald water near Cat Ba Island](/img/blog/photos/best-islands-vietnam-beyond-hanoi-2026.jpg)
 
 ## Quick answer: best Vietnam islands at a glance
 
@@ -56,7 +56,7 @@ Vietnam is an S-shaped coast, not a single beach belt. Island quality, water cla
 
 Choosing wrong is the most common mistake: booking **Phu Quoc** for a three-day Hanoi add-on burns two days in airports. Conversely, skipping south entirely when you have ten days leaves Vietnam's best sand and diving unexplored.
 
-[Insert Infographic: Vietnam island regions map showing Gulf of Tonkin, central coast, and southern islands - Alt: Map of best Vietnam islands by region from north to south]
+![Map of best Vietnam islands by region from north to south](/img/blog/vietnam-islands.svg)
 
 ## Cat Ba Archipelago and Lan Ha Bay
 
@@ -89,7 +89,7 @@ Choosing wrong is the most common mistake: booking **Phu Quoc** for a three-day 
 
 **Typical mistake:** Booking a one-night cruise and Cat Ba hiking in a single two-day weekend—you will rush both. Allow three nights minimum.
 
-[Insert Image: Kayakers paddling between limestone towers in Lan Ha Bay - Alt: Kayaking through limestone karsts in Lan Ha Bay Cat Ba Vietnam]
+![Kayaking through limestone karsts in Lan Ha Bay near Cat Ba](/img/blog/photos/vietnam-tropical-islands-paradise-2026.jpg)
 
 ## Cu Lao Cham (Cham Islands) from Hoi An
 
@@ -144,7 +144,7 @@ Speedboats leave from **Cua Dai** or central **Hoi An** piers. Crossing time is 
 
 **Budget (mid-range, excluding flights):** **1,000,000–2,500,000 VND** per day for meals, scooter rental, and activities. Luxury resorts push higher; hostel and guesthouse travellers can spend less.
 
-[Insert Image: Sunset over Long Beach Phu Quoc with fishing boats - Alt: Sunset at Long Beach Phu Quoc Island Vietnam with palm trees and fishing boats]
+![Sunset at Long Beach Phu Quoc with palm trees and fishing boats](/img/blog/photos/vietnam-beach-holidays-coast-2026.jpg)
 
 ## Con Dao: national park, history, and frontier diving
 
@@ -173,7 +173,7 @@ Speedboats leave from **Cua Dai** or central **Hoi An** piers. Crossing time is 
 
 **Typical mistake:** Booking Con Dao and Phu Quoc back-to-back with one night in between—flight schedules make this fragile. Choose one southern island per trip unless you have eight or more southern days.
 
-[Insert Image: Turquoise water and sandy shore on Con Dao Island - Alt: Quiet beach and clear water on Con Dao Island Vietnam national park]
+![Quiet beach and clear water on Con Dao Island national park](/img/blog/photos/vietnam-best-diving-destinations-2026.jpg)
 
 ## Northern alternatives worth knowing: Ly Son and Co To
 
@@ -236,7 +236,7 @@ Ask four questions before booking:
 
 **Rule:** Fly south **once**. Avoid Hanoi → Phu Quoc → Hanoi → Cat Ba in one short trip.
 
-[Insert Infographic: Sample Vietnam island routes from Hanoi central and southern hubs - Alt: Vietnam island itinerary map showing routes from Hanoi Hoi An and Ho Chi Minh City]
+![Vietnam island itinerary map showing routes from Hanoi, Hoi An, and Ho Chi Minh City](/img/blog/vietnam-travel.svg)
 
 ## Seasonal weather: what actually affects your trip
 
@@ -301,7 +301,7 @@ Islands do not have separate immigration. Your approved **Vietnam eVisa** (or ot
 - **Insurance:** Ferry and snorkel activities may not suit bare-minimum medical policies—confirm coverage for water sports.
 - **Domestic flights:** Vietnam's airlines price dynamically; island routes sell out on holiday weekends. Book Phu Quoc and Con Dao legs before boutique hotels, not after.
 
-[Insert Image: Vietnamese speedboat departing pier toward island archipelago - Alt: Speedboat ferry departing pier to Vietnamese islands on calm morning sea]
+![Speedboat ferry departing pier to Vietnamese islands on calm morning sea](/img/blog/photos/best-islands-vietnam-beyond-hanoi-2026.jpg)
 
 ## Frequently asked questions
 

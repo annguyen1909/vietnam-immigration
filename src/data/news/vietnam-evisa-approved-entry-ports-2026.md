@@ -2,8 +2,8 @@
 title: 'Vietnam eVisa Entry Ports 2026: Airports, Land Borders & Seaports Explained'
 slug: vietnam-evisa-approved-entry-ports-2026
 date: '2026-02-12'
-dateModified: '2026-06-15'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+dateModified: '2026-06-18'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg'
 imageAlt: 'Travelers with luggage at a Vietnam international airport immigration hall'
 excerpt: 'Which airports, land borders, and seaports accept Vietnam eVisa holders in 2026—how entry ports are assigned, major hub codes (SGN, HAN, DAD, PQC, CXR), land crossing rules, cruise entry, and what happens when your port does not match your ticket.'
@@ -28,13 +28,13 @@ faq:
     answer: The passport used in the application, a printed eVisa approval PDF, and optionally onward ticket and accommodation details. Business travelers may be asked about meetings matching their visa purpose.
 ---
 
-Your **Vietnam eVisa** is not a generic "enter anywhere" pass. It is tied to the **port of entry printed on your government approval PDF**—the specific airport, land border gate, or seaport where you first arrive in Vietnam. Landing at a different location than the one listed can cause **denied boarding, refused entry, or a ruined first day of vacation**—even when the email in your inbox looks valid.
+Your **Vietnam eVisa** is not a generic "enter anywhere" pass. It is tied to the **port of entry printed on your government approval PDF**—the specific airport, land border gate, or seaport where you first arrive in Vietnam ([Vietnam Immigration Department](https://immigration.gov.vn/)). Landing at a different location than the one listed can cause **denied boarding, refused entry, or a ruined first day of vacation**—even when the email in your inbox looks valid.
 
 This 2026 guide explains how entry ports work on assisted applications, which international airports and land crossings travelers use most, what cruise passengers should verify, and how to align your tickets with your approval before you pack.
 
 **We are a private visa assistance service—not the Government of Vietnam.** Entry rules and authorized port lists are set by Vietnamese immigration authorities. Our [/apply](/apply) form collects visa type, travel dates, contact details, and passenger information—it does **not** include an entry-port dropdown. The port is assigned when your government eVisa is issued; always verify it on the approval PDF before travel.
 
-[Insert Image: Vietnam eVisa approval PDF highlighting port of entry field with flight boarding pass - Alt: Vietnam eVisa approval PDF port of entry matched against international flight ticket]
+![Vietnam eVisa approval PDF port of entry matched against international flight ticket](/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg)
 
 ## Quick answer: Vietnam eVisa entry ports at a glance
 
@@ -70,9 +70,9 @@ The **authorized port of entry** is recorded when Vietnamese immigration issues 
 
 For step-by-step application context, see [how to apply for a Vietnam eVisa online](/blog/how-to-apply-vietnam-evisa-online-2026).
 
-### Official government portal: same principle
+### Entry port rule: the same principle everywhere
 
-Whether you file through the official government website or assisted filing, the port on your **issued approval** governs entry—not your hotel city, not your intended domestic connection, and not a general list of "eVisa airports" from a blog post.
+Whether your eVisa is issued through any channel, the port on your **issued approval** governs entry—not your hotel city, not your intended domestic connection, and not a general list of "eVisa airports" from a blog post.
 
 ### First international landing vs final destination
 
@@ -87,7 +87,7 @@ This distinction trips up multi-city planners constantly:
 
 Domestic flights, trains, and buses **after** you clear immigration do not need to match the port. Only the **first time you enter Vietnam internationally** must align.
 
-[Insert Infographic: Vietnam eVisa entry port decision flow — ticket vs PDF vs domestic connections - Alt: Vietnam eVisa entry port matching diagram for international arrival and domestic connections]
+![Vietnam eVisa entry port matching for international arrival and domestic connections](/img/blog/infographics/vietnam-evisa-entry-ports-map.svg)
 
 ## International airports: codes, regions, and route logic
 
@@ -97,11 +97,11 @@ Vietnam eVisa holders commonly enter through designated international airports. 
 
 | Code | Airport | Region | Typical traveler profile |
 | :--- | :--- | :--- | :--- |
-| **SGN** | Tan Son Nhat International | Ho Chi Minh City — south | First-time visitors to south Vietnam, Mekong Delta, Phu Quoc connections |
-| **HAN** | Noi Bai International | Hanoi — north | Halong Bay, Sapa, northern history routes |
-| **DAD** | Da Nang International | Central coast | Hoi An, Hue, central beaches, shorter north–south splits |
-| **CXR** | Cam Ranh International | Nha Trang area | Beach holidays, resort-focused trips |
-| **PQC** | Phu Quoc International | Phu Quoc Island | Island resorts, visa-run aware planners, some cruise calls |
+| **SGN** | Tan Son Nhat International | [Ho Chi Minh City](https://vietnam.travel/things-to-do/ho-chi-minh-city) — south | First-time visitors to south Vietnam, Mekong Delta, Phu Quoc connections |
+| **HAN** | Noi Bai International | [Hanoi](https://vietnam.travel/things-to-do/hanoi) — north | Halong Bay, Sapa, northern history routes |
+| **DAD** | Da Nang International | [Central coast](https://vietnam.travel/things-to-do/da-nang) | Hoi An, Hue, central beaches, shorter north–south splits |
+| **CXR** | Cam Ranh International | [Nha Trang area](https://vietnam.travel/place/nha-trang) | Beach holidays, resort-focused trips |
+| **PQC** | Phu Quoc International | [Phu Quoc Island](https://vietnam.travel/place/phu-quoc) | Island resorts, visa-run aware planners, some cruise calls |
 
 Other international airports may accept eVisas when **listed on your specific approval**. Do not assume a secondary airport works because a friend entered there—check **your** PDF.
 
@@ -130,6 +130,8 @@ Check-in agents follow airline policy and immigration guidance—they are not em
 ## Land border crossings: Cambodia, Laos, and China
 
 Overland travel is popular on Southeast Asia backpacking routes. eVisa land entry is possible at **designated border gates**—but only when that gate appears on your approval PDF.
+
+> **Planning note:** Gate names in the tables below are **route examples** for popular overland trips—not a live official register. Only your **approval PDF** and current [Vietnam Immigration Department](https://immigration.gov.vn/) publications govern which crossing you may use. Re-check before buying bus tickets or committing to motorbike loops.
 
 ### Cambodia → Vietnam
 
@@ -163,7 +165,7 @@ China–Vietnam land borders operate through **designated gates** listed on offi
 
 Land border status can change with policy updates. Treat forum posts as leads, not law—your approval PDF and official lists govern.
 
-[Insert Image: Travelers at Vietnam land border checkpoint with passports and printed eVisa documents - Alt: Vietnam land border crossing with eVisa holders presenting passport and printed approval]
+![Vietnam land border crossing with eVisa holders presenting passport and printed approval](/img/blog/photos/vietnam-evisa-multiple-entry-guide-2026.jpg)
 
 ## Seaports and cruise passengers
 
@@ -260,6 +262,13 @@ Entry port verification is the **last step** before travel—not the first. Reco
 6. Print PDF; pack with passport
 
 Apply **7–14+ days** before departure when possible. Last-minute applications compress the window to fix port mismatches.
+
+
+## Official references
+
+- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal and authorized entry-point rules
+- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official pre-arrival e-visa channel
+- [Vietnam National Administration of Tourism](https://vietnam.travel/) — regional destination guides for matching arrival cities to your itinerary
 
 ## Related guides
 

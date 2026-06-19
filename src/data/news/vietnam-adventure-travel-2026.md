@@ -1,7 +1,7 @@
 ---
 title: 'Vietnam Adventure Travel 2026: Caves, Ha Giang Loops & Multi-Activity Planning'
 date: '2026-01-21'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-adventure-travel-2026.jpg'
 imageAlt: 'Rowing boat passing beneath limestone karsts in Trang An, Vietnam'
 excerpt: 'Plan Vietnam adventure travel in 2026—Phong Nha caving, Tu Lan swims, Ha Giang motor loops, Ha Long kayaking, and multi-activity weeks with fitness tiers, VND costs, insurance, and sample routes.'
@@ -33,7 +33,7 @@ Vietnam packs **limestone scale**, **river caves**, and **knife-edge mountain ro
 
 For **national park permits and regional park comparisons**, see the [Vietnam national parks guide](/blog/vietnam-national-parks-wildlife-2026). For **Fansipan summits and trekking fitness**, see the [Vietnam mountain trekking guide](/blog/vietnam-volcano-trekking-guide-2026).
 
-[Insert Image: Trekkers wading through underground river in Tu Lan cave system Phong Nha - Alt: Adventure travellers wading through Tu Lan cave river Phong Nha Vietnam]
+![Adventure travellers wading through Tu Lan cave river in Phong Nha](/img/blog/photos/vietnam-adventure-travel-2026.jpg)
 
 ## Quick answer: Vietnam adventure at a glance
 
@@ -103,7 +103,7 @@ The biggest mistake is treating Vietnam like a theme park menu—one day caves, 
 
 **Cons:** Flood season disruption; remote cash economy; show caves crowd on domestic holidays.
 
-[Insert Infographic: Phong Nha cave adventure tiers by fitness and cost - Alt: Chart of Vietnam Phong Nha cave trips ranked by fitness level and VND cost]
+![Vietnam Phong Nha cave trips ranked by fitness level and cost](/img/blog/vietnam-adventure.svg)
 
 ## Kayaking: Ha Long, Lan Ha, and Phong Nha rivers
 
@@ -155,7 +155,7 @@ International riders need a **motorcycle licence** matching bike displacement an
 
 **Cons:** Not beginner-friendly for self-riders; gravel edges and fog; long bus from Hanoi (roughly 6–7 hours).
 
-[Insert Image: Motorbike rider overlooking Ma Pi Leng Pass in Ha Giang Vietnam - Alt: Ma Pi Leng Pass viewpoint on Ha Giang motor loop Vietnam adventure travel]
+![Ma Pi Leng Pass viewpoint on Ha Giang motor loop adventure travel](/img/blog/photos/hidden-gems-vietnam-2026.jpg)
 
 ## Secondary adrenaline: Da Lat, Mui Ne, and coast options
 

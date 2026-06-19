@@ -2,8 +2,8 @@
 title: 'Vietnam eVisa Fees 2026: Complete Cost Breakdown (Government, Service & Hidden Charges)'
 slug: vietnam-evisa-fees-explained-2026
 date: '2026-03-01'
-dateModified: '2026-06-15'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+dateModified: '2026-06-18'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-fees-explained-2026.jpg'
 imageAlt: 'Vietnamese dong banknote showing a historic pagoda with passport and travel documents'
 excerpt: 'Vietnam eVisa fees in 2026 explained: $55/$80 government fees by visa type, $59.99 service fee per passenger, urgent processing add-ons, family totals, hidden costs, refunds, and how to verify your real checkout total.'
@@ -18,8 +18,8 @@ faq:
     answer: Yes. Multiple-entry eVisas carry an $80 government fee versus $55 for single entry on the same 90-day tourist and business products. Choosing the wrong entry type mid-trip often costs far more than the $25 difference upfront.
   - question: Are Vietnam eVisa fees refundable if I am rejected?
     answer: Government fees are often non-refundable once submitted to authorities. Service fees may be partially refundable under conditions in our refund policy—contact support with your reference number before disputing with your bank.
-  - question: Is the official government eVisa cheaper than assisted filing?
-    answer: Yes. The official government portal charges government fees only. Assisted filing adds a disclosed service fee for validation, support, and document review. Both paths submit to the same immigration review process.
+  - question: What does the $59.99 service fee cover on assisted filing?
+    answer: Form guidance, document validation, customer support during processing, and a disclosed checkout total before you pay. The government fee is separate and mandatory for the visa authorization itself.
   - question: Do children pay the same Vietnam eVisa fees as adults?
     answer: On our portal, each passenger—including infants—incurs the full government fee and service fee per person. A family of four pays four times the per-passenger line items at checkout.
   - question: Do urgent processing fees guarantee faster government approval?
@@ -28,13 +28,13 @@ faq:
     answer: Passport renewal if validity is under six months, professional photos, printing copies, international card FX fees, travel insurance, and potential extension fees inside Vietnam if your plans change—all separate from the eVisa checkout total.
 ---
 
-**How much does a Vietnam eVisa cost in 2026?** For most travelers filing through our assisted portal, the answer is not one number—it is a stack of line items: a **government fee** determined by visa type ($55 or $80 for standard 90-day products), a **service fee** ($59.99 per passenger), and sometimes an **optional processing upgrade** when your departure date is tight. Understanding each layer before you pay prevents surprise charges at checkout and helps you compare assisted filing against the official government-only route.
+**How much does a Vietnam eVisa cost in 2026?** On our assisted portal, the total is a stack of line items: a **government fee** determined by visa type ($55 or $80 for standard 90-day products), a **service fee** ($59.99 per passenger), and sometimes an **optional processing upgrade** when your departure date is tight. Understanding each layer before you pay prevents surprise charges at checkout.
 
 This guide breaks down every fee category, shows realistic totals for solo travelers and families, explains what is refundable, and flags the hidden costs travelers forget until they are already at the airport.
 
-**We are a private visa assistance service—not the Government of Vietnam.** Vietnamese immigration authorities set mandatory government fees and make approval decisions. We disclose every fee line before checkout so you know the full total before authorizing payment. You may also file directly through official government channels at government fee only.
+**We are a private visa assistance service—not the Government of Vietnam.** Vietnamese immigration authorities set mandatory government fees and make approval decisions. We disclose every fee line before checkout so you know the full total before authorizing payment.
 
-[Insert Image: Vietnam eVisa fee breakdown on laptop checkout screen with passport nearby - Alt: Vietnam eVisa 2026 fee breakdown showing government and service charges at checkout]
+![Vietnam eVisa 2026 fee breakdown showing government and service charges at checkout](/img/blog/photos/vietnam-evisa-fees-explained-2026.jpg)
 
 ## Quick answer: Vietnam eVisa fees at a glance
 
@@ -47,14 +47,13 @@ This guide breaks down every fee category, shows realistic totals for solo trave
 | **Super Urgent (1 day)** | **+$220 per passenger** — optional when arrival date allows |
 | **Nationality impact on fees** | Government fees do **not** vary by passport country on our portal |
 | **Family pricing** | Each traveler pays full per-passenger fees—including infants |
-| **Official govt-only route** | Lower total (government fee only); no assisted support layer |
 | **Best practice** | Confirm live total at [/fees](/fees) and checkout before paying |
 
-**Best for:** Travelers who want a transparent fee breakdown before choosing single vs multiple entry, comparing assisted vs official filing, or budgeting a family group application.
+**Best for:** Travelers who want a transparent fee breakdown before choosing single vs multiple entry or budgeting a family group application.
 
 ## Government fees: the four standard visa types
 
-All standard online products on this site authorize up to a **90-day stay**. Under current published pricing, **government fees depend on visa type—not nationality**. A US passport holder and a Brazilian passport holder pay the same government fee for the same product.
+All standard online products on this site authorize up to a **90-day stay** per approved eVisa ([Vietnam Electronic Visa portal](https://evisa.gov.vn/)). Under current published pricing on our portal, **government fees depend on visa type—not nationality**. A US passport holder and a Brazilian passport holder pay the same government fee for the same product.
 
 | Visa type | Government fee (USD) | Entry type | Typical purpose |
 | :--- | ---: | :--- | :--- |
@@ -63,7 +62,7 @@ All standard online products on this site authorize up to a **90-day stay**. Und
 | Business eVisa (Single Entry, 90 days) | **$55** | One arrival period | Meetings, conferences, short commercial visits |
 | Business eVisa (Multiple Entries, 90 days) | **$80** | Leave and re-enter within validity | Recurring business travel in the region |
 
-These amounts are **mandatory government charges** for the visa authorization itself. They are the same whether you file through the official government portal or through a private assistance service—the difference is what additional fees appear on top.
+These amounts are **mandatory government charges** for the visa authorization itself, shown as a separate line on our checkout before the service fee.
 
 ### Tourism vs business: same price, different rules
 
@@ -80,7 +79,7 @@ Some travelers assume visa costs vary by passport because embassy sticker visas 
 
 Always verify live pricing at [/fees](/fees). Forum posts from prior years or screenshots from other websites are unreliable—fee schedules and product names change.
 
-[Insert Infographic: Vietnam eVisa 2026 fee structure — government vs service vs urgent tiers - Alt: Vietnam eVisa fee structure diagram showing government service and urgent processing costs 2026]
+![Vietnam eVisa fee structure showing government, service, and urgent processing costs](/img/blog/infographics/vietnam-evisa-requirements-at-a-glance.svg)
 
 ## Assisted service fee: what $59.99 per passenger covers
 
@@ -92,18 +91,19 @@ Private assistance on our portal adds **$59.99 per passenger**. This is **separa
 - Email follow-up if authorities request resubmission
 - Fee transparency at every checkout step
 
-The service fee does **not** replace the government charge, guarantee approval, or bypass immigration security review. Both assisted and official paths submit to the same government decision process.
+The service fee does **not** replace the government charge, guarantee approval, or bypass immigration security review.
 
-### Official government portal vs assisted filing: cost comparison
+### What your assisted checkout total includes
 
-| Path | What you pay | What you get |
-| --- | --- | --- |
-| **Official government eVisa portal** | Government fee only ($55 or $80) | Direct filing; you handle uploads, fields, and corrections yourself |
-| **Assisted filing (this site)** | Government fee + $59.99/pax service fee | Validation, support, disclosed totals, document review before submission |
+| Line item | What it covers |
+| --- | --- |
+| **Government fee** | **$55** single entry or **$80** multiple entry for standard 90-day products |
+| **Service fee** | **$59.99 per passenger** — validation, support, and document review before submission |
+| **Optional Urgent / Super Urgent** | **+$110** or **+$220** per passenger when your arrival date allows the tier |
 
-Assisted filing tends to help travelers who want a structured checklist, are filing for families, need multiple-entry confirmation, or worry about passport scan and photo rejections. If you are comfortable self-filing and cost is the priority, the official route is legitimate—just budget time for careful data entry.
+Assisted filing on [/apply](/apply) tends to help travelers who want a structured checklist, are filing for families, need multiple-entry confirmation, or worry about passport scan and photo rejections.
 
-Neither path can override a government rejection. What assistance can reduce is **avoidable errors**—typos in passport numbers, wrong date-of-birth format, blurry scans—that cause delays or refusals.
+What assistance can reduce is **avoidable errors**—typos in passport numbers, wrong date-of-birth format, blurry scans—that cause delays or refusals.
 
 ## Optional urgent processing: Urgent and Super Urgent tiers
 
@@ -180,7 +180,7 @@ Each child—including infants—needs their own authorization and pays full per
 
 Group filing tips: [Vietnam eVisa for families and minors](/blog/vietnam-evisa-for-minors-families-2026).
 
-[Insert Image: Family reviewing Vietnam eVisa checkout totals on tablet before payment - Alt: Family group Vietnam eVisa fee calculation for multiple passengers 2026]
+![Family group Vietnam eVisa fee calculation for multiple passengers](/img/blog/photos/vietnam-evisa-for-minors-families-2026.jpg)
 
 ## Hidden costs travelers forget
 
@@ -233,12 +233,12 @@ Sometimes embassy **sticker** visas compete on government price alone—but tota
 
 Embassy routes still matter for long-term work, study, diplomatic travel, and visa types not offered online. Full comparison: [Vietnam eVisa vs embassy visa](/blog/vietnam-evisa-vs-embassy-visa-2026). Embassy directory: [/embassy](/embassy).
 
-| Scenario | Usually cheaper on paper | Usually faster in practice |
-| --- | --- | --- |
-| **Tourist, major airport entry, 2+ weeks lead time** | Official govt eVisa portal | Assisted or official eVisa |
-| **Tourist, tomorrow's flight** | Neither—urgent tiers add cost | Assisted eVisa with rush tier (no guarantee) |
-| **Work permit / 6-month stay** | Depends on consulate | Embassy processing |
-| **Multiple entry, complex passport history** | Varies | Embassy consultation may save reapplication costs |
+| Scenario | Best channel for most travelers |
+| --- | --- |
+| **Tourist, major airport entry, 2+ weeks lead time** | Assisted eVisa at [/apply](/apply) |
+| **Tourist, tomorrow's flight** | Assisted eVisa with urgent tier (no approval guarantee) |
+| **Work permit / 6-month stay** | Embassy processing |
+| **Multiple entry, complex passport history** | Embassy consultation may save reapplication costs |
 
 ## Common fee-related mistakes
 
@@ -252,6 +252,33 @@ Embassy routes still matter for long-term work, study, diplomatic travel, and vi
 
 More pre-pay errors: [10 Vietnam eVisa mistakes to avoid](/blog/vietnam-evisa-common-mistakes-2026).
 
+## How we update this guide
+
+**Last reviewed:** 18 June 2026
+
+Maintained by the **Vietnam eVisa Assistance Team**—a private assistance service, not the Government of Vietnam. Read [about us](/about) and [legal terms](/legal).
+
+**How fee numbers stay accurate**
+
+- Government ($55/$80) and service ($59.99) line items are checked against our live [fees calculator](/fees) and checkout at [/apply](/apply) before we publish changes here
+- Urgent tier amounts (+$110 / +$220) are disclosed at checkout—this article summarizes them; your session total is authoritative
+- We do **not** cite external government fee schedules that may differ from our assisted checkout
+
+**What is not on this invoice**
+
+- In-country **extension fees** (paid in VND at a provincial immigration office—see [extension guide](/blog/vietnam-evisa-extension-guide-2026))
+- Passport renewal, photos, insurance, or FX charges on your card
+
+**If you are rejected or dispute a charge**
+
+Contact support first with your reference number. Government fees are often non-refundable once submitted to authorities. Service-fee treatment is in our [refund policy](/refund-policy).
+
+
+## Official references
+
+- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal
+- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — immigration e-visa policy reference
+
 ## Related guides
 
 - [How to apply for a Vietnam eVisa online](/blog/how-to-apply-vietnam-evisa-online-2026)
@@ -264,7 +291,7 @@ More pre-pay errors: [10 Vietnam eVisa mistakes to avoid](/blog/vietnam-evisa-co
 
 ### How much does a Vietnam eVisa cost in 2026?
 
-On our assisted portal: government fee (**$55** single entry or **$80** multiple entry for standard 90-day products) + **$59.99** service fee per passenger + any optional Urgent (**+$110**) or Super Urgent (**+$220**) processing. Official government-only filing costs less. Confirm your exact total at [/fees](/fees) and checkout before paying.
+On our assisted portal: government fee (**$55** single entry or **$80** multiple entry for standard 90-day products) + **$59.99** service fee per passenger + any optional Urgent (**+$110**) or Super Urgent (**+$220**) processing. Confirm your exact total at [/fees](/fees) and checkout before paying.
 
 ### What is the difference between government fee and service fee?
 
@@ -278,9 +305,9 @@ Yes—**$80** government fee vs **$55** for single entry on the same 90-day prod
 
 Government fees are often non-refundable once submitted. Service fees may be partially refundable under [/refund-policy](/refund-policy). Contact support with your reference number before bank chargebacks.
 
-### Is the official government eVisa cheaper than assisted filing?
+### What does the $59.99 service fee cover?
 
-Yes. The official portal charges government fees only. Assisted filing adds the disclosed service fee for validation and support. Both submit to the same immigration review.
+Form guidance, document validation, customer support during processing, and a full fee breakdown at checkout. The government fee is separate and pays for the visa authorization itself.
 
 ### Do children pay the same fees as adults?
 
@@ -293,7 +320,5 @@ No. Rush tiers speed preparation and submission on the assisted side. Final appr
 ### What hidden costs should I budget beyond the visa?
 
 Passport renewal, professional photos, printing, card FX fees, travel insurance, and potential extension fees inside Vietnam—all separate from the eVisa checkout total.
-
----
 
 When your itinerary and entry type are clear, [apply for Vietnam eVisa online](/apply) with full fee disclosure at checkout—or verify [eligibility by country](/check-requirement) and live pricing at [/fees](/fees) before you commit.

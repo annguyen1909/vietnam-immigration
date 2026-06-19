@@ -22,7 +22,7 @@ const services = [
   {
     title: 'Document Verification',
     copy: 'We help you prepare and verify passport scans, photos, and supporting documents to meet Vietnamese immigration standards.',
-    badge: 'Official',
+    badge: 'Verified',
     icon: (
       <svg
         className="h-8 w-8"

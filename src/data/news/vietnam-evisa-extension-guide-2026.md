@@ -2,8 +2,8 @@
 title: 'Vietnam eVisa Extension 2026: Rules, Costs, Process & Safer Alternatives'
 slug: vietnam-evisa-extension-guide-2026
 date: '2026-02-14'
-dateModified: '2026-06-15'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+dateModified: '2026-06-18'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-extension-guide-2026.jpg'
 imageAlt: 'Dragon Bridge over the Han River with the Da Nang skyline, Vietnam'
 excerpt: 'Can you extend a Vietnam eVisa in 2026? Where in-country extensions are handled, typical costs in VND, step-by-step NA5 process, overstay risks, and when to apply for a longer eVisa upfront instead.'
@@ -34,7 +34,7 @@ This 2026 guide explains what you can and cannot extend, where applications are 
 
 **We are a private visa assistance service—not the Government of Vietnam.** We help travelers select the correct stay length and visa type at initial filing on [/apply](/apply). We do **not** process in-country extensions, submit Form NA5 on your behalf, or override immigration officer decisions.
 
-[Insert Image: Traveler reviewing Vietnam eVisa approval PDF with calendar showing exit date deadline - Alt: Vietnam eVisa extension planning with approved PDF and stay deadline calendar]
+![Vietnam eVisa extension planning with approved PDF and stay deadline calendar](/img/blog/photos/vietnam-evisa-extension-guide-2026.jpg)
 
 ## Quick answer: Vietnam eVisa extension at a glance
 
@@ -63,7 +63,7 @@ Before discussing extensions, understand three dates on your approval PDF—they
 | **Duration of stay** | Maximum days you may **remain** after each entry stamp | This is what extensions attempt to lengthen—if policy allows |
 | **Entry type** | **Single** (one arrival period) vs **multiple** (leave and return within validity) | Wrong entry type cannot be fixed by extension—you may need exit and re-entry |
 
-Under Vietnam's current eVisa framework, standard online products authorize stays of **up to 90 days**. That is the maximum duration available at initial filing on most portals—not a guarantee that an in-country extension will add another 90 days later.
+Under Vietnam's current e-visa framework, standard online products authorize stays of **up to 90 days** ([Vietnam Electronic Visa portal](https://evisa.gov.vn/)). That is the maximum duration available at initial filing on most portals—not a guarantee that an in-country extension will add another 90 days later.
 
 **Official policy signal:** Vietnamese immigration authorities set permitted stay lengths and extension rules. **Planning advice:** Treat your printed exit date as a hard deadline until an immigration officer formally approves an extension stamp or slip.
 
@@ -86,11 +86,11 @@ Under Vietnam's current eVisa framework, standard online products authorize stay
 
 Always read the conditions printed on your approval letter and the entry stamp in your passport. If your category explicitly prohibits extension, plan an exit instead.
 
-[Insert Infographic: Vietnam eVisa validity vs duration of stay vs extension decision flow - Alt: Vietnam eVisa extension eligibility diagram showing validity window and stay duration]
+![Vietnam eVisa extension eligibility showing validity window and stay duration](/img/blog/infographics/vietnam-evisa-requirements-at-a-glance.svg)
 
 ## Can you extend a Vietnam eVisa online?
 
-**Usually no.** The eVisa application website—whether the official government portal or a private assistance flow—is for **pre-arrival authorization**, not for lengthening a stay after you have entered.
+**Usually no.** The [official e-visa application channel](https://evisa.gov.vn/) is for **pre-arrival authorization**, not for lengthening a stay after you have entered. Extensions, when permitted, are handled through [Vietnamese immigration offices](https://immigration.gov.vn/) inside the country.
 
 Searches for "extend Vietnam eVisa online" often surface:
 
@@ -146,7 +146,7 @@ Procedures change by city and policy updates. This is the **common pattern** tra
 
 Ask explicitly: *Is this a tourist stay extension or a temporary residence extension?* Mixing categories creates exit complications and may affect future eVisa applications.
 
-[Insert Image: Immigration office queue in Vietnam with travelers holding passport folders - Alt: Vietnam immigration department office for eVisa extension applications]
+![Vietnam immigration department office for eVisa extension applications](/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg)
 
 ## How long can a Vietnam eVisa extension add?
 
@@ -171,6 +171,8 @@ Ask explicitly: *Is this a tourist stay extension or a temporary residence exten
 ## Vietnam eVisa extension costs and timelines (indicative)
 
 Extension fees are **not** part of your original eVisa checkout. They are charged separately in **Vietnamese dong** at the immigration counter and **change without notice**.
+
+> **Confirm on the day you file:** Extension fees, processing times, and eligibility are decided **only** at the provincial immigration office handling your case—not by this guide, forums, or third-party agents. Ask for a printed receipt and the officer-stamped exit date before you leave the counter.
 
 | Factor | Indicative range | Notes |
 | --- | --- | --- |
@@ -237,7 +239,7 @@ The most reliable extension strategy is **not needing one**. At initial filing:
 
 Read [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026) and apply **7–14+ days** before departure. Do not book non-refundable long-stay accommodation until you hold the approved PDF.
 
-[Insert Infographic: Extend in-country vs apply longer eVisa upfront decision tree - Alt: Vietnam eVisa extension vs upfront longer stay application comparison chart]
+![Vietnam eVisa extension vs upfront longer stay application comparison](/img/blog/infographics/vietnam-evisa-apply-steps.svg)
 
 ## Alternatives when extension is denied or unavailable
 
@@ -308,6 +310,12 @@ If you traveled on a family group eVisa filing:
 
 For general Vietnam trip planning with children (activities, pacing—not visa rules), [family-friendly Vietnam travel tips](/blog/family-friendly-vietnam-2026) may help itinerary decisions once entry paperwork is sorted.
 
+
+## Official references
+
+- [Vietnam Immigration Department](https://immigration.gov.vn/) — in-country immigration services and stay rules
+- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — pre-arrival e-visa applications only (not in-country extensions)
+
 ## Related guides
 
 - [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026)
@@ -359,7 +367,5 @@ You may need to exit Vietnam and apply for a new eVisa abroad, pursue an embassy
 ### Can a private visa service extend my eVisa?
 
 No. Private assistance services—including this site—help with **pre-arrival applications** only. In-country extensions are between you and Vietnamese immigration authorities.
-
----
 
 If you have **not yet traveled**, choose the right stay length now—[apply for Vietnam eVisa online](/apply) or review [Vietnam eVisa requirements](/blog/vietnam-evisa-requirements-guide-2026) before you book immovable dates. If you are **already in Vietnam**, contact the local immigration department immediately while you still have valid stay—not after your exit date passes.

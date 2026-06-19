@@ -1,9 +1,9 @@
 ---
 title: 'Family-Friendly Vietnam 2026: Complete Planning Guide with Kids'
 date: '2026-01-30'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
-image: '/img/blog/photos/family-friendly-vietnam-2026.jpg'
-imageAlt: 'Family strolling through lantern-lit yellow streets of Hoi An old town, Vietnam'
+author: 'Vietnam eVisa Assistance Team'
+image: '/img/blog/photos/vietnam-beach-holidays-coast-2026.jpg'
+imageAlt: 'Sandy beach backed by the Da Nang skyline, popular for family holidays in Vietnam'
 excerpt: 'Plan a family trip to Vietnam in 2026—best destinations by age, sample routes, VND budgets, transport tips, seasonal timing, and eVisa steps for children before you book.'
 slug: family-friendly-vietnam-2026
 tags: ['travel', 'family']
@@ -31,7 +31,7 @@ If you are planning a **family trip to Vietnam in 2026**, this guide helps you c
 
 **We are a private visa assistance service—not the Government of Vietnam.** Entry rules are set by Vietnamese immigration authorities. The destination advice below is general travel planning based on common 2026 routes, costs, and family logistics.
 
-[Insert Image: Family walking along My Khe Beach in Da Nang at golden hour - Alt: Family-friendly My Khe Beach in Da Nang Vietnam with calm shoreline]
+![Family-friendly My Khe Beach in Da Nang with calm shoreline](/img/blog/photos/family-friendly-vietnam-2026.jpg)
 
 ## Quick answer: family-friendly Vietnam at a glance
 
@@ -67,7 +67,7 @@ Vietnam is not a theme-park destination. It is a **high-reward, moderate-effort*
 
 Choosing wrong is the most common planning mistake: stacking **Hanoi, Ha Long, Hoi An, and Phu Quoc** into nine days burns two days in airports and leaves everyone irritable. Pick **one geographic focus** unless you have two full weeks.
 
-[Insert Infographic: Vietnam family travel regions map—north culture, central beach, south islands - Alt: Map of family-friendly Vietnam destinations by region north central south]
+![Map of family-friendly Vietnam destinations by north, central, and south regions](/img/blog/vietnam-family.svg)
 
 ## Best family destinations in Vietnam by age and style
 
@@ -93,7 +93,7 @@ Choosing wrong is the most common planning mistake: stacking **Hanoi, Ha Long, H
 
 Book **family rooms or connecting doubles** early for weekend peaks. Pair with [Vietnam beach holidays on the central coast](/blog/vietnam-beach-holidays-coast-2026) planning if sand is a priority.
 
-[Insert Image: Children decorating lanterns at a Hoi An craft workshop - Alt: Family lantern-making workshop in Hoi An old town Vietnam]
+![Family lantern-making workshop in Hoi An old town](/img/blog/photos/top-10-historical-places-vietnam.jpg)
 
 ### Da Nang: resort pools plus easy beach days
 
@@ -140,7 +140,7 @@ Book **family rooms or connecting doubles** early for weekend peaks. Pair with [
 
 **First-time mistake:** Walking the Old Quarter at noon in July with a stroller. Start at **7 a.m.**, retreat to AC by 11 a.m.
 
-[Insert Image: Water puppet performance in Hanoi with traditional musicians - Alt: Traditional water puppet show for families in Hanoi Vietnam]
+![Traditional water puppet show for families in Hanoi](/img/blog/photos/vietnamese-music-arts-culture-2026.jpg)
 
 ### Phu Quoc: southern beach week with minimal culture pressure
 
@@ -195,7 +195,7 @@ Vietnam spans more than 1,000 km north to south—**weather that suits Da Nang m
 
 Add **Da Lat** (3 nights) between coast blocks for climate variety, or fly **DAD → PQC** for a **4-night Phu Quoc** finale. Only attempt this with **teenagers** or **seasoned travel kids**—toddlers need fewer bases.
 
-[Insert Infographic: Three sample family routes in Vietnam by trip length - Alt: Sample Vietnam family itinerary routes 8 10 and 14 days]
+![Sample Vietnam family itinerary routes for 8, 10, and 14 days](/img/blog/vietnam-travel.svg)
 
 ## Daily pacing: the difference between a great trip and a meltdown
 
@@ -304,7 +304,7 @@ Review [common Vietnam eVisa mistakes](/blog/vietnam-evisa-common-mistakes-2026)
 
 **Private assistance note:** We help families prepare complete applications and avoid common upload errors—we are **not** the Government of Vietnam. Final approval rests with immigration authorities.
 
-[Insert Image: Parent and child reviewing travel documents before international flight - Alt: Family reviewing Vietnam eVisa and passport documents before travel]
+![Family reviewing travel documents and itinerary before a Vietnam trip](/img/blog/photos/family-friendly-vietnam-2026.jpg)
 
 ## Festivals, markets, and cultural extras worth timing
 

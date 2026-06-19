@@ -1,7 +1,7 @@
 ---
 title: 'Vietnam Beach Holidays 2026: Coast Route & City Guide'
 date: '2026-01-24'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-beach-holidays-coast-2026.jpg'
 imageAlt: 'Sandy beach backed by the city skyline in Da Nang, Vietnam'
 excerpt: 'Plan Vietnam beach holidays in 2026—compare Da Nang, Nha Trang, Mui Ne, and Phu Quoc, build coast routes north to south, budget in VND, and time seasons for family trips.'
@@ -31,7 +31,7 @@ Vietnam's **3,200-kilometre coastline** stitches urban convenience beside postca
 
 For dedicated island comparisons—Cat Ba, Cham, Phu Quoc, Con Dao—see our [best islands in Vietnam guide](/blog/best-islands-vietnam-beyond-hanoi-2026). This article focuses on **mainland coast cities and route logic** for beach-centred trips.
 
-[Insert Image: Aerial view of My Khe Beach Da Nang with city skyline and palm-lined shore - Alt: My Khe Beach Da Nang Vietnam with city skyline and palm trees along the coast]
+![My Khe Beach Da Nang with city skyline and palm trees along the coast](/img/blog/photos/vietnam-beach-holidays-coast-2026.jpg)
 
 ## Quick answer: Vietnam beach holidays at a glance
 
@@ -73,7 +73,7 @@ Beach planning fails when travellers expect one "beach season" nationwide. Vietn
 
 **Planning implication:** Mui Ne is a **specialist stop**—excellent for wind sports and dune photography, not a default first beach for families seeking calm swim days.
 
-[Insert Infographic: Vietnam coast weather belts showing central typhoon season vs southern dry season - Alt: Vietnam beach holiday seasons map showing best months by coast region]
+![Vietnam beach holiday seasons map showing best months by coast region](/img/blog/vietnam-beach.svg)
 
 ## Choosing a coast hub for your 2026 holiday
 
@@ -120,7 +120,7 @@ Da Nang is Vietnam's strongest **city-beach hybrid**—you get proper urban infr
 
 **Ideal length:** **3–5 nights** as a coast anchor.
 
-[Insert Image: Dragon Bridge Da Nang at night with fire and water display - Alt: Dragon Bridge Da Nang Vietnam at night with fire breathing display over Han River]
+![Da Nang coastal skyline and beach strip along the central Vietnam coast](/img/blog/photos/vietnam-beach-holidays-coast-2026.jpg)
 
 ## Hoi An: heritage town with beach access
 
@@ -184,7 +184,7 @@ Mui Ne is not a default family swim beach—currents and wind favour sports over
 
 **Route logic:** Common as a **stopover** on Saigon → Nha Trang overland routes—not a week-long base.
 
-[Insert Image: Red sand dunes Mui Ne at sunrise with footprints and blue sky - Alt: Red sand dunes at sunrise in Mui Ne Vietnam with wind-sculpted ridges]
+![Wind-sculpted sand and coastal scenery on Vietnam south-central coast near Mui Ne](/img/blog/photos/vietnam-beach-holidays-coast-2026.jpg)
 
 ## Phu Quoc: island beach week from the coast
 
@@ -238,7 +238,7 @@ For detailed Phu Quoc vs Con Dao comparisons, ferry alternatives, and island log
 
 **Rule:** One hub per week delivers more beach time than three two-night stops.
 
-[Insert Infographic: Sample Vietnam beach holiday routes map Da Nang Hoi An Nha Trang Mui Ne Phu Quoc - Alt: Vietnam beach holiday route map showing central and southern coast itinerary options]
+![Vietnam beach holiday route map for central and southern coast itineraries](/img/blog/vietnam-travel.svg)
 
 ## Coastal budgeting in VND
 

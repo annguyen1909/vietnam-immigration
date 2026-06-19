@@ -2,9 +2,10 @@
 title: 'Vietnam eVisa Photo Requirements 2026 (Size & Tips)'
 slug: vietnam-evisa-photo-requirements-2026
 date: '2026-02-08'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
-image: '/img/blog/photos/vietnam-evisa-photo-requirements-2026.jpg'
-imageAlt: 'Mountain road winding through the Ha Giang highlands in northern Vietnam'
+dateModified: '2026-06-15'
+author: 'Vietnam eVisa Assistance Team'
+image: '/img/blog/infographics/vietnam-evisa-photo-accepted-rejected.svg'
+imageAlt: 'Accepted and rejected Vietnam eVisa passport photo examples with compliance notes'
 excerpt: 'Vietnam eVisa photo rules for 2026—size, background, glasses, kids, and fixes for the upload errors that delay approval most often.'
 tags: ['visa', 'requirements']
 section: 'Visa Guides'
@@ -19,7 +20,7 @@ faq:
     answer: Common causes are patterned backgrounds, face too small in frame, beauty filters, shadows, or a mismatch with your current passport appearance. Retake with even lighting and a plain white or off-white backdrop.
 ---
 
-One bad portrait is among the fastest ways to **delay a Vietnam eVisa**. Portals auto-check uploads; blurry selfies and cropped passport booklet photos often trigger resubmissions or rejection. Get your photo right once—then [start your application](/apply).
+One bad portrait is among the fastest ways to **delay a Vietnam eVisa**. The [official e-visa application channel](https://evisa.gov.vn/) validates uploads electronically; blurry selfies and cropped passport booklet photos often trigger resubmissions or rejection. Get your photo right once—then [start your application](/apply).
 
 **We are a private visa assistance service—not the Government of Vietnam.** Photo rules follow official eVisa standards; we help you format files correctly before submission.
 
@@ -90,6 +91,12 @@ Cross-check name and passport number against the MRZ. Pair this guide with:
 - [/blog/vietnam-evisa-requirements-guide-2026](/blog/vietnam-evisa-requirements-guide-2026)
 - [/faq/vietnam-evisa-requirements](/faq/vietnam-evisa-requirements)
 - [/check-requirement](/check-requirement) for nationality rules
+
+
+## Official references
+
+- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official upload requirements shown at application time
+- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal
 
 ## Frequently asked questions
 

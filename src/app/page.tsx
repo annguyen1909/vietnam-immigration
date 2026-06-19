@@ -15,7 +15,7 @@ import { getPublicSiteUrl, SITE_NAME } from '@/lib/seo';
 import { getVietnamHomePageDescription } from '@/lib/vietnamPricing';
 
 export const metadata: Metadata = {
-  title: 'Official Vietnam eVisa Application',
+  title: 'Vietnam eVisa Application Assistance',
   description: getVietnamHomePageDescription(),
   alternates: {
     canonical: 'https://vietnamemigration.com',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     url: 'https://vietnamemigration.com',
     title: 'Vietnam eVisa — Apply Online',
     description: 'Guided Vietnam eVisa applications with transparent pricing and expert review.',
-    siteName: 'Vietnam Official eVisa',
+    siteName: SITE_NAME,
     images: [{ url: '/img/vietnam-hero.jpg', width: 1200, height: 630, alt: 'Vietnam travel' }],
   },
   twitter: {

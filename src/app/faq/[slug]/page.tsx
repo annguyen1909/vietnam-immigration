@@ -165,7 +165,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-white"></div>
               <span className="text-white text-sm font-semibold uppercase tracking-wider">
-                Official Service
+                Assisted eVisa Service
               </span>
               <div className="w-2 h-2 rounded-full bg-white"></div>
             </div>
@@ -246,7 +246,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           </div>
         </section>
 
-        {/* Official Disclaimer */}
+        {/* Service Disclaimer */}
         <section className="relative w-full bg-white py-12 border-b-2 border-gray-200">
           <div className="max-w-5xl mx-auto px-4">
             <div className="bg-gray-50 border-4 border-brand-primary rounded-lg p-8 shadow-lg">
@@ -258,12 +258,12 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
                     clipRule="evenodd"
                   />
                 </svg>
-                <h3 className="text-xl font-bold text-gray-900">Official Disclaimer</h3>
+                <h3 className="text-xl font-bold text-gray-900">Service Disclaimer</h3>
               </div>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
                   <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
-                  Vietnam Official eVisa Immigration Assistance Service, a private company providing
+                  Vietnam eVisa Assistance Team, a private company providing
                   professional visa application preparation and support services. We are{' '}
                   <strong>not affiliated with</strong> the Government of Vietnam or any official
                   immigration authority.

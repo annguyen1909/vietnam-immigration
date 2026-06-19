@@ -46,7 +46,7 @@ export default function CookiePolicyPage() {
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-brand-ink mb-4">1. Introduction</h2>
                   <p className="text-brand-ink mb-4">
-                    This Cookie Policy outlines how Vietnam Official eVisa Immigration Assistance
+                    This Cookie Policy outlines how Vietnam eVisa Assistance Team
                     Service (referred to as "we," "us," or "our") utilizes cookies and similar
                     technologies when you access our website at vietnamemigration.com (the
                     "Website"). This policy should be reviewed in conjunction with our Privacy
@@ -336,7 +336,7 @@ export default function CookiePolicyPage() {
                       </a>
                     </p>
                     <p className="text-brand-ink mb-2">
-                      <strong>Address:</strong> Vietnam Official eVisa Immigration Assistance
+                      <strong>Address:</strong> Vietnam eVisa Assistance Team
                       Service
                       <br />
                       1308 E Colorado Blvd #2244, Pasadena, CA 91106

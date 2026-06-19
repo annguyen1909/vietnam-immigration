@@ -2,7 +2,7 @@
 title: 'Hidden Gems in Vietnam 2026: Off-the-Beaten-Path North & Upland Guide'
 date: '2026-01-25'
 dateModified: '2026-06-15'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/hidden-gems-vietnam-2026.jpg'
 imageAlt: 'Ban Gioc Waterfall cascading into turquoise water in Cao Bang province, northern Vietnam'
 excerpt: 'Plan quieter Vietnam beyond Sa Pa and Ha Long—Pu Luong, Bac Ha markets, Ba Be Lake, Cao Bang waterfalls, and Mai Chau with homestay logistics, VND budgets, seasonal timing, and eVisa entry tips for 2026.'
@@ -34,7 +34,7 @@ This 2026 guide helps you **choose which quiet-north destinations fit your dates
 
 **We are a private visa assistance service—not the Government of Vietnam.** Park fees, homestay standards, and road conditions are managed by local authorities and communities. We help travellers prepare entry documents; the route logic and cost ranges below are general travel planning advice.
 
-[Insert Image: Rice terraces and stilt homestays in Pu Luong Nature Reserve at golden hour - Alt: Pu Luong Nature Reserve rice terraces and bamboo water wheels in Thanh Hoa Vietnam]
+![Pu Luong Nature Reserve rice terraces and bamboo water wheels in Thanh Hoa](/img/blog/photos/hidden-gems-vietnam-2026.jpg)
 
 ## Quick answer: northern hidden gems at a glance
 
@@ -60,7 +60,7 @@ The mistake many first-time planners make is treating "north Vietnam" as one int
 
 Choosing two complementary bases beats ticking five names. **Mai Chau + Pu Luong** share transfer logic. **Ba Be + Cao Bang** form a natural northeast loop. **Bac Ha** works as a weekend add-on if you are already near **Lao Cai**—not as a standalone day trip from Hanoi unless you accept ten-plus hours on the road.
 
-[Insert Infographic: Northern Vietnam hidden gems route map from Hanoi to Mai Chau, Pu Luong, Ba Be, and Cao Bang - Alt: Map of off-the-beaten-path destinations in northern Vietnam from Hanoi]
+![Map of off-the-beaten-path destinations in northern Vietnam from Hanoi](/img/blog/vietnam-hidden-gems.svg)
 
 ## Mai Chau: gateway rhythm without Sa Pa intensity
 
@@ -88,7 +88,7 @@ Base in **Lac village** or **Pom Coong** for stilt-house homestays overlooking p
 
 **Pair with:** Pu Luong transfers (often 2–3 hours) when extending a quiet-north week.
 
-[Insert Image: Cyclist on a path between rice fields in Mai Chau valley - Alt: Bicycle ride through rice paddies in Mai Chau valley Vietnam]
+![Bicycle ride through rice paddies in Mai Chau valley](/img/blog/photos/hidden-gems-vietnam-2026.jpg)
 
 ## Pu Luong Nature Reserve: terraces, water wheels, and forest edges
 
@@ -154,7 +154,7 @@ Kayak hires appear seasonally—confirm **life jackets** and rescue protocols be
 
 **Common mistake:** Underestimating road fatigue and booking only one night—allow two full days for boats, walks, and weather delays.
 
-[Insert Image: Wooden boat on Ba Be Lake surrounded by limestone cliffs - Alt: Traditional boat on Ba Be Lake in Ba Be National Park northern Vietnam]
+![Traditional boat on Ba Be Lake in Ba Be National Park](/img/blog/photos/vietnam-national-parks-wildlife-2026.jpg)
 
 ## Cao Bang and waterfall country
 
@@ -176,7 +176,7 @@ Fog mornings soften exposures for photographers—carry lens cloths. Border zone
 
 **Common mistake:** Attempting Ban Gioc as a two-day Hanoi return without a driver swap—you spend more time in the car than at the falls.
 
-[Insert Image: Ban Gioc Waterfall on the Vietnam-China border in Cao Bang province - Alt: Ban Gioc Waterfall cascading over limestone cliffs in Cao Bang Vietnam]
+![Ban Gioc Waterfall on the Vietnam-China border in Cao Bang province](/img/blog/photos/hidden-gems-vietnam-2026.jpg)
 
 ## Sample quiet-north itineraries
 

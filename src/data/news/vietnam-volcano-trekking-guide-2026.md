@@ -1,7 +1,7 @@
 ---
 title: 'Vietnam Mountain Trekking 2026: Fansipan, Ha Giang Routes & Fitness Guide'
 date: '2026-01-26'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-volcano-trekking-guide-2026.jpg'
 imageAlt: 'Terraced rice fields below a mountain peak near Sapa, northern Vietnam'
 excerpt: 'Vietnam has no volcano treks—instead plan Fansipan summit routes, Ha Giang plateau hikes, and Ba Vi day treks with fitness tiers, packing lists, seasons, VND costs, and sample mountain itineraries for 2026.'
@@ -33,7 +33,7 @@ International travellers often search for **volcano trekking in Vietnam**—but 
 
 For **caving, bay kayaking, and multi-activity adventure weeks**, see [Vietnam adventure travel](/blog/vietnam-adventure-travel-2026). For **park permits and regional comparisons**, see [Vietnam national parks](/blog/vietnam-national-parks-wildlife-2026).
 
-[Insert Image: Cloud forest trail ascending toward Fansipan peak near Sapa Vietnam - Alt: Mountain trekking trail through cloud forest toward Fansipan peak Sapa Vietnam]
+![Mountain trekking trail through cloud forest toward Fansipan peak near Sapa](/img/blog/photos/vietnam-volcano-trekking-guide-2026.jpg)
 
 ## Quick answer: Vietnam mountain trekking at a glance
 
@@ -106,7 +106,7 @@ Shorter visits use **Fansipan Legend cable car** or mountain railway segments pl
 
 Pack a **waterproof shell**, **gloves in winter**, and **trekking poles** for gravel descents—poles are not optional for multi-day knee protection.
 
-[Insert Image: Fansipan summit statue above cloud sea Sapa Vietnam - Alt: Fansipan summit viewpoint above clouds Sapa mountain trekking Vietnam]
+![Fansipan summit viewpoint above clouds on Sapa mountain trek](/img/blog/photos/vietnam-volcano-trekking-guide-2026.jpg)
 
 ## Ha Giang Loop: plateau drama (trekking vs riding)
 
@@ -165,7 +165,7 @@ Choose **Bach Ma** when your itinerary is **central coast**, not when you are Ha
 
 **Hydration bladders** survive bouncing saddlebags better than rigid bottles on dusty Ha Giang roads.
 
-[Insert Infographic: Vietnam mountain trekking packing checklist by route - Alt: Packing checklist infographic for Fansipan Ha Giang and Ba Vi trekking Vietnam]
+![Packing checklist for Fansipan, Ha Giang, and Ba Vi trekking in Vietnam](/img/blog/vietnam-mountains.svg)
 
 ## Homestays and mountain towns
 

@@ -38,11 +38,11 @@ export default function PrivacyPolicyPage() {
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-brand-ink mb-4">1. Introduction</h2>
                   <p className="text-brand-ink mb-4">
-                    Vietnam Official eVisa Immigration Assistance Service (referred to as "we,"
+                    Vietnam eVisa Assistance Team (referred to as "we,"
                     "us," or "our") is dedicated to safeguarding your privacy and maintaining the
                     security of your personal data. This Privacy Policy outlines how we gather,
                     utilize, share, and protect your data when you access our website at
-                    vietnamemigration.com and utilize our Vietnam Official eVisa Immigration
+                    vietnamemigration.com and utilize our Vietnam eVisa Assistance Team
                     Assistance Service.
                   </p>
                   <p className="text-brand-ink">
@@ -455,7 +455,7 @@ export default function PrivacyPolicyPage() {
                           </a>
                         </p>
                         <p className="text-brand-ink text-sm">
-                          Address: Vietnam Official eVisa Immigration Assistance Service
+                          Address: Vietnam eVisa Assistance Team
                           <br />
                           1308 E Colorado Blvd #2244, Pasadena, CA 91106
                         </p>

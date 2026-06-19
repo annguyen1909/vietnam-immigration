@@ -2,7 +2,7 @@
 title: 'Top 10 Historical Places in Vietnam (2026 Planning Guide)'
 slug: top-10-historical-places-vietnam
 date: '2026-01-19'
-author: 'Vietnam Official eVisa Immigration Assistance Service'
+author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/top-10-historical-places-vietnam.jpg'
 imageAlt: 'Meridian Gate of the Imperial City in Hue Vietnam with moat and stone ramparts at sunrise'
 excerpt: 'Hue Citadel, Hoi An, My Son, Hanoi Old Quarter, Cu Chi, Con Dao, and more—2026 tickets in VND, best seasons, sample itineraries, common mistakes, and eVisa planning for history-first trips.'
@@ -33,7 +33,7 @@ This **2026 historical Vietnam travel guide** ranks the **ten sites worth priori
 
 **We are a private visa assistance service—not the Government of Vietnam.** [Check eVisa requirements](/check-requirement) for your nationality and [apply online](/apply) before you lock non-refundable flights—processing is often within a few working days but varies by volume.
 
-[Insert Image: Aerial view of Hue Imperial City moat and Meridian Gate at golden hour - Alt: Hue Imperial City Citadel moat and Ngo Mon Meridian Gate in central Vietnam]
+![Hue Imperial City Citadel moat and Ngo Mon Meridian Gate in central Vietnam](/img/blog/photos/top-10-historical-places-vietnam.jpg)
 
 ## Quick answer: top historical places in Vietnam at a glance
 
@@ -74,7 +74,7 @@ Not every site rewards every traveller. Use this decision filter:
 
 **One-week rule:** Choose **north + central OR central + south**—not all three unless you accept transit-heavy days.
 
-[Insert Infographic: Vietnam historical sites route map north to south with suggested days per stop - Alt: Map of top historical places in Vietnam from Hanoi Hue Hoi An to Ho Chi Minh City]
+![Map of top historical places in Vietnam from Hanoi and Hue to Hoi An and Ho Chi Minh City](/img/blog/vietnam-history.svg)
 
 ## 1. Hue Imperial City and royal tombs
 
@@ -137,7 +137,7 @@ Guides explain **Shiva worship**, brick firing without mortar, and restoration a
 
 **Season note:** Central **September–November** storms can close sites—pad buffer days. See [best islands and central coast planning](/blog/best-islands-vietnam-beyond-hanoi-2026) for overlapping weather logic.
 
-[Insert Image: Cham brick temple towers at My Son Sanctuary in morning mist - Alt: Ancient Cham Hindu temple ruins at My Son Sanctuary near Hoi An Vietnam]
+![Ancient Cham Hindu temple ruins at My Son Sanctuary near Hoi An](/img/blog/photos/top-10-historical-places-vietnam.jpg)
 
 ## 4. Hanoi Old Quarter and Hoan Kiem Lake
 
@@ -287,7 +287,7 @@ Historical sites are domestic destinations once you enter Vietnam legally. Your 
 
 **Private assistance note:** We help travellers avoid application errors—we are not the government. Final approval rests with immigration authorities.
 
-[Insert Image: Tourist walking through Hoi An ancient town yellow shophouses at lantern dusk - Alt: Historical yellow shophouses and lanterns in Hoi An Ancient Town Vietnam]
+![Historical yellow shophouses and lanterns in Hoi An Ancient Town](/img/blog/photos/top-10-historical-places-vietnam.jpg)
 
 ## Frequently asked questions
 

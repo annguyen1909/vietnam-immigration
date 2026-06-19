@@ -6,12 +6,15 @@ export const SUPPORT_EMAIL = 'visa@vietnamemigration.com';
 /** Resend "from" for traveler-facing mail (payment, password reset, etc.). */
 export const SUPPORT_FROM = `Vietnam eVisa Support <${SUPPORT_EMAIL}>`;
 
+/** Default blog byline and legal entity display name (private service—not a government agency). */
+export const BLOG_AUTHOR_NAME = 'Vietnam eVisa Assistance Team';
+
 /**
  * E-E-A-T placeholders — replace with verified legal entity details before launch.
  * Used by OrganizationSchema / LocalBusiness trust signals.
  */
 export const TRUST_ENTITY = {
-  legalName: 'Vietnam Official eVisa Immigration Assistance Service',
+  legalName: BLOG_AUTHOR_NAME,
   /** Display name on schema */
   name: SITE_NAME,
   description:
