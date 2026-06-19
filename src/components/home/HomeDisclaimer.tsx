@@ -21,8 +21,8 @@ export default function HomeDisclaimer() {
               <div className="mt-4 space-y-4 text-sm text-brand-muted leading-relaxed">
                 <p>
                   <strong className="text-brand-ink">vietnamemigration.com</strong> is operated by
-                  Vietnam eVisa Assistance Team, a private company providing
-                  visa application preparation and support. We are{' '}
+                  Vietnam eVisa Assistance Team, a private company providing visa application
+                  preparation and support. We are{' '}
                   <strong className="text-brand-ink">not affiliated with</strong> the Government of
                   Vietnam or any official immigration authority.
                 </p>

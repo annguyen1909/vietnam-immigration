@@ -74,8 +74,8 @@ export default function SiteFooter() {
 
         <div className="mt-10 flex flex-col gap-4 border-t border-white/15 pt-8 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-white/60">
-            © {new Date().getFullYear()} Vietnam eVisa Assistance Team.
-            Private service — not affiliated with the Government of Vietnam.
+            © {new Date().getFullYear()} Vietnam eVisa Assistance Team. Private service — not
+            affiliated with the Government of Vietnam.
           </p>
           <div className="flex flex-wrap gap-4 text-xs text-white/60">
             <Link href="/about" className="hover:text-white">

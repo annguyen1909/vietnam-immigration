@@ -40,15 +40,13 @@ export default function TermsPage() {
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-brand-ink mb-4">
                     Terms of Service Agreement for Vietnam eVisa Assistance Team
-                    Service
                   </h2>
                   <p className="text-brand-ink mb-4">
                     This Terms of Service Agreement (referred to as "Agreement") establishes a
-                    contractual relationship between Vietnam eVisa Assistance Team
-                    Service (referred to as "we," "us," or "our") and you, the user. This Agreement
-                    becomes effective upon your electronic acceptance and outlines the terms and
-                    conditions governing your use of our Vietnam eVisa Assistance Team
-                    Assistance Service (referred to as "Services").
+                    contractual relationship between Vietnam eVisa Assistance Team (referred to as
+                    "we," "us," or "our") and you, the user. This Agreement becomes effective upon
+                    your electronic acceptance and outlines the terms and conditions governing your
+                    use of our Vietnam eVisa assistance services (referred to as "Services").
                   </p>
                   <p className="text-brand-ink">
                     By electronically accepting this Agreement, you confirm that you have read,
@@ -396,9 +394,8 @@ export default function TermsPage() {
                   </h2>
                   <p className="text-brand-ink mb-4">
                     All materials displayed on our website, such as text, graphics, logos, images,
-                    and software, are owned by Vietnam eVisa Assistance Team
-                    and safeguarded under copyright, trademark, and additional intellectual property
-                    legislation.
+                    and software, are owned by Vietnam eVisa Assistance Team and safeguarded under
+                    copyright, trademark, and additional intellectual property legislation.
                   </p>
                   <p className="text-brand-ink">
                     Reproduction, distribution, modification, or creation of derivative works from

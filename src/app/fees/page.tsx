@@ -291,9 +291,7 @@ export default function FeesPage() {
               <div className="inline-flex items-center justify-center w-20 h-20 bg-brand-primary rounded-full mb-4 border-4 border-white shadow-lg">
                 <CalculatorIcon className="w-10 h-10 text-white" />
               </div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
-                Fee calculator
-              </h2>
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Fee calculator</h2>
               <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
               <p className="text-gray-600 max-w-2xl mx-auto">
                 Estimate government + service fees. Select visa type and passengers (up to 15).
@@ -438,8 +436,8 @@ export default function FeesPage() {
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
                 <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
-                Vietnam eVisa Assistance Team, a private company providing
-                professional visa application preparation and support services. We are{' '}
+                Vietnam eVisa Assistance Team, a private company providing professional visa
+                application preparation and support services. We are{' '}
                 <strong>not affiliated with</strong> the Government of Vietnam or any official
                 immigration authority.
               </p>

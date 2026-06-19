@@ -215,12 +215,12 @@ export default function LegalPage() {
                   <p className="mb-4 text-gray-800">
                     This Universal Terms of Service Agreement (referred to as "Agreement")
                     establishes a contractual relationship between Vietnam eVisa Assistance Team
-                    ("we," "us," or "our") and you, the user, and becomes effective upon
-                    your use of this website ("Site") or upon your electronic acceptance. This
-                    Agreement outlines the general terms and conditions governing your utilization
-                    of the Site and the products and services acquired or accessed via this Site
-                    (individually and collectively, the "Services"), and supplements (rather than
-                    replaces) any specific terms and conditions applicable to particular Services.
+                    ("we," "us," or "our") and you, the user, and becomes effective upon your use of
+                    this website ("Site") or upon your electronic acceptance. This Agreement
+                    outlines the general terms and conditions governing your utilization of the Site
+                    and the products and services acquired or accessed via this Site (individually
+                    and collectively, the "Services"), and supplements (rather than replaces) any
+                    specific terms and conditions applicable to particular Services.
                   </p>
                   <p className="mb-4 text-gray-800">
                     Regardless of whether you are merely browsing, using this Site, or purchasing
@@ -237,19 +237,19 @@ export default function LegalPage() {
                     <li>Refund Policy</li>
                   </ul>
                   <p className="mb-4 text-gray-800">
-                    The terminology "we", "us" or "our" refers to Vietnam eVisa Assistance Team. The terminology "you", "your", "User" or "customer" refers
-                    to any person or organization that accepts this Agreement, possesses access to
-                    your account or utilizes the Services. No provision in this Agreement shall be
-                    interpreted as granting any third-party entitlements or advantages.
+                    The terminology "we", "us" or "our" refers to Vietnam eVisa Assistance Team. The
+                    terminology "you", "your", "User" or "customer" refers to any person or
+                    organization that accepts this Agreement, possesses access to your account or
+                    utilizes the Services. No provision in this Agreement shall be interpreted as
+                    granting any third-party entitlements or advantages.
                   </p>
                   <p className="mb-4 text-gray-800">
-                    Vietnam eVisa Assistance Team reserves the right, in its
-                    exclusive and absolute judgment, to alter or amend this Agreement, along with
-                    any policies or agreements incorporated within, at any time, and such
-                    alterations or amendments become effective immediately when published on this
-                    Site. Your continued use of this Site or the Services following such alterations
-                    or amendments constitutes your acceptance of this Agreement as most recently
-                    revised.
+                    Vietnam eVisa Assistance Team reserves the right, in its exclusive and absolute
+                    judgment, to alter or amend this Agreement, along with any policies or
+                    agreements incorporated within, at any time, and such alterations or amendments
+                    become effective immediately when published on this Site. Your continued use of
+                    this Site or the Services following such alterations or amendments constitutes
+                    your acceptance of this Agreement as most recently revised.
                   </p>
                 </div>
               </section>
@@ -301,9 +301,10 @@ export default function LegalPage() {
                   <h3 className="text-xl font-semibold mb-4 text-gray-900">Accounts</h3>
                   <p className="mb-4 text-gray-800">
                     To utilize certain features of this Site or access specific Services, you must
-                    establish an Account. You declare and guarantee to Vietnam eVisa Assistance Team that all data you provide when establishing your
-                    Account is truthful, up-to-date and comprehensive, and that you will maintain
-                    your Account data truthful, up-to-date and comprehensive.
+                    establish an Account. You declare and guarantee to Vietnam eVisa Assistance Team
+                    that all data you provide when establishing your Account is truthful, up-to-date
+                    and comprehensive, and that you will maintain your Account data truthful,
+                    up-to-date and comprehensive.
                   </p>
                   <p className="mb-4 text-gray-800">
                     You bear exclusive responsibility for all activities that take place on your
@@ -394,8 +395,8 @@ export default function LegalPage() {
                           other individual or organization
                         </li>
                         <li>
-                          Includes misleading or fraudulent statements concerning Vietnam eVisa Assistance Team
-                          Vietnam eVisa Assistance Team or our Services
+                          Includes misleading or fraudulent statements concerning Vietnam eVisa
+                          Assistance Team or our Services
                         </li>
                         <li>Seeks to bypass governmental visa application systems or processes</li>
                       </ul>
@@ -419,15 +420,15 @@ export default function LegalPage() {
                 </h2>
                 <div className="prose prose-gray max-w-none">
                   <p className="mb-4 text-gray-800">
-                    Vietnam eVisa Assistance Team explicitly retains the
-                    entitlement to refuse, cancel, end, suspend, lock, or alter access to (or
-                    control over) any Account or Services for any purpose, including but not limited
-                    to the following circumstances:
+                    Vietnam eVisa Assistance Team explicitly retains the entitlement to refuse,
+                    cancel, end, suspend, lock, or alter access to (or control over) any Account or
+                    Services for any purpose, including but not limited to the following
+                    circumstances:
                   </p>
                   <ul className="list-disc pl-6 mb-4 space-y-2 text-gray-800">
                     <li>
-                      To rectify errors committed by Vietnam eVisa Assistance Team
-                      Service in providing or delivering any Services
+                      To rectify errors committed by Vietnam eVisa Assistance Team in providing or
+                      delivering any Services
                     </li>
                     <li>
                       To safeguard the reliability and consistency of our systems and business
@@ -447,17 +448,16 @@ export default function LegalPage() {
                       requirements
                     </li>
                     <li>
-                      To prevent any civil or criminal legal exposure on the part of Vietnam
-                      Vietnam eVisa Assistance Team
+                      To prevent any civil or criminal legal exposure on the part of Vietnam eVisa
+                      Assistance Team
                     </li>
                   </ul>
                   <p className="mb-4 text-gray-800">
-                    Vietnam eVisa Assistance Team explicitly retains the
-                    entitlement to discontinue, without providing notice to you, any and all
-                    Services where, in Vietnam eVisa Assistance Team's
-                    exclusive judgment, you are engaging in harassment or making threats against
-                    Vietnam eVisa Assistance Team and/or any of Vietnam
-                    Vietnam eVisa Assistance Team's staff members.
+                    Vietnam eVisa Assistance Team explicitly retains the entitlement to discontinue,
+                    without providing notice to you, any and all Services where, in Vietnam eVisa
+                    Assistance Team's exclusive judgment, you are engaging in harassment or making
+                    threats against Vietnam eVisa Assistance Team and/or any of Vietnam eVisa
+                    Assistance Team's staff members.
                   </p>
                 </div>
               </section>
@@ -470,21 +470,20 @@ export default function LegalPage() {
                 <div className="prose prose-gray max-w-none">
                   <p className="mb-4 text-gray-800">
                     This Site and the Services available at this Site may include links to external
-                    websites that are not owned or managed by Vietnam eVisa Assistance Team. Vietnam eVisa Assistance Team
-                    accepts no accountability for the materials, terms and conditions, privacy
-                    policies, or operational practices of any external websites.
+                    websites that are not owned or managed by Vietnam eVisa Assistance Team. Vietnam
+                    eVisa Assistance Team accepts no accountability for the materials, terms and
+                    conditions, privacy policies, or operational practices of any external websites.
                   </p>
                   <p className="mb-4 text-gray-800">
                     Through your use of this Site or the Services available at this Site, you
-                    explicitly absolve Vietnam eVisa Assistance Team from
-                    any and all legal responsibility resulting from your utilization of any external
-                    website.
+                    explicitly absolve Vietnam eVisa Assistance Team from any and all legal
+                    responsibility resulting from your utilization of any external website.
                   </p>
                   <p className="mb-4 text-gray-800">
-                    Therefore, Vietnam eVisa Assistance Team recommends that
-                    you remain vigilant when you exit this Site or the Services available at this
-                    Site and that you examine the terms and conditions, privacy policies, and other
-                    regulatory documents of each additional website that you may access.
+                    Therefore, Vietnam eVisa Assistance Team recommends that you remain vigilant
+                    when you exit this Site or the Services available at this Site and that you
+                    examine the terms and conditions, privacy policies, and other regulatory
+                    documents of each additional website that you may access.
                   </p>
                 </div>
               </section>
@@ -497,11 +496,10 @@ export default function LegalPage() {
                 <div className="prose prose-gray max-w-none">
                   <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6">
                     <p className="text-yellow-900 font-semibold">
-                      UNDER NO CIRCUMSTANCES SHALL Vietnam eVisa Assistance Team
-                      Service, ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, AND ALL THIRD PARTY
-                      SERVICE PROVIDERS, BE HELD ACCOUNTABLE TO YOU OR ANY OTHER INDIVIDUAL OR
-                      ENTITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR
-                      CONSEQUENTIAL LOSSES OF ANY KIND.
+                      UNDER NO CIRCUMSTANCES SHALL Vietnam eVisa Assistance Team, ITS OFFICERS,
+                      DIRECTORS, EMPLOYEES, AGENTS, AND ALL THIRD PARTY SERVICE PROVIDERS, BE HELD
+                      ACCOUNTABLE TO YOU OR ANY OTHER INDIVIDUAL OR ENTITY FOR ANY DIRECT, INDIRECT,
+                      INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL LOSSES OF ANY KIND.
                     </p>
                   </div>
                   <p className="mb-4 text-gray-800">
@@ -540,10 +538,9 @@ export default function LegalPage() {
                     permanently precluded.
                   </p>
                   <p className="mb-4 text-gray-800">
-                    <strong>Maximum Liability:</strong> Under no circumstances shall Vietnam
-                    Vietnam eVisa Assistance Team's cumulative total liability
-                    surpass the total sum paid by you for the specific Services that are the focus
-                    of the legal claim.
+                    <strong>Maximum Liability:</strong> Under no circumstances shall Vietnam eVisa
+                    Assistance Team's cumulative total liability surpass the total sum paid by you
+                    for the specific Services that are the focus of the legal claim.
                   </p>
                 </div>
               </section>
@@ -556,8 +553,8 @@ export default function LegalPage() {
                   <p className="mb-4 text-gray-800">
                     You consent to remit any and all charges and fees owed for Services acquired or
                     accessed at this Site at the moment you place your order for the Services.
-                    Vietnam eVisa Assistance Team explicitly retains the
-                    entitlement to alter or adjust its pricing and fees at any time.
+                    Vietnam eVisa Assistance Team explicitly retains the entitlement to alter or
+                    adjust its pricing and fees at any time.
                   </p>
 
                   <h3 className="text-xl font-semibold mb-4 mt-8 text-gray-900">Payment Methods</h3>
@@ -621,12 +618,12 @@ export default function LegalPage() {
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">10. INDEMNITY</h2>
                 <div className="prose prose-gray max-w-none">
                   <p className="mb-4 text-gray-800">
-                    You consent to safeguard, defend, indemnify and absolve Vietnam eVisa Assistance Team and its officers, directors, employees, agents,
-                    and third party service providers from and against any and all legal claims,
-                    demands, costs, expenses, losses, liabilities and harm of every type and
-                    category (including, without limitation, reasonable legal fees) imposed upon or
-                    sustained by Vietnam eVisa Assistance Team directly or
-                    indirectly resulting from:
+                    You consent to safeguard, defend, indemnify and absolve Vietnam eVisa Assistance
+                    Team and its officers, directors, employees, agents, and third party service
+                    providers from and against any and all legal claims, demands, costs, expenses,
+                    losses, liabilities and harm of every type and category (including, without
+                    limitation, reasonable legal fees) imposed upon or sustained by Vietnam eVisa
+                    Assistance Team directly or indirectly resulting from:
                   </p>
                   <ul className="list-disc pl-6 mb-4 space-y-2 text-gray-800">
                     <li>
@@ -714,10 +711,10 @@ export default function LegalPage() {
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">12. GOVERNMENT RELATIONS</h2>
                 <div className="prose prose-gray max-w-none">
                   <p className="mb-4 text-gray-800">
-                    Vietnam eVisa Assistance Team is a privately-owned
-                    business offering visa application support services. We have no affiliation
-                    with, endorsement from, or authorization to act on behalf of the Government of
-                    Vietnam or any governmental organization.
+                    Vietnam eVisa Assistance Team is a privately-owned business offering visa
+                    application support services. We have no affiliation with, endorsement from, or
+                    authorization to act on behalf of the Government of Vietnam or any governmental
+                    organization.
                   </p>
                   <p className="mb-4 text-gray-800">
                     <strong>Important Disclaimers:</strong>
@@ -750,8 +747,8 @@ export default function LegalPage() {
                   <p className="mb-4 text-gray-800">
                     This Agreement and your utilization of our Services are regulated by and
                     interpreted in compliance with the legal framework of the jurisdiction where
-                    Vietnam eVisa Assistance Team conducts business, without
-                    consideration of conflict of law doctrines.
+                    Vietnam eVisa Assistance Team conducts business, without consideration of
+                    conflict of law doctrines.
                   </p>
 
                   <h3 className="text-xl font-semibold mb-4 mt-8 text-gray-900">

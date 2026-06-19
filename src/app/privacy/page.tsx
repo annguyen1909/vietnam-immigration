@@ -38,12 +38,11 @@ export default function PrivacyPolicyPage() {
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-brand-ink mb-4">1. Introduction</h2>
                   <p className="text-brand-ink mb-4">
-                    Vietnam eVisa Assistance Team (referred to as "we,"
-                    "us," or "our") is dedicated to safeguarding your privacy and maintaining the
-                    security of your personal data. This Privacy Policy outlines how we gather,
-                    utilize, share, and protect your data when you access our website at
-                    vietnamemigration.com and utilize our Vietnam eVisa Assistance Team
-                    Assistance Service.
+                    Vietnam eVisa Assistance Team (referred to as "we," "us," or "our") is dedicated
+                    to safeguarding your privacy and maintaining the security of your personal data.
+                    This Privacy Policy outlines how we gather, utilize, share, and protect your
+                    data when you access our website at vietnamemigration.com and utilize our
+                    Vietnam eVisa assistance services.
                   </p>
                   <p className="text-brand-ink">
                     Through your use of our services, you authorize the gathering and utilization of

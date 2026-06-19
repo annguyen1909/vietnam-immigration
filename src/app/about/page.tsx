@@ -117,10 +117,10 @@ export default function AboutPage() {
             </h1>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              Vietnam eVisa Assistance Team provides professional visa
-              application preparation and support services. We facilitate the application process in
-              accordance with official Vietnamese immigration requirements, ensuring accuracy,
-              compliance, and efficient processing.
+              Vietnam eVisa Assistance Team provides professional visa application preparation and
+              support services. We facilitate the application process in accordance with official
+              Vietnamese immigration requirements, ensuring accuracy, compliance, and efficient
+              processing.
             </p>
           </div>
         </div>
@@ -418,8 +418,8 @@ export default function AboutPage() {
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
                 <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
-                Vietnam eVisa Assistance Team, a private company providing
-                professional visa application preparation and support services. We are{' '}
+                Vietnam eVisa Assistance Team, a private company providing professional visa
+                application preparation and support services. We are{' '}
                 <strong>not affiliated with</strong> the Government of Vietnam or any official
                 immigration authority.
               </p>

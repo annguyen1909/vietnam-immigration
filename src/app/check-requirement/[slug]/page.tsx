@@ -696,8 +696,8 @@ export default async function CountryRequirementPage({ params }: PageProps) {
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
                   <strong className="text-gray-900">vietnamemigration.com</strong> is operated by
-                  Vietnam eVisa Assistance Team, a private company providing
-                  professional visa application preparation and support services. We are{' '}
+                  Vietnam eVisa Assistance Team, a private company providing professional visa
+                  application preparation and support services. We are{' '}
                   <strong>not affiliated with</strong> the Government of Vietnam or any official
                   immigration authority.
                 </p>
