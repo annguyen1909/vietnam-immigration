@@ -80,13 +80,21 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
   },
   india: {
     eligibilityIntro:
-      'Indian passport holders are generally eligible for Vietnam eVisas for tourism and business, subject to current government lists. High application volumes mean accurate uploads and matching passport details are critical to avoid delays.',
+      'Indian passport holders are generally eligible for Vietnam eVisas for tourism and business, subject to current government lists. Direct and one-stop routes from Delhi, Mumbai, Bengaluru, and Hyderabad (via Vietjet, IndiGo, and regional hubs) make Vietnam a popular short-haul destination—apply at least 7–10 days before departure because Indian application volume is high and photo or name mismatches trigger extra review.',
     travelInsight:
-      'Indians connecting through Bangkok or Singapore should still hold a valid Vietnam eVisa before boarding the Vietnam-bound segment.',
+      'Indians connecting through Bangkok or Singapore must hold a valid Vietnam eVisa before boarding the Vietnam-bound segment—even on a single PNR. Enter your name exactly as printed on your passport MRZ, including middle names. Vietjet and IndiGo may ask to see a printed eVisa PDF at check-in.',
     faqs: [
       {
         q: 'What photo standards do Indian applicants need for Vietnam eVisa?',
-        a: 'Use a recent passport-style photo with plain background, no glasses glare, and full face visible. Rejections often come from cropped or filtered selfies.',
+        a: 'Use a recent passport-style photo with plain white background, no glasses glare, and full face visible. Rejections often come from cropped selfies, patterned backgrounds, or uploading the small photo printed inside the passport instead of a separate headshot. See our photo rejected troubleshooting guide if uploads fail.',
+      },
+      {
+        q: 'How long does Vietnam eVisa take for Indian passport holders?',
+        a: 'Normal tier targets within 5 business days after payment; weekends and Indian holiday peaks do not speed review. Urgent (3 days) and Super Urgent (1 day) tiers are available when your arrival date allows. High volume during December–January and Tet can add delay—apply early.',
+      },
+      {
+        q: 'Can Indians get a Vietnam eVisa for Phu Quoc or Da Nang?',
+        a: 'Yes—Indian tourists commonly fly to Da Nang (DAD), Nha Trang (CXR), and Phu Quoc (PQC) on package and direct routes. Your approved eVisa PDF must list an authorized entry port matching your first international landing in Vietnam.',
       },
     ],
   },

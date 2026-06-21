@@ -59,3 +59,6 @@ next-env.d.ts
 
 # Allow FAQ markdown files
 !src/data/faqs/*.md
+
+# Allow troubleshooting markdown files
+!src/data/troubleshooting/*.md

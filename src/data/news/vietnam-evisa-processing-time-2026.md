@@ -21,7 +21,7 @@ faq:
   - question: How long before my trip should I apply for a Vietnam eVisa?
     answer: Apply at least 7 to 14 days before departure when possible. Standard processing commonly takes up to five business days after payment, plus extra time if documents need correction or during Tet and peak seasons.
   - question: Do weekends and holidays affect Vietnam eVisa processing time?
-    answer: Yes. Portals may stay online, but human review slows on weekends and Vietnamese public holidays—especially Tet (Lunar New Year). Plan extra margin around peak periods.
+    answer: Yes. Portals may stay online, but human review slows on weekends and Vietnamese public holidays—especially Tet (Lunar New Year). Plan extra margin around peak periods. See our weekend processing troubleshooting guide for Friday-to-Monday flight scenarios.
   - question: Why is my Vietnam eVisa still processing after the stated timeframe?
     answer: Document quality issues, security screening, high volume, incomplete payment, or email typos can extend timelines. Contact support with your reference number before submitting a duplicate application.
   - question: Is Vietnam eVisa processing faster for some nationalities?
@@ -154,7 +154,7 @@ Search all inbox folders before assuming processing failed.
 
 ## Weekends, business days, and Vietnamese holidays
 
-"Five business days" means **working days**, not calendar days—including on the government side. A Friday evening submission may not enter active review until the next business week.
+"Five business days" means **working days**, not calendar days—including on the government side. A Friday evening submission may not enter active review until the next business week. For Friday-to-Monday flight scenarios, see our [weekend processing troubleshooting guide](/troubleshooting/weekend-processing).
 
 **Practical planning:**
 
