@@ -173,7 +173,7 @@ Many Unfulfilled records trace to mobile sessions:
 
 If you filed on mobile and see Unfulfilled, re-open on **stable Wi-Fi**, confirm uploads visible, and retry **one** payment from a desktop if possible.
 
-## Assisted service vs government portal wording
+## Assisted service vs official status wording
 
 Different interfaces use different labels. On some systems:
 

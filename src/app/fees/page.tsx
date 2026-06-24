@@ -235,8 +235,8 @@ export default function FeesPage() {
             </h2>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Official government fees for each Vietnam eVisa type. These are paid directly to the
-              Vietnam Immigration Department.
+              Official government fees for each Vietnam eVisa type. These mandatory charges are
+              collected as part of your application on this site.
             </p>
           </div>
 

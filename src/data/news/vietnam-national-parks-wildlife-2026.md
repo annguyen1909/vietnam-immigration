@@ -236,7 +236,7 @@ Book **HAN → SGN** open-jaw international flights or one-way domestic hops to 
 
 National parks do not have separate immigration. Your approved **Vietnam eVisa** governs entry at an **authorized port**—usually an international airport.
 
-**Official policy reminder:** Entry rules are set by Vietnamese immigration authorities. Verify requirements on government sources or our [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) before paying for flights.
+**Official policy reminder:** Entry rules are set by Vietnamese immigration authorities. Verify requirements via our [nationality checker](/check-requirement) or [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) before paying for flights.
 
 **Practical planning steps:**
 

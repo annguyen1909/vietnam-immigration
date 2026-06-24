@@ -249,7 +249,7 @@ Island travel costs more than mainland cities at the same tier—transport marku
 
 Islands do not have separate immigration. Your approved **Vietnam eVisa** (or other valid entry document) governs entry at an **authorized port**—usually an international airport such as **Noi Bai (HAN)**, **Tan Son Nhat (SGN)**, or **Da Nang (DAD)**.
 
-**Official policy reminder:** Entry rules are set by Vietnamese immigration authorities. Verify requirements for your nationality via our [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) or official government sources before paying for flights.
+**Official policy reminder:** Entry rules are set by Vietnamese immigration authorities. Verify requirements for your nationality via our [nationality checker](/check-requirement) or [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) before paying for flights.
 
 **Practical steps before booking boats:**
 

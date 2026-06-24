@@ -278,7 +278,7 @@ Withdraw dong on the **mainland** before remote hops—island ATMs exist but que
 
 Islands do not have separate immigration. Your approved **Vietnam eVisa** (or other valid entry document) governs entry at an **authorized port**—usually an international airport such as **Noi Bai (HAN)**, **Tan Son Nhat (SGN)**, or **Da Nang (DAD)**.
 
-**Official policy reminder:** Entry rules are set by Vietnamese immigration authorities. Always verify requirements for your nationality on government sources or our [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) before paying for flights.
+**Official policy reminder:** Entry rules are set by Vietnamese immigration authorities. Always verify requirements for your nationality via our [nationality checker](/check-requirement) or [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) before paying for flights.
 
 **Practical planning steps:**
 

@@ -50,7 +50,7 @@ A **rejected Vietnam eVisa** is stressful when your departure date is close. Ref
 
 ## How Vietnam eVisa review works (and why refusals feel vague)
 
-After you pay, your application enters an immigration review queue managed by [Vietnamese immigration authorities](https://immigration.gov.vn/). Early stages often use **automated document checks**—file format, image clarity, MRZ readability, and basic field validation. Cases that pass automation may receive human review. Security and eligibility databases can flag applications regardless of how clean your uploads look.
+After you pay, your application enters an immigration review queue managed by Vietnamese immigration authorities. Early stages often use **automated document checks**—file format, image clarity, MRZ readability, and basic field validation. Cases that pass automation may receive human review. Security and eligibility databases can flag applications regardless of how clean your uploads look.
 
 Refusal emails frequently use **generic language** without specifying whether the photo, passport number, or eligibility screen failed. That is official process—not necessarily a sign your case is hopeless. Your job is to diagnose which rejection category fits, fix it, and reapply with corrected data.
 
@@ -242,11 +242,6 @@ Assisted reapplication at [/apply](/apply) tends to help when:
 
 Assistance improves application quality—it does not guarantee approval.
 
-
-## Official references
-
-- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal and e-visa review authority
-- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official pre-arrival application channel
 
 ## Frequently asked questions
 

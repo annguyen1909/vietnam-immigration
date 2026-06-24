@@ -50,7 +50,7 @@ This guide is written for travelers who want to **apply for Vietnam visa online*
 
 Most foreign travelers need either a visa, eVisa, visa exemption, residence document, or another valid entry authorization before boarding a flight or crossing into Vietnam. The **Vietnam tourist visa valid for 90 days** is the most practical option for many travelers who are not covered by a short visa exemption or who need a longer stay.
 
-Under Vietnam's current e-visa framework, citizens of [all countries and territories](https://evisa.gov.vn/) may apply for tourism or short business visits, with stays of up to **90 days** on single- or multiple-entry products ([Vietnam Immigration Department](https://immigration.gov.vn/)). Because exemptions and passport rules can change, treat older forum posts and screenshots as background only.
+Under Vietnam's current e-visa framework, citizens of all countries and territories may apply for tourism or short business visits, with stays of up to **90 days** on single- or multiple-entry products. Because exemptions and passport rules can change, treat older forum posts and screenshots as background only.
 
 Before you book non-refundable flights, verify your [Vietnam eVisa eligibility by country](/check-requirement). This is especially important if you have dual nationality, a temporary passport, a refugee travel document, a passport close to expiry, or an itinerary that includes a land border or cruise port.
 
@@ -132,7 +132,7 @@ Travelers who want guided review can [apply for a Vietnam visa online with assis
 
 ## Vietnam Visa Port of Entry Rules in 2026
 
-Your **Vietnam visa port of entry** matters on the **approved eVisa PDF**, not as a field on our apply form. [Vietnamese immigration rules](https://immigration.gov.vn/) require you to arrive at an authorized airport, seaport, or land border that matches what is printed on your approval. Major airports such as [Noi Bai in Hanoi](https://vietnam.travel/things-to-do/hanoi), [Tan Son Nhat in Ho Chi Minh City](https://vietnam.travel/things-to-do/ho-chi-minh-city), and [Da Nang](https://vietnam.travel/things-to-do/da-nang) are common international gateways, but land and sea arrivals require extra care.
+Your **Vietnam visa port of entry** matters on the **approved eVisa PDF**, not as a field on our apply form. Vietnamese immigration rules require you to arrive at an authorized airport, seaport, or land border that matches what is printed on your approval. Major airports such as [Noi Bai in Hanoi](https://vietnam.travel/things-to-do/hanoi), [Tan Son Nhat in Ho Chi Minh City](https://vietnam.travel/things-to-do/ho-chi-minh-city), and [Da Nang](https://vietnam.travel/things-to-do/da-nang) are common international gateways, but land and sea arrivals require extra care.
 
 If your ticket lands in Ho Chi Minh City but the approval lists Hanoi, or if your cruise docks at a port not covered by your visa, you may face check-in problems or entry refusal. Airlines and border officers rely on the approved visa data, not on verbal explanations.
 
@@ -226,12 +226,6 @@ Use this final checklist before payment:
 
 When everything is ready, you can [apply for your Vietnam eVisa online with guided assistance](/apply).
 
-## Official references
-
-- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal and e-visa services
-- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official pre-arrival e-visa channel (also at [thithucdientu.gov.vn](https://thithucdientu.gov.vn/))
-- [Vietnam National Administration of Tourism](https://vietnam.travel/) — destination and regional travel context for planning arrival cities
-
 ## Frequently Asked Questions About Vietnam eVisa Requirements 2026
 
 ### What are the Vietnam eVisa Requirements 2026?
@@ -278,7 +272,7 @@ This guide is maintained by the **Vietnam eVisa Assistance Team**—a private ap
 
 **What we check when updating**
 
-- Eligibility and exemption rules against our live [nationality checker](/check-requirement) and publications from the [Vietnam Immigration Department](https://immigration.gov.vn/)
+- Eligibility and exemption rules against our live [nationality checker](/check-requirement)
 - Entry-port and 90-day stay wording against immigration announcements (not forum screenshots)
 - Fee paragraphs against our live [fees page](/fees) and checkout at [/apply](/apply)
 

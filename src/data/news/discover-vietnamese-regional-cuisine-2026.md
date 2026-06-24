@@ -214,7 +214,7 @@ Pair this route with [top historical places in Vietnam](/blog/top-10-historical-
 
 Culinary travel is still standard tourism for immigration purposes. Your approved **Vietnam eVisa** (or other valid entry document) covers all domestic food destinations once you have entered the country.
 
-**Official policy reminder:** Entry rules are set by Vietnamese immigration authorities. Requirements vary by nationality—always verify on government sources or a current [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) before paying for non-refundable trips.
+**Official policy reminder:** Entry rules are set by Vietnamese immigration authorities. Requirements vary by nationality—always verify via our [nationality checker](/check-requirement) or a current [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) before paying for non-refundable trips.
 
 **Practical steps:**
 

@@ -2,7 +2,7 @@
 title: 'Vietnam eVisa for Children & Families (2026): Complete Group Application Guide'
 slug: vietnam-evisa-for-minors-families-2026
 date: '2026-03-07'
-dateModified: '2026-06-15'
+dateModified: '2026-06-24'
 author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg'
 imageAlt: 'Families with children waiting at a Vietnam international airport boarding gate'
@@ -32,7 +32,7 @@ faq:
     answer: A parent or legal guardian can complete the online form for a minor using the child's passport data. Carry guardianship or consent documents at the airport if you are not the parent.
 ---
 
-Family trips to Vietnam should start with one question: **does every traveler—including babies—need their own eVisa?** In nearly all cases where a child has their own passport, the answer is **yes**. Holidays fail at check-in when parents assume children are covered by an adult's approval, when one child's blurry photo holds up the whole group, or when each family member's PDF lists a different entry port. This 2026 guide covers minors, guardians, group applications, fees, processing, immigration documents, and airport preparation so your entire family boards and enters together.
+Families **travelling to Vietnam** or **visiting Vietnam** with children should start with one question: **does every traveler—including babies—need their own eVisa?** In nearly all cases where a child has their own passport, the answer is **yes**. Holidays fail at check-in when parents assume children are covered by an adult's approval, when one child's blurry **passport photos** hold up the whole group, or when each family member's PDF lists a different entry port. This 2026 guide covers minors, guardians, group **visa applications**, fees, **processing times**, immigration documents, and airport preparation so your entire family boards and enters together.
 
 **We are a private visa assistance service—not the Government of Vietnam.** We help families prepare complete applications with disclosed fees; we do not issue visas or override immigration decisions.
 
@@ -53,11 +53,13 @@ Family trips to Vietnam should start with one question: **does every traveler—
 
 **Best for:** Parents, multi-generational trips, school holiday travel, and groups landing at the same Vietnamese airport or border crossing.
 
-**Visa planning note:** This guide covers **entry authorization only**. For itinerary ideas with children, see [family-friendly Vietnam travel tips](/blog/family-friendly-vietnam-2026)—but resolve every passport's eVisa first.
+**Visa planning note:** This guide covers **entry authorization only**. Once every eVisa is approved, families can enjoy **street food** tours and **cooking classes** in cities like Hanoi and **Ho Chi Minh City**—see [family-friendly Vietnam travel tips](/blog/family-friendly-vietnam-2026) for itinerary ideas, but resolve every passport's eVisa first.
 
 ## Does my child need a separate Vietnam eVisa?
 
-If your child has their **own passport**, they typically need their **own eVisa**—including infants and lap children on airline tickets. Immigration authorization is tied to passport numbers, not airline seating ([Vietnam Immigration Department](https://immigration.gov.vn/)).
+If your child has their **own passport**, they typically need their **own eVisa**—including infants and lap children on airline tickets. Immigration authorization is tied to passport numbers, not airline seating.
+
+**US passport book vs passport card:** Vietnam eVisa filing requires a **passport book** (the booklet with a bio page and MRZ). A **passport card** alone is not accepted for international air travel to Vietnam—children need a full passport book before you **apply for a visa**.
 
 **Common false assumptions:**
 
@@ -79,7 +81,7 @@ Some families skip applications because **one parent** qualifies for visa-free e
 | Situation | Typical planning outcome |
 | --- | --- |
 | **Whole family on exempt passports, short stay** | eVisa may not be required—confirm exemption days and entry type |
-| **Mixed nationalities in one family** | Exempt parent may enter freely; non-exempt child still needs authorization |
+| **Mixed nationalities in one family** | Exempt parent may enter freely; non-exempt child still needs authorization—common when one parent holds a **Hong Kong** or UK passport and another does not |
 | **Stay longer than exemption allows** | Each traveler who will exceed exemption needs an eVisa |
 | **Side trip to Cambodia/Thailand then return** | Multiple-entry eVisa usually required even if first entry was exempt |
 | **UK, EU, or other partial exemptions** | Exemption length and conditions change—verify live before departure |
@@ -105,7 +107,7 @@ Assisted family filing tends to help when you are managing **three or more passp
 
 ## One application, multiple passengers: how group filing works
 
-Our [/apply](/apply) flow supports **group submissions of up to 15 travelers** in one payment session. That simplifies family logistics without changing the official rule that **each passenger is a separate immigration record**.
+Our [/apply](/apply) flow supports **group submissions of up to 15 travelers** in one payment session—one of the simplest ways to **apply for a visa** for every family member at once. That simplifies family logistics without changing the official rule that **each passenger is a separate immigration record**.
 
 **Benefits of group filing:**
 
@@ -134,14 +136,14 @@ Gather a folder per child before you open the form. Stopping mid-application to 
 | Document | Notes |
 | --- | --- |
 | **Passport bio scan** | Full colour page, flat, all corners visible, no fingers on edges |
-| **Portrait photo** | Plain background, eyes open; avoid pacifiers blocking the face when possible |
+| **Passport photos** | Plain background, eyes open; avoid pacifiers blocking the face when possible |
 | **Guardian / parent names** | Match passports of traveling adults |
 | **Travel dates** | Align with adults—mixed arrival dates confuse airlines |
 | **Passport validity** | Six months beyond arrival; blank page for stamp |
 
 ### Infant and toddler photo tips
 
-Baby passport photos are harder than adult shots—but the technical rules match [Vietnam eVisa photo requirements](/blog/vietnam-evisa-photo-requirements-2026):
+Baby **passport photos** are harder than adult shots—but the technical rules match [Vietnam eVisa photo requirements](/blog/vietnam-evisa-photo-requirements-2026):
 
 - Lay the infant on a **white sheet** in even natural light
 - Shoot from above with face clearly visible
@@ -159,7 +161,7 @@ If the passport was issued days before travel:
 
 ### Passports expiring within six months
 
-Renew before applying. A family cannot board if one child's passport fails airline validity checks—even when parents hold approved eVisas. Build renewal time into your [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026) calendar.
+Renew before applying—allow time to **apply for a passport** for any child whose booklet expires within six months of arrival. A family cannot board if one child's passport fails airline validity checks—even when parents hold approved eVisas. Build renewal and **processing times** into your [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026) calendar.
 
 ## Guardianship, consent, and airline requirements
 
@@ -186,14 +188,14 @@ All family members should share:
 - The **same visa category** (tourism vs business) unless a specific passport nationality limits options
 - The **same entry type** (single vs multiple) when traveling together on one itinerary
 
-**Failure pattern:** Parents receive PDFs listing **Da Nang** while a child's PDF lists **Hanoi** because applications were filed on different days with inconsistent data. Immigration may process the family at different speeds—or flag the mismatch.
+**Failure pattern:** Parents receive PDFs listing **Da Nang** while a child's PDF lists **Hanoi** because applications were filed on different days with inconsistent data. Families flying into **Ho Chi Minh City** (Tan Son Nhat) or heading north to **Ha Long Bay** after landing must still match the port printed on every PDF—not the city you visit first. Immigration may process the family at different speeds—or flag the mismatch.
 
 **Single vs multiple entry for families:**
 
 | Itinerary | Recommended entry type |
 | --- | --- |
 | One resort stay, no regional exits | Single entry ($55 govt fee) |
-| Thailand/Cambodia side trip then return to Vietnam | Multiple entry ($80 govt fee) |
+| Thailand/Cambodia side trip then return to Vietnam | **Multiple entries** ($80 govt fee) |
 | Cruise disembark/re-embark | Multiple entry—confirm with cruise operator |
 | Long stay with possible extension | Max 90-day product at filing; extensions are not guaranteed—see [Vietnam eVisa extension guide](/blog/vietnam-evisa-extension-guide-2026) |
 
@@ -224,7 +226,7 @@ Confirm live totals at [/fees](/fees) during group apply. Full breakdown: [Vietn
 
 ## Processing time for family groups
 
-Authorities review passengers **sequentially or in parallel** depending on volume. Family applications do not always approve in one batch email.
+**Processing times** for family groups follow the same authority review queue as solo travelers—passengers are reviewed **sequentially or in parallel** depending on volume. Family **visa applications** do not always approve in one batch email.
 
 **What slows family groups:**
 
@@ -289,7 +291,7 @@ The application must match the **current passport bio page** exactly. If adoptio
 
 ### Teenagers traveling with one parent
 
-Same consent rules as younger children for many airlines. The teenager still needs their own eVisa on their own passport.
+Same consent rules as younger children for many airlines—especially for travelers under **age 16** on some carriers. The teenager still needs their own eVisa on their own passport.
 
 ### Multi-generational trips (grandparents + parents + kids)
 
@@ -334,7 +336,7 @@ At check-in, airlines may verify **each child** even when parents hold valid PDF
 
 | When | Action |
 | --- | --- |
-| **4–6 weeks before trip** | Confirm all passports valid 6+ months; renew any expiring soon |
+| **4–6 weeks before trip** | Confirm all passports valid 6+ months; **apply for a passport** for any child who needs renewal |
 | **2–3 weeks before** | Take child photos; scan bio pages; decide single vs multiple entry |
 | **14+ days before** | Submit group application on [/apply](/apply) |
 | **After approval** | Verify all PDFs match tickets; print copies |
@@ -352,11 +354,7 @@ Assisted group filing tends to help when:
 
 You remain responsible for accurate data per child; assistance helps submit a complete package.
 
-
-## Official references
-
-- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal and entry rules
-- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official pre-arrival e-visa channel
+**Unusual cases:** If a child's nationality, custody status, or travel document does not fit standard eVisa rules, a Vietnamese **embassy or consulate** may be the right channel—but most families with ordinary passport books complete pre-arrival filing online without an in-person appointment.
 
 ## Related guides
 

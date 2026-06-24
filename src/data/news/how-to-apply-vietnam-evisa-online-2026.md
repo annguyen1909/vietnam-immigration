@@ -71,7 +71,7 @@ If you are unsure whether you need a visa at all, start with [Vietnam visa eligi
 
 ## Who can apply for a Vietnam eVisa online?
 
-Under Vietnam's current e-visa policy, citizens of **all countries and territories** may apply for an electronic visa for tourism or short business visits, subject to passport validity and accurate application data ([Vietnam Electronic Visa portal](https://evisa.gov.vn/)). That broad eligibility is why "apply for Vietnam eVisa online" is a practical default for many international travelers.
+Under Vietnam's current e-visa policy, citizens of **all countries and territories** may apply for an electronic visa for tourism or short business visits, subject to passport validity and accurate application data . That broad eligibility is why "apply for Vietnam eVisa online" is a practical default for many international travelers.
 
 Exceptions and planning edge cases still matter:
 
@@ -305,11 +305,6 @@ Maintained by the **Vietnam eVisa Assistance Team** (private service—not the G
 Contact support with your reference number before a bank chargeback. See [refund policy](/refund-policy) for how government and service fees are treated after a refusal.
 
 
-## Official references
-
-- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal and e-visa services
-- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official government e-visa channel (also at [thithucdientu.gov.vn](https://thithucdientu.gov.vn/))
-
 ## Related guides
 
 - [Vietnam eVisa requirements 2026](/blog/vietnam-evisa-requirements-guide-2026)
@@ -346,7 +341,7 @@ Apply **at least 7–14 days** before departure when possible. Do not book non-r
 
 ### Can I enter Vietnam at any airport with an eVisa?
 
-No. You must arrive at the **port of entry printed on your approval PDF**—immigration rules tie entry to the authorized port on your issued document ([Vietnam Immigration Department](https://immigration.gov.vn/)). Major hubs include Tan Son Nhat (SGN), Noi Bai (HAN), and Da Nang (DAD)—but your specific approval governs, not a general list. See [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026).
+No. You must arrive at the **port of entry printed on your approval PDF**—immigration rules tie entry to the authorized port on your issued document. Major hubs include Tan Son Nhat (SGN), Noi Bai (HAN), and Da Nang (DAD)—but your specific approval governs, not a general list. See [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026).
 
 ### What documents do I need to apply online?
 

@@ -28,7 +28,7 @@ faq:
     answer: The passport used in the application, a printed eVisa approval PDF, and optionally onward ticket and accommodation details. Business travelers may be asked about meetings matching their visa purpose.
 ---
 
-Your **Vietnam eVisa** is not a generic "enter anywhere" pass. It is tied to the **port of entry printed on your government approval PDF**—the specific airport, land border gate, or seaport where you first arrive in Vietnam ([Vietnam Immigration Department](https://immigration.gov.vn/)). Landing at a different location than the one listed can cause **denied boarding, refused entry, or a ruined first day of vacation**—even when the email in your inbox looks valid.
+Your **Vietnam eVisa** is not a generic "enter anywhere" pass. It is tied to the **port of entry printed on your government approval PDF**—the specific airport, land border gate, or seaport where you first arrive in Vietnam. Landing at a different location than the one listed can cause **denied boarding, refused entry, or a ruined first day of vacation**—even when the email in your inbox looks valid.
 
 This 2026 guide explains how entry ports work on assisted applications, which international airports and land crossings travelers use most, what cruise passengers should verify, and how to align your tickets with your approval before you pack.
 
@@ -131,7 +131,7 @@ Check-in agents follow airline policy and immigration guidance—they are not em
 
 Overland travel is popular on Southeast Asia backpacking routes. eVisa land entry is possible at **designated border gates**—but only when that gate appears on your approval PDF.
 
-> **Planning note:** Gate names in the tables below are **route examples** for popular overland trips—not a live official register. Only your **approval PDF** and current [Vietnam Immigration Department](https://immigration.gov.vn/) publications govern which crossing you may use. Re-check before buying bus tickets or committing to motorbike loops.
+> **Planning note:** Gate names in the tables below are **route examples** for popular overland trips—not a live official register. Only your **approval PDF** and current immigration rules govern which crossing you may use. Re-check before buying bus tickets or committing to motorbike loops.
 
 ### Cambodia → Vietnam
 
@@ -263,12 +263,6 @@ Entry port verification is the **last step** before travel—not the first. Reco
 
 Apply **7–14+ days** before departure when possible. Last-minute applications compress the window to fix port mismatches.
 
-
-## Official references
-
-- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal and authorized entry-point rules
-- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official pre-arrival e-visa channel
-- [Vietnam National Administration of Tourism](https://vietnam.travel/) — regional destination guides for matching arrival cities to your itinerary
 
 ## Related guides
 

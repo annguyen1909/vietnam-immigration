@@ -39,7 +39,7 @@ Most foreign nationals require a visa to enter Vietnam. The eVisa is available f
 ## Eligibility by Nationality
 
 - **eVisa Eligible:** Most countries in Europe, Asia, the Americas, Africa, and Oceania
-- **Visa-Exempt:** Check official Vietnam immigration website
+- **Visa-Exempt:** Check our [nationality checker](/check-requirement)
 - **Embassy-Only:** Some countries may require embassy applications
 
 ## Types of Vietnam eVisas

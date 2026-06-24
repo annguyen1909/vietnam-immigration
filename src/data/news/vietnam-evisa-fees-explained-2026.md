@@ -53,7 +53,7 @@ This guide breaks down every fee category, shows realistic totals for solo trave
 
 ## Government fees: the four standard visa types
 
-All standard online products on this site authorize up to a **90-day stay** per approved eVisa ([Vietnam Electronic Visa portal](https://evisa.gov.vn/)). Under current published pricing on our portal, **government fees depend on visa type—not nationality**. A US passport holder and a Brazilian passport holder pay the same government fee for the same product.
+All standard online products on this site authorize up to a **90-day stay** per approved eVisa . Under current published pricing on our portal, **government fees depend on visa type—not nationality**. A US passport holder and a Brazilian passport holder pay the same government fee for the same product.
 
 | Visa type | Government fee (USD) | Entry type | Typical purpose |
 | :--- | ---: | :--- | :--- |
@@ -273,11 +273,6 @@ Maintained by the **Vietnam eVisa Assistance Team**—a private assistance servi
 
 Contact support first with your reference number. Government fees are often non-refundable once submitted to authorities. Service-fee treatment is in our [refund policy](/refund-policy).
 
-
-## Official references
-
-- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal
-- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — immigration e-visa policy reference
 
 ## Related guides
 

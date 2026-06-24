@@ -20,7 +20,7 @@ faq:
     answer: Common causes are patterned backgrounds, face too small in frame, beauty filters, shadows, or a mismatch with your current passport appearance. Retake with even lighting and a plain white or off-white backdrop.
 ---
 
-One bad portrait is among the fastest ways to **delay a Vietnam eVisa**. The [official e-visa application channel](https://evisa.gov.vn/) validates uploads electronically; blurry selfies and cropped passport booklet photos often trigger resubmissions or rejection. Get your photo right once—then [start your application](/apply).
+One bad portrait is among the fastest ways to **delay a Vietnam eVisa**. The online e-visa filing validates uploads electronically; blurry selfies and cropped passport booklet photos often trigger resubmissions or rejection. Get your photo right once—then [start your application](/apply).
 
 **We are a private visa assistance service—not the Government of Vietnam.** Photo rules follow official eVisa standards; we help you format files correctly before submission.
 
@@ -92,11 +92,6 @@ Cross-check name and passport number against the MRZ. Pair this guide with:
 - [/faq/vietnam-evisa-requirements](/faq/vietnam-evisa-requirements)
 - [/check-requirement](/check-requirement) for nationality rules
 
-
-## Official references
-
-- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official upload requirements shown at application time
-- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal
 
 ## Frequently asked questions
 

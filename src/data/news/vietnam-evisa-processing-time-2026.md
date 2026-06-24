@@ -55,7 +55,7 @@ This 2026 guide explains realistic timelines, what speeds or slows review, how u
 
 ## Standard processing: what happens after you pay
 
-After you submit and pay on [/apply](/apply), your package enters the immigration review pipeline handled by [Vietnamese immigration authorities](https://immigration.gov.vn/). On the assisted side, **Normal** handling targets approval **within five business days** after payment—when document quality is high and volume is normal.
+After you submit and pay on [/apply](/apply), your package enters the immigration review pipeline handled by Vietnamese immigration authorities. On the assisted side, **Normal** handling targets approval **within five business days** after payment—when document quality is high and volume is normal.
 
 **Typical sequence:**
 
@@ -302,10 +302,6 @@ Processing ends when you hold the PDF—not when email arrives while you are asl
 
 Airlines may deny boarding if approval cannot be verified in their system—even minutes after you receive email.
 
-
-## Official references
-
-- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal (final approval authority)
 
 ## Related guides
 

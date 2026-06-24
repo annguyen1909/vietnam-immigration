@@ -13,7 +13,7 @@ faq:
   - question: Is a Vietnam eVisa better than an embassy visa?
     answer: For most tourists and short business trips, the eVisa is faster and more convenient. Embassy visas are better when you need visa types not offered online, long-term work or study, or consular guidance for complex cases.
   - question: Can I get a multiple-entry visa online for Vietnam?
-    answer: Multiple-entry eVisas are offered for many nationalities on assisted and official portals—check eligibility and fees. If unavailable online, an embassy may issue a sticker multiple-entry visa.
+    answer: Multiple-entry eVisas are offered for many nationalities on assisted and online portals—check eligibility and fees. If unavailable online, an embassy may issue a sticker multiple-entry visa.
   - question: Is the Vietnam eVisa cheaper than embassy processing?
     answer: For most tourists, assisted eVisa filing is usually faster and more convenient than embassy sticker visas. Embassy routes add consulate travel, courier, and agent costs on top of consular fees—compare total trip cost, not just the government line item.
   - question: Can I switch from eVisa to embassy visa after rejection?
@@ -54,7 +54,7 @@ This 2026 comparison breaks down **cost, speed, stay length, multiple entry, ent
 
 ## Vietnam eVisa: how the online channel works
 
-The eVisa is an **electronic authorization** linked to your passport, approved before departure through the [official government e-visa channel](https://evisa.gov.vn/), and delivered as a **PDF** you print and present at immigration.
+The eVisa is an **electronic authorization** linked to your passport, approved before departure through the online pre-arrival filing, and delivered as a **PDF** you print and present at immigration.
 
 ### Filing through our assisted portal
 
@@ -79,7 +79,7 @@ Walkthrough: [how to apply for a Vietnam eVisa online](/blog/how-to-apply-vietna
 
 ### eVisa limitations
 
-- Entry limited to **ports on your approval PDF**—see [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026) and [Vietnam Immigration Department](https://immigration.gov.vn/) guidance
+- Entry limited to **ports on your approval PDF**—see [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026)
 - Stay length and entry type depend on **online product options** for your nationality
 - **No local employment** on tourist eVisas; short business does not replace work permits
 - **Extensions inside Vietnam** are limited—not an automatic right
@@ -301,11 +301,6 @@ Some nationalities and trips qualify for **both**. Compare:
 3. Book appointment or confirm mail-in process
 4. Budget **weeks**, not days, for mail routes
 
-
-## Official references
-
-- [Vietnam Immigration Department](https://immigration.gov.vn/) — national immigration portal
-- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official online e-visa channel (also at [thithucdientu.gov.vn](https://thithucdientu.gov.vn/))
 
 ## Related guides
 

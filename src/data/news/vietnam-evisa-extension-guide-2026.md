@@ -63,7 +63,7 @@ Before discussing extensions, understand three dates on your approval PDF—they
 | **Duration of stay** | Maximum days you may **remain** after each entry stamp | This is what extensions attempt to lengthen—if policy allows |
 | **Entry type** | **Single** (one arrival period) vs **multiple** (leave and return within validity) | Wrong entry type cannot be fixed by extension—you may need exit and re-entry |
 
-Under Vietnam's current e-visa framework, standard online products authorize stays of **up to 90 days** ([Vietnam Electronic Visa portal](https://evisa.gov.vn/)). That is the maximum duration available at initial filing on most portals—not a guarantee that an in-country extension will add another 90 days later.
+Under Vietnam's current e-visa framework, standard online products authorize stays of **up to 90 days** . That is the maximum duration available at initial filing on most portals—not a guarantee that an in-country extension will add another 90 days later.
 
 **Official policy signal:** Vietnamese immigration authorities set permitted stay lengths and extension rules. **Planning advice:** Treat your printed exit date as a hard deadline until an immigration officer formally approves an extension stamp or slip.
 
@@ -90,7 +90,7 @@ Always read the conditions printed on your approval letter and the entry stamp i
 
 ## Can you extend a Vietnam eVisa online?
 
-**Usually no.** The [official e-visa application channel](https://evisa.gov.vn/) is for **pre-arrival authorization**, not for lengthening a stay after you have entered. Extensions, when permitted, are handled through [Vietnamese immigration offices](https://immigration.gov.vn/) inside the country.
+**Usually no.** The online e-visa filing is for **pre-arrival authorization**, not for lengthening a stay after you have entered. Extensions, when permitted, are handled through Vietnamese immigration offices inside the country.
 
 Searches for "extend Vietnam eVisa online" often surface:
 
@@ -310,11 +310,6 @@ If you traveled on a family group eVisa filing:
 
 For general Vietnam trip planning with children (activities, pacing—not visa rules), [family-friendly Vietnam travel tips](/blog/family-friendly-vietnam-2026) may help itinerary decisions once entry paperwork is sorted.
 
-
-## Official references
-
-- [Vietnam Immigration Department](https://immigration.gov.vn/) — in-country immigration services and stay rules
-- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — pre-arrival e-visa applications only (not in-country extensions)
 
 ## Related guides
 

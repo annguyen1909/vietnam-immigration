@@ -283,7 +283,7 @@ Review [common Vietnam eVisa mistakes](/blog/vietnam-evisa-common-mistakes-2026)
 
 ## Vietnam eVisa and entry planning for families
 
-**Official policy reminder:** Visa rules are set by Vietnamese immigration authorities. Requirements vary by **nationality**, **passport type**, and **visa category**—always verify on government sources or a current [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) before paying for non-refundable trips.
+**Official policy reminder:** Visa rules are set by Vietnamese immigration authorities. Requirements vary by **nationality**, **passport type**, and **visa category**—always verify via our [nationality checker](/check-requirement) or a current [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) before paying for non-refundable trips.
 
 **Practical steps for family groups:**
 

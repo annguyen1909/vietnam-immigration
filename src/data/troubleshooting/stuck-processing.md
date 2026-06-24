@@ -28,7 +28,7 @@ howToSteps:
 howToTotalTime: PT4H
 ---
 
-Your **Vietnam eVisa is still pending**—three days, five days, maybe longer—and your flight is approaching. The government portal shows "Processing" or "Unfulfilled," your inbox is empty, and panic sets in. This guide explains what "pending" actually means, when delay is normal, and exactly what to do before you pay for a duplicate application.
+Your **Vietnam eVisa is still pending**—three days, five days, maybe longer—and your flight is approaching. Your status page shows "Processing" or "Unfulfilled," your inbox is empty, and panic sets in. This guide explains what "pending" actually means, when delay is normal, and exactly what to do before you pay for a duplicate application.
 
 **We are a private visa assistance service—not the Government of Vietnam.** Final approval timing is decided by Vietnamese immigration authorities. We can help track your filing, fix document issues, and escalate when your travel date is at risk.
 

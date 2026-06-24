@@ -92,7 +92,7 @@ Cross-check against the MRZ, where the date appears in a compressed YYMMDD forma
 
 ## Mistake 3: Entry port on approval does not match your ticket
 
-This mistake surprises travelers who assume any Vietnamese airport works once they have an eVisa. **Official rule:** you must enter at the **port of entry printed on your approved eVisa PDF** ([Vietnam Immigration Department](https://immigration.gov.vn/)).
+This mistake surprises travelers who assume any Vietnamese airport works once they have an eVisa. **Official rule:** you must enter at the **port of entry printed on your approved eVisa PDF**.
 
 On many assisted application flows—including ours at [/apply](/apply)—you do not select an entry port during the form. The authorized port appears on your **approval PDF after processing**. That means your job is not finished when you pay; you must **verify the port against your flight ticket** before you fly.
 
@@ -309,11 +309,6 @@ Assisted application at [/apply](/apply) tends to help when you want:
 
 Assistance reduces avoidable errors—it does not guarantee approval or override immigration decisions.
 
-
-## Official references
-
-- [Vietnam Immigration Department](https://immigration.gov.vn/) — entry-port rules and e-visa services
-- [Vietnam Electronic Visa portal](https://evisa.gov.vn/) — official pre-arrival e-visa channel
 
 ## Frequently asked questions
 

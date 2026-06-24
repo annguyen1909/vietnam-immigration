@@ -332,7 +332,7 @@ export const sharedFaqs = [
   },
   {
     q: 'How do {citizen} check their visa status?',
-    a: `{citizen} can easily check the status of their Vietnam e-Visa application online:\n\n1. Go to the official Vietnam e-Visa status portal.\n2. Enter your **reference number** (found on your confirmation email or receipt) and your last name.\n3. Submit the form and wait for the results, which are usually sent to your email within ${VIETNAM_PROCESSING_TIME}.\n\nIf you need help locating your reference number or have trouble accessing your status, contact our support team for assistance.`,
+    a: `{citizen} can easily check the status of their Vietnam e-Visa application online:\n\n1. Log in to your [account dashboard](/account).\n2. Open your application to view the current status and any document requests.\n3. Approval emails are usually sent within ${VIETNAM_PROCESSING_TIME} once processing completes.\n\nIf you need help locating your reference number or have trouble accessing your status, contact our support team for assistance.`,
   },
   {
     q: 'How long can {citizen} stay in Vietnam with an e-Visa?',
@@ -340,7 +340,7 @@ export const sharedFaqs = [
   },
   {
     q: 'Can {citizen} extend their visa?',
-    a: `Yes, {citizen} may be able to extend their Vietnam e-Visa to stay longer:\n\n- **Extension:** Available in some cases at Vietnam Immigration Department offices before your e-Visa expires.\n- **Where to Apply:** Immigration offices in major cities such as Hanoi, Ho Chi Minh City, or Da Nang.\n- **Required Documents:** Passport, current e-Visa, application form, and fees as required by authorities.\n\nExtension approval is not guaranteed. Contact our support team or visit the official Vietnam immigration portal for current rules.`,
+    a: `Yes, {citizen} may be able to extend their Vietnam e-Visa to stay longer:\n\n- **Extension:** Available in some cases at Vietnam Immigration Department offices before your e-Visa expires.\n- **Where to Apply:** Immigration offices in major cities such as Hanoi, Ho Chi Minh City, or Da Nang.\n- **Required Documents:** Passport, current e-Visa, application form, and fees as required by authorities.\n\nExtension approval is not guaranteed. Contact our support team for current rules and in-country extension guidance.`,
   },
 ];
 

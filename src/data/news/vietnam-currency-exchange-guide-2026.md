@@ -20,7 +20,7 @@ faq:
   - question: How much cash should I carry for island and beach trips?
     answer: Island ferries, marine park fees, pier snacks, and village meals often require 500,000–2,000,000 VND per day in cash. Withdraw on the mainland before remote hops when possible—island ATMs exist but queues spike on holidays.
   - question: Can I pay the Vietnam eVisa fee in cash on arrival?
-    answer: No—the official Vietnam eVisa is paid online during application on the government portal. Our private assistance service charges separate disclosed fees for help preparing your submission—we do not set government rates.
+    answer: No—the government eVisa fee is paid online during application on this site. Our private assistance service charges separate disclosed fees for help preparing your submission—we do not set government rates.
   - question: What is the easiest way to estimate prices in USD?
     answer: At typical 2026 rates, divide VND by roughly 24,000–25,000 for a USD ballpark—always verify live rates. Mental math is easier with a notes app tracking daily spends in both currencies.
 ---
@@ -245,7 +245,7 @@ Some Vietnam experiences are **dong-first by necessity**—plan cash before you 
 
 ## Visa fees vs travel money (know the difference)
 
-**Government eVisa fee:** Paid online during application on the **official Vietnamese government portal**—amount set by authorities, not by private services. See [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026) for current tier breakdown.
+**Government eVisa fee:** Paid online during application on **this site**—amount set by authorities, not by private services. See [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026) for current tier breakdown.
 
 **Private assistance fee:** If you use our service, we charge a **separate disclosed fee** for application preparation and review—we are not the government and do not control approval outcomes.
 

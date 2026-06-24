@@ -284,7 +284,7 @@ Carry **500,000 VND** emergency cash for sold-out evenings or unexpected fees—
 
 Photography does not change immigration rules. Your approved **Vietnam eVisa** (or other valid entry document) governs entry at an **authorized port**—commonly **Noi Bai (HAN)**, **Da Nang (DAD)**, or **Tan Son Nhat (SGN)** depending on route.
 
-**Official policy reminder:** Entry rules are set by Vietnamese immigration authorities. Always verify requirements for your nationality on government sources or our [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) before paying for flights.
+**Official policy reminder:** Entry rules are set by Vietnamese immigration authorities. Always verify requirements for your nationality via our [nationality checker](/check-requirement) or [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) before paying for flights.
 
 **Practical planning steps:**
 

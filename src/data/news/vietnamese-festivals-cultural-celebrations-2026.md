@@ -206,7 +206,7 @@ Arrive **afternoon** for shophouse light; peak crowd **19:00–21:00**.
 
 Festival peaks coincide with immigration volume at airports. Sort documents **before** Tet deposits and non-refundable homestays.
 
-**Official policy reminder:** Visa rules are set by Vietnamese immigration authorities. Verify requirements for your nationality on government sources or our [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026).
+**Official policy reminder:** Visa rules are set by Vietnamese immigration authorities. Verify requirements for your nationality via our [nationality checker](/check-requirement) or [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026).
 
 **Practical steps:**
 
