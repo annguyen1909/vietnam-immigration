@@ -86,12 +86,14 @@ export default function FeesPage() {
               </span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
-              Vietnam
-              <span className="block text-brand-primary">eVisa Pricing & Fees</span>
+              Vietnam Visa Fee &amp; Pricing
+              <span className="block text-brand-primary">Urgent &amp; Emergency eVisa Vietnam</span>
             </h1>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              {getVietnamFeesHeroSubtitle()}
+              {getVietnamFeesHeroSubtitle()} Check our transparent vietnam visa fee structure,
+              including standard processing, urgent evisa vietnam (3 days), and emergency vietnam
+              evisa (1 day) options.
             </p>
           </div>
 

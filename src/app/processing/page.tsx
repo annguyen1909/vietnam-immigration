@@ -143,13 +143,14 @@ export default function ProcessingPage() {
               </span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
-              Vietnam
-              <span className="block text-brand-primary">eVisa Application Process</span>
+              Vietnam eVisa Application Process
+              <span className="block text-brand-primary">Urgent &amp; Emergency eVisa Vietnam</span>
             </h1>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
               Simple, secure, and efficient four-step process to obtain your Vietnam eVisa.
-              Professional assistance with professional standards and certified expertise.
+              Professional assistance for standard applications, urgent evisa vietnam (3 days), and
+              emergency vietnam evisa (1 day) with certified expertise.
             </p>
           </div>
 
