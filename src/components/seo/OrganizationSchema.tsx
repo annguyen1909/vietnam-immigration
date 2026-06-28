@@ -9,7 +9,7 @@ type OrganizationSchemaProps = OrganizationSchemaOverrides & {
 
 /**
  * Organization + LocalBusiness trust entity for sitewide E-E-A-T.
- * Placeholder address, email, and hotline — update constants before production.
+ * Address and hotline sourced from shared legal entity constants.
  */
 export default function OrganizationSchema({
   name,
@@ -45,7 +45,6 @@ export default function OrganizationSchema({
         areaServed: 'Worldwide',
       },
     ],
-    sameAs: [],
   };
 
   if (includeLocalBusiness) {

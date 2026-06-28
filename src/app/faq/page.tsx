@@ -9,7 +9,8 @@ import { Metadata } from 'next';
 import { QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
 import { extractFaqAnswerSnippet } from '@/lib/contentExcerpt';
 import FAQSchema from '@/components/seo/FAQSchema';
-import { SITE_NAME } from '@/lib/seo';
+import { buildPageMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 
 interface FAQ {
   question: string;
@@ -17,10 +18,11 @@ interface FAQ {
   answerSnippet: string;
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: 'Frequently Asked Questions (FAQ)',
   description:
     'Find comprehensive answers to common questions about Vietnam eVisa requirements, application process, processing times, and entry regulations. Get expert guidance on Vietnam visa questions.',
+  path: '/faq',
   keywords: [
     'Vietnam eVisa FAQ',
     'Vietnam visa questions',
@@ -33,35 +35,7 @@ export const metadata: Metadata = {
     'Vietnam visa process FAQ',
     'Vietnam visa support',
   ],
-  alternates: {
-    canonical: 'https://vietnamemigration.com/faq',
-  },
-  openGraph: {
-    type: 'website',
-    url: 'https://vietnamemigration.com/faq',
-    title: 'Frequently Asked Questions (FAQ)',
-    description:
-      'Find comprehensive answers to common questions about Vietnam eVisa requirements, application process, processing times, and entry regulations.',
-    siteName: SITE_NAME,
-    images: [
-      {
-        url: '/img/vietnam-hero.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Vietnam eVisa FAQ',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    site: '@vietnam_immigration',
-    creator: '@vietnam_immigration',
-    title: 'Frequently Asked Questions (FAQ)',
-    description:
-      'Find comprehensive answers to common questions about Vietnam eVisa requirements, application process, processing times, and entry regulations.',
-    images: ['/img/vietnam-hero.jpg'],
-  },
-};
+});
 
 export default function FAQPage() {
   // Read all FAQ markdown files
@@ -91,6 +65,12 @@ export default function FAQPage() {
   return (
     <>
       <FAQSchema items={faqSchemaItems} />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'Frequently Asked Questions (FAQ)', href: '/faq' },
+        ]}
+      />
       <main className="relative min-h-screen w-full bg-white text-gray-900">
         {/* Official Header Banner */}
         <div className="brand-banner">

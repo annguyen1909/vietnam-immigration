@@ -29,6 +29,22 @@ export const INDEXABLE_COUNTRY_SLUGS = [
   'spain',
   'brazil',
   'new-zealand',
+  // Tier 2 — enriched with unique intro, travel insight, and country-specific FAQs.
+  'thailand',
+  'cambodia',
+  'hong-kong',
+  'united-arab-emirates',
+  'russia',
+  'poland',
+  'sweden',
+  'norway',
+  'denmark',
+  'switzerland',
+  'ireland',
+  'portugal',
+  'israel',
+  'turkey',
+  'south-africa',
 ] as const;
 
 export type IndexableCountrySlug = (typeof INDEXABLE_COUNTRY_SLUGS)[number];

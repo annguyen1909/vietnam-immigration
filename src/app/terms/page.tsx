@@ -425,15 +425,17 @@ export default function TermsPage() {
                   </h2>
                   <p className="text-brand-ink mb-4">
                     This Agreement is subject to and interpreted according to the legal framework of
-                    [Your Jurisdiction]. Conflicts or disagreements stemming from this Agreement
-                    will be addressed through the following methods:
+                    the State of California, United States. Conflicts or disagreements stemming from
+                    this Agreement shall be resolved through:
                   </p>
-                  <ol className="list-decimal ml-6 text-brand-ink space-y-2">
-                    <li>Direct discussions between both parties</li>
-                    <li>Mediation conducted by a qualified mediator</li>
-                    <li>Arbitration following the guidelines of [Arbitration Organization]</li>
-                    <li>Court proceedings within the judicial system of [Your Jurisdiction]</li>
-                  </ol>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Informal direct discussions between the User and our support management</li>
+                    <li>
+                      Arbitration following the guidelines of the American Arbitration Association
+                      (AAA)
+                    </li>
+                    <li>Court proceedings within the judicial system of the State of California</li>
+                  </ul>
                 </div>
 
                 <div className="mb-8">

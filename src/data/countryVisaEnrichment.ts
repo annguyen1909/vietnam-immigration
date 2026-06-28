@@ -259,18 +259,48 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
       'Thai passport holders should confirm current Vietnam eVisa eligibility before travel. Many regional visitors use short online approvals for tourism—apply with the passport you will present at the border and verify the entry port on your approval PDF.',
     travelInsight:
       'Overland routes from Thailand are common; verify your border crossing accepts eVisa holders before booking buses.',
+    faqs: [
+      {
+        q: 'Can Thai travelers enter Vietnam overland with an eVisa?',
+        a: 'Yes, but only at approved land border gates such as Moc Bai or Lao Bao. Not every crossing accepts eVisa holders, so confirm your specific gate before booking buses and carry a printed approval.',
+      },
+      {
+        q: 'Do Thai nationals get visa-free entry instead of an eVisa?',
+        a: 'Some ASEAN nationals have short visa-free allowances, but durations and rules change. If your stay exceeds any visa-free limit or you want certainty at check-in, an eVisa is the safer option.',
+      },
+    ],
   },
   russia: {
     eligibilityIntro:
       'Russian citizens typically apply for a Vietnam eVisa online for tourism or business. Enter Cyrillic names using the Latin spelling shown on your passport bio page.',
     travelInsight:
       'Winter departures from Russia often connect via the Middle East or Southeast Asia hubs—allow buffer days for approval email delivery.',
+    faqs: [
+      {
+        q: 'How do Russian applicants enter Cyrillic names on the Vietnam eVisa form?',
+        a: 'Type your name using the Latin transliteration printed in the machine-readable zone of your passport, not the Cyrillic spelling. A mismatch between the form and the passport is a common cause of delays or rejection.',
+      },
+      {
+        q: 'What if a Russian traveler\u2019s international card is declined?',
+        a: 'Payment needs a working international card. If it is declined, do not resubmit repeatedly\u2014contact support first to avoid duplicate charges, then retry with an alternative card.',
+      },
+    ],
   },
   poland: {
     eligibilityIntro:
       'Polish passport holders can usually obtain a Vietnam eVisa online before tourism or business trips. Schengen travel before or after Vietnam still requires a separate Vietnamese entry authorization.',
     travelInsight:
       'Budget carriers from Warsaw and Kraków often land in Ho Chi Minh City—confirm the entry port on your approval PDF matches your ticket.',
+    faqs: [
+      {
+        q: 'Does Schengen travel cover a Polish traveler in Vietnam?',
+        a: 'No. Schengen rights do not extend to Vietnam—you still need a valid Vietnam eVisa or other authorization for the Vietnamese portion of any trip.',
+      },
+      {
+        q: 'Which Vietnamese airport do flights from Poland usually use?',
+        a: 'Many one-stop routes from Warsaw or Kraków arrive in Ho Chi Minh City (Tan Son Nhat). Because the eVisa is tied to the port you select, confirm it matches your ticket before you fly.',
+      },
+    ],
   },
   mexico: {
     eligibilityIntro:
@@ -283,18 +313,48 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
       'Cambodian travelers often visit Vietnam by air or land. Confirm your planned border gate accepts eVisa entries and that your passport has six months validity.',
     travelInsight:
       'Phnom Penh–Ho Chi Minh City routes are popular—keep a printed eVisa for airline and immigration checks.',
+    faqs: [
+      {
+        q: 'Can Cambodians cross into Vietnam by land with an eVisa?',
+        a: 'Yes, at approved land gates such as Moc Bai on the Phnom Penh–Ho Chi Minh City route. Verify your exact crossing accepts eVisa entries before buying bus tickets.',
+      },
+      {
+        q: 'How much passport validity do Cambodian travelers need?',
+        a: 'Your passport should be valid for at least six months beyond your arrival date and have blank pages for entry stamps.',
+      },
+    ],
   },
   'hong-kong': {
     eligibilityIntro:
       'Hong Kong passport holders should verify eVisa eligibility and apply online before departure. Use the travel document you will present at Vietnamese immigration.',
     travelInsight:
       'Weekend trips are common—single-entry visas suit one return unless you plan a side trip outside Vietnam.',
+    faqs: [
+      {
+        q: 'Which travel document should Hong Kong residents apply with?',
+        a: 'Apply with the passport you will actually present at Vietnamese immigration (HKSAR passport or your nationality\u2019s passport). The document number on the eVisa must match the one you travel on.',
+      },
+      {
+        q: 'Is a single-entry eVisa enough for a weekend trip from Hong Kong?',
+        a: 'Single entry covers one arrival and departure. Choose multiple entry only if you plan to leave Vietnam and return within the same trip.',
+      },
+    ],
   },
   'united-arab-emirates': {
     eligibilityIntro:
       'UAE passport holders can typically apply for a Vietnam eVisa online for tourism or business. Residents of the UAE who are not citizens must apply with their nationality’s passport.',
     travelInsight:
       'Direct flights from Dubai or Abu Dhabi to Hanoi or Ho Chi Minh City are frequent—align entry port with your ticket.',
+    faqs: [
+      {
+        q: 'Can UAE residents who are not Emirati citizens use this eVisa?',
+        a: 'You must apply with the passport of your nationality, not your UAE residence visa. Residency does not change which entry authorization Vietnam requires.',
+      },
+      {
+        q: 'Do UAE travelers need to match the entry port on direct flights?',
+        a: 'Yes. Direct services from Dubai and Abu Dhabi reach both Hanoi and Ho Chi Minh City, so confirm the entry port on your approval matches your booked arrival airport.',
+      },
+    ],
   },
   'czech-republic': {
     eligibilityIntro:
@@ -307,24 +367,64 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
       'Swedish citizens can generally apply online for a Vietnam eVisa before tourism or business travel. Passport must be valid at least six months beyond arrival.',
     travelInsight:
       'Midnight sun season departures still follow Vietnamese immigration rules—check approval before June–August Asia trips.',
+    faqs: [
+      {
+        q: 'How far ahead should Swedish travelers apply?',
+        a: 'Apply at least 3–5 business days before departure. Standard processing is usually quick, but summer (June–August) Asia travel peaks can lengthen review.',
+      },
+      {
+        q: 'Does a Swedish traveler need a printed eVisa?',
+        a: 'Carry a printed copy alongside your passport. Some carriers and border officers still request paper even when you have a digital file.',
+      },
+    ],
   },
   norway: {
     eligibilityIntro:
       'Norwegian passport holders are typically eligible for Vietnam eVisas online. Enter your name exactly as on the passport and keep a PDF copy offline.',
     travelInsight:
       'Long routes via Oslo hubs mean you should not rely on same-day approval at the airport.',
+    faqs: [
+      {
+        q: 'Can Norwegian travelers rely on same-day airport approval?',
+        a: 'No. Apply ahead of time; eVisa approval is delivered by email and should be in hand before you reach the airport.',
+      },
+      {
+        q: 'How should Norwegian applicants store the approval?',
+        a: 'Keep an offline PDF and a printed copy, especially for multi-leg routes via European hubs where connectivity may vary.',
+      },
+    ],
   },
   denmark: {
     eligibilityIntro:
       'Danish citizens can usually obtain a Vietnam eVisa online for tourism or business. Double-check entry port if you fly into Da Nang versus Hanoi.',
     travelInsight:
       'Copenhagen–Asia flights often arrive in Ho Chi Minh City—verify the entry port on your approval PDF before departure.',
+    faqs: [
+      {
+        q: 'Does the entry airport matter for Danish travelers?',
+        a: 'Yes. If you fly into Da Nang rather than Hanoi or Ho Chi Minh City, confirm that exact port is shown on your approval before departure.',
+      },
+      {
+        q: 'How early should Danish travelers apply?',
+        a: 'Apply several days before departure to allow for standard processing and email delivery of your approval.',
+      },
+    ],
   },
   switzerland: {
     eligibilityIntro:
       'Swiss passport holders are generally eligible for Vietnam eVisas for short visits. Business and tourism use different purpose codes—answer honestly on the form.',
     travelInsight:
       'Multilingual Swiss passports still use Latin characters on the bio page for the application.',
+    faqs: [
+      {
+        q: 'Tourism or business—which purpose should Swiss applicants choose?',
+        a: 'Select the purpose that matches your trip. Tourist eVisas are not for paid work in Vietnam; choose business if attending meetings or trade events.',
+      },
+      {
+        q: 'Do multilingual Swiss passports cause form problems?',
+        a: 'No. Enter the Latin-character data from your passport\u2019s machine-readable zone regardless of the German, French, or Italian fields.',
+      },
+    ],
   },
   austria: {
     eligibilityIntro:
@@ -342,12 +442,32 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
       'Irish citizens can generally apply for a Vietnam eVisa online for tourism or business. Post-Brexit UK rules do not replace the need for your own Vietnamese authorization.',
     travelInsight:
       'Dublin–Asia connections often require overnight layovers—approval should be secured before check-in.',
+    faqs: [
+      {
+        q: 'Do post-Brexit UK rules cover Irish travelers to Vietnam?',
+        a: 'No. Irish citizens need their own Vietnam authorization; UK or EU arrangements do not substitute for a Vietnam eVisa.',
+      },
+      {
+        q: 'Should Irish travelers with long layovers apply early?',
+        a: 'Yes. Dublin–Asia routes often involve overnight layovers, so secure approval before check-in rather than relying on airport processing.',
+      },
+    ],
   },
   portugal: {
     eligibilityIntro:
       'Portuguese passport holders are typically eligible for Vietnam eVisas for short stays. Peak winter sun departures to Asia fill quickly—apply early.',
     travelInsight:
       'Lisbon–Ho Chi Minh City routes may include one-stop connections—carry printed approval at transfer desks.',
+    faqs: [
+      {
+        q: 'When should Portuguese travelers apply for winter trips?',
+        a: 'Apply early for November–February departures, as winter-sun demand to Asia is high and last-minute processing during holidays can be slower.',
+      },
+      {
+        q: 'Do Portuguese travelers need approval at transfer desks?',
+        a: 'Yes. On one-stop Lisbon–Ho Chi Minh City routings, keep a printed eVisa for airline checks at the transfer airport.',
+      },
+    ],
   },
   greece: {
     eligibilityIntro:
@@ -395,6 +515,16 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
       'South African passport holders can usually apply for a Vietnam eVisa online for tourism or business. Passports must have blank pages and six months validity.',
     travelInsight:
       'Johannesburg–Asia connections are long—do not book tight layovers without approval in hand.',
+    faqs: [
+      {
+        q: 'What passport condition do South African travelers need?',
+        a: 'Carry a passport valid at least six months beyond arrival with blank pages for entry stamps; worn or damaged passports can cause boarding issues.',
+      },
+      {
+        q: 'Should South Africans avoid tight layovers?',
+        a: 'Yes. Johannesburg–Asia routings are long, so secure your approval before departure and avoid booking very short connecting times.',
+      },
+    ],
   },
   egypt: {
     eligibilityIntro:
@@ -412,12 +542,32 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
       'Israeli passport holders can typically apply online for a Vietnam eVisa before tourism or business travel. Approval email should be saved offline for long-haul connections.',
     travelInsight:
       'Tel Aviv–Asia flights often route via Europe or the Gulf—secure visa before the final boarding pass.',
+    faqs: [
+      {
+        q: 'Should Israeli travelers save the approval offline?',
+        a: 'Yes. Save the approval PDF to your device and print a copy, since long-haul connections via Europe or the Gulf may have limited connectivity.',
+      },
+      {
+        q: 'Does the entry port matter for Israeli applicants?',
+        a: 'Yes. Your eVisa is valid for the specific port you choose, so confirm it matches your booked arrival airport or land gate.',
+      },
+    ],
   },
   turkey: {
     eligibilityIntro:
       'Turkish citizens are usually eligible for Vietnam eVisas online. Enter given and family names as shown on the passport Latin line.',
     travelInsight:
       'Istanbul is a major hub—approval is still mandatory before the Vietnam-bound segment.',
+    faqs: [
+      {
+        q: 'How should Turkish applicants enter names with Turkish characters?',
+        a: 'Use the Latin spelling from your passport\u2019s machine-readable zone (for example, characters like \u00e7, \u015f, and \u0131 as printed there). Match the form to the passport exactly.',
+      },
+      {
+        q: 'Is an eVisa required when transiting Istanbul?',
+        a: 'Transiting Istanbul does not exempt you—your approval must be valid before you board the Vietnam-bound segment.',
+      },
+    ],
   },
   luxembourg: {
     eligibilityIntro:

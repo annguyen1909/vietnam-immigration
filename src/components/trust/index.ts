@@ -5,10 +5,12 @@ export type { TrustBadgesProps, TrustBadgeItem } from '@/components/trust/TrustB
 export { default as EmergencyCTA } from '@/components/trust/EmergencyCTA';
 export type { EmergencyCTAProps } from '@/components/trust/EmergencyCTA';
 
-/** Demo props for previews and Storybook-style pages. */
-export const DEMO_AUTHOR_BIO = {
-  name: 'Lan Nguyen',
-  role: 'Senior Immigration Specialist',
-  bio: 'Former immigration consultant with 8+ years helping travelers resolve Vietnam eVisa errors, payment failures, and last-minute entry issues. Guides are reviewed against current National Immigration Portal requirements.',
-  linkedInUrl: 'https://www.linkedin.com/in/placeholder',
+/**
+ * Editorial attribution for guides. We attribute review to the website/team
+ * (not an individual) and intentionally omit any personal profile link.
+ */
+export const EDITORIAL_TEAM_BIO = {
+  name: 'Vietnam eVisa Assistance Team',
+  role: 'Editorial & Visa Support Team · vietnamemigration.com',
+  bio: 'Our editorial and support team has handled thousands of Vietnam eVisa applications, including error fixes, payment failures, and last-minute entry issues. Every guide is reviewed and kept up to date against the current National Immigration Portal requirements.',
 } as const;

@@ -326,8 +326,9 @@ export default function DisclaimersPage() {
                   </h2>
                   <p className="text-brand-ink mb-4">
                     These disclaimers are regulated by and interpreted in compliance with the laws
-                    of [Your Jurisdiction]. Any conflicts arising from these disclaimers shall be
-                    subject to the exclusive jurisdiction of the courts in [Your Jurisdiction].
+                    of the State of California, United States. Any conflicts arising from these
+                    disclaimers shall be subject to the exclusive jurisdiction of the courts in
+                    Pasadena, California.
                   </p>
                 </div>
 

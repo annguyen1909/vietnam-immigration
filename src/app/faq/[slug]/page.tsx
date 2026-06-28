@@ -12,6 +12,7 @@ import { Metadata } from 'next';
 import { buildPageMetadata, faqPath } from '@/lib/seo';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import FAQSchema from '@/components/seo/FAQSchema';
+import RelatedResources from '@/components/ui/RelatedResources';
 import { extractMarkdownHeadings, stripManualTableOfContents } from '@/lib/markdown-headings';
 import { ArrowLeftIcon, QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
 
@@ -241,6 +242,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
                 </div>
               </section>
             )}
+
+            <RelatedResources className="mb-10" />
 
             <HelpFloatingBox />
           </div>

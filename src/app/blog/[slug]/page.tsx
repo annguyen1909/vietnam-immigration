@@ -14,6 +14,7 @@ import {
   blogPath,
   buildPageMetadata,
   DEFAULT_OG_IMAGE,
+  getPublicSiteUrl,
   pageUrl,
 } from '@/lib/seo';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
@@ -101,22 +102,25 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const faq = (Array.isArray(post.metadata.faq) ? post.metadata.faq : []) as FAQSchemaItem[];
   const authorName = post.metadata.author || BLOG_AUTHOR_NAME;
 
-  // Article Schema
+  // BlogPosting schema — authored/published by the organization (no individual author).
   const articleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: postTitle,
     description: String(post.metadata.excerpt ?? ''),
     image: postImage,
     datePublished: postDate,
     dateModified: String(post.metadata.dateModified ?? post.metadata.date ?? postDate),
+    inLanguage: 'en-US',
     author: {
       '@type': 'Organization',
       name: authorName,
+      url: getPublicSiteUrl(),
     },
     publisher: {
       '@type': 'Organization',
       name: BLOG_AUTHOR_NAME,
+      url: getPublicSiteUrl(),
       logo: {
         '@type': 'ImageObject',
         url: absoluteAssetUrl(DEFAULT_OG_IMAGE),

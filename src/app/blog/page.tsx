@@ -6,12 +6,14 @@ import HelpFloatingBox from '@/components/ui/HelpFloatingBox';
 import { NewspaperIcon, CalendarIcon, UserIcon } from '@heroicons/react/24/outline';
 import JsonLd from '@/components/seo/JsonLd';
 import { getAllNewsPosts, type BlogPost } from '@/lib/mdx';
-import { blogPath, pageUrl, SITE_NAME } from '@/lib/seo';
+import { blogPath, pageUrl, buildPageMetadata } from '@/lib/seo';
+import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 
-export const metadata: Metadata = {
-  title: 'Vietnam eVisa News & Travel Guides | vietnamemigration.com',
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Vietnam eVisa News & Travel Guides',
   description:
     'Latest news, updates, and travel information about Vietnam eVisa requirements and application process. Stay informed with visa guides, travel tips, and immigration updates.',
+  path: '/blog',
   keywords: [
     'Vietnam eVisa news',
     'Vietnam visa updates',
@@ -24,35 +26,7 @@ export const metadata: Metadata = {
     'Vietnam visa news',
     'Vietnam immigration news',
   ],
-  alternates: {
-    canonical: 'https://vietnamemigration.com/blog',
-  },
-  openGraph: {
-    type: 'website',
-    url: 'https://vietnamemigration.com/blog',
-    title: 'Vietnam eVisa News & Travel Guides | vietnamemigration.com',
-    description:
-      'Latest news, updates, and travel information about Vietnam eVisa requirements and application process.',
-    siteName: SITE_NAME,
-    images: [
-      {
-        url: '/img/vietnam-hero.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Vietnam eVisa News & Updates',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    site: '@vietnam_immigration',
-    creator: '@vietnam_immigration',
-    title: 'Vietnam eVisa News & Travel Guides',
-    description:
-      'Latest news, updates, and travel information about Vietnam eVisa requirements and application process.',
-    images: ['/img/vietnam-hero.jpg'],
-  },
-};
+});
 
 export default function BlogPage() {
   const posts = getAllNewsPosts();
@@ -74,6 +48,12 @@ export default function BlogPage() {
   return (
     <>
       <JsonLd data={itemListSchema} />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'Vietnam eVisa News & Updates', href: '/blog' },
+        ]}
+      />
       <main className={`relative min-h-screen w-full bg-brand-surface text-brand-ink`}>
         {/* Official Header Banner */}
         <div className="brand-banner">

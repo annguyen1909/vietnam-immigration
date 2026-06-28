@@ -9,13 +9,25 @@ import Image from 'next/image';
 import ContactForm from '@/components/ui/ContactForm';
 import Link from 'next/link';
 import { Metadata } from 'next';
-import { buildPageMetadata, checkRequirementPath, isIndexableCountrySlug } from '@/lib/seo';
+import {
+  buildPageMetadata,
+  checkRequirementPath,
+  isIndexableCountrySlug,
+  INDEXABLE_COUNTRY_SLUGS,
+} from '@/lib/seo';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import FAQSchema from '@/components/seo/FAQSchema';
 import HowToSchema from '@/components/seo/HowToSchema';
+import RelatedResources from '@/components/ui/RelatedResources';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateStaticParams() {
+  return INDEXABLE_COUNTRY_SLUGS.map((slug) => ({
+    slug,
+  }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -670,6 +682,8 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 </div>
               </div>
             </section>
+
+            <RelatedResources className="mb-10" excludePaths={['/check-requirement']} />
           </div>
 
           {/* Sidebar */}

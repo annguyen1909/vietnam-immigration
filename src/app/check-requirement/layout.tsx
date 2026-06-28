@@ -8,6 +8,8 @@ export const metadata: Metadata = buildStaticPageMetadata({
   path: '/check-requirement',
 });
 
+// Breadcrumb JSON-LD is emitted per-page (2-level on the index, 3-level on
+// country pages) to avoid duplicate/conflicting BreadcrumbList markup.
 export default function CheckRequirementLayout({ children }: { children: React.ReactNode }) {
   return children;
 }

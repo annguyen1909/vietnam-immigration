@@ -6,6 +6,7 @@ import CountryListAll from '@/components/ui/CountryListAll';
 import { countryNameToSlug } from '@/lib/countrySlug';
 import { useRouter } from 'next/navigation';
 import React from 'react';
+import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 
 export default function CheckRequirementPage() {
   const router = useRouter();
@@ -13,6 +14,12 @@ export default function CheckRequirementPage() {
 
   return (
     <main className={`relative min-h-screen w-full bg-brand-surface text-brand-ink`}>
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'Visa Requirements', href: '/check-requirement' },
+        ]}
+      />
       {/* Official Header Banner */}
       <div className="brand-banner">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-center gap-3">

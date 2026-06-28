@@ -2,6 +2,7 @@
 
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import Image from 'next/image';
 import { useEffect } from 'react';
 import { markdownTableComponents } from '@/components/ui/markdownTableComponents';
 import { MARKDOWN_HEADING_SCROLL_MARGIN, slugifyHeading } from '@/lib/markdown-headings';
@@ -132,17 +133,35 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
               </a>
             );
           },
-          img: ({ src, alt }) => (
-            <figure className="my-0 overflow-hidden rounded-lg border border-gray-200 bg-gray-50 shadow-sm">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={typeof src === 'string' ? src : undefined}
-                alt={alt ?? ''}
-                className="h-auto w-full object-cover"
-                loading="lazy"
-              />
-            </figure>
-          ),
+          img: ({ src, alt }) => {
+            const source = typeof src === 'string' ? src : '';
+            // Local /public assets go through next/image for AVIF/WebP + srcset.
+            // Unknown/external sources fall back to a plain lazy <img>.
+            const isLocal = source.startsWith('/') && !source.startsWith('//');
+            return (
+              <figure className="my-0 overflow-hidden rounded-lg border border-gray-200 bg-gray-50 shadow-sm">
+                {isLocal ? (
+                  <Image
+                    src={source}
+                    alt={alt ?? ''}
+                    width={0}
+                    height={0}
+                    sizes="(max-width: 768px) 100vw, 800px"
+                    className="h-auto w-full object-cover"
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                ) : (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={source || undefined}
+                    alt={alt ?? ''}
+                    className="h-auto w-full object-cover"
+                    loading="lazy"
+                  />
+                )}
+              </figure>
+            );
+          },
           ...markdownTableComponents,
         }}
       >

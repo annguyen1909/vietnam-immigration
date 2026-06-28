@@ -13,12 +13,14 @@ import HowToSchema from '@/components/seo/HowToSchema';
 import { buildTroubleshootingMetadata, troubleshootingPath } from '@/lib/seo';
 import {
   formatTroubleshootingDate,
+  getAllTroubleshootingGuides,
   getTroubleshootingGuide,
   getTroubleshootingSlugs,
 } from '@/lib/troubleshooting';
 import AuthorBio from '@/components/trust/AuthorBio';
 import EmergencyCTA from '@/components/trust/EmergencyCTA';
-import { DEMO_AUTHOR_BIO } from '@/components/trust';
+import { EDITORIAL_TEAM_BIO } from '@/components/trust';
+import RelatedResources from '@/components/ui/RelatedResources';
 
 export async function generateStaticParams() {
   return getTroubleshootingSlugs().map((slug) => ({ slug }));
@@ -65,6 +67,10 @@ export default async function TroubleshootingGuidePage({
   const tocItems = extractMarkdownHeadings(content);
   const lastUpdated = formatTroubleshootingDate(metadata.updated || metadata.date);
   const pageTitle = metadata.title;
+
+  const relatedGuides = getAllTroubleshootingGuides()
+    .filter((g) => g.slug !== guide.slug)
+    .slice(0, 4);
 
   return (
     <>
@@ -138,7 +144,35 @@ export default async function TroubleshootingGuidePage({
 
             <div className="mt-10 space-y-8">
               <EmergencyCTA variant="inline" />
-              <AuthorBio {...DEMO_AUTHOR_BIO} />
+
+              {relatedGuides.length > 0 ? (
+                <section className="rounded-xl border-2 border-brand-border bg-white p-6 shadow-md">
+                  <h2 className="mb-5 font-display text-xl font-bold text-brand-ink">
+                    Related troubleshooting guides
+                  </h2>
+                  <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                    {relatedGuides.map((related) => (
+                      <li key={related.slug}>
+                        <Link
+                          href={troubleshootingPath(related.slug)}
+                          className="group flex h-full flex-col rounded-lg border-2 border-gray-200 bg-gray-50 p-4 transition hover:border-brand-primary"
+                        >
+                          <span className="font-semibold text-brand-ink group-hover:text-brand-primary">
+                            {related.metadata.title}
+                          </span>
+                          <span className="mt-1 text-sm text-brand-muted line-clamp-2">
+                            {related.metadata.description}
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ) : null}
+
+              <RelatedResources excludePaths={['/troubleshooting']} />
+
+              <AuthorBio {...EDITORIAL_TEAM_BIO} />
             </div>
           </div>
         </section>

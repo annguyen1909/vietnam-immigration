@@ -3,8 +3,10 @@ import Link from 'next/link';
 import { WrenchScrewdriverIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
 import SiteFooter from '@/components/layout/SiteFooter';
 import HelpFloatingBox from '@/components/ui/HelpFloatingBox';
-import { buildStaticPageMetadata, troubleshootingPath } from '@/lib/seo';
+import { buildStaticPageMetadata, pageUrl, troubleshootingPath } from '@/lib/seo';
 import { formatTroubleshootingDate, getAllTroubleshootingGuides } from '@/lib/troubleshooting';
+import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
+import JsonLd from '@/components/seo/JsonLd';
 
 export const metadata: Metadata = buildStaticPageMetadata({
   title: 'Vietnam eVisa Troubleshooting & Emergency Fixes',
@@ -16,8 +18,27 @@ export const metadata: Metadata = buildStaticPageMetadata({
 export default function TroubleshootingIndexPage() {
   const guides = getAllTroubleshootingGuides();
 
+  const itemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Vietnam eVisa Troubleshooting Guides',
+    itemListElement: guides.map((guide, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: guide.metadata.title,
+      url: pageUrl(troubleshootingPath(guide.slug)),
+    })),
+  };
+
   return (
     <main className="relative min-h-screen w-full bg-brand-surface text-brand-ink">
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'Troubleshooting', href: '/troubleshooting' },
+        ]}
+      />
+      {guides.length > 0 ? <JsonLd data={itemListSchema} /> : null}
       <div className="brand-banner">
         <div className="mx-auto flex max-w-7xl items-center justify-center gap-3 px-4">
           <span className="text-sm font-semibold uppercase tracking-wider text-white">

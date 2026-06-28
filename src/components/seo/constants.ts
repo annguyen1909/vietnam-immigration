@@ -9,10 +9,7 @@ export const SUPPORT_FROM = `Vietnam eVisa Support <${SUPPORT_EMAIL}>`;
 /** Default blog byline and legal entity display name (private service—not a government agency). */
 export const BLOG_AUTHOR_NAME = 'Vietnam eVisa Assistance Team';
 
-/**
- * E-E-A-T placeholders — replace with verified legal entity details before launch.
- * Used by OrganizationSchema / LocalBusiness trust signals.
- */
+/** Legal entity contact & location — shared with united-evisa (OrganizationSchema / LocalBusiness). */
 export const TRUST_ENTITY = {
   legalName: BLOG_AUTHOR_NAME,
   /** Display name on schema */
@@ -20,18 +17,18 @@ export const TRUST_ENTITY = {
   description:
     'Licensed-style immigration assistance for Vietnam eVisa applications: expert review, secure processing, and 24/7 traveler support.',
   supportEmail: SUPPORT_EMAIL,
-  hotline: '+84-28-1234-5678',
-  hotlineDisplay: '+84 28 1234 5678',
+  hotline: '+13232864541',
+  hotlineDisplay: '+1 323 286 4541',
   address: {
-    streetAddress: '123 Nguyen Hue Boulevard, District 1',
-    addressLocality: 'Ho Chi Minh City',
-    addressRegion: 'Ho Chi Minh',
-    postalCode: '700000',
-    addressCountry: 'VN',
+    streetAddress: '1308 E Colorado Blvd, #2244',
+    addressLocality: 'Pasadena',
+    addressRegion: 'CA',
+    postalCode: '91106',
+    addressCountry: 'US',
   },
   geo: {
-    latitude: 10.7769,
-    longitude: 106.7009,
+    latitude: 34.14552,
+    longitude: -118.12333,
   },
   openingHours: ['Mo-Su 00:00-23:59'],
 } as const;

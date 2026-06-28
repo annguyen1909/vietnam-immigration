@@ -7,6 +7,7 @@ export type AuthorBioProps = {
   role: string;
   avatarUrl?: string;
   bio: string;
+  /** Optional profile link. Omit for organization/team attribution. */
   linkedInUrl?: string;
   className?: string;
 };
@@ -26,7 +27,7 @@ export default function AuthorBio({
   role,
   avatarUrl,
   bio,
-  linkedInUrl = 'https://www.linkedin.com/in/placeholder',
+  linkedInUrl,
   className = '',
 }: AuthorBioProps) {
   const initials = getInitials(name);

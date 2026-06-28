@@ -3,6 +3,8 @@ import Link from 'next/link';
 import SiteFooter from '@/components/layout/SiteFooter';
 import { buildStaticPageMetadata } from '@/lib/seo';
 import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
+import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
+import FAQSchema from '@/components/seo/FAQSchema';
 
 export const metadata = buildStaticPageMetadata({
   title: 'Embassies in Vietnam: Locations, Contacts, and FAQs',
@@ -11,9 +13,48 @@ export const metadata = buildStaticPageMetadata({
   path: '/embassy',
 });
 
+const faqItems = [
+  {
+    question: 'How do I find my country’s embassy in Vietnam?',
+    answer:
+      'Visit the Vietnamese Ministry of Foreign Affairs for a full list of embassies and consulates in Vietnam.',
+  },
+  {
+    question: 'Can I get a visa at my embassy in Vietnam?',
+    answer:
+      'Most embassies do not issue Vietnamese visas. You should apply online for an eVisa before traveling. Embassies can assist with other consular services.',
+  },
+  {
+    question: 'What should I do if I lose my passport in Vietnam?',
+    answer:
+      'Contact your embassy immediately for assistance with emergency travel documents and to report the loss to local police.',
+  },
+  {
+    question: 'What are the opening hours of embassies in Vietnam?',
+    answer:
+      'Most embassies are open Monday to Friday, 8:30am–4:30pm, but hours may vary. Always check the embassy’s website or call ahead.',
+  },
+  {
+    question: 'Can embassies help with legal problems or arrests?',
+    answer:
+      'Embassies can provide guidance, contact family, and recommend local lawyers, but they cannot intervene in legal proceedings or pay fines.',
+  },
+  {
+    question: 'How do I contact the Vietnamese Ministry of Foreign Affairs?',
+    answer: 'Visit mofa.gov.vn for official information.',
+  },
+];
+
 export default function EmbassyPage() {
   return (
     <div className="bg-[#f7f9fb] min-h-screen flex flex-col w-full">
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'Embassies in Vietnam', href: '/embassy' },
+        ]}
+      />
+      <FAQSchema items={faqItems} />
       <main className="flex flex-col md:flex-row w-full max-w-6xl mx-auto py-8 px-2 gap-8 flex-1">
         {/* Main Content */}
         <div className="flex-1 min-w-0 bg-white p-8 rounded-xl shadow-md">

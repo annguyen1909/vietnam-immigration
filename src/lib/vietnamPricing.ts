@@ -48,6 +48,25 @@ export function formatUsd(amount: number): string {
   return Number.isInteger(amount) ? `$${amount}` : `$${amount.toFixed(2)}`;
 }
 
+/**
+ * All-in per-applicant price (government fee + flat service fee) for each visa
+ * product. Used to build Offer / AggregateOffer JSON-LD on /fees and /apply.
+ */
+export function getVietnamVisaOffers() {
+  const offers = VIETNAM_VISA_PRODUCTS.map((product) => ({
+    id: product.id,
+    label: product.label,
+    price: Number((product.govFee + VIETNAM_SERVICE_FEE_PER_PAX).toFixed(2)),
+  }));
+  const prices = offers.map((o) => o.price);
+  return {
+    offers,
+    currency: 'USD',
+    lowPrice: Math.min(...prices).toFixed(2),
+    highPrice: Math.max(...prices).toFixed(2),
+  };
+}
+
 /** e.g. "$55 single / $80 multiple" */
 export const VIETNAM_GOV_FEE_SUMMARY = `${formatUsd(VIETNAM_GOV_FEE_SINGLE)} single / ${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} multiple`;
 
