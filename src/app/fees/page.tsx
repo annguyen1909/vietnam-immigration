@@ -9,6 +9,7 @@ import {
   VIETNAM_SERVICE_FEE_PER_PAX,
   VIETNAM_URGENCY_FEE_SUPER_URGENT,
   VIETNAM_URGENCY_FEE_URGENT,
+  VIETNAM_NORMAL_LABEL,
   VIETNAM_URGENCY_SUPER_LABEL,
   VIETNAM_URGENCY_URGENT_LABEL,
   VIETNAM_VISA_PRODUCTS,
@@ -16,6 +17,7 @@ import {
   getVietnamFeesHeroSubtitle,
   VIETNAM_GOV_FEE_SUMMARY,
 } from '@/lib/vietnamPricing';
+import type { UrgencyValue } from '@/lib/urgency';
 import { deriveApplyQueryFromVisaId } from '@/lib/vietnamVisa';
 
 type VisaOption = { value: string; label: string; govFee: number };
@@ -32,6 +34,7 @@ export default function FeesPage() {
   const [visaOptions, setVisaOptions] = useState<VisaOption[]>(FALLBACK_VISA_OPTIONS);
   const [visaType, setVisaType] = useState(FALLBACK_VISA_OPTIONS[0]?.value ?? '');
   const [passengers, setPassengers] = useState(1);
+  const [urgency, setUrgency] = useState<UrgencyValue>('');
 
   useEffect(() => {
     const load = async () => {
@@ -59,7 +62,15 @@ export default function FeesPage() {
   const selectedVisa = visaOptions.find((v) => v.value === visaType) || visaOptions[0];
   const govFee = (selectedVisa?.govFee ?? 0) * passengers;
   const serviceFee = SERVICE_FEE * passengers;
-  const total = govFee + serviceFee;
+  const urgencyFeePerPax =
+    urgency === 'urgent_48h'
+      ? VIETNAM_URGENCY_FEE_URGENT
+      : urgency === 'super_urgent_24h'
+        ? VIETNAM_URGENCY_FEE_SUPER_URGENT
+        : 0;
+  const urgencyFee = urgencyFeePerPax * passengers;
+  const total = govFee + serviceFee + urgencyFee;
+  const applyHref = `/apply?type=${visaType}&passengers=${passengers}`;
 
   return (
     <main className={`relative min-h-screen w-full bg-brand-surface text-brand-ink`}>
@@ -91,9 +102,7 @@ export default function FeesPage() {
             </h1>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              {getVietnamFeesHeroSubtitle()} Check our transparent vietnam visa fee structure,
-              including standard processing, urgent evisa vietnam (3 days), and emergency vietnam
-              evisa (1 day) options.
+              {getVietnamFeesHeroSubtitle()}
             </p>
           </div>
 
@@ -262,8 +271,8 @@ export default function FeesPage() {
                   Ready to check your exact total?
                 </h3>
                 <p className="text-gray-600 text-base mb-8 leading-relaxed">
-                  Select your specific visa type and passenger count below to see your instant,
-                  precise calculation before applying.
+                  Select your visa type, passenger count, and processing speed in the fee calculator
+                  below.
                 </p>
                 <button
                   onClick={() =>
@@ -380,117 +389,129 @@ export default function FeesPage() {
         className="relative w-full bg-white py-16 border-b-2 border-gray-200"
       >
         <div className="max-w-4xl mx-auto px-4">
-          <div className="bg-white border-4 border-brand-primary rounded-lg p-8 md:p-12 shadow-2xl">
-            <div className="text-center mb-8">
-              <div className="inline-flex items-center justify-center w-20 h-20 bg-brand-primary rounded-full mb-4 border-4 border-white shadow-lg">
-                <CalculatorIcon className="w-10 h-10 text-white" />
+          <div className="bg-white border-4 border-brand-primary rounded-xl p-6 md:p-8 shadow-2xl">
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="flex items-center justify-center w-12 h-12 bg-brand-primary rounded-full border-2 border-white shadow-md">
+                <CalculatorIcon className="w-6 h-6 text-white" />
               </div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Fee calculator</h2>
-              <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Estimate government + service fees. Select visa type and passengers (up to 15).
-                Urgent processing is added on the apply form when you choose it.
-              </p>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Fee calculator</h2>
             </div>
 
-            <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 mb-8">
-              <p className="text-gray-700 text-sm leading-relaxed text-center">
-                Service fee: ${SERVICE_FEE.toFixed(2)} per passenger. Optional{' '}
-                {VIETNAM_URGENCY_URGENT_LABEL} (${VIETNAM_URGENCY_FEE_URGENT.toFixed(2)}/pax) or{' '}
-                {VIETNAM_URGENCY_SUPER_LABEL} (${VIETNAM_URGENCY_FEE_SUPER_URGENT.toFixed(2)}/pax)
-                appears at checkout when selected—confirm your full total before paying.
-              </p>
-            </div>
+            <form className="space-y-5">
+              <div className="grid sm:grid-cols-2 gap-5">
+                <div className="space-y-2">
+                  <label
+                    htmlFor="visaType"
+                    className="block text-sm font-bold text-gray-900 uppercase tracking-wide"
+                  >
+                    Visa type
+                  </label>
+                  <select
+                    id="visaType"
+                    value={visaType}
+                    onChange={(e) => setVisaType(e.target.value)}
+                    className="w-full rounded-lg border-2 border-brand-primary px-4 py-3 text-base text-gray-900 font-semibold focus:ring-4 focus:ring-brand-primary/20 focus:border-brand-primary bg-white"
+                  >
+                    {visaOptions.map((option) => (
+                      <option key={option.value} value={option.value}>
+                        {option.label}
+                      </option>
+                    ))}
+                  </select>
+                </div>
 
-            <form className="space-y-6">
-              <div className="space-y-3">
+                <div className="space-y-2">
+                  <label
+                    htmlFor="passengers"
+                    className="block text-sm font-bold text-gray-900 uppercase tracking-wide"
+                  >
+                    Passengers
+                  </label>
+                  <input
+                    type="number"
+                    id="passengers"
+                    min="1"
+                    max="15"
+                    value={passengers === 0 ? '' : passengers}
+                    onChange={(e) => {
+                      const val = e.target.value;
+                      if (val === '') {
+                        setPassengers(0);
+                      } else {
+                        const num = parseInt(val);
+                        setPassengers(Math.max(1, Math.min(15, num)));
+                      }
+                    }}
+                    onBlur={(e) => {
+                      if (e.target.value === '' || parseInt(e.target.value) < 1) {
+                        setPassengers(1);
+                      } else if (parseInt(e.target.value) > 15) {
+                        setPassengers(15);
+                      }
+                    }}
+                    className="w-full rounded-lg border-2 border-brand-primary px-4 py-3 text-base text-gray-900 font-semibold focus:ring-4 focus:ring-brand-primary/20 focus:border-brand-primary bg-white"
+                  />
+                </div>
+              </div>
+
+              <div className="space-y-2">
                 <label
-                  htmlFor="visaType"
-                  className="block text-base font-bold text-gray-900 uppercase tracking-wide"
+                  htmlFor="processing"
+                  className="block text-sm font-bold text-gray-900 uppercase tracking-wide"
                 >
-                  Visa Type
+                  Processing speed
                 </label>
                 <select
-                  id="visaType"
-                  value={visaType}
-                  onChange={(e) => setVisaType(e.target.value)}
-                  className="w-full rounded-lg border-4 border-brand-primary px-6 py-4 text-lg text-gray-900 font-semibold 
-                             focus:ring-4 focus:ring-brand-primary/20 focus:border-brand-primary bg-white shadow-md
-                             transition-all duration-200 hover:border-brand-primary"
+                  id="processing"
+                  value={urgency}
+                  onChange={(e) => setUrgency(e.target.value as UrgencyValue)}
+                  className="w-full rounded-lg border-2 border-brand-primary px-4 py-3 text-base text-gray-900 font-semibold focus:ring-4 focus:ring-brand-primary/20 focus:border-brand-primary bg-white"
                 >
-                  {visaOptions.map((option) => (
-                    <option key={option.value} value={option.value}>
-                      {option.label}
-                    </option>
-                  ))}
+                  <option value="">{VIETNAM_NORMAL_LABEL} — included</option>
+                  <option value="urgent_48h">
+                    {VIETNAM_URGENCY_URGENT_LABEL} — +{formatUsd(VIETNAM_URGENCY_FEE_URGENT)}/pax
+                  </option>
+                  <option value="super_urgent_24h">
+                    {VIETNAM_URGENCY_SUPER_LABEL} — +{formatUsd(VIETNAM_URGENCY_FEE_SUPER_URGENT)}
+                    /pax
+                  </option>
                 </select>
               </div>
 
-              <div className="space-y-3">
-                <label
-                  htmlFor="passengers"
-                  className="block text-base font-bold text-gray-900 uppercase tracking-wide"
-                >
-                  Number of Passengers
-                </label>
-                <input
-                  type="number"
-                  id="passengers"
-                  min="1"
-                  max="15"
-                  value={passengers === 0 ? '' : passengers}
-                  onChange={(e) => {
-                    const val = e.target.value;
-                    if (val === '') {
-                      setPassengers(0);
-                    } else {
-                      const num = parseInt(val);
-                      setPassengers(Math.max(1, Math.min(15, num)));
-                    }
-                  }}
-                  onBlur={(e) => {
-                    if (e.target.value === '' || parseInt(e.target.value) < 1) {
-                      setPassengers(1);
-                    } else if (parseInt(e.target.value) > 15) {
-                      setPassengers(15);
-                    }
-                  }}
-                  className="w-full rounded-lg border-4 border-brand-primary px-6 py-4 text-lg text-gray-900 font-semibold 
-                             focus:ring-4 focus:ring-brand-primary/20 focus:border-brand-primary bg-white shadow-md
-                             transition-all duration-200 hover:border-brand-primary"
-                />
-              </div>
-
-              {/* Fee Breakdown */}
-              <div className="bg-white border-4 border-brand-primary rounded-lg p-6 space-y-4">
-                <h3 className="font-bold text-gray-900 text-lg mb-4 text-center uppercase tracking-wide">
-                  Fee Breakdown
-                </h3>
-                <div className="flex justify-between items-center pb-3 border-b-2 border-gray-200">
-                  <span className="text-gray-700 font-semibold">Government Fee:</span>
-                  <span className="font-bold text-brand-primary text-lg">
-                    US$ {govFee.toFixed(2)}
-                  </span>
+              <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-5 space-y-3">
+                <div className="flex justify-between items-center text-sm sm:text-base">
+                  <span className="text-gray-700 font-semibold">Government fee</span>
+                  <span className="font-bold text-brand-primary">US$ {govFee.toFixed(2)}</span>
                 </div>
-                <div className="flex justify-between items-center pb-3 border-b-2 border-gray-200">
-                  <span className="text-gray-700 font-semibold">Service Fee:</span>
-                  <span className="font-bold text-brand-primary text-lg">
-                    US$ {serviceFee.toFixed(2)}
-                  </span>
+                <div className="flex justify-between items-center text-sm sm:text-base">
+                  <span className="text-gray-700 font-semibold">Service fee</span>
+                  <span className="font-bold text-brand-primary">US$ {serviceFee.toFixed(2)}</span>
                 </div>
-                <div className="flex justify-between items-center pt-3 bg-brand-primary -mx-6 -mb-6 px-6 py-4 rounded-b-lg">
-                  <span className="font-bold text-white text-lg uppercase tracking-wide">
-                    Total Amount:
+                {urgencyFee > 0 && (
+                  <div className="flex justify-between items-center text-sm sm:text-base">
+                    <span className="text-gray-700 font-semibold">
+                      {urgency === 'urgent_48h'
+                        ? VIETNAM_URGENCY_URGENT_LABEL
+                        : VIETNAM_URGENCY_SUPER_LABEL}
+                    </span>
+                    <span className="font-bold text-brand-primary">
+                      US$ {urgencyFee.toFixed(2)}
+                    </span>
+                  </div>
+                )}
+                <div className="flex justify-between items-center pt-3 border-t-2 border-gray-300">
+                  <span className="font-bold text-gray-900 text-lg">Total</span>
+                  <span className="font-bold text-brand-primary text-2xl">
+                    US$ {total.toFixed(2)}
                   </span>
-                  <span className="font-bold text-white text-2xl">US$ {total.toFixed(2)}</span>
                 </div>
               </div>
 
               <Link
-                href={`/apply?type=${visaType}&passengers=${passengers}`}
-                className="w-full px-10 py-4 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-primary transition-all shadow-lg hover:shadow-xl uppercase tracking-wide text-base border-2 border-brand-primary flex items-center justify-center gap-2"
+                href={applyHref}
+                className="w-full px-8 py-4 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-primary/90 transition-all shadow-lg uppercase tracking-wide text-sm border-2 border-brand-primary flex items-center justify-center gap-2"
               >
-                Apply Now
+                Apply with this total
                 <svg
                   width="20"
                   height="20"

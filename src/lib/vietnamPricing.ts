@@ -112,7 +112,7 @@ export function getVietnamFeesMetaDescription(): string {
 }
 
 export function getVietnamFeesHeroSubtitle(): string {
-  return `Transparent pricing: government fees by visa type, a flat ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger, and optional ${VIETNAM_URGENCY_URGENT_LABEL} or ${VIETNAM_URGENCY_SUPER_LABEL} handling at checkout—no hidden charges.`;
+  return 'Transparent pricing with no hidden charges, no rush fees—just clear, official fees for total peace of mind.';
 }
 
 export function getVietnamFeesStructureSubtitle(): string {
