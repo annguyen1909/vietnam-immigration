@@ -17,8 +17,8 @@ interface EssentialEvisaResourcesProps {
 
 export default function EssentialEvisaResources({
   className = '',
-  title = 'Essential E-Visa Resources & Urgent Services',
-  subtitle = 'Quick access to our most requested guides, official fee calculators, and expedited processing services.',
+  title = 'Essential E-Visa Resources',
+  subtitle = 'Quick access to our most requested guides, transparent pricing tools, and practical urgent-processing references.',
 }: EssentialEvisaResourcesProps) {
   const strategicLinks = [
     {
@@ -32,9 +32,9 @@ export default function EssentialEvisaResources({
     },
     {
       href: '/processing',
-      anchor: 'E-Visa Processing Times',
+      anchor: 'E-Visa Processing Guide',
       description:
-        'Review standard timelines, step-by-step approval stages, and how to avoid processing delays.',
+        'Review standard timelines, common delay factors, and how to plan for urgent travel.',
       icon: ClockIcon,
       badge: 'Important',
       highlight: false,
@@ -50,18 +50,18 @@ export default function EssentialEvisaResources({
     },
     {
       href: '/blog/vietnam-evisa-processing-time-2026',
-      anchor: 'Official Processing Speed Guide',
+      anchor: 'Processing & Delay Guide',
       description:
-        'Comprehensive policy breakdown on official processing speed, public holiday impacts, and timeline factors.',
+        'Understand business-day timing, holiday slowdowns, and when 1-day or 3-day handling may help.',
       icon: BoltIcon,
       badge: 'Official Guide',
       highlight: false,
     },
     {
       href: '/faq/24-hour-vietnam-evisa',
-      anchor: '24-Hour Urgent E-Visa Service',
+      anchor: 'Urgent E-Visa Options',
       description:
-        'Need urgent approval? Discover our expedited 24-hour emergency processing service for immediate entry.',
+        'Compare Super Urgent (1 day) and Urgent (3 days) assisted handling for close departure dates.',
       icon: SparklesIcon,
       badge: 'Emergency',
       highlight: true,

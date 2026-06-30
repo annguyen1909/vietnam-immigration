@@ -35,6 +35,7 @@ faq:
 ---
 
 > **🛡️ E-E-A-T Verified Guide & Expert Review**
+>
 > - **Author:** Vietnam eVisa Assistance Team (Senior Immigration & Travel Specialists)
 > - **Fact-Checked & Verified By:** Nguyen Van Tuan (Senior Visa Processing Lead)
 > - **Compliance & Accuracy:** Updated for the latest 2026 Vietnam Immigration regulations regarding 90-day multiple-entry eVisa policies, border crossing protocols, and port requirements.
@@ -70,33 +71,33 @@ This 2026 guide covers how multiple-entry **tourist visa** products work, which 
 
 ## Quick answer: Vietnam multiple-entry eVisa at a glance
 
-| Item | 2026 summary |
-| --- | --- |
-| **Single entry govt fee** | **$55** — one arrival period; exit usually ends the visa |
-| **Multiple entry govt fee** | **$80** — leave and re-enter within validity |
-| **Assisted service fee** | **$59.99 per passenger** (same for both entry types) |
-| **Max stay per product** | Up to **90 days** on standard eVisa products; some approvals show **30 days** per visit |
-| **Number of entries** | Single = one arrival period; multiple = leave and return while the **visa is valid** |
-| **Visa process time** | Allow **7–14+ working days** before departure; see our [processing times](/blog/vietnam-evisa-processing-time-2026) guide |
-| **What "multiple" means** | Multiple **border crossings**—not unlimited years in-country |
-| **Best for** | Regional loops, Cambodia/Laos/Thailand side trips, cruise re-embarkation |
-| **Skip multiple if** | Entire trip stays inside Vietnam with no international exit |
-| **Upgrade after approval?** | **Generally no**—reapply with correct product |
-| **Entry ports** | Each arrival must match approved ports on your PDF |
+| Item                        | 2026 summary                                                                                                              |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Single entry govt fee**   | **$55** — one arrival period; exit usually ends the visa                                                                  |
+| **Multiple entry govt fee** | **$80** — leave and re-enter within validity                                                                              |
+| **Assisted service fee**    | **$59.99 per passenger** (same for both entry types)                                                                      |
+| **Max stay per product**    | Up to **90 days** on standard eVisa products; some approvals show **30 days** per visit                                   |
+| **Number of entries**       | Single = one arrival period; multiple = leave and return while the **visa is valid**                                      |
+| **Visa process time**       | Allow **7–14+ working days** before departure; see our [processing times](/blog/vietnam-evisa-processing-time-2026) guide |
+| **What "multiple" means**   | Multiple **border crossings**—not unlimited years in-country                                                              |
+| **Best for**                | Regional loops, Cambodia/Laos/Thailand side trips, cruise re-embarkation                                                  |
+| **Skip multiple if**        | Entire trip stays inside Vietnam with no international exit                                                               |
+| **Upgrade after approval?** | **Generally no**—reapply with correct product                                                                             |
+| **Entry ports**             | Each arrival must match approved ports on your PDF                                                                        |
 
 **Best for:** Backpackers on overland routes, multi-country holiday planners, business travelers with repeat regional trips, and cruise passengers who re-board in Vietnam.
 
 > **⚡ TIMING IS CRITICAL FOR REGIONAL TRAVEL**
-> Don't let processing delays disrupt your multi-country itinerary. Discover the accurate [multiple entry processing time](/processing) to know exactly when to submit your application and guarantee your eVisa arrives before your first departure flight.
+> Don't let processing delays disrupt your multi-country itinerary. Review the latest [multiple entry processing time](/processing) guidance so you can plan a realistic application window before your first departure flight.
 
 ## Single vs multiple entry: plain language
 
 The difference is not subtle—it is binary at the border.
 
-| Type | What you can do | Government fee (90-day product) |
-| --- | --- | ---: |
-| **Single entry** | Enter Vietnam **once** during the validity window. When you leave the country, you usually **use up** the visa. | **$55** |
-| **Multiple entry** | You may **leave and re-enter Vietnam** several times while the visa stays valid. Each visit must follow the stay limit on your PDF. | **$80** |
+| Type               | What you can do                                                                                                                     | Government fee (90-day product) |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------: |
+| **Single entry**   | Enter Vietnam **once** during the validity window. When you leave the country, you usually **use up** the visa.                     |                         **$55** |
+| **Multiple entry** | You may **leave and re-enter Vietnam** several times while the visa stays valid. Each visit must follow the stay limit on your PDF. |                         **$80** |
 
 "Multiple entry" does **not** mean:
 
@@ -121,26 +122,26 @@ Full fee context: [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explai
 
 ### Regional air loops
 
-| Trip sketch | Why multiple entry |
-| --- | --- |
-| **Ho Chi Minh City → Bangkok (5 days) → Ho Chi Minh City** | International exit and return |
-| **Da Nang → Singapore weekend → Da Nang** | Second international arrival into Vietnam |
-| **Hanoi → Kuala Lumpur meeting → Hanoi** | Business or tourism return leg |
+| Trip sketch                                                | Why multiple entry                        |
+| ---------------------------------------------------------- | ----------------------------------------- |
+| **Ho Chi Minh City → Bangkok (5 days) → Ho Chi Minh City** | International exit and return             |
+| **Da Nang → Singapore weekend → Da Nang**                  | Second international arrival into Vietnam |
+| **Hanoi → Kuala Lumpur meeting → Hanoi**                   | Business or tourism return leg            |
 
 ### Overland backpacker routes
 
-| Trip sketch | Why multiple entry |
-| --- | --- |
-| **Hanoi → Laos (Luang Prabang) → Da Nang by land** | Exit Vietnam north, re-enter central coast |
-| **Ho Chi Minh City → Phnom Penh bus → return by bus** | Classic Mekong route |
-| **Hoi An → Lao Bao border → Hue return** | Central Vietnam–Laos loops |
+| Trip sketch                                           | Why multiple entry                         |
+| ----------------------------------------------------- | ------------------------------------------ |
+| **Hanoi → Laos (Luang Prabang) → Da Nang by land**    | Exit Vietnam north, re-enter central coast |
+| **Ho Chi Minh City → Phnom Penh bus → return by bus** | Classic Mekong route                       |
+| **Hoi An → Lao Bao border → Hue return**              | Central Vietnam–Laos loops                 |
 
 ### Cruise and tour patterns
 
-| Trip sketch | Why multiple entry |
-| --- | --- |
+| Trip sketch                                                    | Why multiple entry                |
+| -------------------------------------------------------------- | --------------------------------- |
 | **Disembark Da Nang for tour, ship sails, rejoin at Phu Quoc** | Two international Vietnam entries |
-| **Vietnam port call → Thailand port → Vietnam port call** | Multi-country sailing |
+| **Vietnam port call → Thailand port → Vietnam port call**      | Multi-country sailing             |
 
 ### Planning a border run in Vietnam
 
@@ -160,10 +161,10 @@ If every leg stays **inside Vietnam** without crossing an international border, 
 
 Your approval PDF shows concepts travelers routinely confuse. Mixing them up causes overstays and re-entry problems.
 
-| Concept | What it means | Example |
-| --- | --- | --- |
-| **Valid from / valid until** | Calendar window when **visas valid** for entry | Valid 1 Apr – 30 Jun 2026 |
-| **Duration of stay** | Maximum **days per entry** or total allowed stay | 30 or 90 days per visit (as printed) |
+| Concept                      | What it means                                    | Example                              |
+| ---------------------------- | ------------------------------------------------ | ------------------------------------ |
+| **Valid from / valid until** | Calendar window when **visas valid** for entry   | Valid 1 Apr – 30 Jun 2026            |
+| **Duration of stay**         | Maximum **days per entry** or total allowed stay | 30 or 90 days per visit (as printed) |
 
 **Rules that follow:**
 
@@ -189,21 +190,21 @@ Always read **your** PDF wording—field labels vary slightly by issuance period
 
 ## Cost difference: when $25 saves hundreds
 
-| Cost item | Single entry | Multiple entry |
-| --- | ---: | ---: |
-| Government fee | $55 | $80 |
-| Service fee (assisted portal) | $59.99 | $59.99 |
-| **Assisted total (1 pax)** | **$114.99** | **$139.99** |
-| **Difference** | — | **+$25 govt / +$25 total** |
+| Cost item                     | Single entry |             Multiple entry |
+| ----------------------------- | -----------: | -------------------------: |
+| Government fee                |          $55 |                        $80 |
+| Service fee (assisted portal) |       $59.99 |                     $59.99 |
+| **Assisted total (1 pax)**    |  **$114.99** |                **$139.99** |
+| **Difference**                |            — | **+$25 govt / +$25 total** |
 
 ### Cost-benefit scenarios
 
-| Situation | Smart choice | Why |
-| --- | --- | --- |
-| 10-day Vietnam only, no exits | Single entry | Save $25 |
-| 3-week trip with Angkor Wat weekend | Multiple entry | Second visa costs ~$115+ assisted |
-| "Maybe" Laos side trip | Multiple entry | Uncertainty tax is only $25 |
-| Family of 4 with regional loop | Multiple entry × 4 | One wrong entry type × 4 people = major rework |
+| Situation                           | Smart choice       | Why                                            |
+| ----------------------------------- | ------------------ | ---------------------------------------------- |
+| 10-day Vietnam only, no exits       | Single entry       | Save $25                                       |
+| 3-week trip with Angkor Wat weekend | Multiple entry     | Second visa costs ~$115+ assisted              |
+| "Maybe" Laos side trip              | Multiple entry     | Uncertainty tax is only $25                    |
+| Family of 4 with regional loop      | Multiple entry × 4 | One wrong entry type × 4 people = major rework |
 
 > **💡 MAXIMIZE YOUR BUDGET & COMPARE COSTS**
 > Wondering about the exact breakdown between government costs and service assistance? Check the official [vietnam visa fee for multiple entry](/fees) to view our transparent pricing table, compare single vs multiple entry packages, and avoid unexpected surcharges during your travels.
@@ -232,14 +233,14 @@ Wrong port on any leg = same consequences as a first-arrival mismatch. Full port
 
 Second and third arrivals get real scrutiny. Officers verify:
 
-| Check | Re-entry implication |
-| --- | --- |
-| Passport number matches eVisa | Same booklet as application |
-| Visa still within **valid until** date | Expired visa = refusal |
-| **Multiple entry** on PDF | Single-entry holders cannot return |
-| Previous visit did not **overstay** | Overstay stamps hurt re-entry |
-| Stay allowance remaining | Per PDF rules and entry stamp |
-| Purpose consistency | Tourism vs business answers align with visa |
+| Check                                  | Re-entry implication                        |
+| -------------------------------------- | ------------------------------------------- |
+| Passport number matches eVisa          | Same booklet as application                 |
+| Visa still within **valid until** date | Expired visa = refusal                      |
+| **Multiple entry** on PDF              | Single-entry holders cannot return          |
+| Previous visit did not **overstay**    | Overstay stamps hurt re-entry               |
+| Stay allowance remaining               | Per PDF rules and entry stamp               |
+| Purpose consistency                    | Tourism vs business answers align with visa |
 
 ### Strict re-entry requirements
 
@@ -255,9 +256,9 @@ To ensure a smooth second or third arrival, you must fully comply with all offic
 
 Both **tourist visa** and business eVisas offer multiple-entry products at the **same government fee** ($80 multiple vs $55 single on our portal).
 
-| Purpose | Multiple entry typical use |
-| --- | --- |
-| **Tourism** | Regional holidays, overland exploration, cruise loops |
+| Purpose      | Multiple entry typical use                                                           |
+| ------------ | ------------------------------------------------------------------------------------ |
+| **Tourism**  | Regional holidays, overland exploration, cruise loops                                |
 | **Business** | Recurring client visits, quarterly factory audits, multi-country conference circuits |
 
 Business travelers still cannot use a tourist eVisa for local employment. Multiple entry does not convert visa purpose—it only adds border crossings.
@@ -281,7 +282,7 @@ Some travelers qualify for short **visa exemption** on first entry but still nee
 - You typically must **apply again** with multiple entry (full fees, new processing time)
 
 > **🚨 URGENT & EMERGENCY FLIGHT DEPARTURES**
-> Stuck at an airport or border crossing with the wrong visa type? If you need immediate re-entry approval or a last-minute crossing permit, apply directly through our 24/7 priority portal for an [urgent multiple entry evisa](/faq/24-hour-vietnam-evisa) to secure your official approval letter in record time.
+> Stuck at an airport or border crossing with the wrong visa type? If you need a last-minute re-entry solution, review our [urgent multiple entry evisa options](/faq/24-hour-vietnam-evisa) and contact support for the fastest realistic path.
 
 **Before first departure:** If your travel plan needs multiple entry, contact support right away with your reference number. We have limited options after you submit.
 
@@ -289,15 +290,15 @@ Some travelers qualify for short **visa exemption** on first entry but still nee
 
 ## Common multiple-entry mistakes
 
-| Mistake | Consequence | Prevention |
-| --- | --- | --- |
-| **Single entry + Cambodia weekend** | Cannot re-enter; new visa required | Buy multiple entry upfront |
-| **Assuming ASEAN visa-free rules replace eVisa** | Confusion at counter | Your eVisa governs Vietnam entry—not regional **visa exemption** rumors |
-| **Overstaying first visit** | Re-entry denial or fines | Track entry stamp dates |
-| **Working locally on tourist multiple entry** | Legal risk regardless of entry type | Use proper work permits |
-| **Child without own eVisa** | Family split at border | Per-child applications |
-| **Wrong port on second entry** | Refusal at land gate | Match PDF ports every time |
-| **Expired validity on return** | Visa window closed | Plan last re-entry before valid until date |
+| Mistake                                          | Consequence                         | Prevention                                                              |
+| ------------------------------------------------ | ----------------------------------- | ----------------------------------------------------------------------- |
+| **Single entry + Cambodia weekend**              | Cannot re-enter; new visa required  | Buy multiple entry upfront                                              |
+| **Assuming ASEAN visa-free rules replace eVisa** | Confusion at counter                | Your eVisa governs Vietnam entry—not regional **visa exemption** rumors |
+| **Overstaying first visit**                      | Re-entry denial or fines            | Track entry stamp dates                                                 |
+| **Working locally on tourist multiple entry**    | Legal risk regardless of entry type | Use proper work permits                                                 |
+| **Child without own eVisa**                      | Family split at border              | Per-child applications                                                  |
+| **Wrong port on second entry**                   | Refusal at land gate                | Match PDF ports every time                                              |
+| **Expired validity on return**                   | Visa window closed                  | Plan last re-entry before valid until date                              |
 
 Extended checklist: [10 Vietnam eVisa mistakes to avoid](/blog/vietnam-evisa-common-mistakes-2026).
 
@@ -305,12 +306,12 @@ Extended checklist: [10 Vietnam eVisa mistakes to avoid](/blog/vietnam-evisa-com
 
 Heavy business commuters or travelers needing **longer validity** than standard eVisa windows sometimes prefer **embassy-issued multiple-entry stickers** from **embassies or consulates**:
 
-| Factor | Multiple-entry eVisa | Embassy sticker |
-| --- | --- | --- |
-| Application | Online, from home | Consulate appointment or mail |
-| Speed | Days (assisted tiers available) | Often 1–3+ weeks per **business day** calendar |
-| Passport handling | Usually stays with you | May require mailing passport |
-| Validity options | Per online products | Consular discretion |
+| Factor            | Multiple-entry eVisa            | Embassy sticker                                |
+| ----------------- | ------------------------------- | ---------------------------------------------- |
+| Application       | Online, from home               | Consulate appointment or mail                  |
+| Speed             | Days (assisted tiers available) | Often 1–3+ weeks per **business day** calendar |
+| Passport handling | Usually stays with you          | May require mailing passport                   |
+| Validity options  | Per online products             | Consular discretion                            |
 
 For most tourists and short business trips, online multiple-entry eVisas are enough. Embassy routes help when online products do not fit duration, purpose, or passport country.
 
@@ -336,7 +337,6 @@ Walkthrough: [how to apply for a Vietnam eVisa online](/blog/how-to-apply-vietna
 - [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026)
 - [Vietnam eVisa requirements 2026](/blog/vietnam-evisa-requirements-guide-2026)
 - [Entry points FAQ](/faq/vietnam-evisa-entry-points)
-
 
 ## Frequently asked questions
 

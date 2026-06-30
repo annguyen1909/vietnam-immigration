@@ -5,7 +5,12 @@ import { useState } from 'react';
 import SiteFooter from '@/components/layout/SiteFooter';
 
 const US_PHONE = '+1 323 286 4541';
-// const UK_PHONE = '+44 5555 000000'; // Hidden but not deleted
+
+type RegionCountry = {
+  country: string;
+  flag: string;
+  language?: string;
+};
 
 const asiaPacificCountries = [
   { country: 'Australia/New Zealand', flag: '🇦🇺', language: 'English' },
@@ -104,7 +109,7 @@ function Table({
   phone,
   languageDefault,
 }: {
-  countries: any[];
+  countries: RegionCountry[];
   phone: string;
   languageDefault?: string;
 }) {

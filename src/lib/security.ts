@@ -139,13 +139,17 @@ export function validatePasswordStrength(password: string): { valid: boolean; er
   };
 }
 
-export function sanitizeForLogging(data: any): any {
+export function sanitizeForLogging(data: unknown): unknown {
   if (typeof data === 'string') {
     return data.replace(/password|token|secret|key/gi, '[REDACTED]');
   }
 
+  if (Array.isArray(data)) {
+    return data.map((item) => sanitizeForLogging(item));
+  }
+
   if (typeof data === 'object' && data !== null) {
-    const sanitized: any = {};
+    const sanitized: Record<string, unknown> = {};
     for (const [key, value] of Object.entries(data)) {
       if (typeof key === 'string' && /password|token|secret|key/i.test(key)) {
         sanitized[key] = '[REDACTED]';

@@ -11,7 +11,7 @@ import JsonLd from '@/components/seo/JsonLd';
 export const metadata: Metadata = buildStaticPageMetadata({
   title: 'Vietnam eVisa Troubleshooting & Emergency Fixes',
   description:
-    'Fix payment failures, name mismatches, and last-minute Vietnam eVisa errors. Step-by-step guides with rush support in 2–4 hours.',
+    'Fix payment failures, name mismatches, and last-minute Vietnam eVisa errors. Step-by-step guides with practical rush guidance for close departure dates.',
   path: '/troubleshooting',
 });
 

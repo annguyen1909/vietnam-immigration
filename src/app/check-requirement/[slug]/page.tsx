@@ -200,7 +200,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                     href="/faq/24-hour-vietnam-evisa"
                     className="text-brand-primary font-bold hover:underline"
                   >
-                    urgent evisa vietnam
+                    urgent eVisa guide
                   </Link>{' '}
                   options when your arrival date is close.
                 </p>

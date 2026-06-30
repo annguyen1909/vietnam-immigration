@@ -590,7 +590,7 @@ export default function FeesPage() {
                   href="/faq/24-hour-vietnam-evisa"
                   className="text-base font-bold text-brand-primary underline hover:text-brand-primary/80 block flex items-center gap-2"
                 >
-                  <span>apply for urgent evisa vietnam</span>
+                  <span>compare urgent eVisa options</span>
                   <svg
                     className="w-4 h-4"
                     fill="none"
@@ -621,7 +621,7 @@ export default function FeesPage() {
                   href="/blog/vietnam-evisa-multiple-entry-guide-2026"
                   className="text-base font-bold text-brand-primary underline hover:text-brand-primary/80 block flex items-center gap-2"
                 >
-                  <span>multiple entry visa vietnam fees</span>
+                  <span>compare multiple-entry costs</span>
                   <svg
                     className="w-4 h-4"
                     fill="none"

@@ -7,6 +7,13 @@ import { usePathname } from 'next/navigation';
 
 const SITE_ID = 'vietnam-local-site-2';
 
+interface ChatAttachment {
+  id: string;
+  filename: string;
+  type?: string;
+  size?: number;
+}
+
 interface Message {
   id: string;
   sessionId: string;
@@ -15,7 +22,7 @@ interface Message {
   content: string;
   type: 'user' | 'system';
   sentAt: string;
-  attachments: string | null;
+  attachments: string | ChatAttachment[] | null;
   senderName?: string;
   deliveredAt?: string;
   readAt?: string;
@@ -45,7 +52,7 @@ export default function ContactWidget() {
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const typingTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const [attachments, setAttachments] = useState<any[]>([]);
+  const [attachments, setAttachments] = useState<ChatAttachment[]>([]);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [showCookieBanner, setShowCookieBanner] = useState(false);
   const [cookiePreferences, setCookiePreferences] = useState({
@@ -401,7 +408,13 @@ export default function ContactWidget() {
   };
 
   // Helper: parse attachments from various formats
-  const parseAttachments = (attachments: any): any[] => {
+  const isChatAttachment = (value: unknown): value is ChatAttachment => {
+    if (!value || typeof value !== 'object') return false;
+    const candidate = value as Partial<ChatAttachment>;
+    return typeof candidate.id === 'string' && typeof candidate.filename === 'string';
+  };
+
+  const parseAttachments = (attachments: unknown): ChatAttachment[] => {
     if (!attachments) return [];
 
     console.log('DEBUG attachments raw:', attachments);
@@ -413,7 +426,7 @@ export default function ContactWidget() {
       typeof attachments[0] === 'object'
     ) {
       console.log('DEBUG attachments: array of objects');
-      return attachments;
+      return attachments.filter(isChatAttachment);
     }
 
     // If it's a string, try to parse it
@@ -421,7 +434,7 @@ export default function ContactWidget() {
       try {
         const parsed = JSON.parse(attachments);
         console.log('DEBUG attachments: parsed from string:', parsed);
-        return Array.isArray(parsed) ? parsed : [];
+        return Array.isArray(parsed) ? parsed.filter(isChatAttachment) : [];
       } catch (err) {
         console.error('DEBUG attachments: failed to parse string:', err);
         return [];
@@ -443,7 +456,7 @@ export default function ContactWidget() {
           }
           return item;
         })
-        .filter(Boolean);
+        .filter(isChatAttachment);
     }
 
     console.log('DEBUG attachments: unknown format, returning empty array');
@@ -470,7 +483,7 @@ export default function ContactWidget() {
       content: messageContent || '',
       type: 'user',
       sentAt: new Date().toISOString(),
-      attachments: attachments.length > 0 ? (attachments as any) : null,
+      attachments: attachments.length > 0 ? attachments : null,
     };
     setMessages((prev) => [...prev, optimisticMessage]);
     setNewMessage('');
