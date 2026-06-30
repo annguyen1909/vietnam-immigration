@@ -40,7 +40,7 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
       <div className="flex justify-end w-full">
         <button
           aria-label="Open help menu"
-          className="flex items-center gap-2 bg-white text-brand-accent rounded-full shadow-lg px-4 py-2 font-bold border-2 border-brand-accent hover:scale-105 transition text-base md:text-lg"
+          className="flex items-center gap-2 bg-white text-brand-accent rounded-full shadow-lg px-4 py-2 min-h-[48px] min-w-[48px] font-bold border-2 border-brand-accent hover:scale-105 transition text-base md:text-lg"
           onClick={() => setOpen(true)}
           style={{ minWidth: 120 }}
         >
@@ -152,7 +152,7 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
               {/* Close button */}
               <button
                 aria-label="Close help menu"
-                className="absolute top-2 right-2 text-gray-400 hover:text-[var(--brand-primary-dark)] text-xl font-bold p-1 rounded focus:outline-none focus:ring-2 focus:ring-[var(--brand-primary-dark)]"
+                className="absolute top-2 right-2 text-gray-400 hover:text-[var(--brand-primary-dark)] text-xl font-bold min-h-[48px] min-w-[48px] p-1 rounded focus:outline-none focus:ring-2 focus:ring-[var(--brand-primary-dark)]"
                 onClick={() => setOpen(false)}
                 tabIndex={0}
               >

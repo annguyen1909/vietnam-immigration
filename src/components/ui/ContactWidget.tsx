@@ -547,7 +547,7 @@ export default function ContactWidget() {
     <>
       {/* Cookie Banner - Appears once when user first visits */}
       {showCookieBanner && (
-        <div className="fixed bottom-4 right-4 max-w-sm bg-white rounded-lg shadow-lg border border-gray-200 z-[60] p-4">
+        <div className="fixed bottom-0 left-0 right-0 w-full sm:bottom-4 sm:right-4 sm:left-auto sm:max-w-sm bg-white sm:rounded-lg shadow-lg border-t sm:border border-gray-200 z-[60] p-4">
           <div className="flex items-start gap-3">
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-2">
@@ -559,29 +559,32 @@ export default function ContactWidget() {
                 cookies.
               </p>
 
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 <button
                   onClick={() => handleCookieAccept(true)}
-                  className="px-3 py-1 bg-brand-primary text-white rounded text-xs font-medium hover:bg-brand-primary-dark transition-colors"
+                  className="px-3 py-2 min-h-[48px] flex items-center justify-center bg-brand-primary text-white rounded text-xs font-medium hover:bg-brand-primary-dark transition-colors"
                 >
                   Accept All
                 </button>
                 <button
                   onClick={() => handleCookieAccept()}
-                  className="px-3 py-1 bg-gray-100 text-brand-ink rounded text-xs font-medium hover:bg-gray-200 transition-colors"
+                  className="px-3 py-2 min-h-[48px] flex items-center justify-center bg-gray-100 text-brand-ink rounded text-xs font-medium hover:bg-gray-200 transition-colors"
                 >
                   Accept
                 </button>
                 <button
                   onClick={handleCookieReject}
-                  className="px-3 py-1 border border-gray-300 text-gray-600 rounded text-xs font-medium hover:bg-gray-50 transition-colors"
+                  className="px-3 py-2 min-h-[48px] flex items-center justify-center border border-gray-300 text-gray-600 rounded text-xs font-medium hover:bg-gray-50 transition-colors"
                 >
                   Decline
                 </button>
               </div>
             </div>
 
-            <button onClick={handleCookieReject} className="text-gray-400 hover:text-gray-700 p-1">
+            <button
+              onClick={handleCookieReject}
+              className="text-gray-400 hover:text-gray-700 min-h-[48px] min-w-[48px] p-2 flex items-center justify-center"
+            >
               <FiX className="w-4 h-4" />
             </button>
           </div>

@@ -159,7 +159,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           { name: faq.question, href: faqPath(slug) },
         ]}
       />
-      <main className="relative min-h-screen w-full bg-white text-gray-900">
+      <main className="relative min-h-screen w-full bg-white text-gray-900 overflow-x-hidden">
         {/* Official Header Banner */}
         <div className="brand-banner">
           <div className="max-w-7xl mx-auto px-4 flex items-center justify-center gap-3">
@@ -290,7 +290,6 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 export async function generateStaticParams() {
   // Hardcoded slugs for all known FAQ posts
   return [
-    { slug: '24-hour-vietnam-evisa' },
     { slug: 'family-group-vietnam-evisa' },
     { slug: 'children-visa-vietnam' },
     { slug: 'vietnam-evisa-requirements' },
@@ -300,5 +299,6 @@ export async function generateStaticParams() {
     { slug: 'medical-visa-vietnam' },
     { slug: 'work-in-vietnam-on-tourist-visa' },
     { slug: 'cruise-passenger-visa-vietnam' },
+    { slug: '24-hour-vietnam-evisa' },
   ];
 }

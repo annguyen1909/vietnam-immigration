@@ -6,7 +6,7 @@ import JsonLd from '@/components/seo/JsonLd';
 import { TRUST_ENTITY } from '@/components/seo/constants';
 
 export const metadata: Metadata = buildStaticPageMetadata({
-  title: 'Vietnam eVisa Fees & Pricing',
+  title: 'Vietnam Visa Fees 2026 - Official Costs & Transparent Pricing',
   description: getVietnamFeesMetaDescription(),
   path: '/fees',
 });
@@ -15,23 +15,19 @@ export default function FeesLayout({ children }: { children: React.ReactNode }) 
   const siteUrl = getPublicSiteUrl();
   const pricing = getVietnamVisaOffers();
 
-  const serviceSchema = {
+  const productSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Service',
-    name: 'Vietnam eVisa Processing & Support Fees',
-    serviceType: 'Vietnam eVisa Application Assistance',
+    '@type': 'Product',
+    name: 'Vietnam eVisa Application Assistance & Processing Packages',
+    description:
+      'Transparent Vietnam eVisa packages covering mandatory Government Stamping Fee and professional consultancy & support services.',
+    category: 'Immigration & Visa Services',
     url: `${siteUrl}/fees`,
-    provider: {
+    brand: {
       '@type': 'Organization',
       name: TRUST_ENTITY.name,
       url: siteUrl,
     },
-    areaServed: {
-      '@type': 'Place',
-      name: 'Worldwide',
-    },
-    description:
-      'Current service fees and government visa pricing for Vietnam eVisa applications with professional support.',
     offers: {
       '@type': 'AggregateOffer',
       priceCurrency: pricing.currency,
@@ -46,13 +42,27 @@ export default function FeesLayout({ children }: { children: React.ReactNode }) 
         priceCurrency: pricing.currency,
         url: `${siteUrl}/apply`,
         availability: 'https://schema.org/InStock',
+        priceSpecification: [
+          {
+            '@type': 'UnitPriceSpecification',
+            name: 'Government Stamping Fee',
+            price: offer.govFee.toFixed(2),
+            priceCurrency: pricing.currency,
+          },
+          {
+            '@type': 'UnitPriceSpecification',
+            name: 'Our Service & Consultancy Fee',
+            price: offer.serviceFee.toFixed(2),
+            priceCurrency: pricing.currency,
+          },
+        ],
       })),
     },
   };
 
   return (
     <>
-      <JsonLd data={serviceSchema} />
+      <JsonLd data={productSchema} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', href: '/' },

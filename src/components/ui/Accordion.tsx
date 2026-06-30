@@ -13,7 +13,7 @@ export default function Accordion({ title, children }: AccordionProps) {
   return (
     <div className="border border-gray-200 rounded-lg bg-white shadow-sm">
       <button
-        className="w-full flex justify-between items-center px-4 py-3 text-left font-semibold text-brand-ink focus:outline-none focus:ring-2 focus:ring-[var(--brand-primary)] rounded-t-lg transition-colors hover:bg-brand-surface-alt"
+        className="w-full flex justify-between items-center px-4 py-3 min-h-[48px] text-left font-semibold text-brand-ink focus:outline-none focus:ring-2 focus:ring-[var(--brand-primary)] rounded-t-lg transition-colors hover:bg-brand-surface-alt"
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
         aria-controls={`accordion-content-${title.replace(/\s+/g, '-')}`}

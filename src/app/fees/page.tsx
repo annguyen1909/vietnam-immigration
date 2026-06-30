@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import SiteFooter from '@/components/layout/SiteFooter';
 import Link from 'next/link';
-import { CurrencyDollarIcon, ShieldCheckIcon, CalculatorIcon } from '@heroicons/react/24/outline';
+import { CalculatorIcon, DocumentCheckIcon } from '@heroicons/react/24/outline';
 import type { VietnamVisaTypeView } from '@/lib/vietnamVisa';
 import {
   VIETNAM_SERVICE_FEE_PER_PAX,
@@ -14,8 +14,6 @@ import {
   VIETNAM_URGENCY_URGENT_LABEL,
   VIETNAM_VISA_PRODUCTS,
   formatUsd,
-  getVietnamFeesHeroSubtitle,
-  VIETNAM_GOV_FEE_SUMMARY,
 } from '@/lib/vietnamPricing';
 import type { UrgencyValue } from '@/lib/urgency';
 import { deriveApplyQueryFromVisaId } from '@/lib/vietnamVisa';
@@ -30,7 +28,6 @@ const FALLBACK_VISA_OPTIONS: VisaOption[] = VIETNAM_VISA_PRODUCTS.map((p) => ({
 
 export default function FeesPage() {
   const SERVICE_FEE = VIETNAM_SERVICE_FEE_PER_PAX;
-  const [visaTypes, setVisaTypes] = useState<VietnamVisaTypeView[]>([]);
   const [visaOptions, setVisaOptions] = useState<VisaOption[]>(FALLBACK_VISA_OPTIONS);
   const [visaType, setVisaType] = useState(FALLBACK_VISA_OPTIONS[0]?.value ?? '');
   const [passengers, setPassengers] = useState(1);
@@ -42,7 +39,6 @@ export default function FeesPage() {
         const res = await fetch('/api/destinations/vietnam/visa-types');
         if (!res.ok) return;
         const data: VietnamVisaTypeView[] = await res.json();
-        setVisaTypes(data);
         const options = data.map((v) => ({
           value: v.applyQuery,
           label: v.name,
@@ -73,14 +69,16 @@ export default function FeesPage() {
   const applyHref = `/apply?type=${visaType}&passengers=${passengers}`;
 
   return (
-    <main className={`relative min-h-screen w-full bg-brand-surface text-brand-ink`}>
+    <main
+      className={`relative min-h-screen w-full bg-brand-surface text-brand-ink overflow-x-hidden`}
+    >
       {/* Official Header Banner */}
       <div className="brand-banner">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-center gap-3">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-white"></div>
             <span className="text-white text-sm font-semibold uppercase tracking-wider">
-              Assisted eVisa Service
+              Official Vietnam E-Visa Application Assistance
             </span>
             <div className="w-2 h-2 rounded-full bg-white"></div>
           </div>
@@ -93,22 +91,34 @@ export default function FeesPage() {
           <div className="text-center mb-12">
             <div className="inline-block px-4 py-2 bg-brand-primary rounded-lg mb-4 border-2 border-white shadow-md">
               <span className="text-sm font-bold text-white uppercase tracking-wide">
-                Pricing & Fees
+                2026 Transparent Pricing
               </span>
             </div>
+            {/* H1 chứa từ khóa `vietnam visa fee` */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
-              Vietnam Visa Fee &amp; Pricing
-              <span className="block text-brand-primary">Urgent &amp; Emergency eVisa Vietnam</span>
+              Vietnam Visa Fee 2026
+              <span className="block text-brand-primary">
+                Official Costs &amp; Transparent Pricing
+              </span>
             </h1>
-            <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
+            <div className="w-24 h-1 bg-brand-primary mx-auto mb-6"></div>
+            {/* Đoạn 100 từ đầu tiên chứa từ khóa `vietnam visa fee` và các entity chuyên ngành */}
             <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              {getVietnamFeesHeroSubtitle()}
+              Understanding the exact <strong>vietnam visa fee</strong> is essential for smooth and
+              hassle-free travel preparation. For 2026, our transparent pricing model ensures zero
+              hidden costs by clearly separating the mandatory government{' '}
+              <strong>stamping fee</strong> required by the Vietnam{' '}
+              <strong>Immigration Department</strong> from our professional consultancy and support
+              fee. Whether you are entering through an international airport, seaport, or land{' '}
+              <strong>border control</strong>, ensure your <strong>passport validity</strong> meets
+              official requirements and proceed with total confidence through our dedicated
+              assistance service.
             </p>
           </div>
 
           {/* Hero Image */}
           <div className="max-w-4xl mx-auto">
-            <div className="relative w-full h-64 sm:h-80 rounded-xl overflow-hidden border-4 border-brand-primary shadow-2xl">
+            <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] rounded-xl overflow-hidden border-4 border-brand-primary shadow-2xl">
               <Image
                 src="/img/vietnam-hero.jpg"
                 alt="Vietnam eVisa pricing and majestic scenery"
@@ -123,183 +133,222 @@ export default function FeesPage() {
         </div>
       </section>
 
-      {/* Pricing Breakdown Section */}
-      <section className="relative w-full bg-white py-16 md:py-24 border-b-2 border-gray-200">
+      {/* Disambiguation & Entity Authority Section */}
+      <section className="relative w-full bg-white py-12 border-b-2 border-gray-200">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="bg-blue-50 border-l-8 border-brand-primary rounded-r-xl p-6 sm:p-8 shadow-md">
+            <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+              <DocumentCheckIcon className="w-6 h-6 text-brand-primary flex-shrink-0" />
+              <span>Immigration Authority &amp; Fee Clarification</span>
+            </h3>
+            <p className="text-gray-700 text-base leading-relaxed">
+              Please note that official immigration charges are strictly established by the Vietnam{' '}
+              <strong>Immigration Department</strong> for foreign travelers entering via air, land,
+              or maritime <strong>border control</strong>. These mandatory travel entry costs are
+              entirely unrelated to domestic educational or professional testing charges (such as a
+              mos exam fee vietnam). When submitting your application through the official{' '}
+              <strong>e-visa portal</strong> or via our full-service assistance platform, your
+              overall total consists exclusively of the required government{' '}
+              <strong>stamping fee</strong> and our premium consultancy fee. Always confirm that
+              your <strong>passport validity</strong> extends at least six months beyond your
+              intended arrival date before applying.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 2-Column Transparent Pricing Table Section */}
+      <section className="relative w-full bg-gradient-to-b from-white to-gray-50 py-16 md:py-24 border-b-2 border-gray-200">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              One Transparent Package, Zero Hidden Fees
+              Transparent Pricing Breakdown
             </h2>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              We combine mandatory government fees with our full-service professional assistance
-              into one seamless, stress-free package. No complicated math, no surprises.
+              We believe in complete transparency. Review the clear distinction between the
+              statutory fees paid directly to immigration authorities and the professional fees for
+              our expert preparation and review services.
             </p>
           </div>
 
-          {/* All-in-One Package Card */}
-          <div className="max-w-5xl mx-auto bg-white border-4 border-brand-primary rounded-2xl shadow-2xl overflow-hidden mb-12">
-            <div className="grid lg:grid-cols-12">
-              {/* Left Column: Details & Benefits */}
-              <div className="lg:col-span-7 p-8 sm:p-12 flex flex-col justify-between bg-white">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                    <ShieldCheckIcon className="w-8 h-8 text-brand-primary flex-shrink-0" />
-                    <span>What&apos;s Included in Your Package</span>
+          {/* 2 Columns Comparison */}
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
+            {/* Column 1: Government Stamping Fee */}
+            <div className="bg-white border-4 border-gray-300 rounded-2xl shadow-xl overflow-hidden flex flex-col justify-between transform hover:-translate-y-1 transition-transform">
+              <div>
+                <div className="bg-gray-200 py-6 px-8 text-center border-b-2 border-gray-300">
+                  <span className="text-xs font-bold text-gray-600 uppercase tracking-widest block mb-1">
+                    Mandatory Cost
+                  </span>
+                  <h3 className="text-2xl sm:text-3xl font-bold text-gray-900">
+                    Government Stamping Fee
                   </h3>
-
-                  {/* Two Main Fees */}
-                  <div className="space-y-6 mb-8">
-                    <div className="flex items-start gap-4 p-4 rounded-xl bg-gray-50 border border-gray-200 hover:border-brand-primary transition-all shadow-sm">
-                      <CurrencyDollarIcon className="w-8 h-8 text-brand-primary flex-shrink-0 mt-1" />
-                      <div>
-                        <div className="flex items-baseline gap-2 flex-wrap">
-                          <h4 className="text-lg font-bold text-gray-900">Government Fee</h4>
-                          <span className="text-sm font-semibold text-brand-primary bg-brand-primary/10 px-2.5 py-0.5 rounded-full">
-                            {VIETNAM_GOV_FEE_SUMMARY}
-                          </span>
-                        </div>
-                        <p className="text-sm text-gray-600 mt-1 leading-relaxed">
-                          Mandatory e-Visa fee paid directly to the Vietnam Government. Varies by
-                          single or multiple entry visa types.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4 p-4 rounded-xl bg-gray-50 border border-gray-200 hover:border-brand-primary transition-all shadow-sm">
-                      <ShieldCheckIcon className="w-8 h-8 text-brand-primary flex-shrink-0 mt-1" />
-                      <div>
-                        <div className="flex items-baseline gap-2 flex-wrap">
-                          <h4 className="text-lg font-bold text-gray-900">
-                            Professional Service Fee
-                          </h4>
-                          <span className="text-sm font-semibold text-brand-primary bg-brand-primary/10 px-2.5 py-0.5 rounded-full">
-                            Flat {formatUsd(SERVICE_FEE)} / pax
-                          </span>
-                        </div>
-                        <p className="text-sm text-gray-600 mt-1 leading-relaxed">
-                          Covers complete expert review, documentation verification, priority
-                          submission, and 24/7 human guidance.
-                        </p>
-                      </div>
-                    </div>
+                </div>
+                <div className="p-8 sm:p-10 space-y-6">
+                  <div className="flex items-center justify-between border-b border-gray-200 pb-4">
+                    <span className="text-gray-700 font-semibold">
+                      Single Entry (Tourist/Business)
+                    </span>
+                    <span className="text-xl font-bold text-gray-900">US$ 55.00</span>
                   </div>
-
-                  {/* Service Guarantees List */}
-                  <div className="border-t border-gray-200 pt-6">
-                    <h4 className="text-xs font-bold text-brand-primary uppercase tracking-wider mb-4">
-                      Why Travelers Choose Our Assisted Service
-                    </h4>
-                    <ul className="space-y-3.5 text-sm text-gray-700 font-medium">
-                      <li className="flex items-center gap-3">
-                        <svg
-                          className="w-5 h-5 text-brand-primary flex-shrink-0"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                        <span>
-                          <strong>100% Application Verification</strong> before official submission
-                        </span>
-                      </li>
-                      <li className="flex items-center gap-3">
-                        <svg
-                          className="w-5 h-5 text-brand-primary flex-shrink-0"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                        <span>
-                          <strong>24/7 Live Human Help</strong> with instant WhatsApp &amp; Email
-                          support
-                        </span>
-                      </li>
-                      <li className="flex items-center gap-3">
-                        <svg
-                          className="w-5 h-5 text-brand-primary flex-shrink-0"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                        <span>
-                          <strong>Flexible Delivery Options:</strong> Regular, Urgent (3 days) &amp;
-                          Super Urgent (1 day)
-                        </span>
-                      </li>
-                      <li className="flex items-center gap-3">
-                        <svg
-                          className="w-5 h-5 text-brand-primary flex-shrink-0"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                        <span>
-                          <strong>Risk-Free Guarantee:</strong> Full service fee refund if rejected
-                        </span>
-                      </li>
-                    </ul>
+                  <div className="flex items-center justify-between border-b border-gray-200 pb-4">
+                    <span className="text-gray-700 font-semibold">
+                      Multiple Entry (Tourist/Business)
+                    </span>
+                    <span className="text-xl font-bold text-gray-900">US$ 80.00</span>
+                  </div>
+                  <div className="space-y-3 pt-2">
+                    <div className="flex items-start gap-3">
+                      <svg
+                        className="w-5 h-5 text-gray-600 flex-shrink-0 mt-1"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <p className="text-sm text-gray-700">
+                        <strong>Recipient:</strong> Vietnam Immigration Department (National Web
+                        Portal).
+                      </p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <svg
+                        className="w-5 h-5 text-gray-600 flex-shrink-0 mt-1"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <p className="text-sm text-gray-700">
+                        <strong>Purpose:</strong> Statutory processing and issuance charge for
+                        border control clearance.
+                      </p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <svg
+                        className="w-5 h-5 text-gray-600 flex-shrink-0 mt-1"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <p className="text-sm text-gray-700">
+                        <strong>Requirement:</strong> Valid passport with 6+ months passport
+                        validity required.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-
-              {/* Right Column: CTA & Trigger */}
-              <div className="lg:col-span-5 bg-gray-50 border-t lg:border-t-0 lg:border-l border-gray-200 p-8 sm:p-12 flex flex-col justify-center items-center text-center shadow-inner">
-                <div className="inline-block px-4 py-1.5 bg-brand-primary/10 text-brand-primary font-bold rounded-full mb-6 text-xs uppercase tracking-wider border border-brand-primary/20 shadow-sm">
-                  Quick &amp; Easy Process
-                </div>
-                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 leading-snug">
-                  Ready to check your exact total?
-                </h3>
-                <p className="text-gray-600 text-base mb-8 leading-relaxed">
-                  Select your visa type, passenger count, and processing speed in the fee calculator
-                  below.
+              <div className="p-8 bg-gray-50 border-t border-gray-200 text-center">
+                <p className="text-xs text-gray-500 italic">
+                  *Government stamping fees are mandatory for all eVisa applications.
                 </p>
+              </div>
+            </div>
+
+            {/* Column 2: Our Service & Consultancy Fee */}
+            <div className="bg-white border-4 border-brand-primary rounded-2xl shadow-2xl overflow-hidden flex flex-col justify-between transform hover:-translate-y-1 transition-transform">
+              <div>
+                <div className="bg-brand-primary py-6 px-8 text-center border-b-2 border-brand-primary">
+                  <span className="text-xs font-bold text-white/90 uppercase tracking-widest block mb-1">
+                    Expert Assistance
+                  </span>
+                  <h3 className="text-2xl sm:text-3xl font-bold text-white">
+                    Our Service &amp; Consultancy Fee
+                  </h3>
+                </div>
+                <div className="p-8 sm:p-10 space-y-6">
+                  <div className="flex items-center justify-between border-b border-gray-200 pb-4">
+                    <span className="text-gray-700 font-semibold">Professional Support Fee</span>
+                    <span className="text-xl font-bold text-brand-primary">
+                      US$ 59.99 <span className="text-sm font-normal text-gray-600">/ pax</span>
+                    </span>
+                  </div>
+                  <div className="flex items-center justify-between border-b border-gray-200 pb-4">
+                    <span className="text-gray-700 font-semibold">Application Verification</span>
+                    <span className="text-sm font-bold text-green-600 bg-green-50 border border-green-200 px-2.5 py-1 rounded-full">
+                      Included
+                    </span>
+                  </div>
+                  <div className="space-y-3 pt-2">
+                    <div className="flex items-start gap-3">
+                      <svg
+                        className="w-5 h-5 text-brand-primary flex-shrink-0 mt-1"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <p className="text-sm text-gray-700">
+                        <strong>Recipient:</strong> Vietnam eVisa Assistance Team.
+                      </p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <svg
+                        className="w-5 h-5 text-brand-primary flex-shrink-0 mt-1"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <p className="text-sm text-gray-700">
+                        <strong>Purpose:</strong> Thorough document review, error correction, and
+                        formatting before e-visa portal submission.
+                      </p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <svg
+                        className="w-5 h-5 text-brand-primary flex-shrink-0 mt-1"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <p className="text-sm text-gray-700">
+                        <strong>Peace of Mind:</strong> 24/7 expert human guidance and full service
+                        fee refund guarantee if rejected.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="p-8 bg-brand-primary/5 border-t border-brand-primary/20 text-center">
                 <button
                   onClick={() =>
                     document
                       .getElementById('fee-calculator')
                       ?.scrollIntoView({ behavior: 'smooth' })
                   }
-                  className="w-full py-4 px-8 bg-brand-primary text-white font-bold rounded-xl hover:bg-brand-primary/90 transition-all shadow-xl hover:shadow-2xl uppercase tracking-wide text-sm border-2 border-brand-primary flex items-center justify-center gap-2 group"
+                  className="w-full py-4 px-8 bg-brand-primary text-white font-bold rounded-xl hover:bg-brand-primary/90 transition-all shadow-lg uppercase tracking-wide text-sm border-2 border-brand-primary"
                 >
-                  <span>Calculate &amp; Apply Now</span>
-                  <svg
-                    className="w-5 h-5 text-white transform group-hover:translate-y-1 transition-transform"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M19 14l-7 7m0 0l-7-7m7 7V3"
-                    />
-                  </svg>
+                  Calculate Exact Total Below
                 </button>
-                <p className="text-xs text-gray-500 mt-4 italic">
-                  *No initial payment required to calculate your fees.
-                </p>
               </div>
             </div>
           </div>
@@ -319,65 +368,6 @@ export default function FeesPage() {
                   Read our full refund policy here.
                 </Link>
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Visa Types & Government Fees Section */}
-      <section className="relative w-full bg-gradient-to-br from-gray-50 to-white py-16 border-b-2 border-gray-200">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <div className="inline-block px-4 py-2 bg-brand-primary rounded-lg mb-4 border-2 border-white shadow-md">
-              <span className="text-sm font-bold text-white uppercase tracking-wide">
-                Visa Types
-              </span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Vietnam eVisa government fees
-            </h2>
-            <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Official government fees for each Vietnam eVisa type. These mandatory charges are
-              collected as part of your application on this site.
-            </p>
-          </div>
-
-          <div className="bg-white border-4 border-brand-primary rounded-lg p-8 shadow-2xl">
-            <div className="space-y-6">
-              {visaTypes.map((visa) => (
-                <div
-                  key={visa.id}
-                  className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 hover:border-brand-primary transition-all"
-                >
-                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-                    <div className="flex-1">
-                      <p className="text-xs font-semibold uppercase tracking-wide text-brand-primary mb-1">
-                        {visa.category}
-                      </p>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">{visa.name}</h3>
-                      <p className="text-gray-700 text-sm">
-                        {visa.entry} for up to {visa.durationDays} days.
-                        {visa.category === 'Tourist'
-                          ? ' For tourism, family visits, or leisure.'
-                          : ' For business meetings, conferences, and commercial visits.'}
-                      </p>
-                    </div>
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                      <div className="text-center">
-                        <p className="text-sm text-gray-600 mb-1">Government Fee</p>
-                        <p className="text-2xl font-bold text-brand-primary">US$ {visa.govFee}</p>
-                      </div>
-                      <Link
-                        href={`/apply?type=${visa.applyQuery}`}
-                        className="px-6 py-3 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-primary-dark transition-all shadow-md uppercase tracking-wide text-sm border-2 border-brand-primary whitespace-nowrap"
-                      >
-                        Apply Now
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </div>
@@ -530,6 +520,120 @@ export default function FeesPage() {
                 </svg>
               </Link>
             </form>
+          </div>
+        </div>
+      </section>
+
+      {/* Quick Navigation & Related Services (Internal Linking) */}
+      <section className="relative w-full bg-gray-50 py-16 border-b-2 border-gray-200">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Essential E-Visa Resources &amp; Guides
+            </h2>
+            <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Need faster processing, information on multiple entries, or exact turnaround times?
+              Explore our specialized guides below.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Card 1: Processing Time */}
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 shadow-lg hover:border-brand-primary transition-all flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center text-brand-primary font-bold text-xl mb-6">
+                  ⏱️
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  Processing Time &amp; Schedule
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                  Curious about standard turnaround times before booking your flight? Review the
+                  complete processing schedule from submission to approval.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-gray-100">
+                <Link
+                  href="/processing"
+                  className="text-base font-bold text-brand-primary underline hover:text-brand-primary/80 block flex items-center gap-2"
+                >
+                  <span>check e-visa processing time</span>
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2.5"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+
+            {/* Card 2: Urgent eVisa */}
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 shadow-lg hover:border-brand-primary transition-all flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center text-brand-primary font-bold text-xl mb-6">
+                  ⚡
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  Emergency &amp; Rush Applications
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                  Flight departing soon? Review our Urgent (3 days) and Super Urgent (1 day) options
+                  before checkout so you can choose the tier that matches your arrival date.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-gray-100">
+                <Link
+                  href="/faq/24-hour-vietnam-evisa"
+                  className="text-base font-bold text-brand-primary underline hover:text-brand-primary/80 block flex items-center gap-2"
+                >
+                  <span>apply for urgent evisa vietnam</span>
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2.5"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+
+            {/* Card 3: Multiple Entry Guide */}
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 shadow-lg hover:border-brand-primary transition-all flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center text-brand-primary font-bold text-xl mb-6">
+                  🔄
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Multiple Entry Guidelines</h3>
+                <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                  Planning to exit and re-enter Vietnam during your 90-day stay? Learn about
+                  eligibility, requirements, and cost differences.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-gray-100">
+                <Link
+                  href="/blog/vietnam-evisa-multiple-entry-guide-2026"
+                  className="text-base font-bold text-brand-primary underline hover:text-brand-primary/80 block flex items-center gap-2"
+                >
+                  <span>multiple entry visa vietnam fees</span>
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2.5"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>

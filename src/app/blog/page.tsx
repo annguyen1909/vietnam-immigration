@@ -8,6 +8,7 @@ import JsonLd from '@/components/seo/JsonLd';
 import { getAllNewsPosts, type BlogPost } from '@/lib/mdx';
 import { blogPath, pageUrl, buildPageMetadata } from '@/lib/seo';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
+import EssentialEvisaResources from '@/components/ui/EssentialEvisaResources';
 
 export const metadata: Metadata = buildPageMetadata({
   title: 'Vietnam eVisa News & Travel Guides',
@@ -93,6 +94,9 @@ export default function BlogPage() {
         {/* Main Content */}
         <section className="relative w-full bg-white py-16 border-b-2 border-gray-200">
           <div className="max-w-7xl mx-auto px-4">
+            <div className="mb-12">
+              <EssentialEvisaResources />
+            </div>
             <div className="flex flex-col lg:flex-row gap-8">
               {/* Blog Posts */}
               <div className="flex-1 min-w-0">

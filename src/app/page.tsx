@@ -13,6 +13,7 @@ import { getVietnamVisaTypes } from '@/lib/vietnamVisa';
 import JsonLd from '@/components/seo/JsonLd';
 import { getPublicSiteUrl, SITE_NAME } from '@/lib/seo';
 import { getVietnamHomePageDescription } from '@/lib/vietnamPricing';
+import EssentialEvisaResources from '@/components/ui/EssentialEvisaResources';
 
 export const metadata: Metadata = {
   title: 'Vietnam eVisa Application Assistance',
@@ -63,6 +64,9 @@ export default async function Home() {
       <main className="flex min-h-screen flex-col bg-brand-surface">
         <HomeHero />
         <HomeHelpStrip />
+        <div className="max-w-7xl mx-auto px-4 py-8 w-full">
+          <EssentialEvisaResources />
+        </div>
         <HomeOfficialServices />
         <HomeServicePackage />
         <HomeVisaOptions visaTypes={visaTypes} />

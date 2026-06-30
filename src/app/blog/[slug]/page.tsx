@@ -215,10 +215,64 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
                   <BlogApplyCta className="mb-8" />
 
+                  {slug === 'vietnam-evisa-processing-time-2026' && (
+                    <div className="mb-8 p-8 bg-gradient-to-br from-brand-surface-alt to-white border-4 border-brand-primary rounded-2xl shadow-xl">
+                      <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                        Need an Expedited Visa Immediately?
+                      </h3>
+                      <p className="text-gray-700 mb-6 text-base leading-relaxed">
+                        If your flight is fast approaching or you cannot afford to wait through
+                        standard processing windows, review our 1-day and 3-day assisted urgency
+                        options before you apply.
+                      </p>
+                      <div className="flex flex-wrap items-center gap-4">
+                        <Link
+                          href="/processing"
+                          className="px-8 py-4 bg-brand-primary text-white font-bold rounded-xl hover:bg-brand-primary/90 transition-all shadow-lg hover:shadow-xl uppercase tracking-wider text-sm border-2 border-brand-primary block text-center"
+                        >
+                          view expedited vietnam evisa processing
+                        </Link>
+                        <Link
+                          href="/faq/24-hour-vietnam-evisa"
+                          className="px-8 py-4 bg-gray-900 text-white font-bold rounded-xl hover:bg-black transition-all shadow-lg hover:shadow-xl uppercase tracking-wider text-sm border-2 border-gray-900 block text-center"
+                        >
+                          read 24-hour urgent visa guide
+                        </Link>
+                      </div>
+                    </div>
+                  )}
+
                   {/* Article Content */}
                   <div className="min-w-0">
                     <MarkdownContent content={post.content} />
                   </div>
+
+                  {slug === 'vietnam-evisa-processing-time-2026' && (
+                    <div className="my-8 p-8 bg-gradient-to-br from-brand-surface-alt to-white border-4 border-brand-primary rounded-2xl shadow-xl">
+                      <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                        Ready to Secure Your Express Visa?
+                      </h3>
+                      <p className="text-gray-700 mb-6 text-base leading-relaxed">
+                        Avoid holiday backlogs and unexpected immigration processing delays. Apply
+                        today with professional pre-validation and choose the speed tier that fits
+                        your travel date.
+                      </p>
+                      <div className="flex flex-wrap items-center gap-4">
+                        <Link
+                          href="/processing"
+                          className="px-8 py-4 bg-brand-primary text-white font-bold rounded-xl hover:bg-brand-primary/90 transition-all shadow-lg hover:shadow-xl uppercase tracking-wider text-sm border-2 border-brand-primary block text-center"
+                        >
+                          view expedited vietnam evisa processing
+                        </Link>
+                        <Link
+                          href="/faq/24-hour-vietnam-evisa"
+                          className="px-8 py-4 bg-gray-900 text-white font-bold rounded-xl hover:bg-black transition-all shadow-lg hover:shadow-xl uppercase tracking-wider text-sm border-2 border-gray-900 block text-center"
+                        >
+                          read 24-hour urgent visa guide
+                        </Link>
+                      </div>
+                    </div>
+                  )}
 
                   <BlogApplyCta compact className="my-8" />
 

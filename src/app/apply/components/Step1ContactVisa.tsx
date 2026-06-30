@@ -330,7 +330,7 @@ export default function Step1ContactVisa({
               id="visaType"
               value={data.visaTypeId}
               onChange={(e) => handleChange('visaTypeId', e.target.value)}
-              className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
+              className={`w-full px-3 py-2 min-h-[48px] text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
                 errors.visaType ? 'border-red-300' : 'border-gray-300'
               }`}
               required
@@ -378,7 +378,7 @@ export default function Step1ContactVisa({
                 value={data.stayingStart}
                 onChange={(e) => handleArrivalDateChange(e.target.value)}
                 min={getVietnamTodayDateString()}
-                className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
+                className={`w-full px-3 py-2 min-h-[48px] text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
                   errors.stayingStart ? 'border-red-300' : 'border-gray-300'
                 }`}
                 required
@@ -400,7 +400,7 @@ export default function Step1ContactVisa({
                 value={data.stayingEnd}
                 onChange={(e) => handleChange('stayingEnd', e.target.value)}
                 min={data.stayingStart}
-                className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
+                className={`w-full px-3 py-2 min-h-[48px] text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
                   errors.stayingEnd ? 'border-red-300' : 'border-gray-300'
                 }`}
                 required
@@ -423,7 +423,7 @@ export default function Step1ContactVisa({
               id="passengerCount"
               value={data.passengerCount}
               onChange={(e) => handleChange('passengerCount', Number(e.target.value))}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900"
+              className="w-full px-3 py-2 min-h-[48px] text-base border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900"
               required
             >
               {Array.from({ length: 15 }, (_, i) => i + 1).map((num) => (
@@ -551,7 +551,7 @@ export default function Step1ContactVisa({
               value={data.fullName}
               onChange={(e) => handleChange('fullName', e.target.value)}
               readOnly={isReadOnly}
-              className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
+              className={`w-full px-3 py-2 min-h-[48px] text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
                 errors.fullName ? 'border-red-300' : 'border-gray-300'
               } ${isReadOnly ? 'bg-gray-100 cursor-not-allowed' : ''}`}
               placeholder="Enter your full name"
@@ -571,7 +571,7 @@ export default function Step1ContactVisa({
               value={data.email}
               onChange={(e) => handleChange('email', e.target.value)}
               readOnly={isReadOnly}
-              className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
+              className={`w-full px-3 py-2 min-h-[48px] text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
                 errors.email ? 'border-red-300' : 'border-gray-300'
               } ${isReadOnly ? 'bg-gray-100 cursor-not-allowed' : ''}`}
               placeholder="Enter your email address"
@@ -595,7 +595,7 @@ export default function Step1ContactVisa({
                 value={toDashAreaCode(data.areaCode)}
                 onChange={(e) => handleChange('areaCode', e.target.value)}
                 disabled={isReadOnly}
-                className={`w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${isReadOnly ? 'bg-gray-100 cursor-not-allowed' : ''}`}
+                className={`w-full px-3 py-2 min-h-[48px] text-base border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${isReadOnly ? 'bg-gray-100 cursor-not-allowed' : ''}`}
               >
                 {areaCodes.map((code) => (
                   <option
@@ -612,7 +612,7 @@ export default function Step1ContactVisa({
                 value={data.phoneNumber}
                 onChange={(e) => handleChange('phoneNumber', e.target.value)}
                 readOnly={isReadOnly}
-                className={`flex-1 px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
+                className={`flex-1 px-3 py-2 min-h-[48px] text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
                   errors.phoneNumber ? 'border-red-300' : 'border-gray-300'
                 } ${isReadOnly ? 'bg-gray-100 cursor-not-allowed' : ''}`}
                 placeholder="Enter your phone number"

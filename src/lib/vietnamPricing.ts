@@ -56,6 +56,8 @@ export function getVietnamVisaOffers() {
   const offers = VIETNAM_VISA_PRODUCTS.map((product) => ({
     id: product.id,
     label: product.label,
+    govFee: product.govFee,
+    serviceFee: VIETNAM_SERVICE_FEE_PER_PAX,
     price: Number((product.govFee + VIETNAM_SERVICE_FEE_PER_PAX).toFixed(2)),
   }));
   const prices = offers.map((o) => o.price);
@@ -108,11 +110,11 @@ export function getVietnamStayDurationFaqLine(): string {
 }
 
 export function getVietnamFeesMetaDescription(): string {
-  return `Vietnam eVisa fees: ${formatUsd(VIETNAM_GOV_FEE_SINGLE)} single / ${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} multiple entry (${VIETNAM_STAY_DAYS} days), ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger, optional Urgent processing at apply.`;
+  return `Official vietnam visa fee breakdown 2026: Transparent pricing covering Government stamping fee ($55-$80) and our expert service & consultancy fee ($59.99).`;
 }
 
 export function getVietnamFeesHeroSubtitle(): string {
-  return 'Transparent pricing with no hidden charges, no rush fees—just clear, official fees for total peace of mind.';
+  return 'Transparent pricing with zero hidden charges—clearly separating mandatory government stamping costs from our professional consultancy services.';
 }
 
 export function getVietnamFeesStructureSubtitle(): string {

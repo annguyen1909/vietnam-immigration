@@ -11,6 +11,7 @@ import { extractFaqAnswerSnippet } from '@/lib/contentExcerpt';
 import FAQSchema from '@/components/seo/FAQSchema';
 import { buildPageMetadata } from '@/lib/seo';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
+import EssentialEvisaResources from '@/components/ui/EssentialEvisaResources';
 
 interface FAQ {
   question: string;
@@ -110,6 +111,9 @@ export default function FAQPage() {
         {/* FAQ List Section */}
         <section className="relative w-full bg-white py-16 border-b-2 border-gray-200">
           <div className="max-w-5xl mx-auto px-4">
+            <div className="mb-12">
+              <EssentialEvisaResources />
+            </div>
             <div className="bg-white border-4 border-brand-primary rounded-lg p-8 shadow-2xl mb-8">
               <div className="flex items-center gap-3 mb-8">
                 <QuestionMarkCircleIcon className="w-8 h-8 text-brand-primary" />

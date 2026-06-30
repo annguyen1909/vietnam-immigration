@@ -17,6 +17,11 @@ export interface CountryVisaContentEntry {
   eligibilityIntro?: string;
   /** Extra travel/visa tip shown in Travel Tips section. */
   travelInsight?: string;
+  customApplicationGuide?: string;
+  customPaymentNotes?: string;
+  entryTransitGuide?: string;
+  passportRegulations?: string;
+  embassyInfo?: { name: string; address: string; phone: string; email: string; website?: string }[];
 }
 
 export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { demonym?: string } } =

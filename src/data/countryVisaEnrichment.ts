@@ -1,7 +1,19 @@
 import type { CountryVisaContentEntry } from './countryVisaContent';
 
 type Enrichment = Partial<
-  Pick<CountryVisaContentEntry, 'eligibilityIntro' | 'travelInsight' | 'requirements' | 'faqs'>
+  Pick<
+    CountryVisaContentEntry,
+    | 'eligibilityIntro'
+    | 'travelInsight'
+    | 'requirements'
+    | 'faqs'
+    | 'fees'
+    | 'customApplicationGuide'
+    | 'customPaymentNotes'
+    | 'entryTransitGuide'
+    | 'passportRegulations'
+    | 'embassyInfo'
+  >
 >;
 
 /** Unique SEO copy for high-traffic nationality pages (merged after auto-generation). */
@@ -11,6 +23,25 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
       'American passport holders typically apply for a Vietnam eVisa online before departure—no embassy visit is required for standard tourism or business trips. U.S. travelers often choose 90-day options for north–south itineraries (Hanoi, Da Nang, Ho Chi Minh City). Apply at least several days before flying; airlines may ask to see approval at check-in.',
     travelInsight:
       'U.S. citizens should ensure passport validity covers the full stay plus six months. If you hold a second nationality, apply using the passport you will present at the Vietnam border.',
+    fees: [
+      'Single-entry tourist or business eVisa (valid for up to 90 days): $55 USD official government fee.',
+      'Multiple-entry tourist or business eVisa (valid for up to 90 days): $80 USD official government fee.',
+      'Assisted service fee: Calculated based on processing speed (Normal, Urgent 3-day, or Super Urgent 1-day). Clearly itemized at checkout with zero hidden costs.',
+      'Payment methods: All major U.S. credit and debit cards (Visa, Mastercard, American Express, Discover) are accepted securely.',
+    ],
+    entryTransitGuide:
+      '**Entry & Transit Guide for U.S. Citizens:** Flight itineraries from the United States to Vietnam typically involve direct flights (e.g., San Francisco to Ho Chi Minh City via Vietnam Airlines) or connecting transit routes through major East Asian hubs such as Seoul Incheon (ICN), Tokyo Narita/Haneda (NRT/HND), or Taipei Taoyuan (TPE). If you are transiting without leaving the international terminal, you do not need a visa for the transit country, but airlines will verify your valid Vietnam eVisa before boarding your first flight in the U.S. Ensure the port of entry on your eVisa exactly matches your first point of immigration clearance in Vietnam.',
+    passportRegulations:
+      '**U.S. Passport Validity Regulations:** The Government of Vietnam strictly enforces the rule that your U.S. passport must be valid for at least 6 months beyond your planned arrival date in Vietnam. Additionally, your passport must contain at least one blank page for immigration entry and exit stamps. Emergency passports or passport cards are not accepted for eVisa entry; you must travel with a full validity blue tourist booklet.',
+    embassyInfo: [
+      {
+        name: 'Embassy of the Socialist Republic of Vietnam in Washington D.C.',
+        address: '1233 20th St NW, Suite 400, Washington, DC 20036, United States',
+        phone: '+1 (202) 861-0737 / +1 (202) 861-0738',
+        email: 'vnembassy.us@gmail.com / consular@vietnamembassy.us',
+        website: 'https://vnembassy-washington.mofa.gov.vn/',
+      },
+    ],
     faqs: [
       {
         q: 'Do U.S. green card holders need a Vietnam eVisa?',
@@ -83,6 +114,33 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
       'Indian passport holders are generally eligible for Vietnam eVisas for tourism and business, subject to current government lists. Direct and one-stop routes from Delhi, Mumbai, Bengaluru, and Hyderabad (via Vietjet, IndiGo, and regional hubs) make Vietnam a popular short-haul destination—apply at least 7–10 days before departure because Indian application volume is high and photo or name mismatches trigger extra review.',
     travelInsight:
       'Indians connecting through Bangkok or Singapore must hold a valid Vietnam eVisa before boarding the Vietnam-bound segment—even on a single PNR. Enter your name exactly as printed on your passport MRZ, including middle names. Vietjet and IndiGo may ask to see a printed eVisa PDF at check-in.',
+    fees: [
+      'Single-entry tourist/business eVisa: $55 USD government fee (approximately ~4,600 INR depending on daily bank conversion rates).',
+      'Multiple-entry tourist/business eVisa: $80 USD government fee (approximately ~6,700 INR depending on daily bank conversion rates).',
+      'Service fee: Varies depending on selected processing tier (Normal, Urgent 3-day, or Super Urgent 1-day). All fees are transparently displayed before payment.',
+      'Note: Transactions are processed in USD. Your Indian bank or credit card issuer may apply a nominal foreign exchange markup.',
+    ],
+    customApplicationGuide:
+      '**Form Filling Guide for Indian Passport Holders:** When completing the official eVisa application, ensure your full name matches the Machine Readable Zone (MRZ) at the bottom of your passport biographical page exactly. Indian passports often list given names and surnames separately; do not invert them. Ensure your uploaded passport photo has a solid white background, without glasses or shadows. Do not upload the scanned photo from the passport page itself as your headshot.',
+    customPaymentNotes:
+      '**International Payment & 3D Secure Notice:** Indian debit and credit cards (Visa, Mastercard, RuPay, Visa CheckOut) frequently encounter 3D Secure (OTP) authorization timeouts or rejections on international payment gateways. Before paying, verify with your bank (HDFC, SBI, ICICI, Axis, etc.) that international e-commerce transactions are fully enabled on your card. If a transaction fails or times out, do not make repeated attempts immediately to avoid duplicate holds; reach out to our 24/7 support team or try an alternative card with stable OTP delivery.',
+    embassyInfo: [
+      {
+        name: 'Embassy of the Socialist Republic of Vietnam in New Delhi',
+        address: '20 Kautilya Marg, Chanakyapuri, New Delhi – 110 021, India',
+        phone: '+91 11 2687 9868 / +91 11 2687 9852',
+        email: 'vnemb.in@gmail.com / vnconsul.indelhi@yahoo.in',
+        website: 'https://vnembassy-newdelhi.mofa.gov.vn/',
+      },
+      {
+        name: 'Consulate General of Vietnam in Mumbai',
+        address:
+          'Unit 805, 8th Floor, Sharma Towers, B wing, Bandra Kurla Complex, Bandra (East), Mumbai – 400 051, India',
+        phone: '+91 22 2652 9274 / +91 22 2652 9273',
+        email: 'tlsq.mumbai@mofa.gov.vn',
+        website: 'https://vnconsulate-mumbai.mofa.gov.vn/',
+      },
+    ],
     faqs: [
       {
         q: 'What photo standards do Indian applicants need for Vietnam eVisa?',
@@ -595,8 +653,17 @@ export function applyCountryVisaEnrichment(
     if (patch.requirements?.length) {
       existing.requirements = [...patch.requirements, ...existing.requirements.slice(0, 4)];
     }
+    if (patch.fees?.length) {
+      existing.fees = patch.fees;
+    }
     if (patch.faqs?.length) {
       existing.faqs = [...patch.faqs, ...existing.faqs];
     }
+    if (patch.customApplicationGuide)
+      existing.customApplicationGuide = patch.customApplicationGuide;
+    if (patch.customPaymentNotes) existing.customPaymentNotes = patch.customPaymentNotes;
+    if (patch.entryTransitGuide) existing.entryTransitGuide = patch.entryTransitGuide;
+    if (patch.passportRegulations) existing.passportRegulations = patch.passportRegulations;
+    if (patch.embassyInfo) existing.embassyInfo = patch.embassyInfo;
   }
 }

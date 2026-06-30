@@ -38,7 +38,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const citizen = countryData.demonym ? countryData.demonym : `${countryData.displayName} citizens`;
   const country = countryData.displayName;
 
-  const pageTitle = `Vietnam visa for ${citizen} | eVisa Requirements & Application`;
+  let pageTitle = `Vietnam visa for ${citizen} | eVisa Requirements & Application`;
+  if (slug === 'india') {
+    pageTitle = 'Vietnam e-Visa for Indian Citizens 2026 - Requirements & Fees';
+  } else if (slug === 'united-states') {
+    pageTitle = 'Vietnam e-Visa for US Citizens 2026 - Requirements & Application';
+  }
+
   const pageDescription =
     countryData.eligibilityIntro ??
     `Get the latest official Vietnam eVisa requirements, fees, and step-by-step application guide for ${citizen}. Professional, secure online visa processing for ${country}.`;
@@ -77,6 +83,13 @@ export default async function CountryRequirementPage({ params }: PageProps) {
 
   const citizen = countryData.demonym ? countryData.demonym : `${countryData.displayName} citizens`;
   const country = countryData.displayName;
+
+  let pageHeading = `Vietnam visa for ${citizen}`;
+  if (slug === 'india') {
+    pageHeading = 'Vietnam e-Visa for Indian Citizens 2026 - Requirements & Fees';
+  } else if (slug === 'united-states') {
+    pageHeading = 'Vietnam e-Visa for US Citizens 2026 - Requirements & Application';
+  }
 
   const formatCountryText = (value: string) =>
     value
@@ -164,13 +177,34 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 </span>
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
-                Vietnam visa for {citizen}
+                {pageHeading}
               </h1>
               <div className="w-24 h-1 bg-brand-primary mb-4"></div>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Complete guide to Vietnam eVisa requirements, fees, and application process for{' '}
                 {citizen}. Professional assistance with official standards and certified expertise.
               </p>
+              <div className="mt-6 p-5 bg-brand-surface border-l-4 border-brand-primary rounded-r-lg shadow-sm">
+                <p className="text-base text-gray-800 leading-relaxed">
+                  <strong>Quick Service Links for {citizen}:</strong> To review complete government
+                  and service pricing, check our detailed{' '}
+                  <Link href="/fees" className="text-brand-primary font-bold hover:underline">
+                    vietnam visa fee
+                  </Link>{' '}
+                  schedule. Learn about standard delivery timelines on our{' '}
+                  <Link href="/processing" className="text-brand-primary font-bold hover:underline">
+                    evisa processing time
+                  </Link>{' '}
+                  guide, or if you are in a rush, request an{' '}
+                  <Link
+                    href="/faq/24-hour-vietnam-evisa"
+                    className="text-brand-primary font-bold hover:underline"
+                  >
+                    urgent evisa vietnam
+                  </Link>{' '}
+                  options when your arrival date is close.
+                </p>
+              </div>
             </div>
 
             {/* Table of Contents */}
@@ -424,6 +458,27 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                     families or groups can apply for up to 15 passengers in a single application.
                   </p>
                 </div>
+                {countryData.customApplicationGuide && (
+                  <div className="mt-6 bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-5 shadow-sm">
+                    <h3 className="text-lg font-bold text-blue-900 mb-2 flex items-center gap-2">
+                      <svg
+                        className="w-5 h-5 text-blue-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      Application Advice for {citizen}
+                    </h3>
+                    <div className="text-gray-800 text-base leading-relaxed prose max-w-none">
+                      <ReactMarkdown>{countryData.customApplicationGuide}</ReactMarkdown>
+                    </div>
+                  </div>
+                )}
               </div>
             </section>
 
@@ -449,6 +504,27 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                   vaccination (if arriving from a country with risk of yellow fever). Your e-Visa
                   will be sent to your email—print it and bring it with your passport.
                 </p>
+                {countryData.passportRegulations && (
+                  <div className="mb-4 bg-amber-50 border-l-4 border-amber-600 rounded-r-lg p-5 shadow-sm">
+                    <h3 className="text-lg font-bold text-amber-900 mb-2 flex items-center gap-2">
+                      <svg
+                        className="w-5 h-5 text-amber-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      Important Passport Regulations
+                    </h3>
+                    <div className="text-gray-800 text-base leading-relaxed prose max-w-none">
+                      <ReactMarkdown>{countryData.passportRegulations}</ReactMarkdown>
+                    </div>
+                  </div>
+                )}
                 <div className="bg-gray-50 border-2 border-brand-primary rounded-lg p-4">
                   <p className="text-gray-900 font-semibold mb-2">Why apply with us?</p>
                   <p className="text-gray-700">
@@ -476,6 +552,28 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                     <li key={idx}>{fee}</li>
                   ))}
                 </ul>
+                {countryData.customPaymentNotes && (
+                  <div className="mt-6 bg-rose-50 border-l-4 border-rose-600 rounded-r-lg p-5 shadow-sm">
+                    <h3 className="text-lg font-bold text-rose-900 mb-2 flex items-center gap-2">
+                      <svg
+                        className="w-5 h-5 text-rose-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z" />
+                        <path
+                          fillRule="evenodd"
+                          d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      International Payment Notice
+                    </h3>
+                    <div className="text-gray-800 text-base leading-relaxed prose max-w-none">
+                      <ReactMarkdown>{countryData.customPaymentNotes}</ReactMarkdown>
+                    </div>
+                  </div>
+                )}
               </div>
             </section>
 
@@ -503,6 +601,23 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                   </li>
                   <li>Keep your eVisa and passport with you at all times during your stay.</li>
                 </ul>
+                {countryData.entryTransitGuide && (
+                  <div className="mt-6 bg-indigo-50 border-l-4 border-indigo-600 rounded-r-lg p-5 shadow-sm">
+                    <h3 className="text-lg font-bold text-indigo-900 mb-2 flex items-center gap-2">
+                      <svg
+                        className="w-5 h-5 text-indigo-600"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M3.5 4a3.5 3.5 0 017 0v1h1a1 1 0 011 1v7a1 1 0 01-1 1h-1v1a3.5 3.5 0 01-7 0v-1h-1a1 1 0 01-1-1V6a1 1 0 011-1h1V4z" />
+                      </svg>
+                      Flight &amp; Transit Guidance
+                    </h3>
+                    <div className="text-gray-800 text-base leading-relaxed prose max-w-none">
+                      <ReactMarkdown>{countryData.entryTransitGuide}</ReactMarkdown>
+                    </div>
+                  </div>
+                )}
               </div>
             </section>
 
@@ -629,6 +744,55 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 </p>
               </div>
             </section>
+
+            {/* Vietnam Embassy Info */}
+            {countryData.embassyInfo && countryData.embassyInfo.length > 0 && (
+              <section id="embassy-info" className="mb-10">
+                <div className="bg-white border-2 border-gray-200 rounded-lg p-6 shadow-md">
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                    <span className="w-10 h-10 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-lg">
+                      !
+                    </span>
+                    Vietnam Embassy &amp; Consulate Information in {country}
+                  </h2>
+                  <div className="w-24 h-1 bg-brand-primary mb-6"></div>
+                  <div className="space-y-6">
+                    {countryData.embassyInfo.map((embassy, idx) => (
+                      <div
+                        key={idx}
+                        className="bg-gray-50 border-2 border-gray-200 rounded-lg p-5 shadow-sm"
+                      >
+                        <h3 className="text-lg font-bold text-gray-900 mb-3">{embassy.name}</h3>
+                        <div className="space-y-2 text-sm text-gray-700">
+                          <p>
+                            <strong className="text-gray-900">Address:</strong> {embassy.address}
+                          </p>
+                          <p>
+                            <strong className="text-gray-900">Phone:</strong> {embassy.phone}
+                          </p>
+                          <p>
+                            <strong className="text-gray-900">Email:</strong> {embassy.email}
+                          </p>
+                          {embassy.website && (
+                            <p>
+                              <strong className="text-gray-900">Website:</strong>{' '}
+                              <a
+                                href={embassy.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-brand-primary font-semibold hover:underline"
+                              >
+                                {embassy.website}
+                              </a>
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )}
 
             {/* Apply Now Button */}
             <div className="w-full flex justify-center mb-10">

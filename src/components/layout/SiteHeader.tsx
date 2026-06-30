@@ -125,13 +125,16 @@ export default function SiteHeader() {
             </Link>
           )}
 
-          <Link href="/apply" className="btn-primary !px-4 !py-2 text-sm">
+          <Link
+            href="/apply"
+            className="btn-primary !px-4 !py-2 text-sm min-h-[48px] inline-flex items-center justify-center"
+          >
             Start application
           </Link>
 
           <button
             type="button"
-            className="lg:hidden rounded-lg p-2 text-brand-ink hover:bg-brand-surface-alt"
+            className="lg:hidden rounded-lg p-2 min-h-[48px] min-w-[48px] flex items-center justify-center text-brand-ink hover:bg-brand-surface-alt"
             aria-expanded={mobileOpen}
             aria-label="Open menu"
             onClick={() => setMobileOpen(!mobileOpen)}

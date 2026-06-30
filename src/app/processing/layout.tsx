@@ -5,7 +5,7 @@ import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import HowToSchema from '@/components/seo/HowToSchema';
 
 export const metadata: Metadata = buildStaticPageMetadata({
-  title: 'Vietnam eVisa Processing Times',
+  title: 'Vietnam e-Visa Processing Time 2026 - Normal & Urgent Services',
   description: getVietnamProcessingPageDescription(),
   path: '/processing',
 });

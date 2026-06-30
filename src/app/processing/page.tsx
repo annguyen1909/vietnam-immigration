@@ -9,7 +9,12 @@ import {
 } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Link from 'next/link';
-import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
+import {
+  VIETNAM_PROCESSING_TIME,
+  VIETNAM_URGENCY_FEE_SUPER_URGENT,
+  VIETNAM_URGENCY_FEE_URGENT,
+  formatUsd,
+} from '@/lib/vietnamPricing';
 
 const steps = [
   {
@@ -119,7 +124,9 @@ const benefits = [
 
 export default function ProcessingPage() {
   return (
-    <main className={`relative min-h-screen w-full bg-brand-surface text-brand-ink`}>
+    <main
+      className={`relative min-h-screen w-full bg-brand-surface text-brand-ink overflow-x-hidden`}
+    >
       {/* Official Header Banner */}
       <div className="brand-banner">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-center gap-3">
@@ -139,33 +146,201 @@ export default function ProcessingPage() {
           <div className="text-center mb-12">
             <div className="inline-block px-4 py-2 bg-brand-primary rounded-lg mb-4 border-2 border-white shadow-md">
               <span className="text-sm font-bold text-white uppercase tracking-wide">
-                Application Process
+                Commercial &amp; Expedited Services
               </span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
-              Vietnam eVisa Application Process
-              <span className="block text-brand-primary">Urgent &amp; Emergency eVisa Vietnam</span>
+              Vietnam e-Visa Processing Time 2026
+              <span className="block text-brand-primary">Normal &amp; Urgent Services</span>
             </h1>
-            <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              Simple, secure, and efficient four-step process to obtain your Vietnam eVisa.
-              Professional assistance for standard applications, urgent evisa vietnam (3 days), and
-              emergency vietnam evisa (1 day) with certified expertise.
+            <div className="w-24 h-1 bg-brand-primary mx-auto mb-6"></div>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed mb-8">
+              Choose the exact processing speed that fits your travel itinerary. We offer
+              commercial, reliable assisted services ranging from Normal processing (3-5 business
+              days) to Urgent (3 days) and Super Urgent (1 day) handling. All packages include
+              professional pre-submission document verification and full support.
             </p>
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
+              <Link
+                href="/apply"
+                className="px-10 py-4 bg-brand-primary text-white font-bold rounded-xl hover:bg-brand-primary/90 transition-all shadow-xl hover:shadow-2xl uppercase tracking-wider text-base border-2 border-brand-primary flex items-center gap-2"
+              >
+                <span>Apply Now</span>
+              </Link>
+              <Link
+                href="/applications"
+                className="px-10 py-4 bg-white text-brand-primary font-bold rounded-xl hover:bg-gray-50 transition-all shadow-lg hover:shadow-xl uppercase tracking-wider text-base border-2 border-brand-primary flex items-center gap-2"
+              >
+                <span>Check Status</span>
+              </Link>
+            </div>
+            <div className="bg-brand-surface-alt border-2 border-brand-primary/30 rounded-xl p-4 max-w-2xl mx-auto">
+              <p className="text-sm text-gray-700 text-center">
+                Want to understand how government queues and holidays impact these timelines?{' '}
+                <Link
+                  href="/blog/vietnam-evisa-processing-time-2026"
+                  className="text-brand-primary font-bold hover:underline"
+                >
+                  read our detailed processing time guide
+                </Link>
+                .
+              </p>
+            </div>
           </div>
 
           {/* Hero Image */}
           <div className="max-w-4xl mx-auto">
-            <div className="relative w-full h-64 sm:h-80 rounded-xl overflow-hidden border-4 border-brand-primary shadow-2xl">
+            <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] rounded-xl overflow-hidden border-4 border-brand-primary shadow-2xl">
               <Image
                 src="/img/processing.png"
-                alt="Vietnam eVisa application process"
+                alt="Vietnam eVisa application process and speed tiers"
                 fill
                 className="object-cover object-center"
                 priority
                 sizes="100vw"
               />
               <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-brand-primary/80 to-transparent" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Processing Speed Packages Comparison */}
+      <section className="relative w-full bg-gradient-to-br from-gray-50 to-white py-16 border-b-2 border-gray-200">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <div className="inline-block px-4 py-2 bg-brand-primary rounded-lg mb-4 border-2 border-white shadow-md">
+              <span className="text-sm font-bold text-white uppercase tracking-wide">
+                Service Package Comparison
+              </span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+              Select Your Processing Speed Package
+            </h2>
+            <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Clear commercial pricing and target handling times for standard, urgent, and
+              last-minute travel needs.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Normal Package */}
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:border-brand-primary transition-all flex flex-col relative">
+              <div className="mb-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Normal Service</h3>
+                <p className="text-gray-600 text-sm">Perfect for planned trips 2+ weeks away</p>
+              </div>
+              <div className="mb-6 pb-6 border-b border-gray-100">
+                <div className="flex items-baseline gap-1">
+                  <span className="text-4xl font-bold text-gray-900">3-5</span>
+                  <span className="text-xl font-semibold text-gray-600">Days</span>
+                </div>
+                <p className="text-sm text-gray-500 mt-1">Standard Government Processing Window</p>
+              </div>
+              <ul className="space-y-4 mb-8 flex-1">
+                <li className="flex items-center gap-3 text-sm text-gray-700">
+                  <span className="text-green-600 font-bold">✓</span> Full Document Pre-Verification
+                </li>
+                <li className="flex items-center gap-3 text-sm text-gray-700">
+                  <span className="text-green-600 font-bold">✓</span> 24/7 Professional Support
+                </li>
+                <li className="flex items-center gap-3 text-sm text-gray-700">
+                  <span className="text-green-600 font-bold">✓</span> Service Fee Refund Guarantee
+                </li>
+                <li className="flex items-center gap-3 text-sm text-gray-500">
+                  <span>•</span> Standard queue submission
+                </li>
+              </ul>
+              <Link
+                href="/apply"
+                className="w-full py-4 bg-gray-900 text-white text-center font-bold rounded-xl hover:bg-brand-primary transition-all shadow-md hover:shadow-lg uppercase tracking-wider text-sm block"
+              >
+                Apply Now (Normal)
+              </Link>
+            </div>
+
+            {/* Urgent Package */}
+            <div className="bg-white border-4 border-brand-primary rounded-2xl p-8 shadow-2xl hover:shadow-3xl transition-all flex flex-col relative transform md:-translate-y-2">
+              <div className="absolute -top-5 inset-x-0 flex justify-center">
+                <span className="bg-brand-primary text-white font-bold text-xs uppercase tracking-widest px-4 py-1.5 rounded-full border-2 border-white shadow-md">
+                  Most Popular / Fast
+                </span>
+              </div>
+              <div className="mb-6 mt-2">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Urgent Service</h3>
+                <p className="text-gray-600 text-sm">For tight schedules &amp; upcoming flights</p>
+              </div>
+              <div className="mb-6 pb-6 border-b border-gray-100">
+                <div className="flex items-baseline gap-1">
+                  <span className="text-4xl font-bold text-gray-900">3</span>
+                  <span className="text-xl font-semibold text-gray-600">Days</span>
+                </div>
+                <p className="text-sm text-gray-500 mt-1">
+                  Assisted urgent handling target before travel
+                </p>
+              </div>
+              <ul className="space-y-4 mb-8 flex-1">
+                <li className="flex items-center gap-3 text-sm text-gray-700">
+                  <span className="text-brand-primary font-bold">✓</span> Priority Document
+                  Validation
+                </li>
+                <li className="flex items-center gap-3 text-sm text-gray-700">
+                  <span className="text-brand-primary font-bold">✓</span> Assisted filing prepared
+                  for urgent travel timelines
+                </li>
+                <li className="flex items-center gap-3 text-sm text-gray-700">
+                  <span className="text-brand-primary font-bold">✓</span> 24/7 Specialist Escalation
+                </li>
+                <li className="flex items-center gap-3 text-sm text-gray-700">
+                  <span className="text-brand-primary font-bold">✓</span> Optional add-on:{' '}
+                  {formatUsd(VIETNAM_URGENCY_FEE_URGENT)} per passenger
+                </li>
+              </ul>
+              <Link
+                href="/apply"
+                className="w-full py-4 bg-brand-primary text-white text-center font-bold rounded-xl hover:bg-brand-primary/90 transition-all shadow-xl hover:shadow-2xl uppercase tracking-wider text-sm block"
+              >
+                Apply Now (Urgent)
+              </Link>
+            </div>
+
+            {/* Super Urgent Package */}
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:border-brand-primary transition-all flex flex-col relative">
+              <div className="mb-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Super Urgent Service</h3>
+                <p className="text-gray-600 text-sm">For immediate last-minute departures</p>
+              </div>
+              <div className="mb-6 pb-6 border-b border-gray-100">
+                <div className="flex items-baseline gap-1">
+                  <span className="text-4xl font-bold text-gray-900">1</span>
+                  <span className="text-xl font-semibold text-gray-600">Day</span>
+                </div>
+                <p className="text-sm text-gray-500 mt-1">Fastest assisted handling option</p>
+              </div>
+              <ul className="space-y-4 mb-8 flex-1">
+                <li className="flex items-center gap-3 text-sm text-gray-700">
+                  <span className="text-red-600 font-bold">✓</span> Fast document review for urgent
+                  departures
+                </li>
+                <li className="flex items-center gap-3 text-sm text-gray-700">
+                  <span className="text-red-600 font-bold">✓</span> Direct Support Escalation
+                </li>
+                <li className="flex items-center gap-3 text-sm text-gray-700">
+                  <span className="text-red-600 font-bold">✓</span> Complete Pre-Check &amp;
+                  Submission
+                </li>
+                <li className="flex items-center gap-3 text-sm text-gray-700">
+                  <span className="text-red-600 font-bold">✓</span> Optional add-on:{' '}
+                  {formatUsd(VIETNAM_URGENCY_FEE_SUPER_URGENT)} per passenger
+                </li>
+              </ul>
+              <Link
+                href="/apply"
+                className="w-full py-4 bg-gray-900 text-white text-center font-bold rounded-xl hover:bg-brand-primary transition-all shadow-md hover:shadow-lg uppercase tracking-wider text-sm block"
+              >
+                Apply Now (Super Urgent)
+              </Link>
             </div>
           </div>
         </div>
