@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import { Analytics } from '@vercel/analytics/next';
 import { Be_Vietnam_Pro, Source_Serif_4 } from 'next/font/google';
 import './globals.css';
 import SiteHeader from '@/components/layout/SiteHeader';
@@ -173,6 +174,7 @@ export default function RootLayout({
           <div className="flex-1">{children}</div>
           <ContactWidget />
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
