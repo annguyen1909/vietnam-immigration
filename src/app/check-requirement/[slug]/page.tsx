@@ -1,7 +1,11 @@
 import HelpFloatingBox from '@/components/ui/HelpFloatingBox';
 import { countryVisaContent, sharedFaqs } from '@/data/countryVisaContent';
-import { getVietnamVisaTypes, buildVisaTypesFaqStay } from '@/lib/vietnamVisa';
-import { getVietnamVisaTypesFaqMarkdown, VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
+import {
+  getVietnamVisaTypesFaqMarkdown,
+  VIETNAM_PROCESSING_TIME,
+  VIETNAM_STAY_DAYS,
+  VIETNAM_VISA_PRODUCTS,
+} from '@/lib/vietnamPricing';
 import Accordion from '@/components/ui/Accordion';
 import ReactMarkdown from 'react-markdown';
 import SiteFooter from '@/components/layout/SiteFooter';
@@ -73,13 +77,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function CountryRequirementPage({ params }: PageProps) {
   const { slug } = await params;
-  const [countryData, visaTypesFromDb] = await Promise.all([
-    Promise.resolve(
-      slug && countryVisaContent[slug] ? countryVisaContent[slug] : countryVisaContent['default']
-    ),
-    getVietnamVisaTypes(),
-  ]);
-  const visaTypesFaqStay = buildVisaTypesFaqStay(visaTypesFromDb);
+  const countryData =
+    slug && countryVisaContent[slug] ? countryVisaContent[slug] : countryVisaContent['default'];
+  const visaTypes = VIETNAM_VISA_PRODUCTS.map((visa) => ({
+    ...visa,
+    category: visa.label.includes('Business') ? 'Business' : 'Tourist',
+    entry: visa.label.includes('Multiple') ? 'Multiple Entries' : 'Single Entry',
+  }));
+  const visaTypesFaqStay = visaTypes
+    .map(
+      (visa) => `**${visa.label}:** Up to ${VIETNAM_STAY_DAYS} days, ${visa.entry.toLowerCase()}.`
+    )
+    .join('\n');
 
   const citizen = countryData.demonym ? countryData.demonym : `${countryData.displayName} citizens`;
   const country = countryData.displayName;
@@ -372,7 +381,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 </h2>
                 <div className="w-24 h-1 bg-brand-primary mb-4"></div>
                 <div className="space-y-4">
-                  {visaTypesFromDb.map((visa) => (
+                  {visaTypes.map((visa) => (
                     <div
                       key={visa.id}
                       className="bg-gray-50 border-2 border-gray-200 rounded-lg p-5"
@@ -381,10 +390,10 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                         {visa.category}
                       </p>
                       <h3 className="font-bold text-gray-900 mb-2">
-                        {visa.name} – ${visa.govFee}
+                        {visa.label} – ${visa.govFee}
                       </h3>
                       <p className="text-gray-700">
-                        {visa.entry} for up to {visa.durationDays} days.
+                        {visa.entry} for up to {VIETNAM_STAY_DAYS} days.
                         {visa.category === 'Tourist'
                           ? ' For tourism, family visits, or leisure.'
                           : ' For business meetings, conferences, and commercial visits.'}
