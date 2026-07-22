@@ -27,6 +27,7 @@ import type { UrgencyValue } from '@/lib/urgency';
 import { deriveApplyQueryFromVisaId } from '@/lib/vietnamVisa';
 import { FEES_FAQ_ITEMS } from '@/data/feesFaq';
 import RelatedResources from '@/components/ui/RelatedResources';
+import EmergencyCTA from '@/components/trust/EmergencyCTA';
 
 type VisaOption = { value: string; label: string; govFee: number };
 
@@ -76,7 +77,8 @@ export default function FeesPage() {
         : 0;
   const urgencyFee = urgencyFeePerPax * passengers;
   const total = govFee + serviceFee + urgencyFee;
-  const applyHref = `/apply?type=${visaType}&passengers=${passengers}`;
+  const urgencyQuery = urgency ? `&urgency=${urgency}` : '';
+  const applyHref = `/apply?type=${encodeURIComponent(visaType)}&passengers=${passengers}${urgencyQuery}`;
 
   return (
     <main
@@ -167,7 +169,7 @@ export default function FeesPage() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
               <Link
-                href="/apply"
+                href={applyHref}
                 className="inline-flex items-center justify-center px-8 py-4 bg-brand-primary text-white font-bold rounded-xl hover:bg-brand-primary/90 transition-all shadow-lg text-base"
               >
                 Start application
@@ -770,7 +772,15 @@ export default function FeesPage() {
         </div>
       </section>
 
-      <div className="relative w-full px-4 pb-10"></div>
+      <div className="relative w-full px-4 pb-28"></div>
+      <EmergencyCTA
+        variant="sticky"
+        storageKey="fees-sticky-apply"
+        headline="Ready to apply for your Vietnam eVisa?"
+        subtext="Government fee + service fee shown before you pay. Optional rush tiers at checkout."
+        buttonLabel="Start application"
+        href={applyHref}
+      />
       <SiteFooter />
     </main>
   );

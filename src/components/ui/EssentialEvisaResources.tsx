@@ -22,6 +22,15 @@ export default function EssentialEvisaResources({
 }: EssentialEvisaResourcesProps) {
   const strategicLinks = [
     {
+      href: '/apply',
+      anchor: 'Start Vietnam eVisa Application',
+      description:
+        'Begin online now—choose visa type, travelers, and optional rush processing at checkout.',
+      icon: SparklesIcon,
+      badge: 'Apply',
+      highlight: true,
+    },
+    {
       href: '/fees',
       anchor: 'Vietnam Visa Fees & Calculator',
       description:
@@ -40,6 +49,15 @@ export default function EssentialEvisaResources({
       highlight: false,
     },
     {
+      href: '/faq/24-hour-vietnam-evisa',
+      anchor: 'Urgent E-Visa Options',
+      description:
+        'Compare Super Urgent (1 day) and Urgent (3 days) assisted handling for close departure dates.',
+      icon: BoltIcon,
+      badge: 'Emergency',
+      highlight: false,
+    },
+    {
       href: '/blog/vietnam-evisa-multiple-entry-guide-2026',
       anchor: '90-Day Multiple Entry Guide',
       description:
@@ -47,24 +65,6 @@ export default function EssentialEvisaResources({
       icon: DocumentTextIcon,
       badge: 'Guide',
       highlight: false,
-    },
-    {
-      href: '/blog/vietnam-evisa-processing-time-2026',
-      anchor: 'Processing & Delay Guide',
-      description:
-        'Understand business-day timing, holiday slowdowns, and when 1-day or 3-day handling may help.',
-      icon: BoltIcon,
-      badge: 'Official Guide',
-      highlight: false,
-    },
-    {
-      href: '/faq/24-hour-vietnam-evisa',
-      anchor: 'Urgent E-Visa Options',
-      description:
-        'Compare Super Urgent (1 day) and Urgent (3 days) assisted handling for close departure dates.',
-      icon: SparklesIcon,
-      badge: 'Emergency',
-      highlight: true,
     },
   ];
 

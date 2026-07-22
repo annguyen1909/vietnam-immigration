@@ -9,6 +9,19 @@ import {
 
 export type UrgencyValue = '' | 'super_urgent_24h' | 'urgent_48h';
 
+/** Map URL `?urgency=` aliases onto UrgencyValue. */
+export function parseUrgencyFromQuery(value: string | null | undefined): UrgencyValue {
+  if (!value) return '';
+  const v = value.trim().toLowerCase();
+  if (v === 'super_urgent_24h' || v === 'super_urgent' || v === 'super' || v === '1day') {
+    return 'super_urgent_24h';
+  }
+  if (v === 'urgent_48h' || v === 'urgent' || v === '3day' || v === '3days') {
+    return 'urgent_48h';
+  }
+  return '';
+}
+
 const VIETNAM_TZ = 'Asia/Ho_Chi_Minh';
 
 export const URGENCY_OPTIONS: {

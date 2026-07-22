@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 
 const features = [
@@ -58,11 +59,17 @@ export default function HomeServicePackage() {
             ))}
           </div>
 
-          <div className="mt-8 rounded-xl bg-brand-primary px-6 py-4 text-center">
+          <div className="mt-8 rounded-xl bg-brand-primary px-6 py-5 text-center">
             <p className="font-semibold text-white">
               Money-back guarantee: full refund of service fees if your visa application is rejected
               by Vietnamese authorities
             </p>
+            <Link
+              href="/apply"
+              className="mt-4 inline-flex items-center justify-center rounded-lg bg-white px-6 py-3 text-sm font-bold text-brand-primary hover:bg-brand-surface transition"
+            >
+              Start application
+            </Link>
           </div>
         </div>
       </div>

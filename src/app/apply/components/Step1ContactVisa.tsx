@@ -89,8 +89,13 @@ export default function Step1ContactVisa({
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [loggedInAccount, setLoggedInAccount] = useState<AccountData | null>(null);
   const [isAuthLoading, setIsAuthLoading] = useState(true);
-  /** When true, arrival date changes must not override the user's urgency choice. */
-  const urgencyChosenManuallyRef = useRef(false);
+  // Preserve URL/query urgency prefill so arrival-date suggest does not wipe it
+  const urgencyChosenManuallyRef = useRef(Boolean(data.urgency));
+  useEffect(() => {
+    if (data.urgency && !data.stayingStart) {
+      urgencyChosenManuallyRef.current = true;
+    }
+  }, [data.urgency, data.stayingStart]);
   const [urgencyFees, setUrgencyFees] = useState(FALLBACK_URGENCY_FEE_PER_PAX);
   const [vietnamTimeLine, setVietnamTimeLine] = useState(() => formatVietnamLocalTimeLine());
 
@@ -659,7 +664,7 @@ export default function Step1ContactVisa({
                 : 'bg-brand-primary hover:bg-brand-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-primary transform hover:scale-105'
             }`}
           >
-            {isLoading ? 'Processing...' : 'Save & Continue'}
+            {isLoading ? 'Processing...' : 'Continue to travelers'}
           </button>
         </div>
 

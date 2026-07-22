@@ -11,6 +11,7 @@ import {
 } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Link from 'next/link';
+import EmergencyCTA from '@/components/trust/EmergencyCTA';
 import {
   VIETNAM_PROCESSING_TIME,
   VIETNAM_URGENCY_FEE_SUPER_URGENT,
@@ -300,7 +301,7 @@ export default function ProcessingPage() {
                 </li>
               </ul>
               <Link
-                href="/apply"
+                href="/apply?urgency=urgent_48h"
                 className="w-full py-4 bg-brand-primary text-white text-center font-bold rounded-xl hover:bg-brand-primary/90 transition-all shadow-xl hover:shadow-2xl uppercase tracking-wider text-sm block"
               >
                 Apply Now (Urgent)
@@ -338,7 +339,7 @@ export default function ProcessingPage() {
                 </li>
               </ul>
               <Link
-                href="/apply"
+                href="/apply?urgency=super_urgent_24h"
                 className="w-full py-4 bg-gray-900 text-white text-center font-bold rounded-xl hover:bg-brand-primary transition-all shadow-md hover:shadow-lg uppercase tracking-wider text-sm block"
               >
                 Apply Now (Super Urgent)
@@ -639,7 +640,15 @@ export default function ProcessingPage() {
         </div>
       </section>
 
-      <div className="relative w-full px-4 pb-10"></div>
+      <div className="relative w-full px-4 pb-28"></div>
+      <EmergencyCTA
+        variant="sticky"
+        storageKey="processing-sticky-apply"
+        headline="Pick your speed and apply"
+        subtext="Normal, Urgent (3 days), or Super Urgent (1 day)—fees shown before you pay."
+        buttonLabel="Start application"
+        href="/apply"
+      />
       <SiteFooter />
     </main>
   );

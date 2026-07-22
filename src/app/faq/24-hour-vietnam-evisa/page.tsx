@@ -7,6 +7,7 @@ import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import FAQSchema from '@/components/seo/FAQSchema';
 import HelpFloatingBox from '@/components/ui/HelpFloatingBox';
 import RelatedResources from '@/components/ui/RelatedResources';
+import EmergencyCTA from '@/components/trust/EmergencyCTA';
 import {
   ArrowRightIcon,
   BoltIcon,
@@ -251,7 +252,7 @@ export default function UrgentEVisaLandingPage() {
 
                   <div className="space-y-4">
                     <Link
-                      href="/apply"
+                      href="/apply?urgency=super_urgent_24h"
                       className="w-full py-4 px-6 bg-gradient-to-r from-red-600 hover:from-red-700 to-amber-600 hover:to-amber-700 text-white font-black text-lg rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center justify-center gap-3 group"
                     >
                       <span>Start Urgent Application</span>
@@ -490,7 +491,7 @@ export default function UrgentEVisaLandingPage() {
 
                 <div className="pt-8">
                   <Link
-                    href="/apply"
+                    href="/apply?urgency=urgent_48h"
                     className="w-full py-4 px-6 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-slate-900 font-black text-lg rounded-2xl shadow-xl transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2"
                   >
                     <span>Choose Urgent</span>
@@ -542,7 +543,7 @@ export default function UrgentEVisaLandingPage() {
 
                 <div className="pt-8">
                   <Link
-                    href="/apply"
+                    href="/apply?urgency=super_urgent_24h"
                     className="w-full py-4 px-6 bg-red-600 hover:bg-red-700 text-white font-bold rounded-2xl shadow-lg transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2"
                   >
                     <span>Choose Super Urgent</span>
@@ -607,7 +608,7 @@ export default function UrgentEVisaLandingPage() {
 
             <div className="mt-12 text-center">
               <Link
-                href="/apply"
+                href="/apply?urgency=super_urgent_24h"
                 className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-gradient-to-r from-red-600 to-amber-600 hover:from-red-700 hover:to-amber-700 text-white font-black text-lg rounded-2xl shadow-xl transition-all"
               >
                 Start urgent application
@@ -658,6 +659,14 @@ export default function UrgentEVisaLandingPage() {
 
         <SiteFooter />
       </main>
+      <EmergencyCTA
+        variant="sticky"
+        storageKey="urgent-faq-sticky-apply"
+        headline="Need an urgent Vietnam eVisa?"
+        subtext="Start now and pick Urgent (3 days) or Super Urgent (1 day) at checkout."
+        buttonLabel="Start urgent application"
+        href="/apply?urgency=super_urgent_24h"
+      />
     </>
   );
 }

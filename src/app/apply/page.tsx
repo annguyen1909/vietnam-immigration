@@ -13,6 +13,7 @@ import ApplicationProgress from './components/ApplicationProgress';
 import LivePriceBox from './components/LivePriceBox';
 import { VisaType, ApplicationData, Passenger } from '@/types/index';
 import { matchVisaTypeFromQuery } from '@/lib/vietnamVisa';
+import { parseUrgencyFromQuery } from '@/lib/urgency';
 import SupportBox from './components/SupportBox';
 import CancelledApplicationView from './components/CancelledApplicationView';
 import ProcessingView from './components/ProcessingView';
@@ -119,10 +120,12 @@ export default function ApplyPage() {
     if (visaTypes.length > 0 && !applicationData.visaTypeId) {
       let typeParam = '';
       let passengersParam = '';
+      let urgencyParam = '';
       if (typeof window !== 'undefined') {
         const params = new URLSearchParams(window.location.search);
         typeParam = params.get('type') || '';
         passengersParam = params.get('passengers') || '';
+        urgencyParam = params.get('urgency') || '';
       }
       if (typeParam) {
         const match = matchVisaTypeFromQuery(visaTypes, typeParam);
@@ -136,8 +139,24 @@ export default function ApplyPage() {
           setApplicationData((prev) => ({ ...prev, passengerCount: num }));
         }
       }
+      const urgency = parseUrgencyFromQuery(urgencyParam);
+      if (urgency) {
+        setApplicationData((prev) => (prev.urgency ? prev : { ...prev, urgency }));
+      }
     }
   }, [visaTypes, applicationData.visaTypeId, applicationData.passengerCount]);
+
+  // Also accept urgency when visa type already set (e.g. returning visitor)
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    if (applicationData.urgency) return;
+    const urgency = parseUrgencyFromQuery(
+      new URLSearchParams(window.location.search).get('urgency')
+    );
+    if (urgency) {
+      setApplicationData((prev) => (prev.urgency ? prev : { ...prev, urgency }));
+    }
+  }, [applicationData.urgency]);
 
   // Load application data if returning from payment redirect
   useEffect(() => {

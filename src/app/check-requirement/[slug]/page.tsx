@@ -19,6 +19,7 @@ import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import FAQSchema from '@/components/seo/FAQSchema';
 import HowToSchema from '@/components/seo/HowToSchema';
 import RelatedResources from '@/components/ui/RelatedResources';
+import EmergencyCTA from '@/components/trust/EmergencyCTA';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -183,6 +184,20 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 Complete guide to Vietnam eVisa requirements, fees, and application process for{' '}
                 {citizen}. Professional assistance with official standards and certified expertise.
               </p>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <Link
+                  href="/apply"
+                  className="inline-flex items-center justify-center px-8 py-3.5 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-primary/90 transition shadow-lg text-base"
+                >
+                  Apply for Vietnam eVisa
+                </Link>
+                <Link
+                  href="/fees"
+                  className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-brand-primary font-bold rounded-lg border-2 border-brand-primary hover:bg-brand-primary/5 transition text-base"
+                >
+                  See fees
+                </Link>
+              </div>
               <div className="mt-6 p-5 bg-brand-surface border-l-4 border-brand-primary rounded-r-lg shadow-sm">
                 <p className="text-base text-gray-800 leading-relaxed">
                   <strong>Quick Service Links for {citizen}:</strong> To review complete government
@@ -887,7 +902,15 @@ export default async function CountryRequirementPage({ params }: PageProps) {
           </div>
         </section>
 
-        <div className="relative w-full px-4 pb-10"></div>
+        <div className="relative w-full px-4 pb-28"></div>
+        <EmergencyCTA
+          variant="sticky"
+          storageKey={`check-req-sticky-${slug}`}
+          headline={`Ready to apply for your Vietnam eVisa?`}
+          subtext={`For ${citizen}: start online now—fees and processing options shown before you pay.`}
+          buttonLabel="Start application"
+          href="/apply"
+        />
         <SiteFooter />
       </main>
     </>
