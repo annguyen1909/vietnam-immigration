@@ -35,9 +35,7 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
     </svg>
   );
 
-  const check = (
-    <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-green-600" aria-hidden="true" />
-  );
+  const check = <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-green-600" aria-hidden="true" />;
 
   // Mobile floating button (sticky, top right)
   const floatingButton = (
@@ -117,19 +115,17 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
               APPLY WITH CONFIDENCE
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              {check}Fast, secure, and reliable visa
-              processing
+              {check}Fast, secure, and reliable visa processing
             </div>
             <div className="flex items-start gap-2 text-black text-base">
               {check}Safe online payment—no hidden fees
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              {check}Most visas approved within{' '}
-              {VIETNAM_PROCESSING_TIME}
+              {check}Most visas approved within {VIETNAM_PROCESSING_TIME}
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              {check}Optional Urgent (3 days) / Super Urgent
-              (1 day) processing—fees shown before you pay
+              {check}Optional Urgent (3 days) / Super Urgent (1 day) processing—fees shown before
+              you pay
             </div>
             <div className="flex items-start gap-2 text-black text-base">
               {check}Transparent pricing, no surprises
@@ -225,26 +221,23 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
                   APPLY WITH CONFIDENCE
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  {check}Fast, secure, and reliable visa
-                  processing
+                  {check}Fast, secure, and reliable visa processing
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
                   {check}Safe online payment—no hidden fees
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  {check}Most visas approved within 3
-                  working days
+                  {check}Most visas approved within 3 working days
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  {check}Optional Urgent (3 days) / Super
-                  Urgent (1 day) processing—fees shown before you pay
+                  {check}Optional Urgent (3 days) / Super Urgent (1 day) processing—fees shown
+                  before you pay
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
                   {check}Transparent pricing, no surprises
                 </div>
                 <div className="flex items-start gap-2 text-black text-base font-semibold">
-                  {check}100% Service Fees Returned if
-                  Rejected
+                  {check}100% Service Fees Returned if Rejected
                 </div>
               </div>
             </div>

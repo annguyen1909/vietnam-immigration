@@ -107,7 +107,8 @@ export default function FeesPage() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
               Vietnam Visa Fee 2026
               <span className="block text-brand-primary">
-                ${VIETNAM_GOV_FEE_SINGLE} Single / ${VIETNAM_GOV_FEE_MULTIPLE} Multiple + Service Fee
+                ${VIETNAM_GOV_FEE_SINGLE} Single / ${VIETNAM_GOV_FEE_MULTIPLE} Multiple + Service
+                Fee
               </span>
             </h1>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-6"></div>

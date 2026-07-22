@@ -284,29 +284,47 @@ export default function EmbassyPage() {
             </h3>
             <ul className="space-y-2 text-gray-700 text-sm">
               <li className="flex items-start">
-                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
+                <CheckIcon
+                  className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0"
+                  aria-hidden="true"
+                />
                 <span>Fast, secure, and reliable visa processing</span>
               </li>
               <li className="flex items-start">
-                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
+                <CheckIcon
+                  className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0"
+                  aria-hidden="true"
+                />
                 <span>Safe online payment—no hidden fees</span>
               </li>
               <li className="flex items-start">
-                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
+                <CheckIcon
+                  className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0"
+                  aria-hidden="true"
+                />
                 <span>Most visas approved within {VIETNAM_PROCESSING_TIME}</span>
               </li>
               <li className="flex items-start">
-                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
+                <CheckIcon
+                  className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0"
+                  aria-hidden="true"
+                />
                 <span>
                   Optional Urgent (3 days) / Super Urgent (1 day) processing—fees shown at checkout
                 </span>
               </li>
               <li className="flex items-start">
-                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
+                <CheckIcon
+                  className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0"
+                  aria-hidden="true"
+                />
                 <span>Transparent pricing, no surprises</span>
               </li>
               <li className="flex items-start font-semibold">
-                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
+                <CheckIcon
+                  className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0"
+                  aria-hidden="true"
+                />
                 <span>100% Service Fees Returned if Rejected</span>
               </li>
             </ul>
