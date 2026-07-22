@@ -257,9 +257,7 @@ function Step3PaymentContent({
                 </svg>
               </div>
             </div>
-            <h3 className="text-center text-lg font-bold text-gray-800 mb-2">
-              🔒 Bank-Level Security
-            </h3>
+            <h3 className="text-center text-lg font-bold text-gray-800 mb-2">Bank-Level Security</h3>
             <p className="text-center text-sm text-gray-600 mb-4">
               Your payment is protected with military-grade encryption
             </p>
@@ -281,7 +279,7 @@ function Step3PaymentContent({
 
             <div className="mt-3 text-center">
               <p className="text-xs text-gray-500">
-                💳 We never store your card details • 🛡️ Fraud protection included
+                We never store your card details • Fraud protection included
               </p>
             </div>
           </div>

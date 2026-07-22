@@ -34,7 +34,7 @@ faq:
     answer: For re-entry, you must present your unexpired passport, a printed copy of your multiple entry eVisa PDF, and enter through an approved port listed on the document. Your exit ports and re-entry ports must align with official designated international checkpoints.
 ---
 
-> **🛡️ E-E-A-T Verified Guide & Expert Review**
+> **E-E-A-T Verified Guide & Expert Review**
 >
 > - **Author:** Vietnam eVisa Assistance Team (Senior Immigration & Travel Specialists)
 > - **Fact-Checked & Verified By:** Nguyen Van Tuan (Senior Visa Processing Lead)
@@ -87,7 +87,7 @@ This 2026 guide covers how multiple-entry **tourist visa** products work, which 
 
 **Best for:** Backpackers on overland routes, multi-country holiday planners, business travelers with repeat regional trips, and cruise passengers who re-board in Vietnam.
 
-> **⚡ TIMING IS CRITICAL FOR REGIONAL TRAVEL**
+> **TIMING IS CRITICAL FOR REGIONAL TRAVEL**
 > Don't let processing delays disrupt your multi-country itinerary. Review the latest [multiple entry processing time](/processing) guidance so you can plan a realistic application window before your first departure flight.
 
 ## Single vs multiple entry: plain language
@@ -206,7 +206,7 @@ Always read **your** PDF wording—field labels vary slightly by issuance period
 | "Maybe" Laos side trip              | Multiple entry     | Uncertainty tax is only $25                    |
 | Family of 4 with regional loop      | Multiple entry × 4 | One wrong entry type × 4 people = major rework |
 
-> **💡 MAXIMIZE YOUR BUDGET & COMPARE COSTS**
+> **MAXIMIZE YOUR BUDGET & COMPARE COSTS**
 > Wondering about the exact breakdown between government costs and service assistance? Check the official [vietnam visa fee for multiple entry](/fees) to view our transparent pricing table, compare single vs multiple entry packages, and avoid unexpected surcharges during your travels.
 
 Compare live totals: [/fees](/fees). For group math, see [Vietnam eVisa for families and minors](/blog/vietnam-evisa-for-minors-families-2026).
@@ -281,7 +281,7 @@ Some travelers qualify for short **visa exemption** on first entry but still nee
 - You **cannot** edit entry type through airline staff
 - You typically must **apply again** with multiple entry (full fees, new processing time)
 
-> **🚨 URGENT & EMERGENCY FLIGHT DEPARTURES**
+> **URGENT & EMERGENCY FLIGHT DEPARTURES**
 > Stuck at an airport or border crossing with the wrong visa type? If you need a last-minute re-entry solution, review our [urgent multiple entry evisa options](/faq/24-hour-vietnam-evisa) and contact support for the fastest realistic path.
 
 **Before first departure:** If your travel plan needs multiple entry, contact support right away with your reference number. We have limited options after you submit.

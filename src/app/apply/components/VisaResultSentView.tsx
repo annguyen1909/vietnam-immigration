@@ -23,12 +23,7 @@ export default function VisaResultSentView({ email, updatedOn }: VisaResultSentV
           />
         </div>
         <div className="bg-white rounded-2xl shadow-xl p-8 max-w-xl text-center">
-          <h1 className="text-3xl font-bold text-green-700 mb-4 flex items-center justify-center gap-2">
-            <span>Visa Result Sent</span>
-            <span role="img" aria-label="mail">
-              📬
-            </span>
-          </h1>
+          <h1 className="text-3xl font-bold text-green-700 mb-4">Visa Result Sent</h1>
           <p className="text-gray-700 mb-2">
             Your visa result has been sent to:
             <span className="block font-semibold text-brand-primary-dark text-lg mt-1">

@@ -37,6 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const citizen = countryData.demonym ? countryData.demonym : `${countryData.displayName} citizens`;
   const country = countryData.displayName;
+  const audience = countryData.demonym ? `${countryData.demonym} travelers` : `${country} citizens`;
 
   let pageTitle = `Vietnam visa for ${citizen} | eVisa Requirements & Application`;
   if (slug === 'india') {
@@ -45,9 +46,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     pageTitle = 'Vietnam e-Visa for US Citizens 2026 - Requirements & Application';
   }
 
-  const pageDescription =
-    countryData.eligibilityIntro ??
-    `Get the latest official Vietnam eVisa requirements, fees, and step-by-step application guide for ${citizen}. Professional, secure online visa processing for ${country}.`;
+  const pageDescription = `Check Vietnam eVisa requirements for ${audience}: eligibility, documents, fees, processing time, and online application steps for 2026.`;
 
   return buildPageMetadata({
     title: pageTitle,

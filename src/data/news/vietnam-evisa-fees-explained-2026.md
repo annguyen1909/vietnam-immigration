@@ -28,7 +28,7 @@ faq:
     answer: Passport renewal if validity is under six months, professional photos, printing copies, international card FX fees, travel insurance, and potential extension fees inside Vietnam if your plans change—all separate from the eVisa checkout total.
 ---
 
-**How much does a Vietnam eVisa cost in 2026?** On our assisted portal, the total is a stack of line items: a **government fee** determined by visa type ($55 or $80 for standard 90-day products), a **service fee** ($59.99 per passenger), and sometimes an **optional processing upgrade** when your departure date is tight. Understanding each layer before you pay prevents surprise charges at checkout.
+**How much does a Vietnam eVisa cost in 2026?** On our assisted portal, the total is a stack of line items: a **government fee** determined by visa type ($55 or $80 for standard 90-day products), a **service fee** ($59.99 per passenger), and sometimes an **optional processing upgrade** when your departure date is tight. For the live calculator and canonical fee table, use [/fees](/fees)—this guide explains what each line means.
 
 This guide breaks down every fee category, shows realistic totals for solo travelers and families, explains what is refundable, and flags the hidden costs travelers forget until they are already at the airport.
 

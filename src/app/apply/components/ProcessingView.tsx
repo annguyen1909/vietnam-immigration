@@ -124,7 +124,7 @@ export default function ProcessingView({ applicationId, email, passengers }: Pro
         {/* Main Content */}
         <div className="bg-white rounded-2xl shadow-xl p-8 max-w-2xl text-center">
           <h1 className="text-3xl font-bold text-brand-primary mb-4">
-            Your Visa is Being Processed! 🎉
+            Your Visa is Being Processed!
           </h1>
 
           <p className="text-gray-700 mb-2">
@@ -138,7 +138,7 @@ export default function ProcessingView({ applicationId, email, passengers }: Pro
           {/* Encouraging Message */}
           <div className="bg-gradient-to-r from-brand-surface-alt to-brand-surface border border-green-200 rounded-lg p-6 mb-6">
             <h2 className="text-xl font-semibold text-green-800 mb-3">
-              Sit Back, Relax, and Pack Your Bags! 🧳
+              Sit Back, Relax, and Pack Your Bags!
             </h2>
             <p className="text-green-700 mb-4">
               Our expert team is carefully reviewing your application to ensure everything is
@@ -153,7 +153,7 @@ export default function ProcessingView({ applicationId, email, passengers }: Pro
           {/* Email Notification Info */}
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6">
             <h3 className="text-lg font-semibold text-yellow-800 mb-2">
-              📧 We&apos;ll Keep You Updated
+              We&apos;ll Keep You Updated
             </h3>
             <p className="text-yellow-700">
               You&apos;ll receive your visa result via email at{' '}

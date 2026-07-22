@@ -7,12 +7,22 @@ export type RelatedResourceLink = {
   description?: string;
 };
 
-/** Curated cross-links to the strongest hub pages — strengthens internal linking. */
+/** Curated cross-links — money + converting hubs first (GSC priority). */
 export const DEFAULT_RELATED_RESOURCES: RelatedResourceLink[] = [
   {
-    href: '/blog/vietnam-evisa-requirements-guide-2026',
-    title: 'Vietnam eVisa Requirements 2026',
-    description: 'Full checklist: documents, photo rules, eligibility, and entry ports.',
+    href: '/fees',
+    title: 'Vietnam Visa Fees 2026',
+    description: 'Government fee $55/$80 by entry type, service fee, and live calculator.',
+  },
+  {
+    href: '/faq/24-hour-vietnam-evisa',
+    title: 'Urgent & Emergency eVisa Options',
+    description: 'Compare Super Urgent (1 day) and Urgent (3 days) for close departures.',
+  },
+  {
+    href: '/troubleshooting',
+    title: 'Fix eVisa Errors',
+    description: 'Payment failures, name mismatches, photo rejects, and delays.',
   },
   {
     href: '/processing',
@@ -20,14 +30,9 @@ export const DEFAULT_RELATED_RESOURCES: RelatedResourceLink[] = [
     description: 'How long an eVisa takes and the full application-to-approval flow.',
   },
   {
-    href: '/fees',
-    title: 'Fees & Pricing',
-    description: 'Government fees by visa type plus our transparent service fee.',
-  },
-  {
-    href: '/troubleshooting',
-    title: 'Fix eVisa Errors',
-    description: 'Emergency guides for payment failures, name mismatches, and delays.',
+    href: '/blog/vietnam-evisa-requirements-guide-2026',
+    title: 'Vietnam eVisa Requirements 2026',
+    description: 'Documents, photo rules, eligibility, and entry ports.',
   },
   {
     href: '/check-requirement',

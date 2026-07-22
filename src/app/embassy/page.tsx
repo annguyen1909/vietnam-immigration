@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { CheckIcon } from '@heroicons/react/24/outline';
 import SiteFooter from '@/components/layout/SiteFooter';
 import { buildStaticPageMetadata } from '@/lib/seo';
 import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
@@ -247,13 +248,11 @@ export default function EmbassyPage() {
                 </a>
               </p>
               <div className="flex items-center gap-2 text-gray-800">
-                <span className="text-xl">🇺🇸</span>
                 <span className="font-medium">United States</span>
                 <span className="ml-auto font-semibold tracking-wide">+1 323 286 4541</span>
               </div>
               {/* UK phone number hidden but not deleted */}
               {/* <div className="flex items-center gap-2 text-gray-800">
-                <span className="text-xl">🇬🇧</span>
                 <span className="font-medium">United Kingdom</span>
                 <span className="ml-auto font-semibold tracking-wide">+44 5555 000000</span>
               </div> */}
@@ -285,29 +284,29 @@ export default function EmbassyPage() {
             </h3>
             <ul className="space-y-2 text-gray-700 text-sm">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2 mt-1">✔</span>
+                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
                 <span>Fast, secure, and reliable visa processing</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2 mt-1">✔</span>
+                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
                 <span>Safe online payment—no hidden fees</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2 mt-1">✔</span>
+                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
                 <span>Most visas approved within {VIETNAM_PROCESSING_TIME}</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2 mt-1">✔</span>
+                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
                 <span>
                   Optional Urgent (3 days) / Super Urgent (1 day) processing—fees shown at checkout
                 </span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2 mt-1">✔</span>
+                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
                 <span>Transparent pricing, no surprises</span>
               </li>
               <li className="flex items-start font-semibold">
-                <span className="text-green-500 mr-2 mt-1">✔</span>
+                <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
                 <span>100% Service Fees Returned if Rejected</span>
               </li>
             </ul>

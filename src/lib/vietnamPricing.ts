@@ -110,7 +110,7 @@ export function getVietnamStayDurationFaqLine(): string {
 }
 
 export function getVietnamFeesMetaDescription(): string {
-  return `Official vietnam visa fee breakdown 2026: Transparent pricing covering Government stamping fee ($55-$80) and our expert service & consultancy fee ($59.99).`;
+  return `Vietnam visa fee 2026: $${VIETNAM_GOV_FEE_SINGLE} single / $${VIETNAM_GOV_FEE_MULTIPLE} multiple entry + $${VIETNAM_SERVICE_FEE_PER_PAX} service fee per passenger. Clear calculator—no hidden charges.`;
 }
 
 export function getVietnamFeesHeroSubtitle(): string {

@@ -26,50 +26,85 @@ import {
 } from '@/lib/vietnamPricing';
 
 export const metadata: Metadata = buildPageMetadata({
-  title: 'Urgent Vietnam e-Visa in 24 Hours - 1-Day & 3-Day Options 2026',
+  title: 'Urgent eVisa Vietnam 2026 — Emergency & Rush (1-Day / 3-Day)',
   description:
-    'Need an urgent eVisa Vietnam option for a close departure date? Review Super Urgent (1 day) and Urgent (3 days) assisted handling, transparent fees, and key last-minute travel guidance.',
+    'Urgent eVisa Vietnam and emergency rush options: Super Urgent (1 day) or Urgent (3 days). See fees, timelines, and how to apply when your flight is close.',
   path: '/faq/24-hour-vietnam-evisa',
   ogType: 'website',
   keywords: [
     'urgent evisa vietnam',
+    'urgent vietnam evisa',
+    'emergency evisa vietnam',
     'emergency vietnam evisa',
-    'urgent vietnam visa 24 hours',
-    'expedited vietnam evisa',
-    'rush vietnam visa',
+    'rush evisa to vietnam',
+    'emergency vietnam visa',
+    'urgent vietnam visa',
   ],
 });
 
 const FAQ_ITEMS = [
   {
-    question: 'How can I apply for an urgent evisa vietnam option?',
+    question: 'How do I get an urgent eVisa Vietnam when my flight is soon?',
     answer:
-      'If your trip is close, submit your application online and choose the urgency tier that matches your travel date. Eligible travelers may see Urgent (3 days) or Super Urgent (1 day) assisted handling during checkout.',
+      'Apply online, upload a clear passport scan and portrait, then choose Urgent (3 days) or Super Urgent (1 day) if available for your case. Contact support with your reference and flight date if departure is within 24–48 hours.',
   },
   {
-    question: 'What is the difference between standard, urgent, and super urgent handling?',
+    question: 'What is the difference between urgent and emergency Vietnam eVisa tiers?',
     answer:
-      'Standard handling typically targets 3 to 5 business days. Urgent handling targets 3 days, while Super Urgent targets 1 day. These are assisted service timelines; final approval is still issued by Vietnam immigration.',
+      'On this site, Urgent targets 3-day assisted handling and Super Urgent targets 1-day assisted handling. Both are private rush services—final approval still comes from Vietnam immigration and depends on clean documents.',
   },
   {
-    question: 'What should I do if I am flying within 24 hours?',
+    question: 'Can I get a rush eVisa to Vietnam in 24 hours?',
     answer:
-      'Apply immediately, select Super Urgent if it is available for your case, and contact support with your reference number and flight details. Make sure your passport scan and portrait are correct before submission because document errors can still delay approval.',
+      'Super Urgent targets 1-day assisted handling when your documents are ready and the tier is available. It is not a government guarantee. Apply immediately, avoid photo/passport errors, and keep support updated with your travel details.',
   },
   {
-    question: 'How much does urgent Vietnam eVisa service cost?',
+    question: 'How much does an urgent Vietnam eVisa cost?',
     answer:
-      'The total price includes the government fee, the standard service fee, and the selected urgency add-on. For single-entry visas, the government fee is $55; for multiple-entry visas, it is $80. Urgent adds $110 per passenger and Super Urgent adds $220 per passenger.',
+      'Total = government fee ($55 single / $80 multiple) + $59.99 service fee per passenger + urgency add-on ($110 Urgent or $220 Super Urgent). See the fee examples on this page and the full calculator on /fees.',
   },
   {
-    question: 'Is approval guaranteed on urgent cases?',
+    question: 'Is emergency Vietnam eVisa approval guaranteed?',
     answer:
-      'No. Faster handling helps speed review and preparation on our side, but final approval still depends on Vietnam immigration and the accuracy of your documents.',
+      'No. Faster handling speeds our preparation and follow-up, but immigration decides approval and timing. Wrong photos, name mismatches, or holiday backlogs can still delay results.',
   },
   {
-    question: 'Do weekends and holidays affect urgent applications?',
+    question: 'Do weekends and holidays affect urgent Vietnam visa processing?',
     answer:
-      'They can. Support remains available, but government review is still influenced by business days, weekends, and public holidays. If you are traveling near Tet or another major holiday, apply as early as possible.',
+      'Yes. Support stays available, but government review still follows business days and public holidays. Near Tet or major holidays, apply as early as possible even if you select a rush tier.',
+  },
+  {
+    question: 'What should I fix first if my urgent application is stuck?',
+    answer:
+      'Check payment status, passport scan clarity, and portrait compliance. See our troubleshooting guides for payment failed, photo rejected, and processing delays—then contact support with your reference number.',
+  },
+];
+
+const URGENT_RELATED = [
+  {
+    href: '/fees',
+    title: 'Vietnam Visa Fees & Calculator',
+    description: 'Full $55/$80 government fee breakdown plus service and rush add-ons.',
+  },
+  {
+    href: '/troubleshooting/payment-failed',
+    title: 'Payment Failed?',
+    description: 'Fix checkout errors before you lose your rush window.',
+  },
+  {
+    href: '/troubleshooting/photo-rejected',
+    title: 'Photo Rejected',
+    description: 'Fix portrait rules that delay urgent submissions.',
+  },
+  {
+    href: '/troubleshooting/evisa-processing-48-hours',
+    title: 'Still Processing After 48 Hours',
+    description: 'What to do when a rush case has not moved.',
+  },
+  {
+    href: '/processing',
+    title: 'Standard Processing Times',
+    description: 'Compare normal timelines vs Urgent and Super Urgent.',
   },
 ];
 
@@ -85,7 +120,7 @@ export default function UrgentEVisaLandingPage() {
         items={[
           { name: 'Home', href: '/' },
           { name: 'FAQ', href: '/faq' },
-          { name: 'Urgent Vietnam e-Visa in 24 Hours', href: '/faq/24-hour-vietnam-evisa' },
+          { name: 'Urgent eVisa Vietnam', href: '/faq/24-hour-vietnam-evisa' },
         ]}
       />
       <main className="relative min-h-screen w-full bg-white text-gray-900 selection:bg-amber-100 selection:text-amber-900">
@@ -110,9 +145,9 @@ export default function UrgentEVisaLandingPage() {
                 </div>
 
                 <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-white">
-                  Urgent Vietnam e-Visa in 24 Hours <br className="hidden sm:inline" />
+                  Urgent eVisa Vietnam &amp; Emergency Rush{' '}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-yellow-300 to-orange-400">
-                    1-Day &amp; 3-Day Options for 2026
+                    1-Day &amp; 3-Day Options (2026)
                   </span>
                 </h1>
 
@@ -256,44 +291,52 @@ export default function UrgentEVisaLandingPage() {
                     <tr className="bg-slate-900 text-white text-sm uppercase tracking-wider font-bold">
                       <th className="py-5 px-6">Service Tier</th>
                       <th className="py-5 px-6">Target Handling Time</th>
+                      <th className="py-5 px-6">Sample Total (Single)</th>
                       <th className="py-5 px-6">Best Suited For</th>
-                      <th className="py-5 px-6">Notes</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200 text-gray-700 font-medium">
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="py-5 px-6 font-bold text-slate-900">Super Urgent</td>
                       <td className="py-5 px-6 font-extrabold text-red-600">1 day</td>
-                      <td className="py-5 px-6 text-gray-600">
-                        Flights that are extremely close and still eligible for rush handling
+                      <td className="py-5 px-6 font-bold text-slate-900">
+                        {formatUsd(superUrgentSingleTotal)}
                       </td>
                       <td className="py-5 px-6 text-gray-600">
-                        Best used only when your document set is ready to submit immediately
+                        Flights that are extremely close and still eligible for rush handling
                       </td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="py-5 px-6 font-bold text-slate-900">Urgent</td>
                       <td className="py-5 px-6 font-extrabold text-amber-600">3 days</td>
-                      <td className="py-5 px-6 text-gray-600">
-                        Upcoming trips that need faster handling than the standard window
+                      <td className="py-5 px-6 font-bold text-slate-900">
+                        {formatUsd(urgentSingleTotal)}
                       </td>
                       <td className="py-5 px-6 text-gray-600">
-                        A practical option when you still have a small buffer before departure
+                        Upcoming trips that need faster handling than the standard window
                       </td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="py-5 px-6 font-bold text-slate-900">Standard</td>
                       <td className="py-5 px-6 font-extrabold text-slate-700">3-5 business days</td>
-                      <td className="py-5 px-6 text-gray-600">
-                        Travelers who are applying early and want the normal processing route
+                      <td className="py-5 px-6 font-bold text-slate-900">
+                        {formatUsd(standardSingleTotal)}
                       </td>
                       <td className="py-5 px-6 text-gray-600">
-                        Gives you the most room for any amendments or holiday delays
+                        Travelers applying early who want the normal processing route
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
+              <p className="text-sm text-gray-500 px-6 py-4 border-t border-gray-100">
+                Sample totals use single-entry government fee + service fee + urgency add-on. Full
+                breakdown and multiple-entry pricing:{' '}
+                <Link href="/fees" className="font-semibold text-brand-primary underline">
+                  Vietnam visa fees
+                </Link>
+                .
+              </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -562,8 +605,25 @@ export default function UrgentEVisaLandingPage() {
               ))}
             </div>
 
+            <div className="mt-12 text-center">
+              <Link
+                href="/apply"
+                className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-gradient-to-r from-red-600 to-amber-600 hover:from-red-700 hover:to-amber-700 text-white font-black text-lg rounded-2xl shadow-xl transition-all"
+              >
+                Start urgent application
+                <ArrowRightIcon className="w-5 h-5" />
+              </Link>
+              <p className="mt-3 text-sm text-gray-500">
+                Choose Urgent or Super Urgent at checkout based on your flight date.
+              </p>
+            </div>
+
             <div className="mt-16">
-              <RelatedResources />
+              <RelatedResources
+                title="Fees, fixes & next steps for urgent cases"
+                links={URGENT_RELATED}
+                excludePaths={['/faq/24-hour-vietnam-evisa']}
+              />
             </div>
 
             <div className="mt-12">

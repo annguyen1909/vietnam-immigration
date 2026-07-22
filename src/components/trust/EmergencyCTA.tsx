@@ -23,7 +23,7 @@ export type EmergencyCTAProps = {
 const DEFAULT_HEADLINE = 'Flight leaving soon? eVisa delayed or rejected?';
 const DEFAULT_SUBTEXT =
   'Our experts can fix your application and get your emergency eVisa in 2 to 4 hours.';
-const DEFAULT_BUTTON = 'Apply for Rush Service Now ⚡';
+const DEFAULT_BUTTON = 'Apply for Rush Service Now';
 const DEFAULT_STORAGE_KEY = 'emergency-cta-dismissed';
 
 /** High-urgency CTA for troubleshooting / "Fixer" pages. */

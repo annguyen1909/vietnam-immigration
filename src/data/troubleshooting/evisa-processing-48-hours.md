@@ -72,7 +72,7 @@ If payment never fully posted, status may look stuck when the application never 
 
 ## What to do at the 48-hour mark (checklist)
 
-### ✅ Do this
+### Do this
 
 1. **Confirm payment** posted on your card or bank
 2. **Search email**—inbox, spam, promotions—for reference number and "eVisa"
@@ -80,7 +80,7 @@ If payment never fully posted, status may look stuck when the application never 
 4. **Note your tier**—Normal vs Urgent vs Super Urgent
 5. **Save portal screenshot** with timestamp for support if needed later
 
-### ❌ Do not do this yet
+### Do not do this yet
 
 1. **Pay for a duplicate application** — see [duplicate guide](/troubleshooting/duplicate-evisa-application)
 2. **Assume rejection** without a rejection email

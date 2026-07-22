@@ -32,7 +32,7 @@ export async function GET(request: NextRequest) {
       return NextResponse.json(
         {
           success: true,
-          message: `✅ Email sent successfully for ${type} bot`,
+          message: `Email sent successfully for ${type} bot`,
           result,
           details: {
             ip: testIP,
@@ -47,7 +47,7 @@ export async function GET(request: NextRequest) {
       return NextResponse.json(
         {
           success: false,
-          message: `❌ Email not sent: ${result.error}`,
+          message: `Email not sent: ${result.error}`,
           result,
         },
         { status: 200 }

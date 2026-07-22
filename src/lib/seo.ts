@@ -7,6 +7,9 @@ export const DEFAULT_OG_IMAGE = '/img/vietnam-hero.jpg';
 export const TROUBLESHOOTING_OG_IMAGE = '/img/vietnam-hero.jpg';
 
 const TWITTER_SITE = '@vietnam_immigration';
+const META_TITLE_MAX_LENGTH = 70;
+const META_TITLE_WITH_BRAND_MAX_LENGTH = 75;
+const META_DESCRIPTION_MAX_LENGTH = 155;
 
 const GOOGLE_BOT_INDEXABLE = {
   index: true,
@@ -40,7 +43,18 @@ export function getPublicSiteUrl(): string {
   const fromEnv =
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '') ||
     process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, '');
-  return fromEnv || SITE_URL;
+  const siteUrl = fromEnv || SITE_URL;
+
+  const shouldEnforceProductionUrl =
+    process.env.VERCEL_ENV === 'production' || process.env.ENFORCE_PUBLIC_SITE_URL === '1';
+
+  if (shouldEnforceProductionUrl && /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/i.test(siteUrl)) {
+    throw new Error(
+      'NEXT_PUBLIC_SITE_URL must be the public production origin, not localhost, when building for production.'
+    );
+  }
+
+  return siteUrl;
 }
 
 export function normalizePath(path: string): string {
@@ -79,17 +93,61 @@ export function absoluteAssetUrl(path?: string): string {
   return `${base}${path.startsWith('/') ? path : `/${path}`}`;
 }
 
+function normalizeMetadataText(value: string): string {
+  return value.replace(/\s+/g, ' ').trim();
+}
+
+function trimAtWordBoundary(value: string, maxLength: number): string {
+  if (value.length <= maxLength) return value;
+
+  const truncated = value.slice(0, maxLength + 1);
+  const lastSpace = truncated.lastIndexOf(' ');
+  const candidate =
+    lastSpace > Math.floor(maxLength * 0.65) ? truncated.slice(0, lastSpace) : truncated;
+
+  return candidate
+    .replace(/\s+(and|or|with|for|to|of|in|by)$/i, '')
+    .replace(/[-,:;.!?\u2013\u2014\s]+$/, '')
+    .trim();
+}
+
+export function formatMetadataTitle(title: string): string {
+  const normalized = normalizeMetadataText(title);
+  if (normalized.length <= META_TITLE_MAX_LENGTH) return normalized;
+
+  const withoutParenthetical = normalizeMetadataText(normalized.replace(/\s*\([^)]*\)/g, ''));
+  if (withoutParenthetical.length <= META_TITLE_MAX_LENGTH) return withoutParenthetical;
+
+  const separatorCandidate = withoutParenthetical.match(/^(.{38,70}?)(?:\s[-\u2013\u2014]\s|:\s)/);
+  if (separatorCandidate?.[1]) return separatorCandidate[1].trim();
+
+  return trimAtWordBoundary(withoutParenthetical, META_TITLE_MAX_LENGTH);
+}
+
+export function formatMetadataDescription(description: string): string {
+  const normalized = normalizeMetadataText(description);
+  if (normalized.length <= META_DESCRIPTION_MAX_LENGTH) return normalized;
+
+  const sentenceMatch = normalized.match(/^(.{80,155}?[.!?])(?:\s|$)/);
+  if (sentenceMatch?.[1]) return sentenceMatch[1].trim();
+
+  return trimAtWordBoundary(normalized, META_DESCRIPTION_MAX_LENGTH);
+}
+
 /** Universal metadata factory — canonicals are always path-only (no query strings). */
 export function buildPageMetadata(input: PageMetadataInput): Metadata {
   const url = pageUrl(input.path);
-  const title = input.title;
-  const description = input.description;
+  const title = formatMetadataTitle(input.title);
+  const description = formatMetadataDescription(input.description);
   const image = absoluteAssetUrl(input.ogImage);
   const index = input.index ?? true;
   const ogType = input.ogType ?? 'website';
+  const titleWithBrandLength = title.length + SITE_NAME.length + 3;
+  const metadataTitle: Metadata['title'] =
+    titleWithBrandLength > META_TITLE_WITH_BRAND_MAX_LENGTH ? { absolute: title } : title;
 
   const metadata: Metadata = {
-    title,
+    title: metadataTitle,
     description,
     keywords: input.keywords,
     alternates: {

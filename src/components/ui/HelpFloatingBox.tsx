@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import { CheckIcon } from '@heroicons/react/24/outline';
 import { SUPPORT_EMAIL } from '@/components/seo/constants';
 import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 
@@ -32,6 +33,10 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
         strokeLinecap="round"
       />
     </svg>
+  );
+
+  const check = (
+    <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-green-600" aria-hidden="true" />
   );
 
   // Mobile floating button (sticky, top right)
@@ -90,13 +95,11 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
           {/* Phone numbers */}
           <div className="flex flex-col gap-2 w-full">
             <div className="flex items-center gap-2 text-[#222]">
-              <span className="text-xl">🇺🇸</span>
               <span className="font-medium">United States</span>
               <span className="ml-auto font-semibold tracking-wide">{US_PHONE}</span>
             </div>
             {/* UK phone number hidden but not deleted */}
             {/* <div className="flex items-center gap-2 text-[#222]">
-              <span className="text-xl">🇬🇧</span>
               <span className="font-medium">United Kingdom</span>
               <span className="ml-auto font-semibold tracking-wide">{UK_PHONE}</span>
             </div> */}
@@ -114,25 +117,25 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
               APPLY WITH CONFIDENCE
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              <span className="mt-1 text-green-600">✔️</span>Fast, secure, and reliable visa
+              {check}Fast, secure, and reliable visa
               processing
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              <span className="mt-1 text-green-600">✔️</span>Safe online payment—no hidden fees
+              {check}Safe online payment—no hidden fees
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              <span className="mt-1 text-green-600">✔️</span>Most visas approved within{' '}
+              {check}Most visas approved within{' '}
               {VIETNAM_PROCESSING_TIME}
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              <span className="mt-1 text-green-600">✔️</span>Optional Urgent (3 days) / Super Urgent
+              {check}Optional Urgent (3 days) / Super Urgent
               (1 day) processing—fees shown before you pay
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              <span className="mt-1 text-green-600">✔️</span>Transparent pricing, no surprises
+              {check}Transparent pricing, no surprises
             </div>
             <div className="flex items-start gap-2 text-black text-base font-semibold">
-              <span className="mt-1 text-green-600">✔️</span>100% Service Fees Returned if Rejected
+              {check}100% Service Fees Returned if Rejected
             </div>
           </div>
         </div>
@@ -200,13 +203,11 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
               {/* Phone numbers */}
               <div className="flex flex-col gap-2 w-full">
                 <div className="flex items-center gap-2 text-[#222]">
-                  <span className="text-xl">🇺🇸</span>
                   <span className="font-medium">United States</span>
                   <span className="ml-auto font-semibold tracking-wide">{US_PHONE}</span>
                 </div>
                 {/* UK phone number hidden but not deleted */}
                 {/* <div className="flex items-center gap-2 text-[#222]">
-                  <span className="text-xl">🇬🇧</span>
                   <span className="font-medium">United Kingdom</span>
                   <span className="ml-auto font-semibold tracking-wide">{UK_PHONE}</span>
                 </div> */}
@@ -224,25 +225,25 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
                   APPLY WITH CONFIDENCE
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  <span className="mt-1 text-green-600">✔️</span>Fast, secure, and reliable visa
+                  {check}Fast, secure, and reliable visa
                   processing
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  <span className="mt-1 text-green-600">✔️</span>Safe online payment—no hidden fees
+                  {check}Safe online payment—no hidden fees
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  <span className="mt-1 text-green-600">✔️</span>Most visas approved within 3
+                  {check}Most visas approved within 3
                   working days
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  <span className="mt-1 text-green-600">✔️</span>Optional Urgent (3 days) / Super
+                  {check}Optional Urgent (3 days) / Super
                   Urgent (1 day) processing—fees shown before you pay
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  <span className="mt-1 text-green-600">✔️</span>Transparent pricing, no surprises
+                  {check}Transparent pricing, no surprises
                 </div>
                 <div className="flex items-start gap-2 text-black text-base font-semibold">
-                  <span className="mt-1 text-green-600">✔️</span>100% Service Fees Returned if
+                  {check}100% Service Fees Returned if
                   Rejected
                 </div>
               </div>

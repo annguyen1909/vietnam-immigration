@@ -3,9 +3,17 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import SiteFooter from '@/components/layout/SiteFooter';
 import Link from 'next/link';
-import { CalculatorIcon, DocumentCheckIcon } from '@heroicons/react/24/outline';
+import {
+  CalculatorIcon,
+  DocumentCheckIcon,
+  ClockIcon,
+  BoltIcon,
+  ArrowPathIcon,
+} from '@heroicons/react/24/outline';
 import type { VietnamVisaTypeView } from '@/lib/vietnamVisa';
 import {
+  VIETNAM_GOV_FEE_MULTIPLE,
+  VIETNAM_GOV_FEE_SINGLE,
   VIETNAM_SERVICE_FEE_PER_PAX,
   VIETNAM_URGENCY_FEE_SUPER_URGENT,
   VIETNAM_URGENCY_FEE_URGENT,
@@ -17,6 +25,8 @@ import {
 } from '@/lib/vietnamPricing';
 import type { UrgencyValue } from '@/lib/urgency';
 import { deriveApplyQueryFromVisaId } from '@/lib/vietnamVisa';
+import { FEES_FAQ_ITEMS } from '@/data/feesFaq';
+import RelatedResources from '@/components/ui/RelatedResources';
 
 type VisaOption = { value: string; label: string; govFee: number };
 
@@ -94,34 +104,90 @@ export default function FeesPage() {
                 2026 Transparent Pricing
               </span>
             </div>
-            {/* H1 chứa từ khóa `vietnam visa fee` */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
               Vietnam Visa Fee 2026
               <span className="block text-brand-primary">
-                Official Costs &amp; Transparent Pricing
+                ${VIETNAM_GOV_FEE_SINGLE} Single / ${VIETNAM_GOV_FEE_MULTIPLE} Multiple + Service Fee
               </span>
             </h1>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-6"></div>
-            {/* Đoạn 100 từ đầu tiên chứa từ khóa `vietnam visa fee` và các entity chuyên ngành */}
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              Understanding the exact <strong>vietnam visa fee</strong> is essential for smooth and
-              hassle-free travel preparation. For 2026, our transparent pricing model ensures zero
-              hidden costs by clearly separating the mandatory government{' '}
-              <strong>stamping fee</strong> required by the Vietnam{' '}
-              <strong>Immigration Department</strong> from our professional consultancy and support
-              fee. Whether you are entering through an international airport, seaport, or land{' '}
-              <strong>border control</strong>, ensure your <strong>passport validity</strong> meets
-              official requirements and proceed with total confidence through our dedicated
-              assistance service.
+
+            <div className="max-w-3xl mx-auto mb-8 grid sm:grid-cols-3 gap-3 text-left">
+              <div className="rounded-xl border-2 border-gray-200 bg-white px-4 py-3 shadow-sm">
+                <p className="text-xs font-bold uppercase tracking-wide text-gray-500">
+                  Single entry
+                </p>
+                <p className="text-2xl font-bold text-gray-900">
+                  {formatUsd(VIETNAM_GOV_FEE_SINGLE)}
+                </p>
+                <p className="text-xs text-gray-500">Government fee</p>
+              </div>
+              <div className="rounded-xl border-2 border-gray-200 bg-white px-4 py-3 shadow-sm">
+                <p className="text-xs font-bold uppercase tracking-wide text-gray-500">
+                  Multiple entry
+                </p>
+                <p className="text-2xl font-bold text-gray-900">
+                  {formatUsd(VIETNAM_GOV_FEE_MULTIPLE)}
+                </p>
+                <p className="text-xs text-gray-500">Government fee</p>
+              </div>
+              <div className="rounded-xl border-2 border-brand-primary bg-white px-4 py-3 shadow-sm">
+                <p className="text-xs font-bold uppercase tracking-wide text-brand-primary">
+                  Service fee
+                </p>
+                <p className="text-2xl font-bold text-brand-primary">
+                  {formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)}
+                </p>
+                <p className="text-xs text-gray-500">Per passenger</p>
+              </div>
+            </div>
+
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed mb-4">
+              Your <strong>Vietnam visa fee</strong> total is the government fee for your entry type
+              plus our flat service fee—shown before you pay. Optional{' '}
+              <Link
+                href="/faq/24-hour-vietnam-evisa"
+                className="font-semibold text-brand-primary underline"
+              >
+                Urgent (3 days)
+              </Link>{' '}
+              or Super Urgent (1 day) add-ons are available at checkout if your flight is close.
             </p>
+            <p className="text-base text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Use the calculator below for an exact total by visa type and passenger count. Need
+              rush handling? Compare tiers on our{' '}
+              <Link
+                href="/faq/24-hour-vietnam-evisa"
+                className="font-semibold text-brand-primary underline"
+              >
+                urgent eVisa Vietnam
+              </Link>{' '}
+              page.
+            </p>
+            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
+              <Link
+                href="/apply"
+                className="inline-flex items-center justify-center px-8 py-4 bg-brand-primary text-white font-bold rounded-xl hover:bg-brand-primary/90 transition-all shadow-lg text-base"
+              >
+                Start application
+              </Link>
+              <button
+                type="button"
+                onClick={() =>
+                  document.getElementById('fee-calculator')?.scrollIntoView({ behavior: 'smooth' })
+                }
+                className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-primary font-bold rounded-xl border-2 border-brand-primary hover:bg-brand-primary/5 transition-all text-base"
+              >
+                Calculate total first
+              </button>
+            </div>
           </div>
 
-          {/* Hero Image */}
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto mt-12">
             <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] rounded-xl overflow-hidden border-4 border-brand-primary shadow-2xl">
               <Image
                 src="/img/vietnam-hero.jpg"
-                alt="Vietnam eVisa pricing and majestic scenery"
+                alt="Vietnam eVisa pricing breakdown for travelers"
                 fill
                 className="object-cover object-center"
                 priority
@@ -133,25 +199,21 @@ export default function FeesPage() {
         </div>
       </section>
 
-      {/* Disambiguation & Entity Authority Section */}
       <section className="relative w-full bg-white py-12 border-b-2 border-gray-200">
         <div className="max-w-5xl mx-auto px-4">
           <div className="bg-blue-50 border-l-8 border-brand-primary rounded-r-xl p-6 sm:p-8 shadow-md">
-            <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+            <h2 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
               <DocumentCheckIcon className="w-6 h-6 text-brand-primary flex-shrink-0" />
-              <span>Immigration Authority &amp; Fee Clarification</span>
-            </h3>
+              <span>What you pay on this portal</span>
+            </h2>
             <p className="text-gray-700 text-base leading-relaxed">
-              Please note that official immigration charges are strictly established by the Vietnam{' '}
-              <strong>Immigration Department</strong> for foreign travelers entering via air, land,
-              or maritime <strong>border control</strong>. These mandatory travel entry costs are
-              entirely unrelated to domestic educational or professional testing charges (such as a
-              mos exam fee vietnam). When submitting your application through the official{' '}
-              <strong>e-visa portal</strong> or via our full-service assistance platform, your
-              overall total consists exclusively of the required government{' '}
-              <strong>stamping fee</strong> and our premium consultancy fee. Always confirm that
-              your <strong>passport validity</strong> extends at least six months beyond your
-              intended arrival date before applying.
+              This page is the canonical <strong>Vietnam visa fee</strong> breakdown for assisted
+              eVisa applications on vietnamemigration.com. Government fee by product:{' '}
+              <strong>{formatUsd(VIETNAM_GOV_FEE_SINGLE)} single entry</strong> or{' '}
+              <strong>{formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} multiple entry</strong>, plus{' '}
+              <strong>{formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee</strong> per passenger.
+              Passport validity should extend at least six months beyond your intended arrival date
+              before you apply.
             </p>
           </div>
         </div>
@@ -190,13 +252,17 @@ export default function FeesPage() {
                     <span className="text-gray-700 font-semibold">
                       Single Entry (Tourist/Business)
                     </span>
-                    <span className="text-xl font-bold text-gray-900">US$ 55.00</span>
+                    <span className="text-xl font-bold text-gray-900">
+                      {formatUsd(VIETNAM_GOV_FEE_SINGLE)}
+                    </span>
                   </div>
                   <div className="flex items-center justify-between border-b border-gray-200 pb-4">
                     <span className="text-gray-700 font-semibold">
                       Multiple Entry (Tourist/Business)
                     </span>
-                    <span className="text-xl font-bold text-gray-900">US$ 80.00</span>
+                    <span className="text-xl font-bold text-gray-900">
+                      {formatUsd(VIETNAM_GOV_FEE_MULTIPLE)}
+                    </span>
                   </div>
                   <div className="space-y-3 pt-2">
                     <div className="flex items-start gap-3">
@@ -275,7 +341,8 @@ export default function FeesPage() {
                   <div className="flex items-center justify-between border-b border-gray-200 pb-4">
                     <span className="text-gray-700 font-semibold">Professional Support Fee</span>
                     <span className="text-xl font-bold text-brand-primary">
-                      US$ 59.99 <span className="text-sm font-normal text-gray-600">/ pax</span>
+                      {formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)}{' '}
+                      <span className="text-sm font-normal text-gray-600">/ pax</span>
                     </span>
                   </div>
                   <div className="flex items-center justify-between border-b border-gray-200 pb-4">
@@ -541,8 +608,8 @@ export default function FeesPage() {
             {/* Card 1: Processing Time */}
             <div className="bg-white border-2 border-gray-200 rounded-xl p-8 shadow-lg hover:border-brand-primary transition-all flex flex-col justify-between">
               <div>
-                <div className="w-12 h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center text-brand-primary font-bold text-xl mb-6">
-                  ⏱️
+                <div className="w-12 h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center text-brand-primary mb-6">
+                  <ClockIcon className="w-6 h-6" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   Processing Time &amp; Schedule
@@ -574,8 +641,8 @@ export default function FeesPage() {
             {/* Card 2: Urgent eVisa */}
             <div className="bg-white border-2 border-gray-200 rounded-xl p-8 shadow-lg hover:border-brand-primary transition-all flex flex-col justify-between">
               <div>
-                <div className="w-12 h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center text-brand-primary font-bold text-xl mb-6">
-                  ⚡
+                <div className="w-12 h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center text-brand-primary mb-6">
+                  <BoltIcon className="w-6 h-6" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   Emergency &amp; Rush Applications
@@ -607,8 +674,8 @@ export default function FeesPage() {
             {/* Card 3: Multiple Entry Guide */}
             <div className="bg-white border-2 border-gray-200 rounded-xl p-8 shadow-lg hover:border-brand-primary transition-all flex flex-col justify-between">
               <div>
-                <div className="w-12 h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center text-brand-primary font-bold text-xl mb-6">
-                  🔄
+                <div className="w-12 h-12 bg-brand-primary/10 rounded-lg flex items-center justify-center text-brand-primary mb-6">
+                  <ArrowPathIcon className="w-6 h-6" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Multiple Entry Guidelines</h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-6">
@@ -634,6 +701,39 @@ export default function FeesPage() {
                 </Link>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Fee FAQ — matches GSC fee/cost queries */}
+      <section className="relative w-full bg-white py-16 border-b-2 border-gray-200">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold text-gray-900 mb-3">Vietnam Visa Fee FAQ</h2>
+            <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
+            <p className="text-gray-600">
+              Quick answers for cost, single vs multiple entry, and refunds.
+            </p>
+          </div>
+          <div className="space-y-4">
+            {FEES_FAQ_ITEMS.map((item) => (
+              <div
+                key={item.question}
+                className="rounded-xl border-2 border-gray-200 bg-gray-50 p-5 sm:p-6"
+              >
+                <h3 className="text-lg font-bold text-gray-900 mb-2">{item.question}</h3>
+                <p className="text-gray-700 text-sm leading-relaxed">{item.answer}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-10 flex flex-col items-center gap-4">
+            <Link
+              href={applyHref}
+              className="inline-flex items-center justify-center px-10 py-4 bg-brand-primary text-white font-bold rounded-xl hover:bg-brand-primary/90 transition-all shadow-lg text-base"
+            >
+              Apply with these fees
+            </Link>
+            <RelatedResources excludePaths={['/fees']} />
           </div>
         </div>
       </section>

@@ -1,14 +1,23 @@
 import type { Metadata } from 'next';
-import { buildStaticPageMetadata, getPublicSiteUrl } from '@/lib/seo';
+import { buildPageMetadata, getPublicSiteUrl } from '@/lib/seo';
 import { getVietnamFeesMetaDescription, getVietnamVisaOffers } from '@/lib/vietnamPricing';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
+import FAQSchema from '@/components/seo/FAQSchema';
 import JsonLd from '@/components/seo/JsonLd';
 import { TRUST_ENTITY } from '@/components/seo/constants';
+import { FEES_FAQ_ITEMS } from '@/data/feesFaq';
 
-export const metadata: Metadata = buildStaticPageMetadata({
-  title: 'Vietnam Visa Fees 2026 - Official Costs & Transparent Pricing',
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Vietnam Visa Fee 2026: $55 Single / $80 Multiple + Service Fee',
   description: getVietnamFeesMetaDescription(),
   path: '/fees',
+  keywords: [
+    'vietnam visa fee',
+    'vietnam visa cost',
+    'vietnam evisa fee',
+    'vietnam visa price',
+    'visa fee to vietnam',
+  ],
 });
 
 export default function FeesLayout({ children }: { children: React.ReactNode }) {
@@ -63,6 +72,7 @@ export default function FeesLayout({ children }: { children: React.ReactNode }) 
   return (
     <>
       <JsonLd data={productSchema} />
+      <FAQSchema items={[...FEES_FAQ_ITEMS]} />
       <BreadcrumbSchema
         items={[
           { name: 'Home', href: '/' },

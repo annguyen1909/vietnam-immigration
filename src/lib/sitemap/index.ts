@@ -4,6 +4,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { getPublicSiteUrl } from '@/lib/seo';
 import { INDEXABLE_COUNTRY_SLUGS } from '@/data/indexableCountrySlugs';
+import { isIndexableFaqSlug } from '@/data/indexableFaqSlugs';
 
 /**
  * Stable lastmod for pages whose content changes rarely (static/legal pages and
@@ -13,20 +14,6 @@ import { INDEXABLE_COUNTRY_SLUGS } from '@/data/indexableCountrySlugs';
  * changes.
  */
 const STABLE_CONTENT_DATE = new Date('2026-06-01T00:00:00Z');
-
-/**
- * Keep the sitemap focused on pages with the clearest search demand and
- * strongest uniqueness. Low-value utility/legal pages can still exist and be
- * reachable internally without competing for crawl attention in the sitemap.
- */
-const CORE_FAQ_SLUGS = new Set([
-  '24-hour-vietnam-evisa',
-  'children-visa-vietnam',
-  'cruise-passenger-visa-vietnam',
-  'family-group-vietnam-evisa',
-  'vietnam-evisa-entry-points',
-  'vietnam-evisa-requirements',
-]);
 
 /** Travel guides upgraded to pillar depth — priority boost even before dateModified is set. */
 const TRAVEL_PILLAR_SLUGS = new Set([
@@ -204,7 +191,7 @@ function getFaqSitemapEntries(baseUrl: string): MetadataRoute.Sitemap {
     slugFromData: true,
     includeEntry: (data) => {
       const slug = typeof data.slug === 'string' ? data.slug : '';
-      return CORE_FAQ_SLUGS.has(slug);
+      return isIndexableFaqSlug(slug);
     },
   });
 }

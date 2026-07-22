@@ -69,14 +69,14 @@ export default function NotFound() {
                 href="/"
                 className="bg-gradient-to-r from-brand-primary to-brand-primary-dark hover:from-brand-primary-dark hover:to-brand-primary text-white font-bold py-3 px-8 rounded-xl transition-all duration-200 transform hover:scale-105 shadow-lg"
               >
-                🏠 Go Home
+                Go Home
               </Link>
 
               <button
                 onClick={() => setShowReportForm(true)}
                 className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 px-8 rounded-xl transition-all duration-200 transform hover:scale-105 shadow-lg"
               >
-                🚨 Report Broken Link
+                Report Broken Link
               </button>
             </div>
 

@@ -635,9 +635,7 @@ export default function ContactWidget() {
         {!open && !showAgentImage && (
           <div className="hidden md:block mb-2 ml-2 sm:ml-4 animate-fade-in">
             <div className="bg-brand-surface-alt text-brand-ink px-4 py-2 rounded-xl shadow-lg border border-brand-border text-xs sm:text-sm font-semibold flex items-center gap-2">
-              <span role="img" aria-label="chat">
-                💬
-              </span>{' '}
+              <FiMessageCircle className="h-4 w-4 shrink-0" aria-hidden="true" />
               Real human support 24/7!
             </div>
           </div>
@@ -647,9 +645,7 @@ export default function ContactWidget() {
         {!open && (
           <div className="block md:hidden mb-2 flex justify-end animate-fade-in">
             <div className="bg-brand-surface-alt text-brand-ink px-4 py-2 rounded-xl shadow-lg border border-brand-border text-xs sm:text-sm font-semibold flex items-center gap-2 mr-2">
-              <span role="img" aria-label="chat">
-                💬
-              </span>{' '}
+              <FiMessageCircle className="h-4 w-4 shrink-0" aria-hidden="true" />
               Real human support 24/7!
             </div>
           </div>

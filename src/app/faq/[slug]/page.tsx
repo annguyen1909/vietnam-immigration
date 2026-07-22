@@ -10,6 +10,7 @@ import { notFound } from 'next/navigation';
 import glob from 'fast-glob';
 import { Metadata } from 'next';
 import { buildPageMetadata, faqPath } from '@/lib/seo';
+import { isIndexableFaqSlug } from '@/data/indexableFaqSlugs';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import FAQSchema from '@/components/seo/FAQSchema';
 import RelatedResources from '@/components/ui/RelatedResources';
@@ -87,6 +88,7 @@ export async function generateMetadata({
     description,
     path: faqPath(slug),
     ogType: 'article',
+    index: isIndexableFaqSlug(slug),
     keywords: [
       faq.question,
       'Vietnam eVisa FAQ',
@@ -299,6 +301,5 @@ export async function generateStaticParams() {
     { slug: 'medical-visa-vietnam' },
     { slug: 'work-in-vietnam-on-tourist-visa' },
     { slug: 'cruise-passenger-visa-vietnam' },
-    { slug: '24-hour-vietnam-evisa' },
   ];
 }

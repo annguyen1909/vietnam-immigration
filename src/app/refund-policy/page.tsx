@@ -479,7 +479,7 @@ export default function RefundPolicyPage() {
                 </h3>
                 <div className="grid md:grid-cols-2 gap-6 text-left">
                   <div>
-                    <h4 className="font-semibold text-green-700 mb-2">✅ You Get a Refund When:</h4>
+                    <h4 className="font-semibold text-green-700 mb-2">You Get a Refund When:</h4>
                     <ul className="text-sm text-gray-700 space-y-1">
                       <li>• Vietnamese authorities deny your visa</li>
                       <li>• We commit a processing mistake</li>
@@ -488,7 +488,7 @@ export default function RefundPolicyPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-red-700 mb-2">❌ No Refund When:</h4>
+                    <h4 className="font-semibold text-red-700 mb-2">No Refund When:</h4>
                     <ul className="text-sm text-gray-700 space-y-1">
                       <li>• Government fees (once submitted)</li>
                       <li>• Visa is authorized</li>

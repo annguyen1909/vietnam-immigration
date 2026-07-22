@@ -25,7 +25,7 @@ export default function EssentialEvisaResources({
       href: '/fees',
       anchor: 'Vietnam Visa Fees & Calculator',
       description:
-        'Check official government visa fees and calculate transparent pricing for all passport holders.',
+        'Government fee $55 single / $80 multiple, $59.99 service fee, and live total calculator.',
       icon: CurrencyDollarIcon,
       badge: 'Popular',
       highlight: false,

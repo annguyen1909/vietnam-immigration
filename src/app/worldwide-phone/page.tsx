@@ -8,37 +8,36 @@ const US_PHONE = '+1 323 286 4541';
 
 type RegionCountry = {
   country: string;
-  flag: string;
   language?: string;
 };
 
-const asiaPacificCountries = [
-  { country: 'Australia/New Zealand', flag: '🇦🇺', language: 'English' },
-  { country: 'China', flag: '🇨🇳', language: 'English/Chinese' },
-  { country: 'Hongkong', flag: '🇭🇰', language: 'English/Chinese' },
-  { country: 'Taiwan', flag: '🇹🇼', language: 'English/Chinese' },
-  { country: 'India', flag: '🇮🇳', language: 'English' },
-  { country: 'Japan', flag: '🇯🇵', language: 'English' },
-  { country: 'South Korea', flag: '🇰🇷', language: 'English' },
-  { country: 'All other Asian countries', flag: '⚽', language: 'English' },
+const asiaPacificCountries: RegionCountry[] = [
+  { country: 'Australia/New Zealand', language: 'English' },
+  { country: 'China', language: 'English/Chinese' },
+  { country: 'Hongkong', language: 'English/Chinese' },
+  { country: 'Taiwan', language: 'English/Chinese' },
+  { country: 'India', language: 'English' },
+  { country: 'Japan', language: 'English' },
+  { country: 'South Korea', language: 'English' },
+  { country: 'All other Asian countries', language: 'English' },
 ];
 
-const emeaCountries = [
-  { country: 'Russia', flag: '🇷🇺' },
-  { country: 'United Kingdom', flag: '🇬🇧' },
-  { country: 'Spain', flag: '🇪🇸' },
-  { country: 'Italy', flag: '🇮🇹' },
-  { country: 'France', flag: '🇫🇷' },
-  { country: 'Germany', flag: '🇩🇪' },
-  { country: 'Netherlands', flag: '🇳🇱' },
-  { country: 'South Africa', flag: '🇿🇦' },
-  { country: 'Switzerland', flag: '🇨🇭' },
-  { country: 'All other European countries', flag: '⚽' },
+const emeaCountries: RegionCountry[] = [
+  { country: 'Russia' },
+  { country: 'United Kingdom' },
+  { country: 'Spain' },
+  { country: 'Italy' },
+  { country: 'France' },
+  { country: 'Germany' },
+  { country: 'Netherlands' },
+  { country: 'South Africa' },
+  { country: 'Switzerland' },
+  { country: 'All other European countries' },
 ];
 
-const americasCountries = [
-  { country: 'United States & Canada', flag: '🇺🇸', language: 'English' },
-  { country: 'All other American countries', flag: '⚽', language: 'English' },
+const americasCountries: RegionCountry[] = [
+  { country: 'United States & Canada', language: 'English' },
+  { country: 'All other American countries', language: 'English' },
 ];
 
 const REGIONS = [
@@ -128,9 +127,7 @@ function Table({
         <tbody>
           {countries.map((row, i) => (
             <tr key={row.country} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-              <td className="px-4 py-2 flex items-center gap-2 text-gray-900 font-medium">
-                {row.flag} {row.country}
-              </td>
+              <td className="px-4 py-2 text-gray-900 font-medium">{row.country}</td>
               <td className="px-4 py-2 text-gray-900 font-medium">{phone}</td>
               <td className="px-4 py-2 text-gray-900">24/7/365</td>
               <td className="px-4 py-2 text-gray-900">24/7/365</td>

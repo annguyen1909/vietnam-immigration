@@ -6,6 +6,8 @@ import {
   CreditCardIcon,
   DocumentCheckIcon,
   EnvelopeIcon,
+  BoltIcon,
+  CheckIcon,
 } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -573,8 +575,8 @@ export default function ProcessingPage() {
                 <h4 className="text-xl font-bold text-gray-900 mb-4">Processing Timeline</h4>
                 <div className="space-y-4">
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-brand-primary rounded-full flex items-center justify-center text-white font-bold border-2 border-white shadow-md">
-                      ⚡
+                    <div className="w-12 h-12 bg-brand-primary rounded-full flex items-center justify-center text-white border-2 border-white shadow-md">
+                      <BoltIcon className="w-6 h-6" aria-hidden="true" />
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900">Fast Processing</p>
@@ -582,8 +584,8 @@ export default function ProcessingPage() {
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold border-2 border-white shadow-md">
-                      ✓
+                    <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white border-2 border-white shadow-md">
+                      <CheckIcon className="w-6 h-6" aria-hidden="true" />
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900">Real-Time Updates</p>
@@ -591,8 +593,8 @@ export default function ProcessingPage() {
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-brand-primary rounded-full flex items-center justify-center text-white font-bold border-2 border-white shadow-md">
-                      📧
+                    <div className="w-12 h-12 bg-brand-primary rounded-full flex items-center justify-center text-white border-2 border-white shadow-md">
+                      <EnvelopeIcon className="w-6 h-6" aria-hidden="true" />
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900">Email Delivery</p>
