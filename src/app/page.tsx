@@ -9,8 +9,8 @@ import HomeSupportGlobal from '@/components/home/HomeSupportGlobal';
 import HomeNews from '@/components/home/HomeNews';
 import HomeDisclaimer from '@/components/home/HomeDisclaimer';
 import SiteFooter from '@/components/layout/SiteFooter';
-import { getVietnamVisaTypes } from '@/lib/vietnamVisa';
 import JsonLd from '@/components/seo/JsonLd';
+import type { VietnamVisaTypeView } from '@/lib/vietnamVisa';
 import {
   absoluteAssetUrl,
   buildPageMetadata,
@@ -18,7 +18,11 @@ import {
   getPublicSiteUrl,
   SITE_NAME,
 } from '@/lib/seo';
-import { getVietnamHomePageDescription } from '@/lib/vietnamPricing';
+import {
+  getVietnamHomePageDescription,
+  VIETNAM_STAY_DAYS,
+  VIETNAM_VISA_PRODUCTS,
+} from '@/lib/vietnamPricing';
 import EssentialEvisaResources from '@/components/ui/EssentialEvisaResources';
 
 const siteUrl = getPublicSiteUrl();
@@ -61,7 +65,22 @@ const websiteSchema = {
 };
 
 export default async function Home() {
-  const visaTypes = await getVietnamVisaTypes();
+  const visaTypes: VietnamVisaTypeView[] = VIETNAM_VISA_PRODUCTS.map((visa) => ({
+    id: visa.id,
+    name: visa.label,
+    fees: visa.govFee,
+    waitTime: null,
+    requiredDocuments: null,
+    allowedNationalities: null,
+    destinationId: 'vietnam',
+    applyQuery: visa.id.replace(/^vietnam-/, '').replace(/-90-days$/, ''),
+    category: visa.label.includes('Business') ? ('Business' as const) : ('Tourist' as const),
+    entry: visa.label.includes('Multiple')
+      ? ('Multiple Entries' as const)
+      : ('Single Entry' as const),
+    durationDays: VIETNAM_STAY_DAYS,
+    govFee: visa.govFee,
+  }));
 
   return (
     <>
