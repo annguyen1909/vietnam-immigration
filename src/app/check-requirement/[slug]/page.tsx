@@ -24,6 +24,7 @@ import FAQSchema from '@/components/seo/FAQSchema';
 import HowToSchema from '@/components/seo/HowToSchema';
 import RelatedResources from '@/components/ui/RelatedResources';
 import EmergencyCTA from '@/components/trust/EmergencyCTA';
+import { resolveCountrySlug } from '@/lib/countrySlug';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -36,7 +37,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug: rawSlug } = await params;
+  const slug = resolveCountrySlug(rawSlug);
   const countryData =
     slug && countryVisaContent[slug] ? countryVisaContent[slug] : countryVisaContent['default'];
 
@@ -76,7 +78,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function CountryRequirementPage({ params }: PageProps) {
-  const { slug } = await params;
+  const { slug: rawSlug } = await params;
+  const slug = resolveCountrySlug(rawSlug);
   const countryData =
     slug && countryVisaContent[slug] ? countryVisaContent[slug] : countryVisaContent['default'];
   const visaTypes = VIETNAM_VISA_PRODUCTS.map((visa) => ({
@@ -246,7 +249,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 </li>
                 <li>
                   <a href="#requirements" className="text-brand-primary hover:underline">
-                    Do {citizen} need an Vietnam visa?
+                    Do {citizen} need a Vietnam visa?
                   </a>
                 </li>
                 <li>
@@ -261,7 +264,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 </li>
                 <li>
                   <a href="#application-process" className="text-brand-primary hover:underline">
-                    How to Apply for an Vietnam eVisa
+                    How to Apply for a Vietnam eVisa
                   </a>
                 </li>
                 <li>
@@ -346,7 +349,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                   <span className="w-10 h-10 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-lg">
                     2
                   </span>
-                  Do {citizen} need an Vietnam visa?
+                  Do {citizen} need a Vietnam visa?
                 </h2>
                 <div className="w-24 h-1 bg-brand-primary mb-4"></div>
                 <div className="flex flex-wrap gap-6 items-center mb-4">
@@ -448,7 +451,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                   <span className="w-10 h-10 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-lg">
                     5
                   </span>
-                  How to Apply for an Vietnam eVisa: Step-by-Step
+                  How to Apply for a Vietnam eVisa: Step-by-Step
                 </h2>
                 <div className="w-24 h-1 bg-brand-primary mb-4"></div>
                 <ol className="list-decimal ml-6 text-gray-700 space-y-3 mb-4">

@@ -57,10 +57,10 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
       ],
     },
     'aland-islands': {
-      displayName: 'Aland Islands',
-      demonym: 'Aland Islands citizens',
+      displayName: 'Åland Islands',
+      demonym: 'Åland Islands citizens',
       requirements: [
-        'A valid Aland Islands passport (at least 6 months validity from arrival date, 1 blank page)',
+        'A valid Åland Islands passport (at least 6 months validity from arrival date, 1 blank page)',
         'Completed online application form',
         'Payment by credit/debit card',
         'A valid email address to receive your e-Visa',
@@ -291,8 +291,8 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
       faqs: [],
     },
     default: {
-      displayName: 'your country',
-      demonym: '{country} citizens',
+      displayName: 'International',
+      demonym: 'International travelers',
       requirements: [
         'A valid passport (at least 6 months validity from arrival date, 1 blank page)',
         'Completed online application form',
@@ -301,24 +301,7 @@ export const countryVisaContent: { [key: string]: CountryVisaContentEntry & { de
       ],
       visaTypes: [],
       fees: [...VIETNAM_COUNTRY_FEES_LINES],
-      faqs: [
-        {
-          q: 'How long can I stay?',
-          a: getVietnamStayDurationFaqLine(),
-        },
-        {
-          q: 'Can I extend my visa?',
-          a: 'Extensions may be available at Vietnam Immigration Department offices before your e-Visa expires, subject to approval, visa type, and additional fees.',
-        },
-        {
-          q: 'Do children need a visa?',
-          a: 'Yes, all travelers including children need a visa application. Families or groups can apply for up to 15 passengers in a single application.',
-        },
-        {
-          q: 'How do I check my visa status?',
-          a: `Use your reference number and last name to check online. Results are sent by email typically within ${VIETNAM_PROCESSING_TIME}.`,
-        },
-      ],
+      faqs: [],
     },
   };
 
@@ -349,29 +332,13 @@ export const sharedFaqs = [
   },
 ];
 
-countryVisaContent['default'] = {
-  displayName: 'International',
-  demonym: 'International travelers',
-  requirements: [
-    'A valid passport (at least 6 months validity from arrival date, 1 blank page)',
-    'Completed online application form',
-    'Payment by credit/debit card',
-    'A valid email address to receive your e-Visa',
-  ],
-  visaTypes: [],
-  fees: [...VIETNAM_COUNTRY_FEES_LINES],
-  faqs: [],
-};
-
 // --- AUTO-GENERATED ENTRIES FOR MISSING COUNTRIES BELOW ---
 import { countries } from './countries';
 import { applyCountryVisaEnrichment } from './countryVisaEnrichment';
+import { countryNameToSlug } from '@/lib/countrySlug';
 
 Object.values(countries).forEach((c) => {
-  const slug = c.name
-    .toLowerCase()
-    .replace(/ /g, '-')
-    .replace(/[^a-z0-9-]/g, '');
+  const slug = countryNameToSlug(c.name);
   const demonym = `${c.name} citizen`;
   if (!countryVisaContent[slug]) {
     countryVisaContent[slug] = {

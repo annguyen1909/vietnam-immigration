@@ -83,7 +83,7 @@ function Step3PaymentContent({
         name: '',
         address: '',
         zipcode: '',
-        country: 'United States',
+        country: '',
         cardType: '',
       };
 
@@ -682,7 +682,7 @@ function Step3PaymentSuccess({
                   <div>
                     <p className="text-sm text-gray-500">Phone Number</p>
                     <p className="font-medium text-gray-900">
-                      {applicationData?.areaCode} {applicationData?.phoneNumber}
+                      {applicationData?.phoneNumber}
                     </p>
                   </div>
                 </div>
@@ -694,7 +694,9 @@ function Step3PaymentSuccess({
                 <div className="space-y-3">
                   <div>
                     <p className="text-sm text-gray-500">Visa Type</p>
-                    <p className="font-medium text-gray-900">Vietnam eVisa</p>
+                    <p className="font-medium text-gray-900">
+                      {applicationData?.visa?.name || 'Vietnam eVisa'}
+                    </p>
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Arrival Date</p>

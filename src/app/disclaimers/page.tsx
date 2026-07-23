@@ -83,7 +83,7 @@ export default function DisclaimersPage() {
                     3. Government Application Alternative
                   </h2>
                   <p className="text-brand-ink mb-4">
-                    You may opt to apply for an Vietnam eVisa directly through the official
+                    You may opt to apply for a Vietnam eVisa directly through the official
                     government website for a reduced cost.
                   </p>
                   <p className="text-brand-ink mb-4">

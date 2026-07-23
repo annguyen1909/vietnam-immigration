@@ -368,13 +368,8 @@ export default function Step2Passengers({
               </div>
             </div>
             <p className="text-sm text-gray-700 leading-relaxed mb-4">
-              <span className="font-semibold text-red-600">
-                Your application may be rejected without Travel Insurance.
-              </span>{' '}
-              Travel insurance is a critical requirement for Vietnam eVisa applications. The
-              government requires proof of insurance coverage as part of the visa approval process.
-              We only offer 30-day insurance coverage as it&apos;s the minimum duration required by
-              the Vietnam government.
+              Travel insurance is optional. Coverage can help with medical emergencies and trip
+              disruptions while in Vietnam. We offer 30-day coverage priced per passenger.
             </p>
             <div className="space-y-3 mt-4">
               {passengers.map((passenger, index) => (

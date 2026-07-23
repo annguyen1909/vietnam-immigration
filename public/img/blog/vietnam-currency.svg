@@ -4,7 +4,7 @@
   </defs>
   <rect width="800" height="450" fill="url(#bg)"/>
   <rect x="250" y="120" width="300" height="180" rx="12" fill="#0D5C4F"/>
-  <text x="400" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="72" font-weight="700" fill="#FFCD00">�</text>
+  <text x="400" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="72" font-weight="700" fill="#FFCD00">₫</text>
   <text x="400" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" fill="#E8F4F0">VND</text>
   <rect x="180" y="200" width="80" height="50" rx="6" fill="#2D6A5A" opacity="0.7" transform="rotate(-15 220 225)"/>
   <rect x="540" y="180" width="80" height="50" rx="6" fill="#2D6A5A" opacity="0.7" transform="rotate(10 580 205)"/>

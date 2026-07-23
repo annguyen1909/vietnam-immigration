@@ -273,7 +273,7 @@ export default function Step4Documents({ applicationData }: Step4DocumentsProps)
             Login Now
           </a>
           <a
-            href="mailto:visa@vietnamemigration.com?subject=Documents for Application {uploadError.applicationId}"
+            href={`mailto:visa@vietnamemigration.com?subject=Documents for Application ${uploadError.applicationId}`}
             className="bg-gray-200 text-gray-800 px-6 py-3 rounded-lg font-medium hover:bg-gray-300 transition"
           >
             Email Documents
@@ -328,9 +328,7 @@ export default function Step4Documents({ applicationData }: Step4DocumentsProps)
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-600">Phone</label>
-                  <p className="text-gray-900 font-medium">
-                    {applicationData.areaCode} {applicationData.phoneNumber}
-                  </p>
+                  <p className="text-gray-900 font-medium">{applicationData.phoneNumber}</p>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-600">Gender</label>

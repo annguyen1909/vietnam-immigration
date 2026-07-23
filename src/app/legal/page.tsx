@@ -278,7 +278,7 @@ export default function LegalPage() {
                       jurisdictions
                     </li>
                     <li>
-                      You are legally qualified to submit an application for an Vietnam eVisa in
+                      You are legally qualified to submit an application for a Vietnam eVisa in
                       compliance with current immigration statutes and regulatory requirements
                     </li>
                   </ul>
