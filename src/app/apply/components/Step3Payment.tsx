@@ -681,9 +681,7 @@ function Step3PaymentSuccess({
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Phone Number</p>
-                    <p className="font-medium text-gray-900">
-                      {applicationData?.phoneNumber}
-                    </p>
+                    <p className="font-medium text-gray-900">{applicationData?.phoneNumber}</p>
                   </div>
                 </div>
               </div>
