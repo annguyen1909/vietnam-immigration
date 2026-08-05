@@ -668,6 +668,10 @@ export default function Step1ContactVisa({
           </button>
         </div>
 
+        <p className="mt-3 flex items-center justify-center gap-1.5 text-center text-sm font-semibold text-emerald-700">
+          <span aria-hidden>✓</span> 100% of our service fee refunded if your eVisa is rejected
+        </p>
+
         <div className="text-center text-sm text-gray-500">
           <p>
             By continuing, you agree to our{' '}

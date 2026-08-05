@@ -409,6 +409,10 @@ export default function Step2Passengers({
             {isLoading ? 'Saving...' : 'Continue to Payment'}
           </button>
         </div>
+        <p className="mt-4 flex items-center justify-center gap-1.5 text-center text-sm font-semibold text-emerald-700">
+          <span aria-hidden>✓</span> Secure checkout · 100% of our service fee refunded if your
+          eVisa is rejected
+        </p>
       </form>
     </div>
   );

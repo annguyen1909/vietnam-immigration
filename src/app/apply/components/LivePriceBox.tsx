@@ -151,12 +151,14 @@ export default function LivePriceBox({
               )}
             </span>
           </div>
-          <div className="flex justify-between items-center">
-            <span>Promo Code:</span>
-            <span className="text-sm font-semibold text-green-600">
-              -$ {promoDiscount.toFixed(2)}
-            </span>
-          </div>
+          {promoDiscount > 0 && (
+            <div className="flex justify-between items-center">
+              <span>Promo Code:</span>
+              <span className="text-sm font-semibold text-green-600">
+                -$ {promoDiscount.toFixed(2)}
+              </span>
+            </div>
+          )}
           {urgency && totalUrgencyFee > 0 && (
             <div className="flex justify-between">
               <span>{getUrgencyLabel(urgency)}:</span>
