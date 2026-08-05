@@ -1,5 +1,7 @@
 import HelpFloatingBox from '@/components/ui/HelpFloatingBox';
 import { countryVisaContent, sharedFaqs } from '@/data/countryVisaContent';
+import type { CountryVisaContentEntry } from '@/data/countryVisaContent';
+import { countryVisaEnrichment } from '@/data/countryVisaEnrichment';
 import {
   getVietnamVisaTypesFaqMarkdown,
   VIETNAM_PROCESSING_TIME,
@@ -30,6 +32,24 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+/**
+ * Merge the thin base country entry with the richer per-nationality enrichment
+ * (unique SEO copy: eligibility intro, entry/transit guide, passport rules,
+ * embassy info, and extra country-specific FAQs). Enrichment fields override the
+ * base where present; country-specific FAQs are appended to the shared ones.
+ */
+function getMergedCountryData(slug: string | null): CountryVisaContentEntry {
+  const base =
+    slug && countryVisaContent[slug] ? countryVisaContent[slug] : countryVisaContent['default'];
+  const enrichment = slug ? countryVisaEnrichment[slug] : undefined;
+  if (!enrichment) return base;
+  return {
+    ...base,
+    ...enrichment,
+    faqs: [...base.faqs, ...(enrichment.faqs ?? [])],
+  };
+}
+
 export async function generateStaticParams() {
   return INDEXABLE_COUNTRY_SLUGS.map((slug) => ({
     slug,
@@ -39,8 +59,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug: rawSlug } = await params;
   const slug = resolveCountrySlug(rawSlug);
-  const countryData =
-    slug && countryVisaContent[slug] ? countryVisaContent[slug] : countryVisaContent['default'];
+  const countryData = getMergedCountryData(slug);
 
   const citizen = countryData.demonym ? countryData.demonym : `${countryData.displayName} citizens`;
   const country = countryData.displayName;
@@ -80,8 +99,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function CountryRequirementPage({ params }: PageProps) {
   const { slug: rawSlug } = await params;
   const slug = resolveCountrySlug(rawSlug);
-  const countryData =
-    slug && countryVisaContent[slug] ? countryVisaContent[slug] : countryVisaContent['default'];
+  const countryData = getMergedCountryData(slug);
   const visaTypes = VIETNAM_VISA_PRODUCTS.map((visa) => ({
     ...visa,
     category: visa.label.includes('Business') ? 'Business' : 'Tourist',

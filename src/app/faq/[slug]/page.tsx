@@ -106,11 +106,20 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
   // Server-side: Read the markdown file for the current FAQ
   let faq: FAQData | null = null;
+  let frontmatterFaqs: { question: string; answer: string }[] = [];
   try {
     const filePath = path.join(process.cwd(), 'src/data/faqs', `${slug}.md`);
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data, content } = matter(fileContent);
     faq = { question: data.question, slug: data.slug, answer: content };
+    if (Array.isArray(data.faq)) {
+      frontmatterFaqs = data.faq
+        .filter((item) => item && item.question && item.answer)
+        .map((item) => ({
+          question: String(item.question).trim(),
+          answer: String(item.answer).trim(),
+        }));
+    }
   } catch (e) {
     // File not found or error
     faq = null;
@@ -149,7 +158,16 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     otherFaqs = [];
   }
 
-  const faqPairs = extractFAQPairs(markdownBody);
+  // Prefer curated frontmatter FAQs for structured data, then add any body
+  // Q&A headings not already covered (deduped by normalized question).
+  const bodyFaqPairs = extractFAQPairs(markdownBody);
+  const seenQuestions = new Set<string>();
+  const faqPairs = [...frontmatterFaqs, ...bodyFaqPairs].filter((pair) => {
+    const key = pair.question.toLowerCase().replace(/\s+/g, ' ').trim();
+    if (!key || seenQuestions.has(key)) return false;
+    seenQuestions.add(key);
+    return true;
+  });
 
   return (
     <>
