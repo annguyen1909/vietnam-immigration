@@ -1,6 +1,6 @@
 ---
 title: Vietnam eVisa Payment Failed? Fix Before You Fly
-description: Card declined at Vietnam eVisa checkout? Fix billing, VPN, and gateway errors in ~2 hours with clear steps—avoid boarding issues and last-minute stress.
+description: Vietnam eVisa payment not working or card declined? Fix billing, VPN, and gateway errors in ~2 hours with clear steps to avoid boarding issues.
 slug: payment-failed
 date: 2026-05-20
 updated: 2026-05-25
@@ -8,6 +8,8 @@ index: true
 priority: 0.9
 howToTotalTime: PT2H
 faq:
+  - question: Why is my Vietnam visa payment not working?
+    answer: When Vietnam eVisa payment is not working, the usual causes are your bank blocking international charges, billing details that do not match your card on file, an expired checkout session, or paying through a VPN. Retrying the same way rarely helps until the underlying cause is fixed.
   - question: Why did my Vietnam eVisa payment fail at the last step?
     answer: Most failures come from your bank blocking international charges, billing details that do not match your card on file, an expired session, or paying through a VPN. The charge often never completes—only a temporary hold may appear.
   - question: Will I be charged twice if I retry after a failed payment?
