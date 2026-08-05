@@ -70,7 +70,6 @@ function Step3PaymentContent({
       try {
         const parsed = JSON.parse(savedBillingDetails);
         setBillingDetails(parsed);
-        console.log('Loaded billing details from localStorage:', parsed);
         return;
       } catch (error) {
         console.error('Error parsing saved billing details:', error);
@@ -96,20 +95,12 @@ function Step3PaymentContent({
       }
 
       setBillingDetails(newBillingDetails);
-      console.log('Populated billing details with application data:', newBillingDetails);
     }
   }, [applicationData]);
 
   // Check if payment is already completed on component mount
   useEffect(() => {
-    console.log('Step3Payment - Initial mount check:', {
-      paymentStatus,
-      applicationStatus,
-      paymentSucceeded,
-    });
-
     if (paymentStatus === 'Payment Completed') {
-      console.log('Step3Payment - Payment already completed, showing success screen');
       setMessage('Payment succeeded!');
       setPaymentSucceeded(true);
     }
@@ -117,14 +108,7 @@ function Step3PaymentContent({
 
   // Check if payment is already completed from application data
   useEffect(() => {
-    console.log('Step3Payment - Payment status check:', {
-      paymentStatus,
-      applicationStatus,
-      paymentSucceeded,
-    });
-
     if (paymentStatus === 'Payment Completed') {
-      console.log('Step3Payment - Setting payment succeeded');
       setMessage('Payment succeeded!');
       setPaymentSucceeded(true);
     }
@@ -136,15 +120,7 @@ function Step3PaymentContent({
     const paymentSuccess = urlParams.get('payment_success');
     const redirectStatus = urlParams.get('redirect_status');
 
-    console.log('Step3Payment - URL params check:', {
-      paymentSuccess,
-      redirectStatus,
-      paymentStatus,
-      applicationStatus,
-    });
-
     if (paymentSuccess === 'true' && redirectStatus === 'succeeded') {
-      console.log('Step3Payment - Payment success from URL, showing success screen');
       setMessage('Payment succeeded!');
       setPaymentSucceeded(true);
     }
@@ -153,11 +129,8 @@ function Step3PaymentContent({
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
 
-    console.log('Payment form submitted with billing details:', billingDetails);
-
     // If payment is already completed, don't process payment
     if (paymentStatus === 'Payment Completed') {
-      console.log('Payment already completed, skipping payment processing');
       return;
     }
 
@@ -176,23 +149,15 @@ function Step3PaymentContent({
 
     if (missingFields.length > 0) {
       const errorMsg = `Please fill in all required billing fields: ${missingFields.join(', ')}`;
-      console.log('Validation failed:', errorMsg);
       setMessage(errorMsg);
       return;
     }
 
-    console.log('Validation passed, proceeding with payment...');
     setIsProcessing(true);
     setMessage(''); // Clear any previous messages
 
     // Save billing details to localStorage for later use
     localStorage.setItem('billingDetails', JSON.stringify(billingDetails));
-
-    console.log('Submitting payment with billing details:', billingDetails);
-    console.log(
-      'Return URL will be:',
-      `${window.location.origin}/apply?applicationId=${applicationId}&payment_success=true`
-    );
 
     try {
       const { error } = await stripe.confirmPayment({
@@ -205,8 +170,6 @@ function Step3PaymentContent({
       if (error) {
         console.error('Payment error:', error);
         setMessage(error.message || 'Payment failed');
-      } else {
-        console.log('Payment confirmation initiated successfully');
       }
     } catch (err) {
       console.error('Unexpected error during payment:', err);

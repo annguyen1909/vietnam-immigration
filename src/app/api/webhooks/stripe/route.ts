@@ -27,18 +27,15 @@ export async function POST(request: NextRequest) {
     switch (event.type) {
       case 'payment_intent.succeeded': {
         const paymentIntent = event.data.object as Stripe.PaymentIntent;
-        console.log('Webhook received payment_intent.succeeded:', paymentIntent.id);
         await handlePaymentSuccess(paymentIntent);
         break;
       }
       case 'payment_intent.payment_failed': {
         const paymentIntent = event.data.object as Stripe.PaymentIntent;
-        console.log('Webhook received payment_intent.payment_failed:', paymentIntent.id);
         await handlePaymentFailure(paymentIntent);
         break;
       }
       default:
-        console.log(`Unhandled event type: ${event.type}`);
     }
 
     return NextResponse.json({ received: true });
@@ -78,9 +75,6 @@ async function handlePaymentSuccess(paymentIntent: Stripe.PaymentIntent) {
     }
 
     if (application.paymentStatus === 'Payment Completed') {
-      console.log(
-        `Webhook Info: Payment for application ${applicationId} has already been processed.`
-      );
       return;
     }
 
@@ -91,9 +85,6 @@ async function handlePaymentSuccess(paymentIntent: Stripe.PaymentIntent) {
         paymentStatus: 'Payment Completed',
       },
     });
-    console.log(
-      `Webhook Action: Updated application ${applicationId} status to 'Collecting Documents' and 'Payment Completed'.`
-    );
 
     let cardType = 'Unknown';
     let cardLast4 = '****';
@@ -109,10 +100,6 @@ async function handlePaymentSuccess(paymentIntent: Stripe.PaymentIntent) {
       cardType = paymentMethod.card?.brand || 'Unknown';
     }
 
-    console.log(
-      `Webhook Info: Waiting for billing form data (CardHolder record) for application ${applicationId}...`
-    );
-
     let attempts = 0;
     const maxAttempts = 20;
 
@@ -125,9 +112,6 @@ async function handlePaymentSuccess(paymentIntent: Stripe.PaymentIntent) {
         cardholderName = cardHolder.name;
         billingAddress = cardHolder.address;
         billingZipcode = cardHolder.zipcode;
-        console.log(
-          `Webhook Info: Found CardHolder record with billing form data (attempt ${attempts + 1}): ${cardholderName}`
-        );
         break;
       }
 
@@ -157,9 +141,6 @@ async function handlePaymentSuccess(paymentIntent: Stripe.PaymentIntent) {
         timestamp: new Date(),
       },
     });
-    console.log(
-      `Webhook Action: Created StripeActivity for successful payment on application ${applicationId}.`
-    );
 
     await prisma.cardHolder.upsert({
       where: { applicationId: application.id },
@@ -180,7 +161,6 @@ async function handlePaymentSuccess(paymentIntent: Stripe.PaymentIntent) {
         applicationId: application.id,
       },
     });
-    console.log(`Webhook Action: Upserted CardHolder for application ${applicationId}.`);
 
     const passengers = await prisma.passenger.findMany({
       where: { applicationId: application.id },
@@ -235,23 +215,13 @@ async function handlePaymentSuccess(paymentIntent: Stripe.PaymentIntent) {
         riskId: risk.id,
       },
     });
-    console.log(
-      `Webhook Action: Created RiskActivity for application ${applicationId} with status '${riskStatus}'.`
-    );
 
-    console.log(
-      `Webhook Action: Sending payment confirmation email for application ${applicationId}.`
-    );
     const emailResult = await sendEmail({
       template: 'payment-confirmation',
       data: { applicationId: applicationId },
     });
 
-    if (emailResult.success) {
-      console.log(
-        `Webhook Action: Successfully sent payment confirmation email for application ${applicationId}.`
-      );
-    } else {
+    if (!emailResult.success) {
       console.error(
         `Webhook Error: The sendEmail service returned an error for application ${applicationId}. Error:`,
         emailResult.error
@@ -306,10 +276,6 @@ async function handlePaymentFailure(paymentIntent: Stripe.PaymentIntent) {
         timestamp: new Date(),
       },
     });
-
-    console.log(
-      `Webhook Action: Marked application ${applicationId} as 'Payment Failed' and created StripeActivity.`
-    );
   } catch (error) {
     console.error(`Webhook Error in handlePaymentFailure for application ${applicationId}:`, error);
   }

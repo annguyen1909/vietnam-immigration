@@ -462,9 +462,6 @@ export function middleware(request: NextRequest) {
     // Send email alert for ALL PHP bot hits (both verified and malicious bots)
     // Rate limited to 3 per IP per 30 minutes
     // Run asynchronously so it doesn't block the response
-    console.log(
-      `[PHP BOT] Calling sendPhpBotAlert for IP=${clientIP}|PATH=${pathname}|VERIFIED=${isVerified}`
-    );
     sendPhpBotAlert({
       ip: clientIP,
       path: pathname,
@@ -479,8 +476,6 @@ export function middleware(request: NextRequest) {
           console.error(
             `[PHP BOT EMAIL FAILED] IP=${clientIP}|PATH=${pathname}|ERROR=${result.error || 'unknown'}`
           );
-        } else {
-          console.log(`[PHP BOT EMAIL SENT] IP=${clientIP}|PATH=${pathname}`);
         }
       })
       .catch((error) => {

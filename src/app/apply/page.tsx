@@ -84,7 +84,6 @@ export default function ApplyPage() {
         });
 
         const data = await response.json();
-        console.log('Payment success API response:', data);
 
         if (!response.ok) {
           throw new Error(data.error || 'Failed to update payment status');
@@ -169,7 +168,6 @@ export default function ApplyPage() {
       (applicationData.paymentStatus === 'Payment Completed' ||
         applicationData.status === 'Collecting Documents')
     ) {
-      console.log('On step 3 with completed payment, skipping application data load');
       return;
     }
 
@@ -180,15 +178,12 @@ export default function ApplyPage() {
           const response = await fetch(`/api/applications/${applicationIdFromUrl}`);
           if (response.ok) {
             const data = await response.json();
-            console.log('Loaded application data from API:', data);
-            console.log('Current local application data:', applicationData);
 
             // Don't override if we already have payment completed status locally
             if (
               applicationData.paymentStatus === 'Payment Completed' ||
               applicationData.status === 'Collecting Documents'
             ) {
-              console.log('Payment already completed locally, not overriding with API data');
               setIsLoadingApplication(false);
               return;
             }
@@ -208,21 +203,12 @@ export default function ApplyPage() {
               data.status === 'Visa Result Sent' ||
               data.status === 'Closed - Chargeback'
             ) {
-              console.log('Application has special status, not setting step');
               setIsLoadingApplication(false);
               return;
             }
 
             // Determine the correct step based on application status
             let targetStep = 1;
-            console.log('Determining step for application:', {
-              status: data.status,
-              paymentStatus: data.paymentStatus,
-              hasVisaType: !!data.visaTypeId,
-              hasDates: !!(data.stayingStart && data.stayingEnd),
-              hasPassengers: !!(data.passengers && data.passengers.length > 0),
-              passengersCount: data.passengers?.length || 0,
-            });
 
             if (data.status && data.status !== 'Not Started') {
               // Step 1 is completed if we have basic application data
@@ -247,7 +233,6 @@ export default function ApplyPage() {
               }
             }
 
-            console.log('Setting target step to:', targetStep);
             // Set the step immediately when loading application data
             setCurrentStep(targetStep);
           }
@@ -271,9 +256,7 @@ export default function ApplyPage() {
   useEffect(() => {
     // Get URL parameters for payment status
     const urlParams = new URLSearchParams(window.location.search);
-    const paymentSuccess = urlParams.get('payment_success');
     const paymentIntent = urlParams.get('payment_intent');
-    const redirectStatus = urlParams.get('redirect_status');
 
     // Skip payment intent creation if:
     // 1. Payment is already completed
@@ -285,15 +268,6 @@ export default function ApplyPage() {
       applicationData.paymentStatus === 'Payment Completed' ||
       applicationData.status === 'Collecting Documents'
     ) {
-      console.log('Payment intent creation skipped:', {
-        paymentSuccess,
-        paymentIntent,
-        redirectStatus,
-        paymentStatus: applicationData.paymentStatus,
-        applicationStatus: applicationData.status,
-        hasClientSecret: !!clientSecret,
-      });
-
       // Clear any existing errors when payment is completed
       if (
         applicationData.paymentStatus === 'Payment Completed' ||
@@ -305,7 +279,6 @@ export default function ApplyPage() {
     }
 
     if (currentStep === 3 && applicationData.applicationId && !clientSecret) {
-      console.log('Creating payment intent for application:', applicationData.applicationId);
       setIsLoading(true);
       setError(null); // Clear any previous errors
 
@@ -319,13 +292,11 @@ export default function ApplyPage() {
           if (data.error) {
             // Don't show "Payment already completed" as an error banner
             if (data.error.includes('Payment already completed')) {
-              console.log('Payment already completed, not showing as error');
               setError(null);
             } else {
               setError(data.error);
             }
           } else {
-            console.log('Payment intent created successfully');
             setClientSecret(data.clientSecret);
             setError(null);
           }
@@ -352,15 +323,6 @@ export default function ApplyPage() {
     const redirectStatus = urlParams.get('redirect_status');
     const applicationIdFromUrl = urlParams.get('applicationId');
 
-    console.log('Payment success check:', {
-      paymentSuccess,
-      redirectStatus,
-      paymentIntent,
-      applicationIdFromUrl,
-      currentPaymentStatus: applicationData.paymentStatus,
-      currentApplicationStatus: applicationData.status,
-    });
-
     if (paymentSuccess === 'true' && redirectStatus === 'succeeded' && paymentIntent) {
       // Payment was successful, update the application status
       // Use applicationId from URL if available, otherwise use from state
@@ -372,7 +334,6 @@ export default function ApplyPage() {
           applicationData.paymentStatus === 'Payment Completed' ||
           applicationData.status === 'Collecting Documents'
         ) {
-          console.log('Payment already completed, skipping API call');
           if (
             !hasContinuedToDocumentsRef.current &&
             applicationData.status !== 'Cancelled' &&
@@ -396,7 +357,6 @@ export default function ApplyPage() {
 
         // Don't immediately update local state - let the webhook process the payment first
         // The webhook will update the database, and we'll fetch the updated status
-        console.log('Payment success detected, waiting for webhook to process...');
 
         // Start polling for payment status update
         setIsCheckingPaymentStatus(true);
@@ -438,7 +398,6 @@ export default function ApplyPage() {
             data.paymentStatus === 'Payment Completed' ||
             data.status === 'Collecting Documents'
           ) {
-            console.log('Payment status updated by webhook:', data);
             setApplicationData(data); // Update the entire application data object
             setIsCheckingPaymentStatus(false);
 
@@ -449,7 +408,6 @@ export default function ApplyPage() {
               data.status !== 'Visa Result Sent' &&
               data.status !== 'Closed - Chargeback'
             ) {
-              console.log('Payment completed, ensuring we stay on step 3');
               setCurrentStep(3);
             }
           }
@@ -466,7 +424,6 @@ export default function ApplyPage() {
     // Stop polling after 30 seconds (15 attempts)
     const timeout = setTimeout(() => {
       setIsCheckingPaymentStatus(false);
-      console.log('Payment status polling timed out');
     }, 30000);
 
     return () => {
@@ -481,19 +438,9 @@ export default function ApplyPage() {
       applicationData.paymentStatus === 'Payment Completed' ||
       applicationData.status === 'Collecting Documents'
     ) {
-      console.log('Payment completed, clearing any errors');
       setError(null);
     }
   }, [applicationData.paymentStatus, applicationData.status]);
-
-  // Track step changes for debugging
-  useEffect(() => {
-    console.log('Step changed to:', currentStep, {
-      paymentStatus: applicationData.paymentStatus,
-      applicationStatus: applicationData.status,
-      isPaymentSuccess,
-    });
-  }, [currentStep, applicationData.paymentStatus, applicationData.status, isPaymentSuccess]);
 
   const handleDataChange = useCallback((newData: Partial<ApplicationData>) => {
     setApplicationData((prev) => ({ ...prev, ...newData }));
@@ -571,32 +518,17 @@ export default function ApplyPage() {
   };
 
   const handleContinueToDocuments = () => {
-    console.log('handleContinueToDocuments called:', {
-      currentStep,
-      paymentStatus: applicationData.paymentStatus,
-      applicationStatus: applicationData.status,
-    });
-
     // Lock forward navigation and stop any in-flight payment polling so the
     // user is never yanked back to Step 3 after advancing.
     hasContinuedToDocumentsRef.current = true;
     setIsCheckingPaymentStatus(false);
 
-    console.log('Proceeding to step 4 (documents)');
     setCurrentStep(4);
   };
 
   const selectedVisa = visaTypes.find((v) => v.id === applicationData.visaTypeId) || null;
 
   const renderCurrentStep = () => {
-    console.log('renderCurrentStep called:', {
-      currentStep,
-      paymentStatus: applicationData.paymentStatus,
-      applicationStatus: applicationData.status,
-      isPaymentSuccess,
-      clientSecret: !!clientSecret,
-    });
-
     switch (currentStep) {
       case 1:
         return (
@@ -656,7 +588,6 @@ export default function ApplyPage() {
         }
 
         // Render payment component without Stripe Elements (for completed payments)
-        console.log('Rendering Step3Payment without Stripe for completed payment');
         return (
           <Step3Payment
             applicationId={applicationData.applicationId!}

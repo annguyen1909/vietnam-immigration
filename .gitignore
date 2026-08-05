@@ -62,3 +62,8 @@ next-env.d.ts
 
 # Allow troubleshooting markdown files
 !src/data/troubleshooting/*.md
+
+# One-off local DB maintenance/inspection scripts (not for the repo)
+/scripts/find-test-apps.ts
+/scripts/delete-test-apps.ts
+/scripts/inspect-insurance.ts

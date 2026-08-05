@@ -10,18 +10,15 @@ export async function GET(
 ) {
   try {
     const { applicationId, documentId } = await params;
-    console.log('Download request for:', { applicationId, documentId });
 
     // Validate user session
     const sessionToken = request.cookies.get('session_token')?.value;
     if (!sessionToken) {
-      console.log('No session token found');
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
     const accountData = await validateSession(sessionToken);
     if (!accountData) {
-      console.log('Invalid session token');
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -32,12 +29,10 @@ export async function GET(
     });
 
     if (!application) {
-      console.log('Application not found:', applicationId);
       return NextResponse.json({ error: 'Application not found' }, { status: 404 });
     }
 
     if (application.accountId !== accountData.id) {
-      console.log('Unauthorized access attempt');
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -57,16 +52,8 @@ export async function GET(
     });
 
     if (!document) {
-      console.log('Document not found:', documentId);
       return NextResponse.json({ error: 'Document not found' }, { status: 404 });
     }
-
-    console.log('Document found:', {
-      id: document.id,
-      name: document.name,
-      type: document.type,
-      contentLength: document.content?.length,
-    });
 
     // Determine content type based on file extension
     const getContentType = (storedType: string) => {
@@ -98,8 +85,6 @@ export async function GET(
       ? document.content
       : Buffer.from(document.content);
 
-    console.log('Creating response with content length:', contentBuffer.length);
-
     const response = new NextResponse(contentBuffer);
     response.headers.set('Content-Type', getContentType(document.type));
     response.headers.set('Content-Disposition', `attachment; filename="${document.name}"`);
@@ -107,7 +92,6 @@ export async function GET(
     response.headers.set('Pragma', 'no-cache');
     response.headers.set('Expires', '0');
 
-    console.log('Response created successfully');
     return response;
   } catch (error) {
     console.error('Error downloading document:', error);
