@@ -283,6 +283,16 @@ export default function Step4Documents({ applicationData }: Step4DocumentsProps)
         </p>
       </div>
 
+      {/* Inline upload error (file too large, unsupported type, network/upload failure) */}
+      {typeof uploadError === 'string' && (
+        <div
+          role="alert"
+          className="mb-6 rounded-lg border border-red-200 bg-red-50 p-4 text-sm text-red-700"
+        >
+          {uploadError}
+        </div>
+      )}
+
       {/* Application Information - Expandable */}
       <div className="mb-8">
         <button

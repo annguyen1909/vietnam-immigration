@@ -385,7 +385,12 @@ function Step3PaymentContent({
             </button>
             {/* Show any error or success messages */}
             {message && (
-              <div id="payment-message" className="text-red-500 mt-4 text-center">
+              <div
+                id="payment-message"
+                className={`mt-4 text-center ${
+                  /succe/i.test(message) ? 'text-emerald-600' : 'text-red-500'
+                }`}
+              >
                 {message}
               </div>
             )}

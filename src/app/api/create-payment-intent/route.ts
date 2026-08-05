@@ -84,12 +84,16 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error('Error creating payment intent:', error);
-    const errorMessage = error instanceof Error ? error.message : 'Internal server error';
+    // Return a friendly message; log the technical detail server-side only.
+    // Note: do NOT call prisma.$disconnect() here — `prisma` is a shared
+    // singleton (see @/lib/prisma) and disconnecting it per-request tears down
+    // the pool the next request needs, causing intermittent checkout failures.
     return NextResponse.json(
-      { error: `Failed to create payment intent: ${errorMessage}` },
+      {
+        error:
+          'We could not start the secure checkout. Please try again in a moment, or contact our support team if this keeps happening.',
+      },
       { status: 500 }
     );
-  } finally {
-    await prisma.$disconnect();
   }
 }
