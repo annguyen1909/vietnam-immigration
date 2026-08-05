@@ -181,23 +181,15 @@ export default function Step4Documents({ applicationData }: Step4DocumentsProps)
 
   const handleDownload = async (documentId: string, fileName: string) => {
     try {
-      console.log('Starting download for:', fileName, 'with ID:', documentId);
       const response = await fetch(
         `/api/applications/${applicationData.applicationId}/documents/${documentId}/download`
       );
 
-      console.log('Response status:', response.status);
-      console.log('Response headers:', Object.fromEntries(response.headers.entries()));
-
       if (response.ok) {
         const blob = await response.blob();
-        console.log('Blob type:', blob.type);
-        console.log('Blob size:', blob.size);
 
         // Create blob with proper type if it's not set correctly
         const contentType = response.headers.get('content-type') || blob.type;
-        console.log('Content-Type from headers:', response.headers.get('content-type'));
-        console.log('Final content type:', contentType);
 
         const finalBlob = new Blob([blob], { type: contentType });
         let downloadUrl = window.URL.createObjectURL(finalBlob);
@@ -207,7 +199,6 @@ export default function Step4Documents({ applicationData }: Step4DocumentsProps)
         // Ensure proper file extension
         const fileExtension = fileName.split('.').pop()?.toLowerCase();
         if (fileExtension === 'pdf' && contentType !== 'application/pdf') {
-          console.log('Fixing PDF content type');
           const correctedBlob = new Blob([blob], { type: 'application/pdf' });
           const correctedUrl = window.URL.createObjectURL(correctedBlob);
           a.href = correctedUrl;
@@ -221,7 +212,6 @@ export default function Step4Documents({ applicationData }: Step4DocumentsProps)
         a.click();
         window.URL.revokeObjectURL(downloadUrl);
         document.body.removeChild(a);
-        console.log('Download completed for:', fileName);
       } else {
         console.error('Download failed:', response.status, response.statusText);
         alert('Failed to download document. Please try again.');

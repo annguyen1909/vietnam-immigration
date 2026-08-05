@@ -20,20 +20,12 @@ export async function POST(
       );
     }
 
-    console.log('Payment Success API called with:', {
-      applicationId,
-      paymentIntentId,
-      hasBillingDetails: !!billingDetails,
-    });
-
     const paymentIntent = await getStripe().paymentIntents.retrieve(paymentIntentId);
 
     if (paymentIntent.status !== 'succeeded') {
       console.error('Payment intent not succeeded:', paymentIntent.status);
       return NextResponse.json({ error: 'Payment not succeeded' }, { status: 400 });
     }
-
-    console.log('Payment intent succeeded, updating application status...');
 
     // Get the application
     const application = await prisma.application.findUnique({
@@ -61,7 +53,6 @@ export async function POST(
     let updatedApplication = application;
 
     if (paymentAlreadyCompleted) {
-      console.log('Payment already completed for application:', applicationId);
       // If webhook ran first, CardHolder may have "Billing Form Data Missing". Still save
       // billing details when the client sends them, and re-run Risk with correct name.
       if (!billingDetails) {
@@ -71,7 +62,6 @@ export async function POST(
           paymentStatus: application.paymentStatus,
         });
       }
-      console.log('Backfilling CardHolder and re-running Risk with billing form data');
     } else {
       // Update application status and payment status
       updatedApplication = await prisma.application.update({
@@ -80,12 +70,6 @@ export async function POST(
           status: 'Collecting Documents',
           paymentStatus: 'Payment Completed',
         },
-      });
-
-      console.log('Updated application status:', {
-        applicationId,
-        status: updatedApplication.status,
-        paymentStatus: updatedApplication.paymentStatus,
       });
     }
 
@@ -134,8 +118,6 @@ export async function POST(
             applicationId: application.id,
           },
         });
-
-        console.log('Created CardHolder record for application:', applicationId);
       } catch (error) {
         console.error('Error creating CardHolder record:', error);
       }
@@ -163,23 +145,17 @@ export async function POST(
           timestamp: new Date(),
         },
       });
-
-      console.log('Created/Updated StripeActivity record for payment:', paymentIntent.id);
     } catch (error) {
       console.error('Error creating StripeActivity record:', error);
     }
 
     // Create Risk and RiskActivity records
     try {
-      console.log('Creating Risk and RiskActivity records...');
-
       // Get passengers for name matching and pricing
       const passengers = await prisma.passenger.findMany({
         where: { applicationId: application.id },
         select: { fullName: true },
       });
-
-      console.log('Found passengers:', passengers);
 
       const applicationTotal = await getApplicationOrderTotal(application);
       const passengerCount = application.passengerCount || 1;
@@ -190,26 +166,12 @@ export async function POST(
       const governmentFee = visaType?.fees || 0;
       const serviceFee = await getServiceFee(application.destinationId, application.visaTypeId);
 
-      console.log('Application total calculation:', {
-        governmentFee,
-        serviceFee,
-        passengerCount,
-        total: applicationTotal,
-      });
-
       // Check if cardholder name matches any passenger name
       const passengerNames = passengers
         .map((p) => p.fullName?.toLowerCase().trim())
         .filter(Boolean);
       const cardholderNameLower = (billingDetails?.name || 'Cardholder').toLowerCase().trim();
       const nameMatches = passengerNames.some((name) => name === cardholderNameLower);
-
-      console.log('Name matching check:', {
-        cardholderName: billingDetails?.name || 'Cardholder',
-        cardholderNameLower,
-        passengerNames,
-        nameMatches,
-      });
 
       // Determine risk status based on rules
       let riskStatus: string;
@@ -237,13 +199,6 @@ export async function POST(
         riskActivityDescription = 'System automatically passed Risk. Name matched.';
       }
 
-      console.log('Risk assessment:', {
-        riskStatus,
-        riskActivityType,
-        riskActivityTitle,
-        riskActivityDescription,
-      });
-
       // Create or update Risk record (upsert so backfill can update status when re-running with real name)
       const risk = await prisma.risk.upsert({
         where: { id: `risk_${application.id}` },
@@ -262,10 +217,8 @@ export async function POST(
         },
       });
 
-      console.log('Created/Updated Risk record:', risk.id, risk.status);
-
       // Create RiskActivity record
-      const riskActivity = await prisma.riskActivity.create({
+      await prisma.riskActivity.create({
         data: {
           id: `risk_activity_${risk.id}_${Date.now()}`,
           riskId: risk.id,
@@ -286,8 +239,6 @@ export async function POST(
           title: riskActivityTitle,
         },
       });
-
-      console.log('Created RiskActivity record:', riskActivity.id);
     } catch (riskError) {
       console.error('Error creating Risk and RiskActivity records:', riskError);
       // Continue without Risk records if it fails

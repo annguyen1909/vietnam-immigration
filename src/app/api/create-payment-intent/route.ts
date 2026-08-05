@@ -34,9 +34,6 @@ export async function POST(request: NextRequest) {
       application.paymentStatus === 'Payment Completed' ||
       application.status === 'Collecting Documents'
     ) {
-      console.log(
-        `Payment intent creation blocked for application ${applicationId}: Payment already completed`
-      );
       return NextResponse.json(
         { error: 'Payment already completed for this application' },
         { status: 400 }

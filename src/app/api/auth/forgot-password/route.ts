@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { sendEmail } from '@/lib/email';
-import { getPublicSiteUrl } from '@/lib/seo';
 import crypto from 'crypto';
 
 export async function POST(request: NextRequest) {
@@ -45,8 +44,6 @@ export async function POST(request: NextRequest) {
       },
     });
 
-    const resetUrl = `${getPublicSiteUrl()}/reset-password/${token}`;
-
     // Send reset email
     const emailResult = await sendEmail({
       to: user.email,
@@ -60,7 +57,6 @@ export async function POST(request: NextRequest) {
     // Resend test mode: only delivers to the Resend account email (onboarding@resend.dev).
     // Log link locally so any Step-1 email can be tested without domain verification.
     if (process.env.NODE_ENV !== 'production') {
-      console.log('[DEV] Password reset link (copy into browser):', resetUrl);
       if (!emailResult.success) {
         console.warn('[DEV] Resend did not send email:', emailResult.error);
         console.warn(

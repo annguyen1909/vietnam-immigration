@@ -20,7 +20,6 @@ export default function NotFound() {
 
   const handleReportSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Broken link report:', reportData);
     alert("Thank you for reporting this broken link! We'll fix it as soon as possible.");
     setShowReportForm(false);
     setReportData({ brokenUrl: '', email: '', message: '' });

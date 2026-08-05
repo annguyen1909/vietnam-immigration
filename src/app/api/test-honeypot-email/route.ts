@@ -16,8 +16,6 @@ export async function GET(request: NextRequest) {
     ? 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'
     : 'Mozilla/5.0 (compatible; BadBot/1.0)';
 
-  console.log(`[TEST] Testing honeypot email for ${type} bot`);
-
   try {
     const result = await sendHoneypotAlert({
       ip: testIP,

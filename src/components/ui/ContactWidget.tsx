@@ -173,7 +173,6 @@ export default function ContactWidget() {
 
       // Listen for new messages
       sessionChannel.bind('message', (data: Message) => {
-        console.log('Received real-time message:', data);
         setMessages((prev) => {
           // Check if this is a message we sent (optimistic message)
           const optimisticMessage = prev.find(
@@ -185,7 +184,6 @@ export default function ContactWidget() {
           );
 
           if (optimisticMessage) {
-            console.log('Replacing optimistic message with real message:', data.id);
             // Replace the optimistic message with the real one
             return prev.map((msg) => (msg.id === optimisticMessage.id ? data : msg));
           }
@@ -193,7 +191,6 @@ export default function ContactWidget() {
           // Check if message already exists to prevent duplicates
           const messageExists = prev.some((msg) => msg.id === data.id);
           if (messageExists) {
-            console.log('Message already exists, skipping duplicate:', data.id);
             return prev;
           }
 
@@ -204,7 +201,6 @@ export default function ContactWidget() {
 
       // Listen for typing events
       sessionChannel.bind('typing', (data: TypingUser) => {
-        console.log('Typing event received:', data);
         // Don't show for our own typing
         if (data.senderId === email.trim()) return;
 
@@ -219,7 +215,6 @@ export default function ContactWidget() {
 
       // Listen for stop typing events
       sessionChannel.bind('stop-typing', (data: TypingUser) => {
-        console.log('Stop typing event received:', data);
         // Don't handle our own stop typing
         if (data.senderId === email.trim()) return;
 
@@ -231,14 +226,12 @@ export default function ContactWidget() {
       });
 
       // Listen for message delivery status
-      sessionChannel.bind('delivered', (data: { messageId: string }) => {
-        console.log('Message delivered:', data);
+      sessionChannel.bind('delivered', () => {
         // You can update message delivery status here
       });
 
       // Listen for message read status
-      sessionChannel.bind('read', (data: { messageId: string }) => {
-        console.log('Message read:', data);
+      sessionChannel.bind('read', () => {
         // You can update message read status here
       });
 
@@ -257,13 +250,11 @@ export default function ContactWidget() {
   // Fetch messages for a session
   const fetchMessages = async (sessionId: string) => {
     try {
-      console.log('Fetching messages for session:', sessionId);
       const res = await fetch(`${BASE_BUDPAL_API}/api/chat/session/${sessionId}/messages`, {
         headers: {
           'ngrok-skip-browser-warning': 'true', // Skip ngrok warning page
         },
       });
-      console.log('Fetch messages response status:', res.status);
 
       if (!res.ok) {
         const errorText = await res.text();
@@ -279,7 +270,6 @@ export default function ContactWidget() {
       }
 
       const data = await res.json();
-      console.log('Fetched messages:', data);
       setMessages(data);
     } catch (err) {
       console.error('Error fetching messages:', err);
@@ -301,8 +291,6 @@ export default function ContactWidget() {
     const visitorEmail = email.trim();
     const visitorId = visitorEmail;
 
-    console.log('Starting chat session with:', { siteId: SITE_ID, visitorId, visitorName });
-
     try {
       const res = await fetch(`${BASE_BUDPAL_API}/api/chat/session`, {
         method: 'POST',
@@ -317,9 +305,6 @@ export default function ContactWidget() {
         }),
       });
 
-      console.log('Start session response status:', res.status);
-      console.log('Start session headers:', Object.fromEntries(res.headers.entries()));
-
       if (!res.ok) {
         const errorText = await res.text();
         console.error('Start session error response:', errorText);
@@ -327,7 +312,6 @@ export default function ContactWidget() {
       }
 
       const contentType = res.headers.get('content-type');
-      console.log('Response content-type:', contentType);
 
       if (!contentType || !contentType.includes('application/json')) {
         const responseText = await res.text();
@@ -336,7 +320,6 @@ export default function ContactWidget() {
       }
 
       const data = await res.json();
-      console.log('Session created:', data);
       setSessionId(data.id);
       // Fetch initial messages
       await fetchMessages(data.id);
@@ -417,15 +400,12 @@ export default function ContactWidget() {
   const parseAttachments = (attachments: unknown): ChatAttachment[] => {
     if (!attachments) return [];
 
-    console.log('DEBUG attachments raw:', attachments);
-
     // If it's already an array of objects, return as is
     if (
       Array.isArray(attachments) &&
       attachments.length > 0 &&
       typeof attachments[0] === 'object'
     ) {
-      console.log('DEBUG attachments: array of objects');
       return attachments.filter(isChatAttachment);
     }
 
@@ -433,7 +413,6 @@ export default function ContactWidget() {
     if (typeof attachments === 'string') {
       try {
         const parsed = JSON.parse(attachments);
-        console.log('DEBUG attachments: parsed from string:', parsed);
         return Array.isArray(parsed) ? parsed.filter(isChatAttachment) : [];
       } catch (err) {
         console.error('DEBUG attachments: failed to parse string:', err);
@@ -443,7 +422,6 @@ export default function ContactWidget() {
 
     // If it's an array of strings, try to parse each
     if (Array.isArray(attachments)) {
-      console.log('DEBUG attachments: array of strings');
       return attachments
         .map((item) => {
           if (typeof item === 'string') {
@@ -459,7 +437,6 @@ export default function ContactWidget() {
         .filter(isChatAttachment);
     }
 
-    console.log('DEBUG attachments: unknown format, returning empty array');
     return [];
   };
 

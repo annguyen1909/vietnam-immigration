@@ -242,8 +242,6 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
     let html = '';
     let recipient = to;
 
-    console.log('Email Service: Received request', { to, template, data });
-
     switch (template) {
       case 'payment-confirmation': {
         const { applicationId } = data as { applicationId: string };
@@ -251,7 +249,6 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
           throw new Error('Application ID is required for payment confirmation email.');
         }
 
-        console.log(`Email Service: Fetching data for application ID: ${applicationId}`);
         const application = await prisma.application.findUnique({
           where: { applicationId },
           include: {
@@ -426,8 +423,6 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
       throw new Error(`No recipient email address could be determined for template: ${template}`);
     }
 
-    console.log('Sending email with config:', { from, to: recipient, subject });
-
     const result = await getResend().emails.send({
       from,
       to: recipient,
@@ -435,7 +430,6 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
       html,
     });
 
-    console.log('Email send result:', result);
     return { success: true, data: result };
   } catch (error) {
     console.error('Email sending error:', error);
@@ -471,10 +465,6 @@ export async function sendHoneypotAlert(params: {
     return { success: false, error: 'Resend API key is missing' };
   }
 
-  console.log(
-    `[HONEYPOT EMAIL] Starting email send for IP=${params.ip}|BOT_TYPE=${params.isVerifiedBot ? 'VERIFIED' : 'MALICIOUS'}|KEY_EXISTS=${!!apiKey}`
-  );
-
   try {
     const { ip, path, userAgent, referer, timestamp, isVerifiedBot = false } = params;
     const now = Date.now();
@@ -502,10 +492,7 @@ export async function sendHoneypotAlert(params: {
       } else {
         // Window expired - reset count but keep the record structure
         ipRecord.count = 0;
-        console.log(`[HONEYPOT EMAIL] Rate limit window expired for IP ${ip}, resetting count`);
       }
-    } else {
-      console.log(`[HONEYPOT EMAIL] No previous email record for IP ${ip}, allowing email`);
     }
 
     // Set rate limit record IMMEDIATELY to prevent concurrent requests from sending multiple emails
@@ -514,13 +501,7 @@ export async function sendHoneypotAlert(params: {
       lastSent: now,
       count: (ipRecord?.count || 0) + 1,
     });
-    console.log(
-      `[HONEYPOT EMAIL] Rate limit record set for IP ${ip} (preventing concurrent sends)`
-    );
 
-    console.log(
-      `[HONEYPOT EMAIL] Preparing email content for IP=${ip}|BOT_TYPE=${isVerifiedBot ? 'VERIFIED' : 'MALICIOUS'}`
-    );
     // Prepare email content
     const alertTimestamp = timestamp || new Date();
     const identifiedBot = isVerifiedBot ? identifyVerifiedBot(userAgent) : null;
@@ -633,9 +614,6 @@ This is an automated security alert from the Vietnam eVisa honeypot system.
 Rate-limited to 5 emails per IP per 30 minutes.`;
 
     // Send email with retry logic for network errors
-    console.log(
-      `[HONEYPOT EMAIL] Attempting to send email via Resend for IP=${ip}|BOT_TYPE=${botType}|FROM=HONEYPOT@unitedevisa.com|TO=visa@unitedevisa.com`
-    );
     let result;
     try {
       result = await retryWithBackoff(
@@ -650,10 +628,6 @@ Rate-limited to 5 emails per IP per 30 minutes.`;
         3, // Max 3 retries
         1000 // Initial delay 1 second
       );
-      console.log(`[HONEYPOT EMAIL] Resend API response received for IP=${ip}:`, {
-        id: result.data?.id,
-        error: result.error,
-      });
     } catch (error) {
       // Network/DNS errors that failed after all retries
       const errorMessage = error instanceof Error ? error.message : String(error);
@@ -689,9 +663,6 @@ Rate-limited to 5 emails per IP per 30 minutes.`;
     // Rate limit record was already set above (BEFORE sending) to prevent race conditions
     // This ensures only 1 email per IP, even if multiple requests come in simultaneously
 
-    console.log(
-      `[HONEYPOT EMAIL] SUCCESS - Email sent for IP ${ip}|RESULT_ID=${result.data?.id || 'N/A'}`
-    );
     return { success: true };
   } catch (error) {
     console.error('[HONEYPOT EMAIL] ERROR - Failed to send email:', error);
@@ -733,10 +704,6 @@ export async function sendPhpBotAlert(params: {
     return { success: false, error: 'Resend API key is missing' };
   }
 
-  console.log(
-    `[PHP BOT EMAIL] Starting email send for IP=${params.ip}|BOT_TYPE=${params.isVerifiedBot ? 'VERIFIED' : 'MALICIOUS'}|KEY_EXISTS=${!!apiKey}`
-  );
-
   try {
     const { ip, path, userAgent, referer, timestamp, isVerifiedBot = false } = params;
     const now = Date.now();
@@ -764,10 +731,7 @@ export async function sendPhpBotAlert(params: {
       } else {
         // Window expired - reset count but keep the record structure
         ipRecord.count = 0;
-        console.log(`[PHP BOT EMAIL] Rate limit window expired for IP ${ip}, resetting count`);
       }
-    } else {
-      console.log(`[PHP BOT EMAIL] No previous email record for IP ${ip}, allowing email`);
     }
 
     // Set rate limit record IMMEDIATELY to prevent concurrent requests from sending multiple emails
@@ -776,11 +740,7 @@ export async function sendPhpBotAlert(params: {
       lastSent: now,
       count: (ipRecord?.count || 0) + 1,
     });
-    console.log(`[PHP BOT EMAIL] Rate limit record set for IP ${ip} (preventing concurrent sends)`);
 
-    console.log(
-      `[PHP BOT EMAIL] Preparing email content for IP=${ip}|BOT_TYPE=${isVerifiedBot ? 'VERIFIED' : 'MALICIOUS'}`
-    );
     // Prepare email content
     const alertTimestamp = timestamp || new Date();
     const identifiedBot = isVerifiedBot ? identifyVerifiedBot(userAgent) : null;
@@ -891,9 +851,6 @@ This is an automated security alert from the Vietnam eVisa PHP bot detection sys
 Rate-limited to 5 emails per IP per 30 minutes.`;
 
     // Send email with retry logic for network errors
-    console.log(
-      `[PHP BOT EMAIL] Attempting to send email via Resend for IP=${ip}|BOT_TYPE=${botType}|FROM=HONEYPOT@unitedevisa.com|TO=visa@unitedevisa.com`
-    );
     let result;
     try {
       result = await retryWithBackoff(
@@ -908,10 +865,6 @@ Rate-limited to 5 emails per IP per 30 minutes.`;
         3, // Max 3 retries
         1000 // Initial delay 1 second
       );
-      console.log(`[PHP BOT EMAIL] Resend API response received for IP=${ip}:`, {
-        id: result.data?.id,
-        error: result.error,
-      });
     } catch (error) {
       // Network/DNS errors that failed after all retries
       const errorMessage = error instanceof Error ? error.message : String(error);
@@ -947,9 +900,6 @@ Rate-limited to 5 emails per IP per 30 minutes.`;
     // Rate limit record was already set above (BEFORE sending) to prevent race conditions
     // This ensures only 1 email per IP, even if multiple requests come in simultaneously
 
-    console.log(
-      `[PHP BOT EMAIL] SUCCESS - Email sent for IP ${ip}|RESULT_ID=${result.data?.id || 'N/A'}`
-    );
     return { success: true };
   } catch (error) {
     console.error('[PHP BOT EMAIL] ERROR - Failed to send email:', error);
