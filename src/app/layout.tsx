@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Analytics } from '@vercel/analytics/next';
-import { Be_Vietnam_Pro, Source_Serif_4 } from 'next/font/google';
+import { IBM_Plex_Sans, IBM_Plex_Serif } from 'next/font/google';
 import './globals.css';
 import SiteHeader from '@/components/layout/SiteHeader';
 import Providers from '@/components/Providers';
@@ -13,14 +13,14 @@ import OrganizationSchema from '@/components/seo/OrganizationSchema';
 const siteUrl = getPublicSiteUrl();
 const defaultOgImage = absoluteAssetUrl(DEFAULT_OG_IMAGE);
 
-const beVietnam = Be_Vietnam_Pro({
-  variable: '--font-be-vietnam',
+const ibmPlexSans = IBM_Plex_Sans({
+  variable: '--font-ibm-plex-sans',
   subsets: ['latin', 'vietnamese'],
   weight: ['400', '500', '600', '700'],
 });
 
-const sourceSerif = Source_Serif_4({
-  variable: '--font-source-serif',
+const ibmPlexSerif = IBM_Plex_Serif({
+  variable: '--font-ibm-plex-serif',
   subsets: ['latin', 'vietnamese'],
   weight: ['500', '600', '700'],
 });
@@ -165,7 +165,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${beVietnam.variable} ${sourceSerif.variable} flex min-h-screen flex-col font-sans antialiased`}
+        className={`${ibmPlexSans.variable} ${ibmPlexSerif.variable} flex min-h-screen flex-col font-sans antialiased`}
       >
         <GoogleAnalytics />
         <OrganizationSchema />

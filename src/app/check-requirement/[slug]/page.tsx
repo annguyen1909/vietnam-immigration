@@ -26,7 +26,9 @@ import FAQSchema from '@/components/seo/FAQSchema';
 import HowToSchema from '@/components/seo/HowToSchema';
 import RelatedResources from '@/components/ui/RelatedResources';
 import EmergencyCTA from '@/components/trust/EmergencyCTA';
-import { resolveCountrySlug } from '@/lib/countrySlug';
+import CountryEligibilityGate from '@/components/ui/CountryEligibilityGate';
+import { countries } from '@/data/countries';
+import { countryNameToSlug, resolveCountrySlug } from '@/lib/countrySlug';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -113,6 +115,8 @@ export default async function CountryRequirementPage({ params }: PageProps) {
 
   const citizen = countryData.demonym ? countryData.demonym : `${countryData.displayName} citizens`;
   const country = countryData.displayName;
+  const countryCode =
+    countries.find((candidate) => countryNameToSlug(candidate.name) === slug)?.code ?? null;
 
   let pageHeading = `Vietnam visa for ${citizen}`;
   if (slug === 'india') {
@@ -182,6 +186,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
           { name: country, href: checkRequirementPath(slug) },
         ]}
       />
+      <CountryEligibilityGate countryCode={countryCode} countryName={country} />
       <main className={`relative min-h-screen w-full bg-brand-surface text-brand-ink`}>
         {/* Official Header Banner */}
         <div className="w-full bg-gradient-to-r from-brand-primary via-brand-primary to-brand-primary py-3 border-b-4 border-white">
@@ -261,13 +266,13 @@ export default async function CountryRequirementPage({ params }: PageProps) {
               </h2>
               <ol className="list-decimal ml-6 text-gray-900 text-base font-semibold space-y-2">
                 <li>
-                  <a href="#overview" className="text-brand-primary hover:underline">
-                    Why Visit Vietnam?
+                  <a href="#requirements" className="text-brand-primary hover:underline">
+                    Do {citizen} need a Vietnam visa?
                   </a>
                 </li>
                 <li>
-                  <a href="#requirements" className="text-brand-primary hover:underline">
-                    Do {citizen} need a Vietnam visa?
+                  <a href="#overview" className="text-brand-primary hover:underline">
+                    Why Visit Vietnam?
                   </a>
                 </li>
                 <li>
@@ -328,12 +333,43 @@ export default async function CountryRequirementPage({ params }: PageProps) {
               </ol>
             </section>
 
-            {/* Section 1: Why Visit Vietnam? */}
-            <section id="overview" className="mb-10">
+            {/* Section 1: Do I need a visa? */}
+            <section id="requirements" className="mb-10">
               <div className="bg-white border-2 border-gray-200 rounded-lg p-6 shadow-md">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                   <span className="w-10 h-10 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-lg">
                     1
+                  </span>
+                  Do {citizen} need a Vietnam visa?
+                </h2>
+                <div className="w-24 h-1 bg-brand-primary mb-4"></div>
+                <div className="flex flex-wrap gap-6 items-center mb-4">
+                  <div className="flex items-center gap-2">
+                    <span className="font-semibold text-gray-900">Visa Required?</span>
+                    <span className="inline-block bg-brand-primary text-white text-sm font-bold px-4 py-2 rounded border-2 border-white shadow-md">
+                      REQUIRED
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="font-semibold text-gray-900">Eligible for eVisa?</span>
+                    <span className="inline-block bg-green-600 text-white text-sm font-bold px-4 py-2 rounded border-2 border-white shadow-md">
+                      ELIGIBLE
+                    </span>
+                  </div>
+                </div>
+                <p className="text-gray-700 leading-relaxed">
+                  {countryData.eligibilityIntro ??
+                    `${citizen} are eligible for the Vietnam e-Visa, which allows for tourism and travel. The e-Visa process is fully online—no need to visit a Vietnamese embassy. Vietnam welcomes visitors to experience its coastlines, UNESCO heritage towns, diverse cultures, and incredible natural beauty from north to south.`}
+                </p>
+              </div>
+            </section>
+
+            {/* Section 2: Why Visit Vietnam? */}
+            <section id="overview" className="mb-10">
+              <div className="bg-white border-2 border-gray-200 rounded-lg p-6 shadow-md">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                  <span className="w-10 h-10 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-lg">
+                    2
                   </span>
                   Why Visit Vietnam?
                 </h2>
@@ -357,37 +393,6 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                     />
                   </div>
                 </div>
-              </div>
-            </section>
-
-            {/* Section 2: Do I need a visa? */}
-            <section id="requirements" className="mb-10">
-              <div className="bg-white border-2 border-gray-200 rounded-lg p-6 shadow-md">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                  <span className="w-10 h-10 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-lg">
-                    2
-                  </span>
-                  Do {citizen} need a Vietnam visa?
-                </h2>
-                <div className="w-24 h-1 bg-brand-primary mb-4"></div>
-                <div className="flex flex-wrap gap-6 items-center mb-4">
-                  <div className="flex items-center gap-2">
-                    <span className="font-semibold text-gray-900">Visa Required?</span>
-                    <span className="inline-block bg-brand-primary text-white text-sm font-bold px-4 py-2 rounded border-2 border-white shadow-md">
-                      REQUIRED
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="font-semibold text-gray-900">Eligible for eVisa?</span>
-                    <span className="inline-block bg-green-600 text-white text-sm font-bold px-4 py-2 rounded border-2 border-white shadow-md">
-                      ELIGIBLE
-                    </span>
-                  </div>
-                </div>
-                <p className="text-gray-700 leading-relaxed">
-                  {countryData.eligibilityIntro ??
-                    `${citizen} are eligible for the Vietnam e-Visa, which allows for tourism and travel. The e-Visa process is fully online—no need to visit a Vietnamese embassy. Vietnam welcomes visitors to experience its coastlines, UNESCO heritage towns, diverse cultures, and incredible natural beauty from north to south.`}
-                </p>
               </div>
             </section>
 

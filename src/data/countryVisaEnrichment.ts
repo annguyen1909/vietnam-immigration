@@ -3,6 +3,7 @@ import type { CountryVisaContentEntry } from './countryVisaContent';
 type Enrichment = Partial<
   Pick<
     CountryVisaContentEntry,
+    | 'demonym'
     | 'eligibilityIntro'
     | 'travelInsight'
     | 'requirements'
@@ -86,6 +87,7 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
     ],
   },
   germany: {
+    demonym: 'German citizens',
     eligibilityIntro:
       'German passport holders (Bundesrepublik Deutschland) can generally apply for a Vietnam eVisa online. Schengen-area trips before or after Vietnam still require a valid eVisa or other authorization for the Vietnamese segment.',
     travelInsight:
@@ -648,6 +650,7 @@ export function applyCountryVisaEnrichment(
     const existing = content[slug];
     if (!existing) continue;
 
+    if (patch.demonym) existing.demonym = patch.demonym;
     if (patch.eligibilityIntro) existing.eligibilityIntro = patch.eligibilityIntro;
     if (patch.travelInsight) existing.travelInsight = patch.travelInsight;
     if (patch.requirements?.length) {

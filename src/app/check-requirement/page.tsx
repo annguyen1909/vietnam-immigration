@@ -152,7 +152,8 @@ export default function CheckRequirementPage() {
 
               <button
                 type="submit"
-                className="w-full px-10 py-4 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-primary transition-all shadow-lg hover:shadow-xl uppercase tracking-wide text-base border-2 border-brand-primary flex items-center justify-center gap-3"
+                disabled={!selectedCountry}
+                className="w-full px-10 py-4 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-primary transition-all shadow-lg hover:shadow-xl uppercase tracking-wide text-base border-2 border-brand-primary flex items-center justify-center gap-3 disabled:cursor-not-allowed disabled:opacity-50"
               >
                 <span>Check Requirements</span>
                 <svg
@@ -183,17 +184,17 @@ export default function CheckRequirementPage() {
           <div className="text-center mb-12">
             <div className="inline-block px-4 py-2 bg-brand-primary rounded-lg mb-4 border-2 border-white shadow-md">
               <span className="text-sm font-bold text-white uppercase tracking-wide">
-                All Countries
+                All Nationalities
               </span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Browse by Country</h2>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Select your country to view detailed Vietnam eVisa requirements
+              Select your nationality to view Vietnam eVisa requirements
             </p>
           </div>
           <div className="bg-white border-4 border-brand-primary rounded-lg p-8 shadow-2xl">
-            <CountryListAll />
+            <CountryListAll countryList={countries} />
           </div>
         </div>
       </section>

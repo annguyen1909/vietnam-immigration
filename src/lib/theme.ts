@@ -14,7 +14,7 @@ export const theme = {
     border: '#C5DDD6',
   },
   fonts: {
-    sans: 'var(--font-be-vietnam)',
-    display: 'var(--font-source-serif)',
+    sans: 'var(--font-ibm-plex-sans)',
+    display: 'var(--font-ibm-plex-serif)',
   },
 } as const;

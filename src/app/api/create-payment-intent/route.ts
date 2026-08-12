@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { getStripe } from '@/lib/stripe';
+import { getCountryCodeFromName, isNationalityCodeAllowed } from '@/lib/nationalityEligibility';
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
@@ -19,6 +20,13 @@ export async function POST(request: NextRequest) {
         accountId: true,
         paymentStatus: true,
         status: true,
+        passengerCount: true,
+        VisaType: {
+          select: { allowedNationalities: true },
+        },
+        Passenger: {
+          select: { nationality: true },
+        },
       },
     });
 
@@ -26,6 +34,21 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         { error: 'Application not found or total not set' },
         { status: 404 }
+      );
+    }
+
+    const hasInvalidPassengerData =
+      application.Passenger.length !== application.passengerCount ||
+      application.Passenger.some((passenger) => {
+        if (!passenger.nationality) return true;
+        const code = getCountryCodeFromName(passenger.nationality);
+        return !code || !isNationalityCodeAllowed(application.VisaType.allowedNationalities, code);
+      });
+
+    if (hasInvalidPassengerData) {
+      return NextResponse.json(
+        { error: 'Passenger nationality is missing or not eligible for this Vietnam eVisa.' },
+        { status: 400 }
       );
     }
 

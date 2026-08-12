@@ -9,6 +9,7 @@ import {
 } from '@/lib/orderTotal';
 import { type UrgencyValue } from '@/lib/urgency';
 import { countries } from '@/data/countries';
+import { isNationalityCodeAllowed } from '@/lib/nationalityEligibility';
 
 const prisma = new PrismaClient();
 
@@ -36,10 +37,31 @@ async function savePassengers(
 
   const application = await prisma.application.findUnique({
     where: { applicationId },
+    include: {
+      VisaType: {
+        select: { allowedNationalities: true },
+      },
+    },
   });
 
   if (!application) {
     return NextResponse.json({ error: 'Application not found' }, { status: 404 });
+  }
+
+  const unsupportedNationality = passengers.find((passenger) => {
+    const code = passenger.nationality;
+    return (
+      typeof code !== 'string' ||
+      !countries.some((country) => country.code === code.toUpperCase()) ||
+      !isNationalityCodeAllowed(application.VisaType.allowedNationalities, code)
+    );
+  });
+
+  if (unsupportedNationality) {
+    return NextResponse.json(
+      { error: 'One or more passengers are not eligible for the selected Vietnam eVisa.' },
+      { status: 400 }
+    );
   }
 
   const effectiveUrgency = ((urgencyFromBody || application.urgency || '') as UrgencyValue) || '';

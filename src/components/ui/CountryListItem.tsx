@@ -21,34 +21,21 @@ export default function CountryListItem({ country }: CountryListItemProps) {
         alt={`${country.name} flag`}
         width={32}
         height={24}
-        className={`rounded shadow transition-transform ${indexable ? 'group-hover:scale-110' : ''}`}
+        className="rounded shadow transition-transform group-hover:scale-110"
       />
-      <span
-        className={`text-brand-ink font-medium ${indexable ? 'group-hover:text-[var(--brand-primary)] transition-colors' : ''}`}
-      >
+      <span className="text-brand-ink font-medium group-hover:text-[var(--brand-primary)] transition-colors">
         {country.name}
       </span>
     </>
   );
 
-  if (indexable) {
-    return (
-      <Link
-        href={`/check-requirement/${slug}`}
-        className={`${baseClassName} group cursor-pointer hover:shadow-lg`}
-      >
-        {content}
-      </Link>
-    );
-  }
-
   return (
-    <span
-      className={`${baseClassName} cursor-default opacity-90`}
-      aria-disabled="true"
-      title="Use the eligibility checker above to view requirements"
+    <Link
+      href={`/check-requirement/${slug}`}
+      rel={indexable ? undefined : 'nofollow'}
+      className={`${baseClassName} group cursor-pointer hover:shadow-lg`}
     >
       {content}
-    </span>
+    </Link>
   );
 }

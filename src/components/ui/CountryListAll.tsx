@@ -1,22 +1,25 @@
 import { countries } from '@/data/countries';
 import CountryListItem from '@/components/ui/CountryListItem';
 
-// Group countries by first letter
-const grouped = countries.reduce(
-  (acc, country) => {
-    const letter = country.name[0].toUpperCase();
-    if (!acc[letter]) acc[letter] = [];
-    acc[letter].push(country);
-    return acc;
-  },
-  {} as Record<string, typeof countries>
-);
+type CountryListAllProps = {
+  countryList?: typeof countries;
+};
 
-export default function CountryListAll() {
+export default function CountryListAll({ countryList = countries }: CountryListAllProps) {
+  const grouped = countryList.reduce(
+    (acc, country) => {
+      const letter = country.name[0].toUpperCase();
+      if (!acc[letter]) acc[letter] = [];
+      acc[letter].push(country);
+      return acc;
+    },
+    {} as Record<string, typeof countries>
+  );
+
   return (
     <div className="w-full max-w-6xl mx-auto py-10 px-2">
       <h2 className="text-3xl font-extrabold text-[#ffb400] mb-8 text-center drop-shadow">
-        All Countries
+        {countryList.length} Nationalities
       </h2>
       <div className="flex flex-wrap gap-4 justify-center">
         {Object.keys(grouped)
