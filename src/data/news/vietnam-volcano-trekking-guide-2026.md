@@ -106,7 +106,7 @@ Shorter visits use **Fansipan Legend cable car** or mountain railway segments pl
 
 Pack a **waterproof shell**, **gloves in winter**, and **trekking poles** for gravel descents—poles are not optional for multi-day knee protection.
 
-![Fansipan summit viewpoint above clouds on Sapa mountain trek](/img/blog/photos/vietnam-volcano-trekking-guide-2026.jpg)
+![Rice terraces and mountain slopes in Ta Phin near Sa Pa](/img/blog/photos/inline-ta-phin-rice-terraces.jpg)
 
 ## Ha Giang Loop: plateau drama (trekking vs riding)
 
@@ -164,8 +164,6 @@ Choose **Bach Ma** when your itinerary is **central coast**, not when you are Ha
 | Health | Blister kit; altitude awareness | Crowd patience | Motion sickness on passes | Repellent wet season |
 
 **Hydration bladders** survive bouncing saddlebags better than rigid bottles on dusty Ha Giang roads.
-
-![Packing checklist for Fansipan, Ha Giang, and Ba Vi trekking in Vietnam](/img/blog/vietnam-mountains.svg)
 
 ## Homestays and mountain towns
 

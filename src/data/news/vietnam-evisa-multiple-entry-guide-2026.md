@@ -329,8 +329,6 @@ Apply **7–14+ days** before departure. Multiple-entry planning fails if approv
 
 Walkthrough: [how to apply for a Vietnam eVisa online](/blog/how-to-apply-vietnam-evisa-online-2026).
 
-![Decision tree for choosing single or multiple entry Vietnam eVisa on regional trips](/img/blog/infographics/vietnam-evisa-requirements-at-a-glance.svg)
-
 ## Related resources
 
 - [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026)

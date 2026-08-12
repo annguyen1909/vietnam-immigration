@@ -84,8 +84,6 @@ Over-compressed JPGs turn MRZ lines into illegible blocks. Wrong file types may 
 
 **Fix:** Export a high-quality JPG within portal size limits. **Do not upscale** a blurry image—officers compare pixels to your physical passport at entry.
 
-![Correct and incorrect passport bio page scans for Vietnam eVisa upload](/img/blog/infographics/vietnam-evisa-passport-scan-example.svg)
-
 ## Data mismatch rejections
 
 Every typed field must mirror the passport you will carry at immigration. Mismatches are among the most common rejection—and boarding denial—causes.
@@ -184,8 +182,6 @@ Follow this sequence before you pay again:
 6. **Reapply** on [/apply](/apply) with corrected data—or consider embassy processing for complex cases.
 
 **Do not board** your flight hoping immigration will overlook a rejection. Airlines check authorization at check-in.
-
-![Flowchart for fixing Vietnam eVisa rejection and reapplying correctly](/img/blog/infographics/vietnam-evisa-apply-steps.svg)
 
 ## Entry denied despite "approval"
 

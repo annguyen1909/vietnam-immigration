@@ -67,8 +67,6 @@ Vietnamese immigration authorities make the final approval decision. **No privat
 
 If you are unsure whether you need a visa at all, start with [Vietnam visa eligibility by country](/check-requirement) before you pay.
 
-![Step-by-step Vietnam eVisa online application process for 2026](/img/blog/infographics/vietnam-evisa-apply-steps.svg)
-
 ## Who can apply for a Vietnam eVisa online?
 
 Under Vietnam's current e-visa policy, citizens of **all countries and territories** may apply for an electronic visa for tourism or short business visits, subject to passport validity and accurate application data . That broad eligibility is why "apply for Vietnam eVisa online" is a practical default for many international travelers.
@@ -207,8 +205,6 @@ Upload quality matters as much as form accuracy. Blurry files cause resubmission
 - Recent image that resembles you at immigration
 
 If uploads fail, resize without blurring text. JPG format is standard. Full specs: [Vietnam eVisa photo requirements guide](/blog/vietnam-evisa-photo-requirements-2026).
-
-![Correct vs incorrect passport bio page scan for Vietnam eVisa](/img/blog/infographics/vietnam-evisa-passport-scan-example.svg)
 
 ## Step 6: Track status, download approval, and verify every field
 

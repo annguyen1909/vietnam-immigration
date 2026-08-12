@@ -206,8 +206,6 @@ Carry **DAN or equivalent dive insurance** listing scuba explicitly. Standard tr
 - **Nitrox:** State desired percentage; verify analyser reading before each dive.
 - Keep physician contacts handy when reactive airways meet pier diesel exhaust.
 
-![Vietnam scuba diving comparison for Nha Trang, Phu Quoc, and Con Dao sites](/img/blog/vietnam-diving.svg)
-
 ## Costs and budgeting in VND
 
 | Item | Nha Trang | Phu Quoc | Con Dao |

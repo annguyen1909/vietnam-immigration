@@ -57,8 +57,6 @@ Vietnam compresses dramatic light zones into a narrow S-shaped coast. Shooting e
 
 The most common planning error is treating Vietnam like a checklist: one night per icon. Strong portfolios come from **repeating locations at the right hour**, not ticking names on a tour bus schedule.
 
-![Best seasons for photography in north, central, and south Vietnam](/img/blog/vietnam-photography.svg)
-
 ## Ha Long Bay and Lan Ha: karst drama at water level
 
 **Ha Long Bay** is Vietnam’s most photographed seascape—thousands of limestone pillars rising from the Gulf of Tonkin. **Lan Ha Bay**, accessed from **Cat Ba Island**, offers similar karst with fewer mega-junks and stronger kayaking access.

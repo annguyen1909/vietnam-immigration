@@ -58,8 +58,6 @@ Vietnam stretches more than 1,600 km north to south. Park character, weather, an
 
 **Decision rule:** Pick parks that sit on your geographic line—not every park in one trip unless you have three weeks and accept domestic flights.
 
-![Map of major Vietnam national parks from Phong Nha to Cat Tien and Con Dao](/img/blog/vietnam-nature.svg)
-
 ## Phong Nha–Ke Bang: caves and primary forest
 
 **Phong Nha–Ke Bang** in Quang Binh province is Vietnam's flagship **cave national park**—UNESCO-listed karst, underground rivers, and primary forest that anchors most central adventure weeks.

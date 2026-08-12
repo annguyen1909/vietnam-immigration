@@ -74,7 +74,7 @@ Not every site rewards every traveller. Use this decision filter:
 
 **One-week rule:** Choose **north + central OR central + south**—not all three unless you accept transit-heavy days.
 
-![Map of top historical places in Vietnam from Hanoi and Hue to Hoi An and Ho Chi Minh City](/img/blog/vietnam-history.svg)
+![Entrance to the Imperial City in Hue](/img/blog/photos/inline-hue-imperial-city.jpg)
 
 ## 1. Hue Imperial City and royal tombs
 

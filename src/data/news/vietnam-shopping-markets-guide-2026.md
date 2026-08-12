@@ -60,8 +60,6 @@ Not all "markets" serve the same shopper:
 
 **Regional comparison:** **Ho Chi Minh City** markets push coffee, pepper, and lacquer. **Hanoi** markets lean propaganda prints, silk, and cold-weather gear. **Hoi An** specialises lanterns, tailor shops, and leather sandals. Plan purchases where authenticity and repair access are strongest—re-stitch a Hoi An suit locally; ship coffee from either big city.
 
-![Map of best markets for shopping in Vietnam by city](/img/blog/vietnam-markets.svg)
-
 ## Ben Thanh Market, Ho Chi Minh City
 
 **Ben Thanh** is the default **Ho Chi Minh City market** for first visits—apparel, dried fruit, **Dak Lak robusta**, **Saigon cinnamon**, pepper, and lacquerware under one roof. Midday interior beats perimeter pavement heat; evening perimeter stalls skew street food—watch bags after **18:00**.
@@ -82,7 +80,7 @@ Not all "markets" serve the same shopper:
 
 **Common mistake:** Shopping Ben Thanh on your last hour before **Tan Son Nhat (SGN)** flight—wrap and weight eat time. Shop mid-trip; hotel midday drop strategy below.
 
-![Vietnamese coffee and cinnamon spice stalls at Ben Thanh Market Ho Chi Minh City](/img/blog/photos/vietnam-shopping-markets-guide-2026.jpg)
+![Food and souvenir stalls inside Ben Thanh Market in Ho Chi Minh City](/img/blog/photos/inline-ben-thanh-market.jpg)
 
 ## Dong Xuan Market, Hanoi
 

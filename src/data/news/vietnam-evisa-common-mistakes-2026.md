@@ -110,8 +110,6 @@ On many assisted application flows—including ours at [/apply](/apply)—you do
 
 Full port list and planning notes: [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026).
 
-![Vietnam eVisa entry port must match your airline arrival airport](/img/blog/infographics/vietnam-evisa-entry-ports-map.svg)
-
 ## Mistake 4: Single-entry visa used for a leave-and-return itinerary
 
 Southeast Asia trips often include a side trip to Thailand, Cambodia, or Laos—and then a return to Vietnam. A **single-entry** eVisa authorizes **one arrival period**. Once you exit Vietnam, that entry is consumed.

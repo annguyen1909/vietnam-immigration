@@ -60,8 +60,6 @@ The mistake many first-time planners make is treating "north Vietnam" as one int
 
 Choosing two complementary bases beats ticking five names. **Mai Chau + Pu Luong** share transfer logic. **Ba Be + Cao Bang** form a natural northeast loop. **Bac Ha** works as a weekend add-on if you are already near **Lao Cai**—not as a standalone day trip from Hanoi unless you accept ten-plus hours on the road.
 
-![Map of off-the-beaten-path destinations in northern Vietnam from Hanoi](/img/blog/vietnam-hidden-gems.svg)
-
 ## Mai Chau: gateway rhythm without Sa Pa intensity
 
 **Mai Chau valley** (Hoa Binh province) is no longer undiscovered—weekend cyclists from Hanoi fill some homestays—but it remains **softer than Sa Pa town centre**: stilt houses, rice-plot bicycle loops, and Black Thai hospitality at gentler price points.
@@ -176,7 +174,7 @@ Fog mornings soften exposures for photographers—carry lens cloths. Border zone
 
 **Common mistake:** Attempting Ban Gioc as a two-day Hanoi return without a driver swap—you spend more time in the car than at the falls.
 
-![Ban Gioc Waterfall on the Vietnam-China border in Cao Bang province](/img/blog/photos/hidden-gems-vietnam-2026.jpg)
+![Ban Gioc Waterfall beside rice fields in Cao Bang province](/img/blog/photos/inline-ban-gioc-waterfall.jpg)
 
 ## Sample quiet-north itineraries
 

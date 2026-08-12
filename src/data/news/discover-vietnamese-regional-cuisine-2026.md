@@ -31,7 +31,7 @@ If you are planning a trip around **what to eat in Vietnam**—not just where to
 
 **We are a private visa assistance service—not the Government of Vietnam.** Food safety, restaurant licensing, and market regulations are managed locally. The planning advice below is general travel guidance based on common 2026 routes and costs.
 
-![Hanoi street food vendor preparing pho bo at a sidewalk stall](/img/blog/photos/vietnam-shopping-markets-guide-2026.jpg)
+![Bowl of pho ga served in Hanoi](/img/blog/photos/inline-pho-hanoi.jpg)
 
 ## Quick answer: Vietnamese food by region at a glance
 
@@ -64,8 +64,6 @@ Vietnamese cooking is not one national menu—it is a **climate map on a plate**
 | South | Sweeter, sometimes coconut | Variable | Herb platters, hoisin, lime, chilli |
 
 **Decision support:** If you love **subtle broth craft**, spend extra nights in Hanoi. If you want **bold spice and texture**, prioritise Hue and Da Nang. If you prefer **sandwich-and-herb freshness**, anchor the south in Ho Chi Minh City and the delta.
-
-![Map of Vietnamese regional cuisine with signature dishes from north, central, and south](/img/blog/vietnam-cuisine.svg)
 
 ## Northern Vietnam: Hanoi and the Red River delta
 

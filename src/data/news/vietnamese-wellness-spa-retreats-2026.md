@@ -59,8 +59,6 @@ Vietnam is not a single "spa country"—biomes change what is on offer:
 
 **Decision support:** Choose **one anchor region** per week. A "wellness grand tour" of Hanoi + Da Lat + Phu Quoc in five days is mostly airports—not nervous-system recovery.
 
-![Map of best wellness and spa destinations in Vietnam by region](/img/blog/vietnam-wellness.svg)
-
 ## Natural hot springs and mineral water
 
 ### Thanh Tan Hot Springs (near Hue)

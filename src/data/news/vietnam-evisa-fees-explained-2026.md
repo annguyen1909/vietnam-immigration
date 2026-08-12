@@ -79,8 +79,6 @@ Some travelers assume visa costs vary by passport because embassy sticker visas 
 
 Always verify live pricing at [/fees](/fees). Forum posts from prior years or screenshots from other websites are unreliable—fee schedules and product names change.
 
-![Vietnam eVisa fee structure showing government, service, and urgent processing costs](/img/blog/infographics/vietnam-evisa-requirements-at-a-glance.svg)
-
 ## Assisted service fee: what $59.99 per passenger covers
 
 Private assistance on our portal adds **$59.99 per passenger**. This is **separate from and in addition to** the government fee. It pays for:

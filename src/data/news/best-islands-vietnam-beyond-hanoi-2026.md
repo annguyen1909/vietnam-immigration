@@ -31,7 +31,7 @@ If you are landing in **Hanoi** and want real island time—not just a half-day 
 
 **We are a private visa assistance service—not the Government of Vietnam.** Ferry schedules, marine park fees, and beach safety rules are set by local operators and authorities. We help travellers prepare entry documents; the planning advice below is general travel guidance based on common 2026 routes and costs quoted in **Vietnamese dong (VND)**.
 
-![Lan Ha Bay limestone karsts and emerald water near Cat Ba Island](/img/blog/photos/best-islands-vietnam-beyond-hanoi-2026.jpg)
+![Lan Ha Bay limestone islands and floating village near Cat Ba](/img/blog/photos/inline-cat-ba-lan-ha-bay.jpg)
 
 ## Quick answer: best Vietnam islands at a glance
 
@@ -55,8 +55,6 @@ Vietnam is an S-shaped coast, not a single beach belt. Island quality, water cla
 - **Southern marine frontier:** **Phu Quoc** (Gulf of Thailand) and **Con Dao** (South China Sea) deliver warmer water, longer beaches, and flight-dependent itineraries. Worth the hop if you have a full week for the south.
 
 Choosing wrong is the most common mistake: booking **Phu Quoc** for a three-day Hanoi add-on burns two days in airports. Conversely, skipping south entirely when you have ten days leaves Vietnam's best sand and diving unexplored.
-
-![Map of best Vietnam islands by region from north to south](/img/blog/vietnam-islands.svg)
 
 ## Cat Ba Archipelago and Lan Ha Bay
 
@@ -235,8 +233,6 @@ Ask four questions before booking:
 **Optional Days 6–8:** Fly to **Con Dao** only if you accept limited schedules and higher cost—or extend Phu Quoc instead.
 
 **Rule:** Fly south **once**. Avoid Hanoi → Phu Quoc → Hanoi → Cat Ba in one short trip.
-
-![Vietnam island itinerary map showing routes from Hanoi, Hoi An, and Ho Chi Minh City](/img/blog/vietnam-travel.svg)
 
 ## Seasonal weather: what actually affects your trip
 

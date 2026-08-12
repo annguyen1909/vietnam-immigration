@@ -73,8 +73,6 @@ Beach planning fails when travellers expect one "beach season" nationwide. Vietn
 
 **Planning implication:** Mui Ne is a **specialist stop**—excellent for wind sports and dune photography, not a default first beach for families seeking calm swim days.
 
-![Vietnam beach holiday seasons map showing best months by coast region](/img/blog/vietnam-beach.svg)
-
 ## Choosing a coast hub for your 2026 holiday
 
 | Your priority | First choice | Runner-up |
@@ -237,8 +235,6 @@ For detailed Phu Quoc vs Con Dao comparisons, ferry alternatives, and island log
 **Option C:** Nha Trang only—resort, islands, diving.
 
 **Rule:** One hub per week delivers more beach time than three two-night stops.
-
-![Vietnam beach holiday route map for central and southern coast itineraries](/img/blog/vietnam-travel.svg)
 
 ## Coastal budgeting in VND
 

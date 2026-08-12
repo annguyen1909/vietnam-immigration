@@ -103,8 +103,6 @@ The biggest mistake is treating Vietnam like a theme park menu—one day caves, 
 
 **Cons:** Flood season disruption; remote cash economy; show caves crowd on domestic holidays.
 
-![Vietnam Phong Nha cave trips ranked by fitness level and cost](/img/blog/vietnam-adventure.svg)
-
 ## Kayaking: Ha Long, Lan Ha, and Phong Nha rivers
 
 Kayaking connects adventure travellers to water without full dive certification.
@@ -155,7 +153,7 @@ International riders need a **motorcycle licence** matching bike displacement an
 
 **Cons:** Not beginner-friendly for self-riders; gravel edges and fog; long bus from Hanoi (roughly 6–7 hours).
 
-![Ma Pi Leng Pass viewpoint on Ha Giang motor loop adventure travel](/img/blog/photos/hidden-gems-vietnam-2026.jpg)
+![Winding mountain road at Ma Pi Leng Pass in Ha Giang](/img/blog/photos/inline-ma-pi-leng-pass.jpg)
 
 ## Secondary adrenaline: Da Lat, Mui Ne, and coast options
 

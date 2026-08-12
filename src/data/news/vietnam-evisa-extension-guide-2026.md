@@ -86,8 +86,6 @@ Under Vietnam's current e-visa framework, standard online products authorize sta
 
 Always read the conditions printed on your approval letter and the entry stamp in your passport. If your category explicitly prohibits extension, plan an exit instead.
 
-![Vietnam eVisa extension eligibility showing validity window and stay duration](/img/blog/infographics/vietnam-evisa-requirements-at-a-glance.svg)
-
 ## Can you extend a Vietnam eVisa online?
 
 **Usually no.** The online e-visa filing is for **pre-arrival authorization**, not for lengthening a stay after you have entered. Extensions, when permitted, are handled through Vietnamese immigration offices inside the country.
@@ -238,8 +236,6 @@ The most reliable extension strategy is **not needing one**. At initial filing:
 | **Possible job interviews** | Business eVisa if appropriate—not tourist extension later |
 
 Read [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026) and apply **7–14+ days** before departure. Do not book non-refundable long-stay accommodation until you hold the approved PDF.
-
-![Vietnam eVisa extension vs upfront longer stay application comparison](/img/blog/infographics/vietnam-evisa-apply-steps.svg)
 
 ## Alternatives when extension is denied or unavailable
 

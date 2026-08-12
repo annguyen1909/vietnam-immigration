@@ -76,7 +76,7 @@ Read showtimes carefully: classical forms shift venues during school holidays an
 
 Pair a morning at [top historical places in Vietnam](/blog/top-10-historical-places-vietnam) sites (Thang Long Citadel, Old Quarter) with a **19:30** puppet show.
 
-![Vietnamese musicians playing dan bau at water puppet theatre performance](/img/blog/photos/vietnamese-music-arts-culture-2026.jpg)
+![Musicians performing beside a traditional Vietnamese water puppet stage](/img/blog/photos/inline-water-puppet-theatre.jpg)
 
 ## Ca tru: intimate chamber song
 
@@ -130,8 +130,6 @@ Museums anchor performances in history—lacquer technique, Cham sculpture, high
 **Student discounts:** International student ID sometimes yields **50%** off—carry card.
 
 Stack **museum blocks before 14:00**, rest through heat, book **19:30** shows when traffic peaks.
-
-![Map of Vietnamese arts and culture venues in Hanoi, Hue, and Ho Chi Minh City](/img/blog/vietnam-culture.svg)
 
 ## Contemporary art in Ho Chi Minh City and Hanoi
 

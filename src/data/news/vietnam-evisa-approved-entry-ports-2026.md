@@ -87,8 +87,6 @@ This distinction trips up multi-city planners constantly:
 
 Domestic flights, trains, and buses **after** you clear immigration do not need to match the port. Only the **first time you enter Vietnam internationally** must align.
 
-![Vietnam eVisa entry port matching for international arrival and domestic connections](/img/blog/infographics/vietnam-evisa-entry-ports-map.svg)
-
 ## International airports: codes, regions, and route logic
 
 Vietnam eVisa holders commonly enter through designated international airports. Your approval lists **your** authorized airport—not every airport automatically.

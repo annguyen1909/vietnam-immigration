@@ -103,8 +103,6 @@ Families filing through **vietnamemigration.com** get one structured checkout: g
 
 Assisted family filing tends to help when you are managing **three or more passports**, struggling with **infant photos**, or need **multiple-entry confirmation** for a Southeast Asia loop. See [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026) for per-passenger totals.
 
-![Vietnam eVisa family group application with up to 15 travelers and separate PDFs per passport](/img/blog/infographics/vietnam-evisa-apply-steps.svg)
-
 ## One application, multiple passengers: how group filing works
 
 Our [/apply](/apply) flow supports **group submissions of up to 15 travelers** in one payment session—one of the simplest ways to **apply for a visa** for every family member at once. That simplifies family logistics without changing the official rule that **each passenger is a separate immigration record**.

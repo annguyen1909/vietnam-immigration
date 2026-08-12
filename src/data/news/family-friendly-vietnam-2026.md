@@ -67,8 +67,6 @@ Vietnam is not a theme-park destination. It is a **high-reward, moderate-effort*
 
 Choosing wrong is the most common planning mistake: stacking **Hanoi, Ha Long, Hoi An, and Phu Quoc** into nine days burns two days in airports and leaves everyone irritable. Pick **one geographic focus** unless you have two full weeks.
 
-![Map of family-friendly Vietnam destinations by north, central, and south regions](/img/blog/vietnam-family.svg)
-
 ## Best family destinations in Vietnam by age and style
 
 ### Hoi An: crafts, lanterns, and stroller-friendly mornings
@@ -194,8 +192,6 @@ Vietnam spans more than 1,000 km north to south—**weather that suits Da Nang m
 ### 12–14 day north, central, and optional south
 
 Add **Da Lat** (3 nights) between coast blocks for climate variety, or fly **DAD → PQC** for a **4-night Phu Quoc** finale. Only attempt this with **teenagers** or **seasoned travel kids**—toddlers need fewer bases.
-
-![Sample Vietnam family itinerary routes for 8, 10, and 14 days](/img/blog/vietnam-travel.svg)
 
 ## Daily pacing: the difference between a great trip and a meltdown
 

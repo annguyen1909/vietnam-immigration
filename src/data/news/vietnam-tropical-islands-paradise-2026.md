@@ -75,8 +75,6 @@ Vietnam is an S-shaped coast, not one continuous beach belt. Island character ch
 
 **What breaks trips:** Limited **Con Dao flight schedules**, plankton blooms affecting visibility, and domestic holiday crowds filling Phu Quoc flights and resorts.
 
-![Map of Vietnam island travel regions showing north, central, and south marine zones](/img/blog/vietnam-islands.svg)
-
 ## Choosing your island mood
 
 Island travel in Vietnam is not one experience. Match your mood to transport tolerance and trip length before booking.

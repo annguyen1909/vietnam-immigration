@@ -94,8 +94,6 @@ Learn **"chuc mung nam moi"** (happy new year) and **"an khang thinh vuong"** (h
 
 Pair Tet planning with [Vietnam eVisa common mistakes](/blog/vietnam-evisa-common-mistakes-2026) so document errors do not compound holiday stress.
 
-![Vietnam festival calendar 2026 with Tet, Mid-Autumn, and Hung Kings dates](/img/blog/vietnam-festivals.svg)
-
 ## Hue Festival and imperial heritage
 
 On festival years, **Hue** stages royal-inspired music, **ao dai** parades, and **Perfume River** performances against the **Citadel** silhouette. The event is **periodic, not yearly**—confirm whether a full **Hue Festival 2026** edition runs before centring your trip on it.

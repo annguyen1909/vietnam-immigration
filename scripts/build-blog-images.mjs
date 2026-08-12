@@ -44,6 +44,15 @@ const MAP = {
   'vietnam-evisa-fees-explained-2026': 'currency-b__2.jpg',
   'vietnam-currency-exchange-guide-2026': 'currency-b__6.jpg',
   'vietnam-evisa-vs-embassy-visa-2026': 'golden-bridge__1.jpg',
+  // Inline article photos replacing generic SVG placeholders
+  'inline-cat-ba-lan-ha-bay': 'islands-photo__3.jpg',
+  'inline-pho-hanoi': 'cuisine-photo__1.jpg',
+  'inline-ban-gioc-waterfall': 'hidden-gems__3.jpg',
+  'inline-hue-imperial-city': 'historical__1.jpg',
+  'inline-ma-pi-leng-pass': 'adventure__2.jpg',
+  'inline-ben-thanh-market': 'shopping__1.jpg',
+  'inline-ta-phin-rice-terraces': 'volcano-b__4.jpg',
+  'inline-water-puppet-theatre': 'music-arts__1.jpg',
 };
 
 const preview = process.argv.includes('--preview');

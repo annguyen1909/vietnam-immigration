@@ -44,8 +44,6 @@ This guide is written for travelers who want to **apply for Vietnam visa online*
 | **Processing Time** | Often several working days; our standard handling is shown as **within 5 business days** |
 | **Government Fee** | Current government/application fees on this service are **$55 single-entry** or **$80 multiple-entry**, plus the disclosed service fee shown in our [transparent Vietnam eVisa fee breakdown](/fees). |
 
-![Vietnam eVisa Requirements 2026 summary showing 90-day stay, single or multiple entry, processing time, and fees](/img/blog/infographics/vietnam-evisa-requirements-at-a-glance.svg)
-
 ## Who Needs a Vietnam eVisa in 2026?
 
 Most foreign travelers need either a visa, eVisa, visa exemption, residence document, or another valid entry authorization before boarding a flight or crossing into Vietnam. The **Vietnam tourist visa valid for 90 days** is the most practical option for many travelers who are not covered by a short visa exemption or who need a longer stay.
@@ -81,8 +79,6 @@ Your passport is the foundation of the application. Even a strong itinerary will
 
 If your passport expires soon, renew it before applying. Your approved eVisa is linked to the passport number submitted. A new passport usually means you need a new application.
 
-![Clear passport bio page scan example for Vietnam eVisa Requirements 2026](/img/blog/infographics/vietnam-evisa-passport-scan-example.svg)
-
 ## Vietnam eVisa Photo Requirements 2026
 
 Photo problems are one of the easiest ways to slow down an otherwise eligible application. Your portrait should look like a passport-style photo, not a selfie from your camera roll.
@@ -90,8 +86,6 @@ Photo problems are one of the easiest ways to slow down an otherwise eligible ap
 Use a recent color photo with a plain light background, neutral expression, open eyes, no sunglasses, and no heavy shadows. Keep the face centered and avoid cropping the top of the head, chin, ears, or shoulders too tightly. For children and infants, use a clean plain background and retake the image if the face is blurred.
 
 For a full photo checklist, use our [Vietnam eVisa photo requirements guide for 2026](/blog/vietnam-evisa-photo-requirements-2026). It is worth checking before you upload because a five-minute reshoot can prevent days of avoidable delay.
-
-![Accepted and rejected Vietnam eVisa photo requirements 2026 with passport-style examples](/img/blog/infographics/vietnam-evisa-photo-accepted-rejected.svg)
 
 ## Vietnam eVisa Types: Single Entry vs Multi-Entry Visa Vietnam
 
@@ -128,8 +122,6 @@ Our apply form does **not** include an entry-port dropdown. The port is recorded
 
 Travelers who want guided review can [apply for a Vietnam visa online with assisted document checking](/apply). If you want the expanded walkthrough, read the [step-by-step Vietnam eVisa online application guide](/blog/how-to-apply-vietnam-evisa-online-2026).
 
-![Step-by-step guide to applying for Vietnam eVisa 2026 online](/img/blog/infographics/vietnam-evisa-apply-steps.svg)
-
 ## Vietnam Visa Port of Entry Rules in 2026
 
 Your **Vietnam visa port of entry** matters on the **approved eVisa PDF**, not as a field on our apply form. Vietnamese immigration rules require you to arrive at an authorized airport, seaport, or land border that matches what is printed on your approval. Major airports such as [Noi Bai in Hanoi](https://vietnam.travel/things-to-do/hanoi), [Tan Son Nhat in Ho Chi Minh City](https://vietnam.travel/things-to-do/ho-chi-minh-city), and [Da Nang](https://vietnam.travel/things-to-do/da-nang) are common international gateways, but land and sea arrivals require extra care.
@@ -137,8 +129,6 @@ Your **Vietnam visa port of entry** matters on the **approved eVisa PDF**, not a
 If your ticket lands in Ho Chi Minh City but the approval lists Hanoi, or if your cruise docks at a port not covered by your visa, you may face check-in problems or entry refusal. Airlines and border officers rely on the approved visa data, not on verbal explanations.
 
 Use our [Vietnam eVisa approved entry ports guide](/blog/vietnam-evisa-approved-entry-ports-2026) before you submit, then confirm the port printed on your approval PDF matches your first international arrival.
-
-![Vietnam visa port of entry map for airports, land borders, and seaports in 2026](/img/blog/infographics/vietnam-evisa-entry-ports-map.svg)
 
 ## Cost of Vietnam eVisa in 2026: Government Fees vs Service Fees
 

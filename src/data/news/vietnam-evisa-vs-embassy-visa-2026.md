@@ -127,8 +127,6 @@ Directory: [/embassy](/embassy).
 - Prior **immigration violations** needing consular review
 - Corporate HR mandates **sticker visa** format
 
-![Vietnam eVisa vs embassy visa decision flowchart by trip purpose and stay length](/img/blog/infographics/vietnam-evisa-requirements-at-a-glance.svg)
-
 ## Side-by-side comparison: cost
 
 Compare **total trip cost**—government or consular fees plus your time, travel, and any agent charges.

@@ -206,8 +206,6 @@ Mid-range beach travellers often spend **800,000–1,500,000 VND** daily on meal
 | Cham Island day trip buffer | 800,000–1,200,000 | Cash before pier |
 | Emergency reserve | 2,000,000 | Separate pocket |
 
-![Vietnam travel money guide flowchart for ATM, exchange, cash, and card payments](/img/blog/vietnam-currency.svg)
-
 ## Cash-heavy scenarios: islands, diving, and ferries
 
 Some Vietnam experiences are **dong-first by necessity**—plan cash before you reach the pier.
