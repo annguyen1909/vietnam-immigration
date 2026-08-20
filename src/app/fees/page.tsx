@@ -90,7 +90,7 @@ export default function FeesPage() {
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-white"></div>
             <span className="text-white text-sm font-semibold uppercase tracking-wider">
-              Official Vietnam E-Visa Application Assistance
+              Vietnam eVisa Application Assistance
             </span>
             <div className="w-2 h-2 rounded-full bg-white"></div>
           </div>

@@ -15,17 +15,6 @@ import { isIndexableFaqSlug } from '@/data/indexableFaqSlugs';
  */
 const STABLE_CONTENT_DATE = new Date('2026-06-01T00:00:00Z');
 
-/** Travel guides upgraded to pillar depth — priority boost even before dateModified is set. */
-const TRAVEL_PILLAR_SLUGS = new Set([
-  'best-islands-vietnam-beyond-hanoi-2026',
-  'best-photography-spots-vietnam-2026',
-  'family-friendly-vietnam-2026',
-  'top-10-historical-places-vietnam',
-]);
-
-/** Posts with dateModified on/after this date are treated as recently upgraded content. */
-const CONTENT_UPGRADE_CUTOFF = new Date('2026-06-01T00:00:00Z');
-
 function parseFrontmatterDate(value: unknown): Date | null {
   if (!value) return null;
   const parsed = new Date(String(value));
@@ -45,15 +34,6 @@ function getLatestContentDate(data: Record<string, unknown>, fileModified: Date)
 function isVisaGuide(data: Record<string, unknown>): boolean {
   const tags = data.tags;
   return Array.isArray(tags) && tags.includes('visa');
-}
-
-function isUpgradedTravelGuide(data: Record<string, unknown>, slug: string): boolean {
-  if (isVisaGuide(data)) return false;
-
-  if (TRAVEL_PILLAR_SLUGS.has(slug)) return true;
-
-  const modified = parseFrontmatterDate(data.dateModified);
-  return modified !== null && modified >= CONTENT_UPGRADE_CUTOFF;
 }
 
 function getStaticSitemapEntries(baseUrl: string, currentDate: Date): MetadataRoute.Sitemap {
@@ -168,14 +148,9 @@ function getBlogSitemapEntries(baseUrl: string): MetadataRoute.Sitemap {
   return getMarkdownDirectoryEntries(baseUrl, {
     directory: 'src/data/news',
     urlPrefix: '/blog',
-    defaultChangeFrequency: 'monthly',
-    defaultPriority: 0.65,
-    changeFrequencyForEntry: (data) => (isVisaGuide(data) ? 'weekly' : 'monthly'),
-    priorityForEntry: (data, slug) => {
-      if (isVisaGuide(data)) return 0.75;
-      if (isUpgradedTravelGuide(data, slug)) return 0.7;
-      return 0.65;
-    },
+    defaultChangeFrequency: 'weekly',
+    defaultPriority: 0.75,
+    includeEntry: isVisaGuide,
     lastModifiedForEntry: (data, fileModified) => getLatestContentDate(data, fileModified),
   });
 }
@@ -216,13 +191,11 @@ function getTroubleshootingSitemapEntries(baseUrl: string): MetadataRoute.Sitema
 }
 
 function getCountrySitemapEntries(baseUrl: string, currentDate: Date): MetadataRoute.Sitemap {
-  const tier1 = new Set(INDEXABLE_COUNTRY_SLUGS.slice(0, 20));
-
   return INDEXABLE_COUNTRY_SLUGS.map((countryCode) => ({
     url: `${baseUrl}/check-requirement/${countryCode}`,
     lastModified: currentDate,
     changeFrequency: 'monthly' as const,
-    priority: tier1.has(countryCode) ? 0.85 : 0.78,
+    priority: 0.85,
   }));
 }
 

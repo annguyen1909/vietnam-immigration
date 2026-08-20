@@ -66,10 +66,18 @@ function parseNewsMarkdownFile(fileName: string): BlogPost {
   };
 }
 
+export function isVisaNewsTags(tags: unknown): boolean {
+  return Array.isArray(tags) && tags.includes('visa');
+}
+
 export function getAllNewsPosts(): BlogPost[] {
   return listNewsMarkdownFiles()
     .map(parseNewsMarkdownFile)
     .sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
+}
+
+export function getIndexableNewsPosts(): BlogPost[] {
+  return getAllNewsPosts().filter((post) => isVisaNewsTags(post.tags));
 }
 
 /** Alias for legacy callers — reads from `src/data/news`, not `content/blog`. */

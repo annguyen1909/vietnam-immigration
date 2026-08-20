@@ -1,15 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { getAllNewsPosts } from '@/lib/mdx';
+import { getIndexableNewsPosts } from '@/lib/mdx';
 
 export default function HomeNews() {
-  const validPosts = getAllNewsPosts().filter((p) => p.date && !isNaN(new Date(p.date).getTime()));
-  const sorted = [...validPosts].sort((a, b) => {
-    const aVisa = a.tags?.includes('visa') ? 1 : 0;
-    const bVisa = b.tags?.includes('visa') ? 1 : 0;
-    if (bVisa !== aVisa) return bVisa - aVisa;
-    return new Date(b.date).valueOf() - new Date(a.date).valueOf();
-  });
+  const validPosts = getIndexableNewsPosts().filter(
+    (p) => p.date && !isNaN(new Date(p.date).getTime())
+  );
+  const sorted = [...validPosts].sort(
+    (a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf()
+  );
   const largePosts = sorted.slice(0, 3);
   const smallPosts = sorted.slice(3, 6);
 
@@ -23,10 +22,10 @@ export default function HomeNews() {
             News & updates
           </span>
           <h2 className="font-display mt-4 text-3xl font-bold text-brand-ink sm:text-4xl">
-            Latest travel information
+            Latest eVisa guides
           </h2>
           <p className="mt-3 text-brand-muted">
-            Tips, guides, and updates to help you plan your visit to Vietnam.
+            Requirements, fees, photos, and processing updates for Vietnam eVisa.
           </p>
         </div>
 

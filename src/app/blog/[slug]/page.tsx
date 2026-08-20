@@ -45,21 +45,20 @@ export async function generateMetadata({
   const postTags = (post.metadata.tags as string[] | undefined) || ['Vietnam', 'eVisa', 'Travel'];
   const postSection = post.metadata.section || 'News & Updates';
   const defaultAuthor = BLOG_AUTHOR_NAME;
+  const indexable = Array.isArray(post.metadata.tags) && post.metadata.tags.includes('visa');
 
   return buildPageMetadata({
     title: String(post.metadata.title ?? ''),
     description: String(post.metadata.excerpt ?? ''),
     path: blogPath(slug),
+    index: indexable,
     ogType: 'article',
     ogImage: post.metadata.image || DEFAULT_OG_IMAGE,
     keywords: [
       ...postTags,
       'Vietnam eVisa',
       'Vietnam visa',
-      'Vietnam travel',
-      'Vietnam immigration',
       'Vietnam visa news',
-      'Vietnam travel updates',
     ],
     authors: post.metadata.author
       ? [{ name: String(post.metadata.author) }]
@@ -88,13 +87,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   const allPosts = getAllNewsPosts();
   const relatedPosts = allPosts
-    .filter((p) => p.slug !== slug)
-    .sort((a, b) => {
-      const aVisa = Array.isArray(a.tags) && a.tags.includes('visa') ? 1 : 0;
-      const bVisa = Array.isArray(b.tags) && b.tags.includes('visa') ? 1 : 0;
-      if (bVisa !== aVisa) return bVisa - aVisa;
-      return a.date < b.date ? 1 : -1;
-    })
+    .filter((p) => p.slug !== slug && p.tags?.includes('visa'))
+    .sort((a, b) => (a.date < b.date ? 1 : -1))
     .slice(0, 3);
 
   const postImage = absoluteAssetUrl(post.metadata.image || DEFAULT_OG_IMAGE);

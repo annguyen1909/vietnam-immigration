@@ -4,6 +4,7 @@ import SiteFooter from '@/components/layout/SiteFooter';
 import { countries } from '@/data/countries';
 import CountryListAll from '@/components/ui/CountryListAll';
 import { countryNameToSlug } from '@/lib/countrySlug';
+import { isIndexableCountrySlug } from '@/data/indexableCountrySlugs';
 import { useRouter } from 'next/navigation';
 import React from 'react';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
@@ -11,6 +12,9 @@ import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 export default function CheckRequirementPage() {
   const router = useRouter();
   const [selectedCountry, setSelectedCountry] = React.useState('');
+  const indexableCountries = countries.filter((country) =>
+    isIndexableCountrySlug(countryNameToSlug(country.name))
+  );
 
   return (
     <main className={`relative min-h-screen w-full bg-brand-surface text-brand-ink`}>
@@ -108,7 +112,7 @@ export default function CheckRequirementPage() {
               <p className="text-gray-700 text-base leading-relaxed text-center">
                 Select your country of citizenship to instantly check your eligibility for an
                 Vietnam eVisa. We&apos;ll provide you with detailed requirements and guide you
-                through the official application process.
+                through the application process.
               </p>
             </div>
 
@@ -184,7 +188,7 @@ export default function CheckRequirementPage() {
           <div className="text-center mb-12">
             <div className="inline-block px-4 py-2 bg-brand-primary rounded-lg mb-4 border-2 border-white shadow-md">
               <span className="text-sm font-bold text-white uppercase tracking-wide">
-                All Nationalities
+                Requirements by nationality
               </span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Browse by Country</h2>
@@ -194,7 +198,7 @@ export default function CheckRequirementPage() {
             </p>
           </div>
           <div className="bg-white border-4 border-brand-primary rounded-lg p-8 shadow-2xl">
-            <CountryListAll countryList={countries} />
+            <CountryListAll countryList={indexableCountries} />
           </div>
         </div>
       </section>

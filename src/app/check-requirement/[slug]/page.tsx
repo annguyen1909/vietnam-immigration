@@ -22,8 +22,6 @@ import {
   INDEXABLE_COUNTRY_SLUGS,
 } from '@/lib/seo';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
-import FAQSchema from '@/components/seo/FAQSchema';
-import HowToSchema from '@/components/seo/HowToSchema';
 import RelatedResources from '@/components/ui/RelatedResources';
 import EmergencyCTA from '@/components/trust/EmergencyCTA';
 import CountryEligibilityGate from '@/components/ui/CountryEligibilityGate';
@@ -131,54 +129,8 @@ export default async function CountryRequirementPage({ params }: PageProps) {
       .replace(/\{citizen\}/g, citizen)
       .replace(/5 business hours to 3 business days/gi, VIETNAM_PROCESSING_TIME);
 
-  const countryFaqSchemaItems = countryData.faqs.map((faq) => ({
-    question: formatCountryText(faq.q),
-    answer: formatCountryText(faq.a),
-  }));
-
-  const sharedFaqSchemaItems = sharedFaqs.map((faq) => ({
-    question: formatCountryText(faq.q),
-    answer: formatCountryText(faq.a),
-  }));
-
-  const faqSchemaItems = [...countryFaqSchemaItems, ...sharedFaqSchemaItems];
-
-  const howToSteps = [
-    {
-      name: 'Prepare your valid passport',
-      text: `Ensure your ${country} passport is valid for at least 6 months from arrival date.`,
-    },
-    {
-      name: 'Complete the online eVisa application form',
-      text: 'Fill in your personal and travel details accurately.',
-    },
-    {
-      name: 'Upload required documents',
-      text: 'Upload clear scans of your passport and any required documents if requested.',
-    },
-    {
-      name: 'Pay the fees',
-      text: 'Pay the government and service fees securely online using a credit or debit card.',
-    },
-    {
-      name: 'Receive your eVisa approval',
-      text: `Your eVisa will be sent to your email, usually within ${VIETNAM_PROCESSING_TIME}.`,
-    },
-    {
-      name: 'Print your eVisa',
-      text: 'Bring a printed copy of your eVisa and your passport when you travel to Vietnam.',
-    },
-  ];
-
   return (
     <>
-      <FAQSchema items={faqSchemaItems} />
-      <HowToSchema
-        name={`How to Apply for a Vietnam eVisa for ${citizen}`}
-        description={`Step-by-step instructions for ${citizen} to apply for a Vietnam eVisa online.`}
-        steps={howToSteps}
-        url={checkRequirementPath(slug)}
-      />
       <BreadcrumbSchema
         items={[
           { name: 'Home', href: '/' },
@@ -208,7 +160,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
             <div className="mb-8">
               <div className="inline-block px-4 py-2 bg-brand-primary rounded-lg mb-4 border-2 border-white shadow-md">
                 <span className="text-sm font-bold text-white uppercase tracking-wide">
-                  Official Visa Information
+                  Visa requirements
                 </span>
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
@@ -217,7 +169,7 @@ export default async function CountryRequirementPage({ params }: PageProps) {
               <div className="w-24 h-1 bg-brand-primary mb-4"></div>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Complete guide to Vietnam eVisa requirements, fees, and application process for{' '}
-                {citizen}. Professional assistance with official standards and certified expertise.
+                {citizen}. Private application assistance — we are not the Government of Vietnam.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link

@@ -8,7 +8,6 @@ export const INDEXABLE_FAQ_SLUGS = [
   'children-visa-vietnam',
   'cruise-passenger-visa-vietnam',
   'family-group-vietnam-evisa',
-  'vietnam-country-codes',
   'vietnam-evisa-entry-points',
   'vietnam-evisa-requirements',
   'work-in-vietnam-on-tourist-visa',

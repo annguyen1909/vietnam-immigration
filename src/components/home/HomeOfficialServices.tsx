@@ -2,7 +2,7 @@ const services = [
   {
     title: 'Expert Application Review',
     copy: 'Each application is reviewed by specialists familiar with Vietnam eVisa requirements to help ensure accuracy before submission.',
-    badge: 'Certified',
+    badge: 'Reviewed',
     icon: (
       <svg
         className="h-8 w-8"

@@ -11,7 +11,7 @@ import { extractFaqAnswerSnippet } from '@/lib/contentExcerpt';
 import FAQSchema from '@/components/seo/FAQSchema';
 import { buildPageMetadata } from '@/lib/seo';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
-import EssentialEvisaResources from '@/components/ui/EssentialEvisaResources';
+import { isIndexableFaqSlug } from '@/data/indexableFaqSlugs';
 
 interface FAQ {
   question: string;
@@ -44,15 +44,17 @@ export default function FAQPage() {
   try {
     const faqDir = path.join(process.cwd(), 'src/data/faqs');
     const files = glob.sync('*.md', { cwd: faqDir });
-    faqs = files.map((file) => {
-      const fileContent = fs.readFileSync(path.join(faqDir, file), 'utf8');
-      const { data, content } = matter(fileContent);
-      return {
-        question: data.question,
-        slug: data.slug,
-        answerSnippet: extractFaqAnswerSnippet(content),
-      };
-    });
+    faqs = files
+      .map((file) => {
+        const fileContent = fs.readFileSync(path.join(faqDir, file), 'utf8');
+        const { data, content } = matter(fileContent);
+        return {
+          question: data.question,
+          slug: data.slug,
+          answerSnippet: extractFaqAnswerSnippet(content),
+        };
+      })
+      .filter((faq) => isIndexableFaqSlug(faq.slug));
   } catch (e) {
     // If there's an error reading FAQs, use empty array
     faqs = [];

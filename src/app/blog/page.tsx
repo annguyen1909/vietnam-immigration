@@ -5,39 +5,32 @@ import SiteFooter from '@/components/layout/SiteFooter';
 import HelpFloatingBox from '@/components/ui/HelpFloatingBox';
 import { NewspaperIcon, CalendarIcon, UserIcon } from '@heroicons/react/24/outline';
 import JsonLd from '@/components/seo/JsonLd';
-import { getAllNewsPosts, type BlogPost } from '@/lib/mdx';
+import { getIndexableNewsPosts, type BlogPost } from '@/lib/mdx';
 import { blogPath, pageUrl, buildPageMetadata } from '@/lib/seo';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import EssentialEvisaResources from '@/components/ui/EssentialEvisaResources';
 
 export const metadata: Metadata = buildPageMetadata({
-  title: 'Vietnam eVisa News & Travel Guides',
+  title: 'Vietnam eVisa Guides & Updates',
   description:
-    'Latest news, updates, and travel information about Vietnam eVisa requirements and application process. Stay informed with visa guides, travel tips, and immigration updates.',
+    'Vietnam eVisa guides: requirements, fees, photos, processing time, and common application mistakes.',
   path: '/blog',
   keywords: [
     'Vietnam eVisa news',
     'Vietnam visa updates',
-    'Vietnam travel news',
-    'Vietnam immigration updates',
     'Vietnam visa requirements',
-    'Vietnam travel information',
     'Vietnam visa blog',
-    'Vietnam travel blog',
     'Vietnam visa news',
-    'Vietnam immigration news',
   ],
 });
 
 export default function BlogPage() {
-  const posts = getAllNewsPosts();
-  const visaGuides = posts.filter((p) => p.tags?.includes('visa'));
-  const travelPosts = posts.filter((p) => !p.tags?.includes('visa'));
+  const posts = getIndexableNewsPosts();
 
   const itemListSchema = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'Vietnam eVisa News & Travel Guides',
+    name: 'Vietnam eVisa Guides',
     itemListElement: posts.map((post, index) => ({
       '@type': 'ListItem',
       position: index + 1,
@@ -84,8 +77,7 @@ export default function BlogPage() {
               </h1>
               <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                Stay informed with the latest news, travel advisories, and updates about Vietnam
-                eVisa requirements and application process.
+                Guides for Vietnam eVisa requirements, documents, fees, and application mistakes.
               </p>
             </div>
           </div>
@@ -103,64 +95,20 @@ export default function BlogPage() {
                 <div className="mb-8 rounded-lg border-4 border-brand-primary bg-white p-4 shadow-2xl sm:p-6 lg:p-8">
                   <div className="flex items-center gap-3 mb-8">
                     <NewspaperIcon className="w-8 h-8 text-brand-primary" />
-                    <h2 className="text-2xl font-bold text-gray-900">Latest Articles</h2>
+                    <h2 className="text-2xl font-bold text-gray-900">Visa guides</h2>
                   </div>
-                  {visaGuides.length > 0 && (
-                    <div className="mb-10">
-                      <h3 className="text-lg font-bold text-brand-primary mb-4 uppercase tracking-wide">
-                        Visa guides
-                      </h3>
-                      <div className="space-y-6">
-                        {visaGuides.map((post: BlogPost) => (
-                          <article
-                            key={post.slug}
-                            className="bg-gray-50 border-2 border-brand-primary rounded-lg p-6"
-                          >
-                            <Link href={`/blog/${post.slug}`} className="block group">
-                              <div className="flex flex-col gap-4 sm:flex-row">
-                                <div className="relative aspect-video w-full shrink-0 overflow-hidden rounded-lg bg-gray-100 sm:w-48">
-                                  <Image
-                                    src={post.image || '/img/vietnam-hero.jpg'}
-                                    alt={post.title}
-                                    fill
-                                    className="object-cover object-center"
-                                    sizes="(max-width: 640px) 100vw, 192px"
-                                  />
-                                </div>
-                                <div className="flex-1 min-w-0">
-                                  <h3 className="text-xl font-bold text-gray-900 group-hover:text-brand-primary">
-                                    {post.title}
-                                  </h3>
-                                  <p className="text-gray-700 mt-2 line-clamp-2">{post.excerpt}</p>
-                                  <span className="text-brand-primary font-semibold text-sm mt-2 inline-block">
-                                    Read guide →
-                                  </span>
-                                </div>
-                              </div>
-                            </Link>
-                          </article>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                  {visaGuides.length > 0 && (
-                    <h3 className="text-lg font-bold text-brand-primary mb-4 uppercase tracking-wide">
-                      Travel &amp; destination guides
-                    </h3>
-                  )}
                   <div className="space-y-8">
-                    {(visaGuides.length > 0 ? travelPosts : posts).map((post: BlogPost) => (
+                    {posts.map((post: BlogPost) => (
                       <article
                         key={post.slug}
                         className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 hover:border-brand-primary transition-all"
                       >
                         <Link href={`/blog/${post.slug}`} className="block group">
                           <div className="flex flex-col gap-4 md:flex-row md:gap-6">
-                            {/* Post Image */}
                             <div className="relative aspect-video w-full shrink-0 overflow-hidden rounded-lg bg-gray-100 md:w-64">
                               <Image
                                 src={post.image || '/img/vietnam-hero.jpg'}
-                                alt={`${post.title} - Vietnam eVisa News Article`}
+                                alt={post.title}
                                 fill
                                 className="object-cover object-center"
                                 sizes="(max-width: 768px) 100vw, 256px"
@@ -169,8 +117,6 @@ export default function BlogPage() {
                                 {new Date(post.date).toLocaleDateString()}
                               </div>
                             </div>
-
-                            {/* Post Content */}
                             <div className="flex-1">
                               <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-brand-primary transition-colors">
                                 {post.title}

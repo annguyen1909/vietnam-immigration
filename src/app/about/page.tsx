@@ -36,7 +36,7 @@ const steps = [
       </svg>
     ),
     title: 'Professional Review',
-    desc: 'Each application undergoes comprehensive review by certified Vietnam immigration specialists to ensure accuracy and compliance with official requirements.',
+    desc: 'Each application undergoes review against current Vietnam eVisa requirements to catch document and form errors before submission.',
   },
   {
     icon: (
@@ -52,14 +52,14 @@ const steps = [
 const features = [
   {
     icon: UserGroupIcon,
-    title: 'Certified Immigration Specialists',
-    desc: 'Our team consists of certified Vietnam immigration specialists with extensive experience in processing official visa applications. Each specialist stays current with the latest Vietnamese immigration regulations and requirements.',
+    title: 'Visa application specialists',
+    desc: 'Our team reviews Vietnam eVisa applications and supporting documents. We are a private assistance service, not a government immigration authority.',
     color: 'bg-brand-primary',
   },
   {
     icon: BoltIcon,
     title: 'Efficient Processing Service',
-    desc: `Secure and efficient processing of official Vietnam entry visas with bank-level security for all data and payment transactions. Processing typically completed within ${VIETNAM_PROCESSING_TIME}.`,
+    desc: `Secure processing of Vietnam eVisa applications with bank-level security for data and payment transactions. Processing typically completed within ${VIETNAM_PROCESSING_TIME}.`,
     color: 'bg-green-600',
   },
   {
@@ -71,19 +71,19 @@ const features = [
   {
     icon: ShieldCheckIcon,
     title: 'Trusted Professional Service',
-    desc: 'Professional visa application assistance service trusted by travelers, families, and businesses worldwide. Over 15,000+ applications processed with official standards and certified expertise.',
+    desc: 'Private visa application assistance trusted by travelers, families, and businesses. Over 15,000+ applications processed. We are not affiliated with the Government of Vietnam.',
     color: 'bg-purple-600',
   },
   {
     icon: DocumentTextIcon,
     title: 'Requirements & guidance',
-    desc: 'Comprehensive information service providing the latest official requirements, embassy contact details, and travel advisories for Vietnam in accordance with government regulations.',
+    desc: 'Current Vietnam eVisa requirements, embassy contacts, and travel notes, with links to government sources where they apply.',
     color: 'bg-red-600',
   },
   {
     icon: HeartIcon,
     title: 'Dedicated Professional Support',
-    desc: 'Every application receives dedicated professional attention with expert care and meticulous review to ensure compliance with official Vietnamese immigration standards.',
+    desc: 'Every application is reviewed against current Vietnam eVisa document and form rules before we submit it on your behalf.',
     color: 'bg-pink-600',
   },
 ];

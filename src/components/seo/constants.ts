@@ -15,7 +15,7 @@ export const TRUST_ENTITY = {
   /** Display name on schema */
   name: SITE_NAME,
   description:
-    'Licensed-style immigration assistance for Vietnam eVisa applications: expert review, secure processing, and 24/7 traveler support.',
+    'Private Vietnam eVisa application assistance: document review, secure processing, and 24/7 traveler support.',
   supportEmail: SUPPORT_EMAIL,
   hotline: '+13232864541',
   hotlineDisplay: '+1 323 286 4541',
