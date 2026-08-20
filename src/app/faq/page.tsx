@@ -11,6 +11,7 @@ import { extractFaqAnswerSnippet } from '@/lib/contentExcerpt';
 import FAQSchema from '@/components/seo/FAQSchema';
 import { buildPageMetadata } from '@/lib/seo';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
+import EssentialEvisaResources from '@/components/ui/EssentialEvisaResources';
 import { isIndexableFaqSlug } from '@/data/indexableFaqSlugs';
 
 interface FAQ {

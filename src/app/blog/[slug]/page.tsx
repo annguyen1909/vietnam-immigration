@@ -54,12 +54,7 @@ export async function generateMetadata({
     index: indexable,
     ogType: 'article',
     ogImage: post.metadata.image || DEFAULT_OG_IMAGE,
-    keywords: [
-      ...postTags,
-      'Vietnam eVisa',
-      'Vietnam visa',
-      'Vietnam visa news',
-    ],
+    keywords: [...postTags, 'Vietnam eVisa', 'Vietnam visa', 'Vietnam visa news'],
     authors: post.metadata.author
       ? [{ name: String(post.metadata.author) }]
       : [{ name: defaultAuthor }],
