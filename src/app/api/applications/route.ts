@@ -4,6 +4,7 @@ import { prisma } from '@/lib/prisma';
 import { findAccountByEmail, hashPassword, validateSession } from '@/lib/auth';
 import { getServiceFee } from '@/lib/serviceFee';
 import { resolveUrgencyFeePerPax, type UrgencyValue } from '@/lib/urgency';
+import { isVietnamEntryAirport } from '@/data/vietnamEntryAirports';
 
 const WEBSITE = 'Vietnam Local Site';
 
@@ -39,7 +40,6 @@ export async function POST(request: NextRequest) {
       areaCode,
       phoneNumber,
       gender,
-      portType,
       portName,
       urgency,
     } = body;
@@ -51,6 +51,11 @@ export async function POST(request: NextRequest) {
 
     if (!fullName || !email || !areaCode || !phoneNumber || !gender) {
       return NextResponse.json({ error: 'Missing required personal information' }, { status: 400 });
+    }
+
+    const portNameValue = typeof portName === 'string' ? portName.trim() : '';
+    if (!isVietnamEntryAirport(portNameValue)) {
+      return NextResponse.json({ error: 'Please select a valid arrival airport' }, { status: 400 });
     }
 
     const visaType = await prisma.visaType.findUnique({
@@ -110,11 +115,7 @@ export async function POST(request: NextRequest) {
     // 2. Generate the application id in format VN + 6 unique random digits
     const newApplicationId = await generateUniqueApplicationId();
 
-    // Vietnam apply flow does not collect portType/portName. Omit optional fields when
-    // unset so Prisma does not INSERT NULL into columns that may not exist on shared prod DB.
     const urgencyValue = typeof urgency === 'string' ? urgency.trim() : '';
-    const portTypeValue = typeof portType === 'string' ? portType.trim() : '';
-    const portNameValue = typeof portName === 'string' ? portName.trim() : '';
 
     const application = await prisma.application.create({
       data: {
@@ -130,8 +131,8 @@ export async function POST(request: NextRequest) {
         total: total,
         additionalCharges: 0,
         ...(urgencyValue ? { urgency: urgencyValue } : {}),
-        ...(portTypeValue ? { portType: portTypeValue } : {}),
-        ...(portNameValue ? { portName: portNameValue } : {}),
+        portType: 'Airport',
+        portName: portNameValue,
         Passenger: {
           create: Array.from({ length: passengerCount }, () => ({
             id: randomUUID(),
@@ -153,6 +154,8 @@ export async function POST(request: NextRequest) {
       status: application.status,
       total: total,
       urgency: urgencyValue,
+      portType: 'Airport',
+      portName: portNameValue,
       passengerIds: application.Passenger.map((p) => p.id),
     });
   } catch (error) {

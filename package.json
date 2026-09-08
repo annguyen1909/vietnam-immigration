@@ -9,6 +9,7 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "format": "prettier --write .",
+    "check:airports": "ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/check-vietnam-entry-airports.ts",
     "list:visas": "ts-node scripts/list-visas.ts",
     "prepare": "husky install",
     "postinstall": "prisma generate",

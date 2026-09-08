@@ -40,6 +40,8 @@ export interface ApplicationData {
   urgency?: UrgencyValue;
   stayingStart?: string;
   stayingEnd?: string;
+  portType?: string;
+  portName: string;
   fullName: string;
   email: string;
   areaCode: string;

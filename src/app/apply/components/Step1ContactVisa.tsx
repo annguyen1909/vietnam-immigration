@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { BellAlertIcon, ClockIcon, RocketLaunchIcon } from '@heroicons/react/24/outline';
 import { VisaType } from '@/types/visa';
 import countryCallingCodes from '@/data/countryCallingCodes.json';
+import { VIETNAM_ENTRY_AIRPORTS } from '@/data/vietnamEntryAirports';
 import {
   formatStandardWaitTime,
   getVisaMaxStayDays,
@@ -41,6 +42,7 @@ interface ApplicationData {
   urgency?: UrgencyValue;
   stayingStart?: string;
   stayingEnd?: string;
+  portName: string;
   fullName: string;
   email: string;
   areaCode: string;
@@ -225,6 +227,7 @@ export default function Step1ContactVisa({
     else if (!/^\d{7,15}$/.test(data.phoneNumber.replace(/\s/g, '')))
       newErrors.phoneNumber = 'Please enter a valid phone number (7-15 digits)';
     if (!data.gender) newErrors.gender = 'Please select your gender';
+    if (!data.portName) newErrors.portName = 'Please select your arrival airport';
     if (!data.visaTypeId) {
       // urgency block only meaningful with a visa; visa error already set above
     } else if (!isUrgencyAllowed(data.urgency ?? '', processingAvailability)) {
@@ -414,6 +417,33 @@ export default function Step1ContactVisa({
                 <p className="mt-1 text-sm text-red-600">{errors.stayingEnd}</p>
               )}
             </div>
+          </div>
+
+          {/* Arrival Airport */}
+          <div className="mb-4">
+            <label htmlFor="portName" className="block text-sm font-medium text-gray-700 mb-2">
+              Arrival Airport *
+            </label>
+            <select
+              id="portName"
+              value={data.portName}
+              onChange={(e) => handleChange('portName', e.target.value)}
+              className={`w-full px-3 py-2 min-h-[48px] text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-brand-primary text-gray-900 ${
+                errors.portName ? 'border-red-300' : 'border-gray-300'
+              }`}
+              required
+            >
+              <option value="">Choose your arrival airport</option>
+              {VIETNAM_ENTRY_AIRPORTS.map((airport) => (
+                <option key={airport} value={airport}>
+                  {airport}
+                </option>
+              ))}
+            </select>
+            {errors.portName && <p className="mt-1 text-sm text-red-600">{errors.portName}</p>}
+            <p className="mt-1 text-sm text-gray-500">
+              Select the first airport where you will enter Vietnam.
+            </p>
           </div>
 
           {/* Number of Passengers */}

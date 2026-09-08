@@ -31,6 +31,7 @@ export default function ApplyPage() {
     urgency: '',
     stayingStart: '',
     stayingEnd: '',
+    portName: '',
     fullName: '',
     email: '',
     areaCode: '+1-United States',

@@ -54,6 +54,8 @@ export async function GET(
       passengerCount: application.passengerCount,
       stayingStart: application.stayingStart?.toISOString(),
       stayingEnd: application.stayingEnd?.toISOString(),
+      portType: application.portType || '',
+      portName: application.portName || '',
       fullName: application.Account.fullName,
       email: application.Account.email,
       areaCode: application.Account.areaCode,
