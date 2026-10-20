@@ -45,7 +45,7 @@ Families **travelling to Vietnam** or **visiting Vietnam** with children should 
 | **Who needs their own eVisa** | Every traveler with their own passport—including infants |
 | **Group filing** | Up to **15 passengers** in one payment session on our flow |
 | **Government fee per person** | **$55** single entry / **$80** multiple entry (not age-based) |
-| **Service fee** | **$59.99 per passenger** on assisted filing |
+| **Service fee** | **$69.99 per passenger** on assisted filing |
 | **Key documents per child** | Passport scan, portrait photo, guardian details, aligned travel dates |
 | **Apply early** | **7–14+ days** before departure; extra margin for infant photos |
 | **At immigration** | Printed eVisa + passport per person; birth certificate if surnames differ |
@@ -205,8 +205,8 @@ Government fees follow **visa type, not age**. On our portal for standard 90-day
 
 | Visa type | Government fee per passport | Service fee per passenger |
 | --- | ---: | ---: |
-| **Single entry** | **$55** | **$59.99** |
-| **Multiple entry** | **$80** | **$59.99** |
+| **Single entry** | **$55** | **$69.99** |
+| **Multiple entry** | **$80** | **$69.99** |
 
 A family of four on single-entry tourist visas pays four government fees and four service fees, plus any optional urgent processing per passenger you select.
 
@@ -214,9 +214,9 @@ A family of four on single-entry tourist visas pays four government fees and fou
 
 | Family size | Single entry approximate total | Multiple entry approximate total |
 | --- | ---: | ---: |
-| **2 adults** | **$229.98** | **$279.98** |
-| **2 adults + 2 children** | **$459.96** | **$559.96** |
-| **2 adults + 3 children** | **$574.95** | **$699.95** |
+| **2 adults** | **$249.98** | **$299.98** |
+| **2 adults + 2 children** | **$499.96** | **$599.96** |
+| **2 adults + 3 children** | **$624.95** | **$749.95** |
 
 Confirm live totals at [/fees](/fees) during group apply. Full breakdown: [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026).
 

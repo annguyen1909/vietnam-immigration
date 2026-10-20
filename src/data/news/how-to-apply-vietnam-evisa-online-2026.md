@@ -19,7 +19,7 @@ faq:
   - question: Do children need separate Vietnam eVisa applications?
     answer: Yes. Each traveler normally needs their own authorization. Many assisted flows accept up to 15 passengers in one group submission—see our family and minors guides for infant photo rules and guardian details.
   - question: How much does it cost to apply for Vietnam eVisa online in 2026?
-    answer: On our portal, total cost includes a government fee ($55 single-entry or $80 multiple-entry for standard 90-day products), a $59.99 service fee per passenger, and any optional urgent processing you select. Confirm the exact total at checkout before you pay.
+    answer: On our portal, total cost includes a government fee ($55 single-entry or $80 multiple-entry for standard 90-day products), a $69.99 service fee per passenger, and any optional urgent processing you select. Confirm the exact total at checkout before you pay.
   - question: Why apply for a Vietnam eVisa through vietnamemigration.com?
     answer: Our assisted portal at /apply adds form guidance, document checks, disclosed fees before checkout, optional urgent handling, and support through approval—useful if you want a structured checklist rather than filing alone.
   - question: When should I apply for my Vietnam eVisa before travel?
@@ -165,16 +165,16 @@ Read each line aloud against your passport photo page before authorizing payment
 You will typically see:
 
 1. **Government fee** — **$55** (single entry) or **$80** (multiple entry) for standard 90-day tourist/business products
-2. **Service fee** — **$59.99 per passenger** for assisted review, validation, and support
+2. **Service fee** — **$69.99 per passenger** for assisted review, validation, and support
 3. **Optional Urgent / Super Urgent** — **+$110** or **+$220** per passenger when selected
 
 Example totals for one passenger (before optional insurance):
 
 | Selection | Approximate total |
 | --- | ---: |
-| Tourist single + service | **$114.99** |
-| Tourist multiple + service | **$139.99** |
-| Tourist single + service + Super Urgent | **$334.99** |
+| Tourist single + service | **$124.99** |
+| Tourist multiple + service | **$149.99** |
+| Tourist single + service + Super Urgent | **$344.99** |
 
 Full breakdown: [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026) and live totals at [/fees](/fees).
 
@@ -329,7 +329,7 @@ Yes. Each traveler normally needs their own authorization. Group flows can bundl
 
 ### How much does it cost to apply for Vietnam eVisa online?
 
-On our portal: government fee (**$55** single / **$80** multiple) + **$59.99** service fee per passenger + any optional urgent processing. Confirm your total at [/fees](/fees) before payment.
+On our portal: government fee (**$55** single / **$80** multiple) + **$69.99** service fee per passenger + any optional urgent processing. Confirm your total at [/fees](/fees) before payment.
 
 ### When should I apply before my flight?
 

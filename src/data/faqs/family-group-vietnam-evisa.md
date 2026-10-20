@@ -89,7 +89,7 @@ Vietnam welcomes families and groups! The eVisa system allows you to apply for u
 ## Payment, Fees, and Approval Process
 
 - **Government Fee:** Varies by visa type (single entry: $55, multiple entry: $80 per person (tourist or business, 90 days))
-- **Service Fee:** $59.99 per passenger
+- **Service Fee:** $69.99 per passenger
 - **Payment:** Single transaction for all travelers
 - **Processing Time:** Typically within 5 business days
 

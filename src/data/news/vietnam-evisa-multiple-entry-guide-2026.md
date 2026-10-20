@@ -75,7 +75,7 @@ This 2026 guide covers how multiple-entry **tourist visa** products work, which 
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | **Single entry govt fee**   | **$55** — one arrival period; exit usually ends the visa                                                                  |
 | **Multiple entry govt fee** | **$80** — leave and re-enter within validity                                                                              |
-| **Assisted service fee**    | **$59.99 per passenger** (same for both entry types)                                                                      |
+| **Assisted service fee**    | **$69.99 per passenger** (same for both entry types)                                                                      |
 | **Max stay per product**    | Up to **90 days** on standard eVisa products; some approvals show **30 days** per visit                                   |
 | **Number of entries**       | Single = one arrival period; multiple = leave and return while the **visa is valid**                                      |
 | **Visa process time**       | Allow **7–14+ working days** before departure; see our [processing times](/blog/vietnam-evisa-processing-time-2026) guide |
@@ -193,8 +193,8 @@ Always read **your** PDF wording—field labels vary slightly by issuance period
 | Cost item                     | Single entry |             Multiple entry |
 | ----------------------------- | -----------: | -------------------------: |
 | Government fee                |          $55 |                        $80 |
-| Service fee (assisted portal) |       $59.99 |                     $59.99 |
-| **Assisted total (1 pax)**    |  **$114.99** |                **$139.99** |
+| Service fee (assisted portal) |       $69.99 |                     $69.99 |
+| **Assisted total (1 pax)**    |  **$124.99** |                **$149.99** |
 | **Difference**                |            — | **+$25 govt / +$25 total** |
 
 ### Cost-benefit scenarios

@@ -5,7 +5,7 @@ faq:
   - question: 'How can I apply for an urgent evisa vietnam or emergency vietnam evisa?'
     answer: 'If your flight is imminent, you can select our Super Urgent (1 business day) or Urgent (3 business days) handling options on the application form. These premium add-ons help speed document review and assisted preparation on our side before government review.'
   - question: 'What is the total vietnam visa fee for urgent vietnam evisa processing?'
-    answer: 'The total vietnam visa fee includes the mandatory government fee ($55 single / $80 multiple entry), our flat professional service fee ($59.99/pax), plus the selected urgency add-on: +$110/pax for Urgent (3 days) or +$220/pax for Super Urgent (1 day).'
+    answer: 'The total vietnam visa fee includes the mandatory government fee ($55 single / $80 multiple entry), our flat professional service fee ($69.99/pax), plus the selected urgency add-on: +$110/pax for Urgent (3 days) or +$220/pax for Super Urgent (1 day).'
   - question: 'What should I do if I need an emergency evisa vietnam right now at the airport?'
     answer: 'If you are at the airport or flying within 24 hours, select the Super Urgent tier immediately. Contact our 24/7 support team with your reference number and flight itinerary. While we expedite preparation and submission instantly, final approval depends on Vietnam immigration security screening.'
   - question: 'Is there a refund guarantee if my urgent vietnam evisa application is rejected?'
@@ -28,7 +28,7 @@ Standard processing for a Vietnam eVisa typically takes up to 5 business days. H
 When booking last-minute travel, clarity on pricing is essential. Here is the complete breakdown of the **vietnam visa fee** for expedited applications:
 
 1. **Government Fee:** Mandatory e-Visa fee paid directly to the Vietnam Government ($55 for single entry, $80 for multiple entries).
-2. **Professional Service Fee:** A flat $59.99 per passenger covering expert document pre-check, error correction, and 24/7 live support.
+2. **Professional Service Fee:** A flat $69.99 per passenger covering expert document pre-check, error correction, and 24/7 live support.
 3. **Urgency Add-on Fees:**
    - **Normal (5 business days):** $0 extra
    - **Urgent Vietnam eVisa (3 business days):** +$110.00 per passenger

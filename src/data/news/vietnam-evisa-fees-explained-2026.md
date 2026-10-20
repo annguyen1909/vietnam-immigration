@@ -6,19 +6,19 @@ dateModified: '2026-06-18'
 author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-fees-explained-2026.jpg'
 imageAlt: 'Vietnamese dong banknote showing a historic pagoda with passport and travel documents'
-excerpt: 'Vietnam eVisa fees in 2026 explained: $55/$80 government fees by visa type, $59.99 service fee per passenger, urgent processing add-ons, family totals, hidden costs, refunds, and how to verify your real checkout total.'
+excerpt: 'Vietnam eVisa fees in 2026 explained: $55/$80 government fees by visa type, $69.99 service fee per passenger, urgent processing add-ons, family totals, hidden costs, refunds, and how to verify your real checkout total.'
 tags: ['visa', 'fees', '2026']
 section: 'Visa Guides'
 faq:
   - question: How much does a Vietnam eVisa cost in 2026?
-    answer: On our portal, total cost equals the government fee ($55 single entry or $80 multiple entry for standard 90-day products) plus $59.99 service fee per passenger plus any optional Urgent (+$110) or Super Urgent (+$220) processing you select. Confirm the exact total on /fees and at checkout before you pay.
+    answer: On our portal, total cost equals the government fee ($55 single entry or $80 multiple entry for standard 90-day products) plus $69.99 service fee per passenger plus any optional Urgent (+$110) or Super Urgent (+$220) processing you select. Confirm the exact total on /fees and at checkout before you pay.
   - question: What is the difference between government fee and service fee?
-    answer: The government fee is mandatory and paid to Vietnamese immigration authorities for the visa itself. The service fee ($59.99 per passenger) pays for private assistance—form guidance, document checks, and support. It does not replace the government charge.
+    answer: The government fee is mandatory and paid to Vietnamese immigration authorities for the visa itself. The service fee ($69.99 per passenger) pays for private assistance—form guidance, document checks, and support. It does not replace the government charge.
   - question: Is multiple entry more expensive than single entry?
     answer: Yes. Multiple-entry eVisas carry an $80 government fee versus $55 for single entry on the same 90-day tourist and business products. Choosing the wrong entry type mid-trip often costs far more than the $25 difference upfront.
   - question: Are Vietnam eVisa fees refundable if I am rejected?
     answer: Government fees are often non-refundable once submitted to authorities. Service fees may be partially refundable under conditions in our refund policy—contact support with your reference number before disputing with your bank.
-  - question: What does the $59.99 service fee cover on assisted filing?
+  - question: What does the $69.99 service fee cover on assisted filing?
     answer: Form guidance, document validation, customer support during processing, and a disclosed checkout total before you pay. The government fee is separate and mandatory for the visa authorization itself.
   - question: Do children pay the same Vietnam eVisa fees as adults?
     answer: On our portal, each passenger—including infants—incurs the full government fee and service fee per person. A family of four pays four times the per-passenger line items at checkout.
@@ -28,7 +28,7 @@ faq:
     answer: Passport renewal if validity is under six months, professional photos, printing copies, international card FX fees, travel insurance, and potential extension fees inside Vietnam if your plans change—all separate from the eVisa checkout total.
 ---
 
-**How much does a Vietnam eVisa cost in 2026?** On our assisted portal, the total is a stack of line items: a **government fee** determined by visa type ($55 or $80 for standard 90-day products), a **service fee** ($59.99 per passenger), and sometimes an **optional processing upgrade** when your departure date is tight. For the live calculator and canonical fee table, use [/fees](/fees)—this guide explains what each line means.
+**How much does a Vietnam eVisa cost in 2026?** On our assisted portal, the total is a stack of line items: a **government fee** determined by visa type ($55 or $80 for standard 90-day products), a **service fee** ($69.99 per passenger), and sometimes an **optional processing upgrade** when your departure date is tight. For the live calculator and canonical fee table, use [/fees](/fees)—this guide explains what each line means.
 
 This guide breaks down every fee category, shows realistic totals for solo travelers and families, explains what is refundable, and flags the hidden costs travelers forget until they are already at the airport.
 
@@ -42,7 +42,7 @@ This guide breaks down every fee category, shows realistic totals for solo trave
 | --- | --- |
 | **Government fee (single entry)** | **$55** — tourist or business, 90-day product |
 | **Government fee (multiple entry)** | **$80** — tourist or business, 90-day product |
-| **Assisted service fee** | **$59.99 per passenger** — validation, support, document checks |
+| **Assisted service fee** | **$69.99 per passenger** — validation, support, document checks |
 | **Urgent processing (3 days)** | **+$110 per passenger** — optional on assisted flow |
 | **Super Urgent (1 day)** | **+$220 per passenger** — optional when arrival date allows |
 | **Nationality impact on fees** | Government fees do **not** vary by passport country on our portal |
@@ -79,9 +79,9 @@ Some travelers assume visa costs vary by passport because embassy sticker visas 
 
 Always verify live pricing at [/fees](/fees). Forum posts from prior years or screenshots from other websites are unreliable—fee schedules and product names change.
 
-## Assisted service fee: what $59.99 per passenger covers
+## Assisted service fee: what $69.99 per passenger covers
 
-Private assistance on our portal adds **$59.99 per passenger**. This is **separate from and in addition to** the government fee. It pays for:
+Private assistance on our portal adds **$69.99 per passenger**. This is **separate from and in addition to** the government fee. It pays for:
 
 - Guided form completion with field validation
 - Document format checks (passport scan quality, photo dimensions, MRZ readability)
@@ -96,7 +96,7 @@ The service fee does **not** replace the government charge, guarantee approval, 
 | Line item | What it covers |
 | --- | --- |
 | **Government fee** | **$55** single entry or **$80** multiple entry for standard 90-day products |
-| **Service fee** | **$59.99 per passenger** — validation, support, and document review before submission |
+| **Service fee** | **$69.99 per passenger** — validation, support, and document review before submission |
 | **Optional Urgent / Super Urgent** | **+$110** or **+$220** per passenger when your arrival date allows the tier |
 
 Assisted filing on [/apply](/apply) tends to help travelers who want a structured checklist, are filing for families, need multiple-entry confirmation, or worry about passport scan and photo rejections.
@@ -152,19 +152,19 @@ All examples use assisted portal pricing (government + service fee). Optional in
 
 | Selection | Calculation | Approximate total |
 | :--- | :--- | ---: |
-| Tourist single + service | $55 + $59.99 | **$114.99** |
-| Tourist multiple + service | $80 + $59.99 | **$139.99** |
-| Business single + service | $55 + $59.99 | **$114.99** |
-| Tourist single + service + Urgent | $55 + $59.99 + $110 | **$224.99** |
-| Tourist single + service + Super Urgent | $55 + $59.99 + $220 | **$334.99** |
+| Tourist single + service | $55 + $69.99 | **$124.99** |
+| Tourist multiple + service | $80 + $69.99 | **$149.99** |
+| Business single + service | $55 + $69.99 | **$124.99** |
+| Tourist single + service + Urgent | $55 + $69.99 + $110 | **$234.99** |
+| Tourist single + service + Super Urgent | $55 + $69.99 + $220 | **$344.99** |
 
 ### Two adults, standard processing
 
 | Selection | Calculation | Approximate total |
 | :--- | :--- | ---: |
-| Both tourist single | 2 × ($55 + $59.99) | **$229.98** |
-| Both tourist multiple | 2 × ($80 + $59.99) | **$279.98** |
-| One single + one multiple (different itineraries) | ($55 + $59.99) + ($80 + $59.99) | **$254.98** |
+| Both tourist single | 2 × ($55 + $69.99) | **$249.98** |
+| Both tourist multiple | 2 × ($80 + $69.99) | **$299.98** |
+| One single + one multiple (different itineraries) | ($55 + $69.99) + ($80 + $69.99) | **$274.98** |
 
 ### Family of four (two adults, two children)
 
@@ -172,9 +172,9 @@ Each child—including infants—needs their own authorization and pays full per
 
 | Selection | Calculation | Approximate total |
 | :--- | :--- | ---: |
-| Four tourist single | 4 × ($55 + $59.99) | **$459.96** |
-| Four tourist multiple | 4 × ($80 + $59.99) | **$559.96** |
-| Four single + Super Urgent | 4 × ($55 + $59.99 + $220) | **$1,339.96** |
+| Four tourist single | 4 × ($55 + $69.99) | **$499.96** |
+| Four tourist multiple | 4 × ($80 + $69.99) | **$599.96** |
+| Four single + Super Urgent | 4 × ($55 + $69.99 + $220) | **$1,379.96** |
 
 Group filing tips: [Vietnam eVisa for families and minors](/blog/vietnam-evisa-for-minors-families-2026).
 
@@ -258,7 +258,7 @@ Maintained by the **Vietnam eVisa Assistance Team**—a private assistance servi
 
 **How fee numbers stay accurate**
 
-- Government ($55/$80) and service ($59.99) line items are checked against our live [fees calculator](/fees) and checkout at [/apply](/apply) before we publish changes here
+- Government ($55/$80) and service ($69.99) line items are checked against our live [fees calculator](/fees) and checkout at [/apply](/apply) before we publish changes here
 - Urgent tier amounts (+$110 / +$220) are disclosed at checkout—this article summarizes them; your session total is authoritative
 - We do **not** cite external government fee schedules that may differ from our assisted checkout
 
@@ -284,7 +284,7 @@ Contact support first with your reference number. Government fees are often non-
 
 ### How much does a Vietnam eVisa cost in 2026?
 
-On our assisted portal: government fee (**$55** single entry or **$80** multiple entry for standard 90-day products) + **$59.99** service fee per passenger + any optional Urgent (**+$110**) or Super Urgent (**+$220**) processing. Confirm your exact total at [/fees](/fees) and checkout before paying.
+On our assisted portal: government fee (**$55** single entry or **$80** multiple entry for standard 90-day products) + **$69.99** service fee per passenger + any optional Urgent (**+$110**) or Super Urgent (**+$220**) processing. Confirm your exact total at [/fees](/fees) and checkout before paying.
 
 ### What is the difference between government fee and service fee?
 
@@ -298,7 +298,7 @@ Yes—**$80** government fee vs **$55** for single entry on the same 90-day prod
 
 Government fees are often non-refundable once submitted. Service fees may be partially refundable under [/refund-policy](/refund-policy). Contact support with your reference number before bank chargebacks.
 
-### What does the $59.99 service fee cover?
+### What does the $69.99 service fee cover?
 
 Form guidance, document validation, customer support during processing, and a full fee breakdown at checkout. The government fee is separate and pays for the visa authorization itself.
 

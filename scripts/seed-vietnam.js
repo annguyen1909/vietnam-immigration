@@ -91,14 +91,14 @@ async function main() {
   if (existingFee) {
     await prisma.serviceFeeConfig.update({
       where: { id: existingFee.id },
-      data: { serviceFee: 59.99 },
+      data: { serviceFee: 69.99 },
     });
   } else {
     await prisma.serviceFeeConfig.create({
       data: {
         destinationId,
         visaTypeId: null,
-        serviceFee: 59.99,
+        serviceFee: 69.99,
         isActive: true,
       },
     });

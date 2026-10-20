@@ -3,7 +3,7 @@
  * Government fees in checkout come from VisaType.fees (DB); values here match seed defaults.
  * Keep in sync with scripts/seed-vietnam.js — these values are hardcoded site-wide.
  */
-export const VIETNAM_SERVICE_FEE_PER_PAX = 59.99;
+export const VIETNAM_SERVICE_FEE_PER_PAX = 69.99;
 
 export const VIETNAM_GOV_FEE_SINGLE = 55;
 export const VIETNAM_GOV_FEE_MULTIPLE = 80;

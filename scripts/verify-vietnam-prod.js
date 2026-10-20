@@ -42,7 +42,7 @@ process.env.DATABASE_URL = url;
 const prisma = new PrismaClient();
 
 const CANON = {
-  serviceFee: 59.99,
+  serviceFee: 69.99,
   insurance: 69,
   urgencyUrgent: 110,
   urgencySuper: 220,

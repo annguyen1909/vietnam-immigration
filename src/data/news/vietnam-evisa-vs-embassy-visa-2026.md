@@ -48,7 +48,7 @@ This 2026 comparison breaks down **cost, speed, stay length, multiple entry, ent
 | **Multiple entry** | Available online for many nationalities | Sticker options for frequent travelers |
 | **Extensions in Vietnam** | Limited—not automatic | Some categories allow different follow-up paths |
 | **Best for** | Tourism, short business, regional loops | Work, study, long stays, unavailable online types |
-| **Assisted support** | Optional ($59.99/pax service fee on our site) | Optional agents add fees on top of consular charges |
+| **Assisted support** | Optional ($69.99/pax service fee on our site) | Optional agents add fees on top of consular charges |
 
 **Best for:** Travelers deciding between online convenience and consular processing before booking tickets—especially if you need multiple entry, have prior immigration history, or might need work/study authorization.
 
@@ -61,7 +61,7 @@ The eVisa is an **electronic authorization** linked to your passport, approved b
 | What [/apply](/apply) includes | Details |
 | --- | --- |
 | **Government fee** | **$55** single / **$80** multiple for standard 90-day products |
-| **Service fee** | **$59.99 per passenger** — validation, support, disclosed checkout |
+| **Service fee** | **$69.99 per passenger** — validation, support, disclosed checkout |
 | **Optional urgent tiers** | Faster assisted handling when your arrival date allows |
 
 Vietnamese immigration authorities make the final approval decision. **No private service guarantees approval** or overrides security screening.
@@ -143,7 +143,7 @@ Compare **total trip cost**—government or consular fees plus your time, travel
 | Cost line | eVisa (assisted on this site) | Embassy |
 | --- | --- | --- |
 | Government / consular fee | $55–$80 | Varies |
-| Service / agent fee | $59.99/pax | $50–$200+ common |
+| Service / agent fee | $69.99/pax | $50–$200+ common |
 | Urgent handling | +$110 / +$220 optional | Express consular fees vary |
 | Travel to consulate | $0 | $20–$200+ |
 | Courier (passport mail) | $0 | $30–$80+ round trip |

@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
   {
     question: 'How much does an urgent Vietnam eVisa cost?',
     answer:
-      'Total = government fee ($55 single / $80 multiple) + $59.99 service fee per passenger + urgency add-on ($110 Urgent or $220 Super Urgent). See the fee examples on this page and the full calculator on /fees.',
+      'Total = government fee ($55 single / $80 multiple) + $69.99 service fee per passenger + urgency add-on ($110 Urgent or $220 Super Urgent). See the fee examples on this page and the full calculator on /fees.',
   },
   {
     question: 'Is emergency Vietnam eVisa approval guaranteed?',

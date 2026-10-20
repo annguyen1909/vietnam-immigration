@@ -9,7 +9,7 @@
  *   - Normalizes visa-type display names to "eVisa" casing (id-based, no dup risk)
  *
  * Service fee is intentionally NOT seeded here: it is a single shared/global
- * ServiceFeeConfig (dev $65, prod $59.99) managed outside this script.
+ * ServiceFeeConfig (dev $65, prod $69.99) managed outside this script.
  *
  * Safe to run multiple times. Touches Vietnam-scoped rows only; never edits the
  * global ServiceFeeConfig or other tenants' insurance rows.
