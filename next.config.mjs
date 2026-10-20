@@ -10,6 +10,17 @@ const nextConfig = {
   outputFileTracingIncludes: {
     '/api/indexnow': ['./src/data/**/*'],
   },
+  outputFileTracingExcludes: {
+    '/api/indexnow': [
+      './.next/cache/**/*',
+      './.next/trace',
+      './.git/**/*',
+      './.img-candidates/**/*',
+      './public/**/*',
+      './generated/**/*',
+      './*.tsbuildinfo',
+    ],
+  },
   experimental: {
     mdxRs: true,
   },
