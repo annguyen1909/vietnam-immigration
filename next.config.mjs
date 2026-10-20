@@ -11,6 +11,13 @@ const nextConfig = {
     '/api/indexnow': ['./src/data/**/*'],
   },
   outputFileTracingExcludes: {
+    '*': [
+      './.next/cache/**/*',
+      './.next/trace',
+      './.git/**/*',
+      './.img-candidates/**/*',
+      './*.tsbuildinfo',
+    ],
     '/api/indexnow': [
       './.next/cache/**/*',
       './.next/trace',
