@@ -7,6 +7,7 @@
  *   - Deactivates unused "Emergency" urgency tier
  *   - Fixes inverted visa-type waitTime
  *   - Normalizes visa-type display names to "eVisa" casing (id-based, no dup risk)
+ *   - Government fees match evisa.gov.vn: $25 single / $50 multiple
  *
  * Service fee is intentionally NOT seeded here: it is a single shared/global
  * ServiceFeeConfig (dev $65, prod $69.99) managed outside this script.
@@ -22,6 +23,14 @@ const prisma = new PrismaClient();
 
 const DESTINATION_ID = 'vietnam';
 const INSURANCE_PRICE = 69;
+
+/** Government eVisa fee by visa-type id (must match evisa.gov.vn). */
+const GOV_FEES = {
+  'vietnam-tourist-single-90-days': 25,
+  'vietnam-tourist-multiple-90-days': 50,
+  'vietnam-business-single-90-days': 25,
+  'vietnam-business-multiple-90-days': 50,
+};
 
 const STANDARD_WAIT_TIME = 'Within 5 business days';
 const INVERTED_WAIT_TIME = 'From 3 working days to 1 working day';
@@ -54,9 +63,7 @@ async function main() {
     where: { destinationId: DESTINATION_ID, waitTime: LEGACY_WAIT_TIME },
     data: { waitTime: STANDARD_WAIT_TIME },
   });
-  console.log(
-    `waitTime: fixed inverted=${fixedInverted.count}, legacy 1-3d=${fixedLegacy.count}`
-  );
+  console.log(`waitTime: fixed inverted=${fixedInverted.count}, legacy 1-3d=${fixedLegacy.count}`);
 
   // 2. Normalize visa-type display names by id (prevents future name-keyed dups).
   for (const [id, name] of Object.entries(VISA_TYPE_NAMES)) {
@@ -90,6 +97,15 @@ async function main() {
       data: { isActive: false },
     });
     if (res.count > 0) console.log(`urgency: deactivated "${name}"`);
+  }
+
+  // 6. Government fees (Vietnam visa types only, by id).
+  for (const [id, fees] of Object.entries(GOV_FEES)) {
+    const res = await prisma.visaType.updateMany({
+      where: { id, destinationId: DESTINATION_ID },
+      data: { fees },
+    });
+    console.log(`gov fee: ${id} -> $${fees} (${res.count} row)`);
   }
 
   console.log('\nVietnam production seed complete.');

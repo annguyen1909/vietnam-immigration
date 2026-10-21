@@ -25,8 +25,8 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
     travelInsight:
       'U.S. citizens should ensure passport validity covers the full stay plus six months. If you hold a second nationality, apply using the passport you will present at the Vietnam border.',
     fees: [
-      'Single-entry tourist or business eVisa (valid for up to 90 days): $55 USD official government fee.',
-      'Multiple-entry tourist or business eVisa (valid for up to 90 days): $80 USD official government fee.',
+      'Single-entry tourist or business eVisa (valid for up to 90 days): $25 USD government fee.',
+      'Multiple-entry tourist or business eVisa (valid for up to 90 days): $50 USD government fee.',
       'Assisted service fee: Calculated based on processing speed (Normal, Urgent 3-day, or Super Urgent 1-day). Clearly itemized at checkout with zero hidden costs.',
       'Payment methods: All major U.S. credit and debit cards (Visa, Mastercard, American Express, Discover) are accepted securely.',
     ],
@@ -117,8 +117,8 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
     travelInsight:
       'Indians connecting through Bangkok or Singapore must hold a valid Vietnam eVisa before boarding the Vietnam-bound segment—even on a single PNR. Enter your name exactly as printed on your passport MRZ, including middle names. Vietjet and IndiGo may ask to see a printed eVisa PDF at check-in.',
     fees: [
-      'Single-entry tourist/business eVisa: $55 USD government fee (approximately ~4,600 INR depending on daily bank conversion rates).',
-      'Multiple-entry tourist/business eVisa: $80 USD government fee (approximately ~6,700 INR depending on daily bank conversion rates).',
+      'Single-entry tourist/business eVisa: $25 USD government fee (approximately ~2,100 INR depending on daily bank conversion rates).',
+      'Multiple-entry tourist/business eVisa: $50 USD government fee (approximately ~4,200 INR depending on daily bank conversion rates).',
       'Service fee: Varies depending on selected processing tier (Normal, Urgent 3-day, or Super Urgent 1-day). All fees are transparently displayed before payment.',
       'Note: Transactions are processed in USD. Your Indian bank or credit card issuer may apply a nominal foreign exchange markup.',
     ],

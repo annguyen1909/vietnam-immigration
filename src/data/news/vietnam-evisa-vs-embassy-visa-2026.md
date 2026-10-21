@@ -38,17 +38,17 @@ This 2026 comparison breaks down **cost, speed, stay length, multiple entry, ent
 
 ## Quick answer: eVisa vs embassy visa at a glance
 
-| Factor | **eVisa (online)** | **Embassy / consulate** |
-| :--- | :--- | :--- |
-| **Where you apply** | Home, any time—phone or laptop | Consulate appointment, walk-in, or mail-in |
-| **Typical speed** | Hours to few working days (assisted tiers) | Several days to **2+ weeks** (varies by post) |
-| **Government fee (90-day tourist/business)** | **$55** single / **$80** multiple on our portal | Varies by nationality and visa type |
-| **Passport handling** | Usually stays with you | Often must mail passport or collect in person |
-| **Entry ports** | Must match **authorized list on PDF** | Depends on visa type and conditions printed |
-| **Multiple entry** | Available online for many nationalities | Sticker options for frequent travelers |
-| **Extensions in Vietnam** | Limited—not automatic | Some categories allow different follow-up paths |
-| **Best for** | Tourism, short business, regional loops | Work, study, long stays, unavailable online types |
-| **Assisted support** | Optional ($69.99/pax service fee on our site) | Optional agents add fees on top of consular charges |
+| Factor                                       | **eVisa (online)**                                                | **Embassy / consulate**                             |
+| :------------------------------------------- | :---------------------------------------------------------------- | :-------------------------------------------------- |
+| **Where you apply**                          | Home, any time—phone or laptop                                    | Consulate appointment, walk-in, or mail-in          |
+| **Typical speed**                            | Hours to few working days (assisted tiers)                        | Several days to **2+ weeks** (varies by post)       |
+| **Government fee (90-day tourist/business)** | **$25** single / **$50** multiple (same as the government portal) | Varies by nationality and visa type                 |
+| **Passport handling**                        | Usually stays with you                                            | Often must mail passport or collect in person       |
+| **Entry ports**                              | Must match **authorized list on PDF**                             | Depends on visa type and conditions printed         |
+| **Multiple entry**                           | Available online for many nationalities                           | Sticker options for frequent travelers              |
+| **Extensions in Vietnam**                    | Limited—not automatic                                             | Some categories allow different follow-up paths     |
+| **Best for**                                 | Tourism, short business, regional loops                           | Work, study, long stays, unavailable online types   |
+| **Assisted support**                         | Optional ($69.99/pax service fee on our site)                     | Optional agents add fees on top of consular charges |
 
 **Best for:** Travelers deciding between online convenience and consular processing before booking tickets—especially if you need multiple entry, have prior immigration history, or might need work/study authorization.
 
@@ -58,11 +58,11 @@ The eVisa is an **electronic authorization** linked to your passport, approved b
 
 ### Filing through our assisted portal
 
-| What [/apply](/apply) includes | Details |
-| --- | --- |
-| **Government fee** | **$55** single / **$80** multiple for standard 90-day products |
-| **Service fee** | **$69.99 per passenger** — validation, support, disclosed checkout |
-| **Optional urgent tiers** | Faster assisted handling when your arrival date allows |
+| What [/apply](/apply) includes | Details                                                            |
+| ------------------------------ | ------------------------------------------------------------------ |
+| **Government fee**             | **$25** single / **$50** multiple for standard 90-day products     |
+| **Service fee**                | **$69.99 per passenger** — validation, support, disclosed checkout |
+| **Optional urgent tiers**      | Faster assisted handling when your arrival date allows             |
 
 Vietnamese immigration authorities make the final approval decision. **No private service guarantees approval** or overrides security screening.
 
@@ -72,7 +72,7 @@ Walkthrough: [how to apply for a Vietnam eVisa online](/blog/how-to-apply-vietna
 
 - Apply from home—no consulate queue for standard tourism and short business
 - Digital approval by email—commonly **within five business days** for Normal assisted handling
-- Published fees online—[Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026)
+- Published fees online—[Vietnam eVisa fees and calculator](/fees)
 - Strong fit for **tourism**, **family trips**, and **short business** visits
 - Passport usually **stays with you** while waiting
 - **Multiple-entry** products for regional Southeast Asia loops
@@ -133,37 +133,37 @@ Compare **total trip cost**—government or consular fees plus your time, travel
 
 ### Government fee comparison (standard online products)
 
-| Product | eVisa govt fee (our portal) | Embassy govt fee |
-| --- | ---: | --- |
-| Single entry, 90-day tourist/business | **$55** | Varies by post and nationality |
-| Multiple entry, 90-day tourist/business | **$80** | Varies; sticker multiples often higher |
+| Product                                 | eVisa govt fee | Embassy govt fee                       |
+| --------------------------------------- | -------------: | -------------------------------------- |
+| Single entry, 90-day tourist/business   |        **$25** | Varies by post and nationality         |
+| Multiple entry, 90-day tourist/business |        **$50** | Varies; sticker multiples often higher |
 
 ### Total cost worksheet
 
-| Cost line | eVisa (assisted on this site) | Embassy |
-| --- | --- | --- |
-| Government / consular fee | $55–$80 | Varies |
-| Service / agent fee | $69.99/pax | $50–$200+ common |
-| Urgent handling | +$110 / +$220 optional | Express consular fees vary |
-| Travel to consulate | $0 | $20–$200+ |
-| Courier (passport mail) | $0 | $30–$80+ round trip |
-| Photos / copies | Minimal | $10–$25 |
-| **Your time** | 15–30 min guided form | Half-day+ typical |
+| Cost line                 | eVisa (assisted on this site) | Embassy                    |
+| ------------------------- | ----------------------------- | -------------------------- |
+| Government / consular fee | $25–$50                       | Varies                     |
+| Service / agent fee       | $69.99/pax                    | $50–$200+ common           |
+| Urgent handling           | +$110 / +$220 optional        | Express consular fees vary |
+| Travel to consulate       | $0                            | $20–$200+                  |
+| Courier (passport mail)   | $0                            | $30–$80+ round trip        |
+| Photos / copies           | Minimal                       | $10–$25                    |
+| **Your time**             | 15–30 min guided form         | Half-day+ typical          |
 
 **Planning insight:** For standard tourism, assisted eVisa filing usually beats embassy routes on **speed and convenience**. Embassy processing still matters when you need visa types not offered online or consular guidance for complex cases.
 
-Detailed eVisa fee breakdown: [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026).
+Detailed eVisa fee breakdown: [Vietnam eVisa fees and calculator](/fees).
 
 ## Side-by-side comparison: speed
 
-| Channel | Typical timeline | Notes |
-| :--- | :--- | :--- |
-| **eVisa Normal (assisted)** | Within **5 business days** after payment | Default for trips 7–14+ days out |
-| **eVisa Urgent (3 days)** | +$110/pax when eligible | Speeds assisted prep—not guaranteed govt timing |
-| **eVisa Super Urgent (1 day)** | +$220/pax when eligible | Last resort; still no approval guarantee |
-| **eVisa (Tet / peak holiday)** | Longer queues | Apply extra early |
-| **Embassy standard mail** | **1–3+ weeks** common | Add postal transit both ways |
-| **Embassy in-person express** | **3–10+ business days** | Varies by post; appointment availability |
+| Channel                        | Typical timeline                         | Notes                                           |
+| :----------------------------- | :--------------------------------------- | :---------------------------------------------- |
+| **eVisa Normal (assisted)**    | Within **5 business days** after payment | Default for trips 7–14+ days out                |
+| **eVisa Urgent (3 days)**      | +$110/pax when eligible                  | Speeds assisted prep—not guaranteed govt timing |
+| **eVisa Super Urgent (1 day)** | +$220/pax when eligible                  | Last resort; still no approval guarantee        |
+| **eVisa (Tet / peak holiday)** | Longer queues                            | Apply extra early                               |
+| **Embassy standard mail**      | **1–3+ weeks** common                    | Add postal transit both ways                    |
+| **Embassy in-person express**  | **3–10+ business days**                  | Varies by post; appointment availability        |
 
 Full timing guide: [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026).
 
@@ -171,11 +171,11 @@ Full timing guide: [Vietnam eVisa processing time](/blog/vietnam-evisa-processin
 
 ## Multiple entry: online vs embassy
 
-| Need | eVisa path | Embassy path |
-| --- | --- | --- |
-| **Cambodia weekend from Ho Chi Minh City** | Multiple-entry eVisa ($80 govt) | Sticker multiple if online unavailable |
-| **Quarterly factory visits for 6 months** | Standard 90-day products may fit—or may not | Consulate may offer longer validity |
-| **Regional tourism loop** | Usually sufficient online | Overkill unless eVisa unavailable |
+| Need                                       | eVisa path                                  | Embassy path                           |
+| ------------------------------------------ | ------------------------------------------- | -------------------------------------- |
+| **Cambodia weekend from Ho Chi Minh City** | Multiple-entry eVisa ($50 govt)             | Sticker multiple if online unavailable |
+| **Quarterly factory visits for 6 months**  | Standard 90-day products may fit—or may not | Consulate may offer longer validity    |
+| **Regional tourism loop**                  | Usually sufficient online                   | Overkill unless eVisa unavailable      |
 
 Decision guide: [Vietnam multiple-entry eVisa guide](/blog/vietnam-evisa-multiple-entry-guide-2026).
 
@@ -189,27 +189,27 @@ A common misconception: "Embassy visas let me enter anywhere; eVisas are restric
 - Domestic flights after immigration are fine
 - Land borders require the **named gate** on your visa
 
-Port planning: [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026) and [/faq/vietnam-evisa-entry-points](/faq/vietnam-evisa-entry-points).
+Port planning: [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026).
 
 ## Purpose limits: tourism, business, work, study
 
-| Purpose | eVisa fit | Embassy fit |
-| --- | --- | --- |
-| **Beach holiday, sightseeing** | Excellent | Unnecessary unless eVisa unavailable |
-| **Short client meetings** | Business eVisa | If meetings exceed online stay options |
-| **Paid employment in Vietnam** | **Not authorized** | Work permit + appropriate visa category |
-| **University degree program** | **Not authorized** | Student visa via consulate |
+| Purpose                              | eVisa fit                                                           | Embassy fit                              |
+| ------------------------------------ | ------------------------------------------------------------------- | ---------------------------------------- |
+| **Beach holiday, sightseeing**       | Excellent                                                           | Unnecessary unless eVisa unavailable     |
+| **Short client meetings**            | Business eVisa                                                      | If meetings exceed online stay options   |
+| **Paid employment in Vietnam**       | **Not authorized**                                                  | Work permit + appropriate visa category  |
+| **University degree program**        | **Not authorized**                                                  | Student visa via consulate               |
 | **Remote work for foreign employer** | Grey area—tourist eVisa does not legalize all remote work scenarios | Consult employer and immigration counsel |
-| **Digital nomad months-long stay** | May hit stay limits; extensions uncertain | Embassy/long-stay routes if eligible |
+| **Digital nomad months-long stay**   | May hit stay limits; extensions uncertain                           | Embassy/long-stay routes if eligible     |
 
 Selecting "business" on an eVisa does not grant work rights—it covers **short commercial visits** without local payroll.
 
 ## Assisted eVisa vs embassy agents
 
-| Channel | What you pay for | Transparency |
-| --- | --- | --- |
-| **Assisted eVisa (this site)** | Validation, document checks, support, disclosed fees at [/fees](/fees) | Government + service + optional urgent lines shown at checkout |
-| **Embassy + third-party agent** | Document prep, queueing, courier—on top of consular fee | Agent markup varies; ask for itemized quote |
+| Channel                         | What you pay for                                                       | Transparency                                                   |
+| ------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------- |
+| **Assisted eVisa (this site)**  | Validation, document checks, support, disclosed fees at [/fees](/fees) | Government + service + optional urgent lines shown at checkout |
+| **Embassy + third-party agent** | Document prep, queueing, courier—on top of consular fee                | Agent markup varies; ask for itemized quote                    |
 
 About our service: [/about](/about).
 
@@ -217,14 +217,14 @@ Agents can help embassy applicants who fear document errors—but for **standard
 
 ## Rejection and recovery: which channel recovers faster?
 
-| Situation | Practical path |
-| --- | --- |
-| **eVisa rejected for typo** | Fix data; reapply online—often faster than embassy mail cycle |
+| Situation                                  | Practical path                                                    |
+| ------------------------------------------ | ----------------------------------------------------------------- |
+| **eVisa rejected for typo**                | Fix data; reapply online—often faster than embassy mail cycle     |
 | **eVisa rejected for security/compliance** | Do not spam duplicate applications; embassy consultation may help |
-| **Embassy refused** | Address consular note; reapply with stronger documentation |
-| **Switch channels after rejection** | Allowed—fix root cause first |
+| **Embassy refused**                        | Address consular note; reapply with stronger documentation        |
+| **Switch channels after rejection**        | Allowed—fix root cause first                                      |
 
-Rejection guide: [Vietnam eVisa rejection reasons](/blog/vietnam-evisa-rejection-reasons-2026).
+Rejection guide: [Vietnam eVisa rejection reasons](/troubleshooting/evisa-rejected-reapply).
 
 ## Decision checklist
 
@@ -259,11 +259,11 @@ Some nationalities and trips qualify for **both**. Compare:
 
 ### Scenario A: Two-week Vietnam holiday, fly SGN in and out
 
-**Winner: eVisa (single entry).** Government fee $55 + service fee if assisted. Embassy adds unnecessary time and courier risk.
+**Winner: eVisa (single entry).** Government fee $25 + service fee if assisted. Embassy adds unnecessary time and courier risk.
 
 ### Scenario B: Three-week ASEAN loop—Vietnam, Cambodia, back to Vietnam
 
-**Winner: eVisa (multiple entry).** $80 government fee beats embassy agent stacks for the same tourism purpose. Confirm ports for air and land legs.
+**Winner: eVisa (multiple entry).** $50 government fee beats embassy agent stacks for the same tourism purpose. Confirm ports for air and land legs.
 
 ### Scenario C: Six-month engineering assignment in Hai Phong
 
@@ -299,10 +299,9 @@ Some nationalities and trips qualify for **both**. Compare:
 3. Book appointment or confirm mail-in process
 4. Budget **weeks**, not days, for mail routes
 
-
 ## Related guides
 
-- [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026)
+- [Vietnam eVisa fees and calculator](/fees)
 - [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026)
 - [Vietnam multiple-entry eVisa guide](/blog/vietnam-evisa-multiple-entry-guide-2026)
 - [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026)
@@ -340,7 +339,6 @@ Assisted eVisa Normal: commonly within five business days. Embassy: often one to
 
 ### Should I use an embassy visa agent?
 
-Optional. Agents add fees. For straightforward tourism, compare their total against assisted or official eVisa filing.
----
+## Optional. Agents add fees. For straightforward tourism, compare their total against assisted or official eVisa filing.
 
 If online eligibility fits your trip, [apply for Vietnam eVisa online](/apply) with disclosed fees—or [check requirements by country](/check-requirement) before you choose between eVisa and embassy routes.

@@ -19,7 +19,7 @@ faq:
   - question: Do children need separate Vietnam eVisa applications?
     answer: Yes. Each traveler normally needs their own authorization. Many assisted flows accept up to 15 passengers in one group submission—see our family and minors guides for infant photo rules and guardian details.
   - question: How much does it cost to apply for Vietnam eVisa online in 2026?
-    answer: On our portal, total cost includes a government fee ($55 single-entry or $80 multiple-entry for standard 90-day products), a $69.99 service fee per passenger, and any optional urgent processing you select. Confirm the exact total at checkout before you pay.
+    answer: On our portal, total cost includes a government fee ($25 single-entry or $50 multiple-entry for standard 90-day products), a $69.99 service fee per passenger, and any optional urgent processing you select. Confirm the exact total at checkout before you pay.
   - question: Why apply for a Vietnam eVisa through vietnamemigration.com?
     answer: Our assisted portal at /apply adds form guidance, document checks, disclosed fees before checkout, optional urgent handling, and support through approval—useful if you want a structured checklist rather than filing alone.
   - question: When should I apply for my Vietnam eVisa before travel?
@@ -38,16 +38,16 @@ You can **apply for a Vietnam eVisa online** before you fly—no embassy appoint
 
 ## Quick answer: Vietnam eVisa online application at a glance
 
-| Item | 2026 summary |
-| --- | --- |
-| **Who it suits** | Tourists, short business visitors, family travelers, cruise passengers, and eligible passport holders not covered by a visa exemption |
-| **Max stay** | Up to **90 days** per approved eVisa product |
-| **Entry type** | **Single entry** ($55 govt fee) or **multiple entry** ($80 govt fee) on our portal |
-| **Form time** | **15–30 minutes** with documents ready |
-| **Processing** | Standard handling commonly **within 5 business days** after payment; optional urgent tiers when your arrival date allows |
-| **Key documents** | Passport scan, portrait photo, travel dates, email, payment card |
-| **Apply early** | **7–14+ days** before departure; avoid non-refundable bookings until approved |
-| **Entry port** | Must match the port printed on your **approval PDF**—verify before you fly |
+| Item              | 2026 summary                                                                                                                          |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Who it suits**  | Tourists, short business visitors, family travelers, cruise passengers, and eligible passport holders not covered by a visa exemption |
+| **Max stay**      | Up to **90 days** per approved eVisa product                                                                                          |
+| **Entry type**    | **Single entry** ($25 govt fee) or **multiple entry** ($50 govt fee)                                                                  |
+| **Form time**     | **15–30 minutes** with documents ready                                                                                                |
+| **Processing**    | Standard handling commonly **within 5 business days** after payment; optional urgent tiers when your arrival date allows              |
+| **Key documents** | Passport scan, portrait photo, travel dates, email, payment card                                                                      |
+| **Apply early**   | **7–14+ days** before departure; avoid non-refundable bookings until approved                                                         |
+| **Entry port**    | Must match the port printed on your **approval PDF**—verify before you fly                                                            |
 
 **Best for:** First-time visitors, families filing together, travelers on Southeast Asia loops who need multiple entry, and anyone who wants a structured checklist before payment.
 
@@ -55,13 +55,13 @@ You can **apply for a Vietnam eVisa online** before you fly—no embassy appoint
 
 Understanding who reviews your visa—and what you get at checkout—prevents confusion about support, fees, and the final decision.
 
-| What you get at [/apply](/apply) | Why it matters |
-| --- | --- |
-| **Guided form with field validation** | Catches passport typos and date-format errors before payment |
-| **Document checks** | Reduces rejections from blurry scans, bad photos, or MRZ issues |
-| **Disclosed fee breakdown** | Government fee + service fee + optional urgent tiers shown before you pay |
-| **Support through processing** | Help with status tracking, correction requests, and family group filing |
-| **Optional urgent tiers** | Faster assisted handling when your departure date is tight |
+| What you get at [/apply](/apply)      | Why it matters                                                            |
+| ------------------------------------- | ------------------------------------------------------------------------- |
+| **Guided form with field validation** | Catches passport typos and date-format errors before payment              |
+| **Document checks**                   | Reduces rejections from blurry scans, bad photos, or MRZ issues           |
+| **Disclosed fee breakdown**           | Government fee + service fee + optional urgent tiers shown before you pay |
+| **Support through processing**        | Help with status tracking, correction requests, and family group filing   |
+| **Optional urgent tiers**             | Faster assisted handling when your departure date is tight                |
 
 Vietnamese immigration authorities make the final approval decision. **No private service can guarantee approval** or override security checks. What assistance does is reduce avoidable errors that cause delays or rejections.
 
@@ -84,14 +84,14 @@ For nationality-specific rules, use the [Vietnam eVisa requirements guide](/blog
 
 Gather everything in one folder on your phone or laptop **before** you open the form. Stopping mid-application to hunt for a passport scan is how typos slip in.
 
-| Item | Why it matters | Practical tip |
-| --- | --- | --- |
-| **Passport bio-page scan** | Officers verify identity against the machine-readable zone (MRZ) | Colour, flat, all four corners visible, no fingers, no flash on MRZ lines |
-| **Digital portrait photo** | Automated and human checks reject casual selfies | Plain light background, face forward, eyes open—see [Vietnam eVisa photo requirements](/blog/vietnam-evisa-photo-requirements-2026) |
-| **Arrival and departure dates** | Must fit your visa type's stay limit | Align with flight tickets; build buffer if processing is tight |
-| **Email you check daily** | Approval and correction requests arrive electronically | Avoid shared inboxes you cannot access on travel day |
-| **Payment card** | Pays mandatory government fee plus any service fee | Confirm international charges with your bank |
-| **Itinerary clarity** | Determines single vs multiple entry | Side trips to Cambodia, Thailand, or Laos and return usually need multiple entry |
+| Item                            | Why it matters                                                   | Practical tip                                                                                                                       |
+| ------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Passport bio-page scan**      | Officers verify identity against the machine-readable zone (MRZ) | Colour, flat, all four corners visible, no fingers, no flash on MRZ lines                                                           |
+| **Digital portrait photo**      | Automated and human checks reject casual selfies                 | Plain light background, face forward, eyes open—see [Vietnam eVisa photo requirements](/blog/vietnam-evisa-photo-requirements-2026) |
+| **Arrival and departure dates** | Must fit your visa type's stay limit                             | Align with flight tickets; build buffer if processing is tight                                                                      |
+| **Email you check daily**       | Approval and correction requests arrive electronically           | Avoid shared inboxes you cannot access on travel day                                                                                |
+| **Payment card**                | Pays mandatory government fee plus any service fee               | Confirm international charges with your bank                                                                                        |
+| **Itinerary clarity**           | Determines single vs multiple entry                              | Side trips to Cambodia, Thailand, or Laos and return usually need multiple entry                                                    |
 
 **Passport validity:** Aim for at least **six months** beyond your arrival date and at least one blank page for stamps. Renew an expiring passport before applying—your eVisa is linked to the passport number submitted.
 
@@ -107,12 +107,12 @@ Select **tourism** for holidays, family visits, sightseeing, and cruises. Select
 
 ### Single entry vs multiple entry
 
-This is the most expensive mistake travelers make. Government fees on our portal:
+This is the most expensive mistake travelers make. Government eVisa fees:
 
-| Visa type | Government fee (USD) | Best for |
-| --- | ---: | --- |
-| **Single entry (90 days)** | **$55** | One arrival period; no leave-and-return during the trip |
-| **Multiple entry (90 days)** | **$80** | Side trips out of Vietnam and back within the validity window |
+| Visa type                    | Government fee (USD) | Best for                                                      |
+| ---------------------------- | -------------------: | ------------------------------------------------------------- |
+| **Single entry (90 days)**   |              **$25** | One arrival period; no leave-and-return during the trip       |
+| **Multiple entry (90 days)** |              **$50** | Side trips out of Vietnam and back within the validity window |
 
 - **Single entry:** You enter once. Leaving Vietnam and returning usually requires a new visa unless you hold multiple entry.
 - **Multiple entry:** Worth the extra $25 government fee if your route includes Bangkok, Siem Reap, Vientiane, or a cruise that disembarks and re-embarks in Vietnam.
@@ -123,11 +123,11 @@ Unsure? Compare totals on [/fees](/fees) and read the [Vietnam multiple-entry eV
 
 At apply, you may see:
 
-| Tier | Typical add-on (per passenger) | When to consider |
-| --- | ---: | --- |
-| **Normal (within 5 business days)** | Included in standard flow | Default for trips **7–14+ days** out |
-| **Urgent (3 days)** | **+$110** | Tight schedules when your arrival date allows the tier |
-| **Super Urgent (1 day)** | **+$220** | Last-minute travel only—still no guaranteed government timing |
+| Tier                                | Typical add-on (per passenger) | When to consider                                              |
+| ----------------------------------- | -----------------------------: | ------------------------------------------------------------- |
+| **Normal (within 5 business days)** |      Included in standard flow | Default for trips **7–14+ days** out                          |
+| **Urgent (3 days)**                 |                      **+$110** | Tight schedules when your arrival date allows the tier        |
+| **Super Urgent (1 day)**            |                      **+$220** | Last-minute travel only—still no guaranteed government timing |
 
 Rush fees speed preparation and submission on the assisted side—they do **not** bypass immigration review. See [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026) for realistic planning windows.
 
@@ -164,19 +164,19 @@ Read each line aloud against your passport photo page before authorizing payment
 
 You will typically see:
 
-1. **Government fee** — **$55** (single entry) or **$80** (multiple entry) for standard 90-day tourist/business products
+1. **Government fee** — **$25** (single entry) or **$50** (multiple entry) for standard 90-day tourist/business products
 2. **Service fee** — **$69.99 per passenger** for assisted review, validation, and support
 3. **Optional Urgent / Super Urgent** — **+$110** or **+$220** per passenger when selected
 
 Example totals for one passenger (before optional insurance):
 
-| Selection | Approximate total |
-| --- | ---: |
-| Tourist single + service | **$124.99** |
-| Tourist multiple + service | **$149.99** |
-| Tourist single + service + Super Urgent | **$344.99** |
+| Selection                               | Approximate total |
+| --------------------------------------- | ----------------: |
+| Tourist single + service                |        **$94.99** |
+| Tourist multiple + service              |       **$119.99** |
+| Tourist single + service + Super Urgent |       **$314.99** |
 
-Full breakdown: [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026) and live totals at [/fees](/fees).
+Full breakdown and live totals: [Vietnam eVisa fees and calculator](/fees).
 
 **Before you click pay:**
 
@@ -226,15 +226,15 @@ Keep your **reference number** and payment confirmation. If status seems stuck, 
 
 Avoid these before you pay—they are cheaper to fix at home than at the airport.
 
-| Mistake | Why it hurts | Fix before paying |
-| --- | --- | --- |
-| Passport number typo | MRZ mismatch → rejection or boarding denial | Read MRZ line character by character |
-| Wrong date of birth format | Automated validation fails | Copy from passport, not memory |
-| Single entry for a multi-country loop | Cannot re-enter after side trip | Upgrade to multiple entry ($80 govt fee) |
-| Entry port mismatch on PDF | Immigration may refuse entry | Verify PDF port vs ticket; contact support if wrong |
-| Casual selfie as portrait | Upload or approval delay | Retake passport-style photo |
-| Applying too late | Flight before PDF arrives | Apply 7–14+ days ahead; see urgent tiers only if needed |
-| Duplicate paid applications | Conflicting records | Track one reference; contact support first |
+| Mistake                               | Why it hurts                                | Fix before paying                                       |
+| ------------------------------------- | ------------------------------------------- | ------------------------------------------------------- |
+| Passport number typo                  | MRZ mismatch → rejection or boarding denial | Read MRZ line character by character                    |
+| Wrong date of birth format            | Automated validation fails                  | Copy from passport, not memory                          |
+| Single entry for a multi-country loop | Cannot re-enter after side trip             | Upgrade to multiple entry ($50 govt fee)                |
+| Entry port mismatch on PDF            | Immigration may refuse entry                | Verify PDF port vs ticket; contact support if wrong     |
+| Casual selfie as portrait             | Upload or approval delay                    | Retake passport-style photo                             |
+| Applying too late                     | Flight before PDF arrives                   | Apply 7–14+ days ahead; see urgent tiers only if needed |
+| Duplicate paid applications           | Conflicting records                         | Track one reference; contact support first              |
 
 Full list with airport scenarios: [10 Vietnam eVisa mistakes to avoid](/blog/vietnam-evisa-common-mistakes-2026).
 
@@ -247,7 +247,7 @@ Applying for children or a tour group? Many flows accept **up to 15 travelers** 
 - Infant photos need a plain background; retake if the face is blurred
 - One lead contact email should be monitored through travel day
 
-See [/faq/family-group-vietnam-evisa](/faq/family-group-vietnam-evisa) and [/faq/children-visa-vietnam](/faq/children-visa-vietnam) for guardian fields and group payment tips.
+See [Vietnam eVisa for children and families](/blog/vietnam-evisa-for-minors-families-2026) for guardian fields and group payment tips.
 
 ## After approval: prepare for arrival in Vietnam
 
@@ -300,13 +300,12 @@ Maintained by the **Vietnam eVisa Assistance Team** (private service—not the G
 
 Contact support with your reference number before a bank chargeback. See [refund policy](/refund-policy) for how government and service fees are treated after a refusal.
 
-
 ## Related guides
 
 - [Vietnam eVisa requirements 2026](/blog/vietnam-evisa-requirements-guide-2026)
-- [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026)
+- [Vietnam eVisa fees and calculator](/fees)
 - [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026)
-- [Vietnam eVisa rejection reasons](/blog/vietnam-evisa-rejection-reasons-2026)
+- [Vietnam eVisa rejection reasons](/troubleshooting/evisa-rejected-reapply)
 - [Visa FAQ hub](/faq)
 
 ## Frequently asked questions
@@ -329,7 +328,7 @@ Yes. Each traveler normally needs their own authorization. Group flows can bundl
 
 ### How much does it cost to apply for Vietnam eVisa online?
 
-On our portal: government fee (**$55** single / **$80** multiple) + **$69.99** service fee per passenger + any optional urgent processing. Confirm your total at [/fees](/fees) before payment.
+On our portal: government fee (**$25** single / **$50** multiple) + **$69.99** service fee per passenger + any optional urgent processing. Confirm your total at [/fees](/fees) before payment.
 
 ### When should I apply before my flight?
 

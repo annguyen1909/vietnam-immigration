@@ -1,12 +1,16 @@
 /**
  * Canonical Vietnam eVisa pricing and marketing copy.
  * Government fees in checkout come from VisaType.fees (DB); values here match seed defaults.
- * Keep in sync with scripts/seed-vietnam.js — these values are hardcoded site-wide.
+ * Keep in sync with scripts/seed-vietnam.js and scripts/seed-vietnam-production.js — these
+ * values are hardcoded site-wide.
+ *
+ * Government fees must match the Vietnam e-Visa portal (evisa.gov.vn): US$25 single entry,
+ * US$50 multiple entry. Everything we charge on top belongs in the service fee.
  */
 export const VIETNAM_SERVICE_FEE_PER_PAX = 69.99;
 
-export const VIETNAM_GOV_FEE_SINGLE = 55;
-export const VIETNAM_GOV_FEE_MULTIPLE = 80;
+export const VIETNAM_GOV_FEE_SINGLE = 25;
+export const VIETNAM_GOV_FEE_MULTIPLE = 50;
 
 export const VIETNAM_URGENCY_FEE_URGENT = 110;
 export const VIETNAM_URGENCY_FEE_SUPER_URGENT = 220;
@@ -69,7 +73,7 @@ export function getVietnamVisaOffers() {
   };
 }
 
-/** e.g. "$55 single / $80 multiple" */
+/** e.g. "$25 single / $50 multiple" */
 export const VIETNAM_GOV_FEE_SUMMARY = `${formatUsd(VIETNAM_GOV_FEE_SINGLE)} single / ${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} multiple`;
 
 /** Country requirement pages — fee bullet list (per country). */
@@ -114,7 +118,7 @@ export function getVietnamFeesMetaDescription(): string {
 }
 
 export function getVietnamFeesHeroSubtitle(): string {
-  return 'Transparent pricing with zero hidden charges—clearly separating mandatory government stamping costs from our professional consultancy services.';
+  return 'Transparent pricing with zero hidden charges—clearly separating the Vietnam government eVisa fee from our private service fee.';
 }
 
 export function getVietnamFeesStructureSubtitle(): string {

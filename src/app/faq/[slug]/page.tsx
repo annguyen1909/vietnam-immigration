@@ -310,14 +310,9 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 export async function generateStaticParams() {
   // Hardcoded slugs for all known FAQ posts
   return [
-    { slug: 'family-group-vietnam-evisa' },
-    { slug: 'children-visa-vietnam' },
-    { slug: 'vietnam-evisa-requirements' },
-    { slug: 'vietnam-evisa-entry-points' },
     { slug: 'vietnam-emergency-numbers' },
     { slug: 'vietnam-country-codes' },
     { slug: 'medical-visa-vietnam' },
     { slug: 'work-in-vietnam-on-tourist-visa' },
-    { slug: 'cruise-passenger-visa-vietnam' },
   ];
 }

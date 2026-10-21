@@ -1,12 +1,12 @@
 ---
-title: 'How Long Does Vietnam e-Visa Take? Processing Time Guide 2026'
+title: 'How Long Does a Vietnam eVisa Take? Business Days & Holidays'
 slug: vietnam-evisa-processing-time-2026
 date: '2026-02-10'
-dateModified: '2026-06-30'
+dateModified: '2026-10-21'
 author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-processing-time-2026.jpg'
 imageAlt: 'Turtle Tower on Hoan Kiem Lake in Hanoi, Vietnam'
-excerpt: 'Understand Vietnam eVisa processing time in 2026, what delays applications, how to check status, and when to choose urgent 3-day or super urgent 1-day assistance.'
+excerpt: 'How long a Vietnam eVisa takes, how weekends and public holidays such as Tet change the business-day count, what delays applications, and when to choose Urgent (3 days) or Super Urgent (1 day) handling.'
 tags: ['visa', 'processing']
 section: 'Visa Guides'
 faq:
@@ -19,7 +19,13 @@ faq:
   - question: How can I check my Vietnam e-Visa status?
     answer: Use your registration code, email, and date of birth on the tracking portal. If you applied through our assisted service, you can also follow status updates from our support team.
   - question: Do weekends and holidays affect Vietnam eVisa processing time?
-    answer: Yes. Vietnam eVisa timing is counted in business days, so weekends and public holidays can delay final approval.
+    answer: Yes. The portal usually accepts applications and payments on Saturdays and Sundays, but immigration review slows or pauses. Timing is counted in business days, so weekends and Vietnamese public holidays do not count toward your window.
+  - question: I applied on Friday—when will my Vietnam eVisa be ready?
+    answer: On Standard handling the business-day count usually starts Monday, so a five-business-day window ends the following Friday. If you fly early the next week, choose Urgent or Super Urgent when your arrival date allows and contact support the same day.
+  - question: Can a Vietnam eVisa be approved over the weekend?
+    answer: Do not plan on it. Super Urgent (1 day) targets the next business day, so a Friday filing usually aims for Monday. For a weekend or Monday-morning departure, contact support immediately to confirm what is realistic.
+  - question: How much does Tet delay Vietnam eVisa processing?
+    answer: Tet (Lunar New Year) causes the longest delays of the year. Government offices close for roughly a week and backlogs can last weeks afterward, even for urgent tiers. Apply several weeks ahead and avoid non-refundable bookings until your eVisa is approved.
 ---
 
 **How long does a Vietnam e-Visa take?** In 2026, standard handling commonly takes **3 to 5 business days** after payment is confirmed. Actual timing can vary because final approval depends on Vietnam immigration workload, document quality, weekends, and public holidays.
@@ -99,19 +105,46 @@ Common status situations include:
 
 Also check Spam, Junk, and Promotions folders. Automated visa emails often land there.
 
+If your status has not changed after your tier window, see [what to do when an eVisa is stuck in processing](/troubleshooting/stuck-processing).
+
 ---
 
-## 4. Do Weekends and Holidays Matter?
+## 4. Weekends, Public Holidays, and Business-Day Math
 
-Yes. Vietnam eVisa timing is usually measured in **business days**, not calendar days.
+Vietnam eVisa timing is measured in **business days** (Monday–Friday in Vietnam, excluding public holidays), not calendar days, so weekends and holidays can push approval later.
 
-That means:
+- **The portal works on weekends; review mostly does not.** You can usually submit and pay on Saturday or Sunday, but approval emails arrive mostly on business days.
+- **48 hours on the clock is not two business days.** Apply Thursday evening and the 48-hour mark lands on Saturday, before the weekend queue has moved.
+- **Peak travel windows** (late December–early January, Tet, summer) can add waiting time even within a business-day window.
 
-- A Friday evening submission may not move until the next working day
-- National holidays can slow the queue
-- Peak travel windows may increase waiting time for standard handling
+### Worked examples (Standard, 5 business days)
 
-For that reason, travelers heading to Vietnam around **Tet**, **National Day**, or other public holiday periods should apply earlier than usual. If your flight is already close, review whether **Urgent (3 days)** or **Super Urgent (1 day)** is still available for your case.
+| You apply on       | Business day 1 | Business day 5    |
+| ------------------ | -------------- | ----------------- |
+| Tuesday            | Wednesday      | Following Tuesday |
+| Friday             | Monday         | Following Friday  |
+| Saturday or Sunday | Monday         | Following Friday  |
+
+Each public holiday inside the window pushes the end date back by a business day. **Super Urgent (1 day)** filed on a Friday targets the next business day—usually Monday—so it may not cover a Saturday or Sunday departure.
+
+### Vietnamese public holidays to plan around
+
+| Period                                                   | Typical impact                                                                 |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Tet (Lunar New Year)**, late January or February       | Longest slowdown: offices close for roughly a week and backlogs can last weeks |
+| **Hung Kings Commemoration**, usually April (lunar date) | Short closure with a noticeable queue spike                                    |
+| **30 April – 1 May**                                     | Reunification Day and Labour Day, often extended into a long weekend           |
+| **2 September**                                          | National Day, usually a two-day break                                          |
+
+Holiday dates shift each year, so check the current calendar before booking a tight itinerary. Around Tet, even Urgent and Super Urgent handling can be delayed—do not book non-refundable travel until your eVisa is approved.
+
+### Applied Friday, flying Monday?
+
+This is the most common weekend trap: a Standard filing on Friday afternoon, on the assumption that "5 days" includes Saturday and Sunday. Without an approved eVisa, the airline can deny boarding.
+
+- If the Monday flight is fixed, choose **Super Urgent (1 day)** or **Urgent (3 days)** when your arrival date allows. If you already filed Standard, ask support about upgrading rather than filing a second application.
+- Contact support the same Friday with your reference number and itinerary.
+- If approval has not arrived by Sunday evening, switch to your backup plan (later flight or rebooking). Do not board hoping for flexibility on arrival.
 
 ---
 

@@ -143,6 +143,23 @@ export default async function TroubleshootingGuidePage({
             </MarkdownArticleWithToc>
 
             <div className="mt-10 space-y-8">
+              {/* Visible copy of the FAQPage JSON-LD — Google requires marked-up Q&A on the page */}
+              {faq.length > 0 ? (
+                <section className="rounded-xl border-2 border-brand-border bg-white p-6 shadow-md">
+                  <h2 className="mb-5 font-display text-xl font-bold text-brand-ink">
+                    Frequently asked questions
+                  </h2>
+                  <dl className="space-y-5">
+                    {faq.map((item) => (
+                      <div key={item.question}>
+                        <dt className="font-semibold text-brand-ink">{item.question}</dt>
+                        <dd className="mt-1 text-brand-muted">{item.answer}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </section>
+              ) : null}
+
               <EmergencyCTA variant="inline" />
 
               {relatedGuides.length > 0 ? (

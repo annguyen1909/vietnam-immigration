@@ -1,17 +1,19 @@
 ---
-title: Vietnam Cruise eVisa Problems? Ports, Shore Leave, and Re-Boarding Fixes
-description: Cruise stop in Vietnam with eVisa issues? Wrong seaport, shore leave denied, or re-boarding questions—fix port selection and entry type before you sail.
+title: 'Vietnam eVisa for Cruise Passengers: Ports, Shore Leave & Fixes'
+description: Do cruise passengers need a Vietnam visa? Who needs an eVisa to go ashore, which seaport to list, when multiple entry applies, and how to fix port mistakes.
 slug: cruise-ship-evisa-entry
 date: 2026-06-23
-updated: 2026-06-23
+updated: 2026-10-21
 index: true
 priority: 0.9
 howToTotalTime: PT4H
 faq:
-  - question: Do cruise passengers need a Vietnam eVisa for shore excursions?
-    answer: Yes, most nationalities need a valid entry authorization for independent shore leave—even on a cruise stop. Visa exemption rules are limited by nationality and length of stay. Confirm eligibility before booking excursions outside the port gate.
+  - question: Do cruise passengers need a visa for Vietnam?
+    answer: Only if you go ashore. If you stay on the ship during a port call, you do not enter Vietnam and need no visa for that stop. To disembark—independently or on most excursions—most nationalities need an approved eVisa or another valid entry document before leaving the ship.
+  - question: Are some nationalities visa-exempt on a Vietnam cruise stop?
+    answer: Some passports are visa-exempt for short stays, but the rules depend on nationality and length of stay. Check the current rules for your passport on our requirements page before you sail; do not rely on a fellow passenger's situation.
   - question: Which Vietnam ports accept eVisa for cruise passengers?
-    answer: Designated seaports and nearby international airports include Ho Chi Minh City (Phu My/Tan Son Nhat area), Da Nang, and Phu Quoc among approved entry points. Your eVisa must list the actual port where you physically enter Vietnam—not just the cruise line's marketing name.
+    answer: Designated seaports and nearby international airports include Ho Chi Minh City (Phu My/Tan Son Nhat area), Da Nang, Nha Trang (Cam Ranh airport), and Phu Quoc among approved entry points. Your eVisa must list the actual port where you physically enter Vietnam—not just the cruise line's marketing name.
   - question: Can I use a single-entry eVisa if my cruise leaves Vietnam and returns later?
     answer: Usually no. If your itinerary exits Vietnam and re-enters on the same cruise or a flight later, you typically need multiple entry. Confirm with your cruise line and select the correct entry type when applying.
   - question: My eVisa lists an airport but I am arriving by cruise ship—will it work?
@@ -29,21 +31,22 @@ howToSteps:
     text: Independent excursions require immigration checks at the port gate. Keep PDF and passport together—phone-only copies may not be accepted.
 ---
 
+**Do cruise passengers need a visa for Vietnam?** If you stay on board during a port call, no—you are not entering Vietnam. If you go ashore, most nationalities need an approved eVisa (or another valid entry document) before leaving the ship. Some passports are visa-exempt for short stays, so check yours on [/check-requirement](/check-requirement) before you sail.
+
 Your **Vietnam cruise** is booked—but your **eVisa lists the wrong port**, you are unsure whether **shore leave needs a visa**, or your itinerary **exits and re-enters Vietnam** on the same sailing. Cruise eVisa problems are a specialized subset of port-of-entry errors, and they surface at the gangway when there is no time left to fix them.
 
 **We are a private visa assistance service—not the Government of Vietnam.** We help cruise travelers align applications with real port names and entry types; we cannot authorize entry at a port not on your approval.
 
 ## Quick answer: cruise passengers and Vietnam eVisa
 
-| Question | Answer |
-| --- | --- |
-| Need visa for shore excursion? | **Usually yes** for most nationalities |
-| Can I enter at any cruise port? | **No**—only designated ports on your eVisa |
-| Fly-cruise via Hanoi then ship? | First entry port must match eVisa—often airport first |
-| Exit Vietnam and return on cruise? | Likely need **multiple entry** |
-| Visa exemption on cruise? | **Rare**—verify nationality rules; do not assume |
-
-General cruise FAQ: [cruise passenger visa](/faq/cruise-passenger-visa-vietnam).
+| Question                           | Answer                                                        |
+| ---------------------------------- | ------------------------------------------------------------- |
+| Staying on the ship?               | **No visa** needed for that port day                          |
+| Need visa for shore excursion?     | **Usually yes** for most nationalities                        |
+| Can I enter at any cruise port?    | **No**—only designated ports on your eVisa                    |
+| Fly-cruise via Hanoi then ship?    | First entry port must match eVisa—often airport first         |
+| Exit Vietnam and return on cruise? | Likely need **multiple entry**                                |
+| Visa exemption on cruise?          | **Some passports** for short stays—check yours; do not assume |
 
 ## Approved seaports and airports (verify on your PDF)
 
@@ -51,11 +54,12 @@ Cruise itineraries often market **city names** while immigration uses **official
 
 Common cruise-related entry points include:
 
-| Region | Ports travelers use | Notes |
-| --- | --- | --- |
+| Region               | Ports travelers use                                           | Notes                                      |
+| -------------------- | ------------------------------------------------------------- | ------------------------------------------ |
 | **Ho Chi Minh City** | Tan Son Nhat (SGN) airport; Phu My / Ho Chi Minh seaport area | Fly-cruise packages may enter by air first |
-| **Da Nang** | Da Nang International Airport (DAD); Tien Sa seaport | Central coast cruise stops |
-| **Phu Quoc** | Phu Quoc International Airport / seaport (PQC) | Island cruise and resort gateways |
+| **Da Nang**          | Da Nang International Airport (DAD); Tien Sa seaport          | Central coast cruise stops                 |
+| **Nha Trang**        | Cam Ranh International Airport (CXR); Nha Trang seaport       | Ask which gate your ship uses              |
+| **Phu Quoc**         | Phu Quoc International Airport / seaport (PQC)                | Island cruise and resort gateways          |
 
 **Critical rule:** The port on your eVisa must match your **first physical entry** into Vietnam on that trip segment—not a later port on the cruise schedule.
 
@@ -86,13 +90,13 @@ Guide: [multiple entry eVisa 2026](/blog/vietnam-evisa-multiple-entry-guide-2026
 
 Common causes:
 
-| Cause | Fix |
-| --- | --- |
-| No eVisa or exemption | Apply before sailing—rush tiers on [/apply](/apply) |
-| Wrong port on approval | [Wrong port guide](/troubleshooting/wrong-port-of-entry) |
-| Name or DOB mismatch | [Wrong name](/troubleshooting/wrong-name-evisa), [wrong DOB](/troubleshooting/wrong-date-of-birth-evisa) |
+| Cause                   | Fix                                                                |
+| ----------------------- | ------------------------------------------------------------------ |
+| No eVisa or exemption   | Apply before sailing—rush tiers on [/apply](/apply)                |
+| Wrong port on approval  | [Wrong port guide](/troubleshooting/wrong-port-of-entry)           |
+| Name or DOB mismatch    | [Wrong name or DOB](/troubleshooting/wrong-name-evisa)             |
 | Passport under 6 months | [Passport validity guide](/troubleshooting/expired-passport-error) |
-| eVisa still processing | [48-hour](/troubleshooting/evisa-processing-48-hours) and [5-day pending](/troubleshooting/stuck-processing) guides |
+| eVisa still processing  | [Stuck in processing guide](/troubleshooting/stuck-processing)     |
 
 Cruise-organized **closed-loop excursions** sometimes use group handling—**independent** shore leave almost always requires individual clearance. Confirm with your line which excursions need your own eVisa.
 
@@ -129,24 +133,24 @@ Many travelers **fly into Hanoi (HAN) or Ho Chi Minh City (SGN)** then join a cr
 
 Always confirm with your **official cruise documents**—schedules change. This table helps you ask the right question before selecting an eVisa port.
 
-| Cruise region | Common marketing name | Ask cruise line for official Vietnamese port |
-| --- | --- | --- |
-| Southeast Asia loop | Ho Chi Minh / Phu My | Phu My or associated Ho Chi Minh seaport gate |
-| Central Vietnam | Da Nang / Hue | Da Nang (Tien Sa) seaport or Da Nang airport if fly-cruise |
-| Southern islands | Phu Quoc | Phu Quoc international seaport / airport |
-| Halong fly-cruise | Hanoi + bay | Often **airport first** (Noi Bai HAN) if you fly in before sailing |
+| Cruise region       | Common marketing name | Ask cruise line for official Vietnamese port                       |
+| ------------------- | --------------------- | ------------------------------------------------------------------ |
+| Southeast Asia loop | Ho Chi Minh / Phu My  | Phu My or associated Ho Chi Minh seaport gate                      |
+| Central Vietnam     | Da Nang / Hue         | Da Nang (Tien Sa) seaport or Da Nang airport if fly-cruise         |
+| Southern islands    | Phu Quoc              | Phu Quoc international seaport / airport                           |
+| Halong fly-cruise   | Hanoi + bay           | Often **airport first** (Noi Bai HAN) if you fly in before sailing |
 
 **Wrong question:** "Is Vietnam on the itinerary?"  
 **Right question:** "What is the **official immigration port name and code** for my shore leave on [date]?"
 
 ## Shore excursion types and visa requirements
 
-| Excursion type | Who clears immigration | eVisa usually required? |
-| --- | --- | --- |
-| **Independent** shore leave (taxi into city) | You at port immigration | **Yes** for most nationalities |
-| **Ship-organized** group tour ashore | Varies—ask cruise line | Often yes for independent legs |
-| **Stay on board** | No entry into Vietnam | No visa for that port day |
-| **Fly in early, join ship later** | You at airport on flight day | **Yes**—airport must be on eVisa |
+| Excursion type                               | Who clears immigration       | eVisa usually required?          |
+| -------------------------------------------- | ---------------------------- | -------------------------------- |
+| **Independent** shore leave (taxi into city) | You at port immigration      | **Yes** for most nationalities   |
+| **Ship-organized** group tour ashore         | Varies—ask cruise line       | Often yes for independent legs   |
+| **Stay on board**                            | No entry into Vietnam        | No visa for that port day        |
+| **Fly in early, join ship later**            | You at airport on flight day | **Yes**—airport must be on eVisa |
 
 Never assume the cruise line's blanket statement replaces your nationality's entry rules—verify on [/check-requirement](/check-requirement).
 
@@ -158,7 +162,7 @@ US citizens are **not** visa-exempt for standard Vietnam tourist entry on most c
 
 ### United Kingdom and EU
 
-Similar eVisa requirement for typical tourist shore days. Watch **DD/MM/YYYY** DOB on forms—[DOB guide](/troubleshooting/wrong-date-of-birth-evisa). UK: [/check-requirement/united-kingdom](/check-requirement/united-kingdom). Germany: [/check-requirement/germany](/check-requirement/germany).
+Some European passports qualify for short visa-free stays, so check the current rules and permitted stay for your passport before applying. If you do apply, watch **DD/MM/YYYY** DOB on forms—[name and DOB guide](/troubleshooting/wrong-name-evisa). UK: [/check-requirement/united-kingdom](/check-requirement/united-kingdom). Germany: [/check-requirement/germany](/check-requirement/germany).
 
 ### Australia and New Zealand
 
@@ -182,14 +186,14 @@ Ships will sail without you if immigration processing or an independent taxi del
 
 ## Timeline: when cruise passengers should apply
 
-| Days before embarkation | Recommended action |
-| --- | --- |
-| **14+ days** | Apply Normal tier; verify port with cruise line |
-| **7–13 days** | Apply Urgent tier if nationality volume high |
-| **3–6 days** | Urgent or Super Urgent + support on standby |
-| **0–2 days** | Super Urgent only if eligible—high risk |
+| Days before embarkation | Recommended action                              |
+| ----------------------- | ----------------------------------------------- |
+| **14+ days**            | Apply Normal tier; verify port with cruise line |
+| **7–13 days**           | Apply Urgent tier if nationality volume high    |
+| **3–6 days**            | Urgent or Super Urgent + support on standby     |
+| **0–2 days**            | Super Urgent only if eligible—high risk         |
 
-Last-minute cruise eVisa filings fail more often on **photo quality** and **port mismatches** because travelers rush. Start early even when the cruise line says "you can apply anytime."
+Rushed filings are where **photo quality** and **port mismatch** errors tend to creep in. Start early even when the cruise line says "you can apply anytime."
 
 ## Connecting flights + cruise: first entry rule explained
 
@@ -209,11 +213,10 @@ If you cleared immigration ashore and return to the ship same day, your **single
 
 ## Related guides
 
-- [Cruise passenger FAQ](/faq/cruise-passenger-visa-vietnam)
 - [Wrong port of entry](/troubleshooting/wrong-port-of-entry)
 - [Multiple entry guide](/blog/vietnam-evisa-multiple-entry-guide-2026)
 - [Approved entry ports 2026](/blog/vietnam-evisa-approved-entry-ports-2026)
-- [48-hour processing](/troubleshooting/evisa-processing-48-hours)
+- [Stuck in processing](/troubleshooting/stuck-processing)
 - [Rejection reapply](/troubleshooting/evisa-rejected-reapply)
 
 ## Sailing within a week and eVisa not ready?

@@ -28,7 +28,7 @@ async function main() {
       id: 'vietnam-tourist-single-90-days',
       name: 'Tourist eVisa (Single Entry for 90 days)',
       waitTime: STANDARD_WAIT_TIME,
-      fees: 55,
+      fees: 25,
       requiredDocuments: docs,
       allowedNationalities: null,
     },
@@ -36,7 +36,7 @@ async function main() {
       id: 'vietnam-tourist-multiple-90-days',
       name: 'Tourist eVisa (Multiple Entries for 90 days)',
       waitTime: STANDARD_WAIT_TIME,
-      fees: 80,
+      fees: 50,
       requiredDocuments: docs,
       allowedNationalities: null,
     },
@@ -44,7 +44,7 @@ async function main() {
       id: 'vietnam-business-single-90-days',
       name: 'Business eVisa (Single Entry for 90 days)',
       waitTime: STANDARD_WAIT_TIME,
-      fees: 55,
+      fees: 25,
       requiredDocuments: docs,
       allowedNationalities: null,
     },
@@ -52,7 +52,7 @@ async function main() {
       id: 'vietnam-business-multiple-90-days',
       name: 'Business eVisa (Multiple Entries for 90 days)',
       waitTime: STANDARD_WAIT_TIME,
-      fees: 80,
+      fees: 50,
       requiredDocuments: docs,
       allowedNationalities: null,
     },
@@ -67,9 +67,7 @@ async function main() {
     data: { waitTime: STANDARD_WAIT_TIME },
   });
   if (fixedInverted.count > 0 || fixedLegacy.count > 0) {
-    console.log(
-      `Fixed waitTime: inverted=${fixedInverted.count}, legacy=${fixedLegacy.count}`
-    );
+    console.log(`Fixed waitTime: inverted=${fixedInverted.count}, legacy=${fixedLegacy.count}`);
   }
 
   for (const vt of visaTypes) {

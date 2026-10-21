@@ -8,6 +8,11 @@ import {
   SparklesIcon,
   ArrowRightIcon,
 } from '@heroicons/react/24/outline';
+import {
+  VIETNAM_GOV_FEE_SUMMARY,
+  VIETNAM_SERVICE_FEE_PER_PAX,
+  formatUsd,
+} from '@/lib/vietnamPricing';
 
 interface EssentialEvisaResourcesProps {
   className?: string;
@@ -33,8 +38,7 @@ export default function EssentialEvisaResources({
     {
       href: '/fees',
       anchor: 'Vietnam Visa Fees & Calculator',
-      description:
-        'Government fee $55 single / $80 multiple, $69.99 service fee, and live total calculator.',
+      description: `Government fee ${VIETNAM_GOV_FEE_SUMMARY}, ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee, and live total calculator.`,
       icon: CurrencyDollarIcon,
       badge: 'Popular',
       highlight: false,

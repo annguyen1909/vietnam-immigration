@@ -1,6 +1,12 @@
 import type { Metadata } from 'next';
 import { buildPageMetadata, getPublicSiteUrl } from '@/lib/seo';
-import { getVietnamFeesMetaDescription, getVietnamVisaOffers } from '@/lib/vietnamPricing';
+import {
+  VIETNAM_GOV_FEE_MULTIPLE,
+  VIETNAM_GOV_FEE_SINGLE,
+  formatUsd,
+  getVietnamFeesMetaDescription,
+  getVietnamVisaOffers,
+} from '@/lib/vietnamPricing';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import FAQSchema from '@/components/seo/FAQSchema';
 import JsonLd from '@/components/seo/JsonLd';
@@ -8,7 +14,7 @@ import { TRUST_ENTITY } from '@/components/seo/constants';
 import { FEES_FAQ_ITEMS } from '@/data/feesFaq';
 
 export const metadata: Metadata = buildPageMetadata({
-  title: 'Vietnam Visa Fee 2026: $55 Single / $80 Multiple + Service Fee',
+  title: `Vietnam Visa Fee 2026: ${formatUsd(VIETNAM_GOV_FEE_SINGLE)} Single / ${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} Multiple + Service Fee`,
   description: getVietnamFeesMetaDescription(),
   path: '/fees',
   keywords: [
@@ -29,7 +35,7 @@ export default function FeesLayout({ children }: { children: React.ReactNode }) 
     '@type': 'Product',
     name: 'Vietnam eVisa Application Assistance & Processing Packages',
     description:
-      'Transparent Vietnam eVisa packages covering mandatory Government Stamping Fee and professional consultancy & support services.',
+      'Vietnam eVisa application assistance: the government eVisa fee plus our private service fee for document review and support.',
     category: 'Immigration & Visa Services',
     url: `${siteUrl}/fees`,
     brand: {
@@ -54,13 +60,13 @@ export default function FeesLayout({ children }: { children: React.ReactNode }) 
         priceSpecification: [
           {
             '@type': 'UnitPriceSpecification',
-            name: 'Government Stamping Fee',
+            name: 'Vietnam Government eVisa Fee',
             price: offer.govFee.toFixed(2),
             priceCurrency: pricing.currency,
           },
           {
             '@type': 'UnitPriceSpecification',
-            name: 'Our Service & Consultancy Fee',
+            name: 'Private Service Fee',
             price: offer.serviceFee.toFixed(2),
             priceCurrency: pricing.currency,
           },

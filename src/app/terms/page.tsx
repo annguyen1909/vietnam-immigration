@@ -3,6 +3,7 @@ import React from 'react';
 import SiteFooter from '@/components/layout/SiteFooter';
 import { Metadata } from 'next';
 import { buildStaticPageMetadata } from '@/lib/seo';
+import { VIETNAM_GOV_FEE_MULTIPLE, VIETNAM_GOV_FEE_SINGLE, formatUsd } from '@/lib/vietnamPricing';
 
 export const metadata: Metadata = buildStaticPageMetadata({
   title: 'Terms of Service',
@@ -178,16 +179,22 @@ export default function TermsPage() {
                       4.2 Government Fee
                     </h3>
                     <p className="text-brand-ink mb-3">
-                      The government fee represents the payment made directly to the Vietnamn
-                      Immigration Department for visa processing services. This fee is determined by
-                      several factors:
+                      The government fee is the eVisa fee set by the Vietnam Immigration Department,
+                      which we pay to it on your behalf. It is the same amount charged on the
+                      government e-Visa portal and depends only on entry frequency:
                     </p>
                     <ul className="list-disc ml-6 text-brand-ink space-y-2">
-                      <li>Category of visa requested (Tourist or Business)</li>
-                      <li>Entry frequency (Single or Multiple entry)</li>
-                      <li>Your citizenship and country where you reside</li>
-                      <li>Urgency of processing needs</li>
+                      <li>
+                        Single entry (Tourist or Business): {formatUsd(VIETNAM_GOV_FEE_SINGLE)}
+                      </li>
+                      <li>
+                        Multiple entry (Tourist or Business): {formatUsd(VIETNAM_GOV_FEE_MULTIPLE)}
+                      </li>
                     </ul>
+                    <p className="text-brand-ink mt-3">
+                      Urgent processing, insurance, and other add-ons are charged by us and are not
+                      government fees.
+                    </p>
                   </div>
 
                   <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded mb-4">

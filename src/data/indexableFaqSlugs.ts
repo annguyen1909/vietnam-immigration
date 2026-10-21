@@ -5,11 +5,6 @@
  */
 export const INDEXABLE_FAQ_SLUGS = [
   '24-hour-vietnam-evisa',
-  'children-visa-vietnam',
-  'cruise-passenger-visa-vietnam',
-  'family-group-vietnam-evisa',
-  'vietnam-evisa-entry-points',
-  'vietnam-evisa-requirements',
   'work-in-vietnam-on-tourist-visa',
 ] as const;
 

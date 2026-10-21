@@ -12,10 +12,7 @@ function loadEnvFile(filePath) {
     const m = line.match(/^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)\s*$/);
     if (!m) continue;
     let v = m[2].trim();
-    if (
-      (v.startsWith('"') && v.endsWith('"')) ||
-      (v.startsWith("'") && v.endsWith("'"))
-    ) {
+    if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) {
       v = v.slice(1, -1);
     }
     if (!process.env[m[1]]) process.env[m[1]] = v;
@@ -47,8 +44,8 @@ const CANON = {
   urgencyUrgent: 110,
   urgencySuper: 220,
   waitTime: 'Within 5 business days',
-  govSingle: 55,
-  govMultiple: 80,
+  govSingle: 25,
+  govMultiple: 50,
 };
 
 async function main() {
@@ -57,6 +54,23 @@ async function main() {
   const fee = await prisma.serviceFeeConfig.findFirst({
     where: { destinationId: null, visaTypeId: null, isActive: true },
     select: { serviceFee: true },
+  });
+
+  // Mirrors getServiceFee(): visa type > destination > global.
+  const now = new Date();
+  const activeNow = {
+    isActive: true,
+    effectiveFrom: { lte: now },
+    OR: [{ effectiveTo: null }, { effectiveTo: { gte: now } }],
+  };
+  const vietnamFee = await prisma.serviceFeeConfig.findFirst({
+    where: { destinationId: 'vietnam', visaTypeId: null, ...activeNow },
+    orderBy: { effectiveFrom: 'desc' },
+    select: { serviceFee: true },
+  });
+  const visaTypeFees = await prisma.serviceFeeConfig.findMany({
+    where: { visaTypeId: { startsWith: 'vietnam-' }, ...activeNow },
+    select: { visaTypeId: true, serviceFee: true },
   });
 
   const vts = await prisma.visaType.findMany({
@@ -86,6 +100,18 @@ async function main() {
     item: 'Global service fee',
     ok: fee?.serviceFee === CANON.serviceFee,
     got: fee?.serviceFee,
+    want: CANON.serviceFee,
+  });
+
+  const resolvedVietnamFee = vietnamFee?.serviceFee ?? fee?.serviceFee;
+  checks.push({
+    item: 'Vietnam service fee (resolved at checkout)',
+    ok:
+      resolvedVietnamFee === CANON.serviceFee &&
+      visaTypeFees.every((v) => v.serviceFee === CANON.serviceFee),
+    got: `destination=${vietnamFee?.serviceFee ?? 'none'}, global=${fee?.serviceFee}, visa-type rows=${
+      visaTypeFees.map((v) => `${v.visaTypeId}=$${v.serviceFee}`).join(', ') || 'none'
+    }`,
     want: CANON.serviceFee,
   });
 
@@ -125,10 +151,10 @@ async function main() {
       (v.id.includes('multiple') && v.fees === CANON.govMultiple)
   );
   checks.push({
-    item: 'Gov fees $55/$80',
+    item: 'Gov fees $25/$50',
     ok: feesOk,
     got: vts.map((v) => `${v.id}=$${v.fees}`).join(', '),
-    want: '55/80',
+    want: '25/50',
   });
 
   const namesOk = vts.every((v) => /eVisa/.test(v.name));

@@ -35,13 +35,13 @@ You **applied for a Vietnam eVisa twice**—maybe panic after slow processing, m
 
 ## Quick answer: duplicate eVisa applications
 
-| Scenario | Risk | First move |
-| --- | --- | --- |
-| Two paid applications, both processing | **High** — fraud screening | Contact support—stop third filing |
-| Reapplied after Unfulfilled status | **Medium** | Confirm first payment void before second |
-| Same data, two reference numbers | **High** | Support must identify active file |
-| Different passport numbers on each | **Very high** | Do not travel until resolved |
-| First still pending, flight soon | **High** | Escalate first filing—do not duplicate |
+| Scenario                               | Risk                       | First move                               |
+| -------------------------------------- | -------------------------- | ---------------------------------------- |
+| Two paid applications, both processing | **High** — fraud screening | Contact support—stop third filing        |
+| Reapplied after Unfulfilled status     | **Medium**                 | Confirm first payment void before second |
+| Same data, two reference numbers       | **High**                   | Support must identify active file        |
+| Different passport numbers on each     | **Very high**              | Do not travel until resolved             |
+| First still pending, flight soon       | **High**                   | Escalate first filing—do not duplicate   |
 
 ## Why duplicate applications cause problems
 
@@ -71,7 +71,7 @@ Portal showed Unfulfilled so you started over—but the first payment actually p
 
 ### Trying to fix a typo with a new application
 
-Wrong name or [date of birth](/troubleshooting/wrong-date-of-birth-evisa) on an approved visa—traveler files again instead of following correction path. **Fix:** Contact support; approved visas usually need controlled re-filing, not parallel duplicates.
+[Wrong name or date of birth](/troubleshooting/wrong-name-evisa) on an approved visa—traveler files again instead of following correction path. **Fix:** Contact support; approved visas usually need controlled re-filing, not parallel duplicates.
 
 ### Payment failed retries as new applications
 
@@ -95,13 +95,13 @@ For **each** filing gather:
 
 ### 3. Compare the two applications
 
-| Field | Filing A | Filing B | Problem if different |
-| --- | --- | --- | --- |
-| Passport number | | | High—identity conflict |
-| Full name | | | High |
-| Date of birth | | | High |
-| Entry port | | | Medium |
-| Photo | | | Medium |
+| Field           | Filing A | Filing B | Problem if different   |
+| --------------- | -------- | -------- | ---------------------- |
+| Passport number |          |          | High—identity conflict |
+| Full name       |          |          | High                   |
+| Date of birth   |          |          | High                   |
+| Entry port      |          |          | Medium                 |
+| Photo           |          |          | Medium                 |
 
 If filings conflict, **do not fly** until support confirms which record immigration will honor.
 
@@ -133,7 +133,7 @@ After support responds:
 
 **Use the approved PDF** that matches your current passport—but tell support about the duplicate anyway. An open second filing can still trigger downstream flags. Support may need to note the void application in your record.
 
-Verify every field on the approval: [wrong name](/troubleshooting/wrong-name-evisa), [wrong DOB](/troubleshooting/wrong-date-of-birth-evisa), [wrong port](/troubleshooting/wrong-port-of-entry).
+Verify every field on the approval: [wrong name or date of birth](/troubleshooting/wrong-name-evisa), [wrong port](/troubleshooting/wrong-port-of-entry).
 
 ## If both were rejected
 
@@ -169,12 +169,12 @@ A tour desk started an application while the traveler also filed online. Differe
 
 ## Refund and billing disputes with duplicate charges
 
-| Situation | Typical outcome |
-| --- | --- |
-| Two completed charges, one Unfulfilled void | Support may guide refund on void filing—document both references |
-| Two Processing filings | Refund unlikely until one is voided or rejected; focus on active file |
-| One hold + one completed charge | Hold drops automatically; use completed reference only |
-| Identical charges, both rejected | Fix rejection cause before third payment—[rejection guide](/troubleshooting/evisa-rejected-reapply) |
+| Situation                                   | Typical outcome                                                                                     |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Two completed charges, one Unfulfilled void | Support may guide refund on void filing—document both references                                    |
+| Two Processing filings                      | Refund unlikely until one is voided or rejected; focus on active file                               |
+| One hold + one completed charge             | Hold drops automatically; use completed reference only                                              |
+| Identical charges, both rejected            | Fix rejection cause before third payment—[rejection guide](/troubleshooting/evisa-rejected-reapply) |
 
 Bring **bank PDF statements** and **both confirmation emails** to support. Chargeback disputes without voiding duplicate records can complicate future eVisa eligibility.
 
@@ -213,7 +213,7 @@ If the wrong PDF is prettier but tied to a void reference, it is still unusable 
 ## Prevention checklist for next time
 
 - Save your reference number immediately after payment
-- Wait for full tier window before assuming failure—[48-hour guide](/troubleshooting/evisa-processing-48-hours)
+- Wait for full tier window before assuming failure—[still-processing guide](/troubleshooting/stuck-processing)
 - Contact support before second payment
 - Fix typos through support when still processing
 - One browser session, one controlled payment retry

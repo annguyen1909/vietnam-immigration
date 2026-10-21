@@ -38,16 +38,16 @@ This 2026 guide explains what you can and cannot extend, where applications are 
 
 ## Quick answer: Vietnam eVisa extension at a glance
 
-| Item | 2026 summary |
-| --- | --- |
-| **Can you extend online?** | **Usually no**—not via the original eVisa portal or assisted filing site |
-| **Where extensions happen** | **Immigration offices in Vietnam** (major cities such as Hanoi, HCMC, Da Nang) |
-| **When to apply** | **Before** your authorized stay expires—overstaying even one day creates legal risk |
-| **How many extra days?** | **Officer discretion**—do not assume another full 90 days |
-| **Typical cost (indicative)** | Roughly **1,000,000–3,500,000 VND** for short tourist extensions—**confirm at counter** |
-| **Processing time** | Often **3–10 working days**; longer around **Tet** and peak season |
-| **Safer strategy** | Apply for **up to 90 days** and correct **single/multiple entry** at initial filing |
-| **Official vs advice** | Extension eligibility is government policy; cost ranges and timelines here are traveler planning guidance |
+| Item                          | 2026 summary                                                                                              |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------- |
+| **Can you extend online?**    | **Usually no**—not via the original eVisa portal or assisted filing site                                  |
+| **Where extensions happen**   | **Immigration offices in Vietnam** (major cities such as Hanoi, HCMC, Da Nang)                            |
+| **When to apply**             | **Before** your authorized stay expires—overstaying even one day creates legal risk                       |
+| **How many extra days?**      | **Officer discretion**—do not assume another full 90 days                                                 |
+| **Typical cost (indicative)** | Roughly **1,000,000–3,500,000 VND** for short tourist extensions—**confirm at counter**                   |
+| **Processing time**           | Often **3–10 working days**; longer around **Tet** and peak season                                        |
+| **Safer strategy**            | Apply for **up to 90 days** and correct **single/multiple entry** at initial filing                       |
+| **Official vs advice**        | Extension eligibility is government policy; cost ranges and timelines here are traveler planning guidance |
 
 **Best for:** Long-stay tourists, remote workers whose plans shifted, families who underestimated trip length, and travelers comparing extension vs exit-and-reapply.
 
@@ -57,11 +57,11 @@ This 2026 guide explains what you can and cannot extend, where applications are 
 
 Before discussing extensions, understand three dates on your approval PDF—they are not interchangeable.
 
-| Term | What it means | Extension relevance |
-| --- | --- | --- |
-| **Visa validity window** | Period during which you may **enter** Vietnam | Entering after this window is not allowed—even with days "left" on paper |
-| **Duration of stay** | Maximum days you may **remain** after each entry stamp | This is what extensions attempt to lengthen—if policy allows |
-| **Entry type** | **Single** (one arrival period) vs **multiple** (leave and return within validity) | Wrong entry type cannot be fixed by extension—you may need exit and re-entry |
+| Term                     | What it means                                                                      | Extension relevance                                                          |
+| ------------------------ | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **Visa validity window** | Period during which you may **enter** Vietnam                                      | Entering after this window is not allowed—even with days "left" on paper     |
+| **Duration of stay**     | Maximum days you may **remain** after each entry stamp                             | This is what extensions attempt to lengthen—if policy allows                 |
+| **Entry type**           | **Single** (one arrival period) vs **multiple** (leave and return within validity) | Wrong entry type cannot be fixed by extension—you may need exit and re-entry |
 
 Under Vietnam's current e-visa framework, standard online products authorize stays of **up to 90 days** . That is the maximum duration available at initial filing on most portals—not a guarantee that an in-country extension will add another 90 days later.
 
@@ -96,7 +96,7 @@ Searches for "extend Vietnam eVisa online" often surface:
 - **Confusion with visa exemption** rules (different from eVisa extensions)
 - **Third-party "visa run" packages** that are exit-and-reapply services, not true extensions
 
-**Official channel:** In-country immigration departments. **Private assistance (this site):** We help at **initial application** only—see [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026) for upfront duration options.
+**Official channel:** In-country immigration departments. **Private assistance (this site):** We help at **initial application** only—see [Vietnam eVisa fees and calculator](/fees) for upfront duration options.
 
 If a website asks you to pay USD by card for an "online extension" without visiting an immigration office, treat it as high risk until you verify it with the local immigration department directly.
 
@@ -106,25 +106,25 @@ Extensions are processed at **provincial-level immigration departments**—not a
 
 Travelers commonly report filing in:
 
-| City | Region | Planning notes |
-| --- | --- | --- |
-| **Hanoi** | North | High volume; arrive early; Vietnamese hotel confirmation letter helps |
-| **Ho Chi Minh City** | South | District 1 area offices see heavy tourist traffic; English signage varies |
-| **Da Nang** | Central | Popular with longer-stay visitors and expat-adjacent neighborhoods |
+| City                          | Region     | Planning notes                                                                               |
+| ----------------------------- | ---------- | -------------------------------------------------------------------------------------------- |
+| **Hanoi**                     | North      | High volume; arrive early; Vietnamese hotel confirmation letter helps                        |
+| **Ho Chi Minh City**          | South      | District 1 area offices see heavy tourist traffic; English signage varies                    |
+| **Da Nang**                   | Central    | Popular with longer-stay visitors and expat-adjacent neighborhoods                           |
 | **Other provincial capitals** | Nationwide | Possible if you are already outside major hubs—confirm the office handles tourist extensions |
 
 **What to bring to the appointment (baseline checklist):**
 
-| Document | Why it matters |
-| --- | --- |
-| **Original passport** | Must match eVisa data exactly |
-| **Printed eVisa approval PDF** | Officers verify entry history against system records |
-| **Passport photos (4×6 cm)** | Often required fresh; studio near immigration offices stock correct sizes |
-| **Temporary residence declaration (Form NA7 / hotel registration)** | Hotels usually register you; Airbnb or informal stays complicate this |
-| **Extension application (Form NA5 or current equivalent)** | Staff provide the latest version—do not rely on outdated PDFs from forums |
-| **Proof of onward travel** | Flight or bus ticket showing intent to depart eventually |
-| **Extension fee in VND** | Card payment is **rare** on-site—carry cash or confirm bank transfer rules |
-| **Supporting letter (if applicable)** | Medical, family emergency, or employer letter for business categories |
+| Document                                                            | Why it matters                                                             |
+| ------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **Original passport**                                               | Must match eVisa data exactly                                              |
+| **Printed eVisa approval PDF**                                      | Officers verify entry history against system records                       |
+| **Passport photos (4×6 cm)**                                        | Often required fresh; studio near immigration offices stock correct sizes  |
+| **Temporary residence declaration (Form NA7 / hotel registration)** | Hotels usually register you; Airbnb or informal stays complicate this      |
+| **Extension application (Form NA5 or current equivalent)**          | Staff provide the latest version—do not rely on outdated PDFs from forums  |
+| **Proof of onward travel**                                          | Flight or bus ticket showing intent to depart eventually                   |
+| **Extension fee in VND**                                            | Card payment is **rare** on-site—carry cash or confirm bank transfer rules |
+| **Supporting letter (if applicable)**                               | Medical, family emergency, or employer letter for business categories      |
 
 Photocopy everything before you surrender your passport if the office retains it for processing. Hotels need passport copies for registration regardless.
 
@@ -142,7 +142,7 @@ Procedures change by city and policy updates. This is the **common pattern** tra
 6. **Collect passport with extension stamp or approval slip** — Verify the **new exit date** and category (**tourist** vs **temporary residence**) before you leave the counter.
 7. **Update hotel registration if your stay continues** — Mismatched registration dates cause problems at the next extension or at exit.
 
-Ask explicitly: *Is this a tourist stay extension or a temporary residence extension?* Mixing categories creates exit complications and may affect future eVisa applications.
+Ask explicitly: _Is this a tourist stay extension or a temporary residence extension?_ Mixing categories creates exit complications and may affect future eVisa applications.
 
 ![Vietnam immigration department office for eVisa extension applications](/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg)
 
@@ -172,17 +172,17 @@ Extension fees are **not** part of your original eVisa checkout. They are charge
 
 > **Confirm on the day you file:** Extension fees, processing times, and eligibility are decided **only** at the provincial immigration office handling your case—not by this guide, forums, or third-party agents. Ask for a printed receipt and the officer-stamped exit date before you leave the counter.
 
-| Factor | Indicative range | Notes |
-| --- | --- | --- |
-| **Tourist extension fee** | ~**1,000,000–3,500,000 VND** | Confirm live at the office—forum posts go stale quickly |
-| **Standard processing** | **3–7 working days** | Passport may be held during this period |
-| **Express / same-day** | Higher fee when available | Not guaranteed in all offices |
-| **Peak season / Tet** | Longer queues and shorter office hours | Apply **2+ weeks** before stay expiry during holidays |
-| **Agent assistance** | Additional service fee | Verify agent is licensed; scams are common |
+| Factor                    | Indicative range                       | Notes                                                   |
+| ------------------------- | -------------------------------------- | ------------------------------------------------------- |
+| **Tourist extension fee** | ~**1,000,000–3,500,000 VND**           | Confirm live at the office—forum posts go stale quickly |
+| **Standard processing**   | **3–7 working days**                   | Passport may be held during this period                 |
+| **Express / same-day**    | Higher fee when available              | Not guaranteed in all offices                           |
+| **Peak season / Tet**     | Longer queues and shorter office hours | Apply **2+ weeks** before stay expiry during holidays   |
+| **Agent assistance**      | Additional service fee                 | Verify agent is licensed; scams are common              |
 
 **Official fact:** Only the immigration office sets the fee you pay on extension day. **Planning advice:** Budget the upper end of the range and carry extra VND. Card acceptance is limited—ATMs near immigration offices are often crowded.
 
-For your **initial** eVisa cost comparison (government $55/$80 plus service fees), see [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026)—extensions are a separate budget line.
+For your **initial** eVisa cost comparison (government $25/$50 plus service fees), see [Vietnam eVisa fees and calculator](/fees)—extensions are a separate budget line.
 
 ## When a Vietnam eVisa extension is unlikely or refused
 
@@ -208,10 +208,10 @@ If refused, repeated DIY attempts without legal guidance rarely help. Consider [
 
 **Do not overstay—even one day.** Consequences escalate with duration and may include:
 
-| Overstay severity | Possible consequences |
-| --- | --- |
-| **Short overstay (days)** | Daily fines, exit delays, stern warnings |
-| **Medium overstay (weeks)** | Higher fines, potential detention, deportation |
+| Overstay severity                      | Possible consequences                                     |
+| -------------------------------------- | --------------------------------------------------------- |
+| **Short overstay (days)**              | Daily fines, exit delays, stern warnings                  |
+| **Medium overstay (weeks)**            | Higher fines, potential detention, deportation            |
 | **Long overstay or repeat violations** | Entry bans, refused future eVisas, employer complications |
 
 **If you realize you will miss your exit date:**
@@ -219,7 +219,7 @@ If refused, repeated DIY attempts without legal guidance rarely help. Consider [
 1. Contact the **nearest immigration office immediately**—not on departure day at the airport
 2. Do not rely on unofficial agents promising to "fix" overstays
 3. Keep records of any fine payment and official letters
-4. Understand that prior overstays may surface in [Vietnam eVisa rejection reasons](/blog/vietnam-evisa-rejection-reasons-2026) on future applications
+4. Understand that prior overstays may surface in [Vietnam eVisa rejection reasons](/troubleshooting/evisa-rejected-reapply) on future applications
 
 Overstaying is an **official immigration violation**, not a travel inconvenience you can negotiate at check-in.
 
@@ -227,13 +227,13 @@ Overstaying is an **official immigration violation**, not a travel inconvenience
 
 The most reliable extension strategy is **not needing one**. At initial filing:
 
-| Your situation | Recommended upfront choice |
-| --- | --- |
-| **Fixed 2–3 week holiday** | Single entry, standard 90-day product—stay within your actual exit plan |
-| **3-month remote work / slow travel** | Full 90-day duration selected at application; track exit date carefully |
-| **Thailand/Cambodia side trip then return** | **Multiple entry** ($80 govt fee)—extension cannot convert single to multiple |
-| **Family visit of uncertain length** | Maximum authorized stay at filing; coordinate with [Vietnam eVisa for families and minors](/blog/vietnam-evisa-for-minors-families-2026) for group consistency |
-| **Possible job interviews** | Business eVisa if appropriate—not tourist extension later |
+| Your situation                              | Recommended upfront choice                                                                                                                                     |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Fixed 2–3 week holiday**                  | Single entry, standard 90-day product—stay within your actual exit plan                                                                                        |
+| **3-month remote work / slow travel**       | Full 90-day duration selected at application; track exit date carefully                                                                                        |
+| **Thailand/Cambodia side trip then return** | **Multiple entry** ($50 govt fee)—extension cannot convert single to multiple                                                                                  |
+| **Family visit of uncertain length**        | Maximum authorized stay at filing; coordinate with [Vietnam eVisa for families and minors](/blog/vietnam-evisa-for-minors-families-2026) for group consistency |
+| **Possible job interviews**                 | Business eVisa if appropriate—not tourist extension later                                                                                                      |
 
 Read [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026) and apply **7–14+ days** before departure. Do not book non-refundable long-stay accommodation until you hold the approved PDF.
 
@@ -283,15 +283,15 @@ Rejected extensions do **not** refund your original eVisa fees—see [/refund-po
 
 ## Common extension mistakes (and how to avoid them)
 
-| Mistake | Consequence | Fix |
-| --- | --- | --- |
-| Assuming online extension exists | Scams, wasted money, overstay | Use immigration offices only |
-| Waiting until last day | Passport held past legal stay | Start 1–2 weeks before expiry |
-| No hotel registration | Application rejected | Get NA7 / residence confirmation from accommodation |
-| Expecting +90 days | Shorter approval or denial | Plan exit using worst-case shorter extension |
-| Working on tourist stay | Denial, fines, deportation risk | Obtain proper work authorization |
-| Using unlicensed agents | Forged stamps, entry bans | File directly or verify licensed services |
-| Single entry + regional trip | Cannot re-enter after exit | Choose multiple entry at initial filing |
+| Mistake                          | Consequence                     | Fix                                                 |
+| -------------------------------- | ------------------------------- | --------------------------------------------------- |
+| Assuming online extension exists | Scams, wasted money, overstay   | Use immigration offices only                        |
+| Waiting until last day           | Passport held past legal stay   | Start 1–2 weeks before expiry                       |
+| No hotel registration            | Application rejected            | Get NA7 / residence confirmation from accommodation |
+| Expecting +90 days               | Shorter approval or denial      | Plan exit using worst-case shorter extension        |
+| Working on tourist stay          | Denial, fines, deportation risk | Obtain proper work authorization                    |
+| Using unlicensed agents          | Forged stamps, entry bans       | File directly or verify licensed services           |
+| Single entry + regional trip     | Cannot re-enter after exit      | Choose multiple entry at initial filing             |
 
 See also [10 Vietnam eVisa mistakes to avoid](/blog/vietnam-evisa-common-mistakes-2026) for errors at the application stage that compound extension problems later.
 
@@ -304,15 +304,14 @@ If you traveled on a family group eVisa filing:
 - Align extension appointments so the family does not split across different legal exit dates
 - For initial family filing guidance, see [Vietnam eVisa for families and minors](/blog/vietnam-evisa-for-minors-families-2026)
 
-For general Vietnam trip planning with children (activities, pacing—not visa rules), [family-friendly Vietnam travel tips](/blog/family-friendly-vietnam-2026) may help itinerary decisions once entry paperwork is sorted.
-
+For visa rules when children travel with you, see [Vietnam eVisa for children and families](/blog/vietnam-evisa-for-minors-families-2026).
 
 ## Related guides
 
 - [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026)
 - [How to apply for a Vietnam eVisa online](/blog/how-to-apply-vietnam-evisa-online-2026)
 - [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026)
-- [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026)
+- [Vietnam eVisa fees and calculator](/fees)
 - [Vietnam multiple-entry eVisa guide](/blog/vietnam-evisa-multiple-entry-guide-2026)
 - [Vietnam eVisa vs embassy visa](/blog/vietnam-evisa-vs-embassy-visa-2026)
 - [Visa FAQ hub](/faq)

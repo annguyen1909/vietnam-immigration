@@ -35,12 +35,12 @@ Your Vietnam eVisa portal shows **"Unfulfilled"** and you are not sure whether t
 
 ## Quick answer: Unfulfilled vs other statuses
 
-| Status | What it usually means | Your move |
-| --- | --- | --- |
-| **Unfulfilled** | Missing payment, upload, or incomplete submit | Verify payment + contact support |
-| **Processing / Pending** | Paid and in review queue | Wait within your tier window—see [stuck processing](/troubleshooting/stuck-processing) |
-| **Approved** | Decision issued—check email for PDF | Download and verify all fields |
-| **Rejected** | Decision issued—denial | Read email for reason—see [rejection guide](/troubleshooting/evisa-rejected-reapply) |
+| Status                   | What it usually means                         | Your move                                                                              |
+| ------------------------ | --------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **Unfulfilled**          | Missing payment, upload, or incomplete submit | Verify payment + contact support                                                       |
+| **Processing / Pending** | Paid and in review queue                      | Wait within your tier window—see [stuck processing](/troubleshooting/stuck-processing) |
+| **Approved**             | Decision issued—check email for PDF           | Download and verify all fields                                                         |
+| **Rejected**             | Decision issued—denial                        | Read email for reason—see [rejection guide](/troubleshooting/evisa-rejected-reapply)   |
 
 **Unfulfilled is not a rejection.** Do not assume you were denied until you confirm payment and receive a rejection email.
 
@@ -119,7 +119,7 @@ Start fresh only when support confirms:
 - Reference number was never issued
 - Session expired before any payment link was generated
 
-When re-filing, copy every field from your passport carefully—especially [date of birth format](/troubleshooting/wrong-date-of-birth-evisa) and [name spelling](/troubleshooting/wrong-name-evisa).
+When re-filing, copy every field from your passport carefully—especially [name spelling and date of birth format](/troubleshooting/wrong-name-evisa).
 
 ## Unfulfilled but money was taken—now what?
 
@@ -134,12 +134,12 @@ If your card shows a **completed charge** but status stays Unfulfilled beyond 24
 
 Travelers often refresh the portal and see different words on different days. Here is how to interpret them without filing a duplicate application.
 
-| Status word | Payment likely posted? | Immigration reviewing? | Typical traveler mistake |
-| --- | --- | --- | --- |
-| **Unfulfilled** | Often **no** | **No** | Paying again too soon |
-| **Processing** | **Yes** | **Yes** | Panic at 48 hours—see [48-hour guide](/troubleshooting/evisa-processing-48-hours) |
-| **Pending** | **Yes** | **Yes** | Same as Processing on many portals |
-| **Rejected** | Yes (fee usually spent) | Decision complete | Reapplying without fixing cause |
+| Status word     | Payment likely posted?  | Immigration reviewing? | Typical traveler mistake                                                          |
+| --------------- | ----------------------- | ---------------------- | --------------------------------------------------------------------------------- |
+| **Unfulfilled** | Often **no**            | **No**                 | Paying again too soon                                                             |
+| **Processing**  | **Yes**                 | **Yes**                | Panic at 48 hours—see [still-processing guide](/troubleshooting/stuck-processing) |
+| **Pending**     | **Yes**                 | **Yes**                | Same as Processing on many portals                                                |
+| **Rejected**    | Yes (fee usually spent) | Decision complete      | Reapplying without fixing cause                                                   |
 
 If you ever paid successfully but see Unfulfilled for more than **24 hours**, treat it as a **support ticket**, not a reason to start over.
 
@@ -244,8 +244,8 @@ Travelers who dispute a charge while immigration is still linking payment to a r
 
 - [Payment failed at checkout](/troubleshooting/payment-failed)
 - [eVisa pending 5+ days](/troubleshooting/stuck-processing)
-- [48 hours still processing](/troubleshooting/evisa-processing-48-hours)
-- [Weekend and holiday delays](/troubleshooting/weekend-processing)
+- [eVisa still processing](/troubleshooting/stuck-processing)
+- [Weekend and holiday delays](/blog/vietnam-evisa-processing-time-2026)
 - [Duplicate application mistakes](/troubleshooting/duplicate-evisa-application)
 
 ## Departure soon?

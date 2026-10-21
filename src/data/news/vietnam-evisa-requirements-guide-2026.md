@@ -1,31 +1,35 @@
 ---
-title: "Vietnam eVisa Requirements 2026: Full Checklist"
-slug: "vietnam-evisa-requirements-guide-2026"
-date: "2026-02-01"
-dateModified: "2026-06-18"
-author: "Vietnam eVisa Assistance Team"
-image: "/img/blog/photos/vietnam-evisa-requirements-guide-2026.jpg"
-imageAlt: "Traveler reviewing Vietnam eVisa requirements 2026 before applying online"
-excerpt: "Vietnam eVisa requirements 2026 explained: 90-day tourist visa rules, documents, photo standards, fees, processing time, entry ports, and US/UK/Australian traveler notes."
-tags: ["visa", "requirements", "2026"]
-section: "Visa Guides"
+title: 'Vietnam eVisa Requirements 2026: Full Checklist'
+slug: 'vietnam-evisa-requirements-guide-2026'
+date: '2026-02-01'
+dateModified: '2026-10-21'
+author: 'Vietnam eVisa Assistance Team'
+image: '/img/blog/photos/vietnam-evisa-requirements-guide-2026.jpg'
+imageAlt: 'Traveler reviewing Vietnam eVisa requirements 2026 before applying online'
+excerpt: 'Vietnam eVisa requirements 2026 explained: 90-day tourist visa rules, documents, photo standards, fees, processing time, entry ports, and US/UK/Australian traveler notes.'
+tags: ['visa', 'requirements', '2026']
+section: 'Visa Guides'
 faq:
-  - question: "What are the Vietnam eVisa Requirements 2026?"
-    answer: "Most applicants need a passport valid for at least six months beyond arrival, a clear passport bio-page scan, a compliant portrait photo, a valid email address, accurate travel dates and passenger details, and a card for payment. Your approved eVisa will list an authorized entry port that must match your first arrival. Eligibility and exemptions should be checked before applying."
-  - question: "Is the Vietnam tourist visa valid for 90 days in 2026?"
-    answer: "Vietnam eVisas are available for stays up to 90 days, with single-entry and multiple-entry options. The exact validity dates and entry type are printed on the approved eVisa."
-  - question: "Where do I apply for a Vietnam eVisa?"
-    answer: "Start on vietnamemigration.com at /apply — choose visa type and travel dates, enter passenger details, pay securely, and upload passport scans and photos. Our team reviews documents and supports you through approval."
-  - question: "What are Vietnam entry requirements for US/UK/Australian citizens?"
-    answer: "US and Australian passport holders generally need a visa or eVisa for ordinary tourist travel. UK citizens may qualify for short visa-exempt stays when policy allows, but exemption rules change—verify on /check-requirement before skipping an eVisa for longer trips, multiple entry, or itineraries that exceed exemption limits."
-  - question: "How long is Vietnam visa processing time 2026?"
-    answer: "Standard eVisa handling commonly takes several working days. This service presents normal handling as within 5 business days, with optional urgent handling when available. Approval is controlled by Vietnamese authorities and cannot be guaranteed by a private service."
-  - question: "What is the cost of Vietnam eVisa in 2026?"
-    answer: "Our checkout shows the government/application fee, service fee, and any optional urgent handling before you pay. Current government/application fees are $55 single-entry or $80 multiple-entry, plus the disclosed service fee."
-  - question: "Can I get a multi-entry visa Vietnam online?"
-    answer: "Yes, Vietnam eVisa applicants can choose single-entry or multiple-entry products when available for their passport and itinerary. Multiple entry is usually the safer choice if you will leave Vietnam and return during the same trip."
-  - question: "Can I change my Vietnam visa port of entry after approval?"
-    answer: "Do not assume you can change the port at the airport or border. If the port or itinerary is wrong, you may need a correction or a new application before travel."
+  - question: 'What are the Vietnam eVisa Requirements 2026?'
+    answer: 'Most applicants need a passport valid for at least six months beyond arrival, a clear passport bio-page scan, a compliant portrait photo, a valid email address, accurate travel dates and passenger details, and a card for payment. Your approved eVisa will list an authorized entry port that must match your first arrival. Eligibility and exemptions should be checked before applying.'
+  - question: 'Is the Vietnam tourist visa valid for 90 days in 2026?'
+    answer: 'Vietnam eVisas are available for stays up to 90 days, with single-entry and multiple-entry options. The exact validity dates and entry type are printed on the approved eVisa.'
+  - question: 'Where do I apply for a Vietnam eVisa?'
+    answer: 'Start on vietnamemigration.com at /apply — choose visa type and travel dates, enter passenger details, pay securely, and upload passport scans and photos. Our team reviews documents and supports you through approval.'
+  - question: 'What are Vietnam entry requirements for US/UK/Australian citizens?'
+    answer: 'US and Australian passport holders generally need a visa or eVisa for ordinary tourist travel. UK citizens may qualify for short visa-exempt stays when policy allows, but exemption rules change—verify on /check-requirement before skipping an eVisa for longer trips, multiple entry, or itineraries that exceed exemption limits.'
+  - question: 'How long is Vietnam visa processing time 2026?'
+    answer: 'Standard eVisa handling commonly takes several working days. This service presents normal handling as within 5 business days, with optional urgent handling when available. Approval is controlled by Vietnamese authorities and cannot be guaranteed by a private service.'
+  - question: 'What is the cost of Vietnam eVisa in 2026?'
+    answer: 'Our checkout shows the government/application fee, service fee, and any optional urgent handling before you pay. The government eVisa fee is $25 single-entry or $50 multiple-entry, plus the disclosed service fee.'
+  - question: 'Can I get a multi-entry visa Vietnam online?'
+    answer: 'Yes, Vietnam eVisa applicants can choose single-entry or multiple-entry products when available for their passport and itinerary. Multiple entry is usually the safer choice if you will leave Vietnam and return during the same trip.'
+  - question: 'Can I change my Vietnam visa port of entry after approval?'
+    answer: 'Do not assume you can change the port at the airport or border. If the port or itinerary is wrong, you may need a correction or a new application before travel.'
+  - question: 'Can I work in Vietnam on a tourist eVisa?'
+    answer: 'No. A tourist eVisa is for tourism and eligible short visits, not local employment. Paid work, study, sponsorship, and long-term stays usually require different documentation.'
+  - question: 'Can I extend my Vietnam eVisa after arrival?'
+    answer: 'Not online. Extensions, when allowed, are handled by immigration offices inside Vietnam before your current stay expires, and the officer decides. Choosing the right stay length and entry type before you apply is safer than relying on an extension, and you should never overstay.'
 ---
 
 The **Vietnam eVisa Requirements 2026** are straightforward when you prepare the right documents first: a valid passport, a clear passport scan, a compliant photo, accurate travel dates, and the right single-entry or multiple-entry visa type. The part that causes delays is rarely the rule itself. It is usually a typo, a poor photo, an entry port on your approval that does not match your ticket, or choosing the wrong visa for a side trip.
@@ -36,13 +40,13 @@ This guide is written for travelers who want to **apply for Vietnam visa online*
 
 ## Vietnam eVisa 2026 at a Glance
 
-| Item | 2026 Vietnam eVisa summary |
-| :--- | :--- |
-| **Visa Type** | Electronic visa for tourism, short business visits, family travel, cruises, and eligible short stays |
-| **Max Stay** | Up to **90 days** from the validity date printed on the approval |
-| **Entries** | **Single entry** or **multiple entry** depending on the product selected |
-| **Processing Time** | Often several working days; our standard handling is shown as **within 5 business days** |
-| **Government Fee** | Current government/application fees on this service are **$55 single-entry** or **$80 multiple-entry**, plus the disclosed service fee shown in our [transparent Vietnam eVisa fee breakdown](/fees). |
+| Item                | 2026 Vietnam eVisa summary                                                                                                                                                |
+| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Visa Type**       | Electronic visa for tourism, short business visits, family travel, cruises, and eligible short stays                                                                      |
+| **Max Stay**        | Up to **90 days** from the validity date printed on the approval                                                                                                          |
+| **Entries**         | **Single entry** or **multiple entry** depending on the product selected                                                                                                  |
+| **Processing Time** | Often several working days; our standard handling is shown as **within 5 business days**                                                                                  |
+| **Government Fee**  | The government eVisa fee is **$25 single-entry** or **$50 multiple-entry**, plus the disclosed service fee shown in our [transparent Vietnam eVisa fee breakdown](/fees). |
 
 ## Who Needs a Vietnam eVisa in 2026?
 
@@ -56,11 +60,11 @@ Before you book non-refundable flights, verify your [Vietnam eVisa eligibility b
 
 The search query **Vietnam entry requirements for US/UK/Australian citizens** covers three common passport groups, but the answer is not identical for all three.
 
-| Passport | Typical 2026 eVisa planning note |
-| :--- | :--- |
-| **United States citizens** | US passport holders generally need a visa or eVisa for ordinary tourism. A 90-day single-entry or multiple-entry eVisa is commonly used for vacations, family visits, and regional trips. |
+| Passport                    | Typical 2026 eVisa planning note                                                                                                                                                                                                                                                                                                                                   |
+| :-------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **United States citizens**  | US passport holders generally need a visa or eVisa for ordinary tourism. A 90-day single-entry or multiple-entry eVisa is commonly used for vacations, family visits, and regional trips.                                                                                                                                                                          |
 | **United Kingdom citizens** | UK passport holders **may** qualify for short visa-exempt stays when Vietnam's unilateral exemption policy applies—but exemption **length, eligible purposes, and effective dates change without notice**. Use an eVisa when your trip exceeds exemption days, you need multiple entry, or our [nationality checker](/check-requirement) shows a visa is required. |
-| **Australian citizens** | Australian passport holders generally need a visa or eVisa for ordinary tourism. Check the exact eVisa type before paying, especially for multi-country itineraries. |
+| **Australian citizens**     | Australian passport holders generally need a visa or eVisa for ordinary tourism. Check the exact eVisa type before paying, especially for multi-country itineraries.                                                                                                                                                                                               |
 
 The safest workflow is simple: check your nationality, confirm whether visa exemption is enough, then choose the correct eVisa product before paying. If you are unsure, start with the [country-by-country Vietnam visa requirement checker](/check-requirement) rather than guessing from a general article.
 
@@ -68,16 +72,16 @@ The safest workflow is simple: check your nationality, confirm whether visa exem
 
 Your passport is the foundation of the application. Even a strong itinerary will not fix a passport mismatch.
 
-| Requirement | What to prepare |
-| :--- | :--- |
-| **Passport validity** | At least 6 months beyond your intended arrival date is the safest standard |
-| **Blank page** | At least one blank page for entry and exit stamps |
-| **Bio-page scan** | Full color page, all corners visible, no glare, MRZ lines readable |
-| **Name format** | Match your passport exactly, including middle names and order |
-| **Passport number** | Check every digit against the machine-readable zone |
+| Requirement              | What to prepare                                                                   |
+| :----------------------- | :-------------------------------------------------------------------------------- |
+| **Passport validity**    | At least 6 months beyond your intended arrival date is the safest standard        |
+| **Blank page**           | At least one blank page for entry and exit stamps                                 |
+| **Bio-page scan**        | Full color page, all corners visible, no glare, MRZ lines readable                |
+| **Name format**          | Match your passport exactly, including middle names and order                     |
+| **Passport number**      | Check every digit against the machine-readable zone                               |
 | **Travel document type** | Ordinary passports are the standard case; special documents may need extra review |
 
-If your passport expires soon, renew it before applying. Your approved eVisa is linked to the passport number submitted. A new passport usually means you need a new application.
+If your passport expires soon, renew it before applying. Your approved eVisa is linked to the passport number submitted. A new passport, including a replacement for one lost or stolen after approval, means a new application: an eVisa tied to the old passport number is not valid for travel.
 
 ## Vietnam eVisa Photo Requirements 2026
 
@@ -91,10 +95,10 @@ For a full photo checklist, use our [Vietnam eVisa photo requirements guide for 
 
 Vietnam eVisas are available as single-entry or multiple-entry authorizations. The right choice depends on your route, not just the price.
 
-| eVisa type | Best for | Watch out for |
-| :--- | :--- | :--- |
-| **Single-entry Vietnam eVisa** | One trip into Vietnam, then departure home or onward | Once you leave Vietnam, the visa is usually consumed |
-| **Multi-entry visa Vietnam** | Trips that include Cambodia, Thailand, Laos, Singapore, or another country before returning to Vietnam | Your re-entry must still fall within the printed validity dates |
+| eVisa type                     | Best for                                                                                               | Watch out for                                                   |
+| :----------------------------- | :----------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- |
+| **Single-entry Vietnam eVisa** | One trip into Vietnam, then departure home or onward                                                   | Once you leave Vietnam, the visa is usually consumed            |
+| **Multi-entry visa Vietnam**   | Trips that include Cambodia, Thailand, Laos, Singapore, or another country before returning to Vietnam | Your re-entry must still fall within the printed validity dates |
 
 Choose multiple entry if your itinerary includes any international side trip and a return to Vietnam. A common mistake is booking Hanoi to Da Nang to Siem Reap to Ho Chi Minh City on a single-entry eVisa. That route leaves Vietnam and comes back, so it normally needs multiple entry or a second visa.
 
@@ -134,13 +138,13 @@ Use our [Vietnam eVisa approved entry ports guide](/blog/vietnam-evisa-approved-
 
 The **cost of Vietnam eVisa** on this site is shown in full before you pay. Fees include the government/application charge, our assistance service fee, and any optional urgent handling you select.
 
-| Cost item | What it means |
-| :--- | :--- |
-| **Government/application fee** | Currently **$55 for single entry** or **$80 for multiple entry** for 90-day tourist/business eVisa products |
-| **Service fee** | Assistance fee for review, validation, support, and guided filing |
-| **Urgent handling fee** | Optional upgrade if your travel date allows faster handling on our side |
+| Cost item                      | What it means                                                                                               |
+| :----------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| **Government/application fee** | Currently **$25 for single entry** or **$50 for multiple entry** for 90-day tourist/business eVisa products |
+| **Service fee**                | Assistance fee for review, validation, support, and guided filing                                           |
+| **Urgent handling fee**        | Optional upgrade if your travel date allows faster handling on our side                                     |
 
-Review the [Vietnam eVisa fees explained for 2026](/blog/vietnam-evisa-fees-explained-2026) and the live [Vietnam eVisa fee calculator](/fees) before checkout.
+Check the live [Vietnam eVisa fee calculator](/fees) before checkout.
 
 Be careful with ads that hide the total until the last step. A trustworthy visa page should show every fee line before payment.
 
@@ -159,6 +163,7 @@ The most common problems are boring, tiny, and expensive in time. That is exactl
 - Passport number typed with one wrong digit
 - Middle name omitted or entered in the wrong order
 - Date of birth entered in the wrong format
+- Email address mistyped, so the approval and status updates never arrive
 - Passport scan cropped, blurry, dark, or missing MRZ lines
 - Portrait photo rejected for shadows, glasses, filters, or background issues
 - Single-entry eVisa selected for a multi-country itinerary
@@ -166,15 +171,17 @@ The most common problems are boring, tiny, and expensive in time. That is exactl
 - Duplicate applications submitted before the first result is clear
 - Travel purpose inconsistent with the selected visa type
 
-Use our [Vietnam eVisa mistakes checklist](/blog/vietnam-evisa-common-mistakes-2026) before paying. If your application was refused or returned, the [Vietnam eVisa rejection reasons guide](/blog/vietnam-evisa-rejection-reasons-2026) explains what to fix before trying again.
+Use our [Vietnam eVisa mistakes checklist](/blog/vietnam-evisa-common-mistakes-2026) before paying. If your application was refused or returned, the [Vietnam eVisa rejection and reapply guide](/troubleshooting/evisa-rejected-reapply) explains what to fix before trying again.
 
 ## Vietnam eVisa Requirements for Families, Children, and Groups
 
 Children and infants generally need their own travel authorization. Do not assume a child is covered by a parent's eVisa simply because the family travels together.
 
-For families, prepare each passenger's passport details, portrait photo, and travel information before starting. If one child's photo fails or one passport number is wrong, the group can still be delayed. Families should apply earlier than solo travelers because there are more fields to check.
+Our [/apply](/apply) form takes up to 15 travelers in one application, so a family can check out once. Prepare each passenger's passport details, portrait photo, and travel information before starting. If one child's photo fails or one passport number is wrong, the group can still be delayed. Families should apply earlier than solo travelers because there are more fields to check.
 
-Read the [Vietnam eVisa guide for minors and families](/blog/vietnam-evisa-for-minors-families-2026) and the [family group Vietnam eVisa FAQ](/faq/family-group-vietnam-evisa) before submitting several passengers at once.
+At the airport, carry a birth certificate copy if a child's surname differs from the accompanying parent's, and a parental consent letter if only one parent is traveling—airlines may ask for it.
+
+Read the [Vietnam eVisa guide for minors and families](/blog/vietnam-evisa-for-minors-families-2026) before submitting several passengers at once.
 
 ## Vietnam eVisa Requirements for Business, Work, and Long Stays
 
@@ -196,7 +203,7 @@ Carry:
 - Return or onward travel information if requested
 - Backup digital copy of the eVisa PDF
 
-If you spot an error, do not wait until check-in. Contact support or file a corrected application as early as possible.
+If you spot an error, do not wait until check-in. Contact support or file a corrected application as early as possible. If you lose the PDF, contact support with your reference number instead of submitting a second application.
 
 ## Vietnam eVisa Requirements 2026 Checklist Before You Apply
 
@@ -240,7 +247,7 @@ Many applications take several working days. Our standard handling is shown as w
 
 ### What is the cost of Vietnam eVisa in 2026?
 
-Our checkout displays the government/application fee, service fee, and optional urgent handling before payment. Current government/application fees are $55 single-entry or $80 multiple-entry, plus the disclosed service fee.
+Our checkout displays the government/application fee, service fee, and optional urgent handling before payment. The government eVisa fee is $25 single-entry or $50 multiple-entry, plus the disclosed service fee.
 
 ### Do I need a multi-entry visa Vietnam if I visit Cambodia and return?
 
@@ -254,9 +261,13 @@ Do not assume you can change it at check-in or at the border. If the port on you
 
 No. A tourist eVisa is for tourism and eligible short visits, not local employment. Paid work, study, sponsorship, and long-term stays usually require different documentation.
 
+### Can I extend my Vietnam eVisa after arrival?
+
+Not online. Extensions, when allowed, are handled by immigration offices inside Vietnam before your current stay expires, and the officer decides. Choosing the right stay length and entry type before you apply is safer; see the [Vietnam eVisa extension guide](/blog/vietnam-evisa-extension-guide-2026) and never overstay.
+
 ## How we update this guide
 
-**Last reviewed:** 18 June 2026
+**Last reviewed:** 21 October 2026
 
 This guide is maintained by the **Vietnam eVisa Assistance Team**—a private application assistance service, not the Government of Vietnam. Read [who we are](/about) and our [legal terms](/legal) before you pay.
 

@@ -19,7 +19,7 @@ function isMissingServiceFeeTable(error: unknown): boolean {
  * Priority: visa type > destination > default
  * @param destinationId - The destination ID
  * @param visaTypeId - The visa type ID
- * @returns Service fee per passenger (defaults to 69.99 if no config found)
+ * @returns Service fee per passenger (defaults to VIETNAM_SERVICE_FEE_PER_PAX if no config found)
  */
 export async function getServiceFee(destinationId: string, visaTypeId: string): Promise<number> {
   try {

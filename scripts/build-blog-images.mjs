@@ -11,26 +11,9 @@ const PREVIEW_DIR = '.img-candidates/_finals';
 const W = 1200;
 const H = 675;
 
-// blog slug -> curated candidate file. Cuisine intentionally omitted (already good).
+// blog slug -> curated candidate file.
 const MAP = {
-  // Destinations & experiences
-  'best-islands-vietnam-beyond-hanoi-2026': 'best-islands__4.jpg',
-  'vietnam-beach-holidays-coast-2026': 'beach__1.jpg',
-  'vietnam-tropical-islands-paradise-2026': 'island-sunny__1.jpg',
-  'vietnam-best-diving-destinations-2026': 'best-islands__1.jpg',
-  'best-photography-spots-vietnam-2026': 'golden-bridge__2.jpg',
-  'hidden-gems-vietnam-2026': 'hidden-gems__1.jpg',
-  'vietnam-adventure-travel-2026': 'adventure-b__1.jpg',
-  'vietnam-volcano-trekking-guide-2026': 'volcano-b__5.jpg',
-  'vietnam-wildlife-nature-encounters-2026': 'wildlife__4.jpg',
-  'vietnam-national-parks-wildlife-2026': 'national-parks__2.jpg',
-  'top-10-historical-places-vietnam': 'historical__5.jpg',
-  'vietnamese-festivals-cultural-celebrations-2026': 'festivals__1.jpg',
-  'vietnamese-music-arts-culture-2026': 'music-arts__2.jpg',
-  'vietnam-shopping-markets-guide-2026': 'shopping__4.jpg',
-  'family-friendly-vietnam-2026': 'family__2.jpg',
-  'vietnamese-wellness-spa-retreats-2026': 'tropical-islands__3.jpg',
-  // eVisa / admin guides (Vietnam scenics + thematically adjacent travel/finance imagery)
+  // eVisa guides (Vietnam scenics)
   'vietnam-evisa-approved-entry-ports-2026': 'airport__2.jpg',
   'vietnam-evisa-multiple-entry-guide-2026': 'airport-b__4.jpg',
   'vietnam-evisa-processing-time-2026': 'hanoi__3.jpg',
@@ -40,19 +23,7 @@ const MAP = {
   'vietnam-evisa-for-minors-families-2026': 'family__1.jpg',
   'vietnam-evisa-photo-requirements-2026': 'adventure__2.jpg',
   'vietnam-evisa-common-mistakes-2026': 'danang-bridge__2.jpg',
-  'vietnam-evisa-rejection-reasons-2026': 'hcmc__2.jpg',
-  'vietnam-evisa-fees-explained-2026': 'currency-b__2.jpg',
-  'vietnam-currency-exchange-guide-2026': 'currency-b__6.jpg',
   'vietnam-evisa-vs-embassy-visa-2026': 'golden-bridge__1.jpg',
-  // Inline article photos replacing generic SVG placeholders
-  'inline-cat-ba-lan-ha-bay': 'islands-photo__3.jpg',
-  'inline-pho-hanoi': 'cuisine-photo__1.jpg',
-  'inline-ban-gioc-waterfall': 'hidden-gems__3.jpg',
-  'inline-hue-imperial-city': 'historical__1.jpg',
-  'inline-ma-pi-leng-pass': 'adventure__2.jpg',
-  'inline-ben-thanh-market': 'shopping__1.jpg',
-  'inline-ta-phin-rice-terraces': 'volcano-b__4.jpg',
-  'inline-water-puppet-theatre': 'music-arts__1.jpg',
 };
 
 const preview = process.argv.includes('--preview');

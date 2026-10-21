@@ -36,16 +36,16 @@ Most **Vietnam eVisa** applications succeed, but a predictable set of mistakes s
 
 ## Quick answer: Vietnam eVisa mistakes at a glance
 
-| Item | What to know |
-| --- | --- |
-| **#1 mistake** | Passport number or date-of-birth typo vs the MRZ |
-| **#2 airport risk** | Entry port on PDF does not match your ticket |
-| **#3 itinerary error** | Single entry chosen for a multi-country loop |
-| **#4 document fail** | Selfie or blurry passport scan |
-| **#5 timing mistake** | Applying within 48–72 hours of departure |
-| **Best prevention** | MRZ check + printed PDF + apply 7–14 days early |
-| **Who it affects most** | First-time applicants, families, multi-stop Southeast Asia routes |
-| **Official vs advice** | Rules come from immigration policy; timing tips are planning guidance |
+| Item                    | What to know                                                          |
+| ----------------------- | --------------------------------------------------------------------- |
+| **#1 mistake**          | Passport number or date-of-birth typo vs the MRZ                      |
+| **#2 airport risk**     | Entry port on PDF does not match your ticket                          |
+| **#3 itinerary error**  | Single entry chosen for a multi-country loop                          |
+| **#4 document fail**    | Selfie or blurry passport scan                                        |
+| **#5 timing mistake**   | Applying within 48–72 hours of departure                              |
+| **Best prevention**     | MRZ check + printed PDF + apply 7–14 days early                       |
+| **Who it affects most** | First-time applicants, families, multi-stop Southeast Asia routes     |
+| **Official vs advice**  | Rules come from immigration policy; timing tips are planning guidance |
 
 **Bottom line:** Every field on your eVisa must match the passport you carry at check-in and immigration. Treat the approval PDF like a contract—not a flexible travel suggestion.
 
@@ -61,7 +61,7 @@ When any field disagrees—name spelling, passport number, date of birth, entry 
 
 The frustrating part: many mistakes are avoidable with five minutes of careful review against your passport bio page. The expensive part: fixing errors after approval often means a **new application and new fees**.
 
-For a full application walkthrough, see [how to apply for a Vietnam eVisa online](/blog/how-to-apply-vietnam-evisa-online-2026). For what happens when things go wrong at the government level, read [Vietnam eVisa rejection reasons](/blog/vietnam-evisa-rejection-reasons-2026).
+For a full application walkthrough, see [how to apply for a Vietnam eVisa online](/blog/how-to-apply-vietnam-evisa-online-2026). For what happens when things go wrong at the government level, read [Vietnam eVisa rejection reasons](/troubleshooting/evisa-rejected-reapply).
 
 ## Mistake 1: Passport number typos
 
@@ -114,12 +114,12 @@ Full port list and planning notes: [Vietnam eVisa entry ports](/blog/vietnam-evi
 
 Southeast Asia trips often include a side trip to Thailand, Cambodia, or Laos—and then a return to Vietnam. A **single-entry** eVisa authorizes **one arrival period**. Once you exit Vietnam, that entry is consumed.
 
-**Government fees on our portal (2026):**
+**Government eVisa fees (2026):**
 
-| Entry type | Government fee | Best for |
-| --- | ---: | --- |
-| **Single entry (90 days)** | **$55** | One continuous stay in Vietnam |
-| **Multiple entry (90 days)** | **$80** | Leave and re-enter within the validity window |
+| Entry type                   | Government fee | Best for                                      |
+| ---------------------------- | -------------: | --------------------------------------------- |
+| **Single entry (90 days)**   |        **$25** | One continuous stay in Vietnam                |
+| **Multiple entry (90 days)** |        **$50** | Leave and re-enter within the validity window |
 
 The extra **$25** government fee for multiple entry is cheaper than a second visa application, missed flights, or rebooking hotels because you cannot re-enter.
 
@@ -209,12 +209,12 @@ Standard handling on assisted flows is commonly **within five business days** af
 
 **Recommended planning window:**
 
-| Days before departure | Risk level | Action |
-| --- | --- | --- |
-| **14+** | Low | Ideal—apply with final passport and itinerary |
-| **7–13** | Moderate | Reasonable for standard processing |
-| **3–6** | High | Use urgent tiers only if eligible; fix uploads immediately if rejected |
-| **0–2** | Very high | Emergency—contact support; have backup plans |
+| Days before departure | Risk level | Action                                                                 |
+| --------------------- | ---------- | ---------------------------------------------------------------------- |
+| **14+**               | Low        | Ideal—apply with final passport and itinerary                          |
+| **7–13**              | Moderate   | Reasonable for standard processing                                     |
+| **3–6**               | High       | Use urgent tiers only if eligible; fix uploads immediately if rejected |
+| **0–2**               | Very high  | Emergency—contact support; have backup plans                           |
 
 Applying the same day you fly is how travelers reach check-in without a PDF. Read [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026) before you choose a processing tier.
 
@@ -230,30 +230,30 @@ Paying twice because the first application "seemed slow" creates conflicting rec
 - Contact support with payment proof before opening a parallel application
 - Track one application through to approval or formal rejection
 
-If the first application was rejected, fix the root cause before reapplying—see [Vietnam eVisa rejection reasons](/blog/vietnam-evisa-rejection-reasons-2026).
+If the first application was rejected, fix the root cause before reapplying—see [Vietnam eVisa rejection reasons](/troubleshooting/evisa-rejected-reapply).
 
 ## What happens at the airport if you made a mistake?
 
 Airlines verify travel authorization before boarding. Immigration police have the final say even if the airline let you fly.
 
-| Mistake | Typical airport outcome |
-| --- | --- |
-| MRZ / passport number mismatch | Boarding denied at check-in |
-| Wrong entry port on PDF | Supervisor delay or entry refusal |
-| Expired passport | No boarding; visa fees generally not refunded by airline |
-| Single entry after regional exit | Re-entry denied on return leg |
-| Name spelling mismatch | Check-in hold or immigration questioning |
+| Mistake                          | Typical airport outcome                                  |
+| -------------------------------- | -------------------------------------------------------- |
+| MRZ / passport number mismatch   | Boarding denied at check-in                              |
+| Wrong entry port on PDF          | Supervisor delay or entry refusal                        |
+| Expired passport                 | No boarding; visa fees generally not refunded by airline |
+| Single entry after regional exit | Re-entry denied on return leg                            |
+| Name spelling mismatch           | Check-in hold or immigration questioning                 |
 
 **Planning advice:** Arrive at the airport early if you know there is a minor discrepancy. Do not expect immigration to waive official rules because your holiday is booked.
 
 ## Fixing errors at each stage
 
-| Stage | What you can do |
-| --- | --- |
-| **Before payment** | Edit fields in the application draft; re-read MRZ |
-| **After payment, before processing** | Contact support immediately with reference ID |
-| **After approval** | Serious field errors usually require a **new application** |
-| **After rejection** | Fix root cause; respect any cooling-off period before reapplying |
+| Stage                                | What you can do                                                  |
+| ------------------------------------ | ---------------------------------------------------------------- |
+| **Before payment**                   | Edit fields in the application draft; re-read MRZ                |
+| **After payment, before processing** | Contact support immediately with reference ID                    |
+| **After approval**                   | Serious field errors usually require a **new application**       |
+| **After rejection**                  | Fix root cause; respect any cooling-off period before reapplying |
 
 Never pay twice without support guidance. For name-specific fixes, see [Wrong Name on eVisa Fix Guide](/troubleshooting/wrong-name-evisa).
 
@@ -276,7 +276,7 @@ Family trips amplify individual errors:
 - Child portrait with a **parent's shadow** or pacifier obscuring the face
 - Different **entry ports** across family PDFs
 
-Each child needs their own authorization. Group filing tips: [Vietnam eVisa for families and minors](/blog/vietnam-evisa-for-minors-families-2026) and [family group Vietnam eVisa FAQ](/faq/family-group-vietnam-evisa).
+Each child needs their own authorization. Group filing tips: [Vietnam eVisa for families and minors](/blog/vietnam-evisa-for-minors-families-2026).
 
 ## Pre-flight verification checklist (5 minutes)
 
@@ -294,7 +294,7 @@ Run this list the night before your flight:
 
 Eligibility and scrutiny vary by nationality. Confirm yours on [Vietnam visa eligibility by country](/check-requirement) before assuming a friend's experience applies to your passport.
 
-Use the [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) for document standards and the [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026) page to confirm totals before payment.
+Use the [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) for document standards and the [Vietnam eVisa fees and calculator](/fees) page to confirm totals before payment.
 
 ## When guided validation helps
 
@@ -307,7 +307,6 @@ Assisted application at [/apply](/apply) tends to help when you want:
 
 Assistance reduces avoidable errors—it does not guarantee approval or override immigration decisions.
 
-
 ## Frequently asked questions
 
 ### What is the most common Vietnam eVisa mistake?
@@ -316,7 +315,7 @@ Passport number typos and date-of-birth format errors against the MRZ. Read the 
 
 ### Can I enter Vietnam at any airport with an eVisa?
 
-No. You must arrive at the port listed on your approval PDF. See [Vietnam eVisa entry ports](/faq/vietnam-evisa-entry-points) for planning.
+No. You must arrive at the port listed on your approval PDF. See [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026) for planning.
 
 ### Can I reuse a single-entry Vietnam eVisa?
 
@@ -343,4 +342,5 @@ Yes—each passport holder needs their own authorization. Parents cannot cover i
 No. Duplicate paid applications can slow or block approval. Track one reference number and contact support first.
 
 ---
+
 When your passport, photos, and itinerary are verified, [apply for Vietnam eVisa online](/apply) with guided validation—or start with the [Vietnam eVisa requirements guide](/blog/vietnam-evisa-requirements-guide-2026) if you are still preparing documents.

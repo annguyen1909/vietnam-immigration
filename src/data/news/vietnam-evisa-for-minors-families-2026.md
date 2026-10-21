@@ -1,8 +1,8 @@
 ---
-title: 'Vietnam eVisa for Children & Families (2026): Complete Group Application Guide'
+title: 'Vietnam eVisa for Children & Families (2026): Group Filing Guide'
 slug: vietnam-evisa-for-minors-families-2026
 date: '2026-03-07'
-dateModified: '2026-06-24'
+dateModified: '2026-10-21'
 author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg'
 imageAlt: 'Families with children waiting at a Vietnam international airport boarding gate'
@@ -13,19 +13,19 @@ faq:
   - question: Does a baby need a Vietnam eVisa?
     answer: If the infant has their own passport, they normally need their own eVisa—even as a lap child on the airline ticket. Visa-exempt nationalities may have different rules. Confirm on our eligibility checker before you fly.
   - question: Can I apply for my whole family in one Vietnam eVisa application?
-    answer: Many assisted flows accept up to 15 passengers in one payment session. Each traveler still uploads individual passport scans and portrait photos with their own passport data.
+    answer: Many assisted flows accept up to 15 passengers in one payment session. Each traveler still uploads individual passport scans and portrait photos with their own passport data. Larger groups file several applications with the same entry port, dates, and visa type.
   - question: Do children pay the same Vietnam eVisa government fee as adults?
-    answer: Government fees follow visa type ($55 single entry / $80 multiple entry for standard 90-day products), not age. Budget the same per-passport government fee plus service fee unless you choose different visa types per traveler.
+    answer: Government fees follow visa type ($25 single entry / $50 multiple entry for standard 90-day products), not age. Budget the same per-passport government fee plus service fee unless you choose different visa types per traveler.
   - question: What documents should parents carry for children at Vietnam immigration?
-    answer: Bring printed eVisas and passports for every traveler. If surnames differ, carry a birth certificate copy. Airlines may require a parental consent letter when one parent travels alone with a child.
+    answer: Bring printed eVisas and passports for every traveler. If surnames differ, carry a birth certificate copy. Airlines may require a notarized consent letter from the non-traveling parent when one parent travels alone with a child.
   - question: Can a child travel on a parent's Vietnam eVisa?
     answer: No. Each passport holder needs their own eVisa authorization. Children cannot be added to an adult's approval, even as lap infants with their own passport.
-  - question: How do I take a Vietnam eVisa photo for an infant?
-    answer: Lay the baby on a plain white sheet in even natural light, face visible without pacifier if possible, and avoid parent shadows in the frame. Technical rules match adult passport-style photos.
+  - question: Can I add a child to a family eVisa application after submitting it?
+    answer: No. A submitted application cannot take extra travelers. File a new application for that person with their own passport scan, photo, and fees, using the same entry port, dates, and visa type as the rest of the family.
   - question: Should all family members have the same entry port on their Vietnam eVisa?
     answer: Yes. Every family member's approved PDF should list the same port of entry that matches your shared flight or border crossing. Mismatched ports cause delays or split entries at immigration.
   - question: When should families apply for Vietnam eVisa before travel?
-    answer: Apply at least one to two weeks before departure. If one child's photo fails validation, the whole group may wait for a fix. Allow extra margin when traveling with infants or new passports.
+    answer: Apply at least one to two weeks before departure. Children are processed on the same timeline as adults, but if one child's photo fails validation, the whole group may wait for a fix. Allow extra margin when traveling with infants or new passports.
   - question: Do visa-exempt children still need a Vietnam eVisa?
     answer: Some nationalities receive short visa-exempt entry for adults and children alike—but exemption length, entry type, and purpose limits apply. If your family stay exceeds exemption days or you need multiple entry, each passport holder should apply for an eVisa.
   - question: Can grandparents apply for a child's Vietnam eVisa?
@@ -40,20 +40,18 @@ Families **travelling to Vietnam** or **visiting Vietnam** with children should 
 
 ## Quick answer: Vietnam eVisa for families at a glance
 
-| Item | 2026 summary |
-| --- | --- |
-| **Who needs their own eVisa** | Every traveler with their own passport—including infants |
-| **Group filing** | Up to **15 passengers** in one payment session on our flow |
-| **Government fee per person** | **$55** single entry / **$80** multiple entry (not age-based) |
-| **Service fee** | **$69.99 per passenger** on assisted filing |
-| **Key documents per child** | Passport scan, portrait photo, guardian details, aligned travel dates |
-| **Apply early** | **7–14+ days** before departure; extra margin for infant photos |
-| **At immigration** | Printed eVisa + passport per person; birth certificate if surnames differ |
-| **Official vs advice** | Separate visa per passport is official policy; timeline tips are planning guidance |
+| Item                          | 2026 summary                                                                       |
+| ----------------------------- | ---------------------------------------------------------------------------------- |
+| **Who needs their own eVisa** | Every traveler with their own passport—including infants                           |
+| **Group filing**              | Up to **15 passengers** in one payment session on our flow                         |
+| **Government fee per person** | **$25** single entry / **$50** multiple entry (not age-based)                      |
+| **Service fee**               | **$69.99 per passenger** on assisted filing                                        |
+| **Key documents per child**   | Passport scan, portrait photo, guardian details, aligned travel dates              |
+| **Apply early**               | **7–14+ days** before departure; extra margin for infant photos                    |
+| **At immigration**            | Printed eVisa + passport per person; birth certificate if surnames differ          |
+| **Official vs advice**        | Separate visa per passport is official policy; timeline tips are planning guidance |
 
 **Best for:** Parents, multi-generational trips, school holiday travel, and groups landing at the same Vietnamese airport or border crossing.
-
-**Visa planning note:** This guide covers **entry authorization only**. Once every eVisa is approved, families can enjoy **street food** tours and **cooking classes** in cities like Hanoi and **Ho Chi Minh City**—see [family-friendly Vietnam travel tips](/blog/family-friendly-vietnam-2026) for itinerary ideas, but resolve every passport's eVisa first.
 
 ## Does my child need a separate Vietnam eVisa?
 
@@ -78,13 +76,13 @@ For general filing steps, see [how to apply for a Vietnam eVisa online](/blog/ho
 
 Some families skip applications because **one parent** qualifies for visa-free entry. Children do not inherit exemption by association—each passport is judged on its own nationality and rules.
 
-| Situation | Typical planning outcome |
-| --- | --- |
-| **Whole family on exempt passports, short stay** | eVisa may not be required—confirm exemption days and entry type |
-| **Mixed nationalities in one family** | Exempt parent may enter freely; non-exempt child still needs authorization—common when one parent holds a **Hong Kong** or UK passport and another does not |
-| **Stay longer than exemption allows** | Each traveler who will exceed exemption needs an eVisa |
-| **Side trip to Cambodia/Thailand then return** | Multiple-entry eVisa usually required even if first entry was exempt |
-| **UK, EU, or other partial exemptions** | Exemption length and conditions change—verify live before departure |
+| Situation                                        | Typical planning outcome                                                                                                                                    |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Whole family on exempt passports, short stay** | eVisa may not be required—confirm exemption days and entry type                                                                                             |
+| **Mixed nationalities in one family**            | Exempt parent may enter freely; non-exempt child still needs authorization—common when one parent holds a **Hong Kong** or UK passport and another does not |
+| **Stay longer than exemption allows**            | Each traveler who will exceed exemption needs an eVisa                                                                                                      |
+| **Side trip to Cambodia/Thailand then return**   | Multiple-entry eVisa usually required even if first entry was exempt                                                                                        |
+| **UK, EU, or other partial exemptions**          | Exemption length and conditions change—verify live before departure                                                                                         |
 
 **Official policy signal:** Exemption rules are set by Vietnamese immigration authorities. **Planning advice:** When any family member needs a visa, file the **whole group's entry data consistently**—same entry port, aligned dates—even if one passport is technically exempt.
 
@@ -92,16 +90,16 @@ Some families skip applications because **one parent** qualifies for visa-free e
 
 Families filing through **vietnamemigration.com** get one structured checkout: government fee plus disclosed service fee per passenger, with document checks and support through approval.
 
-| What [/apply](/apply) gives families | Why it helps |
-| --- | --- |
-| **Group checkout up to 15 passengers** | One payment session, shared contact email |
-| **Document checks per child** | Catches infant photo and passport scan issues early |
-| **Support thread** | One reference to track if any passenger needs a correction |
-| **Aligned entry data** | Same travel dates and consistent passenger details across the group |
+| What [/apply](/apply) gives families   | Why it helps                                                        |
+| -------------------------------------- | ------------------------------------------------------------------- |
+| **Group checkout up to 15 passengers** | One payment session, shared contact email                           |
+| **Document checks per child**          | Catches infant photo and passport scan issues early                 |
+| **Support thread**                     | One reference to track if any passenger needs a correction          |
+| **Aligned entry data**                 | Same travel dates and consistent passenger details across the group |
 
 **What no filing path does:** combine children onto one eVisa PDF or waive the per-passport government fee based on age.
 
-Assisted family filing tends to help when you are managing **three or more passports**, struggling with **infant photos**, or need **multiple-entry confirmation** for a Southeast Asia loop. See [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026) for per-passenger totals.
+Assisted family filing tends to help when you are managing **three or more passports**, struggling with **infant photos**, or need **multiple-entry confirmation** for a Southeast Asia loop. See [current fees](/fees) for per-passenger totals.
 
 ## One application, multiple passengers: how group filing works
 
@@ -125,19 +123,24 @@ Each passenger uploads **individual passport bio scans and portraits**. Each chi
 
 **Filing order tip:** Enter adults first to establish shared travel dates and entry port, then add children—review every child's passport number and date of birth against the physical booklet before payment.
 
-More detail: [family group Vietnam eVisa FAQ](/faq/family-group-vietnam-evisa) and [children visa Vietnam FAQ](/faq/children-visa-vietnam).
+### Larger groups, late additions, and mixed passports
+
+- **Not just relatives:** Friends, tour groups, or colleagues on the same itinerary can share one checkout.
+- **More than 15 travelers:** Split the group into several applications and use the same entry port, dates, and visa type on each. Keep every reference number together so support can trace the whole party.
+- **Adding someone after submission:** A submitted application cannot take extra travelers. The late addition files a new application with their own documents and fees, matching the rest of the family's port and dates.
+- **Mixed nationalities:** One checkout can hold different passport countries, but each traveler's eligibility and visa options follow their own passport.
 
 ## Documents to prepare for every child
 
 Gather a folder per child before you open the form. Stopping mid-application to chase a baby photo is how date-of-birth typos happen.
 
-| Document | Notes |
-| --- | --- |
-| **Passport bio scan** | Full colour page, flat, all corners visible, no fingers on edges |
-| **Passport photos** | Plain background, eyes open; avoid pacifiers blocking the face when possible |
-| **Guardian / parent names** | Match passports of traveling adults |
-| **Travel dates** | Align with adults—mixed arrival dates confuse airlines |
-| **Passport validity** | Six months beyond arrival; blank page for stamp |
+| Document                    | Notes                                                                        |
+| --------------------------- | ---------------------------------------------------------------------------- |
+| **Passport bio scan**       | Full colour page, flat, all corners visible, no fingers on edges             |
+| **Passport photos**         | Plain background, eyes open; avoid pacifiers blocking the face when possible |
+| **Guardian / parent names** | Match passports of traveling adults                                          |
+| **Travel dates**            | Align with adults—mixed arrival dates confuse airlines                       |
+| **Passport validity**       | Six months beyond arrival; blank page for stamp                              |
 
 ### Infant and toddler photo tips
 
@@ -167,14 +170,15 @@ Vietnam eVisa application forms focus on **applicant identity data**—they are 
 
 **Documents to carry (recommended):**
 
-| Situation | Suggested carry-on document |
-| --- | --- |
-| **Surname differs from parent** | Birth certificate copy (English or certified translation) |
-| **One parent traveling alone** | Notarized **consent letter** from non-traveling parent—airlines often require this regardless of visa |
-| **Legal guardianship** | Court order or guardianship papers |
-| **Adopted children** | Passport name must match application exactly; adoption papers if surname recently changed |
-| **School group** | School authorization letter; each student still needs individual eVisa |
-| **Grandparent or relative escort** | Parental consent letter naming the traveling adult |
+| Situation                            | Suggested carry-on document                                                                           |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| **Surname differs from parent**      | Birth certificate copy (English or certified translation)                                             |
+| **One parent traveling alone**       | Notarized **consent letter** from non-traveling parent—airlines often require this regardless of visa |
+| **Legal guardianship**               | Court order or guardianship papers                                                                    |
+| **Adopted children**                 | Passport name must match application exactly; adoption papers if surname recently changed             |
+| **School group**                     | School authorization letter; each student still needs individual eVisa                                |
+| **Grandparent or relative escort**   | Consent letter from both parents naming the traveling adult                                           |
+| **Minor traveling without an adult** | Airline unaccompanied-minor booking (age rules vary by carrier) plus consent from both parents        |
 
 **Planning advice:** Airline policies on minor travel can be stricter than immigration. Check your carrier's unaccompanied-minor and single-parent rules separately from eVisa filing. Low-cost carriers in Southeast Asia sometimes enforce consent letters on international legs even when Vietnam immigration does not ask.
 
@@ -190,12 +194,12 @@ All family members should share:
 
 **Single vs multiple entry for families:**
 
-| Itinerary | Recommended entry type |
-| --- | --- |
-| One resort stay, no regional exits | Single entry ($55 govt fee) |
-| Thailand/Cambodia side trip then return to Vietnam | **Multiple entries** ($80 govt fee) |
-| Cruise disembark/re-embark | Multiple entry—confirm with cruise operator |
-| Long stay with possible extension | Max 90-day product at filing; extensions are not guaranteed—see [Vietnam eVisa extension guide](/blog/vietnam-evisa-extension-guide-2026) |
+| Itinerary                                          | Recommended entry type                                                                                                                    |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| One resort stay, no regional exits                 | Single entry ($25 govt fee)                                                                                                               |
+| Thailand/Cambodia side trip then return to Vietnam | **Multiple entries** ($50 govt fee)                                                                                                       |
+| Cruise disembark/re-embark                         | Multiple entry—confirm with cruise operator                                                                                               |
+| Long stay with possible extension                  | Max 90-day product at filing; extensions are not guaranteed—see [Vietnam eVisa extension guide](/blog/vietnam-evisa-extension-guide-2026) |
 
 Read [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026) and [Vietnam multiple-entry eVisa guide](/blog/vietnam-evisa-multiple-entry-guide-2026) before checkout.
 
@@ -203,22 +207,22 @@ Read [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026) 
 
 Government fees follow **visa type, not age**. On our portal for standard 90-day products:
 
-| Visa type | Government fee per passport | Service fee per passenger |
-| --- | ---: | ---: |
-| **Single entry** | **$55** | **$69.99** |
-| **Multiple entry** | **$80** | **$69.99** |
+| Visa type          | Government fee per passport | Service fee per passenger |
+| ------------------ | --------------------------: | ------------------------: |
+| **Single entry**   |                     **$25** |                **$69.99** |
+| **Multiple entry** |                     **$50** |                **$69.99** |
 
 A family of four on single-entry tourist visas pays four government fees and four service fees, plus any optional urgent processing per passenger you select.
 
 **Example totals (before optional urgent tiers):**
 
-| Family size | Single entry approximate total | Multiple entry approximate total |
-| --- | ---: | ---: |
-| **2 adults** | **$249.98** | **$299.98** |
-| **2 adults + 2 children** | **$499.96** | **$599.96** |
-| **2 adults + 3 children** | **$624.95** | **$749.95** |
+| Family size               | Single entry approximate total | Multiple entry approximate total |
+| ------------------------- | -----------------------------: | -------------------------------: |
+| **2 adults**              |                    **$189.98** |                      **$239.98** |
+| **2 adults + 2 children** |                    **$379.96** |                      **$479.96** |
+| **2 adults + 3 children** |                    **$474.95** |                      **$599.95** |
 
-Confirm live totals at [/fees](/fees) during group apply. Full breakdown: [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026).
+Confirm live totals at [/fees](/fees) during group apply.
 
 **Budget tip:** Children are not discounted on government or service fees. If comparing against a travel agent quote, verify whether their price covers **every passport** or silently assumes infants are free.
 
@@ -235,12 +239,12 @@ Confirm live totals at [/fees](/fees) during group apply. Full breakdown: [Vietn
 
 **Planning timeline for families:**
 
-| Days before departure | Recommendation |
-| --- | --- |
-| **14+** | Ideal—apply when all passports and photos are ready |
-| **7–13** | Reasonable—monitor email daily for child photo fix requests |
-| **3–6** | Risky with children—retake infant photos immediately if rejected |
-| **0–2** | Emergency only—see [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026) |
+| Days before departure | Recommendation                                                                               |
+| --------------------- | -------------------------------------------------------------------------------------------- |
+| **14+**               | Ideal—apply when all passports and photos are ready                                          |
+| **7–13**              | Reasonable—monitor email daily for child photo fix requests                                  |
+| **3–6**               | Risky with children—retake infant photos immediately if rejected                             |
+| **0–2**               | Emergency only—see [Vietnam eVisa processing time](/blog/vietnam-evisa-processing-time-2026) |
 
 Do not book non-refundable family packages until **every traveler** holds an approved PDF.
 
@@ -281,7 +285,7 @@ Passport name governs the form. Carry birth certificates and consent letters eve
 
 ### School and sports groups
 
-Each student needs an **individual eVisa**. Group organizers should collect passport scans early and standardize entry port and dates across the roster. Airlines may want school letters in addition to visas.
+Each student needs an **individual eVisa**. Group organizers should collect passport scans and a signed parental consent per student early, and standardize entry port and dates across the roster—rosters over 15 split into several applications. Airlines may want school letters in addition to visas.
 
 ### Adopted children and recent name changes
 
@@ -289,7 +293,7 @@ The application must match the **current passport bio page** exactly. If adoptio
 
 ### Teenagers traveling with one parent
 
-Same consent rules as younger children for many airlines—especially for travelers under **age 16** on some carriers. The teenager still needs their own eVisa on their own passport.
+Anyone under **18** is a minor under Vietnamese law, so plan consent documents for teenagers too. Many airlines apply the same consent rules as for younger children, though some carriers stop at **age 16**. The teenager still needs their own eVisa on their own passport.
 
 ### Multi-generational trips (grandparents + parents + kids)
 
@@ -303,18 +307,18 @@ Standard eVisas authorize up to **90 days**. In-country extensions are limited a
 
 These errors appear repeatedly in family filings—see also [10 Vietnam eVisa mistakes to avoid](/blog/vietnam-evisa-common-mistakes-2026):
 
-| Mistake | Consequence | Fix |
-| --- | --- | --- |
-| Only parents applied | Child denied at check-in | Add every passport holder before payment |
-| Parent's name typed in child fields | Rejection or MRZ mismatch | Use child's passport data only |
-| Mismatched entry ports across PDFs | Family split at immigration | File as one group with consistent data |
-| Single entry with regional side trip | Cannot re-enter with children | Choose multiple entry ($80) |
-| One shared blurry baby photo | Group correction email | Retake per child per photo rules |
-| Wrong DOB format for child | Automated rejection | Copy from child's passport MRZ |
-| Assuming infant is visa-free | Airline offloads family | Check eligibility per child passport |
-| Different visa categories within family | Extra questioning at border | Align tourism vs business across group |
+| Mistake                                 | Consequence                   | Fix                                      |
+| --------------------------------------- | ----------------------------- | ---------------------------------------- |
+| Only parents applied                    | Child denied at check-in      | Add every passport holder before payment |
+| Parent's name typed in child fields     | Rejection or MRZ mismatch     | Use child's passport data only           |
+| Mismatched entry ports across PDFs      | Family split at immigration   | File as one group with consistent data   |
+| Single entry with regional side trip    | Cannot re-enter with children | Choose multiple entry ($50)              |
+| One shared blurry baby photo            | Group correction email        | Retake per child per photo rules         |
+| Wrong DOB format for child              | Automated rejection           | Copy from child's passport MRZ           |
+| Assuming infant is visa-free            | Airline offloads family       | Check eligibility per child passport     |
+| Different visa categories within family | Extra questioning at border   | Align tourism vs business across group   |
 
-If rejected, read [Vietnam eVisa rejection reasons](/blog/vietnam-evisa-rejection-reasons-2026) before reapplying.
+If rejected, read [how to reapply after a Vietnam eVisa rejection](/troubleshooting/evisa-rejected-reapply) before resubmitting.
 
 ## After approval: preparing the family for departure
 
@@ -324,7 +328,7 @@ When emails arrive—check **spam folders** for every approval:
 2. **Print one copy per person**—airline staff sometimes ask individually
 3. **Save PDFs offline** on phones—not only in email
 4. **Verify every PDF**: name, passport number, entry port, entry type
-5. **Pack consent and birth certificates** if your family situation warrants them
+5. **Pack consent and birth certificates** if your family situation warrants them, plus yellow fever vaccination records if you arrive from a yellow fever risk country
 6. **Screenshot reference codes** in case email filters block messages on travel day
 7. **Cross-check against flight tickets**—especially when entry port is Da Nang, Phu Quoc, or a land border
 
@@ -332,13 +336,13 @@ At check-in, airlines may verify **each child** even when parents hold valid PDF
 
 ## Sample family planning timeline
 
-| When | Action |
-| --- | --- |
+| When                      | Action                                                                                          |
+| ------------------------- | ----------------------------------------------------------------------------------------------- |
 | **4–6 weeks before trip** | Confirm all passports valid 6+ months; **apply for a passport** for any child who needs renewal |
-| **2–3 weeks before** | Take child photos; scan bio pages; decide single vs multiple entry |
-| **14+ days before** | Submit group application on [/apply](/apply) |
-| **After approval** | Verify all PDFs match tickets; print copies |
-| **Night before flight** | Run pre-flight checklist for every traveler |
+| **2–3 weeks before**      | Take child photos; scan bio pages; decide single vs multiple entry                              |
+| **14+ days before**       | Submit group application on [/apply](/apply)                                                    |
+| **After approval**        | Verify all PDFs match tickets; print copies                                                     |
+| **Night before flight**   | Run pre-flight checklist for every traveler                                                     |
 
 ## When assisted family filing makes sense
 
@@ -372,11 +376,15 @@ With their own passport, usually yes—even as a lap child. Confirm nationality 
 
 ### Can the whole family apply together?
 
-Yes—up to 15 passengers in one session on our flow, with individual uploads per traveler.
+Yes—up to 15 passengers in one session on our flow, with individual uploads per traveler. Larger groups split into several applications with matching port, dates, and visa type.
+
+### Can I add a child after submitting the family application?
+
+No. File a new application for that traveler with their own documents and fees, matching the family's entry port and dates.
 
 ### Are child government fees cheaper than adult fees?
 
-No. Government fees follow visa type ($55 single / $80 multiple), not age. See [/fees](/fees) for your group total.
+No. Government fees follow visa type ($25 single / $50 multiple), not age. See [/fees](/fees) for your group total.
 
 ### What should parents carry at the border?
 

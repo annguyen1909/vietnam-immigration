@@ -20,6 +20,7 @@ import {
 import {
   VIETNAM_GOV_FEE_MULTIPLE,
   VIETNAM_GOV_FEE_SINGLE,
+  VIETNAM_GOV_FEE_SUMMARY,
   VIETNAM_SERVICE_FEE_PER_PAX,
   VIETNAM_URGENCY_FEE_SUPER_URGENT,
   VIETNAM_URGENCY_FEE_URGENT,
@@ -61,8 +62,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much does an urgent Vietnam eVisa cost?',
-    answer:
-      'Total = government fee ($55 single / $80 multiple) + $69.99 service fee per passenger + urgency add-on ($110 Urgent or $220 Super Urgent). See the fee examples on this page and the full calculator on /fees.',
+    answer: `Total = government fee (${VIETNAM_GOV_FEE_SUMMARY}) + ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger + urgency add-on (${formatUsd(VIETNAM_URGENCY_FEE_URGENT)} Urgent or ${formatUsd(VIETNAM_URGENCY_FEE_SUPER_URGENT)} Super Urgent). See the fee examples on this page and the full calculator on /fees.`,
   },
   {
     question: 'Is emergency Vietnam eVisa approval guaranteed?',
@@ -85,7 +85,7 @@ const URGENT_RELATED = [
   {
     href: '/fees',
     title: 'Vietnam Visa Fees & Calculator',
-    description: 'Full $55/$80 government fee breakdown plus service and rush add-ons.',
+    description: `Full ${formatUsd(VIETNAM_GOV_FEE_SINGLE)}/${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} government fee breakdown plus service and rush add-ons.`,
   },
   {
     href: '/troubleshooting/payment-failed',
@@ -93,13 +93,13 @@ const URGENT_RELATED = [
     description: 'Fix checkout errors before you lose your rush window.',
   },
   {
-    href: '/troubleshooting/photo-rejected',
-    title: 'Photo Rejected',
+    href: '/blog/vietnam-evisa-photo-requirements-2026',
+    title: 'Photo Rules & Rejections',
     description: 'Fix portrait rules that delay urgent submissions.',
   },
   {
-    href: '/troubleshooting/evisa-processing-48-hours',
-    title: 'Still Processing After 48 Hours',
+    href: '/troubleshooting/stuck-processing',
+    title: 'Still Processing?',
     description: 'What to do when a rush case has not moved.',
   },
   {

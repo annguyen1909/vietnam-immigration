@@ -239,7 +239,7 @@ export default function FeesPage() {
 
           {/* 2 Columns Comparison */}
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
-            {/* Column 1: Government Stamping Fee */}
+            {/* Column 1: Government eVisa Fee */}
             <div className="bg-white border-4 border-gray-300 rounded-2xl shadow-xl overflow-hidden flex flex-col justify-between transform hover:-translate-y-1 transition-transform">
               <div>
                 <div className="bg-gray-200 py-6 px-8 text-center border-b-2 border-gray-300">
@@ -247,7 +247,7 @@ export default function FeesPage() {
                     Mandatory Cost
                   </span>
                   <h3 className="text-2xl sm:text-3xl font-bold text-gray-900">
-                    Government Stamping Fee
+                    Government eVisa Fee
                   </h3>
                 </div>
                 <div className="p-8 sm:p-10 space-y-6">
@@ -281,8 +281,8 @@ export default function FeesPage() {
                         />
                       </svg>
                       <p className="text-sm text-gray-700">
-                        <strong>Recipient:</strong> Vietnam Immigration Department (National Web
-                        Portal).
+                        <strong>Recipient:</strong> Vietnam Immigration Department, same amount as
+                        on evisa.gov.vn.
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
@@ -298,8 +298,8 @@ export default function FeesPage() {
                         />
                       </svg>
                       <p className="text-sm text-gray-700">
-                        <strong>Purpose:</strong> Statutory processing and issuance charge for
-                        border control clearance.
+                        <strong>Purpose:</strong> Statutory eVisa issuance fee, paid in full to the
+                        government on your behalf.
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
@@ -324,7 +324,7 @@ export default function FeesPage() {
               </div>
               <div className="p-8 bg-gray-50 border-t border-gray-200 text-center">
                 <p className="text-xs text-gray-500 italic">
-                  *Government stamping fees are mandatory for all eVisa applications.
+                  *The government eVisa fee is mandatory for all eVisa applications.
                 </p>
               </div>
             </div>

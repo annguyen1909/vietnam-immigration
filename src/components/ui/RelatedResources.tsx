@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
+import { VIETNAM_GOV_FEE_MULTIPLE, VIETNAM_GOV_FEE_SINGLE, formatUsd } from '@/lib/vietnamPricing';
 
 export type RelatedResourceLink = {
   href: string;
@@ -12,7 +13,7 @@ export const DEFAULT_RELATED_RESOURCES: RelatedResourceLink[] = [
   {
     href: '/fees',
     title: 'Vietnam Visa Fees 2026',
-    description: 'Government fee $55/$80 by entry type, service fee, and live calculator.',
+    description: `Government fee ${formatUsd(VIETNAM_GOV_FEE_SINGLE)}/${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} by entry type, service fee, and live calculator.`,
   },
   {
     href: '/faq/24-hour-vietnam-evisa',

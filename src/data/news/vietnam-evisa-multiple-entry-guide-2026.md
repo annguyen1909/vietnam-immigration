@@ -6,7 +6,7 @@ dateModified: '2026-06-29'
 author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-multiple-entry-guide-2026.jpg'
 imageAlt: 'Aircraft at Tan Son Nhat International Airport terminal with travelers re-entering Vietnam'
-excerpt: 'Vietnam multiple-entry eVisa 2026: when single entry fails, real travel plan examples, $55 vs $80 visa fees, how long visas stay valid, re-entry checks at the border, and mistakes that block your second crossing.'
+excerpt: 'Vietnam multiple-entry eVisa 2026: when single entry fails, real travel plan examples, $25 vs $50 visa fees, how long visas stay valid, re-entry checks at the border, and mistakes that block your second crossing.'
 tags: ['visa', 'requirements', '2026']
 section: 'Visa Guides'
 faq:
@@ -15,7 +15,7 @@ faq:
   - question: Do I need multiple entry if I visit Cambodia and return to Vietnam?
     answer: Usually yes. Exiting Vietnam and returning on a single-entry eVisa typically requires a new visa. Plan multiple entry before your first departure unless your entire trip stays inside Vietnam.
   - question: Is multiple entry Vietnam eVisa more expensive?
-    answer: Yes. The government fee is $80 for multiple entry vs $55 for single entry on standard 90-day products, plus the same per-passenger service fee on assisted portals.
+    answer: Yes. The government fee is $50 for multiple entry vs $25 for single entry on standard 90-day products, plus the same per-passenger service fee on assisted portals.
   - question: Can I change from single to multiple entry after approval?
     answer: Generally no. Select the correct product before travel or apply again with multiple entry. Do not assume you can upgrade at the border.
   - question: Does multiple entry mean I can stay in Vietnam for years?
@@ -25,7 +25,7 @@ faq:
   - question: Do all passport countries get multiple-entry eVisa options?
     answer: Most travelers who qualify can select multiple entry on our portal. Always confirm live on the country checker and apply form for your passport.
   - question: Is multiple entry worth it for a two-week holiday with no border exits?
-    answer: No. If you fly in, travel only inside Vietnam, and fly out without crossing an international border, single entry ($55 government fee) is sufficient.
+    answer: No. If you fly in, travel only inside Vietnam, and fly out without crossing an international border, single entry ($25 government fee) is sufficient.
   - question: What are the 90-day multiple entry e-visa rules for Vietnam?
     answer: The 90-day multiple entry eVisa allows you to enter and exit Vietnam multiple times within a 90-day validity window. Each entry must comply with the permitted stay duration and approved ports specified on your official approval PDF.
   - question: Can I use a multiple entry eVisa for a border run in Vietnam?
@@ -73,8 +73,8 @@ This 2026 guide covers how multiple-entry **tourist visa** products work, which 
 
 | Item                        | 2026 summary                                                                                                              |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **Single entry govt fee**   | **$55** — one arrival period; exit usually ends the visa                                                                  |
-| **Multiple entry govt fee** | **$80** — leave and re-enter within validity                                                                              |
+| **Single entry govt fee**   | **$25** — one arrival period; exit usually ends the visa                                                                  |
+| **Multiple entry govt fee** | **$50** — leave and re-enter within validity                                                                              |
 | **Assisted service fee**    | **$69.99 per passenger** (same for both entry types)                                                                      |
 | **Max stay per product**    | Up to **90 days** on standard eVisa products; some approvals show **30 days** per visit                                   |
 | **Number of entries**       | Single = one arrival period; multiple = leave and return while the **visa is valid**                                      |
@@ -96,8 +96,8 @@ The difference is not subtle—it is binary at the border.
 
 | Type               | What you can do                                                                                                                     | Government fee (90-day product) |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------: |
-| **Single entry**   | Enter Vietnam **once** during the validity window. When you leave the country, you usually **use up** the visa.                     |                         **$55** |
-| **Multiple entry** | You may **leave and re-enter Vietnam** several times while the visa stays valid. Each visit must follow the stay limit on your PDF. |                         **$80** |
+| **Single entry**   | Enter Vietnam **once** during the validity window. When you leave the country, you usually **use up** the visa.                     |                         **$25** |
+| **Multiple entry** | You may **leave and re-enter Vietnam** several times while the visa stays valid. Each visit must follow the stay limit on your PDF. |                         **$50** |
 
 "Multiple entry" does **not** mean:
 
@@ -116,7 +116,7 @@ Ask yourself: **Will I cross out of Vietnam internationally at any point and com
 - **Yes** → Multiple entry.
 - **Maybe / not sure yet** → Multiple entry adds $25 to the government **visa fee**—usually less than a rushed second **visa application form** from abroad.
 
-Full fee context: [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026).
+Full fee context: [Vietnam eVisa fees and calculator](/fees).
 
 ## Travel plans that need multiple entry
 
@@ -192,9 +192,9 @@ Always read **your** PDF wording—field labels vary slightly by issuance period
 
 | Cost item                     | Single entry |             Multiple entry |
 | ----------------------------- | -----------: | -------------------------: |
-| Government fee                |          $55 |                        $80 |
+| Government fee                |          $25 |                        $50 |
 | Service fee (assisted portal) |       $69.99 |                     $69.99 |
-| **Assisted total (1 pax)**    |  **$124.99** |                **$149.99** |
+| **Assisted total (1 pax)**    |   **$94.99** |                **$119.99** |
 | **Difference**                |            — | **+$25 govt / +$25 total** |
 
 ### Cost-benefit scenarios
@@ -202,7 +202,7 @@ Always read **your** PDF wording—field labels vary slightly by issuance period
 | Situation                           | Smart choice       | Why                                            |
 | ----------------------------------- | ------------------ | ---------------------------------------------- |
 | 10-day Vietnam only, no exits       | Single entry       | Save $25                                       |
-| 3-week trip with Angkor Wat weekend | Multiple entry     | Second visa costs ~$115+ assisted              |
+| 3-week trip with Angkor Wat weekend | Multiple entry     | Second visa costs ~$95+ assisted               |
 | "Maybe" Laos side trip              | Multiple entry     | Uncertainty tax is only $25                    |
 | Family of 4 with regional loop      | Multiple entry × 4 | One wrong entry type × 4 people = major rework |
 
@@ -254,7 +254,7 @@ To ensure a smooth second or third arrival, you must fully comply with all offic
 
 ## Tourism vs business: multiple entry for both
 
-Both **tourist visa** and business eVisas offer multiple-entry products at the **same government fee** ($80 multiple vs $55 single on our portal).
+Both **tourist visa** and business eVisas offer multiple-entry products at the **same government fee** ($50 multiple vs $25 single).
 
 | Purpose      | Multiple entry typical use                                                           |
 | ------------ | ------------------------------------------------------------------------------------ |
@@ -320,7 +320,7 @@ For most tourists and short business trips, online multiple-entry eVisas are eno
 1. Check who qualifies — [Vietnam visa requirements by country](/check-requirement)
 2. Map your trip—including **every** international exit and return
 3. Select **Multiple Entries** on the **visa application form** at [/apply](/apply) (tourist or business as appropriate)
-4. Pay disclosed total — [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026)
+4. Pay disclosed total — [Vietnam eVisa fees and calculator](/fees)
 5. Gather **required documents** (passport scan, photo, travel dates)
 6. After approval, verify **entry type**, **ports**, and **dates** on PDF
 7. Print copies for **each** planned border crossing
@@ -331,10 +331,10 @@ Walkthrough: [how to apply for a Vietnam eVisa online](/blog/how-to-apply-vietna
 
 ## Related resources
 
-- [Vietnam eVisa fees explained](/blog/vietnam-evisa-fees-explained-2026)
+- [Vietnam eVisa fees and calculator](/fees)
 - [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026)
 - [Vietnam eVisa requirements 2026](/blog/vietnam-evisa-requirements-guide-2026)
-- [Entry points FAQ](/faq/vietnam-evisa-entry-points)
+- [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026)
 
 ## Frequently asked questions
 
@@ -348,7 +348,7 @@ Usually yes. Plan multiple entry before your first exit unless the entire trip s
 
 ### Is multiple entry more expensive?
 
-Yes—**$80** government fee vs **$55** for single entry, plus the same service fee per passenger on assisted portals.
+Yes—**$50** government fee vs **$25** for single entry, plus the same service fee per passenger on assisted portals.
 
 ### Can I change from single to multiple entry after approval?
 

@@ -4,6 +4,21 @@ import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeHighlight from 'rehype-highlight';
 
+/** Retired guide URL -> page it was merged into. Mirrored in scripts/check-index-policy.mjs. */
+const MERGED_GUIDE_REDIRECTS = [
+  ['/blog/vietnam-evisa-fees-explained-2026', '/fees'],
+  ['/blog/vietnam-evisa-rejection-reasons-2026', '/troubleshooting/evisa-rejected-reapply'],
+  ['/troubleshooting/evisa-processing-48-hours', '/troubleshooting/stuck-processing'],
+  ['/troubleshooting/weekend-processing', '/blog/vietnam-evisa-processing-time-2026'],
+  ['/troubleshooting/photo-rejected', '/blog/vietnam-evisa-photo-requirements-2026'],
+  ['/troubleshooting/wrong-date-of-birth-evisa', '/troubleshooting/wrong-name-evisa'],
+  ['/faq/vietnam-evisa-requirements', '/blog/vietnam-evisa-requirements-guide-2026'],
+  ['/faq/vietnam-evisa-entry-points', '/blog/vietnam-evisa-approved-entry-ports-2026'],
+  ['/faq/children-visa-vietnam', '/blog/vietnam-evisa-for-minors-families-2026'],
+  ['/faq/family-group-vietnam-evisa', '/blog/vietnam-evisa-for-minors-families-2026'],
+  ['/faq/cruise-passenger-visa-vietnam', '/troubleshooting/cruise-ship-evisa-entry'],
+];
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
@@ -37,6 +52,12 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Guides merged into one page per topic after the August 2026 spam update
+      ...MERGED_GUIDE_REDIRECTS.map(([source, destination]) => ({
+        source,
+        destination,
+        statusCode: 301,
+      })),
       {
         source: '/:path*',
         has: [{ type: 'host', value: 'www.vietnamemigration.com' }],

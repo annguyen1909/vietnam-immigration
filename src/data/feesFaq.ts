@@ -11,7 +11,7 @@ import {
 export const FEES_FAQ_ITEMS = [
   {
     question: 'What is the Vietnam visa fee in 2026?',
-    answer: `On our portal, the government fee is ${formatUsd(VIETNAM_GOV_FEE_SINGLE)} for single entry and ${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} for multiple entry (standard 90-day tourist or business eVisa). Add ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger, plus optional urgent tiers if you select them.`,
+    answer: `The Vietnam government eVisa fee is ${formatUsd(VIETNAM_GOV_FEE_SINGLE)} for single entry and ${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} for multiple entry (standard 90-day tourist or business eVisa), the same as on the government portal. Applying through us adds a ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger, plus optional urgent tiers if you select them.`,
   },
   {
     question: 'How much does a Vietnam eVisa cost with assistance?',

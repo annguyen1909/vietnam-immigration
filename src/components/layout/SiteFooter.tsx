@@ -17,7 +17,7 @@ const columns = [
       { label: 'Requirements by country', href: '/check-requirement' },
       { label: 'FAQ', href: '/faq' },
       { label: 'Troubleshooting', href: '/troubleshooting' },
-      { label: 'Travel news', href: '/blog' },
+      { label: 'eVisa guides', href: '/blog' },
       { label: 'Embassies', href: '/embassy' },
     ],
   },

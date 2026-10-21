@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { sendPhpBotAlert } from '@/lib/email';
+import { GONE_PATHS } from '@/data/retiredUrls';
 
 // Global rate limiting store (in-memory, resets on server restart)
 // In production, consider using Redis or Vercel Edge Config
@@ -455,6 +456,14 @@ function checkRouteRepetition(ip: string, pathname: string): boolean {
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
+
+  // Permanently removed content: 410 tells crawlers to drop the URL instead of retrying a 404
+  if (GONE_PATHS.has(pathname)) {
+    return new NextResponse(
+      '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Page removed</title></head><body><h1>This page has been removed</h1><p><a href="/blog">Browse Vietnam eVisa guides</a></p></body></html>',
+      { status: 410, headers: { 'Content-Type': 'text/html; charset=utf-8' } }
+    );
+  }
 
   // Bot detection - block immediately if suspicious (for all requests)
   // This is the FIRST line of defense - catches ALL .php requests before anything else
