@@ -71,6 +71,15 @@ const SECURITY_CODES = {
 const VERIFIED_BOTS = [
   // Major Search Engine Crawlers
   /googlebot/i,
+  // Google crawlers whose user agent does not contain "Googlebot" (URL Inspection,
+  // Rich Results Test, AdSense/Ads checks, Merchant Center, GoogleOther)
+  /google-inspectiontool/i,
+  /googleother/i,
+  /adsbot-google/i,
+  /mediapartners-google/i,
+  /storebot-google/i,
+  /apis-google/i,
+  /google-site-verification/i,
   /bingbot/i,
   /msnbot/i,
   /slurp/i, // Yahoo
@@ -511,10 +520,18 @@ export function middleware(request: NextRequest) {
 
   // Get client IP for remaining checks (route repetition and rate limiting)
   const clientIP = getClientIP(request);
+  const isVerified = isVerifiedBot(request.headers.get('user-agent') || '');
 
   // Route repetition detection - block bots hitting same route repeatedly
-  // Check this BEFORE rate limiting to catch pattern early (HTML pages only)
-  if (!skipVisitorLimits && clientIP !== 'unknown' && checkRouteRepetition(clientIP, pathname)) {
+  // Check this BEFORE rate limiting to catch pattern early (HTML pages only).
+  // Verified crawlers are exempt: Googlebot re-fetches the same URL (rendering, mobile and
+  // desktop, recrawls) and a 429 here makes Google slow its crawl rate site-wide.
+  if (
+    !skipVisitorLimits &&
+    !isVerified &&
+    clientIP !== 'unknown' &&
+    checkRouteRepetition(clientIP, pathname)
+  ) {
     const response = new NextResponse('Too Many Requests - Temporarily Blocked', { status: 429 });
     response.headers.set('X-Blocked-Reason', 'route-repetition');
     response.headers.set('Retry-After', '1800'); // 30 minutes
@@ -525,9 +542,6 @@ export function middleware(request: NextRequest) {
   // Global rate limiting for page requests (not static assets or API)
   // EXEMPT verified bots from rate limiting - they're legitimate and should not be restricted
   if (!skipVisitorLimits) {
-    const userAgent = request.headers.get('user-agent') || 'unknown';
-    const isVerified = isVerifiedBot(userAgent);
-
     // Skip rate limiting for verified bots - they're legitimate crawlers
     if (clientIP !== 'unknown' && !isVerified) {
       const rateLimit = checkRateLimit(clientIP);

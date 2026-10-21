@@ -54,7 +54,7 @@ export default function SiteHeader() {
               Vietnam eVisa
             </span>
             <span className="block text-xs text-brand-muted truncate max-w-[200px]">
-              Immigration assistance
+              Private eVisa assistance
             </span>
           </span>
         </Link>

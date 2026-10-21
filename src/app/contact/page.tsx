@@ -107,8 +107,8 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  Our certified immigration specialists are available 24 hours a day, 7 days a week
-                  to assist with your application and answer all your questions. Every inquiry is
+                  Our visa application specialists are available 24 hours a day, 7 days a week to
+                  assist with your application and answer all your questions. Every inquiry is
                   handled by a real human—never a chatbot.
                 </p>
               </div>

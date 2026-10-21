@@ -141,12 +141,13 @@ export default function AboutPage() {
             </div>
             <p className="text-lg text-gray-700 leading-relaxed text-center max-w-4xl mx-auto">
               Our mission is to provide professional visa application assistance and support
-              services that facilitate the Vietnam eVisa application process in accordance with
-              official immigration requirements. We combine advanced technology, certified
-              expertise, and dedicated human support to ensure accurate, compliant, and efficient
-              processing of your visa application. Our goal is to simplify the visa application
-              process by offering comprehensive guidance, document review, and professional customer
-              support to international travelers seeking entry authorization for Vietnam.
+              services that facilitate the Vietnam eVisa application process in line with current
+              eVisa requirements. We combine online tools, experienced reviewers, and dedicated
+              human support to catch errors before your application is submitted. We are a private
+              service, not affiliated with the Government of Vietnam. Our goal is to simplify the
+              visa application process by offering comprehensive guidance, document review, and
+              professional customer support to international travelers seeking entry authorization
+              for Vietnam.
             </p>
           </div>
         </div>
@@ -217,7 +218,7 @@ export default function AboutPage() {
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Why Choose Us</h2>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Professional immigration services with official standards and certified expertise
+              Private eVisa application assistance with clear fees and human review
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -259,12 +260,10 @@ export default function AboutPage() {
             </div>
             <p className="text-lg text-gray-700 leading-relaxed text-center max-w-4xl mx-auto">
               We are committed to providing consistent, professional service to all applicants,
-              regardless of travel purpose or group size. Our certified immigration specialists
-              ensure that every application receives the same level of expert review and attention
-              to detail. Our dedicated support team is available 24/7 to address inquiries and
-              provide guidance throughout the application process. We maintain official standards
-              and certified expertise in all aspects of visa application processing, ensuring your
-              confidence in our professional assistance service.
+              regardless of travel purpose or group size. Our visa application specialists ensure
+              that every application receives the same level of review and attention to detail. Our
+              dedicated support team is available 24/7 to address inquiries and provide guidance
+              throughout the application process.
             </p>
           </div>
         </div>
@@ -286,7 +285,7 @@ export default function AboutPage() {
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                   Our professional support team is available 24 hours a day, 7 days a week to assist
                   with your visa application inquiries and provide guidance throughout the process.
-                  Every inquiry is handled by certified immigration specialists—never automated
+                  Every inquiry is handled by our visa application specialists—never automated
                   systems.
                 </p>
                 <div className="space-y-3 text-gray-700">

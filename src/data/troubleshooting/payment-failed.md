@@ -1,6 +1,6 @@
 ---
 title: Vietnam eVisa Payment Failed? Fix Before You Fly
-description: Vietnam eVisa payment not working or card declined? Fix billing, VPN, and gateway errors in ~2 hours with clear steps to avoid boarding issues.
+description: Vietnam eVisa payment not working or card declined? Fix billing, VPN, and gateway errors with clear steps to avoid boarding issues.
 slug: payment-failed
 date: 2026-05-20
 updated: 2026-05-25

@@ -4,7 +4,7 @@ import AnimatedFlagRow from '@/components/ui/AnimatedFlagRow';
 const supportFeatures = [
   {
     title: 'Dedicated support team',
-    desc: 'Immigration specialists available 24/7 to help with your application and answer questions.',
+    desc: 'Visa application specialists available 24/7 to help with your application and answer questions.',
   },
   {
     title: 'Document assistance',

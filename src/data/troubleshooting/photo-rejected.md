@@ -1,5 +1,5 @@
 ---
-title: 'Vietnam eVisa Photo Rejected? Fix Upload Errors in 2 Hours'
+title: 'Vietnam eVisa Photo Rejected? How to Fix Upload Errors'
 description: 'Your Vietnam eVisa photo was rejected—fix background, size, glasses glare, and passport-scan mistakes, then resubmit or rush a new application before your flight.'
 slug: photo-rejected
 date: '2026-06-21'

@@ -24,7 +24,7 @@ One bad portrait is among the fastest ways to **delay a Vietnam eVisa**. The onl
 
 **We are a private visa assistance service—not the Government of Vietnam.** Photo rules follow official eVisa standards; we help you format files correctly before submission.
 
-> **Photo Rejected?** If your eVisa application is stuck or rejected because of photo issues, don't panic. Check our [Emergency Fix: Vietnam eVisa Photo Rejected](/troubleshooting/photo-rejected) guide to resolve it in 2 hours.
+> **Photo Rejected?** If your eVisa application is stuck or rejected because of photo issues, don't panic. Check our [Emergency Fix: Vietnam eVisa Photo Rejected](/troubleshooting/photo-rejected) guide to resolve it.
 
 ## What your eVisa portrait should look like
 

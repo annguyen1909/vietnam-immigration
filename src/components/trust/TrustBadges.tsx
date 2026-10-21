@@ -20,13 +20,13 @@ const DEFAULT_BADGES: TrustBadgeItem[] = [
   },
   {
     icon: <DocumentCheckIcon className="h-6 w-6" aria-hidden />,
-    label: 'Gov-Compliant Application',
-    detail: 'Aligned with Vietnam eVisa rules',
+    label: 'Pre-Submission Review',
+    detail: 'Checked against current eVisa rules',
   },
   {
     icon: <ClockIcon className="h-6 w-6" aria-hidden />,
-    label: '100% On-Time Guarantee',
-    detail: 'Rush options when you need speed',
+    label: 'Urgent 1-Day Option',
+    detail: 'Rush tiers for close departures',
   },
   {
     icon: <ArrowPathIcon className="h-6 w-6" aria-hidden />,

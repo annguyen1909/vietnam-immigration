@@ -70,7 +70,7 @@ export default function HomeOfficialServices() {
             Why travelers choose our service
           </h2>
           <p className="mt-3 text-brand-muted">
-            Professional immigration assistance with clear standards and dedicated expertise.
+            Private eVisa application assistance with clear standards and dedicated expertise.
           </p>
         </div>
 

@@ -238,7 +238,7 @@ function Step3PaymentContent({
               </div>
               <div className="flex items-center justify-center space-x-2 p-2 bg-white rounded-lg shadow-sm">
                 <div className="w-2 h-2 bg-purple-500 rounded-full animate-pulse"></div>
-                <span className="text-xs font-semibold text-gray-700">SOC 2 Certified</span>
+                <span className="text-xs font-semibold text-gray-700">Processed by Stripe</span>
               </div>
             </div>
 

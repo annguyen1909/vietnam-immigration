@@ -83,7 +83,7 @@ const benefits = [
   },
   {
     title: 'Secure & Reliable',
-    desc: 'Professional processing with professional standards and certified expertise',
+    desc: 'Every application is checked against current eVisa rules before submission',
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path
@@ -476,7 +476,7 @@ export default function ProcessingPage() {
             </h2>
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-2"></div>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Professional immigration services with professional standards and certified expertise
+              Private eVisa application assistance with clear fees and human review
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -545,15 +545,15 @@ export default function ProcessingPage() {
                   <h3 className="text-3xl font-bold text-gray-900">Professional Support</h3>
                 </div>
                 <p className="text-gray-700 mb-6 leading-relaxed text-lg">
-                  Our certified immigration specialists are available around the clock to assist
-                  with your application and answer all your questions. Every inquiry is handled by a
-                  real human—never a chatbot.
+                  Our visa application specialists are available around the clock to assist with
+                  your application and answer all your questions. Every inquiry is handled by a real
+                  human—never a chatbot.
                 </p>
                 <div className="space-y-3 mb-6">
                   <div className="bg-white border-2 border-gray-200 rounded-lg p-4 hover:border-brand-primary transition-colors">
                     <p className="font-bold text-gray-900 mb-1">Dedicated Support Team</p>
                     <p className="text-sm text-gray-700">
-                      Experienced immigration specialists available 24/7 to assist with your
+                      Experienced visa application specialists available 24/7 to assist with your
                       application
                     </p>
                   </div>

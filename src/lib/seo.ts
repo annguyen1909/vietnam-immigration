@@ -214,10 +214,8 @@ export function buildTroubleshootingMetadata(input: {
   publishedTime?: string;
   modifiedTime?: string;
 }): Metadata {
-  const displayTitle = input.title.includes('—') ? input.title : `${input.title} — Fix in 2 Hours`;
-
   return buildPageMetadata({
-    title: displayTitle,
+    title: input.title,
     description: input.description,
     path: troubleshootingPath(input.slug),
     ogType: 'article',
