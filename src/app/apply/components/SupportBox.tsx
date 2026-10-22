@@ -52,7 +52,7 @@ export default function SupportBox() {
         <ul className="space-y-2 text-gray-700 text-sm">
           <li className="flex items-start">
             <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
-            <span>Fast, secure, and reliable visa processing</span>
+            <span>Manual review of your form, passport scan &amp; portrait photo before filing</span>
           </li>
           <li className="flex items-start">
             <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
@@ -73,7 +73,7 @@ export default function SupportBox() {
             <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
             <span>Transparent pricing, no surprises</span>
           </li>
-          <li className="flex items-start font-semibold">
+          <li className="flex items-start font-semibold text-gray-900">
             <CheckIcon className="h-4 w-4 text-green-500 mr-2 mt-0.5 shrink-0" aria-hidden="true" />
             <span>100% Service Fees Returned if Rejected</span>
           </li>

@@ -115,7 +115,7 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
               APPLY WITH CONFIDENCE
             </div>
             <div className="flex items-start gap-2 text-black text-base">
-              {check}Fast, secure, and reliable visa processing
+              {check}Manual review of your form, passport scan &amp; portrait photo
             </div>
             <div className="flex items-start gap-2 text-black text-base">
               {check}Safe online payment—no hidden fees
@@ -133,6 +133,12 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
             <div className="flex items-start gap-2 text-black text-base font-semibold">
               {check}100% Service Fees Returned if Rejected
             </div>
+            <Link
+              href="/apply"
+              className="mt-2 block w-full rounded-lg bg-[var(--brand-primary-dark)] px-4 py-2.5 text-center text-sm font-bold text-white shadow transition hover:opacity-95"
+            >
+              Apply for Vietnam eVisa Now →
+            </Link>
           </div>
         </div>
       </div>
@@ -221,13 +227,13 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
                   APPLY WITH CONFIDENCE
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  {check}Fast, secure, and reliable visa processing
+                  {check}Manual review of your form, passport scan &amp; portrait photo
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
                   {check}Safe online payment—no hidden fees
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
-                  {check}Most visas approved within 3 working days
+                  {check}Most visas approved within {VIETNAM_PROCESSING_TIME}
                 </div>
                 <div className="flex items-start gap-2 text-black text-base">
                   {check}Optional Urgent (3 days) / Super Urgent (1 day) processing—fees shown
@@ -239,6 +245,12 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
                 <div className="flex items-start gap-2 text-black text-base font-semibold">
                   {check}100% Service Fees Returned if Rejected
                 </div>
+                <Link
+                  href="/apply"
+                  className="mt-2 block w-full rounded-lg bg-[var(--brand-primary-dark)] px-4 py-2.5 text-center text-sm font-bold text-white shadow transition hover:opacity-95"
+                >
+                  Apply for Vietnam eVisa Now →
+                </Link>
               </div>
             </div>
           </div>
