@@ -259,7 +259,7 @@ Your online application is not finished when you pay—it is finished when immig
 
 **During your stay:** Your eVisa authorizes the stay length and entry type printed on the PDF. Overstaying or working on a tourist authorization carries legal risk. Extensions are limited—see [Vietnam eVisa extension guide](/blog/vietnam-evisa-extension-guide-2026) if your plans change.
 
-**Emergencies:** Save [/faq/vietnam-emergency-numbers](/faq/vietnam-emergency-numbers) on your phone.
+**Emergencies:** Save Vietnam's emergency numbers on your phone: police 113, fire 114, ambulance 115.
 
 ![Vietnam airport immigration entry with passport and eVisa document](/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg)
 

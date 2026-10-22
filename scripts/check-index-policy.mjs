@@ -37,10 +37,10 @@ for (const file of posts) {
 assert.equal(visa, 10, `expected 10 visa posts, got ${visa}`);
 assert.equal(travel, 0, `travel posts were removed (410); found ${travel}`);
 
-// Retired URLs: travel posts answer 410 from middleware, merged guides 301 from next.config.mjs.
+// Retired URLs: off-topic pages answer 410 from middleware, merged guides 301 from next.config.mjs.
 const goneSrc = read('src/data/retiredUrls.ts');
-const gonePaths = [...goneSrc.matchAll(/'(\/blog\/[a-z0-9-]+)'/g)].map((m) => m[1]);
-assert.equal(gonePaths.length, 18, `expected 18 gone paths, got ${gonePaths.length}`);
+const gonePaths = [...goneSrc.matchAll(/'(\/[a-z0-9/-]+)'/g)].map((m) => m[1]);
+assert.equal(gonePaths.length, 22, `expected 22 gone paths, got ${gonePaths.length}`);
 assert.match(read('src/middleware.ts'), /GONE_PATHS\.has\(pathname\)/);
 
 const configSrc = read('next.config.mjs');
@@ -56,11 +56,8 @@ const contentFile = (urlPath) => {
   return dir && slug ? `src/data/${dir}/${slug}.md` : null;
 };
 for (const gone of gonePaths) {
-  assert.equal(
-    fs.existsSync(path.join(root, contentFile(gone))),
-    false,
-    `${gone} still has content`
-  );
+  const file = contentFile(gone) ?? `src/app${gone}/page.tsx`;
+  assert.equal(fs.existsSync(path.join(root, file)), false, `${gone} still has content`);
 }
 for (const [from, to] of redirects) {
   assert.equal(

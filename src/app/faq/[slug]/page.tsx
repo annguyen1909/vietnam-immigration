@@ -309,10 +309,5 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
 export async function generateStaticParams() {
   // Hardcoded slugs for all known FAQ posts
-  return [
-    { slug: 'vietnam-emergency-numbers' },
-    { slug: 'vietnam-country-codes' },
-    { slug: 'medical-visa-vietnam' },
-    { slug: 'work-in-vietnam-on-tourist-visa' },
-  ];
+  return [{ slug: 'work-in-vietnam-on-tourist-visa' }];
 }

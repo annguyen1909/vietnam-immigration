@@ -18,7 +18,6 @@ const columns = [
       { label: 'FAQ', href: '/faq' },
       { label: 'Troubleshooting', href: '/troubleshooting' },
       { label: 'eVisa guides', href: '/blog' },
-      { label: 'Embassies', href: '/embassy' },
     ],
   },
   {

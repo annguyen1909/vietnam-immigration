@@ -1,11 +1,16 @@
 /**
  * URLs removed after the August 2026 spam update.
  *
- * Gone paths are off-topic travel posts deleted for good; middleware answers them with
+ * Gone paths are off-topic pages (travel posts, embassy directory, phone/emergency FAQs)
+ * deleted for good; middleware answers them with
  * 410 so Google drops them faster than a 404. Merged guides are 301-redirected in
  * next.config.mjs instead — keep both lists in sync with scripts/check-index-policy.mjs.
  */
 export const GONE_PATHS: ReadonlySet<string> = new Set([
+  '/embassy',
+  '/faq/vietnam-country-codes',
+  '/faq/vietnam-emergency-numbers',
+  '/faq/medical-visa-vietnam',
   '/blog/best-islands-vietnam-beyond-hanoi-2026',
   '/blog/best-photography-spots-vietnam-2026',
   '/blog/discover-vietnamese-regional-cuisine-2026',

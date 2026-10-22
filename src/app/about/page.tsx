@@ -71,7 +71,7 @@ const features = [
   {
     icon: ShieldCheckIcon,
     title: 'Trusted Professional Service',
-    desc: 'Private visa application assistance trusted by travelers, families, and businesses. Over 15,000+ applications processed. We are not affiliated with the Government of Vietnam.',
+    desc: 'Private visa application assistance for travelers, families, and businesses. We are not affiliated with the Government of Vietnam.',
     color: 'bg-purple-600',
   },
   {

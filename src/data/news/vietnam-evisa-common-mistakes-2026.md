@@ -265,7 +265,7 @@ Tourism eVisas are for leisure. Business travelers often trip over:
 - Carrying **client contracts or local invoices** that suggest work immigration did not authorize
 - Importing **equipment** that needs separate permits
 
-Repeated business trips may eventually need embassy stickers or longer-stay categories—see [/embassy](/embassy) for embassy processing options.
+Repeated business trips may eventually need embassy stickers or longer-stay categories—ask the Vietnamese embassy or consulate that serves your country about those options.
 
 ## Families: mistakes multiplied
 

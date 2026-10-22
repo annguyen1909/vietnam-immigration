@@ -32,7 +32,7 @@ You can reach Vietnam through two main visa channels: a **Vietnam eVisa** filed 
 
 This 2026 comparison breaks down **cost, speed, stay length, multiple entry, entry ports, and purpose limits** so you choose the right path **before** non-refundable flights and hotels. It also clarifies what private assistance adds on top of official government fees—and when consular processing still matters.
 
-**We are a private visa assistance service—not the Government of Vietnam.** We specialize in online eVisa preparation at [/apply](/apply). Embassy visas are issued by consulates—we can point you to requirements via [/embassy](/embassy) but do not replace consular officers.
+**We are a private visa assistance service—not the Government of Vietnam.** We specialize in online eVisa preparation at [/apply](/apply). Embassy visas are issued by Vietnamese embassies and consulates—we do not replace consular officers.
 
 ![Vietnam eVisa approval PDF compared with embassy visa sticker in passport](/img/blog/photos/vietnam-evisa-vs-embassy-visa-2026.jpg)
 
@@ -116,7 +116,7 @@ Embassy visas are **physical stickers or inserts** issued by Vietnamese consulat
 - Passport **out of your hands** during processing—problematic if you travel internationally for work
 - Still subject to **entry port and purpose rules** on the issued visa—not a universal "enter anywhere" pass
 
-Directory: [/embassy](/embassy).
+Use the Vietnamese embassy or consulate that serves your country of residence; the Vietnam Ministry of Foreign Affairs publishes the current list.
 
 ### Who should default to embassy
 
@@ -294,7 +294,7 @@ Some nationalities and trips qualify for **both**. Compare:
 
 ### If embassy fits
 
-1. Locate your consulate via [/embassy](/embassy)
+1. Locate the Vietnamese embassy or consulate that serves your country of residence
 2. Download document checklist for your **visa category**
 3. Book appointment or confirm mail-in process
 4. Budget **weeks**, not days, for mail routes
