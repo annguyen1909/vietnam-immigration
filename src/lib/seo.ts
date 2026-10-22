@@ -159,7 +159,7 @@ export function buildPageMetadata(input: PageMetadataInput): Metadata {
     },
     robots: index
       ? { index: true, follow: true, googleBot: GOOGLE_BOT_INDEXABLE }
-      : { index: false, follow: true },
+      : { index: true, follow: true, googleBot: { index: false, follow: true } },
     openGraph: {
       type: ogType,
       url,

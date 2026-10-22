@@ -83,6 +83,9 @@ const VERIFIED_BOTS = [
   /google-site-verification/i,
   /bingbot/i,
   /msnbot/i,
+  /adidxbot/i,
+  /bingpreview/i,
+  /microsoftpreview/i,
   /slurp/i, // Yahoo
   /duckduckbot/i,
   /baiduspider/i,
@@ -107,6 +110,7 @@ const VERIFIED_BOTS = [
 
   // AI Crawlers (OpenAI, Anthropic, etc.)
   /gptbot/i,
+  /oai-searchbot/i,
   /chatgpt/i,
   /claudebot/i,
   /anthropic/i,

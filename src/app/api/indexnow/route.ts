@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 import sitemap from '@/app/sitemap';
+import { countries } from '@/data/countries';
+import { countryNameToSlug } from '@/lib/countrySlug';
 
 export const dynamic = 'force-dynamic';
 
@@ -16,7 +18,11 @@ export async function GET(request: Request) {
 
   const entries = await sitemap();
   const { host, origin } = new URL(entries[0].url);
-  const urlList = entries.map((entry) => entry.url).filter((url) => new URL(url).host === host);
+  const sitemapUrls = entries.map((entry) => entry.url).filter((url) => new URL(url).host === host);
+  const allCountryUrls = countries.map(
+    (country) => `${origin}/check-requirement/${countryNameToSlug(country.name)}`
+  );
+  const urlList = [...new Set([...sitemapUrls, ...allCountryUrls])];
 
   const response = await fetch('https://api.indexnow.org/indexnow', {
     method: 'POST',
