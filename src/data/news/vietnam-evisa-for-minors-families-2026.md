@@ -2,7 +2,7 @@
 title: 'Vietnam eVisa for Children & Families (2026): Group Filing Guide'
 slug: vietnam-evisa-for-minors-families-2026
 date: '2026-03-07'
-dateModified: '2026-10-21'
+dateModified: '2026-10-22'
 author: 'Vietnam eVisa Assistance Team'
 image: '/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg'
 imageAlt: 'Families with children waiting at a Vietnam international airport boarding gate'
@@ -45,7 +45,7 @@ Families **travelling to Vietnam** or **visiting Vietnam** with children should 
 | **Who needs their own eVisa** | Every traveler with their own passport—including infants                           |
 | **Group filing**              | Up to **15 passengers** in one payment session on our flow                         |
 | **Government fee per person** | **$25** single entry / **$50** multiple entry (not age-based)                      |
-| **Service fee**               | **$69.99 per passenger** on assisted filing                                        |
+| **Service fee**               | **$69.99 per passenger** on assisted filing (100% service fee refund if rejected)  |
 | **Key documents per child**   | Passport scan, portrait photo, guardian details, aligned travel dates              |
 | **Apply early**               | **7–14+ days** before departure; extra margin for infant photos                    |
 | **At immigration**            | Printed eVisa + passport per person; birth certificate if surnames differ          |
@@ -198,7 +198,7 @@ All family members should share:
 | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | One resort stay, no regional exits                 | Single entry ($25 govt fee)                                                                                                               |
 | Thailand/Cambodia side trip then return to Vietnam | **Multiple entries** ($50 govt fee)                                                                                                       |
-| Cruise disembark/re-embark                         | Multiple entry—confirm with cruise operator                                                                                               |
+| Cruise disembark/re-embark                         | Multiple entry—confirm with cruise operator (see [Vietnam cruise eVisa guide](/troubleshooting/cruise-ship-evisa-entry))                                                  |
 | Long stay with possible extension                  | Max 90-day product at filing; extensions are not guaranteed—see [Vietnam eVisa extension guide](/blog/vietnam-evisa-extension-guide-2026) |
 
 Read [Vietnam eVisa entry ports](/blog/vietnam-evisa-approved-entry-ports-2026) and [Vietnam multiple-entry eVisa guide](/blog/vietnam-evisa-multiple-entry-guide-2026) before checkout.

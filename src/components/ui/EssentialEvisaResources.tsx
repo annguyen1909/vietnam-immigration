@@ -6,6 +6,7 @@ import {
   DocumentTextIcon,
   BoltIcon,
   SparklesIcon,
+  UserGroupIcon,
   ArrowRightIcon,
 } from '@heroicons/react/24/outline';
 import {
@@ -68,6 +69,15 @@ export default function EssentialEvisaResources({
         'Detailed walk-through for obtaining the 90-day multiple-entry eVisa for tourism or business.',
       icon: DocumentTextIcon,
       badge: 'Guide',
+      highlight: false,
+    },
+    {
+      href: '/blog/vietnam-evisa-for-minors-families-2026',
+      anchor: 'Family & Group Filing (Up to 15)',
+      description:
+        'Apply for adults, children, and infants in one shared checkout with manual photo and passport review.',
+      icon: UserGroupIcon,
+      badge: 'Families',
       highlight: false,
     },
   ];

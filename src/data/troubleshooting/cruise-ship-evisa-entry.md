@@ -1,9 +1,9 @@
 ---
-title: 'Vietnam eVisa for Cruise Passengers: Ports, Shore Leave & Fixes'
-description: Do cruise passengers need a Vietnam visa? Who needs an eVisa to go ashore, which seaport to list, when multiple entry applies, and how to fix port mistakes.
+title: 'Vietnam eVisa for Cruise Passengers: Seaports, Shore Leave & Group Filing'
+description: 'Do cruise passengers need a Vietnam eVisa? Official Vietnam cruise seaports (Ha Long/Hon Gai, Chan May/Hue, Da Nang/Tien Sa, Nha Trang, Phu My/Vung Tau, Phu Quoc), multiple-entry rules, fees ($25/$50 + $69.99), and group filing up to 15.'
 slug: cruise-ship-evisa-entry
 date: 2026-06-23
-updated: 2026-10-21
+updated: 2026-10-22
 index: true
 priority: 0.9
 howToTotalTime: PT4H
@@ -39,31 +39,35 @@ Your **Vietnam cruise** is booked—but your **eVisa lists the wrong port**, you
 
 ## Quick answer: cruise passengers and Vietnam eVisa
 
-| Question                           | Answer                                                        |
-| ---------------------------------- | ------------------------------------------------------------- |
-| Staying on the ship?               | **No visa** needed for that port day                          |
-| Need visa for shore excursion?     | **Usually yes** for most nationalities                        |
-| Can I enter at any cruise port?    | **No**—only designated ports on your eVisa                    |
-| Fly-cruise via Hanoi then ship?    | First entry port must match eVisa—often airport first         |
-| Exit Vietnam and return on cruise? | Likely need **multiple entry**                                |
-| Visa exemption on cruise?          | **Some passports** for short stays—check yours; do not assume |
+| Question                           | Answer                                                                                  |
+| ---------------------------------- | --------------------------------------------------------------------------------------- |
+| Staying on the ship?               | **No visa** needed for that port day (confirm your cruise line's embarkation policy)    |
+| Need visa for shore excursion?     | **Usually yes** for most nationalities going ashore independently or on excursions      |
+| Can I enter at any cruise port?    | **No**—only designated seaports/airports matching your approved eVisa                   |
+| Fly-cruise via Hanoi/SGN then ship?| First entry port must match eVisa—select the **arrival airport** first                  |
+| Exit Vietnam and return on cruise? | Choose **90-day Multiple Entry ($50 govt fee)** if exiting to another country & returning|
+| Traveling with family or group?    | Submit **up to 15 passengers in one checkout** on [/apply](/apply)                      |
+| Cost & refund protection?          | **$25** single / **$50** multiple govt fee + **$69.99** service fee (100% service fee refund if rejected) |
 
-## Approved seaports and airports (verify on your PDF)
+## Approved Vietnam cruise seaports and airports (verify on your PDF)
 
-Cruise itineraries often market **city names** while immigration uses **official port gates**. Your eVisa PDF lists **designated entry ports**—every gate must match where you physically enter.
+Cruise itineraries often market **city or excursion names** (such as "Hanoi", "Hue", or "Ho Chi Minh City") while Vietnamese immigration uses **official seaport checkpoint names**. Your eVisa PDF must list the **designated entry port** where your ship or flight first clears Vietnam immigration.
 
-Common cruise-related entry points include:
+Common Vietnam cruise seaports and fly-cruise airports include:
 
-| Region               | Ports travelers use                                           | Notes                                      |
-| -------------------- | ------------------------------------------------------------- | ------------------------------------------ |
-| **Ho Chi Minh City** | Tan Son Nhat (SGN) airport; Phu My / Ho Chi Minh seaport area | Fly-cruise packages may enter by air first |
-| **Da Nang**          | Da Nang International Airport (DAD); Tien Sa seaport          | Central coast cruise stops                 |
-| **Nha Trang**        | Cam Ranh International Airport (CXR); Nha Trang seaport       | Ask which gate your ship uses              |
-| **Phu Quoc**         | Phu Quoc International Airport / seaport (PQC)                | Island cruise and resort gateways          |
+| Cruise Destination / Excursion | Official Vietnam Seaport / Airport Name | Notes for Your eVisa Form |
+| :--- | :--- | :--- |
+| **Ha Long Bay / Hanoi (By Sea)** | **Hon Gai Seaport** (Quang Ninh) or **Hai Phong Seaport** | Used by major cruise ships calling at Ha Long Bay |
+| **Hue / Da Nang / Hoi An (By Sea)** | **Chan May Seaport** (Thua Thien Hue) or **Da Nang Seaport** (Tien Sa) | Large ships often dock at Chan May; smaller/mid-size at Tien Sa |
+| **Nha Trang / Cam Ranh (By Sea)** | **Nha Trang Seaport** (Khanh Hoa) | Central-south coast cruise calls |
+| **Ho Chi Minh City / Mekong (By Sea)** | **Vung Tau Seaport** / **Ho Chi Minh City Seaport** (Phu My area) | Confirm exact terminal name with your cruise line |
+| **Phu Quoc Island (By Sea)** | **Duong Dong Seaport** (Phu Quoc) | Southern island cruise calls |
+| **Quy Nhon (By Sea)** | **Quy Nhon Seaport** (Binh Dinh) | Central coast expedition & boutique cruise calls |
+| **Fly-Cruise via Hanoi or HCMC** | **Noi Bai Airport (HAN)** or **Tan Son Nhat Airport (SGN)** | Select the **airport** if you fly into Vietnam before boarding your ship |
 
-**Critical rule:** The port on your eVisa must match your **first physical entry** into Vietnam on that trip segment—not a later port on the cruise schedule.
+**Critical rule:** The port on your eVisa must match your **first physical entry** into Vietnam on that trip segment—not a later port on the cruise schedule. Once you clear immigration at your first Vietnamese cruise port and sail directly to the next Vietnamese port without entering a foreign country in between, you remain on the same entry.
 
-Wrong port fixes: [wrong port of entry guide](/troubleshooting/wrong-port-of-entry).
+Wrong port fixes: [wrong port of entry guide](/troubleshooting/wrong-port-of-entry). Full port list: [approved Vietnam eVisa entry ports 2026](/blog/vietnam-evisa-approved-entry-ports-2026).
 
 ## Problem 1: eVisa says airport, cruise arrives at seaport
 
@@ -110,13 +114,13 @@ Cruise-organized **closed-loop excursions** sometimes use group handling—**ind
 
 If rejected: [rejection reapply guide](/troubleshooting/evisa-rejected-reapply).
 
-## How to apply correctly as a cruise passenger
+## How to apply correctly as a cruise passenger (1 to 15 travelers)
 
-1. **Get official port name** from cruise line in writing
-2. **Select that port** (or matching airport if fly-cruise) on the form
-3. **Choose multiple entry** if itinerary exits and re-enters Vietnam
-4. **Upload compliant photo**—[photo requirements](/blog/vietnam-evisa-photo-requirements-2026)
-5. **Apply 7–14 days before embarkation** when possible
+1. **Get official port name** from your cruise line in writing (for example, Hon Gai Seaport, Chan May Seaport, Da Nang Seaport, Nha Trang Seaport, Vung Tau / Ho Chi Minh City Seaport, or Duong Dong Seaport)
+2. **Select that port** (or matching arrival airport if fly-cruise) on [/apply](/apply) — you can include **up to 15 family or cruise group members in one checkout** (see our [family & group eVisa guide](/blog/vietnam-evisa-for-minors-families-2026))
+3. **Choose multiple entry ($50 govt fee)** if your itinerary exits Vietnam waters to Thailand, Cambodia, Singapore, China, or Hong Kong and re-enters Vietnam later
+4. **Upload compliant photo & passport scan**—our team reviews every passenger's documents before filing ([photo requirements](/blog/vietnam-evisa-photo-requirements-2026))
+5. **Apply 7–14 days before embarkation** when possible (standard **$69.99** service fee per passenger includes document verification and a **100% service fee refund if rejected**; Urgent and Super Urgent options available on [/fees](/fees))
 6. **Print PDF** + save offline copy before leaving home Wi-Fi
 
 Step-by-step filing: [how to apply online 2026](/blog/how-to-apply-vietnam-evisa-online-2026).
