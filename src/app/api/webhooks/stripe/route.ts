@@ -137,7 +137,7 @@ async function handlePaymentSuccess(paymentIntent: Stripe.PaymentIntent) {
         amount: paymentIntent.amount / 100,
         status: 'succeeded',
         transactionId: `payment_${paymentIntent.id}`,
-        description: `Payment of $${(paymentIntent.amount / 100).toFixed(2)} ${paymentIntent.currency.toUpperCase()} - Made by ${cardholderName}.`,
+        description: `Payment of $${(paymentIntent.amount / 100).toFixed(2)} ${paymentIntent.currency.toUpperCase()} - Made by ${cardholderName}. Landing: ${paymentIntent.metadata?.landing || 'unknown'}.`,
         timestamp: new Date(),
       },
     });

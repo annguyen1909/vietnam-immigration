@@ -6,6 +6,7 @@ import SiteHeader from '@/components/layout/SiteHeader';
 import Providers from '@/components/Providers';
 import ContactWidget from '@/components/ui/ContactWidget';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import LandingSource from '@/components/LandingSource';
 import { DEFAULT_OG_IMAGE, SITE_NAME, absoluteAssetUrl, getPublicSiteUrl } from '@/lib/seo';
 import { getVietnamDefaultSiteDescription } from '@/lib/vietnamPricing';
 import OrganizationSchema from '@/components/seo/OrganizationSchema';
@@ -167,6 +168,7 @@ export default function RootLayout({
         className={`${ibmPlexSans.variable} ${ibmPlexSerif.variable} flex min-h-screen flex-col font-sans antialiased`}
       >
         <GoogleAnalytics />
+        <LandingSource />
         <OrganizationSchema />
         <Providers>
           <SiteHeader />

@@ -130,7 +130,7 @@ export async function POST(
         update: {
           status: 'succeeded',
           amount: paymentIntent.amount / 100,
-          description: `Payment of $${(paymentIntent.amount / 100).toFixed(2)} ${paymentIntent.currency.toUpperCase()} - Made by ${billingDetails?.name || 'Cardholder'}.`,
+          description: `Payment of $${(paymentIntent.amount / 100).toFixed(2)} ${paymentIntent.currency.toUpperCase()} - Made by ${billingDetails?.name || 'Cardholder'}. Landing: ${paymentIntent.metadata?.landing || 'unknown'}.`,
           timestamp: new Date(),
         },
         create: {
@@ -141,7 +141,7 @@ export async function POST(
           amount: paymentIntent.amount / 100,
           status: 'succeeded',
           transactionId: `payment_${paymentIntent.id}`,
-          description: `Payment of $${(paymentIntent.amount / 100).toFixed(2)} ${paymentIntent.currency.toUpperCase()} - Made by ${billingDetails?.name || 'Cardholder'}.`,
+          description: `Payment of $${(paymentIntent.amount / 100).toFixed(2)} ${paymentIntent.currency.toUpperCase()} - Made by ${billingDetails?.name || 'Cardholder'}. Landing: ${paymentIntent.metadata?.landing || 'unknown'}.`,
           timestamp: new Date(),
         },
       });

@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { landingSourceFromRequest } from '@/lib/landingSource';
 import { prisma } from '@/lib/prisma';
 import { getStripe } from '@/lib/stripe';
 import { getCountryCodeFromName, isNationalityCodeAllowed } from '@/lib/nationalityEligibility';
@@ -81,6 +82,7 @@ export async function POST(request: NextRequest) {
       receipt_email: account.email,
       metadata: {
         applicationId: applicationId,
+        landing: landingSourceFromRequest(request),
       },
       automatic_payment_methods: {
         enabled: true,
