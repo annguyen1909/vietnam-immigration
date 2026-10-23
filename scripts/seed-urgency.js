@@ -16,12 +16,12 @@ const URGENCY_ADDONS = [
   {
     name: 'Super Urgent - 24 hrs to Vietnam',
     type: 'urgency',
-    pricePerPax: 39.99,
+    pricePerPax: 220,
   },
   {
     name: 'Urgent - 48 hrs to Vietnam',
     type: 'urgency',
-    pricePerPax: 19.99,
+    pricePerPax: 110,
   },
 ];
 

@@ -4,6 +4,7 @@ import { prisma } from '@/lib/prisma';
 import { findAccountByEmail, hashPassword, validateSession } from '@/lib/auth';
 import { getServiceFee } from '@/lib/serviceFee';
 import { resolveUrgencyFeePerPax, type UrgencyValue } from '@/lib/urgency';
+import { buildAdditionalChargesDetails } from '@/lib/orderTotal';
 import { isVietnamEntryAirport } from '@/data/vietnamEntryAirports';
 
 const WEBSITE = 'Vietnam Local Site';
@@ -115,7 +116,13 @@ export async function POST(request: NextRequest) {
     // 2. Generate the application id in format VN + 6 unique random digits
     const newApplicationId = await generateUniqueApplicationId();
 
-    const urgencyValue = typeof urgency === 'string' ? urgency.trim() : '';
+    const urgencyValue = (typeof urgency === 'string' ? urgency.trim() : '') as UrgencyValue;
+    const passengerIds = Array.from({ length: passengerCount }, () => randomUUID());
+    const additionalChargesDetails = buildAdditionalChargesDetails(
+      passengerIds.map((id) => ({ id })),
+      urgencyValue,
+      urgencyFee
+    );
 
     const application = await prisma.application.create({
       data: {
@@ -131,12 +138,11 @@ export async function POST(request: NextRequest) {
         total: total,
         additionalCharges: 0,
         ...(urgencyValue ? { urgency: urgencyValue } : {}),
+        ...(additionalChargesDetails ? { additionalChargesDetails } : {}),
         portType: 'Airport',
         portName: portNameValue,
         Passenger: {
-          create: Array.from({ length: passengerCount }, () => ({
-            id: randomUUID(),
-          })),
+          create: passengerIds.map((id) => ({ id })),
         },
       },
       include: {
