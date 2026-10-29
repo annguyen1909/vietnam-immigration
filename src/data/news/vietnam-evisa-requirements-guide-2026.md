@@ -46,7 +46,7 @@ This guide is written for travelers who want to **apply for Vietnam visa online*
 | **Max Stay**        | Up to **90 days** from the validity date printed on the approval                                                                                                          |
 | **Entries**         | **Single entry** or **multiple entry** depending on the product selected                                                                                                  |
 | **Processing Time** | Often several working days; our standard handling is shown as **within 5 business days**                                                                                  |
-| **Government Fee**  | The government eVisa fee is **$25 single-entry** or **$50 multiple-entry**, plus the disclosed service fee shown in our [transparent Vietnam eVisa fee breakdown](/fees). |
+| **Government & Admin Fee**  | The Government & Admin Fee is **$25 single-entry** or **$50 multiple-entry**. It includes the official government eVisa charge listed on the Vietnam government portal, together with administrative handling charges. Our service fee is charged separately. See the [fee breakdown](/fees). |
 
 ## Who Needs a Vietnam eVisa in 2026?
 
@@ -134,7 +134,7 @@ If your ticket lands in Ho Chi Minh City but the approval lists Hanoi, or if you
 
 Use our [Vietnam eVisa approved entry ports guide](/blog/vietnam-evisa-approved-entry-ports-2026) before you submit, then confirm the port printed on your approval PDF matches your first international arrival.
 
-## Cost of Vietnam eVisa in 2026: Government Fees vs Service Fees
+## Cost of Vietnam eVisa in 2026: Government & Admin Fee vs Service Fee
 
 The **cost of Vietnam eVisa** on this site is shown in full before you pay. Fees include the government/application charge, our assistance service fee, and any optional urgent handling you select.
 
@@ -285,4 +285,4 @@ This guide is maintained by the **Vietnam eVisa Assistance Team**—a private ap
 
 **If your application is refused or delayed**
 
-Contact support with your reference number first. Government fees are often non-refundable once submitted; service-fee treatment is explained in our [refund policy](/refund-policy). We do not guarantee approval times or outcomes—Vietnamese immigration authorities make the final decision.
+Contact support with your reference number first. The official government charge, once submitted to the authority, is not refunded by us. Service-fee treatment is explained in our [refund policy](/refund-policy). We do not guarantee approval times or outcomes—Vietnamese immigration authorities make the final decision.

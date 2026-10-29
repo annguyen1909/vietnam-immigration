@@ -298,6 +298,7 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
                     <td style="padding: 6px 0; text-align: right;">${passengerCount}</td>
                   </tr>
                 </table>
+<p style="font-size: 13px; color: #444;">The Government & Admin Fee includes the official government eVisa charge listed on the Vietnam government portal, together with administrative handling charges. Our service fee is charged separately.</p>
               `
             )}
             ${emailCard(
@@ -305,7 +306,7 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
               `
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: ${EMAIL_BRAND.ink};">
                   <tr>
-                    <td style="padding: 8px 0;">Government Fee</td>
+                    <td style="padding: 8px 0;">Government & Admin Fee</td>
                     <td style="padding: 8px 0; text-align: right;">$${governmentFee.toFixed(2)} × ${passengerCount}</td>
                   </tr>
                   <tr>

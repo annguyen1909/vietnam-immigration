@@ -122,7 +122,7 @@ export async function getVietnamVisaTypes(): Promise<VietnamVisaTypeView[]> {
 export function buildVisaTypesContent(visaTypes: VietnamVisaTypeView[]) {
   return visaTypes.map((v) => ({
     name: v.name,
-    description: `${v.entry} for ${v.durationDays} days. Government fee $${v.govFee}.`,
+    description: `${v.entry} for ${v.durationDays} days. Government & Admin Fee $${v.govFee}.`,
   }));
 }
 

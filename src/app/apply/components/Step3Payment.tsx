@@ -707,7 +707,7 @@ function Step3PaymentSuccess({
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Order Summary</h2>
             <div className="space-y-3 text-sm">
               <div className="flex justify-between">
-                <span className="text-gray-700">Government Fee</span>
+                <span className="text-gray-700">Government & Admin Fee</span>
                 <span className="font-semibold text-gray-900">
                   {formatCurrency(totalGovernmentFee)}
                 </span>

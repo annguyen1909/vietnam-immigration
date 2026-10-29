@@ -22,8 +22,8 @@ export default function HomeVisaOptions({ visaTypes }: HomeVisaOptionsProps) {
           </h2>
           <p className="mt-3 text-brand-muted">
             Tourist and business routes, single or multiple entry — all valid up to 90 days.
-            Government fee ({VIETNAM_GOV_FEE_SUMMARY}) plus {formatUsd(SERVICE_FEE)} service fee per
-            traveler. Optional Urgent processing at apply.
+            Government & Admin Fee ({VIETNAM_GOV_FEE_SUMMARY}) plus {formatUsd(SERVICE_FEE)} service
+            fee per traveler. Optional Urgent processing at apply.
           </p>
         </div>
 

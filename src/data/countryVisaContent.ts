@@ -324,7 +324,7 @@ export const sharedFaqs = [
   },
   {
     q: 'How long can {citizen} stay in Vietnam with an e-Visa?',
-    a: `The duration of stay for {citizen} depends on the type of e-Visa obtained. ${getVietnamStayDurationFaqLine()} See the visa types section on this page for current government fees.\n\nIf you need to stay longer, see the FAQ about visa extensions.`,
+    a: `The duration of stay for {citizen} depends on the type of e-Visa obtained. ${getVietnamStayDurationFaqLine()} See the visa types section on this page for the current Government & Admin Fee.\n\nIf you need to stay longer, see the FAQ about visa extensions.`,
   },
   {
     q: 'Can {citizen} extend their visa?',

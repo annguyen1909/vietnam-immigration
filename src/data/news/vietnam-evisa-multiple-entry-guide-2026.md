@@ -25,7 +25,7 @@ faq:
   - question: Do all passport countries get multiple-entry eVisa options?
     answer: Most travelers who qualify can select multiple entry on our portal. Always confirm live on the country checker and apply form for your passport.
   - question: Is multiple entry worth it for a two-week holiday with no border exits?
-    answer: No. If you fly in, travel only inside Vietnam, and fly out without crossing an international border, single entry ($25 government fee) is sufficient.
+    answer: No. If you fly in, travel only inside Vietnam, and fly out without crossing an international border, single entry ($25 Government & Admin Fee) is sufficient.
   - question: What are the 90-day multiple entry e-visa rules for Vietnam?
     answer: The 90-day multiple entry eVisa allows you to enter and exit Vietnam multiple times within a 90-day validity window. Each entry must comply with the permitted stay duration and approved ports specified on your official approval PDF.
   - question: Can I use a multiple entry eVisa for a border run in Vietnam?
@@ -46,7 +46,7 @@ A **single-entry Vietnam eVisa** fits simple fly-in, fly-out holidays. If you **
 
 Many travelers learn this too late. At a bus station or airport, they find their single-entry visa ended when they left. They must **apply for a visa** again—pay the full **visa fee**, wait through **processing times**, and rearrange **travel plans**.
 
-This 2026 guide covers how multiple-entry **tourist visa** products work, which trips need them, re-entry checks, and why the extra $25 government fee beats reapplying mid-trip.
+This 2026 guide covers how multiple-entry **tourist visa** products work, which trips need them, re-entry checks, and why the extra $25 Government & Admin Fee beats reapplying mid-trip.
 
 **We are a private visa assistance service—not the Government of Vietnam.** We help you choose the right visa product at checkout; we do not issue visas or guarantee re-entry. Final decisions belong to immigration officers at the border.
 
@@ -153,7 +153,7 @@ For travelers looking to extend their time in Southeast Asia, organizing a **bor
 - Beach week in **Phu Quoc** with no international exit
 - **One** business meeting trip with no regional side travel
 
-If every leg stays **inside Vietnam** without crossing an international border, save the $25 government fee difference.
+If every leg stays **inside Vietnam** without crossing an international border, save the $25 Government & Admin Fee difference.
 
 ![Overland border crossing on Vietnam Cambodia bus route for multiple entry eVisa](/img/blog/photos/vietnam-evisa-approved-entry-ports-2026.jpg)
 

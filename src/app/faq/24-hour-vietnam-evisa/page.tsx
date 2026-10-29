@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much does an urgent Vietnam eVisa cost?',
-    answer: `Total = government fee (${VIETNAM_GOV_FEE_SUMMARY}) + ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger + urgency add-on (${formatUsd(VIETNAM_URGENCY_FEE_URGENT)} Urgent or ${formatUsd(VIETNAM_URGENCY_FEE_SUPER_URGENT)} Super Urgent). See the fee examples on this page and the full calculator on /fees.`,
+    answer: `Total = Government & Admin Fee (${VIETNAM_GOV_FEE_SUMMARY}) + ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger + urgency add-on (${formatUsd(VIETNAM_URGENCY_FEE_URGENT)} Urgent or ${formatUsd(VIETNAM_URGENCY_FEE_SUPER_URGENT)} Super Urgent). See the fee examples on this page and the full calculator on /fees.`,
   },
   {
     question: 'Is emergency Vietnam eVisa approval guaranteed?',
@@ -85,7 +85,7 @@ const URGENT_RELATED = [
   {
     href: '/fees',
     title: 'Vietnam Visa Fees & Calculator',
-    description: `Full ${formatUsd(VIETNAM_GOV_FEE_SINGLE)}/${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} government fee breakdown plus service and rush add-ons.`,
+    description: `Full ${formatUsd(VIETNAM_GOV_FEE_SINGLE)}/${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} Government & Admin Fee breakdown plus service and rush add-ons.`,
   },
   {
     href: '/troubleshooting/payment-failed',
@@ -331,8 +331,8 @@ export default function UrgentEVisaLandingPage() {
                 </table>
               </div>
               <p className="text-sm text-gray-500 px-6 py-4 border-t border-gray-100">
-                Sample totals use single-entry government fee + service fee + urgency add-on. Full
-                breakdown and multiple-entry pricing:{' '}
+                Sample totals use the single-entry Government & Admin Fee + service fee + urgency
+                add-on. Full breakdown and multiple-entry pricing:{' '}
                 <Link href="/fees" className="font-semibold text-brand-primary underline">
                   Vietnam visa fees
                 </Link>
@@ -387,8 +387,8 @@ export default function UrgentEVisaLandingPage() {
                 Sample Single-Entry Pricing
               </h2>
               <p className="text-lg text-gray-600 mt-4 leading-relaxed">
-                These examples use the single-entry government fee. Multiple-entry visas use a{' '}
-                {formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} government fee instead of{' '}
+                These examples use the single-entry Government & Admin Fee. Multiple-entry visas use
+                a {formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} Government & Admin Fee instead of{' '}
                 {formatUsd(VIETNAM_GOV_FEE_SINGLE)}.
               </p>
             </div>
@@ -411,7 +411,7 @@ export default function UrgentEVisaLandingPage() {
 
                   <div className="space-y-3 pt-6 border-t border-gray-100 text-sm">
                     <div className="flex justify-between text-gray-600">
-                      <span>Government Fee:</span>
+                      <span>Government & Admin Fee:</span>
                       <span className="font-bold text-gray-900">
                         {formatUsd(VIETNAM_GOV_FEE_SINGLE)}
                       </span>
@@ -465,7 +465,7 @@ export default function UrgentEVisaLandingPage() {
 
                   <div className="space-y-3 pt-6 border-t border-slate-700 text-sm">
                     <div className="flex justify-between text-slate-300">
-                      <span>Government Fee:</span>
+                      <span>Government & Admin Fee:</span>
                       <span className="font-bold text-white">
                         {formatUsd(VIETNAM_GOV_FEE_SINGLE)}
                       </span>
@@ -517,7 +517,7 @@ export default function UrgentEVisaLandingPage() {
 
                   <div className="space-y-3 pt-6 border-t border-gray-100 text-sm">
                     <div className="flex justify-between text-gray-600">
-                      <span>Government Fee:</span>
+                      <span>Government & Admin Fee:</span>
                       <span className="font-bold text-gray-900">
                         {formatUsd(VIETNAM_GOV_FEE_SINGLE)}
                       </span>

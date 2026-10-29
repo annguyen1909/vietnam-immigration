@@ -123,7 +123,7 @@ export default function FeesPage() {
                 <p className="text-2xl font-bold text-gray-900">
                   {formatUsd(VIETNAM_GOV_FEE_SINGLE)}
                 </p>
-                <p className="text-xs text-gray-500">Government fee</p>
+                <p className="text-xs text-gray-500">Government & Admin Fee</p>
               </div>
               <div className="rounded-xl border-2 border-gray-200 bg-white px-4 py-3 shadow-sm">
                 <p className="text-xs font-bold uppercase tracking-wide text-gray-500">
@@ -132,7 +132,7 @@ export default function FeesPage() {
                 <p className="text-2xl font-bold text-gray-900">
                   {formatUsd(VIETNAM_GOV_FEE_MULTIPLE)}
                 </p>
-                <p className="text-xs text-gray-500">Government fee</p>
+                <p className="text-xs text-gray-500">Government & Admin Fee</p>
               </div>
               <div className="rounded-xl border-2 border-brand-primary bg-white px-4 py-3 shadow-sm">
                 <p className="text-xs font-bold uppercase tracking-wide text-brand-primary">
@@ -146,8 +146,8 @@ export default function FeesPage() {
             </div>
 
             <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed mb-4">
-              Your <strong>Vietnam visa fee</strong> total is the government fee for your entry type
-              plus our flat service fee—shown before you pay. Optional{' '}
+              Your <strong>Vietnam visa fee</strong> total is the Government & Admin Fee for your
+              entry type plus our flat service fee—shown before you pay. Optional{' '}
               <Link
                 href="/faq/24-hour-vietnam-evisa"
                 className="font-semibold text-brand-primary underline"
@@ -211,7 +211,7 @@ export default function FeesPage() {
             </h2>
             <p className="text-gray-700 text-base leading-relaxed">
               This page is the canonical <strong>Vietnam visa fee</strong> breakdown for assisted
-              eVisa applications on vietnamemigration.com. Government fee by product:{' '}
+              eVisa applications on vietnamemigration.com. Government & Admin Fee by product:{' '}
               <strong>{formatUsd(VIETNAM_GOV_FEE_SINGLE)} single entry</strong> or{' '}
               <strong>{formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} multiple entry</strong>, plus{' '}
               <strong>{formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee</strong> per passenger.
@@ -232,14 +232,14 @@ export default function FeesPage() {
             <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
               We believe in complete transparency. Review the clear distinction between the
-              statutory fees paid directly to immigration authorities and the professional fees for
-              our expert preparation and review services.
+              Government & Admin Fee and the professional fees for our expert preparation and review
+              services.
             </p>
           </div>
 
           {/* 2 Columns Comparison */}
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
-            {/* Column 1: Government eVisa Fee */}
+            {/* Column 1: Government & Admin Fee */}
             <div className="bg-white border-4 border-gray-300 rounded-2xl shadow-xl overflow-hidden flex flex-col justify-between transform hover:-translate-y-1 transition-transform">
               <div>
                 <div className="bg-gray-200 py-6 px-8 text-center border-b-2 border-gray-300">
@@ -247,7 +247,7 @@ export default function FeesPage() {
                     Mandatory Cost
                   </span>
                   <h3 className="text-2xl sm:text-3xl font-bold text-gray-900">
-                    Government eVisa Fee
+                    Government & Admin Fee
                   </h3>
                 </div>
                 <div className="p-8 sm:p-10 space-y-6">
@@ -281,8 +281,10 @@ export default function FeesPage() {
                         />
                       </svg>
                       <p className="text-sm text-gray-700">
-                        <strong>Recipient:</strong> Vietnam Immigration Department, same amount as
-                        on evisa.gov.vn.
+                        <strong>What this line is:</strong> The Government & Admin Fee includes the
+                        official government eVisa charge listed on the Vietnam government portal,
+                        together with administrative handling charges. Our service fee is charged
+                        separately.
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
@@ -298,8 +300,8 @@ export default function FeesPage() {
                         />
                       </svg>
                       <p className="text-sm text-gray-700">
-                        <strong>Purpose:</strong> Statutory eVisa issuance fee, paid in full to the
-                        government on your behalf.
+                        <strong>Service fee:</strong> Charged separately from the Government & Admin
+                        Fee.
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
@@ -324,7 +326,7 @@ export default function FeesPage() {
               </div>
               <div className="p-8 bg-gray-50 border-t border-gray-200 text-center">
                 <p className="text-xs text-gray-500 italic">
-                  *The government eVisa fee is mandatory for all eVisa applications.
+                  *The official government eVisa charge is included in the Government & Admin Fee.
                 </p>
               </div>
             </div>
@@ -540,7 +542,7 @@ export default function FeesPage() {
 
               <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-5 space-y-3">
                 <div className="flex justify-between items-center text-sm sm:text-base">
-                  <span className="text-gray-700 font-semibold">Government fee</span>
+                  <span className="text-gray-700 font-semibold">Government & Admin Fee</span>
                   <span className="font-bold text-brand-primary">US$ {govFee.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between items-center text-sm sm:text-base">
@@ -764,8 +766,8 @@ export default function FeesPage() {
                 immigration authority.
               </p>
               <p>
-                By using our professional service, you agree to pay the government visa fee plus our
-                service fee, which is clearly disclosed throughout the application process.
+                By using our professional service, you agree to pay the Government & Admin Fee plus
+                our service fee, which is clearly disclosed throughout the application process.
               </p>
             </div>
           </div>
@@ -777,7 +779,7 @@ export default function FeesPage() {
         variant="sticky"
         storageKey="fees-sticky-apply"
         headline="Ready to apply for your Vietnam eVisa?"
-        subtext="Government fee + service fee shown before you pay. Optional rush tiers at checkout."
+        subtext="Government & Admin Fee + service fee shown before you pay. Optional rush tiers at checkout."
         buttonLabel="Start application"
         href={applyHref}
       />

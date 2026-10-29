@@ -134,7 +134,7 @@ export default function LivePriceBox({
             <span className="font-medium text-gray-900">{selectedVisa.name}</span>
           </div>
           <div className="flex justify-between">
-            <span>Government Fee:</span>
+            <span>Government & Admin Fee:</span>
             <span className="font-medium text-gray-900">
               ${governmentFee.toFixed(2)} x {passengerCount}
             </span>

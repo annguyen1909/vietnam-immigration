@@ -60,7 +60,7 @@ export default function FeesLayout({ children }: { children: React.ReactNode }) 
         priceSpecification: [
           {
             '@type': 'UnitPriceSpecification',
-            name: 'Vietnam Government eVisa Fee',
+            name: 'Vietnam Government & Admin Fee',
             price: offer.govFee.toFixed(2),
             priceCurrency: pricing.currency,
           },

@@ -263,7 +263,7 @@ Some nationalities and trips qualify for **both**. Compare:
 
 ### Scenario B: Three-week ASEAN loop—Vietnam, Cambodia, back to Vietnam
 
-**Winner: eVisa (multiple entry).** $50 government fee beats embassy agent stacks for the same tourism purpose. Confirm ports for air and land legs.
+**Winner: eVisa (multiple entry).** $50 Government & Admin Fee beats embassy agent stacks for the same tourism purpose. Confirm ports for air and land legs.
 
 ### Scenario C: Six-month engineering assignment in Hai Phong
 

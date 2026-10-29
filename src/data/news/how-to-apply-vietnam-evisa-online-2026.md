@@ -19,7 +19,7 @@ faq:
   - question: Do children need separate Vietnam eVisa applications?
     answer: Yes. Each traveler normally needs their own authorization. Many assisted flows accept up to 15 passengers in one group submission—see our family and minors guides for infant photo rules and guardian details.
   - question: How much does it cost to apply for Vietnam eVisa online in 2026?
-    answer: On our portal, total cost includes a government fee ($25 single-entry or $50 multiple-entry for standard 90-day products), a $69.99 service fee per passenger, and any optional urgent processing you select. Confirm the exact total at checkout before you pay.
+    answer: On our portal, total cost includes a Government & Admin Fee ($25 single-entry or $50 multiple-entry for standard 90-day products), a $69.99 service fee per passenger, and any optional urgent processing you select. The Government & Admin Fee includes the official government eVisa charge listed on the Vietnam government portal, together with administrative handling charges. Our service fee is charged separately. Confirm the exact total at checkout before you pay.
   - question: Why apply for a Vietnam eVisa through vietnamemigration.com?
     answer: Our assisted portal at /apply adds form guidance, document checks, disclosed fees before checkout, optional urgent handling, and support through approval—useful if you want a structured checklist rather than filing alone.
   - question: When should I apply for my Vietnam eVisa before travel?
@@ -59,7 +59,7 @@ Understanding who reviews your visa—and what you get at checkout—prevents co
 | ------------------------------------- | ------------------------------------------------------------------------- |
 | **Guided form with field validation** | Catches passport typos and date-format errors before payment              |
 | **Document checks**                   | Reduces rejections from blurry scans, bad photos, or MRZ issues           |
-| **Disclosed fee breakdown**           | Government fee + service fee + optional urgent tiers shown before you pay |
+| **Disclosed fee breakdown**           | Government & Admin Fee + service fee + optional urgent tiers shown before you pay |
 | **Support through processing**        | Help with status tracking, correction requests, and family group filing   |
 | **Optional urgent tiers**             | Faster assisted handling when your departure date is tight                |
 
@@ -90,7 +90,7 @@ Gather everything in one folder on your phone or laptop **before** you open the 
 | **Digital portrait photo**      | Automated and human checks reject casual selfies                 | Plain light background, face forward, eyes open—see [Vietnam eVisa photo requirements](/blog/vietnam-evisa-photo-requirements-2026) |
 | **Arrival and departure dates** | Must fit your visa type's stay limit                             | Align with flight tickets; build buffer if processing is tight                                                                      |
 | **Email you check daily**       | Approval and correction requests arrive electronically           | Avoid shared inboxes you cannot access on travel day                                                                                |
-| **Payment card**                | Pays mandatory government fee plus any service fee               | Confirm international charges with your bank                                                                                        |
+| **Payment card**                | Pays the Government & Admin Fee plus the service fee               | Confirm international charges with your bank                                                                                        |
 | **Itinerary clarity**           | Determines single vs multiple entry                              | Side trips to Cambodia, Thailand, or Laos and return usually need multiple entry                                                    |
 
 **Passport validity:** Aim for at least **six months** beyond your arrival date and at least one blank page for stamps. Renew an expiring passport before applying—your eVisa is linked to the passport number submitted.
@@ -115,7 +115,7 @@ This is the most expensive mistake travelers make. Government eVisa fees:
 | **Multiple entry (90 days)** |              **$50** | Side trips out of Vietnam and back within the validity window |
 
 - **Single entry:** You enter once. Leaving Vietnam and returning usually requires a new visa unless you hold multiple entry.
-- **Multiple entry:** Worth the extra $25 government fee if your route includes Bangkok, Siem Reap, Vientiane, or a cruise that disembarks and re-embarks in Vietnam.
+- **Multiple entry:** Worth the extra $25 Government & Admin Fee if your route includes Bangkok, Siem Reap, Vientiane, or a cruise that disembarks and re-embarks in Vietnam.
 
 Unsure? Compare totals on [/fees](/fees) and read the [Vietnam multiple-entry eVisa guide](/blog/vietnam-evisa-multiple-entry-guide-2026) before checkout.
 

@@ -111,7 +111,7 @@ export default function RefundPolicyPage() {
                   Non-Refundable
                 </h3>
                 <ul className="space-y-2 text-gray-800">
-                  <li>• Government fees once submitted</li>
+                  <li>• The official government charge once submitted to the authority</li>
                   <li>• Authorized applications</li>
                   <li>• Change of mind after processing commences</li>
                   <li>• Incomplete applications</li>
@@ -181,109 +181,31 @@ export default function RefundPolicyPage() {
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">2. Non-Refundable Fees</h2>
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-xl font-semibold text-red-700 mb-3">2.1 Government Fees</h3>
+                    <h3 className="text-xl font-semibold text-red-700 mb-3">
+                      2.1 Government & Admin Fee
+                    </h3>
                     <p className="text-gray-800 mb-3">
-                      <strong>Government fees are non-refundable</strong> once submitted to
-                      Vietnamese authorities, regardless of the outcome.
+                      The official government charge, once submitted to the authority, is not
+                      refunded by us. The Government & Admin Fee includes the official government
+                      eVisa charge listed on the Vietnam government portal, together with
+                      administrative handling charges. Our service fee is charged separately.
                     </p>
                     <div className="bg-red-50 border border-red-200 rounded-lg p-4">
                       <p className="text-red-800 text-sm">
-                        <strong>Important:</strong> Government fees are remitted directly to the
-                        Vietnamese government and are beyond our control. These fees cannot be
-                        refunded by us.
+                        <strong>Important:</strong> The Government & Admin Fee includes the official
+                        government eVisa charge listed on the Vietnam government portal, together
+                        with administrative handling charges. Our service fee is charged separately.
                       </p>
                     </div>
-                  </div>
-
-                  <div>
-                    <h3 className="text-xl font-semibold text-red-700 mb-3">
-                      2.2 Approved Applications
-                    </h3>
-                    <p className="text-gray-800 mb-3">
-                      No refund once the authorization letter is dispatched, regardless of whether
-                      you utilize the visa or not.
-                    </p>
-                    <ul className="list-disc pl-6 text-gray-800 space-y-1">
-                      <li>Visa authorized but not utilized</li>
-                      <li>Change of travel arrangements after authorization</li>
-                      <li>Personal situations preventing travel</li>
-                      <li>Flight cancellations or travel interruptions</li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h3 className="text-xl font-semibold text-red-700 mb-3">2.3 Change of Mind</h3>
-                    <p className="text-gray-800 mb-3">
-                      <strong>Before Processing:</strong> Change of mind refunds are available if
-                      requested before we commence processing your application.
-                    </p>
-                    <p className="text-gray-800 mb-3">
-                      <strong>After Processing Commences:</strong> No refund if you alter your
-                      travel plans after processing has already commenced.
-                    </p>
-                    <div className="bg-brand-surface-alt border border-brand-border rounded-lg p-4 mb-4">
-                      <p className="text-brand-primary-dark text-sm">
-                        <strong>Processing Start:</strong> Processing commences immediately after
-                        payment confirmation and document submission. Once we begin reviewing your
-                        documents or submitting to government authorities, change of mind refunds
-                        are no longer available.
-                      </p>
-                    </div>
-                    <ul className="list-disc pl-6 text-gray-800 space-y-1">
-                      <li>Deciding not to travel after processing commences</li>
-                      <li>Choosing a different travel date after processing commences</li>
-                      <li>Selecting a different visa type after processing commences</li>
-                      <li>Personal preference changes after processing commences</li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h3 className="text-xl font-semibold text-red-700 mb-3">
-                      2.4 Incomplete Applications
-                    </h3>
-                    <p className="text-gray-800 mb-3">
-                      <strong>Critical:</strong> No refund if you do not supply required documents
-                      within 3 days of application submission.
-                    </p>
-                    <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-                      <p className="text-yellow-800 text-sm">
-                        <strong>3-Day Rule:</strong> All necessary documents must be supplied within
-                        3 days of application submission. Failure to do so will result in loss of
-                        all fees.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div>
-                    <h3 className="text-xl font-semibold text-red-700 mb-3">2.5 Processing Fees</h3>
-                    <p className="text-gray-800 mb-3">
-                      Processing fees are non-refundable for any completed processing activities.
-                    </p>
-                    <ul className="list-disc pl-6 text-gray-800 space-y-1">
-                      <li>Document examination and validation</li>
-                      <li>Application form preparation</li>
-                      <li>Government fee submission</li>
-                      <li>Customer support services</li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h3 className="text-xl font-semibold text-red-700 mb-3">
-                      2.4 Government Fees - Why They&apos;re Non-Refundable
-                    </h3>
-                    <p className="text-gray-800 mb-3">
-                      Government fees are remitted directly to Vietnamese authorities and are{' '}
-                      <strong>never refundable</strong>, regardless of the application outcome.
-                    </p>
                     <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
                       <p className="text-yellow-800 text-sm">
-                        <strong>Important:</strong> Even if your visa is denied, government fees
-                        cannot be refunded because they cover the administrative expenses of
-                        processing your application, regardless of the final determination.
+                        <strong>Important:</strong> The Government & Admin Fee includes the official
+                        government eVisa charge listed on the Vietnam government portal, together
+                        with administrative handling charges. Our service fee is charged separately.
                       </p>
                     </div>
                     <h4 className="font-semibold text-gray-800 mb-2">
-                      Why Government Fees Are Non-Refundable:
+                      About the official government charge:
                     </h4>
                     <ul className="list-disc pl-6 text-gray-800 space-y-2 mb-4">
                       <li>
@@ -490,7 +412,7 @@ export default function RefundPolicyPage() {
                   <div>
                     <h4 className="font-semibold text-red-700 mb-2">No Refund When:</h4>
                     <ul className="text-sm text-gray-700 space-y-1">
-                      <li>• Government fees (once submitted)</li>
+                      <li>• The official government charge once submitted to the authority</li>
                       <li>• Visa is authorized</li>
                       <li>• You change your mind after processing commences</li>
                       <li>• Documents not supplied within 3 days</li>

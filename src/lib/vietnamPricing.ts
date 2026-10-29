@@ -78,7 +78,7 @@ export const VIETNAM_GOV_FEE_SUMMARY = `${formatUsd(VIETNAM_GOV_FEE_SINGLE)} sin
 
 /** Country requirement pages — fee bullet list (per country). */
 export const VIETNAM_COUNTRY_FEES_LINES = [
-  "Government Fee: Set by Vietnam's immigration authorities",
+  'Government & Admin Fee: The Government & Admin Fee includes the official government eVisa charge listed on the Vietnam government portal, together with administrative handling charges. Our service fee is charged separately.',
   'Service Fee: For application support, review, and 24/7 assistance',
   `Visa turnaround: ${VIETNAM_PROCESSING_TIME}`,
 ] as const;
@@ -118,19 +118,19 @@ export function getVietnamFeesMetaDescription(): string {
 }
 
 export function getVietnamFeesHeroSubtitle(): string {
-  return 'Transparent pricing with zero hidden charges—clearly separating the Vietnam government eVisa fee from our private service fee.';
+  return 'Transparent pricing with zero hidden charges—the Government & Admin Fee and our private service fee are shown separately.';
 }
 
 export function getVietnamFeesStructureSubtitle(): string {
-  return `Government fee (${formatUsd(VIETNAM_GOV_FEE_SINGLE)} single entry / ${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} multiple entry, ${VIETNAM_STAY_DAYS}-day visas) + ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger. Optional rush processing is chosen during apply.`;
+  return `Government & Admin Fee (${formatUsd(VIETNAM_GOV_FEE_SINGLE)} single entry / ${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} multiple entry, ${VIETNAM_STAY_DAYS}-day visas) + ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger. Optional rush processing is chosen during apply.`;
 }
 
 export function getVietnamAboutTransparentFeesDesc(): string {
-  return `Clear fees: government charge by visa type (${VIETNAM_GOV_FEE_SUMMARY}, ${VIETNAM_STAY_DAYS} days), flat ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger, optional Urgent processing at apply, plus a service-fee refund guarantee if the Government of Vietnam rejects your application.`;
+  return `Clear fees: Government & Admin Fee by visa type (${VIETNAM_GOV_FEE_SUMMARY}, ${VIETNAM_STAY_DAYS} days), flat ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger, optional Urgent processing at apply, plus a service-fee refund guarantee if the Government of Vietnam rejects your application.`;
 }
 
 export function getVietnamBlogResourcesFeeDesc(): string {
-  return `${formatUsd(VIETNAM_GOV_FEE_SINGLE)}/${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} government fees by visa type, ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee, optional Urgent at apply.`;
+  return `${formatUsd(VIETNAM_GOV_FEE_SINGLE)}/${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} Government & Admin Fee by visa type, ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee, optional Urgent at apply.`;
 }
 
 export function getVietnamDefaultSiteDescription(): string {

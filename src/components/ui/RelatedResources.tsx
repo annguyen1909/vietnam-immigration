@@ -13,7 +13,7 @@ export const DEFAULT_RELATED_RESOURCES: RelatedResourceLink[] = [
   {
     href: '/fees',
     title: 'Vietnam Visa Fees 2026',
-    description: `Government fee ${formatUsd(VIETNAM_GOV_FEE_SINGLE)}/${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} by entry type, service fee, and live calculator.`,
+    description: `Government & Admin Fee ${formatUsd(VIETNAM_GOV_FEE_SINGLE)}/${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} by entry type, service fee, and live calculator.`,
   },
   {
     href: '/faq/24-hour-vietnam-evisa',

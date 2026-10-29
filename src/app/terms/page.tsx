@@ -136,7 +136,7 @@ export default function TermsPage() {
                     </li>
                     <li>Executing the authorization form to validate the transaction</li>
                     <li>
-                      Modifications requested after payment of the Vietnamese Government Fee will
+                      Modifications requested after payment of the Government & Admin Fee will
                       result in charges for a new application
                     </li>
                     <li>
@@ -176,12 +176,13 @@ export default function TermsPage() {
 
                   <div className="mb-6">
                     <h3 className="text-xl font-semibold text-brand-ink mb-3">
-                      4.2 Government Fee
+                      4.2 Government & Admin Fee
                     </h3>
                     <p className="text-brand-ink mb-3">
-                      The government fee is the eVisa fee set by the Vietnam Immigration Department,
-                      which we pay to it on your behalf. It is the same amount charged on the
-                      government e-Visa portal and depends only on entry frequency:
+                      The Government & Admin Fee includes the official government eVisa charge
+                      listed on the Vietnam government portal, together with administrative handling
+                      charges. Our service fee is charged separately. The amount depends on entry
+                      frequency:
                     </p>
                     <ul className="list-disc ml-6 text-brand-ink space-y-2">
                       <li>
@@ -193,7 +194,7 @@ export default function TermsPage() {
                     </ul>
                     <p className="text-brand-ink mt-3">
                       Urgent processing, insurance, and other add-ons are charged by us and are not
-                      government fees.
+                      part of the official government charge.
                     </p>
                   </div>
 
@@ -362,8 +363,8 @@ export default function TermsPage() {
                     </h3>
                     <ul className="list-disc ml-6 text-brand-ink space-y-2">
                       <li>
-                        <strong>Government Fee:</strong> Cannot be refunded after submission to
-                        Vietnamese government authorities
+                        <strong>Official government charge:</strong> Once submitted to the
+                        authority, that charge is not refunded by us
                       </li>
                       <li>
                         <strong>Approved Applications:</strong> Refunds are not available once the

@@ -170,7 +170,12 @@ export default function DisclaimersPage() {
                     <h3 className="text-xl font-semibold text-brand-ink mb-3">5.1 Fee Structure</h3>
                     <ul className="list-disc ml-6 text-brand-ink space-y-2">
                       <li>Service fees are non-refundable once processing commences</li>
-                      <li>Government fees are non-refundable once submitted to authorities</li>
+                      <li>
+                        The official government charge, once submitted to the authority, is not
+                        refunded by us. The Government & Admin Fee includes the official government
+                        eVisa charge listed on the Vietnam government portal, together with
+                        administrative handling charges. Our service fee is charged separately.
+                      </li>
                       <li>Extra fees may apply for expedited processing or special services</li>
                       <li>All fees are transparently disclosed before payment</li>
                     </ul>

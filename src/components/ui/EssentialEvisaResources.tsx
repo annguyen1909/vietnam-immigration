@@ -39,7 +39,7 @@ export default function EssentialEvisaResources({
     {
       href: '/fees',
       anchor: 'Vietnam Visa Fees & Calculator',
-      description: `Government fee ${VIETNAM_GOV_FEE_SUMMARY}, ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee, and live total calculator.`,
+      description: `Government & Admin Fee ${VIETNAM_GOV_FEE_SUMMARY}, ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee, and live total calculator.`,
       icon: CurrencyDollarIcon,
       badge: 'Popular',
       highlight: false,
