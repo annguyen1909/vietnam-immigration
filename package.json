@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
+    "test:contact": "node --test tests/contact-form.test.cjs",
     "format": "prettier --write .",
     "check:airports": "ts-node --compiler-options '{\"module\":\"CommonJS\"}' scripts/check-vietnam-entry-airports.ts",
     "list:visas": "ts-node scripts/list-visas.ts",
