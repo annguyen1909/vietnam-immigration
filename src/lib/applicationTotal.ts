@@ -1,4 +1,5 @@
 import { getServiceFee } from './serviceFee';
+import { getDiscountedServiceFee } from './groupDiscount';
 import { prisma } from './prisma';
 
 /** Resolve order total for risk checks — prefers stored application.total. */
@@ -17,7 +18,10 @@ export async function getApplicationOrderTotal(application: {
     select: { fees: true },
   });
   const governmentFee = visaType?.fees || 0;
-  const serviceFee = await getServiceFee(application.destinationId, application.visaTypeId);
   const passengerCount = application.passengerCount || 1;
+  const serviceFee = getDiscountedServiceFee(
+    await getServiceFee(application.destinationId, application.visaTypeId),
+    passengerCount
+  );
   return (governmentFee + serviceFee) * passengerCount;
 }

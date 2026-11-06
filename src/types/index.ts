@@ -34,6 +34,8 @@ export interface ApplicationData {
   status?: string;
   paymentStatus?: string;
   total?: number;
+  /** Per-traveler service fee before the group discount (from the server). */
+  baseServiceFee?: number;
   destinationId: string;
   visaTypeId: string;
   passengerCount: number;

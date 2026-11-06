@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { landingSourceFromRequest } from '@/lib/landingSource';
 import { prisma } from '@/lib/prisma';
 import { getStripe } from '@/lib/stripe';
+import { syncPassengerFeeSnapshots } from '@/lib/orderTotal';
 import { getCountryCodeFromName, isNationalityCodeAllowed } from '@/lib/nationalityEligibility';
 
 export async function POST(request: NextRequest) {
@@ -22,11 +23,18 @@ export async function POST(request: NextRequest) {
         paymentStatus: true,
         status: true,
         passengerCount: true,
+        visaTypeId: true,
+        destinationId: true,
         VisaType: {
           select: { allowedNationalities: true },
         },
         Passenger: {
-          select: { nationality: true },
+          select: {
+            id: true,
+            nationality: true,
+            originalGovernmentFee: true,
+            originalServiceFee: true,
+          },
         },
       },
     });
@@ -73,7 +81,21 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Account not found' }, { status: 404 });
     }
 
-    const amountInCents = Math.round(application.total * 100);
+    // Server is the source of truth for the group discount: re-snapshot each passenger's
+    // discounted service fee and shift the stored total by any difference (e.g. a resumed order
+    // priced before the discount). Other charges on the total are left untouched.
+    let orderTotal = application.total;
+    const { previousServiceTotal, serviceTotal } = await syncPassengerFeeSnapshots(application);
+    const serviceDelta = Math.round((serviceTotal - previousServiceTotal) * 100) / 100;
+    if (serviceDelta !== 0) {
+      orderTotal = Math.round((application.total + serviceDelta) * 100) / 100;
+      await prisma.application.update({
+        where: { id: application.id },
+        data: { total: orderTotal },
+      });
+    }
+
+    const amountInCents = Math.round(orderTotal * 100);
 
     // Create a PaymentIntent with the order amount and currency
     const paymentIntent = await getStripe().paymentIntents.create({
@@ -94,7 +116,7 @@ export async function POST(request: NextRequest) {
       data: {
         id: paymentIntent.id,
         applicationId: application.id,
-        amount: application.total,
+        amount: orderTotal,
         status: paymentIntent.status,
         type: 'PaymentIntent',
         title: 'Payment Intent Created',

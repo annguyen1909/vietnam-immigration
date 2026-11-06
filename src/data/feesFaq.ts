@@ -15,7 +15,7 @@ export const FEES_FAQ_ITEMS = [
   },
   {
     question: 'How much does a Vietnam eVisa cost with assistance?',
-    answer: `Total cost = Government & Admin Fee (${formatUsd(VIETNAM_GOV_FEE_SINGLE)} single / ${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} multiple) + ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger + any Urgent (+${formatUsd(VIETNAM_URGENCY_FEE_URGENT)}) or Super Urgent (+${formatUsd(VIETNAM_URGENCY_FEE_SUPER_URGENT)}) add-on. Use the calculator on this page for your exact total before paying.`,
+    answer: `Total cost = Government & Admin Fee (${formatUsd(VIETNAM_GOV_FEE_SINGLE)} single / ${formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} multiple) + ${formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee per passenger + any Urgent (+${formatUsd(VIETNAM_URGENCY_FEE_URGENT)}) or Super Urgent (+${formatUsd(VIETNAM_URGENCY_FEE_SUPER_URGENT)}) add-on. Traveling with others? Groups of 2+ save US$10 per traveler on our service fee, applied automatically. Use the calculator on this page for your exact total before paying.`,
   },
   {
     question: 'What is the difference between the Government & Admin Fee and the service fee?',

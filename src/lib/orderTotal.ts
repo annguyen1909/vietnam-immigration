@@ -1,6 +1,7 @@
 import type { Prisma } from '../../generated/prisma';
 import type { AddOn } from '@/types/index';
 import { getServiceFee } from './serviceFee';
+import { getDiscountedServiceFee } from './groupDiscount';
 import { prisma } from './prisma';
 import { resolveUrgencyFeePerPax, type UrgencyValue, getUrgencyLabel } from './urgency';
 
@@ -42,10 +43,61 @@ export async function computeBaseOrderTotal(
     select: { fees: true },
   });
   const governmentFee = visaType?.fees || 0;
-  const serviceFee = await getServiceFee(application.destinationId, application.visaTypeId);
   const urgencyFeePerPax = await resolveUrgencyFeePerPax(urgency, loadUrgencyPriceFromDb);
   const passengerCount = application.passengerCount || 1;
+  const baseServiceFee = await getServiceFee(application.destinationId, application.visaTypeId);
+  const serviceFee = getDiscountedServiceFee(baseServiceFee, passengerCount);
   return (governmentFee + serviceFee + urgencyFeePerPax) * passengerCount;
+}
+
+/**
+ * Snapshot the per-traveler fees on every passenger of an application for BudPal CRM:
+ * `originalServiceFee` holds the group-discounted service fee for the current passenger count
+ * and `originalGovernmentFee` the visa type's Government & Admin Fee. Only rows that differ are
+ * written. Returns the service-fee total before and after, treating a missing snapshot as the
+ * undiscounted service fee (orders priced before snapshots existed).
+ */
+export async function syncPassengerFeeSnapshots(application: {
+  visaTypeId: string;
+  destinationId: string;
+  passengerCount: number | null;
+  Passenger: Array<{
+    id: string;
+    originalGovernmentFee: number | null;
+    originalServiceFee: number | null;
+  }>;
+}): Promise<{ previousServiceTotal: number; serviceTotal: number }> {
+  const passengerCount = application.passengerCount || application.Passenger.length || 1;
+  const visaType = await prisma.visaType.findUnique({
+    where: { id: application.visaTypeId },
+    select: { fees: true },
+  });
+  const governmentFeePerPax = visaType?.fees ?? null;
+  const baseServiceFee = await getServiceFee(application.destinationId, application.visaTypeId);
+  const serviceFeePerPax = getDiscountedServiceFee(baseServiceFee, passengerCount);
+
+  const stale = application.Passenger.filter(
+    (p) =>
+      p.originalServiceFee !== serviceFeePerPax || p.originalGovernmentFee !== governmentFeePerPax
+  );
+  if (stale.length > 0) {
+    await prisma.passenger.updateMany({
+      where: { id: { in: stale.map((p) => p.id) } },
+      data: {
+        originalServiceFee: serviceFeePerPax,
+        originalGovernmentFee: governmentFeePerPax,
+      },
+    });
+  }
+
+  const previousServiceTotal = application.Passenger.reduce(
+    (sum, p) => sum + (p.originalServiceFee ?? baseServiceFee),
+    0
+  );
+  return {
+    previousServiceTotal: Math.round(previousServiceTotal * 100) / 100,
+    serviceTotal: Math.round(serviceFeePerPax * application.Passenger.length * 100) / 100,
+  };
 }
 
 /** Full order total: base fees + urgency + insurance add-ons on passengers. */

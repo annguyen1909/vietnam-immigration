@@ -10,6 +10,7 @@ import { SiStripe } from 'react-icons/si';
 import { ApplicationData, Passenger, AddOn } from '@/types/index';
 import { formatDisplayDate } from '@/lib/date';
 import { DEFAULT_SERVICE_FEE } from '@/lib/serviceFee';
+import { GROUP_DISCOUNT_LABEL, getDiscountedServiceFee } from '@/lib/groupDiscount';
 
 type Step3PaymentProps = {
   applicationId: string;
@@ -503,10 +504,29 @@ function Step3PaymentSuccess({
   } else {
     // Fallback: use visa type fees
     const governmentFeePerPerson = applicationData?.visa?.fees || 0;
-    const serviceFeePerPerson = DEFAULT_SERVICE_FEE;
+    const serviceFeePerPerson = getDiscountedServiceFee(
+      applicationData?.baseServiceFee ?? DEFAULT_SERVICE_FEE,
+      passengerCount
+    );
     totalGovernmentFee = governmentFeePerPerson * passengerCount;
     totalServiceFee = serviceFeePerPerson * passengerCount;
   }
+
+  // Group discount: snapshots hold the discounted fee, so show the anchor (full service fee)
+  // and the discount line only when the charged fee matches the discounted price.
+  const baseServiceFeePerPerson = applicationData?.baseServiceFee ?? DEFAULT_SERVICE_FEE;
+  const discountedServiceFeePerPerson = getDiscountedServiceFee(
+    baseServiceFeePerPerson,
+    passengerCount
+  );
+  const groupDiscountApplies =
+    discountedServiceFeePerPerson < baseServiceFeePerPerson &&
+    Math.abs(totalServiceFee - discountedServiceFeePerPerson * passengerCount) < 0.01;
+  const totalGroupDiscount = groupDiscountApplies
+    ? Math.round((baseServiceFeePerPerson - discountedServiceFeePerPerson) * passengerCount * 100) /
+      100
+    : 0;
+  const anchorServiceFee = totalServiceFee + totalGroupDiscount;
 
   // Calculate add-ons total
   const addOnsTotal =
@@ -715,9 +735,17 @@ function Step3PaymentSuccess({
               <div className="flex justify-between">
                 <span className="text-gray-700">Service Fee</span>
                 <span className="font-semibold text-gray-900">
-                  {formatCurrency(totalServiceFee)}
+                  {formatCurrency(anchorServiceFee)}
                 </span>
               </div>
+              {totalGroupDiscount > 0 && (
+                <div className="flex justify-between">
+                  <span className="text-gray-700">{GROUP_DISCOUNT_LABEL}</span>
+                  <span className="font-semibold text-green-600">
+                    −{formatCurrency(totalGroupDiscount)}
+                  </span>
+                </div>
+              )}
               {Object.keys(addOnsByType).length > 0 && (
                 <>
                   {Object.values(addOnsByType).map((addOn, idx) => (

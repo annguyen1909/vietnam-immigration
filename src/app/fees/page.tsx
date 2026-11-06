@@ -24,6 +24,7 @@ import {
   formatUsd,
 } from '@/lib/vietnamPricing';
 import type { UrgencyValue } from '@/lib/urgency';
+import { GROUP_DISCOUNT_LABEL, getDiscountedServiceFee } from '@/lib/groupDiscount';
 import { deriveApplyQueryFromVisaId } from '@/lib/vietnamVisa';
 import { FEES_FAQ_ITEMS } from '@/data/feesFaq';
 import RelatedResources from '@/components/ui/RelatedResources';
@@ -69,6 +70,10 @@ export default function FeesPage() {
   const selectedVisa = visaOptions.find((v) => v.value === visaType) || visaOptions[0];
   const govFee = (selectedVisa?.govFee ?? 0) * passengers;
   const serviceFee = SERVICE_FEE * passengers;
+  const groupDiscount =
+    Math.round(
+      (SERVICE_FEE - getDiscountedServiceFee(SERVICE_FEE, passengers)) * passengers * 100
+    ) / 100;
   const urgencyFeePerPax =
     urgency === 'urgent_48h'
       ? VIETNAM_URGENCY_FEE_URGENT
@@ -76,7 +81,7 @@ export default function FeesPage() {
         ? VIETNAM_URGENCY_FEE_SUPER_URGENT
         : 0;
   const urgencyFee = urgencyFeePerPax * passengers;
-  const total = govFee + serviceFee + urgencyFee;
+  const total = govFee + serviceFee - groupDiscount + urgencyFee;
   const urgencyQuery = urgency ? `&urgency=${urgency}` : '';
   const applyHref = `/apply?type=${encodeURIComponent(visaType)}&passengers=${passengers}${urgencyQuery}`;
 
@@ -215,8 +220,9 @@ export default function FeesPage() {
               <strong>{formatUsd(VIETNAM_GOV_FEE_SINGLE)} single entry</strong> or{' '}
               <strong>{formatUsd(VIETNAM_GOV_FEE_MULTIPLE)} multiple entry</strong>, plus{' '}
               <strong>{formatUsd(VIETNAM_SERVICE_FEE_PER_PAX)} service fee</strong> per passenger.
-              Passport validity should extend at least six months beyond your intended arrival date
-              before you apply.
+              Traveling with others? Groups of 2+ save US$10 per traveler on our service fee,
+              applied automatically. Passport validity should extend at least six months beyond your
+              intended arrival date before you apply.
             </p>
           </div>
         </div>
@@ -549,6 +555,14 @@ export default function FeesPage() {
                   <span className="text-gray-700 font-semibold">Service fee</span>
                   <span className="font-bold text-brand-primary">US$ {serviceFee.toFixed(2)}</span>
                 </div>
+                {groupDiscount > 0 && (
+                  <div className="flex justify-between items-center text-sm sm:text-base">
+                    <span className="text-gray-700 font-semibold">{GROUP_DISCOUNT_LABEL}</span>
+                    <span className="font-bold text-green-600">
+                      −US$ {groupDiscount.toFixed(2)}
+                    </span>
+                  </div>
+                )}
                 {urgencyFee > 0 && (
                   <div className="flex justify-between items-center text-sm sm:text-base">
                     <span className="text-gray-700 font-semibold">

@@ -5,6 +5,7 @@ import { VisaType } from '@/types/visa';
 import { getUrgencyFeePerPax, getUrgencyLabel } from '@/lib/urgency';
 import type { UrgencyValue } from '@/types/index';
 import { DEFAULT_SERVICE_FEE } from '@/lib/serviceFee';
+import { GROUP_DISCOUNT_LABEL, getDiscountedServiceFee } from '@/lib/groupDiscount';
 
 interface AddOn {
   addOnId: string;
@@ -79,6 +80,9 @@ export default function LivePriceBox({
 
   const totalGovernmentFee = governmentFee * passengerCount;
   const totalServiceFee = serviceFee * passengerCount;
+  const groupDiscountPerPax =
+    Math.round((serviceFee - getDiscountedServiceFee(serviceFee, passengerCount)) * 100) / 100;
+  const totalGroupDiscount = groupDiscountPerPax * passengerCount;
   const totalUrgencyFee = urgencyFeePerPax * passengerCount;
 
   // Calculate add-ons total
@@ -112,7 +116,12 @@ export default function LivePriceBox({
   );
 
   const orderTotal =
-    totalGovernmentFee + totalServiceFee + totalUrgencyFee - promoDiscount + addOnsTotal;
+    totalGovernmentFee +
+    totalServiceFee -
+    totalGroupDiscount +
+    totalUrgencyFee -
+    promoDiscount +
+    addOnsTotal;
 
   return (
     <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6 self-start sticky top-8">
@@ -151,6 +160,14 @@ export default function LivePriceBox({
               )}
             </span>
           </div>
+          {!isLoadingServiceFee && totalGroupDiscount > 0 && (
+            <div className="flex justify-between">
+              <span>{GROUP_DISCOUNT_LABEL}:</span>
+              <span className="font-medium text-green-600">
+                −${groupDiscountPerPax.toFixed(2)} x {passengerCount}
+              </span>
+            </div>
+          )}
           {promoDiscount > 0 && (
             <div className="flex justify-between items-center">
               <span>Promo Code:</span>

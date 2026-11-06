@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
+import { getServiceFee } from '@/lib/serviceFee';
 
 export async function GET(
   request: NextRequest,
@@ -23,6 +24,8 @@ export async function GET(
             status: true,
             createdAt: true,
             updatedAt: true,
+            originalGovernmentFee: true,
+            originalServiceFee: true,
           },
         },
         StripeActivity: true,
@@ -44,6 +47,9 @@ export async function GET(
     if (!application) {
       return NextResponse.json({ error: 'Application not found' }, { status: 404 });
     }
+
+    // Per-traveler service fee before the group discount (anchor price for summaries)
+    const baseServiceFee = await getServiceFee(application.destinationId, application.visaTypeId);
 
     // Transform the data to match the frontend ApplicationData interface
     const applicationData = {
@@ -72,9 +78,12 @@ export async function GET(
         dateOfBirth: passenger.dateOfBirth?.toISOString() || '',
         gender: passenger.gender || '',
         status: passenger.status || '',
+        originalGovernmentFee: passenger.originalGovernmentFee ?? undefined,
+        originalServiceFee: passenger.originalServiceFee ?? undefined,
       })),
       passengerIds: application.Passenger.map((p: { id: string }) => p.id),
       total: application.total,
+      baseServiceFee,
       visa: application.VisaType
         ? {
             id: application.VisaType.id,

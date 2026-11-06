@@ -11,7 +11,8 @@ import {
 } from '@/lib/emailLayout';
 import { prisma } from '@/lib/prisma';
 import { getPublicSiteUrl } from '@/lib/seo';
-import { DEFAULT_SERVICE_FEE } from '@/lib/serviceFee';
+import { getServiceFee } from '@/lib/serviceFee';
+import { GROUP_DISCOUNT_LABEL, getGroupDiscountPerTraveler } from '@/lib/groupDiscount';
 
 let resendClient: Resend | null = null;
 
@@ -267,9 +268,11 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
         recipient = application.Account.email;
         const contactName = application.Account?.fullName;
         const governmentFee = application.VisaType?.fees || 0;
-        const serviceFee = DEFAULT_SERVICE_FEE;
         const total = application.total || 0;
         const passengerCount = application.passengerCount || 1;
+        // Anchor price (before the group discount) plus the automatic group discount line
+        const serviceFee = await getServiceFee(application.destinationId, application.visaTypeId);
+        const groupDiscountPerPax = getGroupDiscountPerTraveler(passengerCount);
         const appUrl = getPublicSiteUrl();
 
         subject = `Payment Confirmation for Your Vietnam eVisa (ID: ${application.applicationId})`;
@@ -313,6 +316,14 @@ export async function sendEmail({ to, template, data }: SendEmailProps) {
                     <td style="padding: 8px 0;">Service Fee</td>
                     <td style="padding: 8px 0; text-align: right;">$${serviceFee.toFixed(2)} × ${passengerCount}</td>
                   </tr>
+                  ${
+                    groupDiscountPerPax > 0
+                      ? `<tr>
+                    <td style="padding: 8px 0;">${GROUP_DISCOUNT_LABEL}</td>
+                    <td style="padding: 8px 0; text-align: right; color: #15803d;">−$${groupDiscountPerPax.toFixed(2)} × ${passengerCount}</td>
+                  </tr>`
+                      : ''
+                  }
                   <tr>
                     <td style="padding: 12px 0 0; border-top: 1px solid ${EMAIL_BRAND.border}; font-weight: 700;">Total Paid</td>
                     <td style="padding: 12px 0 0; border-top: 1px solid ${EMAIL_BRAND.border}; text-align: right; font-weight: 700; color: ${EMAIL_BRAND.primary};">$${total.toFixed(2)}</td>

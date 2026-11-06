@@ -3,6 +3,7 @@ import { randomUUID } from 'crypto';
 import { prisma } from '@/lib/prisma';
 import { findAccountByEmail, hashPassword, validateSession } from '@/lib/auth';
 import { getServiceFee } from '@/lib/serviceFee';
+import { getDiscountedServiceFee } from '@/lib/groupDiscount';
 import { resolveUrgencyFeePerPax, type UrgencyValue } from '@/lib/urgency';
 import { buildAdditionalChargesDetails } from '@/lib/orderTotal';
 import { isVietnamEntryAirport } from '@/data/vietnamEntryAirports';
@@ -68,8 +69,9 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Visa type not found or fee not set' }, { status: 400 });
     }
 
-    // Get dynamic service fee from database
-    const serviceFeePerPax = await getServiceFee(destinationId, visaTypeId);
+    // Get dynamic service fee from database, minus the automatic group discount (2+ travelers)
+    const baseServiceFeePerPax = await getServiceFee(destinationId, visaTypeId);
+    const serviceFeePerPax = getDiscountedServiceFee(baseServiceFeePerPax, passengerCount);
 
     // Calculate total: (visa fee × passenger count) + (service fee × passenger count)
     const governmentFeePerPax = visaType.fees;
@@ -141,8 +143,13 @@ export async function POST(request: NextRequest) {
         ...(additionalChargesDetails ? { additionalChargesDetails } : {}),
         portType: 'Airport',
         portName: portNameValue,
+        // Initialize passengers with snapshot pricing (discounted service fee for groups)
         Passenger: {
-          create: passengerIds.map((id) => ({ id })),
+          create: passengerIds.map((id) => ({
+            id,
+            originalGovernmentFee: governmentFeePerPax,
+            originalServiceFee: serviceFeePerPax,
+          })),
         },
       },
       include: {

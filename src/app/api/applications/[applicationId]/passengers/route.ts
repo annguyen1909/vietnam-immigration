@@ -6,6 +6,7 @@ import {
   computeFullOrderTotal,
   resolveUrgencyFeeTotal,
   sumInsuranceAddOns,
+  syncPassengerFeeSnapshots,
 } from '@/lib/orderTotal';
 import { type UrgencyValue } from '@/lib/urgency';
 import { countries } from '@/data/countries';
@@ -40,6 +41,9 @@ async function savePassengers(
     include: {
       VisaType: {
         select: { allowedNationalities: true },
+      },
+      Passenger: {
+        select: { id: true, originalGovernmentFee: true, originalServiceFee: true },
       },
     },
   });
@@ -86,6 +90,11 @@ async function savePassengers(
       });
     })
   );
+
+  // Re-snapshot per-passenger fees (discounted service fee for groups) for unpaid orders
+  if (application.paymentStatus !== 'Payment Completed') {
+    await syncPassengerFeeSnapshots(application);
+  }
 
   const insuranceCharges = sumInsuranceAddOns(updatedPassengers);
   const urgencyFeeTotal = await resolveUrgencyFeeTotal(

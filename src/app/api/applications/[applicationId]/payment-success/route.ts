@@ -3,6 +3,7 @@ import { prisma } from '@/lib/prisma';
 import { getStripe } from '@/lib/stripe';
 import { getApplicationOrderTotal } from '@/lib/applicationTotal';
 import { getServiceFee } from '@/lib/serviceFee';
+import { getDiscountedServiceFee } from '@/lib/groupDiscount';
 
 export async function POST(
   request: NextRequest,
@@ -164,7 +165,10 @@ export async function POST(
         select: { fees: true },
       });
       const governmentFee = visaType?.fees || 0;
-      const serviceFee = await getServiceFee(application.destinationId, application.visaTypeId);
+      const serviceFee = getDiscountedServiceFee(
+        await getServiceFee(application.destinationId, application.visaTypeId),
+        passengerCount
+      );
 
       // Check if cardholder name matches any passenger name
       const passengerNames = passengers

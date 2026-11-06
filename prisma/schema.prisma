@@ -171,6 +171,8 @@ model Passenger {
   gender                String?
   nationality           String?
   status                String?
+  originalGovernmentFee Float?
+  originalServiceFee    Float?
   addOns                Json?
   Application           Application @relation(fields: [applicationId], references: [id])
 
