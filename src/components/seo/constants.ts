@@ -19,6 +19,10 @@ export const TRUST_ENTITY = {
   supportEmail: SUPPORT_EMAIL,
   hotline: '+13232864541',
   hotlineDisplay: '+1 323 286 4541',
+  /** WhatsApp support line (E.164, display text, and wa.me chat link). */
+  whatsapp: '+16266323005',
+  whatsappDisplay: '+1 626 632 3005',
+  whatsappHref: 'https://wa.me/16266323005',
   address: {
     streetAddress: '1308 E Colorado Blvd, #2244',
     addressLocality: 'Pasadena',

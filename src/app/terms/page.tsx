@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import SiteFooter from '@/components/layout/SiteFooter';
+import { TRUST_ENTITY } from '@/components/seo/constants';
 import { Metadata } from 'next';
 import { buildStaticPageMetadata } from '@/lib/seo';
 import { VIETNAM_GOV_FEE_MULTIPLE, VIETNAM_GOV_FEE_SINGLE, formatUsd } from '@/lib/vietnamPricing';
@@ -510,6 +511,17 @@ export default function TermsPage() {
                         <p className="text-brand-ink text-sm">
                           Phone: +1 323 286 4541{' '}
                           {/* / +44 5555 000000 (UK) - Hidden but not deleted */}
+                        </p>
+                        <p className="text-brand-ink text-sm">
+                          WhatsApp:{' '}
+                          <a
+                            href={TRUST_ENTITY.whatsappHref}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-[var(--brand-primary)] hover:underline"
+                          >
+                            {TRUST_ENTITY.whatsappDisplay}
+                          </a>
                         </p>
                       </div>
 

@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import SiteFooter from '@/components/layout/SiteFooter';
+import { TRUST_ENTITY } from '@/components/seo/constants';
 import Head from 'next/head';
 import type { Metadata } from 'next';
 import { buildStaticPageMetadata } from '@/lib/seo';
@@ -343,6 +344,17 @@ export default function CookiePolicyPage() {
                     <p className="text-brand-ink">
                       <strong>Phone:</strong> +1 323 286 4541{' '}
                       {/* / +44 5555 000000 (UK) - Hidden but not deleted */}
+                    </p>
+                    <p className="text-brand-ink">
+                      <strong>WhatsApp:</strong>{' '}
+                      <a
+                        href={TRUST_ENTITY.whatsappHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[var(--brand-primary)] hover:underline"
+                      >
+                        {TRUST_ENTITY.whatsappDisplay}
+                      </a>
                     </p>
                   </div>
                 </div>

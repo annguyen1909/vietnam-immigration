@@ -1,8 +1,9 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import { FaWhatsapp } from 'react-icons/fa';
 import { CheckIcon } from '@heroicons/react/24/outline';
-import { SUPPORT_EMAIL } from '@/components/seo/constants';
+import { SUPPORT_EMAIL, TRUST_ENTITY } from '@/components/seo/constants';
 import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 
 const US_PHONE = '+1 323 286 4541';
@@ -95,6 +96,18 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
             <div className="flex items-center gap-2 text-[#222]">
               <span className="font-medium">United States</span>
               <span className="ml-auto font-semibold tracking-wide">{US_PHONE}</span>
+            </div>
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[#222]">
+              <FaWhatsapp className="h-5 w-5 flex-shrink-0 text-[#25D366]" aria-hidden="true" />
+              <span className="font-medium">WhatsApp</span>
+              <a
+                href={TRUST_ENTITY.whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-auto font-semibold tracking-wide hover:underline"
+              >
+                {TRUST_ENTITY.whatsappDisplay}
+              </a>
             </div>
             {/* UK phone number hidden but not deleted */}
             {/* <div className="flex items-center gap-2 text-[#222]">
@@ -207,6 +220,18 @@ export default function HelpFloatingBox({ className = '' }: { className?: string
                 <div className="flex items-center gap-2 text-[#222]">
                   <span className="font-medium">United States</span>
                   <span className="ml-auto font-semibold tracking-wide">{US_PHONE}</span>
+                </div>
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[#222]">
+                  <FaWhatsapp className="h-5 w-5 flex-shrink-0 text-[#25D366]" aria-hidden="true" />
+                  <span className="font-medium">WhatsApp</span>
+                  <a
+                    href={TRUST_ENTITY.whatsappHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-auto font-semibold tracking-wide hover:underline"
+                  >
+                    {TRUST_ENTITY.whatsappDisplay}
+                  </a>
                 </div>
                 {/* UK phone number hidden but not deleted */}
                 {/* <div className="flex items-center gap-2 text-[#222]">

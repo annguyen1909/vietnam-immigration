@@ -11,6 +11,8 @@ import {
   DocumentTextIcon,
   HeartIcon,
 } from '@heroicons/react/24/outline';
+import { FaWhatsapp } from 'react-icons/fa';
+import { TRUST_ENTITY } from '@/components/seo/constants';
 import Link from 'next/link';
 import { VIETNAM_PROCESSING_TIME, getVietnamAboutTransparentFeesDesc } from '@/lib/vietnamPricing';
 
@@ -333,6 +335,23 @@ export default function AboutPage() {
                         +1 323 286 4541
                       </a>{' '}
                       <span className="text-gray-600">(United States)</span>
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <FaWhatsapp
+                      className="w-5 h-5 flex-shrink-0 text-[#25D366]"
+                      aria-hidden="true"
+                    />
+                    <span>
+                      <span className="font-semibold">WhatsApp:</span>{' '}
+                      <a
+                        href={TRUST_ENTITY.whatsappHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-brand-primary hover:underline"
+                      >
+                        {TRUST_ENTITY.whatsappDisplay}
+                      </a>
                     </span>
                   </div>
                   <div className="flex items-center gap-3">

@@ -8,6 +8,8 @@ import {
   PhoneIcon,
   ClockIcon,
 } from '@heroicons/react/24/outline';
+import { FaWhatsapp } from 'react-icons/fa';
+import { TRUST_ENTITY } from '@/components/seo/constants';
 
 export default function ContactPage() {
   return (
@@ -147,6 +149,21 @@ export default function ContactPage() {
                       +1 323 286 4541
                     </a>
                     <p className="text-gray-600 text-sm mt-1">United States</p>
+                  </div>
+                  <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-4">
+                    <div className="flex items-center gap-3 mb-2">
+                      <FaWhatsapp className="w-6 h-6 text-[#25D366]" aria-hidden="true" />
+                      <span className="font-semibold text-gray-900">WhatsApp:</span>
+                    </div>
+                    <a
+                      href={TRUST_ENTITY.whatsappHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-brand-primary hover:underline font-medium"
+                    >
+                      {TRUST_ENTITY.whatsappDisplay}
+                    </a>
+                    <p className="text-gray-600 text-sm mt-1">Message us anytime</p>
                   </div>
                   <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-4">
                     <div className="flex items-center gap-3 mb-2">

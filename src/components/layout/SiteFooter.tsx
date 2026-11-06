@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import TrustBadges from '@/components/trust/TrustBadges';
+import { TRUST_ENTITY } from '@/components/seo/constants';
 
 const columns = [
   {
@@ -44,6 +45,17 @@ export default function SiteFooter() {
             </p>
             <p className="mt-4 text-sm text-white/80">
               <span className="text-brand-accent-light font-medium">US</span> +1 323 286 4541
+            </p>
+            <p className="mt-1 text-sm text-white/80">
+              <a
+                href={TRUST_ENTITY.whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                <span className="text-brand-accent-light font-medium">WhatsApp</span>{' '}
+                {TRUST_ENTITY.whatsappDisplay}
+              </a>
             </p>
           </div>
           {columns.map((col) => (

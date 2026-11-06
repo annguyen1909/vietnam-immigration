@@ -44,6 +44,15 @@ export default function OrganizationSchema({
         availableLanguage: ['English', 'Vietnamese'],
         areaServed: 'Worldwide',
       },
+      {
+        '@type': 'ContactPoint',
+        contactType: 'customer support',
+        name: 'WhatsApp',
+        telephone: TRUST_ENTITY.whatsapp,
+        url: TRUST_ENTITY.whatsappHref,
+        availableLanguage: ['English', 'Vietnamese'],
+        areaServed: 'Worldwide',
+      },
     ],
   };
 
