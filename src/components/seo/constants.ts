@@ -41,7 +41,7 @@ export function getOrganizationSchemaDefaults() {
   const siteUrl = getPublicSiteUrl();
   return {
     siteUrl,
-    logoUrl: absoluteAssetUrl('/img/vietnam-flag.svg'),
+    logoUrl: absoluteAssetUrl('/android-chrome-512x512.png'),
     imageUrl: absoluteAssetUrl('/img/vietnam-hero.jpg'),
     ...TRUST_ENTITY,
   };
