@@ -10,7 +10,9 @@ import { notFound } from 'next/navigation';
 import glob from 'fast-glob';
 import { Metadata } from 'next';
 import { buildPageMetadata, faqPath } from '@/lib/seo';
-import { isIndexableFaqSlug } from '@/data/indexableFaqSlugs';
+import { INDEXABLE_FAQ_SLUGS, isIndexableFaqSlug } from '@/data/indexableFaqSlugs';
+import AuthorBio from '@/components/trust/AuthorBio';
+import { EDITORIAL_TEAM_BIO } from '@/components/trust';
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import FAQSchema from '@/components/seo/FAQSchema';
 import RelatedResources from '@/components/ui/RelatedResources';
@@ -265,6 +267,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
             <RelatedResources className="mb-10" />
 
+            <AuthorBio {...EDITORIAL_TEAM_BIO} className="mb-10" />
+
             <HelpFloatingBox />
           </div>
         </section>
@@ -308,6 +312,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 }
 
 export async function generateStaticParams() {
-  // Hardcoded slugs for all known FAQ posts
-  return [{ slug: 'work-in-vietnam-on-tourist-visa' }];
+  // 24-hour-vietnam-evisa has its own dedicated static route at /faq/24-hour-vietnam-evisa
+  return INDEXABLE_FAQ_SLUGS.filter((slug) => slug !== '24-hour-vietnam-evisa').map((slug) => ({
+    slug,
+  }));
 }
