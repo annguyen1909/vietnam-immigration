@@ -23,6 +23,8 @@ import JsonLd from '@/components/seo/JsonLd';
 import type { FAQSchemaItem } from '@/components/seo/types';
 import BlogApplyCta from '@/components/blog/BlogApplyCta';
 import BlogVisaResources from '@/components/blog/BlogVisaResources';
+import AuthorBio from '@/components/trust/AuthorBio';
+import { EDITORIAL_TEAM_BIO } from '@/components/trust';
 
 export async function generateStaticParams() {
   return generateNewsStaticParams();
@@ -90,8 +92,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const tocItems = extractMarkdownHeadings(post.content);
   const faq = (Array.isArray(post.metadata.faq) ? post.metadata.faq : []) as FAQSchemaItem[];
   const authorName = post.metadata.author || BLOG_AUTHOR_NAME;
+  const siteUrl = getPublicSiteUrl();
+  const postModified = String(post.metadata.dateModified ?? post.metadata.date ?? postDate);
 
-  // BlogPosting schema — authored/published by the organization (no individual author).
+  // BlogPosting schema — linked to sitewide Organization entity.
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -99,20 +103,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     description: String(post.metadata.excerpt ?? ''),
     image: postImage,
     datePublished: postDate,
-    dateModified: String(post.metadata.dateModified ?? post.metadata.date ?? postDate),
+    dateModified: postModified,
     inLanguage: 'en-US',
     author: {
+      '@id': `${siteUrl}/#organization`,
       '@type': 'Organization',
       name: authorName,
-      url: getPublicSiteUrl(),
+      url: siteUrl,
     },
     publisher: {
+      '@id': `${siteUrl}/#organization`,
       '@type': 'Organization',
       name: BLOG_AUTHOR_NAME,
-      url: getPublicSiteUrl(),
+      url: siteUrl,
       logo: {
         '@type': 'ImageObject',
-        url: absoluteAssetUrl(DEFAULT_OG_IMAGE),
+        url: absoluteAssetUrl('/android-chrome-512x512.png'),
       },
     },
     mainEntityOfPage: {
@@ -166,10 +172,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 {postTitle}
               </h1>
               <div className="w-24 h-1 bg-brand-primary mx-auto mb-4"></div>
-              <div className="flex items-center justify-center gap-6 text-gray-600">
+              <div className="flex flex-wrap items-center justify-center gap-6 text-gray-600">
                 <div className="flex items-center gap-2">
                   <CalendarIcon className="w-5 h-5" />
-                  <span>{postDate ? new Date(postDate).toLocaleDateString() : ''}</span>
+                  <span>
+                    <time dateTime={postDate}>
+                      {postDate ? new Date(postDate).toLocaleDateString() : ''}
+                    </time>
+                    {postModified && postModified !== postDate ? (
+                      <>
+                        {' · Updated '}
+                        <time dateTime={postModified}>
+                          {new Date(postModified).toLocaleDateString()}
+                        </time>
+                      </>
+                    ) : null}
+                  </span>
                 </div>
                 {post.metadata.author && (
                   <div className="flex items-center gap-2">
@@ -266,6 +284,25 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   <BlogApplyCta compact className="my-8" />
 
                   <BlogVisaResources />
+
+                  {/* Visible copy of the FAQPage JSON-LD — Google requires marked-up Q&A on the page */}
+                  {faq.length > 0 && (
+                    <section className="mt-10 rounded-xl border-2 border-brand-border bg-gray-50 p-6">
+                      <h2 className="mb-5 text-2xl font-bold text-gray-900">
+                        Frequently Asked Questions
+                      </h2>
+                      <dl className="space-y-5">
+                        {faq.map((item) => (
+                          <div key={item.question}>
+                            <dt className="font-semibold text-gray-900">{item.question}</dt>
+                            <dd className="mt-1 text-gray-700 leading-relaxed">{item.answer}</dd>
+                          </div>
+                        ))}
+                      </dl>
+                    </section>
+                  )}
+
+                  <AuthorBio {...EDITORIAL_TEAM_BIO} className="mt-10" />
 
                   {/* Back to Blog Link */}
                   <div className="mt-12 pt-8 border-t-2 border-gray-200">
