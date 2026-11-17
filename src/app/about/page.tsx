@@ -1,8 +1,5 @@
-'use client';
-import React from 'react';
 import SiteFooter from '@/components/layout/SiteFooter';
-import Lottie from 'lottie-react';
-import howItWorksLottie from 'public/img/Animation - 1751187180561.json';
+import HowItWorksLottie from '@/components/about/HowItWorksLottie';
 import {
   UserGroupIcon,
   BoltIcon,
@@ -194,14 +191,7 @@ export default function AboutPage() {
                 ))}
               </div>
               <div className="flex justify-center">
-                <div className="w-full max-w-md">
-                  <Lottie
-                    animationData={howItWorksLottie}
-                    loop
-                    autoplay
-                    style={{ width: '100%', height: '100%' }}
-                  />
-                </div>
+                <HowItWorksLottie />
               </div>
             </div>
           </div>

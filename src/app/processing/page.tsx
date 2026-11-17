@@ -1,4 +1,3 @@
-'use client';
 import SiteFooter from '@/components/layout/SiteFooter';
 import React from 'react';
 import {
