@@ -15,6 +15,7 @@ import Image from 'next/image';
 import ContactForm from '@/components/ui/ContactForm';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import {
   buildPageMetadata,
   checkRequirementPath,
@@ -58,9 +59,40 @@ export async function generateStaticParams() {
   }));
 }
 
+const VIETNAM_VISA_EXEMPT_SLUGS = new Set([
+  'belarus',
+  'brunei',
+  'cambodia',
+  'chile',
+  'denmark',
+  'finland',
+  'france',
+  'germany',
+  'indonesia',
+  'italy',
+  'japan',
+  'kyrgyzstan',
+  'laos',
+  'malaysia',
+  'myanmar',
+  'norway',
+  'panama',
+  'philippines',
+  'russia',
+  'singapore',
+  'south-korea',
+  'spain',
+  'sweden',
+  'thailand',
+  'united-kingdom',
+]);
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug: rawSlug } = await params;
   const slug = resolveCountrySlug(rawSlug);
+  if (!slug || slug === 'default' || !countryVisaContent[slug]) {
+    return { title: 'Country Not Found', robots: { index: false } };
+  }
   const countryData = getMergedCountryData(slug);
 
   const citizen = countryData.demonym ? countryData.demonym : `${countryData.displayName} citizens`;
@@ -101,7 +133,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function CountryRequirementPage({ params }: PageProps) {
   const { slug: rawSlug } = await params;
   const slug = resolveCountrySlug(rawSlug);
+  if (!slug || slug === 'default' || !countryVisaContent[slug]) notFound();
   const countryData = getMergedCountryData(slug);
+  const isVisaExempt = VIETNAM_VISA_EXEMPT_SLUGS.has(slug);
   const visaTypes = VIETNAM_VISA_PRODUCTS.map((visa) => ({
     ...visa,
     category: visa.label.includes('Business') ? 'Business' : 'Tourist',
@@ -300,8 +334,12 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 <div className="flex flex-wrap gap-6 items-center mb-4">
                   <div className="flex items-center gap-2">
                     <span className="font-semibold text-gray-900">Visa Required?</span>
-                    <span className="inline-block bg-brand-primary text-white text-sm font-bold px-4 py-2 rounded border-2 border-white shadow-md">
-                      REQUIRED
+                    <span
+                      className={`inline-block text-white text-sm font-bold px-4 py-2 rounded border-2 border-white shadow-md ${
+                        isVisaExempt ? 'bg-green-700' : 'bg-brand-primary'
+                      }`}
+                    >
+                      {isVisaExempt ? 'EXEMPT (SHORT STAYS)' : 'REQUIRED'}
                     </span>
                   </div>
                   <div className="flex items-center gap-2">
