@@ -210,7 +210,20 @@ export default function LivePriceBox({
             <span>${orderTotal.toFixed(2)}</span>
           </div>
 
-          <div className="text-xs text-gray-500 mt-4">
+          {passengerCount === 1 && (
+            <div className="rounded-md border border-emerald-200 bg-emerald-50 px-3 py-2 text-xs text-emerald-900">
+              <span className="font-semibold">Group savings:</span> Traveling as 2+ applicants? Save
+              $10 per traveler on our service fee automatically.
+            </div>
+          )}
+
+          <ul className="mt-3 space-y-1.5 border-t border-gray-100 pt-3 text-xs text-gray-600">
+            <li>• Manual form &amp; document formatting check before submission</li>
+            <li>• 100% service fee refund if your visa application is rejected</li>
+            <li>• 24/7 support via phone, email &amp; WhatsApp</li>
+          </ul>
+
+          <div className="text-xs text-gray-500 mt-3">
             <p>
               This is a secure 256-bit SSL encrypted payment. You will not be charged until you
               confirm your payment details on the final step.
