@@ -23,14 +23,7 @@ export default function DisclaimersPage() {
               <h1 className="text-4xl font-extrabold text-brand-ink mb-4">
                 Disclaimers & Legal Notices
               </h1>
-              <p className="text-lg text-[#64748b]">
-                Last updated:{' '}
-                {new Date().toLocaleDateString('en-US', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric',
-                })}
-              </p>
+              <p className="text-lg text-[#64748b]">Last updated: November 17, 2026</p>
             </div>
           </section>
 
@@ -45,8 +38,8 @@ export default function DisclaimersPage() {
                   <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded mb-4">
                     <p className="text-brand-ink mb-3">
                       <strong>Important Notice:</strong> vietnamemigration.com is managed by Vietnam
-                      Vietnam eVisa Assistance Team, a privately-owned business that offers visa
-                      application support and assistance services.
+                      eVisa Assistance Team, a privately-owned business that offers visa application
+                      support and assistance services.
                     </p>
                     <p className="text-brand-ink font-semibold">
                       We have NO affiliation with the Government of Vietnam or any official

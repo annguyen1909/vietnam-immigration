@@ -62,55 +62,6 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
       },
     ],
   },
-  australia: {
-    eligibilityIntro:
-      'Australian passport holders can usually obtain a Vietnam eVisa online for tourism or business without visiting an embassy. Many Australians pair Vietnam with Cambodia or Thailand—confirm your eVisa entry type (single vs multiple) matches your routing.',
-    travelInsight:
-      'Flights from Sydney, Melbourne, or Brisbane often arrive at Tan Son Nhat (Ho Chi Minh City) or Noi Bai (Hanoi). Know your landing airport and verify it on your approval PDF before you fly.',
-    faqs: [
-      {
-        q: 'How early should Australians apply for a Vietnam eVisa?',
-        a: 'Apply at least 3–5 days before departure when possible. Processing is often faster, but last-minute travel during holidays can take longer.',
-      },
-    ],
-  },
-  canada: {
-    eligibilityIntro:
-      'Canadian citizens are typically eligible for Vietnam’s eVisa program for tourism and business travel. Winter sun seekers and backpackers alike use the online form—ensure your passport biographical page scan is sharp and well lit.',
-    travelInsight:
-      'French-language passport fields are accepted, but enter data in the form exactly as shown in the Latin-character section of your passport.',
-    faqs: [
-      {
-        q: 'Do Canadian permanent residents apply with a Canadian passport?',
-        a: 'You must apply with the passport you will use to enter Vietnam. PR cards alone are not travel documents.',
-      },
-    ],
-  },
-  germany: {
-    demonym: 'German citizens',
-    eligibilityIntro:
-      'German passport holders (Bundesrepublik Deutschland) can generally apply for a Vietnam eVisa online. Schengen-area trips before or after Vietnam still require a valid eVisa or other authorization for the Vietnamese segment.',
-    travelInsight:
-      'Business travelers from Germany should choose the business purpose on the form if attending meetings or trade fairs—tourism visas are not intended for paid employment in Vietnam.',
-    faqs: [
-      {
-        q: 'Is a printed eVisa required for German travelers?',
-        a: 'Carry a printed copy plus your passport. Some airlines and border officers request a paper copy even when a digital file is stored on your phone.',
-      },
-    ],
-  },
-  france: {
-    eligibilityIntro:
-      'French citizens are usually eligible for the Vietnam eVisa for tourism and short business visits. Apply before purchasing non-refundable trains or domestic flights within Vietnam during peak holiday periods (Tet, July–August).',
-    travelInsight:
-      'Travelers from France often enter via Ho Chi Minh City or Hanoi; cruise passengers must verify seaport eligibility separately.',
-    faqs: [
-      {
-        q: 'Can French minors travel on a parent’s Vietnam eVisa?',
-        a: 'Each traveler typically needs their own authorization. Family applications can include multiple passengers—see our children visa FAQ for details.',
-      },
-    ],
-  },
   india: {
     eligibilityIntro:
       'Indian passport holders are generally eligible for Vietnam eVisas for tourism and business, subject to current government lists. Direct and one-stop routes from Delhi, Mumbai, Bengaluru, and Hyderabad (via Vietjet, IndiGo, and regional hubs) make Vietnam a popular short-haul destination—apply at least 7–10 days before departure because Indian application volume is high and photo or name mismatches trigger extra review.',
@@ -191,18 +142,6 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
       {
         q: 'Do Chinese citizens need different documents for business eVisas?',
         a: 'Business purpose may require supporting invitation details. Answer the application honestly and prepare documents if requested.',
-      },
-    ],
-  },
-  singapore: {
-    eligibilityIntro:
-      'Singapore passport holders are often eligible for Vietnam eVisas for short tourism and business trips. Weekend getaways to Ho Chi Minh City or Phu Quoc are common—check whether single or multiple entry fits your itinerary.',
-    travelInsight:
-      'Singapore residents who are not citizens must apply with their nationality’s passport, not the Singapore entry permit alone.',
-    faqs: [
-      {
-        q: 'How long can Singaporeans stay on a Vietnam tourist eVisa?',
-        a: 'Stay length depends on the visa type approved—commonly 30 or 90 days. The approval letter states the permitted duration and entry count.',
       },
     ],
   },
@@ -640,6 +579,198 @@ export const countryVisaEnrichment: Record<string, Enrichment> = {
       'Finnish citizens can typically obtain a Vietnam eVisa online before travel. Winter Asia escapes are popular—apply before peak December booking spikes.',
     travelInsight:
       'Helsinki–Asia routes may include one stop—printed eVisa helps at transfer counters.',
+  },
+  australia: {
+    demonym: 'Australian citizens',
+    eligibilityIntro:
+      'Australian passport holders require a visa to enter Vietnam and are eligible to apply online for a 90-day Vietnam eVisa (single or multiple entry). Whether you are flying directly from Sydney or Melbourne or combining Vietnam with Cambodia and Thailand, an approved eVisa lets you clear immigration without visiting a Vietnamese consulate.',
+    travelInsight:
+      'Australian travelers planning regional side trips (such as Siem Reap or Bangkok) should select a **Multiple Entry** 90-day eVisa—a single-entry eVisa becomes invalid the moment you exit Vietnam.',
+    customApplicationGuide:
+      'Apply at least 1–2 weeks before departure from Australia, especially ahead of school holidays or Tet (Vietnamese Lunar New Year). Make sure your portrait photo has a plain white background with no glasses or shadows, and verify your arrival airport (Tan Son Nhat SGN, Noi Bai HAN, or Da Nang DAD).',
+    passportRegulations:
+      '**Australian Passport Requirements:** Your Australian passport must have at least **6 months of validity remaining** from your intended entry date into Vietnam and at least one blank visa page. Australian emergency passports or travel documents require special verification—travel with a standard full-validity passport whenever possible.',
+    customPaymentNotes:
+      'Fees are charged in USD ($25 single-entry or $50 multiple-entry Government & Admin Fee plus our service fee). Most Australian Visa, Mastercard, and American Express cards work seamlessly; check with your bank if foreign transaction blocks are active.',
+    entryTransitGuide:
+      '**Flights & Transit from Australia:** Direct flights connect Sydney (SYD), Melbourne (MEL), Brisbane (BNE), and Perth (PER) to Ho Chi Minh City (SGN) and Hanoi (HAN) on Vietnam Airlines, Jetstar, and VietJet Air. Connecting flights via Singapore (SIN) or Kuala Lumpur (KUL) do not require a transit visa if staying airside, but your Vietnam eVisa will be checked at your Australian departure gate.',
+    embassyInfo: [
+      {
+        name: 'Embassy of Vietnam in Canberra',
+        address: '6 Timbarra Crescent, O’Malley, ACT 2606, Australia',
+        phone: '+61 2 6286 6059',
+        email: 'vembassy@webone.com.au',
+        website: 'https://vnembassy-canberra.mofa.gov.vn/',
+      },
+      {
+        name: 'Consulate General of Vietnam in Sydney',
+        address:
+          'Suite 205, Level 2, Edgecliff Centre, 203-233 New South Head Rd, Edgecliff NSW 2027',
+        phone: '+61 2 9327 1912',
+        email: 'vnconsul@iinet.net.au',
+        website: 'https://vnconsulate-sydney.mofa.gov.vn/',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Do Australians need a visa for Phu Quoc Island?',
+        a: 'Direct international arrivals to Phu Quoc may qualify for a 30-day island exemption only if you do not travel to mainland Vietnam. If your itinerary includes Ho Chi Minh City, Hanoi, or Da Nang, you need a full Vietnam eVisa.',
+      },
+      {
+        q: 'How long can Australian citizens stay in Vietnam on an eVisa?',
+        a: 'Australian citizens can stay for up to 90 days on either a single-entry or multiple-entry Vietnam eVisa.',
+      },
+    ],
+  },
+  canada: {
+    demonym: 'Canadian citizens',
+    eligibilityIntro:
+      'Canadian citizens require a visa to visit Vietnam and are eligible for the 90-day Vietnam eVisa online (single or multiple entry). No in-person visit to the Vietnamese Embassy in Ottawa or Consulate in Vancouver is needed for standard tourist or short business travel.',
+    travelInsight:
+      'Because flights from Canada to Vietnam almost always transit through Taipei, Seoul, Tokyo, Hong Kong, or Europe, carry a printed copy of your approved eVisa—check-in agents in Toronto (YYZ) and Vancouver (YVR) will inspect it before issuing your boarding pass.',
+    customApplicationGuide:
+      'Canadian dual citizens must apply using the **exact passport** they will carry through Vietnamese immigration. If you hold both a Canadian and another passport, do not mix passport numbers or nationalities on the form.',
+    passportRegulations:
+      '**Canadian Passport Rules:** Your Canadian passport must remain valid for at least **6 months after your arrival date** in Vietnam and contain at least one blank page. Canadian temporary passports or refugee travel documents are generally not eligible for standard eVisa processing.',
+    customPaymentNotes:
+      'All charges are processed in USD ($25 single-entry or $50 multiple-entry Government & Admin Fee plus our service fee). Canadian Visa, Mastercard, and Amex credit cards are accepted; your card issuer converts the total to CAD.',
+    entryTransitGuide:
+      '**Flights & Transit from Canada:** Travelers typically depart Vancouver (YVR), Toronto (YYZ), or Montreal (YUL) with one stop via EVA Air (Taipei), Korean Air (Seoul), Air Canada/ANA (Tokyo), or Cathay Pacific (Hong Kong) into Hanoi (HAN) or Ho Chi Minh City (SGN). Confirm that your eVisa port of entry matches your first Vietnam landing airport.',
+    embassyInfo: [
+      {
+        name: 'Embassy of Vietnam in Ottawa',
+        address: '55 Mackay Street, Ottawa, ON K1M 2B2, Canada',
+        phone: '+1 613 236 0772',
+        email: 'vietem-ca@roger.com',
+        website: 'https://vnembassy-ottawa.mofa.gov.vn/',
+      },
+      {
+        name: 'Consulate General of Vietnam in Vancouver',
+        address: 'Suite 800, 605 Robson Street, Vancouver, BC V6B 5J3, Canada',
+        phone: '+1 604 629 0189',
+        email: 'consul.vancouver@mofa.gov.vn',
+        website: 'https://vnconsulate-vancouver.mofa.gov.vn/',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Do Canadian permanent residents (PR card holders) get visa-free entry?',
+        a: 'No. Visa eligibility depends on your passport nationality, not your Canadian PR status. Apply using your country of citizenship passport.',
+      },
+      {
+        q: 'Can Canadians apply for a 90-day multiple-entry Vietnam eVisa?',
+        a: 'Yes. Canadian passport holders can choose either a 90-day single-entry or 90-day multiple-entry eVisa online.',
+      },
+    ],
+  },
+  germany: {
+    demonym: 'German citizens',
+    eligibilityIntro:
+      'German passport holders enjoy a **45-day unilateral visa exemption** for tourism in Vietnam—meaning you do not need an eVisa if your total stay is 45 days or fewer. However, if you plan to stay **46 to 90 days**, need **multiple entries** with long stays, or travel for purposes outside the exemption, you should apply for a 90-day Vietnam eVisa online before departure.',
+    travelInsight:
+      'German travelers combining Vietnam with Laos or Cambodia for more than 45 days—or doing a long winter stay—should choose the **90-day Multiple Entry eVisa** rather than relying on the 45-day exemption.',
+    customApplicationGuide:
+      'If your trip is strictly 45 days or less for tourism, verify your passport has 6+ months validity and an onward/return ticket. If you are staying longer than 45 days, apply for the 90-day eVisa online before flying so you do not have to leave Vietnam mid-trip.',
+    passportRegulations:
+      '**German Passport Validity:** Whether entering under the 45-day visa exemption or with a 90-day eVisa, your German *Reisepass* must be valid for at least **6 months beyond your arrival date** and have at least one blank page. Temporary German passports (*Vorläufiger Reisepass*) are not recommended for eVisa entry.',
+    customPaymentNotes:
+      'Government & Admin Fee for a 90-day eVisa is $25 USD (single entry) or $50 USD (multiple entry) plus our service fee. German Visa, Mastercard, and Amex cards are accepted (ensure 3D-Secure is active).',
+    entryTransitGuide:
+      '**Flights from Germany:** Direct flights operate from Frankfurt (FRA) and Munich (MUC) to Hanoi (HAN) and Ho Chi Minh City (SGN) via Vietnam Airlines, alongside one-stop connections through Doha, Dubai, Istanbul, or Bangkok. If using an eVisa, your listed entry port must match your first arrival airport in Vietnam.',
+    embassyInfo: [
+      {
+        name: 'Embassy of Vietnam in Berlin',
+        address: 'Elsenstraße 3, 12435 Berlin, Germany',
+        phone: '+49 30 536 30108',
+        email: 'sqvnberlin@t-online.de',
+        website: 'https://vnembassy-berlin.mofa.gov.vn/',
+      },
+      {
+        name: 'Consulate General of Vietnam in Frankfurt',
+        address: 'Villa Bonn, Siesmayerstraße 10, 60323 Frankfurt am Main, Germany',
+        phone: '+49 69 7953 3650',
+        email: 'telsq.frankfurt@mofa.gov.vn',
+        website: 'https://vnconsulate-frankfurt.mofa.gov.vn/',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Do German citizens need a Vietnam visa for a 3-week holiday?',
+        a: 'No. Under Vietnam’s 45-day visa exemption for German citizens, stays up to 45 days do not require a visa, provided your passport is valid for at least 6 months.',
+      },
+      {
+        q: 'When should a German citizen apply for a Vietnam eVisa?',
+        a: 'Apply for a 90-day eVisa if your stay exceeds 45 days, if you need guaranteed multiple entries over a 90-day window, or if your travel purpose is not covered by the tourist exemption.',
+      },
+    ],
+  },
+  france: {
+    demonym: 'French citizens',
+    eligibilityIntro:
+      'French citizens qualify for Vietnam’s **45-day unilateral visa exemption** for stays of up to 45 days. If your itinerary lasts between **46 and 90 days** or requires flexible **multiple entries** over three months, apply online for a 90-day Vietnam eVisa before your flight.',
+    travelInsight:
+      'For French travelers planning an extended north-to-south journey or a regional loop through Angkor Wat and Luang Prabang, a 90-day Multiple Entry eVisa avoids any 45-day limit stress.',
+    customApplicationGuide:
+      'Double-check whether your trip stays within 45 calendar days (counting both arrival and departure days). If you expect to stay longer than 45 days, apply for the 90-day eVisa online before leaving France—extensions inside Vietnam are not guaranteed.',
+    passportRegulations:
+      '**French Passport Rules:** Your French *passeport* must be valid for at least **6 months from your entry date** into Vietnam and contain at least one blank page, both for the 45-day exemption and for the 90-day eVisa.',
+    customPaymentNotes:
+      'When applying for a 90-day eVisa, the Government & Admin Fee is $25 USD (single entry) or $50 USD (multiple entry) plus our disclosed service fee. French Carte Bancaire (co-badged Visa/Mastercard) and international credit cards are accepted.',
+    entryTransitGuide:
+      '**Flights from France:** Direct flights connect Paris Charles de Gaulle (CDG) to Hanoi (HAN) and Ho Chi Minh City (SGN) on Vietnam Airlines and Air France, with one-stop options via Doha, Dubai, or Singapore. Ensure your eVisa entry port matches your arrival airport.',
+    embassyInfo: [
+      {
+        name: 'Embassy of Vietnam in Paris',
+        address: '61 Rue de Miromesnil, 75008 Paris, France',
+        phone: '+33 1 44 14 64 00',
+        email: 'vnparis.info@gmail.com',
+        website: 'https://vnembassy-paris.mofa.gov.vn/',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Do French citizens need a visa for Vietnam for 30 days?',
+        a: 'No. French passport holders can enter Vietnam visa-free for up to 45 days with a passport valid for at least 6 months.',
+      },
+      {
+        q: 'How can French citizens stay in Vietnam for 60 or 90 days?',
+        a: 'Apply online for a 90-day Vietnam eVisa (single or multiple entry) before departure rather than relying on the 45-day exemption.',
+      },
+    ],
+  },
+  singapore: {
+    demonym: 'Singaporean citizens',
+    eligibilityIntro:
+      'Singaporean citizens benefit from the **ASEAN 30-day visa exemption** when visiting Vietnam for tourism or short stays of 30 days or less. If you plan to stay **31 to 90 days**—for extended leisure, remote stays, or repeated business trips—you should apply online for a 90-day Vietnam eVisa.',
+    travelInsight:
+      'Frequent flyers between Changi (SIN) and Ho Chi Minh City or Hanoi who stay longer than 30 days at a time should use a **90-day Multiple Entry eVisa** instead of repeatedly resetting the 30-day ASEAN exemption.',
+    customApplicationGuide:
+      'For weekend trips or stays up to 30 days, your Singapore passport (valid 6+ months) is sufficient at immigration. For stays over 30 days, apply for the 90-day eVisa online at least 5 business days before departure.',
+    passportRegulations:
+      '**Singapore Passport Validity:** Vietnam enforces a strict **6-month minimum passport validity** rule from your date of entry, even for ASEAN visa-exempt travelers. Ensure at least one blank page is available for entry/exit stamps.',
+    customPaymentNotes:
+      'For 90-day eVisa applications, the Government & Admin Fee is $25 USD (single entry) or $50 USD (multiple entry) plus our service fee. Singapore-issued Visa, Mastercard, and Amex cards are accepted.',
+    entryTransitGuide:
+      '**Flights from Singapore:** Frequent daily non-stop flights operate from Singapore Changi (SIN) to Ho Chi Minh City (SGN), Hanoi (HAN), Da Nang (DAD), and Phu Quoc (PQC) via Singapore Airlines, Scoot, Vietnam Airlines, and VietJet Air.',
+    embassyInfo: [
+      {
+        name: 'Embassy of Vietnam in Singapore',
+        address: '10 Leedon Park, Singapore 267887',
+        phone: '+65 6462 5938',
+        email: 'vnemb.sg@mofa.gov.vn',
+        website: 'https://vnembassy-singapore.mofa.gov.vn/',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Do Singaporeans need a visa for Vietnam?',
+        a: 'Not for stays of 30 days or less under the ASEAN visa exemption. For stays from 31 to 90 days, Singaporean citizens should obtain a 90-day Vietnam eVisa online before travel.',
+      },
+      {
+        q: 'Can Singapore PRs enter Vietnam visa-free?',
+        a: 'No. Visa exemption applies to Singapore passport holders, not foreign passport holders with Singapore Permanent Residency. Check eligibility based on your passport nationality.',
+      },
+    ],
   },
 };
 

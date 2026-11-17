@@ -24,6 +24,8 @@ import {
 import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 import RelatedResources from '@/components/ui/RelatedResources';
 import EmergencyCTA from '@/components/trust/EmergencyCTA';
+import AuthorBio from '@/components/trust/AuthorBio';
+import { EDITORIAL_TEAM_BIO } from '@/components/trust';
 import CountryEligibilityGate from '@/components/ui/CountryEligibilityGate';
 import { countries } from '@/data/countries';
 import { countryNameToSlug, resolveCountrySlug } from '@/lib/countrySlug';
@@ -849,6 +851,8 @@ export default async function CountryRequirementPage({ params }: PageProps) {
             </section>
 
             <RelatedResources className="mb-10" excludePaths={['/check-requirement']} />
+
+            <AuthorBio {...EDITORIAL_TEAM_BIO} className="mb-10" />
           </div>
 
           {/* Sidebar */}
@@ -883,6 +887,16 @@ export default async function CountryRequirementPage({ params }: PageProps) {
                 <p>
                   By using our professional service, you agree to pay the government visa fee plus
                   our service fee, which is clearly disclosed throughout the application process.
+                  For primary government regulations and direct self-filing, refer to the{' '}
+                  <a
+                    href="https://evisa.gov.vn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brand-primary font-semibold hover:underline"
+                  >
+                    Vietnam Immigration e-Visa Portal (evisa.gov.vn)
+                  </a>
+                  .
                 </p>
               </div>
             </div>
