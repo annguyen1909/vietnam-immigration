@@ -1,19 +1,33 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import howItWorksLottie from 'public/img/Animation - 1751187180561.json';
 
-const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
+const HowItWorksLottiePlayer = dynamic(
+  () =>
+    Promise.all([import('lottie-react'), import('public/img/Animation - 1751187180561.json')]).then(
+      ([lottieModule, animationModule]) => {
+        const Lottie = lottieModule.default;
+        const animationData = animationModule.default;
+
+        return function HowItWorksLottiePlayer() {
+          return (
+            <Lottie
+              animationData={animationData}
+              loop
+              autoplay
+              style={{ width: '100%', height: '100%' }}
+            />
+          );
+        };
+      }
+    ),
+  { ssr: false }
+);
 
 export default function HowItWorksLottie() {
   return (
-    <div className="w-full max-w-md">
-      <Lottie
-        animationData={howItWorksLottie}
-        loop
-        autoplay
-        style={{ width: '100%', height: '100%' }}
-      />
+    <div className="w-full max-w-md aspect-square">
+      <HowItWorksLottiePlayer />
     </div>
   );
 }

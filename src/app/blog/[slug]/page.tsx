@@ -8,7 +8,7 @@ import { extractMarkdownHeadings } from '@/lib/markdown-headings';
 import SiteFooter from '@/components/layout/SiteFooter';
 import { CalendarIcon, UserIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
 import { generateNewsStaticParams, getAllNewsPosts, getNewsPostBySlug } from '@/lib/mdx';
-import { BLOG_AUTHOR_NAME } from '@/components/seo/constants';
+import { BLOG_AUTHOR_NAME, TRUST_ENTITY } from '@/components/seo/constants';
 import {
   absoluteAssetUrl,
   blogPath,
@@ -105,16 +105,23 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     datePublished: postDate,
     dateModified: postModified,
     inLanguage: 'en-US',
-    author: {
-      '@id': `${siteUrl}/#organization`,
-      '@type': 'Organization',
-      name: authorName,
-      url: siteUrl,
-    },
+    author:
+      authorName === BLOG_AUTHOR_NAME || authorName === TRUST_ENTITY.name
+        ? {
+            '@id': `${siteUrl}/#organization`,
+            '@type': 'Organization',
+            name: TRUST_ENTITY.name,
+            url: siteUrl,
+          }
+        : {
+            '@type': 'Organization',
+            name: authorName,
+            url: siteUrl,
+          },
     publisher: {
       '@id': `${siteUrl}/#organization`,
       '@type': 'Organization',
-      name: BLOG_AUTHOR_NAME,
+      name: TRUST_ENTITY.name,
       url: siteUrl,
       logo: {
         '@type': 'ImageObject',
