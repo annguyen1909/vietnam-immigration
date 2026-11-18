@@ -76,15 +76,15 @@ export default function HomeNews() {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="group flex gap-4 rounded-xl bg-white p-4 ring-1 ring-brand-border transition hover:ring-brand-primary/40 sm:flex-row"
+                  className="group flex flex-col gap-3 rounded-xl bg-white p-4 ring-1 ring-brand-border transition hover:ring-brand-primary/40 sm:flex-row sm:gap-4"
                 >
-                  <div className="relative h-20 w-full shrink-0 overflow-hidden rounded-lg bg-brand-surface-alt sm:h-20 sm:w-24">
+                  <div className="relative h-32 w-full shrink-0 overflow-hidden rounded-lg bg-brand-surface-alt sm:h-20 sm:w-24">
                     <Image
                       src={post.image || '/img/vietnam-hero.jpg'}
                       alt={post.title}
                       fill
                       className="object-cover"
-                      sizes="120px"
+                      sizes="(min-width: 640px) 96px, 100vw"
                     />
                   </div>
                   <div className="min-w-0 flex-1">
