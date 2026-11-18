@@ -1,4 +1,4 @@
-import { prisma } from '@/lib/prisma';
+import { getCachedVisaTypes } from '@/lib/catalogCache';
 import { VIETNAM_PROCESSING_TIME } from '@/lib/vietnamPricing';
 import type { VisaType } from '@/types/visa';
 
@@ -98,19 +98,8 @@ export function toVietnamVisaTypeView(row: VisaType): VietnamVisaTypeView {
 export async function getVisaTypesByDestination(
   destinationId: string = VIETNAM_DESTINATION_ID
 ): Promise<VietnamVisaTypeView[]> {
-  const rows = await prisma.visaType.findMany({
-    where: { destinationId },
-    select: {
-      id: true,
-      name: true,
-      fees: true,
-      waitTime: true,
-      requiredDocuments: true,
-      allowedNationalities: true,
-      destinationId: true,
-    },
-    orderBy: { fees: 'asc' },
-  });
+  // Cached: page views and crawlers must not wake the shared database.
+  const rows = (await getCachedVisaTypes(destinationId)) as VisaType[];
 
   return rows.map(toVietnamVisaTypeView);
 }
