@@ -54,7 +54,7 @@ export const getCachedAddOns = unstable_cache(
   options
 );
 
-/** Lets Vercel's CDN answer repeat requests without invoking the function at all. */
+// Keep the response uncached so every read honors the tagged Data Cache invalidation.
 export const CATALOG_CACHE_HEADERS = {
-  'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=300',
+  'Cache-Control': 'no-store',
 };
