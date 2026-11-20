@@ -22,6 +22,37 @@ import ChargebackDetectedView from './components/ChargebackDetectedView';
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
+const STEP_ONE_DRAFT_KEY = 'vietnam_apply_step1_draft';
+
+function stepOneDraft(data: ApplicationData) {
+  const {
+    visaTypeId,
+    passengerCount,
+    urgency,
+    stayingStart,
+    stayingEnd,
+    portName,
+    fullName,
+    email,
+    areaCode,
+    phoneNumber,
+    gender,
+  } = data;
+  return {
+    visaTypeId,
+    passengerCount,
+    urgency,
+    stayingStart,
+    stayingEnd,
+    portName,
+    fullName,
+    email,
+    areaCode,
+    phoneNumber,
+    gender,
+  };
+}
+
 export default function ApplyPage() {
   const [currentStep, setCurrentStep] = useState(1);
   const [applicationData, setApplicationData] = useState<ApplicationData>({
@@ -57,6 +88,29 @@ export default function ApplyPage() {
   const isPaymentSuccess =
     applicationData.paymentStatus === 'Payment Completed' ||
     applicationData.status === 'Collecting Documents';
+
+  useEffect(() => {
+    if (new URLSearchParams(window.location.search).has('applicationId')) return;
+    try {
+      const raw = sessionStorage.getItem(STEP_ONE_DRAFT_KEY);
+      if (!raw) return;
+      const saved = JSON.parse(raw) as { query: string; draft: ApplicationData };
+      if (saved?.query === window.location.search && saved.draft) {
+        setApplicationData((prev) => ({ ...prev, ...stepOneDraft(saved.draft) }));
+      }
+    } catch {
+      // A missing or unreadable draft does not block the form.
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!isPaymentSuccess) return;
+    try {
+      sessionStorage.removeItem(STEP_ONE_DRAFT_KEY);
+    } catch {
+      // Storage may be unavailable in private mode.
+    }
+  }, [isPaymentSuccess]);
 
   const handlePaymentSuccess = useCallback(
     async (billingDetails?: Record<string, unknown>, applicationId?: string) => {
@@ -453,7 +507,11 @@ export default function ApplyPage() {
 
     const completeData = step1Data as ApplicationData;
 
-    handleDataChange(completeData);
+    handleDataChange({
+      ...completeData,
+      areaCode: applicationData.areaCode,
+      phoneNumber: applicationData.phoneNumber,
+    });
 
     try {
       const response = await fetch('/api/applications', {
@@ -474,6 +532,15 @@ export default function ApplyPage() {
         status: result.status,
         passengerIds: result.passengerIds,
       });
+
+      try {
+        sessionStorage.setItem(
+          STEP_ONE_DRAFT_KEY,
+          JSON.stringify({ query: window.location.search, draft: stepOneDraft(applicationData) })
+        );
+      } catch {
+        // The application still continues when storage is unavailable.
+      }
 
       setCurrentStep(2);
     } catch (err) {
