@@ -7,9 +7,11 @@ import { prisma } from '@/lib/prisma';
  * waking the shared Neon database; at most one query per key per TTL reaches Postgres.
  * Checkout still reads prices directly from the database, so charges are always current.
  */
-// BudPal calls /api/revalidate-catalog on every catalogue edit, so the cache can live a day.
-// Without the shared secret that refresh is impossible, so stay at one hour.
-const CATALOG_TTL_SECONDS = process.env.CATALOG_REVALIDATE_SECRET ? 24 * 3600 : 3600;
+// Opt in to 24 hours only after the production refresh pipeline is verified.
+export const CATALOG_TTL_SECONDS =
+  process.env.CATALOG_REVALIDATE_SECRET && process.env.CATALOG_CACHE_TTL_HOURS === '24'
+    ? 24 * 3600
+    : 3600;
 export const CATALOG_TAG = 'catalog';
 const options = { revalidate: CATALOG_TTL_SECONDS, tags: [CATALOG_TAG] };
 

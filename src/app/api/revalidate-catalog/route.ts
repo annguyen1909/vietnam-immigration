@@ -1,7 +1,7 @@
 import { createHash, timingSafeEqual } from 'crypto';
 import { revalidateTag } from 'next/cache';
 import { NextRequest, NextResponse } from 'next/server';
-import { CATALOG_TAG } from '@/lib/catalogCache';
+import { CATALOG_TAG, CATALOG_TTL_SECONDS } from '@/lib/catalogCache';
 
 export const dynamic = 'force-dynamic';
 
@@ -15,5 +15,5 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
   revalidateTag(CATALOG_TAG);
-  return NextResponse.json({ revalidated: true });
+  return NextResponse.json({ revalidated: true, ttlSeconds: CATALOG_TTL_SECONDS });
 }
