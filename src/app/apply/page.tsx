@@ -1,13 +1,11 @@
 'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { loadStripe, StripeElementsOptions } from '@stripe/stripe-js';
-import { Elements } from '@stripe/react-stripe-js';
+import dynamic from 'next/dynamic';
 import SiteFooter from '@/components/layout/SiteFooter';
 import TrustBadges from '@/components/trust/TrustBadges';
 import Step1ContactVisa from './components/Step1ContactVisa';
 import Step2Passengers from './components/Step2Passengers';
-import Step3Payment from './components/Step3Payment';
 import Step4Documents from './components/Step4Documents';
 import ApplicationProgress from './components/ApplicationProgress';
 import LivePriceBox from './components/LivePriceBox';
@@ -20,7 +18,18 @@ import ProcessingView from './components/ProcessingView';
 import VisaResultSentView from './components/VisaResultSentView';
 import ChargebackDetectedView from './components/ChargebackDetectedView';
 
-const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
+const Step3PaymentWithElements = dynamic(() => import('./components/Step3PaymentWithElements'), {
+  ssr: false,
+  loading: () => (
+    <div className="flex justify-center items-center h-64">
+      <p className="text-lg font-semibold text-gray-700">Loading secure payment form...</p>
+    </div>
+  ),
+});
+
+const Step3PaymentCompleted = dynamic(() => import('./components/Step3Payment'), {
+  ssr: false,
+});
 
 const STEP_ONE_DRAFT_KEY = 'vietnam_apply_step1_draft';
 
@@ -635,29 +644,24 @@ export default function ApplyPage() {
           );
         }
 
-        // Only render Stripe Elements if we have a valid clientSecret
+        // Stripe.js loads only after this step mounts with a client secret.
         if (clientSecret) {
-          const options: StripeElementsOptions = {
-            clientSecret,
-            appearance: { theme: 'stripe' },
-          };
           return (
-            <Elements options={options} stripe={stripePromise}>
-              <Step3Payment
-                applicationId={applicationData.applicationId!}
-                onPaymentSuccess={handlePaymentSuccess}
-                onContinue={handleContinueToDocuments}
-                paymentStatus={applicationData.paymentStatus}
-                applicationStatus={applicationData.status}
-                applicationData={applicationData}
-              />
-            </Elements>
+            <Step3PaymentWithElements
+              clientSecret={clientSecret}
+              applicationId={applicationData.applicationId!}
+              onPaymentSuccess={handlePaymentSuccess}
+              onContinue={handleContinueToDocuments}
+              paymentStatus={applicationData.paymentStatus}
+              applicationStatus={applicationData.status}
+              applicationData={applicationData}
+            />
           );
         }
 
-        // Render payment component without Stripe Elements (for completed payments)
+        // Completed payments render the receipt without initializing Stripe.js.
         return (
-          <Step3Payment
+          <Step3PaymentCompleted
             applicationId={applicationData.applicationId!}
             onPaymentSuccess={handlePaymentSuccess}
             onContinue={handleContinueToDocuments}
